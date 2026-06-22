@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "偵測到 $1$",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "未偵測到作業頁面",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ 申請追蹤 · $2$ 面試",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "開始申請以追蹤您的進度",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "解析於 $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "從「$1$」載入個人資料詳細資料？這將用此簡歷的解析結構替換您當前的編輯。",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "從 $1$ 恢復詳細信息",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "比賽成績",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ 適合",
-    "description": "Fit percent text"
+    "message": "$1$% 適合",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ 更多",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "申請表自動填寫並記錄！ ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ 條目",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ 技能",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ 項目",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ 答案",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "授權",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ 應用程式",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "按公司篩選...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ 申請總數",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "還沒有數據",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "上下文：$1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "您的職業副駕駛",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "以下是 $1$ 可能出現的面試問題：",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "恢復優化得分：$1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "恢復匹配建議",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "你好！我可以看到您正在尋找 **$2$** 的 **$1$** 職位。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "你好！我可以看到您正在尋找 **$1$** 角色。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "你好！我是你的人工智慧職業副駕駛。導航到職位列表，我會自動分析它，或問我任何問題！",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "以 $1$ 登入",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "退出",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "您的履歷與此職位 **$1$% 相容**。",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "歡迎回來，$1$！",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "無法取得 Google 使用者個人資料資訊。",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth 登入失敗：$1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "無法從重定向取得存取令牌。",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "許可證密鑰：$1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "停用許可證",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome 擴充功能指令需要在 Chrome 的捷徑管理員中手動指派。轉到 $1$ 綁定上面列出的鍵。",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome 擴充功能 — 隱私權政策**\n最後更新：2026 年 6 月\n\n---\n\n**1。簡介**\n\nApplyFlow（「我們」、「我們的」、「擴充功能」）是一款 Chrome 瀏覽器擴充功能，可協助使用者自動填寫工作申請表、追蹤其申請並管理其職業檔案。本隱私權政策解釋了我們如何收集、使用、儲存和保護您的資訊。 \n\n安裝和使用ApplyFlow，即表示您同意本政策中所述的做法。 \n\n----\n\n**2。我們收集的資料**\n\n我們僅收集您自願提供的資訊以啟用擴充程式的功能：\n\n• **個人資料資訊**：您的姓名、電子郵件、電話號碼、學院、學位、技能、工作經驗、專案和專業連結（LinkedIn、GitHub、Portfolio）。 \n• **EEO/人口統計資訊（可選）**：性別、殘疾狀況、退伍軍人狀態和工作授權首選項 - 僅當您選擇填寫這些欄位時才提供。此數據專門用於自動填寫職位申請中的可選 EEO 調查問卷。 \n• **申請追蹤資料**：職位名稱、公司、申請 URL、狀態以及您使用擴展程序追蹤的職位的說明。 \n• **使用統計資料**：執行的自動填入操作數量（儲存在本機以強制執行每日限制）。 \n• **身份驗證資料**：如果您選擇使用 Google 登錄，我們會將您的 Google 顯示名稱、電子郵件地址和個人資料圖片 URL 儲存到個人化您的體驗並啟用雲端同步。 \n\n我們**不**收集：\n• 付款或財務資訊\n• 瀏覽器歷史記錄或一般瀏覽活動\n• 與職位申請無關的頁面中的任何資訊\n•未主動觸發擴充功能時頁面中的任何資料\n\n----\n\n**3.我們如何儲存您的資料**\n\n**3.1 本機儲存（預設）**\n所有資料主要儲存在您瀏覽器的 chromeage.storage。這些資料僅駐留在您的裝置上，未經您的明確操作，絕不會傳輸到任何伺服器。 \n\n**3.2 雲端同步（可選）**\n如果您選擇使用 Google 登入並啟用「Supabase 同步」功能，您的個人資料和應用程式資料也會同步到 Supabase 資料庫。您保留該資料的完全所有權。您可以隨時從帳戶和同步部分將其刪除。 \n\n**3.3 Gemini AI 請求**\n當使用 AI 功能（例如論文生成、工作分析）時，您的個人資料的一部分（技能、學位、摘要）和工作描述文字將發送到 Google 的 Gemini API 以產生回應。這是根據 Google 的標準 API 服務條款和隱私權政策進行處理的。我們建議不要在您的人工智慧輔助內容中包含敏感的個人識別碼。 \n\n----\n\n**4.資料共享**\n\n我們**不會**出於行銷或廣告目的向任何第三方出售、交易、出租或分享您的個人資訊。 \n\n您的資料可能會由以下可信任服務處理：\n• **Google Gemini API**：用於人工智慧驅動的表單填寫與分析 (https://policies.google.com/privacy)\n• **Google OAuth**：用於帳戶驗證(https://polipricies.google.com/• (https://supabase.com/privacy) — 只有當您啟用sync\n\n---\n\n**5。您的權利與控制**\n\n您有權：\n• **存取**ApplyFlow 儲存的所有關於您的資料（透過設定中的匯出備份）\n• **隨時在「個人資料」標籤中修正**62\n• **透過在帳戶和同步設定中將其關閉來停用雲端同步**\n\n**GDPR（歐盟用戶）**：如果您是歐盟居民，您有權根據《一般資料保護規範》存取、修正、刪除、限制處理和資料可攜性。 \n\n**印度 — 2023 年 DPDP 法案**：符合印度的數位個人資料根據 2023 年保護法，我們僅出於提供工作申請協助服務的目的處理個人資料。您可以隨時聯絡我們撤回同意並要求刪除您的資料。 \n\n**加州 — CCPA**：加州居民有權了解收集了哪些個人資訊、有權刪除以及選擇不出售資料（我們不出售資料）。 \n\n----\n\n**6。資料保留**\n\n本地資料將保留，直到您手動清除。雲端同步資料將保留，直到您刪除帳戶或要求刪除為止。我們不會自動刪除資料。 \n\n----\n\n**7。安全性**\n\n我們採取合理的技術措施來保護您的資料：\n• 所有雲端通訊均使用 HTTPS/TLS 加密\n• Supabase 行級安全性 (RLS) 確保使用者只能存取自己的資料\n•擴充程式不會請求超出其核心功能所需的權限\n\n----\n\n**8。兒童隱私**\n\nApplyFlow 不適合 13 歲以下的使用者。我們不會故意收集兒童的資料。如果您認為兒童向我們提供了個人訊息，請立即聯繫我們。 \n\n----\n\n**9。本政策的變更**\n\n我們可能會不時更新本隱私權政策。重大變更將透過擴充功能的選項頁面傳達。更改後繼續使用擴充功能即表示接受更新的政策。 \n\n----\n\n**10.聯絡我們**\n\n對於任何與隱私相關的問題、資料刪除請求或疑慮：\n\n電子郵件：privacy@ applyflow.in\nGitHub：https://github.com/applyflow/extension\n網站：https://applyflow.in\n\n我們的目標是在30 天內回覆所有請求天。",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "检测到 $1$",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "未检测到作业页面",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ 申请跟踪 · $2$ 面试",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "开始申请以跟踪您的进度",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "解析于 $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "从“$1$”加载个人资料详细信息？这将用此简历的解析结构替换您当前的编辑。",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "从 $1$ 恢复详细信息",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "比赛成绩",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ 适合",
-    "description": "Fit percent text"
+    "message": "$1$% 适合",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ 更多",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "申请表自动填写并记录！ ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ 条目",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ 技能",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ 项目",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ 答案",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "授权",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ 应用程序",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "按公司筛选...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ 申请总数",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "还没有数据",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "上下文：$1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "您的职业副驾驶",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "以下是 $1$ 可能出现的面试问题：",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "恢复优化得分：$1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "恢复匹配建议",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "你好！我可以看到您正在寻找 **$2$** 的 **$1$** 职位。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "你好！我可以看到您正在寻找 **$1$** 角色。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "你好！我是你的人工智能职业副驾驶。导航到职位列表，我会自动分析它，或者问我任何问题！",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "以 $1$ 身份登录",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "退出",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "您的简历与此职位 **$1$% 兼容**。",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "欢迎回来，$1$！",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "无法获取 Google 用户个人资料信息。",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth 登录失败：$1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "无法从重定向获取访问令牌。",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "许可证密钥：$1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "停用许可证",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome 扩展程序命令需要在 Chrome 的快捷方式管理器中手动分配。转到 $1$ 绑定上面列出的键。",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome 扩展程序 — 隐私政策**\n最后更新：2026 年 6 月\n\n---\n\n**1。简介**\n\nApplyFlow（“我们”、“我们的”、“扩展程序”）是一款 Chrome 浏览器扩展程序，可帮助用户自动填写工作申请表、跟踪其申请并管理其职业档案。本隐私政策解释了我们如何收集、使用、存储和保护您的信息。\n\n安装和使用ApplyFlow，即表示您同意本政策中描述的做法。\n\n----\n\n**2。我们收集的数据**\n\n我们仅收集您自愿提供的信息以启用扩展程序的功能：\n\n• **个人资料信息**：您的姓名、电子邮件、电话号码、学院、学位、技能、工作经历、项目和专业链接（LinkedIn、GitHub、Portfolio）。\n• **EEO/人口统计信息（可选）**：性别、残疾状况、退伍军人状态和工作授权首选项 - 仅当您选择填写这些字段时才提供。此数据专门用于自动填写职位申请中的可选 EEO 调查问卷。\n• **申请跟踪数据**：职位名称、公司、申请 URL、状态以及您使用扩展程序跟踪的职位的说明。\n• **使用统计数据**：执行的自动填充操作数量（存储在本地以强制执行每日限制）。\n• **身份验证数据**：如果您选择使用 Google 登录，我们会将您的 Google 显示名称、电子邮件地址和个人资料图片 URL 存储到个性化您的体验并启用云同步。\n\n我们**不**收集：\n• 付款或财务信息\n• 浏览器历史记录或一般浏览活动\n• 与职位申请无关的页面中的任何信息\n• 未主动触发扩展程序时页面中的任何数据\n\n----\n\n**3.我们如何存储您的数据**\n\n**3.1 本地存储（默认）**\n所有数据主要存储在您浏览器的 chrome.storage.local API 中。这些数据仅驻留在您的设备上，未经您的明确操作，绝不会传输到任何服务器。\n\n**3.2 云同步（可选）**\n如果您选择使用 Google 登录并启用“Supabase 同步”功能，您的个人资料和应用程序数据也将同步到 Supabase 数据库。您保留该数据的完全所有权。您可以随时从帐户和同步部分将其删除。\n\n**3.3 Gemini AI 请求**\n当使用 AI 功能（例如论文生成、工作分析）时，您的个人资料的一部分（技能、学位、摘要）和工作描述文本将发送到 Google 的 Gemini API 以生成响应。这是根据 Google 的标准 API 服务条款和隐私政策进行处理的。我们建议不要在您的人工智能辅助内容中包含敏感的个人标识符。\n\n----\n\n**4.数据共享**\n\n我们**不会**出于营销或广告目的向任何第三方出售、交易、出租或共享您的个人信息。\n\n您的数据可能会由以下可信服务处理：\n• **Google Gemini API**：用于人工智能驱动的表单填写和分析 (https://policies.google.com/privacy)\n• **Google OAuth**：用于帐户身份验证(https://policies.google.com/privacy)\n• **Supabase**：用于可选云存储 (https://supabase.com/privacy) — 仅当您启用sync\n\n---\n\n**5。您的权利和控制**\n\n您有权：\n• **访问**ApplyFlow 存储的有关您的所有数据（通过设置中的导出备份）\n• **随时在“个人资料”选项卡中更正**您的信息\n• **使用设置中的“清除所有个人资料数据”本地删除**您的所有数据\n• **通过卸载扩展\n• **通过在帐户和同步设置中将其关闭来禁用云同步**\n\n**GDPR（欧盟用户）**：如果您是欧盟居民，您有权根据《通用数据保护条例》访问、纠正、删除、限制处理和数据可移植性。\n\n**印度 — 2023 年 DPDP 法案**：符合印度的数字个人数据根据 2023 年保护法，我们仅出于提供工作申请协助服务的目的处理个人数据。您可以随时联系我们撤回同意并请求删除您的数据。\n\n**加利福尼亚州 — CCPA**：加利福尼亚州居民有权了解收集了哪些个人信息、有权删除以及选择不出售数据（我们不出售数据）。\n\n----\n\n**6。数据保留**\n\n本地数据将保留，直到您手动清除。云同步数据将保留，直到您删除帐户或请求删除为止。我们不会自动删除数据。\n\n----\n\n**7。安全性**\n\n我们采取合理的技术措施来保护您的数据：\n• 所有云通信均使用 HTTPS/TLS 加密\n• Supabase 行级安全性 (RLS) 确保用户只能访问自己的数据\n• 扩展程序不会请求超出其核心功能所需的权限\n\n----\n\n**8。儿童隐私**\n\nApplyFlow 不适合 13 岁以下的用户。我们不会故意收集儿童的数据。如果您认为儿童向我们提供了个人信息，请立即联系我们。\n\n----\n\n**9。本政策的变更**\n\n我们可能会不时更新本隐私政策。重大更改将通过扩展程序的选项页面传达。更改后继续使用扩展即表示接受更新的政策。\n\n----\n\n**10.联系我们**\n\n对于任何与隐私相关的问题、数据删除请求或疑虑：\n\n电子邮件：privacy@applyflow.in\nGitHub：https://github.com/applyflow/extension\n网站：https://applyflow.in\n\n我们的目标是在 30 天内回复所有请求天。",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

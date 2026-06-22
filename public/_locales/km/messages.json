@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ បានរកឃើញ",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "រកមិនឃើញទំព័រការងារទេ។",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "កម្មវិធី $1$ បានតាមដាន · $2$ សំភាសន៍",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "ចាប់ផ្តើមអនុវត្តដើម្បីតាមដានវឌ្ឍនភាពរបស់អ្នក។",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "ញែកនៅលើ $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "ផ្ទុកព័ត៌មានលំអិតពី \"$1$\"? វានឹងជំនួសការកែសម្រួលបច្ចុប្បន្នរបស់អ្នកជាមួយនឹងរចនាសម្ព័ន្ធដែលបានញែកប្រវត្តិរូបសង្ខេបនេះ។",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "បានស្ដារព័ត៌មានលម្អិតពី $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "ពិន្ទុការប្រកួត",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ សម",
-    "description": "Fit percent text"
+    "message": "$1$% សម",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ ច្រើនទៀត",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "កម្មវិធីត្រូវបានបំពេញដោយស្វ័យប្រវត្តិ និងបានចូល! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ធាតុ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ ជំនាញ",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ គម្រោង",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ ចម្លើយ",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "អនុញ្ញាត",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ កម្មវិធី",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "ត្រងតាមក្រុមហ៊ុន...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ កម្មវិធីសរុប",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "មិនមានទិន្នន័យនៅឡើយទេ",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "បរិបទ៖ $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "អ្នកបើកយន្តហោះអាជីពរបស់អ្នក។",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "នេះគឺជា $1$ សំណួរសម្ភាសន៍ទំនង៖",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "បន្តពិន្ទុបង្កើនប្រសិទ្ធភាព៖ $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "បន្តការណែនាំអំពីការប្រកួត",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "សួស្តី! ខ្ញុំអាចមើលឃើញថាអ្នកកំពុងមើលតួនាទី **$1$** នៅ **$2$**។",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "សួស្តី! ខ្ញុំអាចមើលឃើញថាអ្នកកំពុងមើលតួនាទី **$1$** ។",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "សួស្តី! ខ្ញុំជាអ្នកបើកយន្តហោះអាជីព AI របស់អ្នក។ រុករកទៅបញ្ជីការងារ ហើយខ្ញុំនឹងវិភាគដោយស្វ័យប្រវត្តិ ឬសួរខ្ញុំអ្វីក៏បាន!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "ចូលជា $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "ចេញ",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "ប្រវត្តិរូបសង្ខេបរបស់អ្នកគឺ **$1$% ឆបគ្នា** ជាមួយនឹងតួនាទីនេះ។",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ស្វាគមន៍ការត្រឡប់មកវិញ $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "បរាជ័យក្នុងការទាញយកព័ត៌មានប្រវត្តិរូបអ្នកប្រើប្រាស់ Google ។",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "ការចូល OAuth បានបរាជ័យ៖ $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "មិន​អាច​ទៅ​យក​សញ្ញា​សម្ងាត់​ចូល​ពី​ការ​បញ្ជូន​បន្ត។",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "លេខកូដអាជ្ញាប័ណ្ណ៖ $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "អសកម្មអាជ្ញាប័ណ្ណ",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "ពាក្យបញ្ជាផ្នែកបន្ថែមរបស់ Chrome តម្រូវឱ្យមានការចាត់តាំងដោយដៃនៅក្នុងកម្មវិធីគ្រប់គ្រងផ្លូវកាត់របស់ Chrome ។ ចូលទៅកាន់ $1$ ដើម្បីចងសោដែលបានរាយខាងលើ។",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — គោលការណ៍ឯកជនភាព**\nបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ៖ ខែមិថុនា ឆ្នាំ 2026\n\n---\n\n**1. សេចក្តីផ្តើម**\n\nApplyFlow (\"យើង\", \"របស់យើង\", \"ផ្នែកបន្ថែម\") គឺជាផ្នែកបន្ថែមកម្មវិធីរុករកតាមអ៊ីនធឺណិត Chrome ដែលជួយអ្នកប្រើប្រាស់បំពេញទម្រង់ពាក្យសុំការងារដោយស្វ័យប្រវត្តិ តាមដានកម្មវិធីរបស់ពួកគេ និងគ្រប់គ្រងទម្រង់វិជ្ជាជីវៈរបស់ពួកគេ។ គោលការណ៍ឯកជនភាពនេះពន្យល់ពីរបៀបដែលយើងប្រមូល ប្រើប្រាស់ រក្សាទុក និងការពារព័ត៌មានរបស់អ្នក។\n\nដោយការដំឡើង និងប្រើប្រាស់ ApplyFlow អ្នកយល់ព្រមចំពោះការអនុវត្តដែលបានពិពណ៌នានៅក្នុងគោលការណ៍នេះ។\n\n---\n\n**2។ ទិន្នន័យដែលយើងប្រមូលបាន**\n\nយើងប្រមូលតែព័ត៌មានដែលអ្នកផ្តល់ដោយស្ម័គ្រចិត្ត ដើម្បីបើកដំណើរការលក្ខណៈពិសេសរបស់ផ្នែកបន្ថែម៖\n\n• **ព័ត៌មានប្រវត្តិរូប**៖ ឈ្មោះរបស់អ្នក អ៊ីមែល លេខទូរស័ព្ទ មហាវិទ្យាល័យ សញ្ញាបត្រ ជំនាញ ប្រវត្តិការងារ គម្រោង និងតំណភ្ជាប់ដែលមានជំនាញវិជ្ជាជីវៈ (LinkedIn, GitoHub) ___•__•__•__•__•__•__•__•__•__•___•__•__•___•___•__•___•___•__•___•___•___•___•___•___•___•___•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•_•__••_••••••••••••••••••••* ** EEO/ព័ត៌មានប្រជាសាស្ត្រ (ជាជម្រើស)**៖ ភេទ ស្ថានភាពពិការភាព ស្ថានភាពអតីតយុទ្ធជន និងចំណូលចិត្តការអនុញ្ញាតការងារ — ផ្តល់ជូនតែក្នុងករណីដែលអ្នកជ្រើសរើសបំពេញវាលទាំងនេះប៉ុណ្ណោះ។ ទិន្នន័យនេះត្រូវបានប្រើទាំងស្រុងដើម្បីបំពេញកម្រងសំណួរ EEO ស្រេចចិត្តលើកម្មវិធីការងារ។\n• ** ទិន្នន័យតាមដានកម្មវិធី**៖ ចំណងជើងការងារ ក្រុមហ៊ុន URL កម្មវិធី ស្ថានភាព និងកំណត់ចំណាំសម្រាប់មុខតំណែងដែលអ្នកតាមដានដោយប្រើផ្នែកបន្ថែម។\n• ** ស្ថិតិប្រើប្រាស់ **៖ ចំនួននៃការបំពេញដោយស្វ័យប្រវត្តិប្រតិបត្តិការប្រចាំថ្ងៃដែលត្រូវអនុវត្ត limits).\n• **ទិន្នន័យការផ្ទៀងផ្ទាត់**៖ ប្រសិនបើអ្នកជ្រើសរើសចូលដោយប្រើ Google យើងរក្សាទុកឈ្មោះបង្ហាញ Google របស់អ្នក អាសយដ្ឋានអ៊ីមែល និង URL រូបភាពកម្រងព័ត៌មាន ដើម្បីធ្វើការកំណត់បទពិសោធន៍ផ្ទាល់ខ្លួនរបស់អ្នក និងបើកការធ្វើសមកាលកម្មលើពពក។\n\nយើងមិន **** ប្រមូល៖\n•• ការបង់ប្រាក់ ឬព័ត៌មានប្រវត្តិកម្មវិធីរុករកតាមអ៊ីនធឺណិត 4__B សកម្មភាព\n• ព័ត៌មានណាមួយពីទំព័រដែលមិនទាក់ទងនឹងកម្មវិធីការងារ\n• ទិន្នន័យណាមួយពីទំព័រនៅពេលដែលកម្មវិធីបន្ថែមមិនត្រូវបានកេះយ៉ាងសកម្ម\n\n--\n\n**3។ របៀបដែលយើងរក្សាទុកទិន្នន័យរបស់អ្នក**\n\n**3.1 Local Storage (លំនាំដើម)**\nទិន្នន័យទាំងអស់ត្រូវបានរក្សាទុកជាចម្បងនៅក្នុង chrome.storage.local API របស់កម្មវិធីរុករកតាមអ៊ីនធឺណិតរបស់អ្នក។ ទិន្នន័យនេះមានតែនៅលើឧបករណ៍របស់អ្នកប៉ុណ្ណោះ ហើយមិនត្រូវបានបញ្ជូនទៅកាន់ម៉ាស៊ីនមេណាមួយដោយគ្មានសកម្មភាពច្បាស់លាស់របស់អ្នក។\n\n**3.2 Cloud Sync (ស្រេចចិត្ត)**\n_ប្រសិនបើអ្នកជ្រើសរើសចូលជាមួយ Google និងបើកមុខងារ \"Supabase Sync\" នោះ ប្រវត្តិរូប និងទិន្នន័យកម្មវិធីរបស់អ្នកនឹងធ្វើសមកាលកម្មមូលដ្ឋានទិន្នន័យផងដែរ។ អ្នករក្សាភាពជាម្ចាស់ពេញលេញនៃទិន្នន័យនេះ។ អ្នកអាចលុបវាបានគ្រប់ពេលពីផ្នែកគណនី និងសមកាលកម្ម។\n\n**3.3 Gemini AI Requests**\nនៅពេលដែលមុខងារ AI ត្រូវបានប្រើ (ឧ. ការបង្កើតអត្ថបទ ការវិភាគការងារ) ផ្នែកនៃកម្រងព័ត៌មានរបស់អ្នក (ជំនាញ សញ្ញាបត្រ សង្ខេប) និងអត្ថបទពិពណ៌នាការងាររបស់ Gemini ត្រូវបានផ្ញើទៅកាន់ API របស់ Gemini ។ នេះត្រូវបានដំណើរការក្រោមលក្ខខណ្ឌប្រើប្រាស់ API ស្តង់ដាររបស់ Google និងគោលការណ៍ឯកជនភាព។ យើងសូមណែនាំមិនរាប់បញ្ចូលលេខសម្គាល់ផ្ទាល់ខ្លួនដ៏រសើបនៅក្នុងខ្លឹមសារជំនួយ AI របស់អ្នក។\n\n---\n\n**4។ ការចែករំលែកទិន្នន័យ**\n\nយើងមិន **មិន**លក់ ជួញដូរ ជួល ឬចែករំលែកព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកជាមួយភាគីទីបីណាមួយសម្រាប់គោលបំណងទីផ្សារ ឬការផ្សាយពាណិជ្ជកម្ម។\n\nទិន្នន័យរបស់អ្នកអាចត្រូវបានដំណើរការដោយសេវាកម្មដែលអាចទុកចិត្តបានដូចខាងក្រោម៖ \n_• **ការវិភាគទម្រង់ Google Gemini API-powered**៖ (https://policies.google.com/privacy)\n• **Google OAuth**៖ សម្រាប់ការផ្ទៀងផ្ទាត់គណនី (https://policies.google.com/privacy)\n• **Supabase**៖ សម្រាប់កន្លែងផ្ទុកពពកស្រេចចិត្ត (https://supabase.com/privacy) — លុះត្រាតែអ្នកបើកដំណើរការ sync\n\n---\n\n**5. សិទ្ធិ និងការគ្រប់គ្រងរបស់អ្នក**\n\nអ្នកមានសិទ្ធិ៖\n• **ការចូលប្រើ** ទិន្នន័យទាំងអស់ដែល ApplyFlow បានរក្សាទុកអំពីអ្នក (តាមរយៈការនាំចេញការបម្រុងទុកក្នុងការកំណត់)\n• **កែតម្រូវ*•* ព័ត៌មានរបស់អ្នកគ្រប់ពេលនៅក្នុងផ្ទាំង Profile__Clear ទាំងអស់ ***_5** ទិន្នន័យ\" នៅក្នុងការកំណត់\n• **ការយល់ព្រមដកប្រាក់** នៅពេលណាក៏បានដោយលុបកម្មវិធីបន្ថែម\n• **បិទការធ្វើសមកាលកម្មលើពពក** ដោយបិទបើកវានៅក្នុងការកំណត់គណនី និងសមកាលកម្ម\n\n**GDPR (អ្នកប្រើប្រាស់សហភាពអឺរ៉ុប)**៖ ប្រសិនបើអ្នកមានសិទ្ធិចូលប្រើឡើងវិញ កំណត់សម័យសហភាពអឺរ៉ុប ដំណើរការ និងការចល័តទិន្នន័យក្រោមបទប្បញ្ញត្តិការការពារទិន្នន័យទូទៅ។\n\n** ឥណ្ឌា — DPDP Act 2023**៖ ដោយអនុលោមតាមច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួនឌីជីថលរបស់ឥណ្ឌាឆ្នាំ 2023 យើងដំណើរការទិន្នន័យផ្ទាល់ខ្លួនសម្រាប់គោលបំណងផ្តល់សេវាកម្មជំនួយកម្មវិធីការងារប៉ុណ្ណោះ។ អ្នកអាចដកការយល់ព្រម និងស្នើសុំការលុបទិន្នន័យរបស់អ្នកបានគ្រប់ពេល ដោយទាក់ទងមកយើងខ្ញុំ។ ទិន្នន័យ))\n\n--\n\n**6. ការរក្សាទិន្នន័យ**\n\nទិន្នន័យមូលដ្ឋានត្រូវបានរក្សាទុករហូតដល់អ្នកសម្អាតវាដោយដៃ។ ទិន្នន័យដែលបានធ្វើសមកាលកម្មលើពពកត្រូវបានរក្សាទុករហូតដល់អ្នកលុបគណនីរបស់អ្នក ឬស្នើសុំការលុប។ យើងមិនលុបទិន្នន័យដោយស្វ័យប្រវត្តិទេ។\n\n--\n\n**7. សុវត្ថិភាព**\n\nយើងចាត់វិធានការបច្ចេកទេសសមហេតុផលដើម្បីការពារទិន្នន័យរបស់អ្នក៖\n• ទំនាក់ទំនងលើពពកទាំងអស់ប្រើការអ៊ិនគ្រីប HTTPS/TLS\n• Supabase Row-Level Security (RLS) ធានាថាអ្នកប្រើប្រាស់អាចចូលប្រើទិន្នន័យផ្ទាល់ខ្លួនរបស់ពួកគេតែប៉ុណ្ណោះ___NL_82_ ការអនុញ្ញាតគឺមិនមានការអនុញ្ញាតលើសពីអ្វីដែលផ្នែកបន្ថែមនោះទេ។ អនុគមន៍ \n\n---\n\n**8. ឯកជនភាពរបស់កុមារ**\n\nApplyFlow មិនត្រូវបានបម្រុងទុកសម្រាប់អ្នកប្រើប្រាស់ដែលមានអាយុក្រោម 13 ឆ្នាំទេ។ យើងមិនប្រមូលទិន្នន័យពីកុមារដោយចេតនាទេ។ ប្រសិនបើអ្នកជឿថាកុមារបានផ្តល់ព័ត៌មានផ្ទាល់ខ្លួនដល់យើង សូមទាក់ទងមកយើងភ្លាមៗ។\n\n---\n\n**9។ ការផ្លាស់ប្តូរគោលការណ៍នេះ**\n\nយើងអាចធ្វើបច្ចុប្បន្នភាពគោលការណ៍ឯកជនភាពនេះពីពេលមួយទៅពេលមួយ។ ការផ្លាស់ប្តូរសំខាន់ៗនឹងត្រូវបានទាក់ទងតាមរយៈទំព័រជម្រើសរបស់ផ្នែកបន្ថែម។ ការបន្តការប្រើប្រាស់ផ្នែកបន្ថែមបន្ទាប់ពីការផ្លាស់ប្តូរគឺជាការទទួលយកគោលការណ៍ដែលបានធ្វើបច្ចុប្បន្នភាព។\n\n---\n\n**10. ទាក់ទងយើង**\n\nសម្រាប់សំណួរទាក់ទងនឹងឯកជនភាព សំណើលុបទិន្នន័យ ឬកង្វល់៖\n\nEmail៖ privacy@applyflow.in\nGitHub៖ https://github.com/applyflow/extension https://applyflow.in\n\nយើងមានគោលបំណងឆ្លើយតបទៅនឹងសំណើទាំងអស់ក្នុងរយៈពេល 30 ថ្ងៃ។",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

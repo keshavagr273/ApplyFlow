@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ တွေ့ရှိသည်။",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "အလုပ်စာမျက်နှာ မတွေ့ပါ။",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ လျှောက်လွှာများကို ခြေရာခံလိုက်သည် · $2$ အင်တာဗျူးများ",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "သင့်တိုးတက်မှုကို ခြေရာခံရန် စတင်လျှောက်ထားပါ။",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ တွင် ပိုင်းခြားထားသည်",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" မှ ပရိုဖိုင်အသေးစိတ်အချက်အလက်များကို တင်မလား။ ၎င်းသည် သင်၏ လက်ရှိတည်းဖြတ်မှုများကို ဤကိုယ်ရေးမှတ်တမ်း၏ ခွဲခြမ်းစိတ်ဖြာထားသည့် ဖွဲ့စည်းပုံဖြင့် အစားထိုးမည်ဖြစ်သည်။",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "အသေးစိတ်အချက်အလက်များကို $1$ မှ ပြန်လည်ရယူထားသည်",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "ပွဲစဉ်ရမှတ်",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ အံကိုက်",
-    "description": "Fit percent text"
+    "message": "$1$% အံကိုက်",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "နောက်ထပ် +$1$",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "အပလီကေးရှင်းကို အလိုအလျောက်ဖြည့်ပြီး မှတ်တမ်းတင်ထားသည်။ ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ထည့်သွင်းမှုများ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ အရည်အချင်း",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ ပရောဂျက်များ",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ အဖြေများ",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "လုပ်ပိုင်ခွင့်",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ လျှောက်လွှာများ",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "ကုမ္ပဏီအလိုက် စစ်ထုတ်ပါ...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ စုစုပေါင်း အပလီကေးရှင်းများ",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "အချက်အလက်မရှိသေးပါ။",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "အကြောင်းအရာ- $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "မင်းရဲ့အသက်မွေးဝမ်းကြောင်းစမ်းသပ်မှု",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "ဤသည်မှာ $1$ ဖြစ်နိုင်ချေရှိသော အင်တာဗျူးမေးခွန်းများဖြစ်သည်-",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "ပိုမိုကောင်းမွန်အောင် ပြန်လည်လုပ်ဆောင်ရန် ရမှတ်- $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "ပွဲစဉ်အကြံပြုချက်များကို ပြန်လည်စတင်ပါ။",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "မင်္ဂလာပါ **$2$** တွင် **$1$** အခန်းကဏ္ဍကို သင်ကြည့်ရှုနေသည်ကို ကျွန်ုပ်တွေ့မြင်နိုင်ပါသည်။",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "မင်္ဂလာပါ **$1$** အခန်းကဏ္ဍကို သင်ကြည့်နေသည်ကို ကျွန်ုပ်တွေ့မြင်နိုင်ပါသည်။",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "မင်္ဂလာပါ ငါက မင်းရဲ့ AI ရဲ့ အသက်မွေးဝမ်းကြောင်း စမ်းသပ်သူပါ။ အလုပ်စာရင်းတစ်ခုသို့ သွား၍ ၎င်းကို အလိုအလျောက် ခွဲခြမ်းစိတ်ဖြာမည် သို့မဟုတ် ကျွန်ုပ်ကို ဘာမဆို မေးပါမည်။",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ အဖြစ် အကောင့်ဝင်ခဲ့သည်",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "ထွက်ပါ။",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "သင့်ကိုယ်ရေးရာဇဝင်သည် ဤအခန်းကဏ္ဍနှင့် **$1$% သဟဇာတ** ဖြစ်သည်။",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ကြိုဆိုပါတယ် $1$။",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google အသုံးပြုသူပရိုဖိုင်အချက်အလက်ကို ရယူ၍မရပါ။",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth အကောင့်ဝင်ခြင်း မအောင်မြင်ပါ- $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "လမ်းကြောင်းလွှဲခြင်းမှ ဝင်ရောက်ခွင့် တိုကင်ကို ရယူ၍မရပါ။",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "လိုင်စင်ကီး- $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "လိုင်စင်ပိတ်လိုက်ပါ။",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome extension commands များသည် Chrome ၏ ဖြတ်လမ်းမန်နေဂျာတွင် ကိုယ်တိုင်တာဝန်ပေးရန်လိုအပ်ပါသည်။ အထက်ဖော်ပြပါသော့များကိုချိတ်ရန် $1$ သို့သွားပါ။",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome တိုးချဲ့မှု — ကိုယ်ရေးကိုယ်တာမူဝါဒ**\nနောက်ဆုံးမွမ်းမံမှု- ဇွန်လ 2026\n\n---\n\n**1။ နိဒါန်း**\n\nApplyFlow (\"ကျွန်ုပ်တို့\", \"ကျွန်ုပ်တို့၏\", \"နောက်ဆက်တွဲ\") သည် အသုံးပြုသူများအား အလုပ်လျှောက်လွှာပုံစံများကို အလိုအလျောက်ဖြည့်ပေးခြင်း၊ ၎င်းတို့၏ အပလီကေးရှင်းများကို ခြေရာခံကာ ၎င်းတို့၏ ပရော်ဖက်ရှင်နယ်ပရိုဖိုင်ကို စီမံခန့်ခွဲရန် ကူညီပေးသည့် Chrome ဘရောက်ဆာ တိုးချဲ့မှုတစ်ခုဖြစ်သည်။ ဤကိုယ်ရေးကိုယ်တာမူဝါဒတွင် ကျွန်ုပ်တို့သည် သင့်အချက်အလက်များကို စုဆောင်းအသုံးပြုပုံ၊ သိမ်းဆည်းပုံနှင့် ကာကွယ်ပုံတို့ကို ရှင်းပြထားသည်။\n\nApplyFlow ကို ထည့်သွင်းအသုံးပြုခြင်းဖြင့်၊ ဤမူဝါဒတွင်ဖော်ပြထားသည့် ကျင့်ထုံးများကို သင်သဘောတူပါသည်။\n\n---\n\n**2။ ကျွန်ုပ်တို့စုဆောင်းထားသောဒေတာ**\n\nကျွန်ုပ်တို့သည် တိုးချဲ့မှု၏အင်္ဂါရပ်များကိုဖွင့်ရန် သင်ဆန္ဒအလျောက်ပေးသည့်အချက်အလက်ကိုသာ စုဆောင်းပါသည်-\n\n• **ကိုယ်ရေးအကျဉ်းအချက်အလက်**- သင့်အမည်၊ အီးမေးလ်၊ ဖုန်းနံပါတ်၊ ကောလိပ်၊ ဒီဂရီ၊ ကျွမ်းကျင်မှု၊ အလုပ်မှတ်တမ်း၊ ပရောဂျက်များနှင့် ပရော်ဖက်ရှင်နယ်လင့်ခ်များ (LinkedIn၊ Gito)။L7____ ပို့တ်၊ **EEO/Demographic Information (ချန်လှပ်ထားနိုင်သည်)**- ကျား၊မ မသန်စွမ်းမှုအခြေအနေ၊ စစ်ပြန်အခြေအနေနှင့် အလုပ်ခွင့်ပြုချက်ဦးစားပေးများ — ဤကွက်လပ်များကို ဖြည့်စွက်ရန် သင်ရွေးချယ်မှသာ ပံ့ပိုးပေးပါသည်။ အလုပ်လျှောက်လွှာများတွင် ရွေးချယ်နိုင်သော EEO မေးခွန်းလွှာများကို အလိုအလျောက်ဖြည့်ရန်အတွက် သီးသန့်အသုံးပြုပါသည်။\n• **လျှောက်လွှာခြေရာခံခြင်းဒေတာ**- အလုပ်ခေါင်းစဉ်၊ ကုမ္ပဏီ၊ အပလီကေးရှင်း URL၊ အခြေအနေနှင့် မှတ်စုများ။\n• **အသုံးပြုမှုစာရင်းအင်းများ**- နေ့စဉ်လုပ်ဆောင်ရမည့် ဒေသအလိုက် အလိုအလျောက်ဖြည့်သွင်းသည့် လုပ်ဆောင်ချက်အရေအတွက် ကန့်သတ်ချက်များ))))\n• **အထောက်အထားစိစစ်ခြင်းဒေတာ**- Google ဖြင့် အကောင့်ဝင်ရန် ရွေးချယ်ပါက၊ သင့်အတွေ့အကြုံကို ပုဂ္ဂိုလ်ရေးသီးသန့်ပြုလုပ်ပြီး cloud ထပ်တူပြုခြင်းကို ဖွင့်ရန် သင့် Google ၏ ဖော်ပြမှုအမည်၊ အီးမေးလ်လိပ်စာနှင့် ပရိုဖိုင်ပုံ URL ကို သိမ်းဆည်းထားပါသည်။\n\nကျွန်ုပ်တို့သည် **ဘရောက်ဆာ 2** အတန်းများကို စုဆောင်းခြင်းမပြုပါ** :\n•• ငွေပေးချေမှု သို့မဟုတ် ငွေကြေးဆိုင်ရာ အချက်အလက် 4__B မှတ်တမ်း 4__L လှုပ်ရှားမှု\n• အလုပ်-လျှောက်လွှာနှင့်ပတ်သက်သည့်မဟုတ်သော စာမျက်နှာများမှ မည်သည့်အချက်အလက်မဆို\n• တိုးချဲ့မှုကို တက်ကြွစွာမလုပ်ဆောင်သည့်အခါ စာမျက်နှာများမှ မည်သည့်ဒေတာမဆို\n\n---\n\n**3။ သင့်ဒေတာကို ကျွန်ုပ်တို့သိမ်းဆည်းနည်း**\n\n**3.1 Local Storage (Default)**\nဒေတာအားလုံးကို သင့်ဘရောက်ဆာ၏ chrome.storage.local API တွင် အဓိကသိမ်းဆည်းထားသည်။ ဤဒေတာသည် သင့်စက်ပစ္စည်းပေါ်တွင်သာ တည်ရှိပြီး သင်၏ တိကျပြတ်သားသော လုပ်ဆောင်မှုမရှိဘဲ မည်သည့်ဆာဗာထံ မည်သည့်အခါမျှ မကူးစက်ပါ။\n\n**3.2 Cloud Sync (ချန်လှပ်ထားနိုင်သည်)**\n_ Google နှင့် လက်မှတ်ထိုးဝင်ရန် ရွေးချယ်ပြီး \"Supabase Sync\" အင်္ဂါရပ်ကို ဖွင့်ပါက၊ သင့်ပရိုဖိုင်နှင့် အပလီကေးရှင်းဒေတာကို ဒေတာဘေ့စ်တစ်ခုသို့ ထပ်တူပြုပါမည်။ သင်သည် ဤဒေတာ၏ ပိုင်ဆိုင်မှုအပြည့်အဝကို ဆက်လက်ထိန်းသိမ်းထားသည်။ အကောင့်နှင့် စင့်ခ်လုပ်ခြင်းကဏ္ဍမှ ၎င်းကို အချိန်မရွေး ဖျက်နိုင်ပါသည်။\n\n**3.3 Gemini AI Requests**\n_ AI အင်္ဂါရပ်များကို အသုံးပြုသည့်အခါ (ဥပမာ၊ စာစီစာကုံးထုတ်လုပ်ခြင်း၊ အလုပ်ခွဲခြမ်းစိတ်ဖြာခြင်း)၊ သင့်ပရိုဖိုင်၏အပိုင်းများ (ကျွမ်းကျင်မှု၊ ဘွဲ့၊ အကျဉ်းချုပ်) နှင့် အလုပ်ဖော်ပြချက် Gemini ထံသို့ Google မှ ပေးပို့ထားသော တုံ့ပြန်ချက်စာသားကို ထုတ်ပေးပါသည်။ ၎င်းကို Google ၏ စံ API ဝန်ဆောင်မှုစည်းမျဉ်းများနှင့် ကိုယ်ရေးကိုယ်တာမူဝါဒအောက်တွင် လုပ်ဆောင်သည်။ သင်၏ AI-အကူအညီပေးထားသော အကြောင်းအရာတွင် အရေးကြီးသော ကိုယ်ရေးကိုယ်တာ အထောက်အထားများ မပါဝင်ရန် ကျွန်ုပ်တို့ အကြံပြုအပ်ပါသည်။\n\n---\n\n**4။ ဒေတာမျှဝေခြင်း**\n\nကျွန်ုပ်တို့** ရောင်းချခြင်း၊ ရောင်းဝယ်ခြင်း၊ ငှားရမ်းခြင်း သို့မဟုတ် သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို စျေးကွက်ရှာဖွေခြင်း သို့မဟုတ် ကြော်ငြာခြင်းရည်ရွယ်ချက်အတွက် ပြင်ပအဖွဲ့အစည်းတစ်ခုခုနှင့် မျှဝေခြင်းမပြုပါ။\n\nသင်၏ဒေတာကို အောက်ပါယုံကြည်စိတ်ချရသောဝန်ဆောင်မှုများဖြင့် လုပ်ဆောင်နိုင်သည်-\n• **Google Gemini API-ပါဝါ ဖောင်ဖြည့်ခြင်းနှင့် AI ပိုင်းခြားစိတ်ဖြာချက်အတွက်**- (https://policies.google.com/privacy)\n• **Google OAuth**- အကောင့်အထောက်အထားစိစစ်ခြင်းအတွက် (https://policies.google.com/privacy)\n• **Supabase**- ရွေးချယ်နိုင်သော cloud သိုလှောင်မှုအတွက် (https://supabase.com/privacy) — သင်ဖွင့်ထားမှသာ ထပ်တူပြုခြင်း\n\n---\n\n**5။ သင်၏အခွင့်အရေးများနှင့် ထိန်းချုပ်မှုများ**\n\nသင်တွင်-\n• **ဝင်ရောက်ခွင့်** တွင် ApplyFlow က သင့်အကြောင်းသိမ်းဆည်းထားသည့် ဒေတာအားလုံးကို (ဆက်တင်များတွင် ထုတ်ယူရန်အရန်သိမ်းဆည်းမှုမှတစ်ဆင့်)\n• **မှန်ကန်ပါ**• \"ပရိုဖိုင်တက်ဘ်__NL_5** အားလုံးကို အသုံးပြု၍ ဒေသတွင်းရှိ ဒေတာအားလုံးကို အချိန်မရွေးဖျက်ပါ။ ဆက်တင်များတွင် ဒေတာ\"\n• ** သဘောတူညီချက်ကို ရုတ်သိမ်းပါ** တိုးချဲ့မှုကို ဖြုတ်ခြင်းဖြင့် အချိန်မရွေး\n• ** အကောင့်နှင့် စင့်ခ်လုပ်ခြင်း ဆက်တင်များတွင် ပိတ်ထားခြင်းဖြင့် ** cloud sync** ကို ပိတ်ခြင်းဖြင့် ** cloud Sync** \n\n_**GDPR (EU Users)** တွင် ဝင်ရောက်အသုံးပြုခွင့်ကို ကန့်သတ်ထားပါက သင့်တွင် ကန့်သတ်ချက်တစ်ခုရှိပါက၊ စီမံဆောင်ရွက်ခြင်းနှင့် အထွေထွေဒေတာကာကွယ်ရေးစည်းမျဉ်းအရ ဒေတာသယ်ဆောင်ရလွယ်ကူခြင်း။\n\n**India — DPDP Act 2023**- India's Digital Personal Data Protection Act 2023 နှင့်အညီ အလုပ်လျှောက်လွှာအကူအညီပေးရေးဝန်ဆောင်မှုကို ပံ့ပိုးပေးသည့်ရည်ရွယ်ချက်အတွက်သာ ကျွန်ုပ်တို့သည် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို လုပ်ဆောင်ပါသည်။ သင်သည် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ခြင်းဖြင့် သင့်ဒေတာကို အချိန်မရွေး ဖျက်နိုင်ပြီး သဘောတူညီချက်ကို ရုပ်သိမ်းရန် တောင်းဆိုနိုင်ပါသည်။\n\n**California — CCPA**- ကယ်လီဖိုးနီးယားတွင် နေထိုင်သူများသည် မည်သည့်ကိုယ်ရေးကိုယ်တာအချက်အလက်ကို စုဆောင်းထားသည်၊ ဖျက်ပိုင်ခွင့်နှင့် ရောင်းချခွင့်တို့ကို ဖယ်ထုတ်ပိုင်ခွင့်ရှိသည် (ကျွန်ုပ်တို့ မရောင်းပါ data).\n\n---\n\n**6။ ဒေတာထိန်းသိမ်းခြင်း**\n\n သင်ကိုယ်တိုင် မရှင်းလင်းမချင်း ဒေသဆိုင်ရာဒေတာကို ထိန်းသိမ်းထားသည်။ သင့်အကောင့်ကို မဖျက်မချင်း သို့မဟုတ် ဖျက်ရန် တောင်းဆိုသည်အထိ Cloud-Sync လုပ်ထားသည့် ဒေတာကို သိမ်းဆည်းထားသည်။ ကျွန်ုပ်တို့သည် ဒေတာကို အလိုအလျောက်ဖျက်မည်မဟုတ်ပါ။\n\n---\n\n**7။ လုံခြုံရေး**\n\nကျွန်ုပ်တို့သည် သင့်ဒေတာကို ကာကွယ်ရန် ကျိုးကြောင်းဆီလျော်သော နည်းပညာပိုင်းဆိုင်ရာ အစီအမံများကို လုပ်ဆောင်ပါသည်-\n• cloud ဆက်သွယ်ရေးအားလုံး HTTPS/TLS ကုဒ်ဝှက်စနစ်ကို အသုံးပြုသည်\n• Supabase Row-Level Security (RLS) သည် သုံးစွဲသူများသည် ၎င်းတို့၏ကိုယ်ပိုင်ဒေတာများကိုသာ ဝင်ရောက်ကြည့်ရှုနိုင်သည်__NL_82_ ခွင့်ပြုချက်များအတွက် ၎င်း၏နောက်ဆက်တွဲသည် core မလိုအပ်ကြောင်း သေချာစေသည်။ လုပ်ဆောင်ချက်\n\n---\n\n**8။ ကလေးများ၏ ကိုယ်ရေးကိုယ်တာ**\n\nApplyFlow သည် အသက် 13 နှစ်အောက် အသုံးပြုသူများအတွက် ရည်ရွယ်ခြင်းမဟုတ်ပါ။ ကျွန်ုပ်တို့သည် ကလေးငယ်များထံမှ အချက်အလက်များကို သိလျက်နှင့် စုဆောင်းထားခြင်းမရှိပါ။ ကလေးတစ်ဦးသည် ကျွန်ုပ်တို့အား ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ပေးထားကြောင်း သင်ယုံကြည်ပါက၊ ကျွန်ုပ်တို့အား ချက်ချင်းဆက်သွယ်ပါ။\n\n---\n\n**9။ ဤမူဝါဒပြောင်းလဲမှုများ**\n\nကျွန်ုပ်တို့သည် ဤကိုယ်ရေးကိုယ်တာမူဝါဒကို အခါအားလျော်စွာ အပ်ဒိတ်လုပ်နိုင်ပါသည်။ သိသာထင်ရှားသော အပြောင်းအလဲများကို တိုးချဲ့မှု၏ ရွေးချယ်မှုများ စာမျက်နှာမှတစ်ဆင့် ဆက်သွယ်ပေးပါမည်။ အပြောင်းအလဲများပြီးနောက် တိုးချဲ့မှုကို ဆက်လက်အသုံးပြုခြင်းသည် အပ်ဒိတ်မူဝါဒကို လက်ခံခြင်းဖြစ်သည်။\n\n---\n\n**10။ ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ**\n\nကိုယ်ရေးကိုယ်တာဆိုင်ရာမေးခွန်းများ၊ ဒေတာဖျက်ခြင်းတောင်းဆိုမှုများ သို့မဟုတ် စိုးရိမ်ပူပန်မှုများအတွက်-\n\nEmail: privacy@applyflow.in\nGitHub- https://github.com/applyflow/extension https://applyflow.in\n\nကျွန်ုပ်တို့သည် ရက် 30 အတွင်း တောင်းဆိုချက်အားလုံးကို တုံ့ပြန်ရန် ရည်ရွယ်ပါသည်။",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ ಪತ್ತೆಹಚ್ಚಲಾಗಿದೆ",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "ಯಾವುದೇ ಉದ್ಯೋಗ ಪುಟ ಪತ್ತೆಯಾಗಿಲ್ಲ",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗಿದೆ · $2$ ಸಂದರ್ಶನಗಳು",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಪ್ರಾರಂಭಿಸಿ",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ ರಂದು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿದೆ",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" ನಿಂದ ಪ್ರೊಫೈಲ್ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡುವುದೇ? ಇದು ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಸಂಪಾದನೆಗಳನ್ನು ಈ ಪುನರಾರಂಭದ ಪಾರ್ಸ್ ಮಾಡಿದ ರಚನೆಯೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ ನಿಂದ ವಿವರಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "ಪಂದ್ಯದ ಸ್ಕೋರ್",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ ಫಿಟ್",
-    "description": "Fit percent text"
+    "message": "$1$% ಫಿಟ್",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ ಹೆಚ್ಚು",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಲಾಗ್ ಮಾಡಲಾಗಿದೆ! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ನಮೂದುಗಳು",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ ಕೌಶಲ್ಯಗಳು",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ ಯೋಜನೆಗಳು",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ ಉತ್ತರಗಳು",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "ಅಧಿಕೃತಗೊಳಿಸಲಾಗಿದೆ",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "ಕಂಪನಿಯ ಪ್ರಕಾರ ಫಿಲ್ಟರ್ ಮಾಡಿ...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ ಒಟ್ಟು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "ಇನ್ನೂ ಯಾವುದೇ ಡೇಟಾ ಇಲ್ಲ",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "ಸಂದರ್ಭ: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "ನಿಮ್ಮ ವೃತ್ತಿಜೀವನದ ಸಹಪೈಲಟ್",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "$1$ ಸಂದರ್ಶನದ ಪ್ರಶ್ನೆಗಳು ಇಲ್ಲಿವೆ:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "ಪುನರಾರಂಭದ ಆಪ್ಟಿಮೈಸೇಶನ್ ಸ್ಕೋರ್: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "ಹೊಂದಾಣಿಕೆಯ ಸಲಹೆಗಳನ್ನು ಪುನರಾರಂಭಿಸಿ",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "ನಮಸ್ತೆ! ನೀವು **$2$** ನಲ್ಲಿ **$1$** ಪಾತ್ರವನ್ನು ನೋಡುತ್ತಿರುವಿರಿ ಎಂದು ನಾನು ನೋಡುತ್ತೇನೆ.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "ನಮಸ್ತೆ! ನೀವು **$1$** ಪಾತ್ರವನ್ನು ನೋಡುತ್ತಿರುವಿರಿ ಎಂದು ನಾನು ನೋಡುತ್ತೇನೆ.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "ನಮಸ್ತೆ! ನಾನು ನಿಮ್ಮ AI ವೃತ್ತಿಜೀವನದ ಸಹಪೈಲಟ್. ಕೆಲಸದ ಪಟ್ಟಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ ಮತ್ತು ನಾನು ಅದನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವಿಶ್ಲೇಷಿಸುತ್ತೇನೆ, ಅಥವಾ ನನ್ನನ್ನು ಏನಾದರೂ ಕೇಳುತ್ತೇನೆ!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ ಆಗಿ ಲಾಗ್ ಇನ್ ಮಾಡಲಾಗಿದೆ",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಈ ಪಾತ್ರದೊಂದಿಗೆ **$1$% ಹೊಂದಾಣಿಕೆಯಾಗಿದೆ**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ಮರಳಿ ಸ್ವಾಗತ, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿಯನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ವಿಫಲವಾಗಿದೆ.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "ಮರುನಿರ್ದೇಶನದಿಂದ ಪ್ರವೇಶ ಟೋಕನ್ ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "ಪರವಾನಗಿ ಕೀ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "ಪರವಾನಗಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome ವಿಸ್ತರಣೆಯ ಆಜ್ಞೆಗಳಿಗೆ Chrome ನ ಶಾರ್ಟ್‌ಕಟ್ ನಿರ್ವಾಹಕದಲ್ಲಿ ಹಸ್ತಚಾಲಿತ ನಿಯೋಜನೆಯ ಅಗತ್ಯವಿದೆ. ಮೇಲೆ ಪಟ್ಟಿ ಮಾಡಲಾದ ಕೀಗಳನ್ನು ಬೈಂಡ್ ಮಾಡಲು $1$ ಗೆ ಹೋಗಿ.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ಅಪ್ಲೈಫ್ಲೋ ಕ್ರೋಮ್ ವಿಸ್ತರಣೆ — ಗೌಪ್ಯತಾ ನೀತಿ**\nಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಜೂನ್ 2026\n\n---_\n\n**1. ಪರಿಚಯ**\n\nApplyFlow (\"ನಾವು\", \"ನಮ್ಮ\", \"ವಿಸ್ತರಣೆ\") ಎಂಬುದು Chrome ಬ್ರೌಸರ್ ವಿಸ್ತರಣೆಯಾಗಿದ್ದು, ಇದು ಬಳಕೆದಾರರಿಗೆ ಉದ್ಯೋಗ ಅರ್ಜಿ ನಮೂನೆಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು, ಅವರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಮತ್ತು ಅವರ ವೃತ್ತಿಪರ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಈ ಗೌಪ್ಯತಾ ನೀತಿಯು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ, ಬಳಸುತ್ತೇವೆ, ಸಂಗ್ರಹಿಸುತ್ತೇವೆ ಮತ್ತು ರಕ್ಷಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ.\n\nApplyFlow ಅನ್ನು ಸ್ಥಾಪಿಸುವ ಮೂಲಕ ಮತ್ತು ಬಳಸುವ ಮೂಲಕ, ಈ ನೀತಿಯಲ್ಲಿ ವಿವರಿಸಿದ ಅಭ್ಯಾಸಗಳಿಗೆ ನೀವು ಸಮ್ಮತಿಸುತ್ತೀರಿ.\n\n_____\n\n**2. ನಾವು ಸಂಗ್ರಹಿಸುವ ಡೇಟಾ**\n\nವಿಸ್ತರಣೆಯ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನೀವು ಸ್ವಯಂಪ್ರೇರಣೆಯಿಂದ ಒದಗಿಸುವ ಮಾಹಿತಿಯನ್ನು ಮಾತ್ರ ನಾವು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ:\n\n• **ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿ**: ನಿಮ್ಮ ಹೆಸರು, ಇಮೇಲ್, ಫೋನ್ ಸಂಖ್ಯೆ, ಕಾಲೇಜು, ಪದವಿ, ಕೌಶಲ್ಯಗಳು, ಕೆಲಸದ ಇತಿಹಾಸ, ಯೋಜನೆಗಳು ಮತ್ತು ವೃತ್ತಿಪರ ಲಿಂಕ್‌ಗಳು, Gitink ಪೋರ್ಟ್‌ಫೋಲಿಯೋ).\n• **EEO/ಜನಸಂಖ್ಯಾ ಮಾಹಿತಿ (ಐಚ್ಛಿಕ)**: ಲಿಂಗ, ಅಂಗವೈಕಲ್ಯ ಸ್ಥಿತಿ, ಅನುಭವಿ ಸ್ಥಿತಿ ಮತ್ತು ಕೆಲಸದ ದೃಢೀಕರಣದ ಆದ್ಯತೆಗಳು — ನೀವು ಈ ಕ್ಷೇತ್ರಗಳನ್ನು ತುಂಬಲು ಆಯ್ಕೆ ಮಾಡಿದರೆ ಮಾತ್ರ ಒದಗಿಸಲಾಗುತ್ತದೆ. ಈ ಡೇಟಾವನ್ನು ಉದ್ಯೋಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಐಚ್ಛಿಕ EEO ಪ್ರಶ್ನಾವಳಿಗಳನ್ನು ಸ್ವಯಂ ತುಂಬಲು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.\n• **ಅಪ್ಲಿಕೇಶನ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಡೇಟಾ**: ವಿಸ್ತರಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಟ್ರ್ಯಾಕ್ ಮಾಡುವ ಹುದ್ದೆಗಳ ಶೀರ್ಷಿಕೆ, ಕಂಪನಿ, ಅಪ್ಲಿಕೇಶನ್ URL, ಸ್ಥಿತಿ ಮತ್ತು ಟಿಪ್ಪಣಿಗಳು ಮಿತಿಗಳು).\n• **ದೃಢೀಕರಣ ಡೇಟಾ**: ನೀವು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಆರಿಸಿದರೆ, ನಿಮ್ಮ ಅನುಭವವನ್ನು ವೈಯಕ್ತೀಕರಿಸಲು ಮತ್ತು ಕ್ಲೌಡ್ ಸಿಂಕ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನಿಮ್ಮ Google ಪ್ರದರ್ಶನದ ಹೆಸರು, ಇಮೇಲ್ ವಿಳಾಸ ಮತ್ತು ಪ್ರೊಫೈಲ್ ಚಿತ್ರ URL ಅನ್ನು ನಾವು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ.\n_NL_22__ನಾವು **ಅಲ್ಲ** ಸಂಗ್ರಹಿಸುತ್ತೇವೆ ಅಥವಾ ಸಾಮಾನ್ಯ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ. ಚಟುವಟಿಕೆ\n• ಉದ್ಯೋಗ-ಅಪ್ಲಿಕೇಶನ್-ಸಂಬಂಧಿತವಲ್ಲದ ಪುಟಗಳಿಂದ ಯಾವುದೇ ಮಾಹಿತಿ\n• ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯವಾಗಿ ಟ್ರಿಗರ್ ಮಾಡದಿದ್ದಾಗ ಪುಟಗಳಿಂದ ಯಾವುದೇ ಡೇಟಾ\n\n____\n\n**3. ನಿಮ್ಮ ಡೇಟಾವನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ**\n\n**3.1 ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ (ಡೀಫಾಲ್ಟ್)**\nಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಪ್ರಾಥಮಿಕವಾಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನ chrome.storage.local API ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಈ ಡೇಟಾವು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಸ್ಪಷ್ಟವಾದ ಕ್ರಿಯೆಯಿಲ್ಲದೆ ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಎಂದಿಗೂ ರವಾನೆಯಾಗುವುದಿಲ್ಲ.\n\n**3.2 Cloud Sync (ಐಚ್ಛಿಕ)**\nನೀವು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಮತ್ತು \"Supabase Sync\" ವೈಶಿಷ್ಟ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಆಯ್ಕೆಮಾಡಿದರೆ, ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾಗೆ Supabase ಸಿಂಕ್ರೊನ್ ಡೇಟಾ ಕೂಡ ಇರುತ್ತದೆ. ಈ ಡೇಟಾದ ಸಂಪೂರ್ಣ ಮಾಲೀಕತ್ವವನ್ನು ನೀವು ಉಳಿಸಿಕೊಳ್ಳುತ್ತೀರಿ. ನೀವು ಅದನ್ನು ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ವಿಭಾಗದಿಂದ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅಳಿಸಬಹುದು.\n\n**3.3 ಜೆಮಿನಿ AI ವಿನಂತಿಗಳು**\nAI ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸಿದಾಗ (ಉದಾ., ಪ್ರಬಂಧ ರಚನೆ, ಉದ್ಯೋಗ ವಿಶ್ಲೇಷಣೆ), ನಿಮ್ಮ ಪ್ರೊಫೈಲ್‌ನ ಭಾಗಗಳು (ಕೌಶಲ್ಯಗಳು, ಪದವಿ, ಸಾರಾಂಶ) ಮತ್ತು Google ಉದ್ಯೋಗ ವಿವರಣೆಗೆ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ರಚಿಸುವ ಜೆಮಿನಿ ಪಠ್ಯಕ್ಕೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು Google ನ ಪ್ರಮಾಣಿತ API ಸೇವಾ ನಿಯಮಗಳು ಮತ್ತು ಗೌಪ್ಯತೆ ನೀತಿಯ ಅಡಿಯಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ AI-ನೆರವಿನ ವಿಷಯದಲ್ಲಿ ಸೂಕ್ಷ್ಮವಾದ ವೈಯಕ್ತಿಕ ಗುರುತಿಸುವಿಕೆಗಳನ್ನು ಸೇರಿಸದಂತೆ ನಾವು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ.\n_NL_41_______\n\n**4. ಡೇಟಾ ಹಂಚಿಕೆ**\n\nನಾವು **** ಮಾರಾಟ, ವ್ಯಾಪಾರ, ಬಾಡಿಗೆ ಅಥವಾ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಯಾವುದೇ ಮೂರನೇ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ಮಾರ್ಕೆಟಿಂಗ್ ಅಥವಾ ಜಾಹೀರಾತು ಉದ್ದೇಶಗಳಿಗಾಗಿ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ.\n\nನಿಮ್ಮ ಡೇಟಾವನ್ನು ಈ ಕೆಳಗಿನ ವಿಶ್ವಾಸಾರ್ಹ ಸೇವೆಗಳಿಂದ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಬಹುದು:\n• **Google ಫಾರ್ಮ್ ತುಂಬಿದ ಜೆಮಿನಿ API ವಿಶ್ಲೇಷಣೆ (https://policies.google.com/privacy)\n• **Google OAuth**: ಖಾತೆಯ ದೃಢೀಕರಣಕ್ಕಾಗಿ (https://policies.google.com/privacy)\n• **Supabase**: ಐಚ್ಛಿಕ ಕ್ಲೌಡ್ ಸ್ಟೋರೇಜ್‌ಗಾಗಿ (https://supabase.com/privacy) — ನೀವು ಮೆಚ್ಚಿದರೆ ಮಾತ್ರ sync\n\n_____\n\n**5. ನಿಮ್ಮ ಹಕ್ಕುಗಳು ಮತ್ತು ನಿಯಂತ್ರಣಗಳು**\n\nನೀವು ಹಕ್ಕನ್ನು ಹೊಂದಿರುವಿರಿ:\n• **ಪ್ರವೇಶ** ApplyFlow ನಿಮ್ಮ ಬಗ್ಗೆ ಸಂಗ್ರಹಿಸಿರುವ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು (ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ರಫ್ತು ಬ್ಯಾಕಪ್ ಮೂಲಕ)\n• **ಸರಿಮಾಡಿ** ನಿಮ್ಮ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಪ್ರೊಫೈಲ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅಳಿಸಿ*•**ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸಿ. ಪ್ರೊಫೈಲ್ ಡೇಟಾ\" ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ\n• **ಸಮ್ಮತಿಯನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಿ** ವಿಸ್ತರಣೆಯನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವ ಮೂಲಕ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ\n• **ಕ್ಲೌಡ್ ಸಿಂಕ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ** ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅದನ್ನು ಟಾಗಲ್ ಆಫ್ ಮಾಡುವ ಮೂಲಕ\n\n**GDPR ಅನ್ನು ನೀವು ಬಳಸಿದರೆ, ನೀವು EU: ನಿವಾಸಿಗಳಾಗಿದ್ದರೆ ಸಾಮಾನ್ಯ ದತ್ತಾಂಶ ಸಂರಕ್ಷಣಾ ನಿಯಂತ್ರಣದ ಅಡಿಯಲ್ಲಿ ಸಂಸ್ಕರಣೆ ಮತ್ತು ಡೇಟಾ ಪೋರ್ಟಬಿಲಿಟಿಯನ್ನು ಸರಿಪಡಿಸಿ, ಅಳಿಸಿ, ನಿರ್ಬಂಧಿಸಿ.\n\n**ಭಾರತ — DPDP ಕಾಯಿದೆ 2023**: ಭಾರತದ ಡಿಜಿಟಲ್ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಸಂರಕ್ಷಣಾ ಕಾಯಿದೆ 2023 ರ ಅನುಸರಣೆಯಲ್ಲಿ, ನಾವು ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಉದ್ಯೋಗದ ಸಹಾಯವನ್ನು ಒದಗಿಸುವ ಉದ್ದೇಶಕ್ಕಾಗಿ ಮಾತ್ರ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತೇವೆ. ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುವ ಮೂಲಕ ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸಮ್ಮತಿಯನ್ನು ಹಿಂಪಡೆಯಬಹುದು ಮತ್ತು ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಅಳಿಸಲು ವಿನಂತಿಸಬಹುದು.\n\n**ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ — CCPA**: ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ ನಿವಾಸಿಗಳು ಯಾವ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ, ಅಳಿಸುವ ಹಕ್ಕು ಮತ್ತು ಮಾರಾಟದಿಂದ ಹೊರಗುಳಿಯುವ ಹಕ್ಕನ್ನು ತಿಳಿದುಕೊಳ್ಳುವ ಹಕ್ಕನ್ನು ಹೊಂದಿರುತ್ತಾರೆ (ನಾವು ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ ಡೇಟಾ).\n\n_____\n\n**6. ಡೇಟಾ ಧಾರಣ**\n\nನೀವು ಹಸ್ತಚಾಲಿತವಾಗಿ ತೆರವುಗೊಳಿಸುವವರೆಗೆ ಸ್ಥಳೀಯ ಡೇಟಾವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನೀವು ಅಳಿಸುವವರೆಗೆ ಅಥವಾ ಅಳಿಸುವಿಕೆಗೆ ವಿನಂತಿಸುವವರೆಗೆ ಕ್ಲೌಡ್-ಸಿಂಕ್ ಮಾಡಲಾದ ಡೇಟಾವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನಾವು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಡೇಟಾವನ್ನು ಅಳಿಸುವುದಿಲ್ಲ.\n\n_____\n\n**7. ಭದ್ರತೆ**\n\nನಿಮ್ಮ ಡೇಟಾವನ್ನು ರಕ್ಷಿಸಲು ನಾವು ಸಮಂಜಸವಾದ ತಾಂತ್ರಿಕ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೇವೆ:\n• ಎಲ್ಲಾ ಕ್ಲೌಡ್ ಸಂವಹನಗಳು HTTPS/TLS ಗೂಢಲಿಪೀಕರಣವನ್ನು ಬಳಸುತ್ತವೆ\n• ಸುಪಾಬೇಸ್ ರೋ-ಲೆವೆಲ್ ಸೆಕ್ಯುರಿಟಿ (RLS) ಬಳಕೆದಾರರು ತಮ್ಮ ಸ್ವಂತ ಡೇಟಾವನ್ನು ಮಾತ್ರ ಪ್ರವೇಶಿಸಬಹುದು ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ__NL_82_ವಿಸ್ತರಣೆಗಳ ವಿನಂತಿಯನ್ನು ಮೀರಿ ಕಾರ್ಯ\n\n_____\n\n**8. ಮಕ್ಕಳ ಗೌಪ್ಯತೆ**\n\nApplyFlow 13 ವರ್ಷಕ್ಕಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಬಳಕೆದಾರರಿಗೆ ಉದ್ದೇಶಿಸಿಲ್ಲ. ನಾವು ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಮಕ್ಕಳಿಂದ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ. ಮಗುವು ನಮಗೆ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿದೆ ಎಂದು ನೀವು ಭಾವಿಸಿದರೆ, ದಯವಿಟ್ಟು ತಕ್ಷಣ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.\n\n________\n\n**9. ಈ ನೀತಿಗೆ ಬದಲಾವಣೆಗಳು**\n\nನಾವು ಕಾಲಕಾಲಕ್ಕೆ ಈ ಗೌಪ್ಯತಾ ನೀತಿಯನ್ನು ನವೀಕರಿಸಬಹುದು. ಗಮನಾರ್ಹ ಬದಲಾವಣೆಗಳನ್ನು ವಿಸ್ತರಣೆಯ ಆಯ್ಕೆಗಳ ಪುಟದ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ. ಬದಲಾವಣೆಗಳ ನಂತರ ವಿಸ್ತರಣೆಯ ಮುಂದುವರಿದ ಬಳಕೆಯು ನವೀಕರಿಸಿದ ನೀತಿಯ ಅಂಗೀಕಾರವನ್ನು ರೂಪಿಸುತ್ತದೆ.\n\n_____\n\n**10. ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ**\n\nಯಾವುದೇ ಗೌಪ್ಯತೆ-ಸಂಬಂಧಿತ ಪ್ರಶ್ನೆಗಳು, ಡೇಟಾ ಅಳಿಸುವಿಕೆ ವಿನಂತಿಗಳು ಅಥವಾ ಕಾಳಜಿಗಳಿಗಾಗಿ:\n\nಇಮೇಲ್: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension https://applyflow.in\n\nನಾವು 30 ದಿನಗಳಲ್ಲಿ ಎಲ್ಲಾ ವಿನಂತಿಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುವ ಗುರಿಯನ್ನು ಹೊಂದಿದ್ದೇವೆ.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

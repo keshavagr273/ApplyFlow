@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Upptäckt",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Ingen jobbsida upptäckt",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ ansökningar spårade · $2$ intervjuer",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Börja ansöka för att spåra dina framsteg",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Parsed på $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Ladda profilinformation från \"$1$\"? Detta kommer att ersätta dina nuvarande redigeringar med detta CV:s analyserade struktur.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Återställda detaljer från $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Matchresultat",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Passform",
-    "description": "Fit percent text"
+    "message": "$1$% Passform",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ till",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Ansökan autofylld och loggad! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ poster",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ färdigheter",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projekt",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ svarar",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Auktoriserad",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ applikationer",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtrera efter företag...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ totalt antal ansökningar",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Inga uppgifter ännu",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Sammanhang: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Din andrapilot i karriären",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Här är $1$ troliga intervjufrågor:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Återuppta optimeringsresultat: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Återuppta matchningsförslag",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hej! Jag kan se att du tittar på en **$1$** roll på **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hej! Jag kan se att du tittar på en **$1$** roll.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hej! Jag är din AI-karriärcopilot. Navigera till en platsannons så analyserar jag den automatiskt, eller fråga mig vad som helst!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Inloggad som $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Logga ut",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Ditt CV är **$1$% kompatibelt** med den här rollen.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Välkommen tillbaka, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Det gick inte att hämta information om Googles användarprofil.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth-inloggning misslyckades: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Det gick inte att hämta åtkomsttoken från omdirigering.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Licensnyckel: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Inaktivera licens",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome-tilläggskommandon kräver manuell tilldelning i Chromes genvägshanterare. Gå till $1$ för att binda nycklarna som anges ovan.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — Sekretesspolicy**\nSenast uppdaterad: juni 2026\n\n---\n\n**1. Introduktion**\n\nApplyFlow (\"vi\", \"vår\", \"tillägget\") är ett Chrome-webbläsartillägg som hjälper användare att autofylla ansökningsformulär, spåra sina ansökningar och hantera sin professionella profil. Denna integritetspolicy förklarar hur vi samlar in, använder, lagrar och skyddar din information.\n\nGenom att installera och använda ApplyFlow godkänner du praxis som beskrivs i denna policy.\n\n---\n\n**2. Data vi samlar in**\n\nVi samlar bara in informationen som du frivilligt tillhandahåller för att aktivera tilläggets funktioner:\n\n• **Profilinformation**: Ditt namn, e-post, telefonnummer, högskola, examen, kompetens, arbetshistoria, projekt och yrkeslänkar (LinkedIn, GitHub, Portfolio **_EE1__/Degraphic).•NL (Valfritt)**: Inställningar för kön, funktionshinder, veteranstatus och arbetstillstånd – tillhandahålls endast om du väljer att fylla i dessa fält. Denna data används uteslutande för att autofylla valfria EEO-enkäter om jobbansökningar.\n• **Ansökningsspårningsdata**: Arbetstitel, företag, ansökningsadress, status och anteckningar för befattningar som du spårar med tillägget.\n• **Användningsstatistik**: Antal utförda autofyllåtgärder (lagrade lokalt för att upprätthålla_20_dagliga gränser för dig).__•NLAuthentic. väljer att logga in med Google lagrar vi ditt Google-visningsnamn, din e-postadress och din profilbilds-URL för att anpassa din upplevelse och möjliggöra molnsynkronisering.\n\nVi samlar **inte** in:\n• Betalnings- eller finansiell information\n• Webbläsarhistorik eller allmän surfaktivitet\n• All information från sidor_6-ansökningar som inte är relaterade till sidorna_6-ansökningar från sidorna_6____NL. tillägget aktiveras inte aktivt\n\n---\n\n**3. Hur vi lagrar dina data**\n\n**3.1 Lokal lagring (standard)**\nAll data lagras i första hand i din webbläsares chrome.storage.local API. Dessa data finns endast på din enhet och överförs aldrig till någon server utan din uttryckliga åtgärd.\n\n**3.2 Cloud Sync (valfritt)**\nOm du väljer att logga in med Google och aktiverar funktionen \"Supabase Sync\", kommer din profil och applikationsdata också att synkroniseras till en Supabase-databas. Du behåller full äganderätt till denna data. Du kan ta bort den när som helst från avsnittet Konto och synkronisering.\n\n**3.3 Gemini AI-förfrågningar**\nNär AI-funktioner används (t.ex. uppsatsgenerering, jobbanalys), skickas delar av din profil (färdigheter, examen, sammanfattning) och jobbbeskrivningstexten till Googles response-API. Detta behandlas enligt Googles standard API-användarvillkor och sekretesspolicy. Vi rekommenderar att du inte inkluderar känsliga personliga identifierare i ditt AI-stödda innehåll.\n\n---\n\n**4. Datadelning**\n\nVi **inte** säljer, byter, hyr ut eller delar din personliga information med någon tredje part i marknadsförings- eller reklamsyfte.\n\nDin data kan behandlas av följande betrodda tjänster:\n• **Google Gemini API**: För AI-analys och ifyllning av formulär (https://policies.google.com/privacy)\n• **Google OAuth**: För kontoautentisering (https://policies.google.com/privacy)\n• **Supabase**: För valfri molnlagring (https://supabase.com/privacy) — endast om du aktiverar sync\n\n---\n\n**5. Dina rättigheter och kontroller**\n\nDu har rätt att:\n• **Åtgå** all data som ApplyFlow har lagrat om dig (via Exportera säkerhetskopia i inställningarna)\n• **Korrigera** din information när som helst på profilfliken\n• **Radera alla data med \"Rensa alla dina data i inställningarna lokalt\"•__NL med \"Rensa alla dina data\"_0 **Återkalla samtycke** när som helst genom att avinstallera tillägget\n• **Inaktivera molnsynkronisering** genom att stänga av det i konto- och synkroniseringsinställningar\n\n**GDPR (EU-användare)**: Om du är bosatt i EU har du rätt att komma åt, korrigera, radera, begränsa bearbetningen av data och dataportar Förordning.\n\n**Indien — DPDP Act 2023**: I enlighet med Indiens Digital Personal Data Protection Act 2023 behandlar vi personuppgifter endast i syfte att tillhandahålla hjälptjänsten för jobbansökningar. Du kan när som helst återkalla ditt samtycke och begära radering av dina uppgifter genom att kontakta oss.\n\n**Kalifornien — CCPA**: Invånare i Kalifornien har rätt att få veta vilken personlig information som samlas in, rätten att radera och rätten att välja bort försäljning (vi säljer inte data).\n__NL___NL_7-1__\n0. Datalagring**\n\nLokal data bevaras tills du rensar den manuellt. Molnsynkroniserad data sparas tills du tar bort ditt konto eller begär borttagning. Vi tar inte bort data automatiskt.\n\n---\n\n**7. Säkerhet**\n\nVi vidtar rimliga tekniska åtgärder för att skydda dina data:\n• All molnkommunikation använder HTTPS/TLS-kryptering\n• Supabase Row-Level Security (RLS) säkerställer att användare endast kan komma åt sin egen data\n• Tillägget begär inte behörigheter utöver vad som behövs för dess funktion\n\n---\n\n**8. Barns integritet**\n\nApplyFlow är inte avsedd för användare under 13 år. Vi samlar inte in data från barn medvetet. Om du tror att ett barn har försett oss med personlig information, vänligen kontakta oss omedelbart.\n\n---\n\n**9. Ändringar av denna policy**\n\nVi kan uppdatera denna sekretesspolicy då och då. Betydande ändringar kommer att meddelas via tilläggets alternativsida. Fortsatt användning av tillägget efter ändringar utgör godkännande av den uppdaterade policyn.\n\n---\n\n**10. Kontakta oss**\n\nFör alla integritetsrelaterade frågor, förfrågningar om dataradering eller problem:\n\nE-post: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n104__NL_0_website: https://__NL__NL_0. strävar efter att svara på alla förfrågningar inom 30 dagar.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

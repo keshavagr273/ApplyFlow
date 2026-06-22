@@ -93,7 +93,12 @@
   },
   "applications_tracked": {
     "message": "_P_0__ aikace-aikacen da aka bi su · $2$ tambayoyin",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Fara nema don bin diddigin ci gaban ku",
@@ -217,7 +222,12 @@
   },
   "restore_confirm": {
     "message": "Load da bayanan martaba daga \"$1$\"? Wannan zai maye gurbin gyare-gyarenku na yanzu tare da wannan tsarin sake fasalin fasalin.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "An dawo da bayanai daga _P_0__",
@@ -233,7 +243,12 @@
   },
   "more_skills": {
     "message": "+$1$ ƙari",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "An cika aikace-aikacen ta atomatik kuma an shiga! ✨",
@@ -761,11 +776,24 @@
   },
   "job_details_detected_intro": {
     "message": "Sannu! Ina iya ganin kuna kallon wani rawa a **$1$** a **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Sannu! Ina iya ganin kuna kallon rawar **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Sannu! Ni ne matukin jirgin ku na AI. Kewaya zuwa jerin ayyuka kuma zan bincika ta atomatik, ko tambaye ni wani abu!",
@@ -889,7 +917,12 @@
   },
   "ai_analysis_compatible": {
     "message": "Ci gaba naku ya dace **$1$%** tare da wannan rawar.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Barka da dawowa, _P_0__!",
@@ -1554,5 +1587,17 @@
   "privacy_policy_content": {
     "message": "** Aiwatar da Tsawaita Tafiya Chrome - Manufar Keɓantawa ***\nAn sabunta ta ƙarshe: Yuni 2026\n\n--_NL_3__\n**1. Gabatarwa**\n\nApplyFlow (\"we\", \"namu\", \"The Extension\") tsawo ne na burauzar Chrome wanda ke taimaka wa masu amfani su cika fom ɗin aikace-aikacen kai tsaye, bin aikace-aikacen su, da sarrafa bayanan ƙwararrun su. Wannan Dokar Sirri tana bayanin yadda muke tattarawa, amfani, adana, da kare bayananku.\n\nTa hanyar shigar da amfani da ApplyFlow, kun yarda da ayyukan da aka bayyana a cikin wannan tsarin. Bayanan da Muka Tattara**\n\nMuna tattara bayanan da kuka bayar da son rai kawai don ba da damar fasalulluka na tsawaitawa:\n\n• **Bayanin Bayanan Bayanai**: Sunanku, imel, lambar waya, koleji, digiri, ƙwarewa, tarihin aiki, ayyukan, da hanyoyin haɗin gwiwar ƙwararru (LinkedIn, GitHub, Fayil ɗin Fayil **) . (Na zaɓi)**: Jinsi, matsayin nakasa, matsayin tsohon soja, da zaɓin izinin aiki - ana bayar da shi kawai idan kun zaɓi cika waɗannan filayen. Ana amfani da wannan bayanan ne kawai don cika takaddun tambayoyin EEO na zaɓi akan aikace-aikacen aiki.\n• ** Bayanan Bibiyar Aikace-aikacen**: Sunan aiki, kamfani, URL ɗin aikace-aikacen, matsayi, da bayanin kula don matsayi da kuke waƙa ta hanyar amfani da tsawo. Idan kun zaɓi shiga tare da Google, muna adana sunan Google nuni, adireshin imel, da URL ɗin hoton bayanin martaba don keɓance kwarewarku da ba da damar daidaitawa ga girgije. bayanai daga shafuka lokacin da ba a kunna tsawaita aiki ba\n\n--\n\n**3. Yadda Muke Ajiye Bayananku**\n\n**3.1 Ma'ajiyar Gida (Tsoffin)**\nDukkan bayanan ana adana su ne a cikin chrome.storage.local API. Wannan bayanan yana kan na'urar ku kawai kuma ba a taɓa watsa shi zuwa kowane sabar ba tare da takamaiman aikinku ba. Kuna riƙe cikakken ikon wannan bayanan. Kuna iya share shi a kowane lokaci daga sashin Asusu & Daidaitawa.\n\n**3.3 Gemini AI Buƙatun**\nLokacin da aka yi amfani da fasalulluka na AI (misali, tsara rubutun, nazarin aiki), sassan bayanin martaba (ƙwarewa, digiri, taƙaitawa) da kuma bayanin bayanin bayanin aikin ana aika zuwa Google's Gemini API. Ana sarrafa wannan a ƙarƙashin ƙa'idodin API na Google's Sharuɗɗan Sabis da Manufar Keɓantawa. Muna ba da shawarar kar a haɗa abubuwan gano sirri na sirri a cikin abun ciki na taimakon AI.\n\n--\n\n**4. Rarraba Data**\nNL_45__Bama** siyarwa, kasuwanci, haya, ko raba keɓaɓɓen bayaninka tare da kowane ɓangare na uku don tallace-tallace ko tallace-tallace. (https://policies.google.com/privacy)\n• **Google OAuth**: Don tabbatar da asusu (https://policies.google.com/privacy)\n• **Supabase**: Don ajiyar girgije na zaɓi (https://supabase.com/privacy) - kawai idan kun kunna daidaita_NL_51__\n---\n\n**5. Hakkokinku & Sarrafa ku**_NL_55__\nKuna da haƙƙin:\n• **Samarwa** duk bayanan ApplyFlow da aka adana game da ku (ta hanyar Ajiyayyen fitarwa a cikin saitunan)\n• **Gyara** bayananku a kowane lokaci a cikin Shafin Bayanan martaba\n• Share duk bayanan da ke cikin gida*** saituna\n• **Jare yarda** a kowane lokaci ta hanyar cire tsawaita\n• **Kashe daidaitawar gajimare** ta hanyar jujjuya shi a cikin saitunan Asusu & Aiki tare\nNL_63__**GDPR (Masu amfani da EU)**: Idan kai mazaunin EU ne, kuna da haƙƙin sarrafa bayanai, da ikon sarrafa bayanai a ƙarƙashinsa Dokokin Kariyar Gabaɗaya.\n\n**Indiya — Dokar DPDP 2023**: A yarda da Dokar Kariya ta Dijital ta Indiya ta 2023, muna aiwatar da bayanan sirri kawai don manufar samar da sabis na taimakon aikace-aikacen aiki. Kuna iya janye izini kuma ku nemi goge bayananku a kowane lokaci ta hanyar tuntuɓar mu.\n\n**California — CCPA**: Mazauna California suna da 'yancin sanin menene bayanan sirri da aka tattara, 'yancin sharewa, da haƙƙin ficewa daga siyarwa (bama siyarwa) data).\n\n---\n\n**6. Riƙe bayanai**\n\nAna riƙe bayanan gida har sai kun share su da hannu. Ana adana bayanan da aka daidaita tsakanin gajimare har sai kun share asusunku ko neman gogewa. Ba ma share bayanai ta atomatik._NL_74__\n---\n\n**7. Tsaro**\nNL_79__Muna daukar matakan fasaha masu ma'ana don kare bayanan ku:\n• Duk hanyoyin sadarwar girgije suna amfani da boye-boye HTTPS/TLS\n• Supabase Row-Level Security (RLS) yana tabbatar da masu amfani zasu iya samun damar bayanan kansu kawai\n• Tsawaita baya neman izini fiye da abin da ake buƙata. aiki\n\n---\n\n**8. Sirri na Yara**\n\nApplyFlow ba a yi niyya ga masu amfani da ƙasa da shekara 13 ba. Ba ma tattara bayanai da gangan daga yara. Idan kun yarda yaro ya ba mu bayanan sirri, da fatan za a tuntuɓe mu nan take.\n\n--_NL_91__\n**9. Canje-canje ga Wannan Manufofin**\n\nMuna iya sabunta wannan Dokar Keɓaɓɓun lokaci zuwa lokaci. Za a sanar da manyan canje-canje ta hanyar shafin Zabuka na tsawo. Ci gaba da amfani da tsawaita bayan canje-canje ya ƙunshi yarda da sabunta manufofin.\n\n--\n\n**10. Tuntuɓe mu**\nNL_100__Don kowane tambayoyi masu alaƙa da keɓantawa, buƙatun goge bayanai, ko damuwa:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension https://applyflow.in\n\nMuna nufin amsa duk buƙatun cikin kwanaki 30.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

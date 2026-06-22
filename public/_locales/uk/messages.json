@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Виявлено",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Сторінку з вакансією не виявлено",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ заявок відстежено · $2$ співбесід",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Почніть подавати заявку, щоб відстежувати свій прогрес",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Проаналізовано $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Завантажити деталі профілю з \"$1$\"? Це замінить ваші поточні редагування проаналізованою структурою цього резюме.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Відновлено деталі з $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Результат матчу",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "ще +$1$",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Заява автоматично заповнена та зареєстрована! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ записів",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ навички",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ проектів",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ відповідей",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Авторизований",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ додатків",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Фільтрувати за компанією...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ всього заяв",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Даних ще немає",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Контекст: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Ваш кар'єрний другий пілот",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Ось $1$ ймовірні запитання для співбесіди:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Оцінка оптимізації резюме: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Відновити пропозиції збігу",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "привіт Я бачу, що ти шукаєш роль **$1$** на **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "привіт Я бачу, що ти шукаєш роль **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "привіт Я твій кар’єрний пілот ШІ. Перейдіть до списку вакансій, і я автоматично проаналізую його, або запитайте мене будь-що!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Увійшли як $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Вийти",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Ваше резюме **$1$% сумісне** з цією посадою.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "З поверненням, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Не вдалося отримати інформацію профілю користувача Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Помилка входу OAuth: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Не вдалося отримати маркер доступу з переспрямування.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Ліцензійний ключ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Деактивувати ліцензію",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Команди розширення Chrome потребують ручного призначення в диспетчері ярликів Chrome. Перейдіть до $1$, щоб прив’язати перелічені вище ключі.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — Політика конфіденційності**\nОстаннє оновлення: червень 2026\n\n---\n\n**1. Вступ**\n\nApplyFlow («ми», «наш», «розширення») — це розширення для браузера Chrome, яке допомагає користувачам автоматично заповнювати форми заявок на роботу, відстежувати свої заявки та керувати своїм професійним профілем. У цій Політиці конфіденційності пояснюється, як ми збираємо, використовуємо, зберігаємо та захищаємо вашу інформацію.\n\nВстановлюючи та використовуючи ApplyFlow, ви погоджуєтеся з правилами, описаними в цій політиці.\n\n---\n\n**2. Дані, які ми збираємо**\n\nМи збираємо лише ту інформацію, яку ви добровільно надаєте, щоб увімкнути функції розширення:\n\n• **Інформація про профіль**: ваше ім’я, електронна адреса, номер телефону, коледж, ступінь, навички, історія роботи, проекти та професійні посилання (LinkedIn, GitHub, Портфоліо).\n• **EEO/демографічна інформація (необов’язково)**: Стать, статус інвалідності, статус ветерана та переваги дозволу на роботу — надається, лише якщо ви вирішите заповнити ці поля. Ці дані використовуються виключно для автоматичного заповнення додаткових анкет EEO у заявках на прийом на роботу.\n• **Дані відстеження заявок**: назва посади, компанія, URL-адреса заявки, статус і примітки до посад, які ви відстежуєте за допомогою розширення.\n• **Статистика використання**: кількість виконаних операцій автозаповнення (зберігається локально для забезпечення щоденних обмежень).\n• **Дані автентифікації**: якщо ви вирішите ввійти за допомогою Google, ми зберігаємо ваше відображуване ім’я Google, адресу електронної пошти та URL-адресу зображення профілю, щоб персоналізувати ваш досвід і активувати хмарну синхронізацію.\n\nМи **не** збираємо:\n• Платіжну або фінансову інформацію\n• Історію веб-переглядача або загальну активність у веб-переглядачі\n• Будь-яку інформацію зі сторінок, які не пов’язані із заявою на роботу\n• Будь-які дані зі сторінок, коли розширення не активовано активно\n\n---\n\n**3. Як ми зберігаємо ваші дані**\n\n**3.1 Локальна пам’ять (за замовчуванням)**\nУсі дані в основному зберігаються в API вашого браузера chrome.storage.local. Ці дані зберігаються лише на вашому пристрої та ніколи не передаються на будь-який сервер без вашої явної дії.\n\n**3.2 Хмарна синхронізація (необов’язково)**\nЯкщо ви вирішите ввійти за допомогою Google і ввімкнути функцію «Supabase Sync», ваш профіль і дані програми також будуть синхронізовані з базою даних Supabase. Ви зберігаєте повне право власності на ці дані. Ви можете будь-коли видалити його в розділі «Обліковий запис і синхронізація».\n\n**3.3 Запити Gemini AI**\nКоли ​​використовуються функції AI (наприклад, створення есе, аналіз роботи), частини вашого профілю (навички, ступінь, короткий опис) і текст опису роботи надсилаються до Gemini API Google для створення відповіді. Це обробляється відповідно до стандартних Умов використання API та Політики конфіденційності Google. Ми рекомендуємо не включати конфіденційні особисті ідентифікатори у ваш контент за допомогою ШІ.\n\n---\n\n**4. Обмін даними**\n\nМи **не** продаємо, не обмінюємо, не здаємо в оренду та не передаємо вашу особисту інформацію будь-яким третім особам для маркетингових або рекламних цілей.\n\nВаші дані можуть оброблятися такими надійними службами:\n• **Google Gemini API**: для заповнення та аналізу форм на основі штучного інтелекту. (https://policies.google.com/privacy)\n• **Google OAuth**: для автентифікації облікового запису (https://policies.google.com/privacy)\n• **Supabase**: для додаткового хмарного сховища (https://supabase.com/privacy) — лише якщо ви ввімкнете sync\n\n---\n\n**5. Ваші права та контроль**\n\nВи маєте право:\n• **Доступ** до всіх даних, збережених ApplyFlow про вас (через «Експорт резервної копії» в налаштуваннях)\n• **Виправлення** вашої інформації в будь-який час на вкладці «Профіль»\n• **Видалити** всі ваші дані локально за допомогою «Очистити всі дані профілю» в налаштуваннях\n• **Відкликати згоду** будь-коли, видаливши розширення\n• **Вимкнути хмарну синхронізацію**, вимкнувши її в налаштуваннях облікового запису та синхронізації\n\n**GDPR (користувачі ЄС)**: якщо ви є резидентом ЄС, ви маєте права доступу, виправляти, видаляти, обмежувати обробку та переносити дані відповідно до Загального регламенту захисту даних.\n\n**Індія — Закон про DPDP 2023**: відповідно до Закону Індії про захист персональних даних у цифрових даних 2023 року ми обробляємо персональні дані лише з метою надання допомоги у поданні заявки на роботу. Ви можете будь-коли відкликати згоду та вимагати видалення своїх даних, зв’язавшись з нами.\n\n**Каліфорнія — CCPA**: жителі Каліфорнії мають право знати, яка особиста інформація збирається, право на видалення та право відмовитися від продажу (ми не продаємо) дані).\n\n---\n\n**6. Зберігання даних**\n\nЛокальні дані зберігаються, доки ви не очистите їх вручну. Дані, синхронізовані з хмарою, зберігаються, доки ви не видалите обліковий запис або не подасте запит на видалення. Ми не видаляємо дані автоматично.\n\n---\n\n**7. Безпека**\n\nМи вживаємо розумних технічних заходів для захисту ваших даних:\n• Усі хмарні комунікації використовують шифрування HTTPS/TLS\n• Безпека на рівні рядка (RLS) гарантує, що користувачі можуть отримати доступ лише до своїх власних даних\n• Розширення не вимагає дозволів, окрім тих, які необхідні для його ядра функція\n\n---\n\n**8. Конфіденційність дітей**\n\nApplyFlow не призначений для користувачів віком до 13 років. Ми свідомо не збираємо дані від дітей. Якщо ви вважаєте, що дитина надала нам особисту інформацію, негайно зв’яжіться з нами.\n\n---\n\n**9. Зміни в цій Політиці**\n\nМи можемо час від часу оновлювати цю Політику конфіденційності. Про значні зміни буде повідомлено на сторінці параметрів розширення. Продовження використання розширення після змін означає прийняття оновленої політики.\n\n---\n\n**10. Зв’яжіться з нами**\n\nЗ будь-якими запитаннями, пов’язаними з конфіденційністю, запитами на видалення даних або проблемами:\n\nЕлектронна адреса: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nВеб-сайт: https://applyflow.in\n\nМи прагнемо відповідати на всі запити протягом 30 днів.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

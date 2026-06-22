@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ గుర్తించబడింది",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "ఉద్యోగ పేజీ ఏదీ కనుగొనబడలేదు",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ అప్లికేషన్‌లు ట్రాక్ చేయబడ్డాయి · $2$ ఇంటర్వ్యూలు",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "మీ పురోగతిని ట్రాక్ చేయడానికి దరఖాస్తు చేయడం ప్రారంభించండి",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$లో అన్వయించబడింది",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" నుండి ప్రొఫైల్ వివరాలను లోడ్ చేయాలా? ఇది మీ ప్రస్తుత సవరణలను ఈ రెజ్యూమ్ యొక్క పార్స్డ్ స్ట్రక్చర్‌తో భర్తీ చేస్తుంది.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ నుండి వివరాలు పునరుద్ధరించబడ్డాయి",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "మ్యాచ్ స్కోరు",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ ఫిట్",
-    "description": "Fit percent text"
+    "message": "$1$% ఫిట్",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ మరిన్ని",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "అప్లికేషన్ ఆటోఫిల్ చేయబడింది మరియు లాగ్ చేయబడింది! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ఎంట్రీలు",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ నైపుణ్యాలు",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ ప్రాజెక్ట్‌లు",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ సమాధానాలు",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "అధీకృతం",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ అప్లికేషన్లు",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "కంపెనీ వారీగా ఫిల్టర్ చేయండి...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ మొత్తం అప్లికేషన్‌లు",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "ఇంకా డేటా లేదు",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "సందర్భం: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "మీ కెరీర్ కోపైలట్",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "ఇక్కడ $1$ ఇంటర్వ్యూ ప్రశ్నలు ఉన్నాయి:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "రెస్యూమ్ ఆప్టిమైజేషన్ స్కోర్: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "మ్యాచ్ సూచనలను పునఃప్రారంభించండి",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "హాయ్! మీరు **$2$**లో **$1$** పాత్రను చూస్తున్నారని నేను చూడగలను.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "హాయ్! మీరు **$1$** పాత్రను చూస్తున్నారని నేను చూస్తున్నాను.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "హాయ్! నేను మీ AI కెరీర్ కోపైలట్‌ని. ఉద్యోగ జాబితాకు నావిగేట్ చేయండి మరియు నేను స్వయంచాలకంగా దాన్ని విశ్లేషిస్తాను లేదా నన్ను ఏదైనా అడగండి!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$గా లాగిన్ చేసారు",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "సైన్ అవుట్ చేయండి",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "మీ రెజ్యూమ్ ఈ పాత్రకు **$1$% అనుకూలంగా ఉంది**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "తిరిగి స్వాగతం, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google వినియోగదారు ప్రొఫైల్ సమాచారాన్ని పొందడంలో విఫలమైంది.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth లాగిన్ విఫలమైంది: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "దారి మళ్లింపు నుండి యాక్సెస్ టోకెన్‌ని పొందడంలో విఫలమైంది.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "లైసెన్స్ కీ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "లైసెన్స్ నిష్క్రియం చేయండి",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome పొడిగింపు ఆదేశాలకు Chrome యొక్క షార్ట్‌కట్ మేనేజర్‌లో మాన్యువల్ అసైన్‌మెంట్ అవసరం. పైన జాబితా చేయబడిన కీలను బైండ్ చేయడానికి $1$కి వెళ్లండి.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome పొడిగింపు — గోప్యతా విధానం**\nచివరిగా నవీకరించబడింది: జూన్ 2026\n\n---_\n\n**1. పరిచయం**\n\nApplyFlow (\"మేము\", \"మా\", \"ఎక్స్‌టెన్షన్\") అనేది క్రోమ్ బ్రౌజర్ పొడిగింపు, ఇది వినియోగదారులు ఉద్యోగ దరఖాస్తు ఫారమ్‌లను ఆటోఫిల్ చేయడం, వారి అప్లికేషన్‌లను ట్రాక్ చేయడం మరియు వారి ప్రొఫెషనల్ ప్రొఫైల్‌ను నిర్వహించడంలో సహాయపడుతుంది. ఈ గోప్యతా విధానం మేము మీ సమాచారాన్ని ఎలా సేకరిస్తాము, ఉపయోగిస్తాము, నిల్వ చేస్తాము మరియు సంరక్షిస్తాము.\n\nApplyFlowని ఇన్‌స్టాల్ చేయడం మరియు ఉపయోగించడం ద్వారా, మీరు ఈ విధానంలో వివరించిన అభ్యాసాలకు అంగీకరిస్తున్నారు.\n\n_____\n\n**2. మేము సేకరిస్తున్న డేటా**\n\n పొడిగింపు లక్షణాలను ప్రారంభించడానికి మీరు స్వచ్ఛందంగా అందించిన సమాచారాన్ని మాత్రమే మేము సేకరిస్తాము:\n\n• **ప్రొఫైల్ సమాచారం**: మీ పేరు, ఇమెయిల్, ఫోన్ నంబర్, కళాశాల, డిగ్రీ, నైపుణ్యాలు, పని చరిత్ర, ప్రాజెక్ట్‌లు మరియు వృత్తిపరమైన లింక్‌లు, Gitink, పోర్ట్‌ఫోలియో).\n• **EEO/డెమోగ్రాఫిక్ సమాచారం (ఐచ్ఛికం)**: లింగం, వైకల్యం స్థితి, అనుభవజ్ఞుల స్థితి మరియు పని అధికార ప్రాధాన్యతలు — మీరు ఈ ఫీల్డ్‌లను పూరించడానికి ఎంచుకుంటే మాత్రమే అందించబడతాయి. జాబ్ అప్లికేషన్‌లపై ఐచ్ఛిక EEO ప్రశ్నాపత్రాలను ఆటోఫిల్ చేయడానికి ఈ డేటా ప్రత్యేకంగా ఉపయోగించబడుతుంది.\n• **అప్లికేషన్ ట్రాకింగ్ డేటా**: మీరు ఎక్స్‌టెన్షన్‌ని ఉపయోగించి ట్రాక్ చేసే ఉద్యోగ శీర్షిక, కంపెనీ, అప్లికేషన్ URL, స్థితి మరియు స్థానాలకు సంబంధించిన గమనికలు.\n• **రోజువారీ వినియోగ గణాంకాల కోసం అమలు చేయబడిన స్థానిక గణాంకాలు పరిమితులు).\n• **ప్రామాణీకరణ డేటా**: మీరు Googleతో సైన్ ఇన్ చేయాలని ఎంచుకుంటే, మీ అనుభవాన్ని వ్యక్తిగతీకరించడానికి మరియు క్లౌడ్ సమకాలీకరణను ప్రారంభించడానికి మేము మీ Google ప్రదర్శన పేరు, ఇమెయిల్ చిరునామా మరియు ప్రొఫైల్ చిత్ర URLని నిల్వ చేస్తాము.\n_NL_22__మేము **కాదు** సేకరిస్తాము యాక్టివిటీ\n• జాబ్-అప్లికేషన్-సంబంధం లేని పేజీల నుండి ఏదైనా సమాచారం\n• పొడిగింపు సక్రియంగా ట్రిగ్గర్ చేయబడనప్పుడు పేజీల నుండి ఏదైనా డేటా\n\n---_\n\n**3. మేము మీ డేటాను ఎలా నిల్వ చేస్తాము**\n\n**3.1 స్థానిక నిల్వ (డిఫాల్ట్)**\nమొత్తం డేటా ప్రాథమికంగా మీ బ్రౌజర్ chrome.storage.local APIలో నిల్వ చేయబడుతుంది. ఈ డేటా మీ పరికరంలో మాత్రమే ఉంటుంది మరియు మీ స్పష్టమైన చర్య లేకుండా ఏ సర్వర్‌కు ఎప్పటికీ ప్రసారం చేయబడదు.\n\n**3.2 Cloud Sync (ఐచ్ఛికం)**\nమీరు Googleతో సైన్ ఇన్ చేసి, \"Supabase Sync\" ఫీచర్‌ని ఎనేబుల్ చేస్తే, మీ ప్రొఫైల్ మరియు అప్లికేషన్ డేటాకి Supabase డేటా సమకాలీకరించబడుతుంది. మీరు ఈ డేటా యొక్క పూర్తి యాజమాన్యాన్ని కలిగి ఉంటారు. మీరు దీన్ని ఖాతా & సమకాలీకరణ విభాగం నుండి ఏ సమయంలోనైనా తొలగించవచ్చు.\n\n**3.3 జెమిని AI అభ్యర్థనలు**\nAI ఫీచర్‌లను ఉపయోగించినప్పుడు (ఉదా., వ్యాసాల రూపకల్పన, ఉద్యోగ విశ్లేషణ), మీ ప్రొఫైల్‌లోని భాగాలు (నైపుణ్యాలు, డిగ్రీ, సారాంశం) మరియు Google ఉద్యోగ వివరణ టెక్స్ట్‌కు APIకి పంపబడతాయి. ఇది Google యొక్క ప్రామాణిక API సేవా నిబంధనలు మరియు గోప్యతా విధానం ప్రకారం ప్రాసెస్ చేయబడుతుంది. మీ AI-సహాయక కంటెంట్‌లో సున్నితమైన వ్యక్తిగత ఐడెంటిఫైయర్‌లను చేర్చవద్దని మేము సిఫార్సు చేస్తున్నాము.\n\n_____\n\n**4. డేటా భాగస్వామ్యం**\n\nమేము మార్కెటింగ్ లేదా ప్రకటనల ప్రయోజనాల కోసం మీ వ్యక్తిగత సమాచారాన్ని **** విక్రయించడం, వ్యాపారం చేయడం, అద్దెకు ఇవ్వడం లేదా ఏదైనా మూడవ పక్షాలతో భాగస్వామ్యం చేయడం వంటివి చేయము.\n\nమీ డేటా క్రింది విశ్వసనీయ సేవల ద్వారా ప్రాసెస్ చేయబడవచ్చు:\n• **Google ఫారమ్ నింపిన జెమిని API: (https://policies.google.com/privacy)\n• **Google OAuth**: ఖాతా ప్రామాణీకరణ కోసం (https://policies.google.com/privacy)\n• **Supabase**: ఐచ్ఛిక క్లౌడ్ నిల్వ కోసం (https://supabase.com/privacy) — మీరు ఆనందించగలిగితే మాత్రమే సమకాలీకరించు\n\n_____\n\n**5. మీ హక్కులు & నియంత్రణలు**\n\nమీకు హక్కు ఉంది:\n• **యాక్సెస్** మీ గురించి నిల్వ చేసిన మొత్తం డేటా ApplyFlow (సెట్టింగ్‌లలోని ఎగుమతి బ్యాకప్ ద్వారా)\n• **సరిదిద్దండి** మీ మొత్తం సమాచారాన్ని ఏ సమయంలోనైనా ప్రొఫైల్ 59__\"ని ఉపయోగించి మీ మొత్తం సమాచారాన్ని తొలగించండి ప్రొఫైల్ డేటా\" సెట్టింగ్‌లలో\n• **ఎక్స్‌టెన్షన్‌ని అన్‌ఇన్‌స్టాల్ చేయడం ద్వారా ఎప్పుడైనా** సమ్మతిని ఉపసంహరించుకోండి\n• **క్లౌడ్ సింక్‌ను డిజేబుల్ చేయండి** ఖాతా & సమకాలీకరణ సెట్టింగ్‌లలో టోగుల్ చేయడం ద్వారా\n\n**GDPRని మీరు ఉపయోగించుకునే హక్కులు* (EU: మీరు కలిగి ఉంటే) హక్కులు సాధారణ డేటా ప్రొటెక్షన్ రెగ్యులేషన్ కింద ప్రాసెసింగ్‌ను సరిదిద్దడం, తొలగించడం, పరిమితం చేయడం మరియు డేటా పోర్టబిలిటీని పరిమితం చేయడం.\n\n**భారతదేశం — DPDP చట్టం 2023**: భారతదేశం యొక్క డిజిటల్ వ్యక్తిగత డేటా రక్షణ చట్టం 2023కి అనుగుణంగా, మేము ఉద్యోగ అప్లికేషన్ సేవను అందించడం కోసం మాత్రమే వ్యక్తిగత డేటాను ప్రాసెస్ చేస్తాము. మీరు మమ్మల్ని సంప్రదించడం ద్వారా ఎప్పుడైనా సమ్మతిని ఉపసంహరించుకోవచ్చు మరియు మీ డేటాను తొలగించమని అభ్యర్థించవచ్చు.\n\n**కాలిఫోర్నియా — CCPA**: కాలిఫోర్నియా నివాసితులు ఏ వ్యక్తిగత సమాచారాన్ని సేకరించారో, తొలగించే హక్కును మరియు విక్రయాన్ని నిలిపివేసే హక్కును కలిగి ఉంటారు (మేము విక్రయించము డేటా).\n\n_____\n\n**6. డేటా నిలుపుదల**\n\nమీరు మాన్యువల్‌గా క్లియర్ చేసే వరకు స్థానిక డేటా అలాగే ఉంచబడుతుంది. మీరు మీ ఖాతాను తొలగించే వరకు లేదా తొలగింపును అభ్యర్థించే వరకు క్లౌడ్-సమకాలీకరించబడిన డేటా అలాగే ఉంచబడుతుంది. మేము స్వయంచాలకంగా డేటాను తొలగించము.\nNL_75_______\n\n**7. భద్రత**\n\nమీ డేటాను రక్షించడానికి మేము సహేతుకమైన సాంకేతిక చర్యలను తీసుకుంటాము:\n• అన్ని క్లౌడ్ కమ్యూనికేషన్‌లు HTTPS/TLS ఎన్‌క్రిప్షన్\n• సుపాబేస్ రో-లెవల్ సెక్యూరిటీ (RLS) వినియోగదారులు తమ స్వంత డేటాను మాత్రమే యాక్సెస్ చేయగలరని నిర్ధారిస్తుంది__NL_82 కోసం అదనపు అభ్యర్థనలు అవసరం లేదు__• ఫంక్షన్\n\n_____\n\n**8. పిల్లల గోప్యత**\n\nApplyFlow 13 సంవత్సరాల కంటే తక్కువ వయస్సు ఉన్న వినియోగదారుల కోసం ఉద్దేశించబడలేదు. మేము పిల్లల నుండి డేటాను ఉద్దేశపూర్వకంగా సేకరించము. పిల్లలు మాకు వ్యక్తిగత సమాచారాన్ని అందించారని మీరు విశ్వసిస్తే, దయచేసి వెంటనే మమ్మల్ని సంప్రదించండి.\n\n_---_\n\n**9. ఈ విధానానికి మార్పులు**\n\nమేము ఈ గోప్యతా విధానాన్ని ఎప్పటికప్పుడు అప్‌డేట్ చేయవచ్చు. ముఖ్యమైన మార్పులు పొడిగింపు ఎంపికల పేజీ ద్వారా తెలియజేయబడతాయి. మార్పుల తర్వాత పొడిగింపు యొక్క నిరంతర ఉపయోగం నవీకరించబడిన పాలసీని ఆమోదించింది.\n\n_____\n\n**10. మమ్మల్ని సంప్రదించండి**\n\nఏదైనా గోప్యతా సంబంధిత ప్రశ్నలు, డేటా తొలగింపు అభ్యర్థనలు లేదా ఆందోళనల కోసం:\n\nఇమెయిల్: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension https://applyflow.in\n\nమేము 30 రోజులలోపు అన్ని అభ్యర్థనలకు ప్రతిస్పందించాలని లక్ష్యంగా పెట్టుకున్నాము.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

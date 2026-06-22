@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "تم اكتشاف $1$",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "لم يتم اكتشاف أي صفحة مهمة",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "تم تتبع طلبات $1$ · مقابلات $2$",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "ابدأ التقديم لتتبع تقدمك",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "تم التحليل على $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "هل تريد تحميل تفاصيل الملف الشخصي من \"$1$\"؟ سيؤدي هذا إلى استبدال تعديلاتك الحالية بالبنية التي تم تحليلها لهذه السيرة الذاتية.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "تمت استعادة التفاصيل من $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "نتيجة المباراة",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ مناسب",
-    "description": "Fit percent text"
+    "message": "$1$% مناسب",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ المزيد",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "تم ملء الطلب تلقائيًا وتسجيله! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ إدخالات",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ المهارات",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ المشاريع",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ الإجابات",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "أذن",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ التطبيقات",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "تصفية حسب الشركة...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ إجمالي الطلبات",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "لا توجد بيانات حتى الآن",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "السياق: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "مساعد الطيار الوظيفي الخاص بك",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "فيما يلي $1$ أسئلة المقابلة المحتملة:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "استئناف نتيجة التحسين: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "استئناف اقتراحات المباراة",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "أهلاً! أستطيع أن أرى أنك تنظر إلى دور **$1$** في **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "أهلاً! أستطيع أن أرى أنك تنظر إلى دور **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "أهلاً! أنا مساعد الطيار الوظيفي الخاص بك في مجال الذكاء الاصطناعي. انتقل إلى قائمة الوظائف وسأقوم بتحليلها تلقائيًا أو اسألني عن أي شيء!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "تم تسجيل الدخول كـ $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "تسجيل الخروج",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "سيرتك الذاتية **$1$% متوافقة** مع هذا الدور.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "مرحبًا بعودتك، $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "فشل جلب معلومات الملف الشخصي لمستخدم Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "فشل تسجيل الدخول عبر OAuth: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "فشل جلب رمز الوصول من إعادة التوجيه.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "مفتاح الترخيص: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "إلغاء تنشيط الترخيص",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "تتطلب أوامر ملحق Chrome تعيينًا يدويًا في مدير اختصارات Chrome. انتقل إلى $1$ لربط المفاتيح المذكورة أعلاه.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ملحق ApplyFlow لمتصفح Chrome — سياسة الخصوصية**\nآخر تحديث: يونيو 2026\n\n---\n\n**1. مقدمة**\n\nApplyFlow (\"نحن\"، \"خاصتنا\"، \"الملحق\") هو امتداد لمتصفح Chrome يساعد المستخدمين على الملء التلقائي لنماذج طلبات الوظائف، وتتبع طلباتهم، وإدارة ملفاتهم الشخصية المهنية. تشرح سياسة الخصوصية هذه كيف نقوم بجمع معلوماتك واستخدامها وتخزينها وحمايتها.\n\nبتثبيت واستخدام ApplyFlow، فإنك توافق على الممارسات الموضحة في هذه السياسة.\n\n---\n\n**2. البيانات التي نجمعها**\n\nنحن نجمع فقط المعلومات التي تقدمها طوعًا لتمكين ميزات الامتداد:\n\n• **معلومات الملف الشخصي**: اسمك، بريدك الإلكتروني، رقم هاتفك، كليتك، الدرجة العلمية، المهارات، تاريخ العمل، المشاريع، والروابط المهنية (LinkedIn، GitHub، Portfolio).\n• **معلومات تكافؤ فرص العمل/المعلومات الديموغرافية (اختياري)**: الجنس، وحالة الإعاقة، وحالة المحاربين القدامى، وتفضيلات تصريح العمل - يتم تقديمها فقط إذا اخترت ملء هذه الحقول. يتم استخدام هذه البيانات حصريًا للملء التلقائي لاستبيانات EEO الاختيارية في طلبات الوظائف.\n• **بيانات تتبع الطلب**: المسمى الوظيفي، والشركة، وعنوان URL للتطبيق، والحالة، والملاحظات الخاصة بالمناصب التي تتتبعها باستخدام الامتداد.\n• **إحصاءات الاستخدام**: عدد عمليات الملء التلقائي التي تم إجراؤها (المخزنة محليًا لفرض الحدود اليومية).\n• **بيانات المصادقة**: إذا اخترت تسجيل الدخول باستخدام Google، فإننا نخزن عرض Google الخاص بك الاسم وعنوان البريد الإلكتروني وعنوان URL لصورة الملف الشخصي لتخصيص تجربتك وتمكين المزامنة السحابية.\n\nنحن **لا** نجمع:\n• معلومات الدفع أو المعلومات المالية\n• سجل المتصفح أو نشاط التصفح العام\n• أي معلومات من الصفحات التي لا تتعلق بطلب الوظيفة\n• أي بيانات من الصفحات عندما لا يكون الامتداد نشطًا تم تشغيله\n\n---\n\n**3. كيف نقوم بتخزين بياناتك**\n\n**3.1 التخزين المحلي (افتراضي)**\nيتم تخزين جميع البيانات بشكل أساسي في واجهة برمجة تطبيقات chrome.storage.local في متصفحك. توجد هذه البيانات على جهازك فقط ولا يتم نقلها مطلقًا إلى أي خادم دون اتخاذ إجراء صريح منك.\n_NL_35__**3.2 المزامنة السحابية (اختياري)**\nإذا اخترت تسجيل الدخول باستخدام Google وتمكين ميزة \"Supabase Sync\"، فستتم مزامنة ملفك الشخصي وبيانات التطبيق أيضًا مع قاعدة بيانات Supabase. أنت تحتفظ بالملكية الكاملة لهذه البيانات. يمكنك حذفه في أي وقت من قسم \"الحساب والمزامنة\".\n\n**3.3 طلبات Gemini AI**\nعند استخدام ميزات الذكاء الاصطناعي (مثل إنشاء المقالات وتحليل الوظائف)، يتم إرسال أجزاء من ملفك الشخصي (المهارات والدرجة العلمية والملخص) ونص الوصف الوظيفي إلى Gemini API من Google لإنشاء الرد. تتم معالجة ذلك بموجب شروط خدمة واجهة برمجة التطبيقات (API) القياسية وسياسة الخصوصية الخاصة بشركة Google. نوصي بعدم تضمين معرفات شخصية حساسة في المحتوى المدعوم بالذكاء الاصطناعي.\n\n---\n\n**4. مشاركة البيانات**\n\nنحن **لا** نبيع معلوماتك الشخصية أو نتاجر بها أو نؤجرها أو نشاركها مع أي طرف ثالث لأغراض تسويقية أو إعلانية.\n\nقد تتم معالجة بياناتك عن طريق الخدمات الموثوقة التالية:\n• **Google Gemini API**: لملء النماذج وتحليلها المدعومة بالذكاء الاصطناعي (https://policies.google.com/privacy)\n• **Google OAuth**: لمصادقة الحساب (https://policies.google.com/privacy)\n• **Supabase**: للتخزين السحابي الاختياري (https://supabase.com/privacy) - فقط إذا قمت بتمكينه sync\n\n---\n\n**5. حقوقك وضوابطك**\n\nلديك الحق في:\n• **الوصول** إلى جميع البيانات التي قام ApplyFlow بتخزينها عنك (عبر تصدير النسخ الاحتياطي في الإعدادات)\n• **تصحيح** معلوماتك في أي وقت في علامة التبويب ملف التعريف\n• **حذف** جميع بياناتك محليًا باستخدام \"مسح جميع بيانات الملف الشخصي\" في الإعدادات\n• **سحب الموافقة** في أي وقت عن طريق إلغاء تثبيت الامتداد\n• **تعطيل المزامنة السحابية** عن طريق إيقاف تشغيلها في إعدادات الحساب والمزامنة\n\n**GDPR (مستخدمو الاتحاد الأوروبي)**: إذا كنت مقيمًا في الاتحاد الأوروبي، فلديك حقوق الوصول إلى البيانات وتصحيحها ومحوها وتقييد معالجتها وإمكانية نقلها بموجب اللائحة العامة لحماية البيانات.\n\n**الهند — DPDP قانون 2023**: وفقًا لقانون حماية البيانات الشخصية الرقمية الهندي لعام 2023، نقوم بمعالجة البيانات الشخصية فقط لغرض تقديم خدمة المساعدة في طلبات التوظيف. يمكنك سحب الموافقة وطلب حذف بياناتك في أي وقت عن طريق الاتصال بنا.\n\n**كاليفورنيا - CCPA**: يحق للمقيمين في كاليفورنيا معرفة المعلومات الشخصية التي يتم جمعها، والحق في الحذف، والحق في إلغاء الاشتراك في البيع (نحن لا نبيع البيانات).\n\n---\n\n**6. الاحتفاظ بالبيانات**\n\nيتم الاحتفاظ بالبيانات المحلية حتى تقوم بمسحها يدويًا. يتم الاحتفاظ بالبيانات المتزامنة مع السحابة حتى تقوم بحذف حسابك أو طلب الحذف. نحن لا نحذف البيانات تلقائيًا.\n\n---\n\n**7. الأمان**\n\nنحن نتخذ تدابير فنية معقولة لحماية بياناتك:\n• تستخدم جميع الاتصالات السحابية تشفير HTTPS/TLS\n• يضمن Supabase Row-Level Security (RLS) للمستخدمين إمكانية الوصول فقط إلى بياناتهم الخاصة\n• لا يطلب الامتداد أذونات تتجاوز ما هو مطلوب لجوهره وظيفة\n\n---\n\n**8. خصوصية الأطفال**\n\nApplyFlow غير مخصص للمستخدمين الذين تقل أعمارهم عن 13 عامًا. نحن لا نجمع البيانات من الأطفال عن قصد. إذا كنت تعتقد أن أحد الأطفال قد زودنا بمعلومات شخصية، فيرجى الاتصال بنا على الفور.\n\n---\n\n**9. التغييرات على هذه السياسة**\n\nقد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم إرسال التغييرات المهمة عبر صفحة خيارات الامتداد. يشكل الاستمرار في استخدام الامتداد بعد التغييرات قبولًا للسياسة المحدثة.\n\n---\n\n**10. اتصل بنا**\n\nلأي أسئلة تتعلق بالخصوصية أو طلبات حذف البيانات أو المخاوف:\n\nالبريد الإلكتروني:privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nموقع الويب: https://applyflow.in\n\nنهدف إلى الرد على جميع الطلبات خلال 30 يومًا.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

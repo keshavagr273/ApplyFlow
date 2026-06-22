@@ -14,13 +14,15 @@ async function enqueueWrite(operation: () => Promise<void>): Promise<void> {
 // ─── Defaults ────────────────────────────────────────────────────────────────
 
 const DEFAULT_SETTINGS: AIServiceSettings = {
-  geminiApiKey: import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyBq-whqtAErXrbshvOFX9J22-7AMWSItAo',
+  // SECURITY: Never use hardcoded fallback API keys. If the env var is absent,
+  // the feature is disabled until the user enters their own key in Settings.
+  geminiApiKey: import.meta.env.VITE_GEMINI_API_KEY || '',
   demoMode: false,
   enableOverlay: true,
   autofillMode: 'ats-first',
   logOnlyAfterSubmission: false,
   showClipButton: true,
-  supabaseUrl: import.meta.env.VITE_SUPABASE_URL || 'https://lqddvilwmqthidjklghv.supabase.co',
+  supabaseUrl: import.meta.env.VITE_SUPABASE_URL || '',
   supabaseAnonKey: '',
   supabaseSyncEnabled: false,
   isPremium: false,
@@ -65,13 +67,10 @@ export const Storage = {
   getSettings: (): Promise<AIServiceSettings> =>
     chrome.storage.local.get('settings').then((r) => {
       const s = { ...DEFAULT_SETTINGS, ...((r.settings as Partial<AIServiceSettings>) || {}) };
-      // Always override key fields
-      s.supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://lqddvilwmqthidjklghv.supabase.co';
-      s.geminiApiKey = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyBq-whqtAErXrbshvOFX9J22-7AMWSItAo';
+      // Env vars always win over stored values (never hardcoded fallbacks)
+      if (import.meta.env.VITE_SUPABASE_URL) s.supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+      if (import.meta.env.VITE_GEMINI_API_KEY) s.geminiApiKey = import.meta.env.VITE_GEMINI_API_KEY;
       s.demoMode = false;
-      if (s.userEmail === 'keshavagrawal273@gmail.com') {
-        s.isPremium = true;
-      }
       s.supabaseSyncEnabled = s.isPremium ? !!s.userEmail : false;
       return s;
     }),
@@ -80,9 +79,6 @@ export const Storage = {
     enqueueWrite(async () => {
       const current = await Storage.getSettings();
       const newSettings = { ...current, ...s };
-      if (newSettings.userEmail === 'keshavagrawal273@gmail.com') {
-        newSettings.isPremium = true;
-      }
       newSettings.supabaseSyncEnabled = newSettings.isPremium ? !!newSettings.userEmail : false;
       await chrome.storage.local.set({ settings: newSettings });
     }),
@@ -244,13 +240,10 @@ export const Storage = {
     let allocated = 10; // Free trial
     
     if (settings.isPremium) {
-      if (settings.licenseKey === 'APPLYFLOW-PRO-2026') {
-        plan = 'ultimate_yearly';
-        allocated = 2500;
-      } else {
-        plan = 'pro_monthly';
-        allocated = 150;
-      }
+      // SECURITY: License tier is determined server-side. Do not compare against
+      // a plaintext hardcoded key. Premium users get the pro tier by default.
+      plan = 'pro_monthly';
+      allocated = 150;
     }
 
     const defaultBilling: UserBilling = {
@@ -307,7 +300,8 @@ export const Storage = {
   },
 
   deductCredits: async (cost: number, feature: string): Promise<boolean> => {
-    if (cost <= 0) return true;
+    if (cost < 0) return false;  // Reject invalid negative cost
+    if (cost === 0) return true; // Zero-cost operations are always allowed
     const settings = await Storage.getSettings();
     const billing = await Storage.getUserBilling();
     const remaining = (billing.creditsAllocated + billing.creditsPurchased) - billing.creditsUsed;
@@ -367,7 +361,7 @@ export const Storage = {
       const res = await chrome.storage.local.get('transactions');
       const transactions = (res.transactions as any[]) || [];
       transactions.push({
-        id: typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : Math.random().toString(36).substring(2),
+        id: crypto.randomUUID(),
         feature,
         credits_deducted: cost,
         timestamp: Date.now()
@@ -429,7 +423,7 @@ export const Storage = {
     enqueueWrite(async () => {
       const history = await Storage.getResumeHistory();
       const newResume: ParsedResume = {
-        id: typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : Math.random().toString(36).substring(2),
+        id: crypto.randomUUID(),
         filename,
         parsedAt: Date.now(),
         profileData,

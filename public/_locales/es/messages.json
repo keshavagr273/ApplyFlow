@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Detectado",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "No se detectó ninguna página de trabajo",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ solicitudes rastreadas · $2$ entrevistas",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Comience a aplicar para seguir su progreso",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Analizado en $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "¿Cargar detalles del perfil de \"$1$\"? Esto reemplazará sus ediciones actuales con la estructura analizada de este currículum.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Detalles restaurados de $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Puntuación del partido",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Ajuste",
-    "description": "Fit percent text"
+    "message": "$1$% Ajuste",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ más",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "¡Aplicación autocompletada y registrada! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ entradas",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ habilidades",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ proyectos",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ respuestas",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Autorizado",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ aplicaciones",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtrar por empresa...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ solicitudes totales",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Aún no hay datos",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Contexto: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Tu copiloto de carrera",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Aquí están $1$ preguntas probables de la entrevista:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Puntuación de optimización del currículum: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Reanudar sugerencias de partidos",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "¡Hola! Puedo ver que estás viendo un rol **$1$** en **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "¡Hola! Puedo ver que estás viendo un rol **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "¡Hola! Soy tu copiloto de carrera de IA. Navega hasta una oferta de trabajo y la analizaré automáticamente, ¡o pregúntame cualquier cosa!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Inicié sesión como $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Cerrar sesión",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Su currículum es **$1$% compatible** con este puesto.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "¡Bienvenido de nuevo, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "No se pudo recuperar la información del perfil de usuario de Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Error al iniciar sesión en OAuth: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "No se pudo recuperar el token de acceso de la redirección.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Clave de licencia: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Desactivar licencia",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Los comandos de extensión de Chrome requieren asignación manual en el administrador de accesos directos de Chrome. Vaya a $1$ para vincular las claves enumeradas anteriormente.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Extensión de Chrome ApplyFlow: Política de privacidad**\nÚltima actualización: junio de 2026\n\n---\n\n**1. Introducción**\n\nApplyFlow (\"nosotros\", \"nuestro\", \"la Extensión\") es una extensión del navegador Chrome que ayuda a los usuarios a completar automáticamente formularios de solicitud de empleo, realizar un seguimiento de sus solicitudes y administrar su perfil profesional. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos su información.\n\nAl instalar y utilizar ApplyFlow, usted acepta las prácticas descritas en esta política.\n\n---\n\n**2. Datos que recopilamos**\n\nRecopilamos solo la información que usted proporciona voluntariamente para habilitar las funciones de la extensión:\n\n• **Información de perfil**: su nombre, correo electrónico, número de teléfono, universidad, título, habilidades, historial laboral, proyectos y enlaces profesionales (LinkedIn, GitHub, Portfolio).\n• **EEO/información demográfica (opcional)**: género, estado de discapacidad, veterano. estado y preferencias de autorización de trabajo: se proporcionan solo si elige completar estos campos. Estos datos se utilizan exclusivamente para autocompletar cuestionarios EEO opcionales en solicitudes de empleo.\n• **Datos de seguimiento de solicitudes**: puesto de trabajo, empresa, URL de la solicitud, estado y notas para los puestos que realiza un seguimiento mediante la extensión.\n• **Estadísticas de uso**: número de operaciones de autocompletar realizadas (almacenadas localmente para aplicar límites diarios).\n• **Datos de autenticación**: si elige iniciar sesión con Google, almacenamos su nombre para mostrar de Google y su correo electrónico. dirección y URL de la imagen de perfil para personalizar su experiencia y habilitar la sincronización en la nube.\n\n**No** recopilamos:\n• Información financiera o de pago\n• Historial del navegador o actividad de navegación general\n• Cualquier información de páginas que no estén relacionadas con solicitudes de empleo\n• Cualquier dato de páginas cuando la extensión no está activa activado\n\n---\n\n**3. Cómo almacenamos sus datos**\n\n**3.1 Almacenamiento local (predeterminado)**\nTodos los datos se almacenan principalmente en la API chrome.storage.local de su navegador. Estos datos residen solo en su dispositivo y nunca se transmiten a ningún servidor sin su acción explícita.\n\n**3.2 Sincronización en la nube (opcional)**\nSi elige iniciar sesión con Google y habilitar la función \"Supabase Sync\", su perfil y los datos de su aplicación también se sincronizarán con una base de datos de Supabase. Usted conserva la plena propiedad de estos datos. Puede eliminarlo en cualquier momento desde la sección Cuenta y sincronización.\n\n**3.3 Solicitudes de IA de Gemini**\nCuando se utilizan funciones de IA (por ejemplo, generación de ensayos, análisis de trabajo), partes de su perfil (habilidades, título, resumen) y el texto de la descripción del trabajo se envían a la API Gemini de Google para generar la respuesta. Esto se procesa según los Términos de servicio y la Política de privacidad de la API estándar de Google. Recomendamos no incluir identificadores personales confidenciales en su contenido asistido por IA.\n\n---\n\n**4. Intercambio de datos**\n\nNosotros **no** vendemos, intercambiamos, alquilamos ni compartimos su información personal con terceros con fines de marketing o publicidad.\n\nSus datos pueden ser procesados por los siguientes servicios confiables:\n• **API de Google Gemini**: para completar y analizar formularios con tecnología de inteligencia artificial (https://policies.google.com/privacy)\n• **Google OAuth**: para autenticación de cuenta (https://policies.google.com/privacy)\n• **Supabase**: para almacenamiento en la nube opcional (https://supabase.com/privacy), solo si habilita la sincronización\n\n---\n\n**5. Sus derechos y controles**\n\nTiene derecho a:\n• **Acceder** a todos los datos que ApplyFlow ha almacenado sobre usted (a través de Exportar copia de seguridad en la configuración)\n• **Corregir** su información en cualquier momento en la pestaña Perfil\n• **Eliminar** todos sus datos localmente usando \"Borrar todos los datos del perfil\" en la configuración\n• **Retirar el consentimiento** en cualquier momento desinstalando el extensión\n• **Desactive la sincronización en la nube** desactivándola en Configuración de cuenta y sincronización\n\n**GDPR (usuarios de la UE)**: si es residente de la UE, tiene derecho a acceder, rectificar, borrar, restringir el procesamiento y la portabilidad de datos según el Reglamento general de protección de datos.\n\n**India — Ley DPDP 2023**: De conformidad con la Ley Personal Digital de la India Ley de Protección de Datos de 2023, procesamos datos personales únicamente con el fin de brindar el servicio de asistencia en la solicitud de empleo. Puede retirar su consentimiento y solicitar la eliminación de sus datos en cualquier momento comunicándose con nosotros.\n\n**California — CCPA**: los residentes de California tienen derecho a saber qué información personal se recopila, el derecho a eliminarla y el derecho a optar por no participar en la venta (no vendemos datos).\n\n---\n\n**6. Retención de datos**\n\nLos datos locales se conservan hasta que los borre manualmente. Los datos sincronizados en la nube se conservan hasta que elimine su cuenta o solicite la eliminación. No eliminamos datos automáticamente.\n\n---\n\n**7. Seguridad**\n\nTomamos medidas técnicas razonables para proteger sus datos:\n• Todas las comunicaciones en la nube utilizan cifrado HTTPS/TLS\n• Supabase Row-Level Security (RLS) garantiza que los usuarios solo puedan acceder a sus propios datos\n• La extensión no solicita permisos más allá de los necesarios para su núcleo función\n\n---\n\n**8. Privacidad de los niños**\n\nApplyFlow no está destinado a usuarios menores de 13 años. No recopilamos datos de niños de forma intencionada. Si cree que un niño nos ha proporcionado información personal, comuníquese con nosotros de inmediato.\n\n---\n\n**9. Cambios a esta Política**\n\nPodemos actualizar esta Política de Privacidad de vez en cuando. Los cambios importantes se comunicarán a través de la página de Opciones de la extensión. El uso continuo de la extensión después de los cambios constituye la aceptación de la política actualizada.\n\n---\n\n**10. Contáctenos**\n\nPara cualquier pregunta relacionada con la privacidad, solicitudes de eliminación de datos o inquietudes:\n\nCorreo electrónico: privacidad@applyflow.in\nGitHub: https://github.com/applyflow/extension\nSitio web: https://applyflow.in\n\nNuestro objetivo es responder a todas las solicitudes dentro de los 30 días.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

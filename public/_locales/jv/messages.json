@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Dideteksi",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Ora ana kaca proyek sing dideteksi",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ aplikasi dilacak · $2$ wawancara",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Mulai nglamar kanggo nglacak kemajuan sampeyan",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Diurai ing $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Muat rincian profil saka \"$1$\"? Iki bakal ngganti suntingan sampeyan saiki karo struktur parsed resume iki.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Rincian sing dibalekake saka $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Skor cocog",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ liyane",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Aplikasi diisi otomatis lan mlebu! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ entri",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ katrampilan",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ proyek",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ wangsulan",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "sah",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ aplikasi",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filter miturut perusahaan ...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ total aplikasi",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Durung ana data",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Konteks: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Copilot karir sampeyan",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Iki $1$ pitakonan wawancara:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Resume skor optimasi: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Resume Saran Cocokake",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hi! Aku bisa ndeleng sampeyan ndeleng peran **$1$** ing **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hi! Aku bisa ndeleng sampeyan lagi ndeleng peran **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hi! Aku kopilot karir AI sampeyan. Navigasi menyang dhaptar proyek lan aku bakal nganalisa kanthi otomatis, utawa takon apa wae!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Mlebet minangka $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Mlebu metu",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Resume sampeyan **$1$% kompatibel** karo peran iki.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Sugeng rawuh, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Gagal njupuk informasi profil pangguna Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Login OAuth Gagal: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Gagal njupuk token akses saka pangalihan.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Kunci lisensi: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Nonaktifake Lisensi",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Printah ekstensi Chrome mbutuhake tugas manual ing manajer trabasan Chrome. Pindhah menyang $1$ kanggo ngiket tombol ing ndhuwur.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Ekstensi Chrome ApplyFlow — Kebijakan Privasi**\nTerakhir Dianyari: Juni 2026\n\n---\n\n**1. Pambuka**\n\nApplyFlow (\"kita\", \"kita\", \"Ekstensi\") minangka ekstensi browser Chrome sing mbantu pangguna ngisi formulir lamaran kerja, nglacak lamaran, lan ngatur profil profesional. Kabijakan Privasi iki nerangake carane kita ngumpulake, nggunakake, nyimpen, lan nglindhungi informasi sampeyan.\n\nKanthi nginstal lan nggunakake ApplyFlow, sampeyan setuju karo praktik sing diterangake ing kebijakan iki.\n\n---\n\n**2. Data sing Dikumpulake**\n\nKita mung nglumpukake informasi sing diwenehake kanthi sukarela kanggo ngaktifake fitur ekstensi:\n\n• **Informasi Profil**: Jeneng, email, nomer telpon, perguruan tinggi, gelar, katrampilan, riwayat kerja, proyek, lan tautan profesional (LinkedIn, GitHub, **L_O7Device). (Opsional)**: Jenis kelamin, status cacat, status veteran, lan preferensi wewenang kerja — mung kasedhiya yen sampeyan milih ngisi kolom kasebut. Data iki digunakake sacara eksklusif kanggo ngisi kuesioner EEO opsional kanthi otomatis ing lamaran kerja.\n• **Data Pelacakan Aplikasi**: Judhul proyek, perusahaan, URL aplikasi, status, lan cathetan kanggo posisi sing sampeyan lacak nggunakake ekstensi.\n• **Statistik Panggunaan**: Jumlah operasi isi otomatis sing ditindakake (disimpen sacara lokal: **NL_2**) milih mlebu karo Google, kita nyimpen jeneng tampilan Google, alamat email, lan URL gambar profil kanggo nggawe pribadi pengalaman sampeyan lan ngaktifake sinkronisasi awan.\n\nKita **ora** ngumpulake:\n• Informasi pembayaran utawa keuangan\n• Riwayat browser utawa aktivitas browsing umum\n• Informasi apa wae saka aplikasi-data proyek sing ora ana hubungane karo kaca \n• Ora ana informasi saka kaca sing ana gandhengane. kaca nalika ekstensi ora aktif dipicu\n\n---\n\n**3. Cara Nyimpen Data Panjenengan**\n\n**3.1 Panyimpenan Lokal (Default)**\nKabeh data utamane disimpen ing API chrome.storage.local browser sampeyan. Data iki mung ana ing piranti sampeyan lan ora tau dikirim menyang server apa wae tanpa tumindak sing jelas.\n\n**3.2 Cloud Sync (Opsional)**\nYen sampeyan milih mlebu karo Google lan ngaktifake fitur \"Supabase Sync\", data profil lan aplikasi sampeyan uga bakal disinkronake menyang database Supabase. Sampeyan nahan kepemilikan lengkap data iki. Sampeyan bisa mbusak kapan wae saka bagean Akun & Sinkronisasi.\n\n**3.3 Panjaluk Gemini AI**\nNalika fitur AI digunakake (contone, nggawe esai, analisis proyek), bagean profil sampeyan (katrampilan, gelar, ringkesan) lan teks deskripsi proyek dikirim menyang API Gemini Google kanggo ngasilake respon. Iki diproses miturut Katentuan Layanan lan Kebijakan Privasi API standar Google. Disaranake supaya ora kalebu pengenal pribadi sing sensitif ing konten sing dibantu AI.\n\n---\n\n**4. Nuduhake Data**\n\nKita ora ** adol, dagang, nyewa, utawa nuduhake informasi pribadhi karo pihak katelu kanggo tujuan marketing utawa pariwara.\n\nData sampeyan bisa uga diproses dening layanan sing dipercaya ing ngisor iki:\n• **Google Gemini API**: Kanggo ngisi formulir lan analisis sing didhukung AI (https://policies.google.com/privacy)\n• **Google OAuth**: Kanggo otentikasi akun (https://policies.google.com/privacy)\n• **Supabase**: Kanggo panyimpenan maya opsional (https://supabase.com/privacy) — mung yen sampeyan ngaktifake sync\n\n---\n\n**5. Hak & Kontrol Panjenengan**\n\nSampeyan duwe hak kanggo:\n• **Ngakses** kabeh data sing wis disimpen ApplyFlow babagan sampeyan (liwat Ekspor Serep ing setelan)\n• **Mbenerake** informasi sampeyan kapan wae ing tab Profil\n• **Mbusak kabeh** data Profil sampeyan\" settings\n• **Mbusak idin** sawayah-wayah kanthi mbusak ekstensi\n• **Pateni sinkronisasi awan** kanthi mateni ing setelan Akun & Sinkronisasi\n\n**GDPR (Panganggo EU)**: Yen sampeyan warga EU, sampeyan duwe hak, mbusak data, Ngilangi data, mbenerake hak, mbusak, lan mbenerake data. Peraturan.\n\n**India — Undhang-undhang DPDP 2023**: Selaras karo Undhang-undhang Perlindhungan Data Pribadi Digital India 2023, kita mung ngolah data pribadhi kanggo tujuan nyedhiyakake layanan pitulungan lamaran kerja. Sampeyan bisa mbatalake idin lan njaluk pambusakan data sawayah-wayah kanthi ngubungi kita.\n\n**California — CCPA**: Warga California duwe hak kanggo ngerti informasi pribadhi sing diklumpukake, hak mbusak, lan hak milih metu saka Advertisement (kita ora ngedol data).\n\n---\n\n**6. Penylametan Data**\n\nData lokal disimpen nganti sampeyan mbusak kanthi manual. Data sing disinkronake awan disimpen nganti sampeyan mbusak akun utawa njaluk pambusakan. Kita ora mbusak data kanthi otomatis.\n\n---\n\n**7. Keamanan**\n\nKita njupuk langkah teknis sing cukup kanggo nglindhungi data sampeyan:\n• Kabeh komunikasi maya nggunakake enkripsi HTTPS/TLS\n• Supabase Row-Level Security (RLS) mesthekake pangguna mung bisa ngakses data dhewe\n• Ekstensi kasebut ora mbutuhake ijin sing ngluwihi apa sing dibutuhake. function\n\n---\n\n**8. Privasi Anak**\n\nApplyFlow ora dimaksudake kanggo pangguna ing umur 13 taun. Kita ora sengaja ngumpulake data saka bocah-bocah. Yen sampeyan yakin ana bocah menehi informasi pribadhi, hubungi kita langsung.\n\n---\n\n**9. Owah-owahan ing Kebijakan Iki**\n\nKita bisa nganyari Kebijakan Privasi iki saka wektu kanggo wektu. Owah-owahan sing signifikan bakal dilaporake liwat kaca Pilihan ekstensi. Terus nggunakake extension sawise owah-owahan dadi acceptance saka privasi dianyari.\n\n---\n\n**10. Hubungi Kita**\n\nKanggo pitakonan sing gegandhengan karo privasi, panjalukan pambusakan data, utawa keprihatinan:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite https://applyflow.in\n\nKita ngarahake nanggapi kabeh panjaluk sajrone 30 dina.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

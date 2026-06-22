@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ શોધાયેલ",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "કોઈ જોબ પેજ મળ્યું નથી",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ એપ્લિકેશન્સ ટ્રૅક કરવામાં આવી · $2$ ઇન્ટરવ્યુ",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "તમારી પ્રગતિને ટ્રૅક કરવા માટે અરજી કરવાનું શરૂ કરો",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ પર વિશ્લેષિત",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" માંથી પ્રોફાઇલ વિગતો લોડ કરીએ? આ તમારા વર્તમાન સંપાદનોને આ રેઝ્યૂમેના વિશ્લેષિત માળખા સાથે બદલશે.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ માંથી પુનઃસ્થાપિત વિગતો",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "મેચ સ્કોર",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ ફિટ",
-    "description": "Fit percent text"
+    "message": "$1$% ફિટ",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ વધુ",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "એપ્લિકેશન ઓટોફિલ અને લોગ થયેલ છે! ✨",
@@ -261,7 +299,12 @@
   },
   "entries_count": {
     "message": "$1$ એન્ટ્રીઓ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "__P__0__ કુશળતા",
@@ -269,11 +312,21 @@
   },
   "projects_count": {
     "message": "$1$ પ્રોજેક્ટ્સ",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ જવાબો",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "અધિકૃત",
@@ -601,7 +654,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ એપ્લિકેશન",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "કંપની દ્વારા ફિલ્ટર કરો...",
@@ -633,7 +691,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ કુલ અરજીઓ",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "હજુ સુધી કોઈ ડેટા નથી",
@@ -681,7 +744,12 @@
   },
   "context_label": {
     "message": "સંદર્ભ: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "તમારી કારકિર્દી સહપાયલટ",
@@ -745,7 +813,12 @@
   },
   "ai_analysis_resume_score_intro": {
     "message": "ઑપ્ટિમાઇઝેશન સ્કોર ફરી શરૂ કરો: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "મેચ સૂચનો ફરી શરૂ કરો",
@@ -761,11 +834,24 @@
   },
   "job_details_detected_intro": {
     "message": "હાય! હું જોઈ શકું છું કે તમે **$2$** પર **$1$** ભૂમિકા જોઈ રહ્યાં છો.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "હાય! હું જોઈ શકું છું કે તમે **$1$_** ભૂમિકા જોઈ રહ્યાં છો.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "હાય! હું તમારી AI કારકિર્દી કોપાયલટ છું. જોબ લિસ્ટિંગ પર નેવિગેટ કરો અને હું તેનું ઑટોમૅટિક રીતે વિશ્લેષણ કરીશ અથવા મને કંઈપણ પૂછો!",
@@ -833,7 +919,12 @@
   },
   "logged_in_as": {
     "message": "$1$ તરીકે લૉગ ઇન થયા",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "સાઇન આઉટ કરો",
@@ -889,11 +980,21 @@
   },
   "ai_analysis_compatible": {
     "message": "તમારો રેઝ્યૂમે આ ભૂમિકા સાથે **$1$% સુસંગત** છે.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ફરી સ્વાગત છે, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google વપરાશકર્તા પ્રોફાઇલ માહિતી મેળવવામાં નિષ્ફળ.",
@@ -901,7 +1002,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth લૉગિન નિષ્ફળ થયું: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "રીડાયરેક્ટમાંથી એક્સેસ ટોકન લાવવામાં નિષ્ફળ.",
@@ -1209,7 +1315,12 @@
   },
   "premium_active_desc": {
     "message": "લાઇસન્સ કી: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "લાઇસન્સ નિષ્ક્રિય કરો",
@@ -1549,10 +1660,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome એક્સ્ટેંશન આદેશોને Chrome ના શૉર્ટકટ મેનેજરમાં મેન્યુઅલ અસાઇનમેન્ટની જરૂર છે. ઉપર સૂચિબદ્ધ કીને બાંધવા માટે $1$ પર જાઓ.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome એક્સ્ટેંશન — ગોપનીયતા નીતિ**\nછેલ્લું અપડેટ: જૂન 2026\n\n---_\n\n**1. પરિચય**\n_\nApplyFlow (\"અમે\", \"અમારું\", \"એક્સ્ટેંશન\") એ ક્રોમ બ્રાઉઝર એક્સ્ટેંશન છે જે વપરાશકર્તાઓને જોબ એપ્લિકેશન ફોર્મ ઓટોફિલ કરવામાં, તેમની અરજીઓને ટ્રૅક કરવામાં અને તેમની વ્યાવસાયિક પ્રોફાઇલને સંચાલિત કરવામાં મદદ કરે છે. આ ગોપનીયતા નીતિ સમજાવે છે કે અમે તમારી માહિતી કેવી રીતે એકત્રિત કરીએ છીએ, તેનો ઉપયોગ કરીએ છીએ, સંગ્રહ કરીએ છીએ અને તેનું રક્ષણ કરીએ છીએ.\n_NL_8__ApplyFlow ઇન્સ્ટોલ કરીને અને તેનો ઉપયોગ કરીને, તમે આ નીતિમાં વર્ણવેલ પ્રથાઓ સાથે સંમત થાઓ છો. અમે એકત્રિત કરીએ છીએ તે ડેટા**\n_NL_14__અમે એક્સ્ટેંશનની સુવિધાઓને સક્ષમ કરવા માટે તમે સ્વૈચ્છિક રીતે પ્રદાન કરો છો તે જ માહિતી એકત્રિત કરીએ છીએ:\n\n• **પ્રોફાઇલ માહિતી**: તમારું નામ, ઇમેઇલ, ફોન નંબર, કૉલેજ, ડિગ્રી, કુશળતા, કાર્ય ઇતિહાસ, પ્રોજેક્ટ્સ અને વ્યાવસાયિક લિંક્સ (Git__H7, પોર્ટમાં લિંક કરેલ છે. **EEO/વસ્તી વિષયક માહિતી (વૈકલ્પિક)**: લિંગ, વિકલાંગતાની સ્થિતિ, અનુભવી સ્થિતિ અને કાર્ય અધિકૃતતા પસંદગીઓ — જો તમે આ ક્ષેત્રો ભરવાનું પસંદ કરો તો જ પ્રદાન કરવામાં આવે છે. આ ડેટાનો ઉપયોગ ફક્ત નોકરીની અરજીઓ પર વૈકલ્પિક EEO પ્રશ્નાવલિઓને સ્વતઃભરવા માટે કરવામાં આવે છે.\n• **એપ્લિકેશન ટ્રેકિંગ ડેટા**: જોબ શીર્ષક, કંપની, એપ્લિકેશન URL, સ્થિતિ અને તમે એક્સ્ટેંશનનો ઉપયોગ કરીને ટ્રૅક કરો છો તે સ્થાનો માટેની નોંધો. મર્યાદાઓ).\n• **પ્રમાણીકરણ ડેટા**: જો તમે Google સાથે સાઇન ઇન કરવાનું પસંદ કરો છો, તો અમે તમારા અનુભવને વ્યક્તિગત કરવા અને ક્લાઉડ સિંકને સક્ષમ કરવા માટે તમારું Google પ્રદર્શન નામ, ઇમેઇલ સરનામું અને પ્રોફાઇલ ચિત્ર URL સંગ્રહિત કરીએ છીએ. પ્રવૃત્તિ\n• પૃષ્ઠોમાંથી કોઈપણ માહિતી કે જે જોબ-એપ્લિકેશન-સંબંધિત નથી\n• જ્યારે એક્સ્ટેંશન સક્રિય રીતે ટ્રિગર ન હોય ત્યારે પૃષ્ઠોમાંથી કોઈપણ ડેટા\n\n---_\n\n_**3. અમે તમારો ડેટા કેવી રીતે સ્ટોર કરીએ છીએ**\n_NL_32__**3.1 લોકલ સ્ટોરેજ (ડિફૉલ્ટ)**\nબધો ડેટા મુખ્યત્વે તમારા બ્રાઉઝરના chrome.storage.local API માં સંગ્રહિત થાય છે. આ ડેટા ફક્ત તમારા ઉપકરણ પર જ રહે છે અને તમારી સ્પષ્ટ ક્રિયા વિના કોઈપણ સર્વર પર ક્યારેય પ્રસારિત થતો નથી.\n\n**3.2 ક્લાઉડ સિંક (વૈકલ્પિક)**\nજો તમે Google સાથે સાઇન ઇન કરવાનું પસંદ કરો છો અને \"Supabase Sync\" સુવિધાને સક્ષમ કરો છો, તો તમારી પ્રોફાઇલ અને એપ્લિકેશન ડેટાને પણ સુમેળ કરવામાં આવશે. તમે આ ડેટાની સંપૂર્ણ માલિકી જાળવી રાખો છો. તમે તેને એકાઉન્ટ અને સમન્વયન વિભાગમાંથી કોઈપણ સમયે કાઢી નાખી શકો છો.\n\n**3.3 Gemini AI વિનંતીઓ**\nજ્યારે AI સુવિધાઓનો ઉપયોગ કરવામાં આવે છે (દા.ત., નિબંધ જનરેશન, જોબ વિશ્લેષણ), તમારી પ્રોફાઇલના ભાગો (કૌશલ્યો, ડિગ્રી, સારાંશ) અને Google ના Gemini ટેક્સ્ટને Gemini ટેક્સ્ટને જવાબ મોકલવામાં આવે છે. આ Googleની માનક API સેવાની શરતો અને ગોપનીયતા નીતિ હેઠળ પ્રક્રિયા કરવામાં આવે છે. અમે ભલામણ કરીએ છીએ કે તમારી AI-સહાયિત સામગ્રીમાં સંવેદનશીલ વ્યક્તિગત ઓળખકર્તાઓનો સમાવેશ ન કરો. ડેટા શેરિંગ**\n\nઅમે માર્કેટિંગ અથવા જાહેરાત હેતુઓ માટે કોઈપણ તૃતીય પક્ષો સાથે તમારી વ્યક્તિગત માહિતીને **વેચતા, વેપાર, ભાડે આપતા અથવા શેર કરતા નથી. (https://policies.google.com/privacy)\n• **Google OAuth**: એકાઉન્ટ ઓથેન્ટિકેશન માટે (https://policies.google.com/privacy)\n• **Supabase**: વૈકલ્પિક ક્લાઉડ સ્ટોરેજ માટે (https://supabase.com/privacy) — માત્ર જો તમે સક્ષમ કરો સમન્વયન\n\n---\n_**5. તમારા અધિકારો અને નિયંત્રણો**\n\nતમને આનો અધિકાર છે:\n• **Access** તમામ ડેટા ApplyFlow એ તમારા વિશે સંગ્રહિત કર્યો છે (સેટિંગ્સમાં નિકાસ બેકઅપ દ્વારા)\n• **પ્રોફાઇલ ટૅબમાં કોઈપણ સમયે તમારી માહિતીને સુધારી શકો છો\n• તમામ સ્થાનિક ડેટાનો ઉપયોગ કરીને પ્રોફાઇલ ડેટા\" સેટિંગ્સમાં\n• **કોઈપણ સમયે એક્સ્ટેંશનને અનઇન્સ્ટોલ કરીને સંમતિ પાછી ખેંચો**\n• **ક્લાઉડ સિંકને અક્ષમ કરો** તેને એકાઉન્ટ અને સિંક સેટિંગ્સમાં ટૉગલ કરીને\n\n**GDPR (EU વપરાશકર્તાઓ)**: જો તમારી પાસે પુનઃપ્રાપ્તિનો અધિકાર છે, તો તમે તેને ફરીથી સ્વીકારો છો. જનરલ ડેટા પ્રોટેક્શન રેગ્યુલેશન હેઠળ ભૂંસી નાખો, પ્રોસેસિંગ અને ડેટા પોર્ટેબિલિટીને પ્રતિબંધિત કરો.\n\n**ભારત — DPDP એક્ટ 2023**: ભારતના ડિજિટલ પર્સનલ ડેટા પ્રોટેક્શન એક્ટ 2023ના અનુપાલનમાં, અમે જોબ એપ્લિકેશન સહાયતા સેવા પ્રદાન કરવાના હેતુથી જ વ્યક્તિગત ડેટા પર પ્રક્રિયા કરીએ છીએ. તમે અમારો સંપર્ક કરીને કોઈપણ સમયે સંમતિ પાછી ખેંચી શકો છો અને તમારો ડેટા કાઢી નાખવાની વિનંતી કરી શકો છો.\n\n**કેલિફોર્નિયા — CCPA**: કેલિફોર્નિયાના રહેવાસીઓને તે જાણવાનો અધિકાર છે કે કઈ વ્યક્તિગત માહિતી એકત્રિત કરવામાં આવે છે, કાઢી નાખવાનો અધિકાર અને વેચાણને નાપસંદ કરવાનો અધિકાર છે (અમે વેચાણ કરતા નથી. ડેટા).\n_NL_69__---\n_**6. ડેટા રીટેન્શન**\n\n જ્યાં સુધી તમે તેને મેન્યુઅલી સાફ ન કરો ત્યાં સુધી સ્થાનિક ડેટા જાળવી રાખવામાં આવે છે. જ્યાં સુધી તમે તમારું એકાઉન્ટ ડિલીટ ન કરો અથવા ડિલીટ કરવાની વિનંતી ન કરો ત્યાં સુધી ક્લાઉડ-સિંક કરેલ ડેટા જાળવી રાખવામાં આવે છે. અમે ડેટાને આપમેળે કાઢી નાખતા નથી.\n_NL_75__---\n_**7. સુરક્ષા**\n_NL_79__અમે તમારા ડેટાને સુરક્ષિત રાખવા માટે વાજબી ટેકનિકલ પગલાં લઈએ છીએ:\n• તમામ ક્લાઉડ કોમ્યુનિકેશન્સ HTTPS/TLS એન્ક્રિપ્શનનો ઉપયોગ કરે છે\n• સુપાબેસ રો-લેવલ સિક્યુરિટી (RLS) એ સુનિશ્ચિત કરે છે કે વપરાશકર્તાઓ ફક્ત તેમના પોતાના ડેટાને ઍક્સેસ કરી શકે છે\n• એક્સ્ટેંશન તેની વિનંતી માટે જરૂરી નથી. ફંક્શન\n\n---\n_**8. બાળકોની ગોપનીયતા**\n_NL_88__ApplyFlow 13 વર્ષથી ઓછી ઉંમરના વપરાશકર્તાઓ માટે હેતુપૂર્વક નથી. અમે જાણી જોઈને બાળકો પાસેથી ડેટા એકત્રિત કરતા નથી. જો તમે માનતા હોવ કે કોઈ બાળકે અમને વ્યક્તિગત માહિતી પૂરી પાડી છે, તો કૃપા કરીને તરત જ અમારો સંપર્ક કરો. આ નીતિમાં ફેરફારો**\n\nઅમે સમય સમય પર આ ગોપનીયતા નીતિને અપડેટ કરી શકીએ છીએ. એક્સ્ટેંશનના વિકલ્પો પૃષ્ઠ દ્વારા નોંધપાત્ર ફેરફારોની જાણ કરવામાં આવશે. ફેરફારો પછી એક્સ્ટેંશનનો સતત ઉપયોગ એ અપડેટ કરેલી નીતિની સ્વીકૃતિની રચના કરે છે. અમારો સંપર્ક કરો**\n\nકોઈપણ ગોપનીયતા-સંબંધિત પ્રશ્નો, ડેટા કાઢી નાખવાની વિનંતીઓ અથવા ચિંતાઓ માટે:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/apply__Lbs10t: https://applyflow.in\n_NL_106__અમારું લક્ષ્ય 30 દિવસની અંદર તમામ વિનંતીઓનો જવાબ આપવાનું છે.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

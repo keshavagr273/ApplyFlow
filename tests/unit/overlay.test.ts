@@ -26,6 +26,25 @@ describe('overlay', () => {
     global.chrome = {
       runtime: {
         getURL: vi.fn().mockReturnValue('mock-url'),
+        sendMessage: vi.fn().mockImplementation(async (message) => {
+          if (message.type === 'ANALYZE_JOB') {
+            const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${message.payload.apiKey}`;
+            const res = await fetch(geminiUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: message.payload.prompt }] }],
+                generationConfig: { responseMimeType: 'application/json' }
+              })
+            });
+            if (!res.ok) throw new Error('Fetch failed');
+            const data = await res.json();
+            let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+            return JSON.parse(rawText);
+          }
+          return null;
+        })
       }
     } as any;
   });

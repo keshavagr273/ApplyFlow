@@ -3,6 +3,18 @@ import { UserProfile } from '../shared/types';
 import { extractJobInfo as extractClipperJobInfo } from './clipper';
 import { t } from '../shared/i18n';
 
+// ─── Security: HTML Escape Helper ─────────────────────────────────────────────
+// MUST be used on every piece of user-controlled data before insertion into innerHTML.
+function escapeHtml(str: unknown): string {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 (async () => {
   try {
     const url = window.location.href.toLowerCase();
@@ -85,31 +97,22 @@ export async function analyzeJob(profile: UserProfile, jobDescription: string, a
       JOB DESCRIPTION: ${jobDescription.substring(0, 2000)}
     `;
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { responseMimeType: 'application/json' }
-      })
+    // SECURITY: Route through service worker so the API key never appears
+    // in the page's DevTools network tab. The SW makes the fetch internally.
+    const result = await chrome.runtime.sendMessage({
+      type: 'ANALYZE_JOB',
+      payload: { prompt, apiKey }
     });
 
-    if (response.ok) {
-      const data = await response.json();
-      let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (rawText) {
-        rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
-        const parsed = JSON.parse(rawText);
-        return {
-          matchScore: parsed.matchScore ?? 78,
-          strongSkills: parsed.strongSkills ?? profile.skills.slice(0, 3),
-          missingSkills: parsed.missingSkills ?? []
-        };
-      }
+    if (result && typeof result.matchScore === 'number') {
+      return {
+        matchScore: result.matchScore ?? 78,
+        strongSkills: result.strongSkills ?? profile.skills.slice(0, 3),
+        missingSkills: result.missingSkills ?? []
+      };
     }
   } catch (err) {
-    console.error("Overlay direct Gemini call failed, falling back to local mock:", err);
+    console.error("Overlay Gemini analysis failed, falling back to local mock:", err);
   }
 
   return {
@@ -152,9 +155,9 @@ export function injectOverlay(
       <div class="af-badge-circle">
         <svg class="af-svg-ring" viewBox="0 0 36 36">
           <path class="af-ring-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="af-ring-fill" stroke-dasharray="${analysis.matchScore}, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <path class="af-ring-fill" stroke-dasharray="${Math.min(100, Math.max(0, parseInt(String(analysis.matchScore), 10) || 0))}, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
         </svg>
-        <span class="af-badge-score">${analysis.matchScore}%</span>
+        <span class="af-badge-score">${Math.min(100, Math.max(0, parseInt(String(analysis.matchScore), 10) || 0))}%</span>
       </div>
     </div>
 
@@ -165,41 +168,41 @@ export function injectOverlay(
           <img src="${chrome.runtime.getURL('icons/icon32.png')}" class="af-logo-img" alt="ApplyFlow Logo" />
           <div>
             <div class="af-main-title">${t('overlay_match_title')}</div>
-            <div class="af-sub-title">${jobInfo.company || 'Ready'} • ${jobInfo.role || 'Job'}</div>
+            <div class="af-sub-title">${escapeHtml(jobInfo.company) || 'Ready'} &bull; ${escapeHtml(jobInfo.role) || 'Job'}</div>
           </div>
         </div>
         <button class="af-close-btn" title="Close overlay">&times;</button>
           ${(profile.projects || []).map(p => `
             <div class="af-ref-card">
-              <span class="af-ref-title">${p.title}</span>
-              <span class="af-ref-desc">${p.description}</span>
+              <span class="af-ref-title">${escapeHtml(p.title)}</span>
+              <span class="af-ref-desc">${escapeHtml(p.description)}</span>
             </div>
           `).join('')}
           ${(profile.workExperience || []).map(e => `
             <div class="af-ref-card">
-              <span class="af-ref-title">${e.role} @ ${e.company}</span>
-              <span class="af-ref-desc">${e.description}</span>
+              <span class="af-ref-title">${escapeHtml(e.role)} @ ${escapeHtml(e.company)}</span>
+              <span class="af-ref-desc">${escapeHtml(e.description)}</span>
             </div>
           `).join('')}
       </div>
 
       <div class="af-panel-body">
         <div class="af-score-section">
-          <div class="af-big-score">${analysis.matchScore}%</div>
+          <div class="af-big-score">${Math.min(100, Math.max(0, parseInt(String(analysis.matchScore), 10) || 0))}%</div>
           <div class="af-score-label">${t('ai_analysis_score_label')}</div>
         </div>
 
         <div class="af-skills-group">
           <div class="af-group-title">${t('overlay_strong_skills')}</div>
           <div class="af-tags-container">
-            ${(analysis.strongSkills || []).map(s => `<span class="af-tag tag-strong">${s}</span>`).join('')}
+            ${(analysis.strongSkills || []).map(s => `<span class="af-tag tag-strong">${escapeHtml(s)}</span>`).join('')}
           </div>
         </div>
 
         <div class="af-skills-group">
           <div class="af-group-title">${t('overlay_missing_skills')}</div>
           <div class="af-tags-container">
-            ${(analysis.missingSkills || []).map(s => `<span class="af-tag tag-missing">${s}</span>`).join('')}
+            ${(analysis.missingSkills || []).map(s => `<span class="af-tag tag-missing">${escapeHtml(s)}</span>`).join('')}
           </div>
         </div>
 
@@ -298,7 +301,7 @@ export function injectOverlay(
 
       // 4. Log application to storage
       const newApp = {
-        id: Math.random().toString(36).substring(2, 11),
+        id: crypto.randomUUID(),
         company: jobInfo.company || 'Unknown Company',
         role: jobInfo.role || 'Software Intern',
         url: window.location.href,

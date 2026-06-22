@@ -20,7 +20,29 @@
     "notifications",
     "sidePanel"
   ],
-  "host_permissions": ["*://*/*"],
+  "host_permissions": [
+    "*://*.linkedin.com/*",
+    "*://*.internshala.com/*",
+    "*://*.unstop.com/*",
+    "*://*.myworkdayjobs.com/*",
+    "*://*.workday.com/*",
+    "*://*.greenhouse.io/*",
+    "*://*.grnh.se/*",
+    "*://*.lever.co/*",
+    "*://*.icims.com/*",
+    "*://*.smartrecruiters.com/*",
+    "*://*.bamboohr.com/*",
+    "*://*.jobvite.com/*",
+    "*://*.taleo.net/*",
+    "*://*.adp.com/*",
+    "*://*.naukri.com/*",
+    "*://*.indeed.com/*",
+    "*://*.angel.co/*",
+    "*://*.wellfound.com/*",
+    "*://*.rippling.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.groq.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -51,7 +73,26 @@
   "content_scripts": [
     {
       "js": ["src/content/clipper.ts"],
-      "matches": ["*://*/*"],
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.internshala.com/*",
+        "*://*.unstop.com/*",
+        "*://*.myworkdayjobs.com/*",
+        "*://*.workday.com/*",
+        "*://*.greenhouse.io/*",
+        "*://*.grnh.se/*",
+        "*://*.lever.co/*",
+        "*://*.icims.com/*",
+        "*://*.smartrecruiters.com/*",
+        "*://*.bamboohr.com/*",
+        "*://*.jobvite.com/*",
+        "*://*.taleo.net/*",
+        "*://*.naukri.com/*",
+        "*://*.indeed.com/*",
+        "*://*.angel.co/*",
+        "*://*.wellfound.com/*",
+        "*://*.rippling.com/*"
+      ],
       "run_at": "document_end",
       "exclude_matches": [
         "*://chrome.google.com/webstore/*"
@@ -59,7 +100,26 @@
     },
     {
       "js": ["src/content/fab.ts"],
-      "matches": ["*://*/*"],
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.internshala.com/*",
+        "*://*.unstop.com/*",
+        "*://*.myworkdayjobs.com/*",
+        "*://*.workday.com/*",
+        "*://*.greenhouse.io/*",
+        "*://*.grnh.se/*",
+        "*://*.lever.co/*",
+        "*://*.icims.com/*",
+        "*://*.smartrecruiters.com/*",
+        "*://*.bamboohr.com/*",
+        "*://*.jobvite.com/*",
+        "*://*.taleo.net/*",
+        "*://*.naukri.com/*",
+        "*://*.indeed.com/*",
+        "*://*.angel.co/*",
+        "*://*.wellfound.com/*",
+        "*://*.rippling.com/*"
+      ],
       "run_at": "document_idle",
       "exclude_matches": [
         "*://chrome.google.com/webstore/*"
@@ -67,7 +127,26 @@
     },
     {
       "js": ["src/content/overlay.ts"],
-      "matches": ["*://*/*"],
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.internshala.com/*",
+        "*://*.unstop.com/*",
+        "*://*.myworkdayjobs.com/*",
+        "*://*.workday.com/*",
+        "*://*.greenhouse.io/*",
+        "*://*.grnh.se/*",
+        "*://*.lever.co/*",
+        "*://*.icims.com/*",
+        "*://*.smartrecruiters.com/*",
+        "*://*.bamboohr.com/*",
+        "*://*.jobvite.com/*",
+        "*://*.taleo.net/*",
+        "*://*.naukri.com/*",
+        "*://*.indeed.com/*",
+        "*://*.angel.co/*",
+        "*://*.wellfound.com/*",
+        "*://*.rippling.com/*"
+      ],
       "run_at": "document_idle",
       "exclude_matches": [
         "*://chrome.google.com/webstore/*"

@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Otkriveno",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Stranica s poslom nije otkrivena",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ prijava praćeno · $2$ intervjua",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Počnite se prijavljivati kako biste pratili svoj napredak",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Raščlanjeno na $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Učitati detalje profila iz \"$1$\"? Ovo će zamijeniti vaše trenutne izmjene raščlanjenom strukturom ovog životopisa.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Vraćeni detalji iz $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Rezultat utakmice",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ više",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Prijava je automatski ispunjena i zabilježena! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ unosa",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ vještine",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projekti",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ odgovora",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Ovlašten",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ aplikacija",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtriraj po tvrtki...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ ukupno prijava",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Još nema podataka",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Kontekst: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Vaš kopilot u karijeri",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Evo $1$ mogućih pitanja za intervju:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Nastavi rezultat optimizacije: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Prijedlozi za nastavak podudaranja",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Bok! Vidim da tražite ulogu **$1$** na **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Bok! Vidim da gledaš ulogu **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Bok! Ja sam tvoj AI kopilot u karijeri. Dođite do popisa poslova i ja ću ga automatski analizirati ili me pitajte bilo što!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Prijavljen kao $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Odjavi se",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Vaš životopis je **$1$% kompatibilan** s ovom ulogom.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Dobrodošao natrag, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nije uspjelo dohvaćanje informacija Google korisničkog profila.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth prijava nije uspjela: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Dohvaćanje pristupnog tokena iz preusmjeravanja nije uspjelo.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Ključ licence: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Deaktiviraj licencu",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Naredbe proširenja za Chrome zahtijevaju ručno dodjeljivanje u upravitelju prečaca za Chrome. Idite na $1$ za vezanje gore navedenih ključeva.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome proširenje — Pravila o privatnosti**\nZadnje ažuriranje: lipanj 2026\n\n---\n\n**1. Uvod**\n\nApplyFlow (\"mi\", \"naše\", \"proširenje\") proširenje je preglednika Chrome koje korisnicima pomaže u automatskom ispunjavanju obrazaca za prijavu za posao, praćenju njihovih prijava i upravljanju njihovim profesionalnim profilom. Ova Pravila o privatnosti objašnjavaju kako prikupljamo, koristimo, pohranjujemo i štitimo vaše podatke.\n\nInstaliranjem i korištenjem ApplyFlowa pristajete na postupke opisane u ovim pravilima.\n\n---\n\n**2. Podatke koje prikupljamo**\n\nPrikupljamo samo one informacije koje dobrovoljno pružite kako biste omogućili značajke proširenja:\n\n• **Informacije o profilu**: Vaše ime, e-pošta, telefonski broj, fakultet, diploma, vještine, radna povijest, projekti i profesionalne veze (LinkedIn, GitHub, Portfelj).\n• **EEO/demografske informacije (izborno)**: Spol, status invaliditeta, veteranski status i preferencije ovlaštenja za rad — dostupno samo ako odlučite popuniti ova polja. Ovi se podaci koriste isključivo za automatsko popunjavanje izbornih EEO upitnika u prijavama za posao.\n• **Podaci o praćenju prijave**: Naziv radnog mjesta, tvrtka, URL prijave, status i bilješke za pozicije koje pratite pomoću proširenja.\n• **Statistika korištenja**: Broj izvršenih operacija automatskog popunjavanja (pohranjuju se lokalno radi provedbe dnevnih ograničenja).\n• **Podaci za provjeru autentičnosti**: Ako se odlučite prijaviti s Googleom, pohranjujemo vaše Google ime za prikaz, adresu e-pošte i URL slike profila kako bismo personalizirali vaše iskustvo i omogućili sinkronizaciju u oblaku.\n\nMi **ne** prikupljamo:\n• Podatke o plaćanju ili financijske podatke\n• Povijest preglednika ili opću aktivnost pregledavanja\n• Sve informacije sa stranica koje se ne odnose na prijavu za posao\n• Svi podaci sa stranica kada proširenje nije aktivno pokrenuto\n\n---\n\n**3. Kako pohranjujemo vaše podatke**\n\n**3.1 Lokalna pohrana (zadano)**\nSvi podaci prvenstveno se pohranjuju u chrome.storage.local API vašeg preglednika. Ovi se podaci nalaze samo na vašem uređaju i nikada se ne prenose na bilo koji poslužitelj bez vaše izričite radnje.\n\n**3.2 Cloud Sync (opcionalno)**\nAko se odlučite prijaviti s Googleom i omogućiti značajku \"Supabase Sync\", podaci vašeg profila i aplikacije također će se sinkronizirati s bazom podataka Supabase. Vi zadržavate puno vlasništvo nad ovim podacima. Možete ga izbrisati u bilo kojem trenutku iz odjeljka Račun i sinkronizacija.\n\n**3.3 Gemini AI zahtjevi**\nKada se koriste značajke AI (npr. generiranje eseja, analiza posla), dijelovi vašeg profila (vještine, diploma, sažetak) i tekst opisa posla šalju se Googleovom Gemini API-ju za generiranje odgovora. Ovo se obrađuje prema Googleovim standardnim API Uvjetima pružanja usluge i Pravilima privatnosti. Preporučujemo da ne uključujete osjetljive osobne identifikatore u svoj sadržaj potpomognut umjetnom inteligencijom.\n\n---\n\n**4. Dijeljenje podataka**\n\nMi **ne** prodajemo, razmjenjujemo, iznajmljujemo ili dijelimo vaše osobne podatke s trećim stranama u marketinške ili reklamne svrhe.\n\nVaše podatke mogu obrađivati sljedeće pouzdane usluge:\n• **Google Gemini API**: Za ispunjavanje obrazaca i analizu pomoću umjetne inteligencije (https://policies.google.com/privacy)\n• **Google OAuth**: Za autentifikaciju računa (https://policies.google.com/privacy)\n• **Supabase**: Za dodatnu pohranu u oblaku (https://supabase.com/privacy) — samo ako omogućite sinkronizacija\n\n---\n\n**5. Vaša prava i kontrole**\n\nImate pravo na:\n• **Pristup** svim podacima koje je ApplyFlow pohranio o vama (putem Izvezi sigurnosnu kopiju u postavkama)\n• **Ispravite** svoje podatke u bilo kojem trenutku na kartici Profil\n• **Izbrišite** sve svoje podatke lokalno koristeći \"Izbriši sve podatke profila\" u postavkama\n• **Povucite privolu** u bilo kojem trenutku deinstaliranjem proširenja\n• **Onemogućite sinkronizaciju u oblaku** isključivanjem u postavkama računa i sinkronizacije\n\n**GDPR (EU korisnici)**: Ako ste stanovnik EU, imate prava pristupa, ispraviti, izbrisati, ograničiti obradu i prenosivost podataka prema Općoj uredbi o zaštiti podataka.\n\n**Indija — DPDP Act 2023**: U skladu s indijskim Zakonom o zaštiti osobnih podataka o digitalnim podacima iz 2023., obrađujemo osobne podatke samo u svrhu pružanja usluge pomoći pri prijavi za posao. Možete povući privolu i zatražiti brisanje svojih podataka u bilo kojem trenutku tako da nas kontaktirate.\n\n**Kalifornija — CCPA**: Stanovnici Kalifornije imaju pravo znati koji se osobni podaci prikupljaju, pravo na brisanje i pravo odustajanja od prodaje (mi ne prodajemo podaci).\n\n---\n\n**6. Zadržavanje podataka**\n\nLokalni podaci se zadržavaju dok ih ručno ne izbrišete. Podaci sinkronizirani s oblakom čuvaju se dok ne izbrišete svoj račun ili ne zatražite brisanje. Podatke ne brišemo automatski.\n\n---\n\n**7. Sigurnost**\n\nPoduzimamo razumne tehničke mjere kako bismo zaštitili vaše podatke:\n• Sve komunikacije u oblaku koriste HTTPS/TLS enkripciju\n• Supabase Row-Level Security (RLS) osigurava da korisnici mogu pristupiti samo svojim podacima\n• Proširenje ne zahtijeva dopuštenja osim onoga što je potrebno za njegovu jezgru funkcija\n\n---\n\n**8. Privatnost djece**\n\nApplyFlow nije namijenjen korisnicima mlađim od 13 godina. Ne prikupljamo svjesno podatke od djece. Ako smatrate da nam je dijete dalo osobne podatke, odmah nas kontaktirajte.\n\n---\n\n**9. Promjene ovih Pravila**\n\nMožemo ažurirati ova Pravila privatnosti s vremena na vrijeme. Značajne promjene bit će priopćene putem stranice s opcijama proširenja. Nastavak korištenja proširenja nakon promjena predstavlja prihvaćanje ažuriranih pravila.\n\n---\n\n**10. Kontaktirajte nas**\n\nZa sva pitanja vezana uz privatnost, zahtjeve za brisanje podataka ili nedoumice:\n\nE-pošta: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWeb stranica: https://applyflow.in\n\nNastojimo odgovoriti na sve zahtjeve u roku od 30 dana.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

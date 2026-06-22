@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Zistené",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Nenašla sa žiadna stránka úlohy",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ sledovaných aplikácií · $2$ rozhovorov",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Začnite podávať žiadosti, aby ste mohli sledovať svoj pokrok",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Analyzované na $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Načítať podrobnosti profilu z „$1$“? Toto nahradí vaše aktuálne úpravy analyzovanou štruktúrou tohto životopisu.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Obnovené podrobnosti z $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Skóre zápasu",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ viac",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Aplikácia je automaticky vyplnená a prihlásená! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ záznamov",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ zručnosti",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projektov",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ odpovedá",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Autorizované",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ aplikácií",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtrovať podľa spoločnosti...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "Celkový počet žiadostí $1$",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Zatiaľ žiadne údaje",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Kontext: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Váš kariérny kopilot",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Tu sú $1$ pravdepodobné otázky na pohovor:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Obnoviť skóre optimalizácie: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Obnoviť návrhy zápasov",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Ahoj! Vidím, že sa pozeráte na **$1$** rolu v **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Ahoj! Vidím, že sa pozeráte na rolu **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Ahoj! Som váš druhý pilot kariéry AI. Prejdite na ponuku práce a ja ju automaticky analyzujem alebo sa ma na čokoľvek spýtajte!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Prihlásený ako $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Odhlásiť sa",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Váš životopis je **$1$% kompatibilný** s touto rolou.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Vitajte späť, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nepodarilo sa načítať informácie o používateľskom profile Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Prihlásenie OAuth zlyhalo: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Nepodarilo sa načítať prístupový token z presmerovania.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Licenčný kľúč: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Deaktivovať licenciu",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Príkazy rozšírenia Chrome vyžadujú manuálne priradenie v správcovi skratiek prehliadača Chrome. Prejdite na $1$ a naviažte vyššie uvedené kľúče.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Rozšírenie ApplyFlow pre Chrome — Pravidlá ochrany osobných údajov**\nPosledná aktualizácia: jún 2026\n\n---\n\n**1. Úvod**\n\nApplyFlow („my“, „naše“, „rozšírenie“) je rozšírenie prehliadača Chrome, ktoré používateľom pomáha automaticky vypĺňať formuláre žiadostí o zamestnanie, sledovať ich žiadosti a spravovať ich profesionálny profil. Tieto zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, uchovávame a chránime vaše informácie.\n\nInštaláciou a používaním aplikácie ApplyFlow súhlasíte s postupmi opísanými v týchto zásadách.\n\n---\n\n**2. Údaje, ktoré zhromažďujeme**\n\nZhromažďujeme iba informácie, ktoré dobrovoľne poskytnete na aktiváciu funkcií rozšírenia:\n\n• **Informácie o profile**: Vaše meno, e-mail, telefónne číslo, vysoká škola, titul, zručnosti, pracovná história, projekty a profesionálne odkazy (LinkedIn,_N1Hub, Git_•) **EEO/demografické informácie (voliteľné)**: Pohlavie, zdravotný stav, status veterána a preferencie pracovného oprávnenia – poskytujú sa iba vtedy, ak sa rozhodnete vyplniť tieto polia. Tieto údaje sa používajú výlučne na automatické vypĺňanie voliteľných EEO dotazníkov pri žiadostiach o zamestnanie.\n• **Údaje o sledovaní aplikácií**: Názov pozície, spoločnosť, adresa URL aplikácie, stav a poznámky k pozíciám, ktoré sledujete pomocou rozšírenia.\n• **Štatistika používania**: Počet vykonaných operácií automatického dopĺňania (uložené lokálne na vynútenie **L_2 denných limitov) A_:• ak sa rozhodnete prihlásiť pomocou služby Google, uložíme vaše zobrazované meno Google, e-mailovú adresu a adresu URL profilového obrázka, aby sme vám prispôsobili prostredie a umožnili synchronizáciu s cloudom.\n\n**Nezbierame**:\n• Platobné alebo finančné informácie\n• História prehliadača alebo všeobecné informácie o činnostiach prehliadania, ktoré sú_25_N súvisiace so žiadosťou o zamestnanie\n• Akékoľvek údaje zo stránok, keď rozšírenie nie je aktívne spustené\n\n---\n\n**3. Ako ukladáme vaše údaje**\n\n**3.1 Miestne úložisko (predvolené)**\nVšetky údaje sú primárne uložené v chrome.storage.local API vášho prehliadača. Tieto údaje sa nachádzajú iba vo vašom zariadení a nikdy sa neprenesú na žiadny server bez vašej explicitnej akcie.\n\n**3.2 Cloud Sync (voliteľné)**\nAk sa rozhodnete prihlásiť cez Google a povoliť funkciu „Supabase Sync“, váš profil a údaje aplikácie sa tiež zosynchronizujú s databázou Supabase. Ponechávate si plné vlastníctvo týchto údajov. Môžete ho kedykoľvek odstrániť zo sekcie Účet a synchronizácia.\n\n**3.3 Požiadavky umelej inteligencie Gemini**\nKeď sa používajú funkcie umelej inteligencie (napr. generovanie esejí, analýza práce), časti vášho profilu (zručnosti, titul, zhrnutie) a text popisu úlohy sa odosielajú do rozhrania API pre Gemini. Toto je spracované podľa štandardných zmluvných podmienok a pravidiel ochrany osobných údajov API spoločnosti Google. Odporúčame nezahŕňať citlivé osobné identifikátory do obsahu podporovaného AI.\n\n---\n\n**4. Zdieľanie údajov**\n\nVaše osobné údaje **ne** predávame, neobchodujeme, neprenajímame ani ich nezdieľame so žiadnymi tretími stranami na marketingové alebo reklamné účely.\n\nVaše údaje môžu byť spracované nasledujúcimi dôveryhodnými službami:\n• **Na vyplnenie formulára Google Gemini-API-API (https://policies.google.com/privacy)\n• **Google OAuth**: Pre overenie účtu (https://policies.google.com/privacy)\n• **Supabase**: Pre voliteľné cloudové úložisko (https://supabase.com/privacy) – iba ak povolíte synchronizovať\n\n---\n\n**5. Vaše práva a ovládacie prvky**\n\nMáte právo:\n• **Prístup ** ku všetkým údajom, ktoré o vás aplikácia ApplyFlow uložila (prostredníctvom Exportovať zálohu v nastaveniach)\n• **Opraviť** vaše informácie kedykoľvek na karte Profile9 pomocou všetkých údajov miestneho profilu_**_Near_5_**_Near_5 Údaje“ v nastaveniach\n• **Odvolajte súhlas** kedykoľvek odinštalovaním rozšírenia\n• **Zakážte synchronizáciu v cloude** jej vypnutím v nastaveniach účtu a synchronizácie\n\n**GDPR (práva používateľov z EÚ) overte, ak ste v EÚ, znova overte identifikácia, ak ste držiteľom práv EÚ a prenosnosť údajov podľa všeobecného nariadenia o ochrane údajov.\n\n**India — zákon DPDP z roku 2023**: V súlade s indickým zákonom o ochrane osobných údajov z roku 2023 spracúvame osobné údaje iba na účely poskytovania asistenčnej služby pri žiadostiach o zamestnanie. Súhlas môžete kedykoľvek odvolať a požiadať o vymazanie svojich údajov tak, že nás kontaktujete.\n\n**Kalifornia — CCPA**: Obyvatelia Kalifornie majú právo vedieť, aké osobné údaje sa zhromažďujú, právo na vymazanie a právo odmietnuť predaj (nepredávame údaje).\n\n---\n\n**6. Uchovávanie údajov**\n\nLokálne údaje sa uchovávajú, kým ich manuálne nevymažete. Údaje synchronizované s cloudom sa uchovávajú, kým neodstránite svoj účet alebo nepožiadate o vymazanie. Údaje automaticky nevymažeme.\n\n---\n\n**7. Zabezpečenie**\n\nPrijímame primerané technické opatrenia na ochranu vašich údajov:\n• Všetka komunikácia v cloude používa šifrovanie HTTPS/TLS\n• Zabezpečenie na úrovni riadkov Supabase (RLS) zaisťuje, že používatelia môžu pristupovať k svojim vlastným údajom iba nad rámec potrebných povolení\n• Rozšírenie funkcia\n\n---\n\n**8. Ochrana osobných údajov detí**\n\nApplyFlow nie je určená pre používateľov mladších ako 13 rokov. Vedome nezhromažďujeme údaje od detí. Ak sa domnievate, že nám nejaké dieťa poskytlo osobné údaje, ihneď nás kontaktujte.\n\n---\n\n**9. Zmeny týchto zásad**\n\nTieto zásady ochrany osobných údajov môžeme z času na čas aktualizovať. Významné zmeny budú oznámené prostredníctvom stránky Možnosti rozšírenia. Pokračovanie v používaní rozšírenia po zmenách predstavuje prijatie aktualizovaných zásad.\n\n---\n\n**10. Kontaktujte nás**\n\nPre akékoľvek otázky týkajúce sa ochrany osobných údajov, žiadosti o vymazanie údajov alebo obavy:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow_4Webextension: https://github.com/applyflow_4Webextension: https://applyflow.in\n\nNaším cieľom je odpovedať na všetky žiadosti do 30 dní.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

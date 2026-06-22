@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Észlelve",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Nem észlelhető munkaoldal",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ követett jelentkezés · $2$ interjú",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Kezdje el jelentkezni, hogy nyomon kövesse a fejlődését",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Elemzés dátuma: $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Betölti a profil részleteit innen: \"$1$\"? Ezzel a jelenlegi szerkesztéseit az önéletrajz elemzett szerkezetére cseréli.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Visszaállított adatok innen: $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Match Score",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ további",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Az alkalmazás automatikusan kitöltve és naplózva! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ bejegyzés",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ készségek",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projektek",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ válaszol",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Engedélyezett",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ alkalmazások",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Szűrés cég szerint...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ összesen jelentkezés",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Még nincsenek adatok",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Kontextus: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "A karrier másodpilóta",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Íme $1$ valószínű interjúkérdés:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Folytatás optimalizálási pontszám: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Folytatás egyezési javaslatok",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Szia! Látom, hogy egy **$1$** szerepkört keresel a **$2$** címen.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Szia! Látom, hogy egy **$1$** szerepet nézel.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Szia! Én vagyok az AI karrier másodpilótája. Navigáljon egy álláshirdetéshez, és automatikusan elemzem, vagy kérdezzen tőlem bármit!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Bejelentkezve mint $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Jelentkezzen ki",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Önéletrajza **$1$%-ban kompatibilis** ezzel a szereppel.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Üdv újra, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nem sikerült lekérni a Google felhasználói profil adatait.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth bejelentkezés sikertelen: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Nem sikerült lekérni a hozzáférési tokent az átirányításból.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Licenckulcs: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Inaktiválja a licencet",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "A Chrome-bővítményparancsokhoz manuális hozzárendelés szükséges a Chrome parancsikonkezelőjében. Lépjen a $1$ oldalra a fent felsorolt ​​kulcsok kötéséhez.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome-bővítmény – Adatvédelmi irányelvek**\nUtolsó frissítés: 2026. június\n\n---\n\n**1. Bevezetés**\n\nApplyFlow (\"mi\", \"mi\", \"a bővítmény\") egy Chrome böngészőbővítmény, amely segít a felhasználóknak automatikusan kitölteni az állásjelentkezési űrlapokat, nyomon követni jelentkezéseiket, és kezelni szakmai profiljukat. Ez az adatvédelmi szabályzat leírja, hogyan gyűjtjük, használjuk, tároljuk és védjük az Ön adatait.\n\nAz ApplyFlow telepítésével és használatával Ön elfogadja a jelen szabályzatban leírt gyakorlatokat.\n\n---\n__NL_12_**2. Gyűjtött adatok**\n\nCsak az Ön által önként megadott információkat gyűjtjük a bővítmény funkcióinak engedélyezéséhez:\n\n• **Profilinformációk**: Az Ön neve, e-mail címe, telefonszáma, főiskola, végzettsége, képességei, munkatörténete, projektjei és szakmai linkjei, GitH Portfólió).\n• **EEO/Demográfiai adatok (opcionális)**: Nem, fogyatékossági állapot, veterán státusz és munkaengedély-beállítások – csak akkor érhető el, ha úgy dönt, hogy kitölti ezeket a mezőket. Ezeket az adatokat kizárólag az álláspályázatokhoz tartozó opcionális EEO-kérdőívek automatikus kitöltésére használjuk.\n• **Pályázatkövetési adatok**: Beosztás megnevezése, cég, jelentkezési URL, állapot és megjegyzések a bővítmény segítségével nyomon követett pozíciókhoz.\n• **Használati statisztika**: Az elvégzett automatikus kitöltési műveletek száma (helyileg__napi korlát:_N•2). **Hitelesítési adatok**: Ha úgy dönt, hogy bejelentkezik a Google-lal, tároljuk Google-ban megjelenített nevét, e-mail címét és profilképének URL-jét, hogy személyre szabhassuk az élményt, és lehetővé tegyük a felhőalapú szinkronizálást.\n\n**Nem** gyűjtjük:\n• Fizetési vagy pénzügyi információ___ vagy általános tevékenység\n• B• Browsering__2 olyan oldalakról, amelyek nem kapcsolódnak az álláspályázatokhoz\n• Azokról az oldalakról származó adatok, amelyeknél a bővítmény nincs aktívan aktiválva\n\n---\n\n**3. Hogyan tároljuk adatait**\n\n**3.1 Helyi tárhely (alapértelmezett)**\nMinden adatot elsősorban a böngésző chrome.storage.local API-ja tárol. Ezek az adatok csak az Ön eszközén találhatók, és soha nem kerülnek továbbításra semmilyen szerverre az Ön kifejezett intézkedése nélkül.\n\n**3.2 Cloud Sync (opcionális)**\nHa úgy dönt, hogy bejelentkezik a Google-lal, és engedélyezi a „Supabase Sync” funkciót, akkor profilja és alkalmazásadatai szintén szinkronizálásra kerülnek. Ezen adatok teljes tulajdonjogát Ön tartja meg. Bármikor törölheti a Fiók és szinkronizálás szakaszból.\n\n**3.3 Gemini AI-kérelmek**\nAmikor mesterséges intelligencia-szolgáltatásokat használnak (pl. esszégenerálás, munkaelemzés), a profil egyes részei (készségek, végzettség, összefoglaló) a Google-nak elküldik az API-val kapcsolatos válaszokat, és a munkaleírás szövege a Gemini. Ennek feldolgozása a Google szabványos API szolgáltatási feltételei és adatvédelmi irányelvei szerint történik. Javasoljuk, hogy a mesterséges intelligencia által támogatott tartalomban ne szerepeltessen bizalmas személyes azonosítókat.\n\n---\n\n**4. Adatmegosztás**\n\nMi **nem** adjuk el, nem kereskedünk, béreljük vagy osztjuk meg személyes adatait harmadik felekkel marketing vagy hirdetési célból.\n\nAdatait a következő megbízható szolgáltatások dolgozhatják fel:\n• **A Google Gemini-elemzési űrlap kitöltése (https://policies.google.com/privacy)\n• **Google OAuth**: fiókhitelesítéshez (https://policies.google.com/privacy)\n• **Supabase**: opcionális felhőalapú tároláshoz (https://supabase.com/privacy) – csak akkor, ha engedélyezi sync\n\n---\n\n**5. Az Ön jogai és ellenőrzései**\n\nJoga van:\n• **Hozzáférni** minden adathoz, amelyet az ApplyFlow tárolt Önről (a beállításoknál a Biztonsági másolat exportálása funkcióval)\n• **A Profile lapon bármikor helyesbítheti** az Ön adatait**• Az összes adatot helyileg törölheti**•_L_59_ „Minden profiladat törlése” a beállításokban\n• **A hozzájárulást** bármikor visszavonhatja a bővítmény eltávolításával\n• **A felhő szinkronizálás letiltása** a Fiók és szinkronizálás beállításai között kapcsolva ki törli, korlátozza a feldolgozást és az adatok hordozhatóságát az általános adatvédelmi rendelet értelmében.\n\n**India – DPDP Act 2023**: India 2023. évi digitális személyes adatok védelméről szóló törvényének megfelelően személyes adatokat csak az álláspályázati segítségnyújtás céljából dolgozunk fel. Bármikor visszavonhatja hozzájárulását és kérheti adatainak törlését, ha felveszi velünk a kapcsolatot.\n\n**Kalifornia – CCPA**: A kaliforniai lakosoknak joguk van tudni, hogy milyen személyes adatokat gyűjtenek, törölni, valamint lemondani az értékesítésről (nem értékesítünk). adatok).\n\n---\n\n**6. Adatmegőrzés**\n\nA helyi adatok mindaddig megmaradnak, amíg azokat manuálisan nem törli. A felhőben szinkronizált adatokat a rendszer mindaddig megőrzi, amíg Ön nem törli fiókját, vagy nem kéri a törlést. Az adatokat nem töröljük automatikusan.\n\n---\n\n**7. Biztonság**\n\n Ésszerű technikai intézkedéseket teszünk az adatok védelme érdekében:\n• Minden felhőalapú kommunikáció HTTPS/TLS titkosítást használ\n• A Supabase Row-Level Security (RLS) biztosítja, hogy a felhasználók csak a saját adataikhoz férhessenek hozzá.__NL_82_ function\n\n---\n\n**8. Gyermekek adatvédelme**\n\nApplyFlow nem 13 éven aluli felhasználók számára készült. Nem gyűjtünk tudatosan adatokat gyermekektől. Ha úgy gondolja, hogy egy gyermek személyes adatokat adott meg nekünk, kérjük, azonnal lépjen kapcsolatba velünk.\n\n---\n\n**9. A jelen szabályzat változásai**\n\nEzt az Adatvédelmi szabályzatot időről időre frissíthetjük. A jelentős változásokról a bővítmény Opciók oldalán értesítjük. A bővítmény változtatások utáni további használata a frissített szabályzat elfogadását jelenti.\n\n---\n\n**10. Lépjen kapcsolatba velünk**\n\nAz adatvédelemmel kapcsolatos kérdéseivel, adattörlési kérelmével vagy aggályaival kapcsolatban:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github. https://applyflow.in\n\nCélunk, hogy minden kérésre 30 napon belül válaszoljunk.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

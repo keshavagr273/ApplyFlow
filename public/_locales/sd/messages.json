@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ دريافت ڪيو ويو",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "نوڪري جو صفحو نه مليو",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ ايپليڪيشنون ٽريڪ ٿيل · $2$ انٽرويو",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "توهان جي ترقي کي ٽريڪ ڪرڻ لاء درخواست ڏيڻ شروع ڪريو",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ تي تجزيي ڪئي وئي",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" مان پروفائل تفصيل لوڊ ڪريو؟ هي توهان جي موجوده تبديلين کي هن ريزوم جي پارس ٿيل ڍانچي سان تبديل ڪندو.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "بحال ٿيل تفصيلات $1$ کان",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "ميچ اسڪور",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ فٽ",
-    "description": "Fit percent text"
+    "message": "$1$% فٽ",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ وڌيڪ",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "ايپليڪيشن خودڪار ڀريل ۽ لاگ ان ٿيل! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ داخلون",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ صلاحيتون",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ منصوبا",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ جواب",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "اختيار ڪيل",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ ايپليڪيشنون",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "ڪمپني طرفان فلٽر...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ ڪل ايپليڪيشنون",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "اڃان تائين ڪا ڊيٽا ناهي",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "حوالو: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "توهان جي ڪيريئر copilot",
@@ -745,7 +818,12 @@
   },
   "ai_analysis_resume_score_intro": {
     "message": "ٻيهر شروع ڪريو اصلاحي نمبر: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "ٻيهر شروع ڪريو ميچ جون تجويزون",
@@ -761,11 +839,24 @@
   },
   "job_details_detected_intro": {
     "message": "سلام مان ڏسي سگهان ٿو ته توهان **$1$_** ڪردار تي **$2$** تي ڏسي رهيا آهيو.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "سلام مان ڏسي سگهان ٿو ته توهان هڪ **$1$_** ڪردار کي ڏسي رهيا آهيو.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "سلام مان توهان جي AI ڪيريئر copilot آهيان. نوڪري جي لسٽنگ ڏانھن وڃو ۽ مان پاڻمرادو تجزيو ڪندس، يا مون کان ڪجھ پڇو!",
@@ -833,7 +924,12 @@
   },
   "logged_in_as": {
     "message": "لاگ ان ٿيو جيئن $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "سائن آئوٽ",
@@ -889,11 +985,21 @@
   },
   "ai_analysis_compatible": {
     "message": "توھان جو ريزوم **$1$% مطابقت آھي** ھن ڪردار سان.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ڀلي ڪري آيا، $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "گوگل استعمال ڪندڙ جي پروفائيل جي معلومات حاصل ڪرڻ ۾ ناڪام.",
@@ -901,7 +1007,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth لاگ ان ناڪام ٿيو: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "ريڊائريڪٽ مان رسائي ٽوڪن حاصل ڪرڻ ۾ ناڪام.",
@@ -1209,7 +1320,12 @@
   },
   "premium_active_desc": {
     "message": "لائسنس چيڪ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "غير فعال لائسنس",
@@ -1549,10 +1665,27 @@
   },
   "shortcut_note_desc": {
     "message": "ڪروم ايڪسٽينشن ڪمانڊز کي ڪروم جي شارٽ ڪٽ مئنيجر ۾ مينوئل اسائنمينٽ جي ضرورت آهي. $1$ ڏانھن وڃو مٿي ڏنل ڪنجين کي پابند ڪرڻ لاءِ.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow ڪروم ايڪسٽينشن — پرائيويسي پاليسي**\nآخري اپڊيٽ: جون 2026\n\n---_\n\n_**1. تعارف**\n_\nApplyFlow (\"اسان\"، \"اسان\"، \"دي ايڪسٽينشن\") هڪ ڪروم برائوزر جي ايڪسٽينشن آهي جيڪا صارفين کي نوڪري جا درخواست فارم خودڪار ڀرڻ، انهن جي ايپليڪيشنن کي ٽريڪ ڪرڻ ۽ انهن جي پروفيشنل پروفائل کي منظم ڪرڻ ۾ مدد ڪري ٿي. هي رازداري پاليسي بيان ڪري ٿي ته اسان توهان جي معلومات ڪيئن گڏ ڪريون، استعمال ڪريون، ذخيرو ڪريون ۽ محفوظ ڪيون. ڊيٽا اسان گڏ ڪريون ٿا**\n\nاسان صرف اها معلومات گڏ ڪريون ٿا جيڪا توهان رضاڪارانه طور تي مهيا ڪندا آهيو ايڪسٽينشن جي خاصيتن کي فعال ڪرڻ لاءِ:\n\n• **پروفائل جي معلومات**: توهان جو نالو، اي ميل، فون نمبر، ڪاليج، ڊگريون، مهارتون، ڪم جي تاريخ، پروجيڪٽ، ۽ پروفيشنل لنڪس (Linked) Git__L14. **EEO/Demographic Information (اختياري)**: صنف، معذوري جي حيثيت، تجربيڪار حيثيت، ۽ ڪم اختيار ڪرڻ جون ترجيحون - صرف مهيا ڪيل جيڪڏھن توھان انھن شعبن کي ڀرڻ لاءِ چونڊيو. هي ڊيٽا خاص طور تي استعمال ڪيو ويندو آهي خودڪار طريقي سان ڀرڻ لاءِ اختياري EEO سوالنامه جاب جي ايپليڪيشنن تي.\n• **ايپليڪيشن ٽريڪنگ ڊيٽا**: نوڪري جو عنوان، ڪمپني، ايپليڪيشن URL، اسٽيٽس، ۽ نوٽس انهن پوزيشن لاءِ جيڪي توهان ايڪسٽينشن کي استعمال ڪندي ٽريڪ ڪندا آهيو. حدون).\n• **Authentication Data**: جيڪڏهن توهان گوگل سان سائن ان ڪرڻ جو انتخاب ڪندا آهيون، اسان توهان جي تجربي کي ذاتي ڪرڻ ۽ ڪلائوڊ سنڪ کي فعال ڪرڻ لاءِ توهان جي گوگل ڊسپلي جو نالو، اي ميل پتو ۽ پروفائل تصويري URL محفوظ ڪندا آهيون. سرگرمي\n• صفحن مان ڪا به معلومات جيڪا نوڪري-ايپليڪيشن سان لاڳاپيل نه آهي\n• صفحن مان ڪا به ڊيٽا جڏهن ايڪسٽينشن فعال طور تي شروع نه ڪئي وئي آهي\n\n---\n\n_**3. اسان توهان جي ڊيٽا کي ڪيئن ذخيرو ڪندا آهيون**\n_NL_32___**3.1 مقامي اسٽوريج (ڊفالٽ)**\nسڀ ڊيٽا بنيادي طور تي توهان جي برائوزر جي chrome.storage.local API ۾ محفوظ ٿيل آهي. هي ڊيٽا صرف توهان جي ڊوائيس تي رهي ٿو ۽ ڪڏهن به توهان جي واضح عمل کان سواء ڪنهن به سرور ڏانهن منتقل نه ڪيو ويندو آهي.\n\n**3.2 Cloud Sync (اختياري)**\nجيڪڏهن توهان گوگل سان سائن ان ڪرڻ ۽ \"Supabase Sync\" خصوصيت کي فعال ڪرڻ لاء چونڊيو ٿا، ته توهان جي پروفائل ۽ ايپليڪيشن ڊيٽا کي پڻ مطابقت پذير ڪيو ويندو. توهان هن ڊيٽا جي مڪمل ملڪيت برقرار رکون ٿا. توهان ان کي ڪنهن به وقت اڪائونٽ ۽ هم وقت سازي واري حصي مان حذف ڪري سگهو ٿا.\n\n**3.3 Gemini AI Requests**\nWhen AI خاصيتون استعمال ڪيون وينديون آهن (مثال طور، مضمون جي پيدائش، نوڪري جو تجزيو)، توهان جي پروفائيل جا حصا (مهارت، درجي، خلاصو) ۽ نوڪري جي وضاحت ڏانهن موڪليا ويا آهن اي پي آءِ جي ميني ٽيڪسٽ. اهو عمل ڪيو ويو آهي گوگل جي معياري API شرطن جي سروس ۽ رازداري پاليسي جي تحت. اسان سفارش ڪريون ٿا ته حساس ذاتي سڃاڻپ ڪندڙ کي توهان جي AI جي مدد سان مواد ۾ شامل نه ڪيو وڃي. ڊيٽا شيئرنگ**\n_\nاسان مارڪيٽنگ يا اشتهارن جي مقصدن لاءِ توهان جي ذاتي معلومات ڪنهن به ٽئين پارٽي سان وڪڻڻ، واپار ڪرڻ، ڪرائي تي ڏيڻ يا شيئر ڪرڻ نه ٿا ڏيون. (https://policies.google.com/privacy)\n• **Google OAuth**: اڪائونٽ جي تصديق لاءِ (https://policies.google.com/privacy)\n• **Supabase**: اختياري ڪلائوڊ اسٽوريج لاءِ (https://supabase.com/privacy) — صرف جيڪڏهن توهان فعال ڪيو هم وقت سازي\n_NL_52___---NL_53_\n_**5. توهان جا حق ۽ ڪنٽرول**\n\nتوهان کي حق حاصل آهي:\n• **Access** سڀ ڊيٽا جيڪا ApplyFlow توهان جي باري ۾ محفوظ ڪئي آهي (سيٽنگن ۾ ايڪسپورٽ بيڪ اپ ذريعي)\n• ** صحيح** توهان جي معلومات ڪنهن به وقت پروفائل ٽئب ۾ \n پروفائل ڊيٽا\" سيٽنگون ۾\n• **ڪنهن به وقت رضامندي واپس وٺو** ايڪسٽينشن کي انسٽال ڪرڻ سان\n• **ڪلائوڊ سنڪ کي بند ڪريو** ان کي ٽوگل ڪري اڪائونٽ ۽ هم وقت سازي جي سيٽنگن ۾\n\n**GDPR (EU استعمال ڪندڙ)**: جيڪڏهن توهان کي ٻيهر رسائي حاصل ڪرڻ جو حق آهي، ته توهان جي سڃاڻپ آهي. جنرل ڊيٽا پروٽيڪشن ريگيوليشن تحت ختم ڪريو، پروسيسنگ کي محدود ڪريو، ۽ ڊيٽا پورٽيبلٽي.\n\n**هندستان - DPDP ايڪٽ 2023**: انڊيا جي ڊجيٽل پرسنل ڊيٽا پروٽيڪشن ايڪٽ 2023 جي تعميل ۾، اسان ذاتي ڊيٽا کي پروسيس ڪريون ٿا صرف نوڪري جي درخواست جي مدد جي خدمت مهيا ڪرڻ جي مقصد لاءِ. توهان اسان سان رابطو ڪري ڪنهن به وقت پنهنجي رضامندي واپس وٺي سگهو ٿا ۽ پنهنجي ڊيٽا کي حذف ڪرڻ جي درخواست ڪري سگهو ٿا.\n\n**California — CCPA**: ڪيليفورنيا جي رهاڪن کي اهو ڄاڻڻ جو حق آهي ته ڪهڙي ذاتي معلومات گڏ ڪئي وئي آهي، حذف ڪرڻ جو حق، ۽ وڪرو مان آپٽ آئوٽ ڪرڻ جو حق (اسين وڪرو نٿا ڪريون ڊيٽا).\n\n_---NL_70_\n_**6. ڊيٽا برقرار رکڻ**\n_\n مقامي ڊيٽا برقرار رکي ٿي جيستائين توھان ان کي دستي طور صاف نه ڪريو. Cloud-sync ٿيل ڊيٽا برقرار رکيو ويندو جيستائين توهان پنهنجو اڪائونٽ حذف نه ڪندا يا حذف ڪرڻ جي درخواست ڪندا. اسان خودڪار طريقي سان ڊيٽا کي حذف نه ڪندا آهيون.\n_NL_75___---NL_76_\n_**7. سيڪيورٽي**\nNL_79__اسان توهان جي ڊيٽا جي حفاظت لاءِ مناسب ٽيڪنيڪل اپاءَ ورتا آهيون:\n• سڀ ڪلائوڊ ڪميونيڪيشن HTTPS/TLS انڪرپشن استعمال ڪندا آهن\n• Supabase Row-Level Security (RLS) يقيني بڻائي ٿي ته صارف صرف پنهنجي ڊيٽا تائين رسائي ڪري سگهن ٿا\n• واڌ جي ضرورت نه آهي ان لاءِ جيڪا درخواست هجي فنڪشن\n\n_---NL_85_\n_**8. ٻارن جي رازداري**\n_NL_88__ApplyFlow 13 سالن کان گهٽ عمر جي استعمال ڪندڙن لاءِ نه آهي. اسان ڄاڻي واڻي ٻارن کان ڊيٽا گڏ نٿا ڪريون. جيڪڏهن توهان سمجهو ٿا ته هڪ ٻار اسان کي ذاتي معلومات فراهم ڪئي آهي، مهرباني ڪري اسان سان فوري طور تي رابطو ڪريو. هن پاليسي ۾ تبديليون**\n_NL_94__اسان هن رازداري پاليسي کي وقت وقت تي اپڊيٽ ڪري سگهون ٿا. اهم تبديلين جي ڄاڻ ڏني ويندي توسیع جي اختيارن واري صفحي ذريعي. تبديلين کان پوءِ توسيع جو مسلسل استعمال اپڊيٽ ٿيل پاليسي جي قبوليت کي قائم ڪري ٿو. اسان سان رابطو ڪريو**\n\nڪنهن به رازداري سان لاڳاپيل سوالن، ڊيٽا کي ختم ڪرڻ جي درخواستن، يا خدشات لاءِ:\n\nاي ميل: privacy@applyflow.in\nGitHub: https://github.com/apply__Lbs10t: https://applyflow.in\n_NL_106__اسان جو مقصد 30 ڏينهن اندر سڀني درخواستن جو جواب ڏيڻ آهي.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

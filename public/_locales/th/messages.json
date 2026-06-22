@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ ตรวจพบ",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "ไม่พบหน้างาน",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "ติดตามการสมัคร $1$ · สัมภาษณ์ $2$",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "เริ่มสมัครเพื่อติดตามความก้าวหน้าของคุณ",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "แยกวิเคราะห์เมื่อ $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "โหลดรายละเอียดโปรไฟล์จาก \"$1$\" หรือไม่ สิ่งนี้จะแทนที่การแก้ไขปัจจุบันของคุณด้วยโครงสร้างการแยกวิเคราะห์ของเรซูเม่นี้",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "กู้คืนรายละเอียดจาก $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "คะแนนการแข่งขัน",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ พอดี",
-    "description": "Fit percent text"
+    "message": "$1$% พอดี",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ เพิ่มเติม",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "แอปพลิเคชันกรอกอัตโนมัติและเข้าสู่ระบบ! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ รายการ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ ทักษะ",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ โครงการ",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ คำตอบ",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "ได้รับอนุญาต",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ แอปพลิเคชัน",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "กรองตามบริษัท...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ แอปพลิเคชันทั้งหมด",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "ยังไม่มีข้อมูล",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "บริบท: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "นักบินอาชีพของคุณ",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "ต่อไปนี้เป็นคำถามสัมภาษณ์ที่เป็นไปได้ $1$:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "คะแนนการปรับให้เหมาะสมต่อ: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "ข้อเสนอแนะการจับคู่ต่อ",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "สวัสดี! ฉันเห็นว่าคุณกำลังมองหาบทบาท **$1$** ที่ **$2$**",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "สวัสดี! ฉันเห็นว่าคุณกำลังมองหาบทบาท **$1$**",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "สวัสดี! ฉันเป็นนักบินอาชีพ AI ของคุณ นำทางไปยังรายการงานแล้วฉันจะวิเคราะห์โดยอัตโนมัติหรือถามอะไรฉันเลย!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "เข้าสู่ระบบด้วย $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "ออกจากระบบ",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "ประวัติย่อของคุณ *$1$% เข้ากันได้** กับตำแหน่งนี้",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ยินดีต้อนรับกลับมา $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "ไม่สามารถเรียกข้อมูลโปรไฟล์ผู้ใช้ Google",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "การเข้าสู่ระบบ OAuth ล้มเหลว: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "ไม่สามารถดึงโทเค็นการเข้าถึงจากการเปลี่ยนเส้นทาง",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "รหัสใบอนุญาต: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "ปิดการใช้งานใบอนุญาต",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "คำสั่งส่วนขยาย Chrome ต้องมีการกำหนดด้วยตนเองในตัวจัดการทางลัดของ Chrome ไปที่ $1$ เพื่อผูกคีย์ที่แสดงไว้ด้านบน",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ส่วนขยาย Chrome ApplyFlow — นโยบายความเป็นส่วนตัว**\nอัปเดตล่าสุด: มิถุนายน 2026\n\n---\n\n**1. บทนำ**\n\nApplyFlow (\"เรา\", \"ของเรา\", \"ส่วนขยาย\") คือส่วนขยายเบราว์เซอร์ Chrome ที่ช่วยให้ผู้ใช้กรอกแบบฟอร์มสมัครงานอัตโนมัติ ติดตามใบสมัคร และจัดการโปรไฟล์ทางวิชาชีพของตน นโยบายความเป็นส่วนตัวนี้อธิบายวิธีที่เรารวบรวม ใช้ จัดเก็บ และปกป้องข้อมูลของคุณ\n\nการติดตั้งและใช้งาน ApplyFlow แสดงว่าคุณยอมรับหลักปฏิบัติที่อธิบายไว้ในนโยบายนี้\n\n---\n\n**2 ข้อมูลที่เรารวบรวม**\n\nเรารวบรวมเฉพาะข้อมูลที่คุณให้ไว้โดยสมัครใจเพื่อเปิดใช้งานคุณลักษณะของส่วนขยาย:\n\n• **ข้อมูลโปรไฟล์**: ชื่อ อีเมล หมายเลขโทรศัพท์ วิทยาลัย ระดับการศึกษา ทักษะ ประวัติการทำงาน โครงการ และลิงก์ทางวิชาชีพของคุณ (LinkedIn, GitHub, ผลงาน)\n• **ข้อมูล EEO/ข้อมูลประชากร (ไม่บังคับ)**: เพศ สถานะความพิการ สถานะทหารผ่านศึก และการตั้งค่าการอนุญาตทำงาน — มีให้เฉพาะเมื่อคุณเลือกที่จะกรอกข้อมูลในฟิลด์เหล่านี้ ข้อมูลนี้ใช้เพื่อกรอกแบบสอบถาม EEO ที่ไม่บังคับในการสมัครงานเท่านั้น\n• **ข้อมูลการติดตามใบสมัคร**: ตำแหน่งงาน บริษัท URL ใบสมัคร สถานะ และหมายเหตุสำหรับตำแหน่งที่คุณติดตามโดยใช้ส่วนขยาย\n• **สถิติการใช้งาน**: จำนวนการดำเนินการกรอกอัตโนมัติที่ดำเนินการ (จัดเก็บไว้ในเครื่องเพื่อบังคับใช้ขีดจำกัดรายวัน)\n• **ข้อมูลการรับรองความถูกต้อง**: หากคุณเลือกที่จะลงชื่อเข้าใช้ด้วย Google เราจะจัดเก็บการแสดงผลของ Google ของคุณ ชื่อ ที่อยู่อีเมล และ URL รูปโปรไฟล์เพื่อปรับแต่งประสบการณ์ของคุณและเปิดใช้งานการซิงค์บนคลาวด์\n\nเราไม่**รวบรวม:\n• ข้อมูลการชำระเงินหรือทางการเงิน\n• ประวัติเบราว์เซอร์หรือกิจกรรมการท่องเว็บทั่วไป\n• ข้อมูลใด ๆ จากเพจที่ไม่เกี่ยวข้องกับการสมัครงาน\n• ข้อมูลใด ๆ จากเพจเมื่อส่วนขยายไม่ทำงาน ทริกเกอร์\n\n---\n\n**3. เราจัดเก็บข้อมูลของคุณอย่างไร**\n\n**3.1 พื้นที่จัดเก็บในตัวเครื่อง (ค่าเริ่มต้น)**\nข้อมูลทั้งหมดจะถูกจัดเก็บไว้ใน chrome.storage.local API ของเบราว์เซอร์ของคุณเป็นหลัก ข้อมูลนี้จะอยู่บนอุปกรณ์ของคุณเท่านั้น และจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใดๆ โดยที่คุณไม่ดำเนินการอย่างชัดเจน\n\n**3.2 Cloud Sync (ไม่บังคับ)**\nหากคุณเลือกที่จะลงชื่อเข้าใช้ด้วย Google และเปิดใช้งานคุณสมบัติ \"Supabase Sync\" ข้อมูลโปรไฟล์และแอปพลิเคชันของคุณจะถูกซิงโครไนซ์กับฐานข้อมูล Supabase ด้วย คุณยังคงเป็นเจ้าของข้อมูลนี้โดยสมบูรณ์ คุณสามารถลบได้ตลอดเวลาจากส่วนบัญชีและการซิงค์\n\n**3.3 คำขอ AI ของ Gemini**\nเมื่อมีการใช้คุณลักษณะของ AI (เช่น การสร้างเรียงความ การวิเคราะห์งาน) บางส่วนของโปรไฟล์ของคุณ (ทักษะ ปริญญา สรุป) และข้อความคำอธิบายงานจะถูกส่งไปยัง Gemini API ของ Google เพื่อสร้างการตอบกลับ สิ่งนี้ได้รับการประมวลผลภายใต้ข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัว API มาตรฐานของ Google เราขอแนะนำไม่ให้รวมตัวระบุส่วนบุคคลที่ละเอียดอ่อนในเนื้อหาที่ได้รับความช่วยเหลือจาก AI\n\n---\n\n**4. การแบ่งปันข้อมูล**\n\nเรา **ไม่** ขาย แลกเปลี่ยน ให้เช่า หรือแบ่งปันข้อมูลส่วนบุคคลของคุณกับบุคคลที่สามเพื่อวัตถุประสงค์ทางการตลาดหรือการโฆษณา\n\nข้อมูลของคุณอาจได้รับการประมวลผลโดยบริการที่เชื่อถือได้ดังต่อไปนี้:\n• **Google Gemini API**: สำหรับการกรอกและวิเคราะห์แบบฟอร์มที่ขับเคลื่อนด้วย AI (https://policies.google.com/privacy)\n• **Google OAuth**: สำหรับบัญชี การตรวจสอบสิทธิ์ (https://policies.google.com/privacy)\n• **Supabase**: สำหรับพื้นที่เก็บข้อมูลระบบคลาวด์เสริม (https://supabase.com/privacy) — เฉพาะในกรณีที่คุณเปิดใช้งาน sync\n\n---\n\n**5 สิทธิ์และการควบคุมของคุณ**\n\nคุณมีสิทธิ์ที่จะ:\n• **เข้าถึง** ข้อมูลทั้งหมดที่ ApplyFlow เก็บไว้เกี่ยวกับคุณ (ผ่านการสำรองข้อมูลการส่งออกในการตั้งค่า)\n• **แก้ไข** ข้อมูลของคุณได้ตลอดเวลาในแท็บโปรไฟล์\n• **ลบ** ข้อมูลทั้งหมดของคุณภายในเครื่องโดยใช้ \"ล้างข้อมูลโปรไฟล์ทั้งหมด\" ในการตั้งค่า\n• **ถอนความยินยอม** ได้ตลอดเวลาโดยการถอนการติดตั้ง extension\n• **ปิดใช้งานการซิงค์บนคลาวด์** โดยสลับเป็นปิดในการตั้งค่าบัญชีและการซิงค์\n\n**GDPR (ผู้ใช้ในสหภาพยุโรป)**: หากคุณเป็นผู้อาศัยอยู่ในสหภาพยุโรป คุณมีสิทธิ์ในการเข้าถึง แก้ไข ลบ จำกัดการประมวลผล และการโอนย้ายข้อมูลภายใต้กฎระเบียบคุ้มครองข้อมูลส่วนบุคคลทั่วไป\n\n**อินเดีย — พระราชบัญญัติ DPDP ปี 2023**: เป็นไปตามกฎหมายคุ้มครองข้อมูลส่วนบุคคลทางดิจิทัลของอินเดีย ปี 2023 เราประมวลผลข้อมูลส่วนบุคคลเพื่อวัตถุประสงค์ในการให้บริการช่วยเหลือการสมัครงานเท่านั้น คุณสามารถเพิกถอนความยินยอมและขอลบข้อมูลของคุณได้ตลอดเวลาโดยติดต่อเรา\n\n**แคลิฟอร์เนีย — CCPA**: ผู้อยู่อาศัยในแคลิฟอร์เนียมีสิทธิ์ที่จะรู้ว่าข้อมูลส่วนบุคคลใดที่ถูกรวบรวม สิทธิ์ในการลบ และสิทธิ์ในการยกเลิกการขาย (เราไม่ขายข้อมูล)\n\n---\n\n**6 การเก็บรักษาข้อมูล**\n\nข้อมูลในเครื่องจะถูกเก็บไว้จนกว่าคุณจะล้างข้อมูลด้วยตนเอง ข้อมูลที่ซิงค์บนคลาวด์จะถูกเก็บไว้จนกว่าคุณจะลบบัญชีของคุณหรือขอลบ เราจะไม่ลบข้อมูลโดยอัตโนมัติ\n\n---\n\n**7 ความปลอดภัย**\n\nเราใช้มาตรการทางเทคนิคที่เหมาะสมเพื่อปกป้องข้อมูลของคุณ:\n• การสื่อสารบนคลาวด์ทั้งหมดใช้การเข้ารหัส HTTPS/TLS\n• Supabase Row-Level Security (RLS) ช่วยให้มั่นใจว่าผู้ใช้สามารถเข้าถึงข้อมูลของตนเองเท่านั้น\n• ส่วนขยายไม่ได้ร้องขอการอนุญาตที่เกินกว่าที่จำเป็นสำหรับแกนหลัก ฟังก์ชั่น\n\n---\n\n**8. ความเป็นส่วนตัวของเด็ก**\n\nApplyFlow ไม่ได้มีไว้สำหรับผู้ใช้ที่มีอายุต่ำกว่า 13 ปี เราไม่ได้รวบรวมข้อมูลจากเด็กโดยเจตนา หากคุณเชื่อว่าเด็กให้ข้อมูลส่วนบุคคลแก่เรา โปรดติดต่อเราทันที\n\n---\n\n**9 การเปลี่ยนแปลงนโยบายนี้**\n\nเราอาจอัปเดตนโยบายความเป็นส่วนตัวนี้เป็นครั้งคราว การเปลี่ยนแปลงที่สำคัญจะได้รับแจ้งผ่านหน้าตัวเลือกของส่วนขยาย การใช้ส่วนขยายต่อไปหลังการเปลี่ยนแปลงจะถือเป็นการยอมรับนโยบายที่อัปเดต\n\n---\n\n**10 ติดต่อเรา**\n\nสำหรับคำถามที่เกี่ยวข้องกับความเป็นส่วนตัว คำขอลบข้อมูล หรือข้อกังวล:\n\nอีเมล: Privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nเว็บไซต์: https://applyflow.in\n\nเรามุ่งมั่นที่จะตอบสนองต่อคำขอทั้งหมดภายใน 30 วัน",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

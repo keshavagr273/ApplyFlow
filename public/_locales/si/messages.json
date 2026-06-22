@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ අනාවරණය විය",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "රැකියා පිටුවක් අනාවරණය කර ගෙන නොමැත",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ යෙදුම් නිරීක්ෂණය කරන ලදී · $2$ සම්මුඛ සාකච්ඡා",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "ඔබගේ ප්‍රගතිය නිරීක්ෂණය කිරීමට අයදුම් කිරීම ආරම්භ කරන්න",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ මත විග්‍රහ කරන ලදී",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" වෙතින් පැතිකඩ විස්තර පූරණය කරන්නද? මෙය ඔබගේ වර්තමාන සංස්කරණ මෙම නැවත ආරම්භයේ විග්‍රහ කළ ව්‍යුහය සමඟ ප්‍රතිස්ථාපනය කරයි.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ වෙතින් විස්තර ප්‍රතිසාධනය කරන ලදී",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "තරඟ ලකුණු",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ තවත්",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "යෙදුම ස්වයංක්‍රීයව පුරවා ලොග් විය! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ඇතුළත් කිරීම්",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ කුසලතා",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ ව්‍යාපෘති",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ පිළිතුරු",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "බලයලත්",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ යෙදුම්",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "සමාගම අනුව පෙරහන් කරන්න...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ මුළු යෙදුම්",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "තවමත් දත්ත නොමැත",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "සන්දර්භය: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "ඔබේ වෘත්තීය සහායක නියමුවා",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "මෙන්න $1$ සම්මුඛ පරීක්ෂණ ප්‍රශ්න:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "ප්‍රශස්තිකරණ ලකුණු නැවත ආරම්භ කරන්න: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "තරඟ යෝජනා නැවත ආරම්භ කරන්න",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "ආයුබෝවන්! ඔබ **$2$** හි **$1$** භූමිකාවක් දෙස බලා සිටින බව මට පෙනේ.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "ආයුබෝවන්! ඔබ **$1$** භූමිකාවක් දෙස බලා සිටින බව මට පෙනේ.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "ආයුබෝවන්! මම ඔබේ AI වෘත්තීය සහායක නියමුවා. රැකියා ලැයිස්තුවක් වෙත සංචාලනය කරන්න, මම එය ස්වයංක්‍රීයව විශ්ලේෂණය කරන්නම්, නැතහොත් මගෙන් ඕනෑම දෙයක් අසන්න!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ ලෙස පුරනය වී ඇත",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "වරනය වන්න",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "ඔබගේ ජීව දත්ත පත්‍රය මෙම භූමිකාව සමඟ **$1$% අනුකූල වේ.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "නැවත සාදරයෙන් පිළිගනිමු, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google පරිශීලක පැතිකඩ තොරතුරු ලබා ගැනීමට අසමත් විය.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth පිවිසුම අසාර්ථක විය: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "යළි-යොමුවීම් වෙතින් ප්‍රවේශ ටෝකනය ලබා ගැනීමට අසමත් විය.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "බලපත්‍ර යතුර: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "බලපත්‍රය අක්‍රිය කරන්න",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome දිගු විධාන සඳහා Chrome හි කෙටිමං කළමනාකරු තුළ අතින් පැවරීම අවශ්‍ය වේ. ඉහත ලැයිස්තුගත කර ඇති යතුරු බැඳීමට $1$ වෙත යන්න.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — රහස්‍යතා ප්‍රතිපත්තිය**\nඅවසන් යාවත්කාලීන කළේ: 2026 ජූනි\n\n____\n\n**1. හැඳින්වීම**\n\nApplyFlow (\"අපි\", \"අපේ\", \"දිගුව\") යනු පරිශීලකයින්ට රැකියා ඉල්ලුම්පත්‍ර ස්වයංක්‍රීයව පිරවීමට, ඔවුන්ගේ යෙදුම් ලුහුබැඳීමට සහ ඔවුන්ගේ වෘත්තීය පැතිකඩ කළමනාකරණය කිරීමට උදවු කරන Chrome බ්‍රවුසර දිගුවකි. මෙම රහස්‍යතා ප්‍රතිපත්තිය අපි ඔබගේ තොරතුරු රැස් කරන, භාවිතා කරන, ගබඩා කරන සහ ආරක්ෂා කරන ආකාරය පැහැදිලි කරයි.\n\nApplyFlow ස්ථාපනය කිරීමෙන් සහ භාවිතා කිරීමෙන්, ඔබ මෙම ප්‍රතිපත්තියේ විස්තර කර ඇති පරිචයන් වලට එකඟ වේ.\n__\n_____\n\n**2. අපි රැස් කරන දත්ත**\n\n දිගුවේ විශේෂාංග සබල කිරීමට ඔබ ස්වේච්ඡාවෙන් සපයන තොරතුරු පමණක් අපි රැස් කරමු:\n\n• **පැතිකඩ තොරතුරු**: ඔබේ නම, විද්‍යුත් තැපෑල, දුරකථන අංකය, විද්‍යාලය, උපාධිය, කුසලතා, සේවා ඉතිහාසය, ව්‍යාපෘති, සහ වෘත්තීය සබැඳි, Gitink Portfolio).\n• **EEO/ජන විකාශන තොරතුරු (විකල්ප)**: ස්ත්‍රී පුරුෂ භාවය, ආබාධිත තත්ත්වය, ප්‍රවීණ තත්ත්වය, සහ රැකියා අවසර මනාප — ඔබ මෙම ක්ෂේත්‍ර පිරවීමට තෝරා ගන්නේ නම් පමණි. මෙම දත්ත රැකියා ඉල්ලුම්පත්‍රවල විකල්ප EEO ප්‍රශ්නාවලි ස්වයංක්‍රීයව පිරවීම සඳහා පමණක් භාවිත කෙරේ.\n• **අයදුම්පත් ලුහුබැඳීමේ දත්ත**: රැකියා මාතෘකාව, සමාගම, යෙදුම් URL, තත්ත්වය, සහ දිගුව භාවිතයෙන් ඔබ නිරීක්ෂණය කරන තනතුරු සඳහා සටහන්.\n• **භාවිතා කිරීමේ සංඛ්‍යාලේඛන සඳහා දෛනිකව ක්‍රියාත්මක වන සංඛ්‍යාලේඛන සීමාවන්).\n• **සත්‍යාපන දත්ත**: ඔබ Google සමඟ පුරනය වීමට තෝරා ගන්නේ නම්, අපි ඔබගේ Google සංදර්ශක නම, විද්‍යුත් තැපැල් ලිපිනය සහ පැතිකඩ පින්තූර URL ගබඩා කර ඔබගේ අත්දැකීම පුද්ගලීකරණය කිරීමට සහ වලාකුළු සමමුහුර්තකරණය සක්‍රීය කිරීමට ගබඩා කරමු.\n\nඅපි **නොවේ** රැස්කරන්නෙමු ක්‍රියාකාරකම\n• රැකියා-අයදුම්පතට අදාළ නොවන පිටු වලින් ඕනෑම තොරතුරක්\n• දිගුව සක්‍රියව ක්‍රියාරම්භ කර නොමැති විට පිටු වලින් ඕනෑම දත්තයක්\n\n---_\n\n**3. අපි ඔබේ දත්ත ගබඩා කරන්නේ කෙසේද**\n\n**3.1 දේශීය ආචයනය (පෙරනිමිය)**\nසියලු දත්ත ප්‍රධාන වශයෙන් ඔබේ බ්‍රවුසරයේ chrome.storage.local API තුළ ගබඩා කර ඇත. මෙම දත්ත ඔබගේ උපාංගයේ පමණක් පවතින අතර ඔබේ පැහැදිලි ක්‍රියාවකින් තොරව කිසිවිටෙක කිසිදු සේවාදායකයකට සම්ප්‍රේෂණය නොවේ.\n\n**3.2 Cloud Sync (විකල්ප)**\nඔබ Google සමඟ පුරනය වීමට සහ \"Supabase Sync\" විශේෂාංගය සක්‍රීය කිරීමට තෝරා ගන්නේ නම්, ඔබගේ පැතිකඩ සහ යෙදුම් දත්ත සමමුහුර්ත කිරීමට ද දත්ත සමමුහුර්ත කරනු ඇත. මෙම දත්තවල සම්පූර්ණ හිමිකාරිත්වය ඔබ සතුවේ. ඔබට එය ඕනෑම වේලාවක ගිණුම සහ සමමුහුර්ත කිරීමේ අංශයෙන් මකා දැමිය හැක.\n\n**3.3 Gemini AI ඉල්ලීම්**\nAI විශේෂාංග භාවිතා කරන විට (උදා., රචනා උත්පාදනය, රැකියා විශ්ලේෂණය), ඔබේ පැතිකඩෙහි කොටස් (නිපුණතා, උපාධිය, සාරාංශය) සහ Google රැකියා විස්තරය සඳහා ප්‍රතිචාරය උත්පාදනය කරනු ලැබේ. මෙය Google හි සම්මත API සේවා නියම සහ රහස්‍යතා ප්‍රතිපත්තිය යටතේ සකසනු ලැබේ. ඔබගේ AI-සහාය අන්තර්ගතය තුළ සංවේදී පුද්ගලික හඳුනාගැනීම් ඇතුළත් නොකිරීමට අපි නිර්දේශ කරමු.\n\n_____\n\n**4. දත්ත බෙදාගැනීම**\n\nඅපි අලෙවිකරණ හෝ ප්‍රචාරණ අරමුණු සඳහා ඔබේ පුද්ගලික තොරතුරු *************නො* විකිණීම, වෙළඳාම් කිරීම, කුලියට ගැනීම හෝ බෙදා නොගැනීම (https://policies.google.com/privacy)\n• **Google OAuth**: ගිණුම් සත්‍යාපනය සඳහා (https://policies.google.com/privacy)\n• **Supabase**: විකල්ප ක්ලවුඩ් ආචයනය සඳහා (https://supabase.com/privacy) — ඔබ ප්‍රිය කළ හැකි නම් පමණි. සමමුහුර්ත කරන්න\n\n_____\n\n**5. ඔබගේ අයිතිවාසිකම් සහ පාලනය**\n\nඔබට අයිතිය ඇත:\n• **ප්‍රවේශය** ApplyFlow ඔබ ගැන ගබඩා කර ඇති සියලුම දත්ත (සැකසීම් තුළ අපනයන උපස්ථ හරහා)\n• **නිවැරදි** ඔබගේ සියලු දත්ත ඕනෑම වේලාවක පැතිකඩ ටැබය භාවිතා කර ඔබගේ සියලු දත්ත ***L_L_L_DeleteClick 59__N පැතිකඩ දත්ත\" සැකසීම් තුළ\n• **කැමැත්ත ඉල්ලා අස්කර ගන්න** දිගුව අස්ථාපනය කිරීමෙන්\n• **ක්ලවුඩ් සමමුහුර්තකරණය අක්‍රිය කරන්න** ගිණුම් සහ සමමුහුර්ත සැකසීම් තුළ ටොගල් කිරීමෙන් එය අක්‍රිය කරන්න\n\n**ඔබට EU: ප්‍රවේශ වීමට ඔබට අයිතියක් තිබේ නම්, EU: සාමාන්‍ය දත්ත ආරක්ෂණ රෙගුලාසි යටතේ නිවැරදි කිරීම, මකා දැමීම, සැකසීම සහ සීමා කිරීම සහ දත්ත ගෙනයාමේ හැකියාව ඔබට ඕනෑම වේලාවක අප හා සම්බන්ධ වීමෙන් කැමැත්ත ඉල්ලා අස්කර ගැනීමට සහ ඔබගේ දත්ත මැකීමට ඉල්ලීමට හැකිය.\n\n**කැලිෆෝනියා — CCPA**: කැලිෆෝනියාවේ පදිංචිකරුවන්ට එකතු කරන පුද්ගලික තොරතුරු මොනවාදැයි දැන ගැනීමට, මකා දැමීමට අයිතිය සහ විකිණීමෙන් ඉවත් වීමේ අයිතිය (අපි විකුණන්නේ නැත. දත්ත).\n\n_____\n\n**6. දත්ත රඳවා ගැනීම**\n\nඔබ අතින් ඉවත් කරන තෙක් දේශීය දත්ත රඳවා තබා ගනී. ඔබ ඔබගේ ගිණුම මකන තෙක් හෝ මකාදැමීමට ඉල්ලා සිටින තෙක් Cloud-සමමුහුර්ත දත්ත රඳවා තබා ගනී. අපි ස්වයංක්‍රීයව දත්ත මකා නොදමමු.\n\n_____\n\n**7. ආරක්ෂාව**\n\nඔබගේ දත්ත ආරක්ෂා කිරීමට අපි සාධාරණ තාක්ෂණික ක්‍රියාමාර්ග ගන්නවා:\n• සියලුම ක්ලවුඩ් සන්නිවේදනයන් HTTPS/TLS සංකේතනය භාවිතා කරයි\n• Supabase Row-Level Security (RLS) පරිශීලකයින්ට ඔවුන්ගේ දත්ත වලට පමණක් ප්‍රවේශ විය හැකි බව සහතික කරයි__NL_82. ශ්‍රිතය\n\n_____\n\n**8. ළමා රහස්‍යතාව**\n\nApplyFlow වයස අවුරුදු 13ට අඩු පරිශීලකයින් සඳහා අදහස් නොකෙරේ. අපි දැනුවත්ව ළමයින්ගෙන් දත්ත රැස් නොකරමු. දරුවෙකු අපට පුද්ගලික තොරතුරු ලබා දී ඇතැයි ඔබ විශ්වාස කරන්නේ නම්, කරුණාකර වහාම අප හා සම්බන්ධ වන්න.\n\n________\n\n**9. මෙම ප්‍රතිපත්තියට වෙනස්කම්**\n\nඅපි මෙම රහස්‍යතා ප්‍රතිපත්තිය කලින් කලට යාවත්කාලීන කළ හැක. සැලකිය යුතු වෙනස්කම් දිගුවේ විකල්ප පිටුව හරහා සන්නිවේදනය කෙරේ. වෙනස්කම් වලින් පසුව දිගුව අඛණ්ඩව භාවිතා කිරීම යාවත්කාලීන කළ ප්‍රතිපත්තිය පිළිගැනීම වේ.\n\n_____\n\n**10. අප අමතන්න**\n\nපෞද්ගලිකත්වය සම්බන්ධ ඕනෑම ප්‍රශ්න, දත්ත මකාදැමීමේ ඉල්ලීම්, හෝ ගැටළු සඳහා:\n\nඊමේල්: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension https://applyflow.in\n\nඅපි සියලු ඉල්ලීම්වලට දින 30ක් ඇතුළත ප්‍රතිචාර දැක්වීමට ඉලක්ක කරමු.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

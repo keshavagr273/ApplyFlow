@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Gedetecteerd",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Geen vacaturepagina gedetecteerd",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ sollicitaties gevolgd · $2$ interviews",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Begin met solliciteren om uw voortgang bij te houden",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Geparseerd op $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Profielgegevens laden van \"$1$\"? Hiermee worden uw huidige bewerkingen vervangen door de geparseerde structuur van dit cv.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Gegevens hersteld van $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Wedstrijdscore",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Pasvorm",
-    "description": "Fit percent text"
+    "message": "$1$% Pasvorm",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ meer",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Applicatie automatisch ingevuld en ingelogd! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ vermeldingen",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ vaardigheden",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projecten",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ antwoorden",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Geautoriseerd",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ toepassingen",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filter op bedrijf...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ totaal aantal aanvragen",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Nog geen gegevens",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Context: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Jouw carrière-copiloot",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Hier zijn $1$ waarschijnlijke sollicitatievragen:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "CV-optimalisatiescore: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Match-suggesties hervatten",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hoi! Ik zie dat je op zoek bent naar een functie van **$1$** bij **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hoi! Ik zie dat je naar een **$1$** rol kijkt.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hoi! Ik ben jouw AI-carrière-copiloot. Navigeer naar een vacature en ik analyseer deze automatisch, of vraag me wat dan ook!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Ingelogd als $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Uitloggen",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Je CV is **$1$% compatibel** met deze rol.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Welkom terug, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Kan Google-gebruikersprofielgegevens niet ophalen.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth-aanmelding mislukt: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Kan het toegangstoken niet ophalen uit de omleiding.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Licentiesleutel: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Licentie deactiveren",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome-extensieopdrachten vereisen handmatige toewijzing in de snelkoppelingsbeheerder van Chrome. Ga naar $1$ om de hierboven genoemde sleutels te binden.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome-extensie — Privacybeleid**\nLaatst bijgewerkt: juni 2026\n\n---NL_3__\n**1. Inleiding**\n\nApplyFlow (\"wij\", \"onze\", \"de extensie\") is een Chrome-browserextensie waarmee gebruikers sollicitatieformulieren automatisch kunnen invullen, hun sollicitaties kunnen volgen en hun professionele profiel kunnen beheren. In dit privacybeleid wordt uitgelegd hoe wij uw gegevens verzamelen, gebruiken, opslaan en beschermen.\n\nDoor ApplyFlow te installeren en te gebruiken, gaat u akkoord met de praktijken die in dit beleid worden beschreven.\n\n---\n\n**2. Gegevens die we verzamelen**\n\nWe verzamelen alleen de informatie die u vrijwillig verstrekt om de functies van de extensie in te schakelen:\n\n• **Profielinformatie**: uw naam, e-mailadres, telefoonnummer, universiteit, graad, vaardigheden, werkgeschiedenis, projecten en professionele links (LinkedIn, GitHub, Portfolio).\n• **EEO/demografische informatie (optioneel)**: geslacht, handicapstatus, veteranenstatus en werk autorisatievoorkeuren — alleen verstrekt als u ervoor kiest deze velden in te vullen. Deze gegevens worden uitsluitend gebruikt om optionele EEO-vragenlijsten bij sollicitaties automatisch in te vullen.\n• **Applicatietrackinggegevens**: functietitel, bedrijf, sollicitatie-URL, status en opmerkingen voor posities die u bijhoudt met behulp van de extensie.\n• **Gebruiksstatistieken**: aantal uitgevoerde automatische aanvulbewerkingen (lokaal opgeslagen om dagelijkse limieten af te dwingen).\n• **Authenticatiegegevens**: als u ervoor kiest om in te loggen bij Google, slaan we uw Google-weergavenaam, e-mailadres, en profielfoto-URL om uw ervaring te personaliseren en cloudsynchronisatie in te schakelen.\n\nWij verzamelen **niet**:\n• Betalings- of financiële informatie\n• Browsergeschiedenis of algemene browse-activiteit\n• Alle informatie van pagina's die niet gerelateerd zijn aan een sollicitatie\n• Alle gegevens van pagina's waarop de extensie niet actief is geactiveerd\n\n---\n\n**3. Hoe we uw gegevens opslaan**\n\n**3.1 Lokale opslag (standaard)**\nAlle gegevens worden voornamelijk opgeslagen in de chrome.storage.local API van uw browser. Deze gegevens bevinden zich alleen op uw apparaat en worden nooit zonder uw expliciete actie naar een server verzonden.\n\n**3.2 Cloud Sync (optioneel)**\nAls u ervoor kiest om in te loggen met Google en de functie \"Supabase Sync\" in te schakelen, worden uw profiel- en applicatiegegevens ook gesynchroniseerd met een Supabase-database. U behoudt de volledige eigendom van deze gegevens. U kunt deze op elk gewenst moment verwijderen via de sectie Account en synchronisatie.\n\n**3.3 Gemini AI-verzoeken**\nWanneer AI-functies worden gebruikt (bijvoorbeeld het genereren van essays, functieanalyse), worden gedeelten van uw profiel (vaardigheden, graad, samenvatting) en de functiebeschrijvingstekst naar de Gemini API van Google verzonden om het antwoord te genereren. Dit wordt verwerkt onder de standaard API-servicevoorwaarden en het privacybeleid van Google. We raden u aan geen gevoelige persoonlijke identificatiegegevens op te nemen in uw AI-ondersteunde inhoud.\n\n---\n\n**4. Gegevens delen**\n\nWij verkopen, verhandelen, verhuren of delen uw persoonlijke gegevens **niet** met derden voor marketing- of advertentiedoeleinden.\n\nUw gegevens kunnen worden verwerkt door de volgende vertrouwde services:\n• **Google Gemini API**: voor het invullen en analyseren van formulieren op basis van AI (https://policies.google.com/privacy)\n• **Google OAuth**: Voor accountverificatie (https://policies.google.com/privacy)\n• **Supabase**: voor optionele cloudopslag (https://supabase.com/privacy) — alleen als u synchronisatie inschakelt\n\n---\n\n**5. Uw rechten en controles**\n\nU heeft het recht om:\n• **Toegang** tot alle gegevens die ApplyFlow over u heeft opgeslagen (via Export Backup in de instellingen)\n• **Uw informatie op elk moment corrigeren** op het tabblad Profiel\n• **Al uw gegevens lokaal verwijderen met behulp van \"Alle profielgegevens wissen\" in de instellingen\n• **Toestemming intrekken** op elk gewenst moment door de extensie verwijderen\n• **Cloudsynchronisatie uitschakelen** door deze uit te schakelen in Account- en synchronisatie-instellingen\n\n**GDPR (EU-gebruikers)**: als u een inwoner van de EU bent, heeft u het recht op toegang, rectificatie, verwijdering, beperking van de verwerking en gegevensportabiliteit onder de Algemene Verordening Gegevensbescherming.\n\n**India — DPDP Act 2023**: In overeenstemming met Volgens de Indiase Digital Personal Data Protection Act 2023 verwerken we persoonlijke gegevens uitsluitend met het doel de hulp bij sollicitaties te verlenen. U kunt op elk gewenst moment uw toestemming intrekken en verzoeken om verwijdering van uw gegevens door contact met ons op te nemen.\n\n**Californië — CCPA**: Inwoners van Californië hebben het recht om te weten welke persoonlijke gegevens worden verzameld, het recht om te verwijderen en het recht om zich af te melden voor de verkoop (wij verkopen geen gegevens).\n\n---NL_70__\n**6. Gegevensbewaring**\n\nLokale gegevens worden bewaard totdat u deze handmatig wist. Cloud-gesynchroniseerde gegevens worden bewaard totdat u uw account verwijdert of verzoekt om verwijdering. Wij verwijderen gegevens niet automatisch.\n\n---\n\n**7. Beveiliging**\n\nWe nemen redelijke technische maatregelen om uw gegevens te beschermen:\n• Alle cloudcommunicatie maakt gebruik van HTTPS/TLS-encryptie\n• Supabase Row-Level Security (RLS) zorgt ervoor dat gebruikers alleen toegang hebben tot hun eigen gegevens\n• De extensie vraagt geen toestemmingen die verder gaan dan wat nodig is voor de kern functie\n\n---\n\n**8. Privacy van kinderen**\n\nApplyFlow is niet bedoeld voor gebruikers jonger dan 13 jaar. We verzamelen niet bewust gegevens van kinderen. Als u denkt dat een kind ons persoonlijke gegevens heeft verstrekt, neem dan onmiddellijk contact met ons op.\n\n---\n\n**9. Wijzigingen in dit beleid**\n\nWe kunnen dit privacybeleid van tijd tot tijd bijwerken. Significante wijzigingen worden gecommuniceerd via de pagina Opties van de extensie. Voortgezet gebruik van de extensie na wijzigingen betekent aanvaarding van het bijgewerkte beleid.\n\n---\n\n**10. Neem contact met ons op**\n\nVoor privacygerelateerde vragen, verzoeken om gegevensverwijdering of zorgen:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nWij streven ernaar te reageren op alle verzoeken binnen 30 dagen.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

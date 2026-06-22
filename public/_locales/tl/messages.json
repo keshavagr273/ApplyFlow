@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Natukoy",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Walang nakitang pahina ng trabaho",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ application na sinusubaybayan · $2$ mga panayam",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Magsimulang mag-apply upang subaybayan ang iyong pag-unlad",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Na-parse sa $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "I-load ang mga detalye ng profile mula sa \"$1$\"? Papalitan nito ang iyong kasalukuyang mga pag-edit ng na-parse na istraktura ng resume na ito.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Ibinalik ang mga detalye mula kay $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Iskor ng Tugma",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ pa",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Na-autofill at naka-log ang application! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ entry",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ kasanayan",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ mga proyekto",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ sagot",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Awtorisado",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ na mga aplikasyon",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "I-filter ayon sa kumpanya...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ kabuuang mga aplikasyon",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Wala pang data",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Konteksto: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Ang iyong career copilot",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Narito ang $1$ malamang na mga tanong sa panayam:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Ipagpatuloy ang marka ng pag-optimize: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Ipagpatuloy ang Mga Suhestiyon sa Pagtutugma",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hi! Nakikita kong nakatingin ka sa isang **$1$** na tungkulin sa **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hi! Nakikita kong nakatingin ka sa isang **$1$** na papel.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hi! Ako ang iyong AI career copilot. Mag-navigate sa isang listahan ng trabaho at awtomatiko kong susuriin ito, o magtanong sa akin ng kahit ano!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Naka-log in bilang $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Mag-sign Out",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Ang iyong resume ay **$1$% compatible** sa tungkuling ito.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Maligayang pagbabalik, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nabigong makuha ang impormasyon ng profile ng user ng Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Nabigo ang OAuth Login: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Nabigong makuha ang token ng pag-access mula sa pag-redirect.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "License key: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "I-deactivate ang Lisensya",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Ang mga utos ng extension ng Chrome ay nangangailangan ng manu-manong pagtatalaga sa shortcut manager ng Chrome. Pumunta sa $1$ upang itali ang mga susi na nakalista sa itaas.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — Patakaran sa Privacy**\nHuling Na-update: Hunyo 2026\n\n---\n\n**1. Panimula**\n\nApplyFlow (\"kami\", \"namin\", \"ang Extension\") ay isang extension ng Chrome browser na tumutulong sa mga user na i-autofill ang mga form ng aplikasyon sa trabaho, subaybayan ang kanilang mga aplikasyon, at pamahalaan ang kanilang propesyonal na profile. Ipinapaliwanag ng Patakaran sa Privacy na ito kung paano namin kinokolekta, ginagamit, iniimbak, at pinoprotektahan ang iyong impormasyon.\n\nSa pamamagitan ng pag-install at paggamit ng ApplyFlow, sumasang-ayon ka sa mga kasanayang inilalarawan sa patakarang ito.\n\n---\n\n**2. Data na Kinokolekta Namin**\n\nKinakolekta lang namin ang impormasyong boluntaryo mong ibinibigay para paganahin ang mga feature ng extension:\n\n• **Impormasyon ng Profile**: Ang iyong pangalan, email, numero ng telepono, kolehiyo, degree, kasanayan, kasaysayan ng trabaho, proyekto, at propesyonal na link (NL_Information, GitHub, GitHub, **L_O17). (Opsyonal)**: Kasarian, katayuan ng kapansanan, katayuang beterano, at mga kagustuhan sa awtorisasyon sa trabaho — ibinigay lang kung pipiliin mong punan ang mga field na ito. Eksklusibong ginagamit ang data na ito para i-autofill ang opsyonal na mga questionnaire sa EEO sa mga aplikasyon sa trabaho.\n• **Data ng Pagsubaybay sa Application**: Titulo ng trabaho, kumpanya, URL ng aplikasyon, status, at mga tala para sa mga posisyong sinusubaybayan mo gamit ang extension.\n• **Mga Istatistika ng Paggamit**: Bilang ng mga pagpapatakbo ng autofill na isinagawa (naka-imbak nang lokal **__NL.2. piliin na mag-sign in sa Google, iniimbak namin ang iyong Google display name, email address, at URL ng larawan sa profile para i-personalize ang iyong karanasan at paganahin ang cloud sync.\n\nKami **hindi** nangongolekta:\n• Impormasyon sa pagbabayad o pampinansyal\n• History ng browser o pangkalahatang aktibidad sa pagba-browse\n• Anumang impormasyon mula sa A__L_25__• Anumang impormasyon mula sa mga page-application sa trabaho mga pahina kapag ang extension ay hindi aktibong na-trigger\n\n---\n\n**3. Paano Namin Iniimbak ang Iyong Data**\n\n**3.1 Lokal na Imbakan (Default)**\nAng lahat ng data ay pangunahing nakaimbak sa chrome.storage.local API ng iyong browser. Ang data na ito ay nasa iyong device lamang at hindi kailanman ipinapadala sa anumang server nang wala ang iyong tahasang pagkilos.\n\n**3.2 Cloud Sync (Opsyonal)**\nKung pipiliin mong mag-sign in sa Google at paganahin ang feature na \"Supabase Sync,\" masi-synchronize din ang iyong data ng profile at application sa isang database ng Supabase. Pananatilihin mo ang buong pagmamay-ari ng data na ito. Maaari mo itong tanggalin anumang oras mula sa seksyong Account at Pag-sync.\n\n**3.3 Mga Kahilingan sa Gemini AI**\nKapag ginamit ang mga feature ng AI (hal., pagbuo ng sanaysay, pagsusuri sa trabaho), mga bahagi ng iyong profile (mga kasanayan, degree, buod) at ang teksto ng paglalarawan ng trabaho ay ipinadala sa Gemini API ng Google upang mabuo ang tugon. Pinoproseso ito sa ilalim ng karaniwang Mga Tuntunin ng Serbisyo ng API at Patakaran sa Privacy ng Google. Inirerekomenda naming huwag isama ang mga sensitibong personal na pagkakakilanlan sa iyong nilalamang tinulungan ng AI.\n\n---\n\n**4. Pagbabahagi ng Data**\n\nKami ay **hindi** nagbebenta, nangangalakal, nagrenta, o nagbabahagi ng iyong personal na impormasyon sa anumang mga third party para sa mga layunin ng marketing o advertising.\n\nAng iyong data ay maaaring iproseso ng mga sumusunod na pinagkakatiwalaang serbisyo:\n• **Google Gemini API**: Para sa pagpuno ng form na pinapagana ng AI at pag-aaral (https://policies.google.com/privacy)\n• **Google OAuth**: Para sa pagpapatunay ng account (https://policies.google.com/privacy)\n• **Supabase**: Para sa opsyonal na cloud storage (https://supabase.com/privacy) — kung pinagana mo lang sync\n\n---\n\n**5. Ang Iyong Mga Karapatan at Kontrol**\n\nMayroon kang karapatan na:\n• **I-access** ang lahat ng data na inimbak ng ApplyFlow tungkol sa iyo (sa pamamagitan ng Export Backup sa mga setting)\n• **Itama** ang iyong impormasyon anumang oras sa tab na Profile\n• **Tanggalin ang lahat** ng iyong Data sa lokal na \"C\" settings\n• **Bawiin ang pahintulot** anumang oras sa pamamagitan ng pag-uninstall sa extension\n• **Huwag paganahin ang cloud sync** sa pamamagitan ng pag-togg nito sa mga setting ng Account at Pag-sync\n\n**GDPR (EU Users)**: Kung ikaw ay residente ng EU, mayroon kang mga karapatang mag-access, mag-transport ng data, at mag-restrict ng data. Regulasyon.\n\n**India — DPDP Act 2023**: Bilang pagsunod sa Digital Personal Data Protection Act 2023 ng India, pinoproseso namin ang personal na data para lamang sa layunin ng pagbibigay ng serbisyo sa tulong sa pag-apply sa trabaho. Maaari mong bawiin ang pahintulot at humiling ng pagtanggal ng iyong data anumang oras sa pamamagitan ng pakikipag-ugnayan sa amin.\n\n**California — CCPA**: Ang mga residente ng California ay may karapatang malaman kung anong personal na impormasyon ang kinokolekta, ang karapatang magtanggal, at ang karapatang mag-opt out sa pagbebenta (hindi kami nagbebenta data).\n\n---\n\n**6. Pagpapanatili ng Data**\n\nPinapanatili ang lokal na data hanggang sa manu-mano mo itong i-clear. Pinapanatili ang data na naka-sync sa cloud hanggang sa tanggalin mo ang iyong account o humiling ng pagtanggal. Hindi namin awtomatikong tinatanggal ang data.\n\n---\n\n**7. Seguridad**\n\nNagsasagawa kami ng mga makatwirang teknikal na hakbang para protektahan ang iyong data:\n• Gumagamit ang lahat ng komunikasyon sa cloud ng HTTPS/TLS encryption\n• Tinitiyak ng Supabase Row-Level Security (RLS) na maa-access lang ng mga user ang kanilang sariling data\n• Ang extension ay hindi humihiling ng mga pahintulot na higit pa sa kinakailangan nito function\n\n---\n\n**8. Privacy ng mga Bata**\n\nApplyFlow ay hindi inilaan para sa mga user na wala pang 13 taong gulang. Hindi namin sinasadyang nangongolekta ng data mula sa mga bata. Kung naniniwala kang binigyan kami ng isang bata ng personal na impormasyon, mangyaring makipag-ugnayan sa amin kaagad.\n\n---\n\n**9. Mga Pagbabago sa Patakarang Ito**\n\nMaaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Ang mga makabuluhang pagbabago ay ipapaalam sa pamamagitan ng pahina ng Mga Opsyon ng extension. Ang patuloy na paggamit ng extension pagkatapos ng mga pagbabago ay bumubuo ng pagtanggap sa na-update na patakaran.\n\n---\n\n**10. Makipag-ugnayan sa Amin**\n\nPara sa anumang mga tanong na may kaugnayan sa privacy, kahilingan sa pagtanggal ng data, o alalahanin:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite https://applyflow.in\n\nLayunin naming tumugon sa lahat ng kahilingan sa loob ng 30 araw.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

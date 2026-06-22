@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Aşkarlandı",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Heç bir iş səhifəsi aşkarlanmadı",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ tətbiqlər izlənildi · $2$ müsahibələr",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Tərəqqinizi izləmək üçün müraciət etməyə başlayın",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ tarixində təhlil edildi",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Profil detalları \"$1$\" ünvanından yüklənsin? Bu, cari redaktələrinizi bu CV-nin təhlil edilmiş strukturu ilə əvəz edəcək.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$-dan bərpa edilmiş detallar",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Matç Hesabı",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Uyğun",
-    "description": "Fit percent text"
+    "message": "$1$% Uyğun",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ daha çox",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Tətbiq avtomatik dolduruldu və daxil edildi! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ qeydlər",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ bacarıqları",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ layihələri",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ cavab verir",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Səlahiyyətli",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ proqramlar",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Şirkətə görə filtrləyin...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ cəmi müraciətlər",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Hələ məlumat yoxdur",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Kontekst: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Karyera kopilotunuz",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Budur $1$ ehtimal olunan müsahibə sualları:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Optimallaşdırma balı: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Uyğunluq Təkliflərini davam etdirin",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "salam! **$2$**-da **$1$** roluna baxdığınızı görürəm.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "salam! **$1$** roluna baxdığınızı görürəm.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "salam! Mən sizin AI karyeranızda köməkçi pilotam. İş siyahısına keçin və mən onu avtomatik təhlil edəcəyəm və ya məndən nəsə soruşacağam!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ kimi daxil oldum",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Çıxın",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "CV-niz bu rola **$1$% uyğundur**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Yenidən xoş gəlmisiniz, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google istifadəçi profili məlumatını əldə etmək alınmadı.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth Giriş uğursuz oldu: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Yönləndirmədən giriş nişanını əldə etmək alınmadı.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Lisenziya açarı: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Lisenziyanı deaktiv edin",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome genişləndirilməsi əmrləri Chrome'un qısayol menecerində əl ilə təyin edilməsini tələb edir. Yuxarıda sadalanan düymələri birləşdirmək üçün $1$-a keçin.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Genişlənməsi — Məxfilik Siyasəti**\nSon yenilənmə: İyun 2026\n\n---\n\n**1. Giriş**\n\nApplyFlow (\"biz\", \"bizim\", \"Genişləndirmə\") istifadəçilərə iş ərizəsi formalarını avtomatik doldurmağa, ərizələrini izləməyə və peşəkar profillərini idarə etməyə kömək edən Chrome brauzerinin genişləndirilməsidir. Bu Məxfilik Siyasəti məlumatlarınızı necə topladığımızı, istifadə etdiyimizi, saxladığımızı və qoruduğumuzu izah edir.\n\nApplyFlow-u quraşdırmaq və istifadə etməklə siz bu siyasətdə təsvir olunan təcrübələrlə razılaşırsınız.\nNL_10__---\n\n**2. Topladığımız Məlumat**\n\nBiz genişləndirmənin xüsusiyyətlərini aktivləşdirmək üçün yalnız könüllü olaraq təqdim etdiyiniz məlumatları toplayırıq:\n\n• **Profil Məlumatı**: Adınız, e-poçtunuz, telefon nömrəniz, kolleciniz, dərəcəniz, bacarıqlarınız, iş tarixçəniz, layihələriniz və peşəkar linklər (Linked,GitH7N•__In Portfolio). **EEO/Demoqrafik Məlumat (İstəyə görə)**: Cins, əlillik statusu, veteran statusu və iş icazəsi seçimləri — yalnız bu sahələri doldurmağı seçdiyiniz halda təqdim olunur. Bu məlumat yalnız iş müraciətlərində isteğe bağlı EEO sorğu vərəqlərini avtomatik doldurmaq üçün istifadə olunur.\n• **Müraciət İzləmə Məlumatı**: İş adı, şirkət, ərizə URL-si, status və genişləndirmədən istifadə edərək izlədiyiniz vəzifələr üçün qeydlər.\n• **İstifadə Statistikası**: Gündəlik olaraq yerinə yetirilən avtomatik doldurulan əməliyyatların sayı məhdudiyyətlər).\n• **Autentifikasiya Datası**: Google ilə daxil olmağı seçsəniz, təcrübənizi fərdiləşdirmək və bulud sinxronizasiyasını aktivləşdirmək üçün biz Google displey adınızı, e-poçt ünvanınızı və profil şəklinizin URL-ni saxlayırıq.\n\nBiz **toplamırıq**:\n• Ödəniş və ya maliyyə tarixçəsi B__NL224 fəaliyyət\n• İş müraciəti ilə əlaqəli olmayan səhifələrdən alınan hər hansı məlumat\n• Artırma aktiv şəkildə işə salınmayan səhifələrdən alınan istənilən məlumat\nNL_28__---\n\n**3. Məlumatlarınızı Necə Saxlayırıq**\n\n**3.1 Yerli Yaddaş (Defolt)**\nBütün məlumatlar əsasən brauzerinizin chrome.storage.local API-də saxlanılır. Bu məlumat yalnız cihazınızda yerləşir və sizin açıq hərəkətiniz olmadan heç vaxt heç bir serverə ötürülmür.\n\n**3.2 Cloud Sync (İstəyə Bağlı)**\nGoogle ilə daxil olmağı və \"Supabase Sync\" funksiyasını aktivləşdirməyi seçsəniz, profiliniz və proqram verilənlər bazanız da sinxronlaşdırılacaq. Bu məlumatın tam sahibliyini saxlayırsınız. Siz onu istənilən vaxt Hesab və Sinxronizasiya bölməsindən silə bilərsiniz.\n\n**3.3 Əkizlər AI sorğuları**\nSüni intellekt xüsusiyyətlərindən istifadə edildikdə (məsələn, esse yaratmaq, işin təhlili), profilinizin hissələri (bacarıqlar, dərəcə, xülasə) və Google iş təsvirinin cavab mətni Gemini-yə göndərilir. Bu, Google'un standart API Xidmət Şərtləri və Məxfilik Siyasəti əsasında işlənir. Süni intellektlə dəstəklənən məzmununuza həssas şəxsi identifikatorları daxil etməməyi tövsiyə edirik.\n\n---\n\n**4. Məlumat Paylaşımı**\n\nBiz şəxsi məlumatlarınızı marketinq və ya reklam məqsədləri üçün üçüncü tərəflərlə **satmırıq, alqı-satqısı, icarəsi və ya paylaşmırıq.\n\nMəlumatlarınız aşağıdakı etibarlı xidmətlər tərəfindən emal oluna bilər:\n• **Filing AI- API və formalı Google Gemini üçün güclənir. (https://policies.google.com/privacy)\n• **Google OAuth**: Hesabın autentifikasiyası üçün (https://policies.google.com/privacy)\n• **Supabase**: Əlavə bulud yaddaşı üçün (yalnız https://supabase.com/privacy imkan verirsə) — sync\n\n---\n\n**5. Hüquqlarınız və Nəzarətləriniz**\n\nSizin hüququnuz var:\n• **ApplyFlow-un sizin haqqınızda saxladığı bütün dataya daxil olmaq** (parametrlərdə İxrac Yedəkləmə vasitəsilə)\n• **İstənilən vaxt Profil cədvəlində məlumatlarınızı düzəltmək****Bütün yerli məlumatlarınızdan istifadə etməklə**_Detallı 59__NL• Parametrlərdə \"Bütün Profil Məlumatlarını Silin\"\n• **Razılığı geri götür**** genişləndirməni silməklə istənilən vaxt\n• **Hesab və Sinxronizasiya parametrlərində onu deaktiv etməklə bulud sinxronizasiyasını deaktiv edin**\n\n**GDPR (AB-də rezident hüquqlarınız varsa, siz EU-ya giriş hüququnuz varsa) Ümumi Məlumatların Mühafizəsi Qaydasına əsasən düzəliş, silmə, emal və məlumatların daşınmasını məhdudlaşdırın.\n\n**Hindistan — DPDP Aktı 2023**: Hindistanın Rəqəmsal Fərdi Məlumatların Mühafizəsi Aktı 2023-ə uyğun olaraq, biz şəxsi məlumatları yalnız iş müraciətinə yardım xidməti göstərmək məqsədilə emal edirik. İstənilən vaxt bizimlə əlaqə saxlayaraq razılığınızı geri götürə və məlumatlarınızın silinməsini tələb edə bilərsiniz.\n\n**Kaliforniya — CCPA**: Kaliforniya sakinlərinin hansı şəxsi məlumatların toplandığını bilmək, silmək hüququ və satışdan imtina etmək hüququ var (biz satmırıq. data).\n\n---\n\n**6. Məlumatın saxlanması**\n\nYerli məlumatlar siz onu əl ilə silənə qədər saxlanılır. Buludla sinxronlaşdırılmış data siz hesabınızı silənə və ya silinmə sorğusuna qədər saxlanılır. Biz məlumatları avtomatik silmirik.\n\n---\n\n**7. Təhlükəsizlik**\n\nBiz məlumatlarınızı qorumaq üçün ağlabatan texniki tədbirlər görürük:\n• Bütün bulud kommunikasiyaları HTTPS/TLS şifrələməsindən istifadə edir\n• Supabase Sıra Səviyyəli Təhlükəsizlik (RLS) istifadəçilərin yalnız öz məlumatlarına daxil ola bilməsini təmin edir\n onun tələbi üçün icazə tələb olunmur. funksiya\n\n---\n\n**8. Uşaqların Məxfiliyi**\n\nApplyFlow 13 yaşından kiçik istifadəçilər üçün nəzərdə tutulmayıb. Biz uşaqlardan bilərəkdən məlumat toplamırıq. Əgər uşağın bizə şəxsi məlumat verdiyinə inanırsınızsa, dərhal bizimlə əlaqə saxlayın.\n\n---\n\n**9. Bu Siyasətdə Dəyişikliklər**\n\nBiz bu Məxfilik Siyasətini vaxtaşırı yeniləyə bilərik. Əhəmiyyətli dəyişikliklər genişləndirmənin Seçimlər səhifəsi vasitəsilə bildiriləcək. Dəyişikliklərdən sonra genişlənmənin davam etdirilməsi yenilənmiş siyasətin qəbul edilməsini təşkil edir.\n\n---\n\n**10. Bizimlə əlaqə saxlayın**\n\nMəxfiliklə bağlı suallar, məlumatların silinməsi sorğuları və ya narahatlıqlar üçün:\n\nE-poçt: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nVebsayt: https://applyflow.in\n\nBiz 30 gün ərzində bütün sorğulara cavab verməyi planlaşdırırıq.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

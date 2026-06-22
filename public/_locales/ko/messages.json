@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ 감지됨",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "검색된 채용 페이지가 없습니다.",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ 지원서 추적 · $2$ 인터뷰",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "진행 상황을 추적하려면 신청을 시작하세요",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$에 구문 분석됨",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "'$1$'에서 프로필 세부정보를 로드하시겠습니까? 현재 편집 내용이 이 이력서의 구문 분석된 구조로 대체됩니다.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$에서 세부정보를 복원했습니다.",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "경기 점수",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ 핏",
-    "description": "Fit percent text"
+    "message": "$1$% 핏",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ 더 보기",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "신청서가 자동으로 채워지고 기록됩니다! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ 항목",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ 기술",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ 프로젝트",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ 답변",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "승인됨",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ 애플리케이션",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "회사별로 필터링...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ 총 신청수",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "아직 데이터가 없습니다",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "맥락: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "당신의 직업 부조종사",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "다음은 $1$ 가능한 면접 질문입니다:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "이력서 최적화 점수: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "경기 재개 제안",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "안녕! **$2$**에서 **$1$** 역할을 보고 계신 것으로 보입니다.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "안녕! **$1$** 역할을 보고 계시군요.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "안녕! 나는 당신의 AI 경력 부조종사입니다. 구인 목록으로 이동하면 자동으로 분석하거나 무엇이든 물어볼 수 있습니다!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$로 로그인됨",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "로그아웃",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "귀하의 이력서는 이 역할과 **$1$% 호환**됩니다.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "돌아온 것을 환영합니다, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google 사용자 프로필 정보를 가져오지 못했습니다.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth 로그인 실패: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "리디렉션에서 액세스 토큰을 가져오지 못했습니다.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "라이센스 키: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "라이선스 비활성화",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome 확장 명령은 Chrome 바로가기 관리자에서 수동으로 할당해야 합니다. 위에 나열된 키를 바인딩하려면 $1$로 이동하세요.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome 확장 프로그램 — 개인정보 보호정책**\n마지막 업데이트: 2026년 6월\n\n---\n\n**1. 소개**\n\nApplyFlow(\"당사\", \"당사의\", \"확장 프로그램\")는 사용자가 입사 지원 양식을 자동으로 채우고 지원서를 추적하며 직업 프로필을 관리하는 데 도움이 되는 Chrome 브라우저 확장 프로그램입니다. 본 개인정보 보호정책은 당사가 귀하의 정보를 수집, 사용, 저장 및 보호하는 방법을 설명합니다.\n\nApplyFlow를 설치하고 사용함으로써 귀하는 이 정책에 설명된 관행에 동의하게 됩니다.\n\n---\n\n**2. 수집하는 데이터**\n\n저희는 확장 기능을 활성화하기 위해 귀하가 자발적으로 제공하는 정보만 수집합니다.\n\n• **프로필 정보**: 귀하의 이름, 이메일, 전화번호, 대학, 학위, 기술, 경력, 프로젝트 및 전문 링크(LinkedIn, GitHub, 포트폴리오).\n• **EEO/인구통계 정보(선택 사항)**: 성별, 장애 상태, 퇴역 군인 상태 및 작업 승인 기본 설정 — 이러한 필드를 채우도록 선택한 경우에만 제공됩니다. 이 데이터는 입사 지원서의 선택적 EEO 설문지를 자동 완성하는 데에만 사용됩니다.\n• **지원서 추적 데이터**: 직위, 회사, 지원서 URL, 상태 및 확장 프로그램을 사용하여 추적하는 직위에 대한 메모.\n• **사용 통계**: 수행된 자동 완성 작업 수(일일 한도를 적용하기 위해 로컬에 저장됨).\n• **인증 데이터**: Google로 로그인하기로 선택한 경우 Google 표시 이름, 이메일 주소 및 프로필 사진 URL이 저장됩니다. 귀하의 환경을 개인화하고 클라우드 동기화를 활성화합니다.\n\n저희는 다음을 수집하지 **않습니다**:\n• 결제 또는 금융 정보\n• 브라우저 기록 또는 일반적인 검색 활동\n• 입사 지원과 관련되지 않은 페이지의 모든 정보\n• 확장 프로그램이 활성화되지 않은 페이지의 모든 데이터 트리거됨\n\n---\n\n**3. 데이터 저장 방법**\n\n**3.1 로컬 저장소(기본값)**\n모든 데이터는 기본적으로 브라우저의 chrome.storage.local API에 저장됩니다. 이 데이터는 귀하의 장치에만 상주하며 귀하의 명시적인 조치 없이는 서버로 전송되지 않습니다.\n\n**3.2 클라우드 동기화(선택 사항)**\nGoogle로 로그인하고 \"Supabase 동기화\" 기능을 활성화하면 프로필 및 애플리케이션 데이터도 Supabase 데이터베이스와 동기화됩니다. 귀하는 이 데이터에 대한 완전한 소유권을 보유합니다. 계정 및 동기화 섹션에서 언제든지 삭제할 수 있습니다.\n\n**3.3 Gemini AI 요청**\nAI 기능이 사용되면(예: 에세이 생성, 직무 분석) 프로필 일부(기술, 학위, 요약) 및 직무 설명 텍스트가 응답을 생성하기 위해 Google의 Gemini API로 전송됩니다. 이는 Google의 표준 API 서비스 약관 및 개인정보취급방침에 따라 처리됩니다. AI 지원 콘텐츠에 민감한 개인 식별자를 포함하지 않는 것이 좋습니다.\n\n---\n\n**4. 데이터 공유**\n\n당사는 귀하의 개인 정보를 마케팅 또는 광고 목적으로 제3자와 판매, 거래, 임대 또는 공유하지 **않습니다**.\n\n귀하의 데이터는 다음과 같은 신뢰할 수 있는 서비스에 의해 처리될 수 있습니다:\n• **Google Gemini API**: AI 기반 양식 작성 및 분석용(https://policies.google.com/privacy)\n• **Google OAuth**: 계정 인증용 (https://policies.google.com/privacy)\n• **Supabase**: 선택적 클라우드 저장소(https://supabase.com/privacy)의 경우 — sync\n\n---\n\n**5를 활성화한 경우에만 해당됩니다. 귀하의 권리 및 통제**\n\n귀하는 다음과 같은 권리가 있습니다:\n• **접속** ApplyFlow가 귀하에 관해 저장한 모든 데이터(설정의 백업 내보내기를 통해)\n• **프로필 탭에서 언제든지 귀하의 정보 수정**\n• **설정의 \"모든 프로필 데이터 지우기\"를 사용하여 로컬에서 모든 데이터 삭제**\n• 언제든지 제거하여 **동의 철회** 확장 프로그램\n• **계정 및 동기화 설정에서 클라우드 동기화를 비활성화하여 비활성화**\n\n**GDPR(EU 사용자)**: EU 거주자인 경우 일반 데이터 보호 규정에 따라 액세스, 수정, 삭제, 처리 및 데이터 이동성을 제한할 권리가 있습니다.\n\n**인도 — DPDP 법 2023**: 인도의 디지털 개인 데이터 준수 보호법 2023에 따라 당사는 취업 지원 서비스 제공 목적으로만 개인 데이터를 처리합니다. 귀하는 언제든지 당사에 연락하여 동의를 철회하고 귀하의 데이터 삭제를 요청할 수 있습니다.\n\n**캘리포니아 — CCPA**: 캘리포니아 주민은 어떤 개인 정보가 수집되는지 알 권리, 삭제할 권리, 판매를 거부할 권리가 있습니다(저희는 데이터를 판매하지 않습니다).\n\n---\n\n**6. 데이터 보존**\n\n로컬 데이터는 수동으로 지울 때까지 보존됩니다. 클라우드 동기화 데이터는 귀하가 계정을 삭제하거나 삭제를 요청할 때까지 유지됩니다. 데이터는 자동으로 삭제되지 않습니다.\n\n---\n\n**7. 보안**\n\n우리는 귀하의 데이터를 보호하기 위해 합당한 기술적 조치를 취합니다.\n• 모든 클라우드 통신은 HTTPS/TLS 암호화를 사용합니다\n• Supabase 행 수준 보안(RLS)은 사용자가 자신의 데이터에만 액세스할 수 있도록 보장합니다\n• 확장 프로그램은 핵심 기능에 필요한 것 이상의 권한을 요청하지 않습니다\n\n---\n\n**8. 아동 개인 정보 보호**\n\nApplyFlow는 13세 미만의 사용자를 대상으로 하지 않습니다. 당사는 고의로 어린이로부터 데이터를 수집하지 않습니다. 아동이 당사에 개인정보를 제공했다고 생각되면 즉시 당사에 연락해 주십시오.\n\n---\n\n**9. 본 정책의 변경**\n\n당사는 본 개인정보 보호정책을 수시로 업데이트할 수 있습니다. 중요한 변경 사항은 확장 프로그램의 옵션 페이지를 통해 전달됩니다. 변경 후에도 확장 프로그램을 계속 사용하면 업데이트된 정책에 동의하는 것으로 간주됩니다.\n\n---\n\n**10. 문의**\n\n개인 정보 보호 관련 질문, 데이터 삭제 요청 또는 우려사항이 있는 경우:\n\n이메일: Privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n웹사이트: https://applyflow.in\n\n우리는 모든 요청에 응답하는 것을 목표로 합니다. 30일 이내.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

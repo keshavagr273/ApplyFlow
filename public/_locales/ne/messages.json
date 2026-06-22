@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ पत्ता लाग्यो",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "कुनै जागिर पृष्ठ फेला परेन",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ अनुप्रयोगहरू ट्र्याक गरियो · $2$ अन्तर्वार्ताहरू",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "आफ्नो प्रगति ट्र्याक गर्न आवेदन सुरु गर्नुहोस्",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ मा पार्स गरियो",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" बाट प्रोफाइल विवरण लोड गर्ने हो? यसले तपाइँको हालको सम्पादनहरूलाई यस रिजुमेको पार्स गरिएको संरचनासँग प्रतिस्थापन गर्नेछ।",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ बाट विवरणहरू पुनर्स्थापित गरियो",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "म्याच स्कोर",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ फिट",
-    "description": "Fit percent text"
+    "message": "$1$% फिट",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ थप",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "आवेदन स्वत: भरिएको र लग! ✨",
@@ -261,7 +299,12 @@
   },
   "entries_count": {
     "message": "$1$ प्रविष्टिहरू",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "__P__0__ कौशल",
@@ -269,11 +312,21 @@
   },
   "projects_count": {
     "message": "$1$ परियोजनाहरू",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ जवाफहरू",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "अधिकृत",
@@ -601,7 +654,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ अनुप्रयोगहरू",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "कम्पनी द्वारा फिल्टर गर्नुहोस्...",
@@ -633,7 +691,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ कुल आवेदनहरू",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "अहिलेसम्म कुनै डाटा छैन",
@@ -681,7 +744,12 @@
   },
   "context_label": {
     "message": "सन्दर्भ: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "तपाईंको क्यारियर सहपायलट",
@@ -745,7 +813,12 @@
   },
   "ai_analysis_resume_score_intro": {
     "message": "अप्टिमाइजेसन स्कोर पुन: सुरु गर्नुहोस्: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "मिलान सुझावहरू पुन: सुरु गर्नुहोस्",
@@ -761,11 +834,24 @@
   },
   "job_details_detected_intro": {
     "message": "नमस्ते! म तपाईं **$1$** भूमिका हेर्दै हुनुहुन्छ **$2$** मा देख्न सक्छु।",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "नमस्ते! म तपाईं **$1$_** भूमिका हेर्दै हुनुहुन्छ भनेर देख्न सक्छु।",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "नमस्ते! म तिम्रो AI क्यारियर कोपाइलट हुँ। कामको सूचीमा नेभिगेट गर्नुहोस् र म यसलाई स्वचालित रूपमा विश्लेषण गर्नेछु, वा मलाई केहि सोध्नुहोस्!",
@@ -833,7 +919,12 @@
   },
   "logged_in_as": {
     "message": "$1$ को रूपमा लग इन गरियो",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "साइन आउट गर्नुहोस्",
@@ -889,11 +980,21 @@
   },
   "ai_analysis_compatible": {
     "message": "तपाईंको बायोडाटा यस भूमिकासँग **$1$% उपयुक्त** छ।",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "फेरि स्वागत छ, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google प्रयोगकर्ता प्रोफाइल जानकारी ल्याउन असफल भयो।",
@@ -901,7 +1002,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth लगइन असफल भयो: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "रिडिरेक्टबाट पहुँच टोकन ल्याउन असफल भयो।",
@@ -1209,7 +1315,12 @@
   },
   "premium_active_desc": {
     "message": "इजाजतपत्र कुञ्जी: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "लाइसेन्स निष्क्रिय गर्नुहोस्",
@@ -1549,10 +1660,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome विस्तार आदेशहरूलाई Chrome को सर्टकट प्रबन्धकमा म्यानुअल असाइनमेन्ट चाहिन्छ। माथि सूचीबद्ध कुञ्जीहरू बाँध्न $1$ मा जानुहोस्।",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome विस्तार — गोपनीयता नीति**\nअन्तिम अपडेट गरिएको: जुन २०२६\n\n---_\n\n_**1। परिचय**\n_\nApplyFlow (\"हामी\", \"हाम्रो\", \"द एक्स्टेन्सन\") एक क्रोम ब्राउजर विस्तार हो जसले प्रयोगकर्ताहरूलाई जागिर आवेदन फारमहरू स्वत: भर्न, उनीहरूको आवेदनहरू ट्र्याक गर्न र उनीहरूको व्यावसायिक प्रोफाइल व्यवस्थापन गर्न मद्दत गर्छ। यो गोपनीयता नीतिले हामीले तपाइँको जानकारी कसरी सङ्कलन, प्रयोग, भण्डारण र सुरक्षा गर्छौं भनेर वर्णन गर्दछ।\n_NL_8__ApplyFlow स्थापना र प्रयोग गरेर, तपाइँ यस नीतिमा वर्णन गरिएका अभ्यासहरूमा सहमत हुनुहुन्छ। हामीले सङ्कलन गर्ने डाटा**\n_NL_14__हामीले एक्स्टेन्सनका सुविधाहरू सक्षम गर्नका लागि तपाईंले स्वेच्छाले उपलब्ध गराएको जानकारी मात्र सङ्कलन गर्छौं:\n\n• **प्रोफाइल जानकारी**: तपाईंको नाम, इमेल, फोन नम्बर, कलेज, डिग्री, सीपहरू, कामको इतिहास, परियोजनाहरू, र व्यावसायिक लिङ्कहरू (Linked__H7, Port__14)। **EEO/जनसांख्यिकीय जानकारी (ऐच्छिक)**: लिङ्ग, असक्षमता स्थिति, अनुभवी स्थिति, र काम प्राधिकरण प्राथमिकताहरू — यदि तपाईंले यी क्षेत्रहरू भर्ने छनौट गर्नुभयो भने मात्र प्रदान गरिन्छ। यो डेटा विशेष रूपमा रोजगार आवेदनहरूमा वैकल्पिक EEO प्रश्नावलीहरू स्वत: भर्न प्रयोग गरिन्छ।\n• **एप्लिकेशन ट्र्याकिङ डेटा**: कार्य शीर्षक, कम्पनी, आवेदन URL, स्थिति, र तपाईंले विस्तार प्रयोग गरेर ट्र्याक गर्ने पदहरूका लागि नोटहरू।\n• **प्रयोग तथ्याङ्क**: स्थानीय रूपमा अटोफोर्स गरिएको अपरेशनको संख्या। सीमाहरू)।\n• **प्रमाणीकरण डाटा**: यदि तपाइँ Google मा साइन इन गर्न छनौट गर्नुहुन्छ भने, हामी तपाइँको अनुभव निजीकृत गर्न र क्लाउड सिंक सक्षम गर्न तपाइँको Google प्रदर्शन नाम, इमेल ठेगाना, र प्रोफाइल तस्वीर URL भण्डारण गर्छौं। गतिविधि\n• पृष्ठहरूबाट कुनै पनि जानकारी जुन काम-आवेदन-सम्बन्धित होइनन्\n• पृष्ठहरूबाट कुनै पनि डेटा जब विस्तार सक्रिय रूपमा ट्रिगर गरिएको छैन\n_NL_28__---\n\n_**3। हामीले तपाईंको डाटा कसरी भण्डारण गर्छौं**\n_NL_32___**3.1 स्थानीय भण्डारण (पूर्वनिर्धारित)**\nसबै डाटा मुख्य रूपमा तपाईंको ब्राउजरको chrome.storage.local API मा भण्डारण गरिन्छ। यो डाटा तपाईंको यन्त्रमा मात्र रहन्छ र तपाईंको स्पष्ट कार्य बिना कुनै पनि सर्भरमा कहिले पनि प्रसारित हुँदैन। \n\n**3.2 क्लाउड सिङ्क (वैकल्पिक)**\n यदि तपाईंले Google मा साइन इन गर्न र \"Supabase Sync\" सुविधा सक्षम गर्न रोज्नुभयो भने, तपाइँको प्रोफाइल र एप्लिकेसन डाटा पनि सिन्चबासेप्रोनमा सिङ्क हुनेछ। तपाईंले यस डेटाको पूर्ण स्वामित्व राख्नुहुन्छ। तपाईले यसलाई खाता र सिंक खण्डबाट जुनसुकै बेला मेटाउन सक्नुहुन्छ।\n\n**3.3 मिथुन AI अनुरोधहरू**\nजब AI सुविधाहरू प्रयोग गरिन्छ (जस्तै, निबन्ध उत्पादन, कार्य विश्लेषण), तपाइँको प्रोफाइलको अंशहरू (सीपहरू, डिग्री, सारांश) र एपीआईको जवाफको विवरण Gemini पाठमा Google को जवाफ पठाइएको छ। यो Google को मानक API सेवा सर्तहरू र गोपनीयता नीति अन्तर्गत प्रशोधन गरिएको छ। हामी तपाईंको एआई-सहायता सामग्रीमा संवेदनशील व्यक्तिगत पहिचानकर्ताहरू समावेश नगर्न सिफारिस गर्छौं। डाटा साझेदारी**\n_\nहामी मार्केटिङ वा विज्ञापन उद्देश्यका लागि कुनै पनि तेस्रो पक्षहरूसँग तपाइँको व्यक्तिगत जानकारी बेच्न, व्यापार, भाडामा वा साझेदारी गर्दैनौं। (https://policies.google.com/privacy)\n• **Google OAuth**: खाता प्रमाणीकरणको लागि (https://policies.google.com/privacy)\n• **Supabase**: वैकल्पिक क्लाउड भण्डारणको लागि (https://supabase.com/privacy) — यदि तपाईंले सक्षम गर्नुभयो भने मात्र सिंक\n_NL_52__---\n_**5। तपाईंको अधिकार र नियन्त्रणहरू**\n\nतपाईंसँग निम्न अधिकार छ:\n• **पहुँच** सबै डाटा ApplyFlow ले तपाइँको बारेमा भण्डार गरेको छ (सेटिङहरूमा ब्याकअप निर्यात मार्फत)\n• **प्रोफाइल ट्याबमा कुनै पनि समयमा तपाइँको जानकारी सही गर्नुहोस्__•NL_59 स्थानीय सबै डाटा प्रयोग गरेर। प्रोफाइल डेटा\" सेटिङ्हरूमा\n• **विस्तार स्थापना रद्द गरेर कुनै पनि समयमा सहमति फिर्ता लिनुहोस्\n• **क्लाउड सिङ्कलाई असक्षम गर्नुहोस्** यसलाई खाता र सिङ्क सेटिङहरूमा टगल गरेर\n\n**GDPR (EU प्रयोगकर्ताहरू) **: यदि तपाइँसँग पहुँच गर्ने अधिकार छ भने, तपाइँसँग पुन: पहुँच गर्ने अधिकार छ। सामान्य डाटा सुरक्षा नियमन अन्तर्गत मेटाउने, प्रशोधन गर्ने र डाटा पोर्टेबिलिटीलाई प्रतिबन्धित गर्ने।\n\n**भारत — DPDP ऐन २०२३**: भारतको डिजिटल व्यक्तिगत डेटा संरक्षण ऐन २०२३ को अनुपालनमा, हामीले रोजगार आवेदन सहायता सेवा प्रदान गर्ने उद्देश्यका लागि मात्र व्यक्तिगत डेटा प्रशोधन गर्छौं। तपाईंले हामीलाई सम्पर्क गरेर कुनै पनि समयमा सहमति फिर्ता लिन र आफ्नो डेटा मेटाउन अनुरोध गर्न सक्नुहुन्छ।\n_NL_67__**क्यालिफोर्निया — CCPA**: क्यालिफोर्नियाका बासिन्दाहरूलाई के व्यक्तिगत जानकारी सङ्कलन गरिएको छ, मेटाउने अधिकार, र बिक्रीबाट अप्ट-आउट गर्ने अधिकार छ (हामी बिक्री गर्दैनौं। डाटा)।\n_NL_69__---\n_**6। डाटा रिटेन्सन**\n_\nस्थानीय डाटालाई तपाईंले म्यानुअल रूपमा खाली नगरेसम्म राखिन्छ। तपाईंले आफ्नो खाता मेटाउन वा मेटाउन अनुरोध नगरेसम्म क्लाउड-सिंक गरिएको डाटा राखिन्छ। हामी स्वचालित रूपमा डेटा मेटाउँदैनौं। सुरक्षा**\n_\nहामी तपाइँको डेटा को सुरक्षा को लागी उचित प्राविधिक उपायहरु लिन्छौं:\n• सबै क्लाउड संचार HTTPS/TLS ईन्क्रिप्शन को उपयोग गर्दछ\n• Supabase पङ्क्ति-स्तर सुरक्षा (RLS) लाई सुनिश्चित गर्दछ कि प्रयोगकर्ताहरु केवल आफ्नो डेटा पहुँच गर्न सक्छन्\n• विस्तार को लागी अनुरोध को लागी आवश्यक छैन। प्रकार्य\n\n_---NL_85_\n_**8। बालबालिकाको गोपनीयता**\n_NL_88__ApplyFlow 13 वर्ष भन्दा कम उमेरका प्रयोगकर्ताहरूका लागि अभिप्रेरित होइन। हामीले जानाजानी बालबालिकाबाट डाटा सङ्कलन गर्दैनौं। यदि तपाइँ विश्वास गर्नुहुन्छ कि बच्चाले हामीलाई व्यक्तिगत जानकारी प्रदान गरेको छ भने, कृपया हामीलाई तुरुन्तै सम्पर्क गर्नुहोस्। यस नीतिमा परिवर्तनहरू**\n_NL_94__हामी समय समयमा यो गोपनीयता नीति अद्यावधिक गर्न सक्छौं। महत्त्वपूर्ण परिवर्तनहरू विस्तारको विकल्प पृष्ठ मार्फत सञ्चार गरिनेछ। परिवर्तनहरू पछि विस्तारको निरन्तर प्रयोगले अद्यावधिक गरिएको नीतिको स्वीकृति गठन गर्दछ। हामीलाई सम्पर्क गर्नुहोस्**\n_\n कुनै पनि गोपनीयता-सम्बन्धित प्रश्नहरू, डेटा मेटाउने अनुरोधहरू, वा सरोकारहरूको लागि:\n\nईमेल: privacy@applyflow.in\nGitHub: https://github.com/applyflow/4_Website: https://applyflow.in\n_NL_106__हामी ३० दिन भित्र सबै अनुरोधहरूको जवाफ दिने लक्ष्य राख्छौं।",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

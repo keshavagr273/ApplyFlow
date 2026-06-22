@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Анықталды",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Жұмыс беті табылмады",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ қолданбалар бақыланды · $2$ сұхбат",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Прогрессіңізді бақылау үшін өтініш беруді бастаңыз",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ талданған",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Профиль мәліметтерін \"$1$\" ішінен жүктеу керек пе? Бұл ағымдағы өңдеулеріңізді осы түйіндеменің талданған құрылымымен ауыстырады.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ қалпына келтірілген мәліметтер",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Сәйкестік ұпайы",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Сәйкес",
-    "description": "Fit percent text"
+    "message": "$1$% Сәйкес",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ тағы",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Қолданба автоматты түрде толтырылды және тіркелді! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ жазбалар",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ дағдылары",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ жобалары",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ жауап береді",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Рұқсат етілген",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ қолданбалары",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Компания бойынша сүзу...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ жалпы өтінімдер",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Әзірге деректер жоқ",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Мәтінмән: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Сіздің мансаптық көмекші пилот",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Міне $1$ ықтимал сұхбат сұрақтары:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Жалғастыру оңтайландыру баллы: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Сәйкестік ұсыныстарын жалғастыру",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Сәлем! **$2$**-де **$1$** рөлге қарап отырғаныңызды көріп тұрмын.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Сәлем! Сіз **$1$** рөлге қарап жатқаныңызды көріп тұрмын.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Сәлем! Мен сіздің AI мансабыңыздағы екінші пилотпын. Жұмыс тізіміне өтіңіз, мен оны автоматты түрде талдаймын немесе кез келген нәрсені сұраймын!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ ретінде кірдіңіз",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Шығу",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Сіздің түйіндемеңіз осы рөлге **$1$% үйлесімді**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Қайтадан қош келдіңіз, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google пайдаланушы профилі ақпаратын алу мүмкін болмады.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth кіру сәтсіз аяқталды: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Қайта бағыттаудан кіру таңбалауышын алу мүмкін болмады.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Лицензия кілті: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Лицензияны өшіру",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome кеңейтімінің пәрмендері Chrome таңбаша менеджерінде қолмен тағайындауды қажет етеді. Жоғарыда аталған пернелерді байланыстыру үшін $1$ өтіңіз.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome кеңейтімі — Құпиялық саясаты**\nСоңғы жаңартылған уақыты: 2026 жылдың маусымы\n\n---\n\n**1. Кіріспе**\n\nApplyFlow («біз», «біздің», «кеңейтім») — пайдаланушыларға жұмысқа өтінім пішіндерін автоматты түрде толтыруға, олардың өтініштерін қадағалауға және кәсіби профилін басқаруға көмектесетін Chrome браузерінің кеңейтімі. Бұл Құпиялық саясаты ақпаратыңызды қалай жинайтынымызды, пайдаланатынымызды, сақтайтынымызды және қорғайтынымызды түсіндіреді.\n\nApplyFlow орнату және пайдалану арқылы сіз осы саясатта сипатталған тәжірибелермен келісесіз.\nNL_10__---\n\n**2. Біз жинайтын деректер**\n\nКеңейтім мүмкіндіктерін қосу үшін сіз өз еркіңізбен берген ақпаратты ғана жинаймыз:\n\n• **Профиль ақпараты**: Сіздің атыңыз, электрондық поштаңыз, телефон нөміріңіз, колледжіңіз, дәрежеңіз, дағдыларыңыз, жұмыс тарихы, жобалары және кәсіби сілтемелері (Linkub, GitHB_1L•In__In). **EEO/Демографиялық ақпарат (міндетті емес)**: жынысы, мүгедектік күйі, ардагер мәртебесі және жұмысқа рұқсат беру таңдаулары — осы өрістерді толтыруды таңдасаңыз ғана беріледі. Бұл деректер тек жұмысқа өтінімдердегі қосымша EEO сауалнамасын автотолтыру үшін пайдаланылады.\n• **Өтінімдерді бақылау деректері**: жұмыс атауы, компания, қолданбаның URL мекенжайы, күй және кеңейтімді пайдаланып қадағалайтын орындарға арналған ескертпелер.\n• **Пайдалану статистикасы**: (күнделікті автоматты толтыру үшін орындалатын операциялардың саны) шектеулер).\n• **Түпнұсқалық растау деректері**: Google жүйесімен кіруді таңдасаңыз, тәжірибеңізді жекелендіру және бұлтты синхрондауды қосу үшін Google көрсетілетін атыңызды, электрондық пошта мекенжайыңызды және профиль суретінің URL мекенжайын сақтаймыз.\nNL_22__Біз **жиналмаймыз**:\n• Төлем немесе қаржылық шолу • B__NL224 әрекет\n• Жұмыс қолданбасына қатысы жоқ беттердегі кез келген ақпарат\n• Кеңейтім белсенді іске қосылмаған кездегі беттердегі кез келген деректер\nNL_28__---\n\n**3. Деректерді қалай сақтаймыз**\n\n**3.1 Жергілікті сақтау (әдепкі)**\nБарлық деректер негізінен браузеріңіздің chrome.storage.local API ішінде сақталады. Бұл деректер тек құрылғыңызда болады және сіздің нақты әрекетіңізсіз ешқашан ешбір серверге берілмейді.\n\n**3.2 Cloud Sync (қосымша)**\nGoogle жүйесіне кіруді және \"Supabase Sync\" мүмкіндігін қосуды таңдасаңыз, профиліңіз бен қолданба деректеріңіз де синхрондалатын дерекқор болады. Сіз бұл деректердің толық иелігін сақтайсыз. Оны кез келген уақытта «Тіркелгі және синхрондау» бөлімінен жоя аласыз.\n\n**3.3 Gemini AI сұраулары**\nAI мүмкіндіктері пайдаланылғанда (мысалы, эссе жасау, жұмыс талдауы), профиліңіздің бөліктері (дағдылар, дәреже, қорытынды) және Google жұмыс сипаттамасының жауап мәтіні Gemini API жасау үшін жіберіледі. Бұл Google стандартты API қызмет көрсету шарттары мен құпиялылық саясаты бойынша өңделеді. Жасанды интеллект көмегімен қолданылатын мазмұнға құпия жеке идентификаторларды қоспауды ұсынамыз.\n\n---\n\n**4. Деректерді ортақ пайдалану**\n\nБіз жеке ақпаратыңызды маркетинг немесе жарнама мақсатында үшінші тараптарға **сатпаймыз, сатпаймыз, жалға бермейміз немесе бөліспейміз.\n\nДеректеріңізді келесі сенімді қызметтер өңдеуі мүмкін:\n• **Google Gemini-ді талдау және толтыру үшін API-ді толтыру** (https://policies.google.com/privacy)\n• **Google OAuth**: тіркелгі аутентификациясы үшін (https://policies.google.com/privacy)\n• **Supabase**: қосымша бұлттық жады үшін (https://supabase.com/privacy қоссаңыз ғана) — sync\n\n---\n\n**5. Құқықтарыңыз бен бақылауларыңыз**\n\nСіздің құқығыңыз бар:\n• **ApplyFlow сіз туралы сақтаған барлық деректерге қол жеткізу** (параметрлердегі Экспорттық сақтық көшірме арқылы)\n• **Кез келген уақытта Профиль қойындысында ақпаратыңызды түзетіңіз****Барлық деректеріңізді пайдалана отырып **барлық деректеріңізді түзетіңіз*** Параметрлердегі \"Барлық профиль деректерін өшіру\"\n• **Келісімнен бас тарту**** кеңейтімді кез келген уақытта жою\n• **Тіркелгі және синхрондау параметрлерінде өшіру арқылы бұлттық синхрондауды өшіріңіз**\n\n**GDPR (ЕО резиденті болсаңыз, құқығыңыз бар): ЕО-ға кіру құқығыңыз бар. Деректерді қорғаудың жалпы ережесіне сәйкес түзету, өшіру, өңдеуді және деректерді тасымалдау мүмкіндігін шектеу.\n\n**Үндістан — DPDP 2023 актісі**: Үндістанның 2023 жылғы сандық жеке деректерді қорғау актісіне сәйкес, біз жеке деректерді жұмысқа өтінімге көмек көрсету қызметін ұсыну мақсатында ғана өңдейміз. Бізге хабарласу арқылы кез келген уақытта келісімнен бас тарта аласыз және деректеріңізді жоюды сұрай аласыз.\n\n**Калифорния — CCPA**: Калифорния тұрғындары қандай жеке ақпарат жиналғанын, жою құқығын және сатудан бас тарту құқығын білуге құқылы (біз сатпаймыз. деректер).\n\n---\n\n**6. Деректерді сақтау**\n\nЖергілікті деректер сіз оларды қолмен тазаламайынша сақталады. Бұлтпен синхрондалған деректер тіркелгіңізді жоймайынша немесе жоюды сұрамайынша сақталады. Біз деректерді автоматты түрде жоймаймыз.\n\n---\n\n**7. Қауіпсіздік**\n\nДеректерді қорғау үшін ақылға қонымды техникалық шараларды қабылдаймыз:\n• Барлық бұлттық байланыстар HTTPS/TLS шифрлауын пайдаланады\n• Supabase Row-Level Security (RLS) пайдаланушыларға тек өз деректеріне қол жеткізе алатынын қамтамасыз етеді\n оның рұқсат сұрауы қажет емес. функциясы\n\n---\n\n**8. Балалардың құпиялылығы**\n\nApplyFlow 13 жасқа толмаған пайдаланушыларға арналмаған. Біз балалардан әдейі деректерді жинамаймыз. Бала бізге жеке ақпаратты берді деп ойласаңыз, дереу бізге хабарласыңыз.\n\n---\n\n**9. Осы саясатқа өзгертулер**\n\nБіз осы Құпиялық саясатын мезгіл-мезгіл жаңарта аламыз. Маңызды өзгерістер кеңейтімнің Параметрлер беті арқылы хабарланады. Өзгерістер енгізілгеннен кейін кеңейтімді пайдалануды жалғастыру жаңартылған саясатты қабылдауды білдіреді.\n\n---\n\n**10. Бізбен хабарласыңыз**\n\nҚұпиялылыққа қатысты сұрақтар, деректерді жою сұраулары немесе алаңдаушылықтар үшін:\n\nЭлектрондық пошта: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nВеб-сайт: https://applyflow.in\n\nБіз барлық сұрауларға 30 күн ішінде жауап беруге тырысамыз.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

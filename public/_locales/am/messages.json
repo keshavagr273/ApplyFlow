@@ -93,7 +93,12 @@
   },
   "applications_tracked": {
     "message": "_P_0__ ማመልከቻዎች ተከታትለዋል · $2$ ቃለ መጠይቆች",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "ሂደትዎን ለመከታተል ማመልከት ይጀምሩ",
@@ -213,15 +218,30 @@
   },
   "parsed_on": {
     "message": "በ$1$ ላይ ተተነተነ",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "የመገለጫ ዝርዝሮችን ከ\"$1$\" ይጫኑ? ይህ የአሁኑን አርትዖቶችዎን በዚህ ከቆመበት ቀጥል በተተነተነ መዋቅር ይተካዋል።",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "ከ$1$ የተመለሱ ዝርዝሮች",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "የማመሳሰል ውጤት",
@@ -233,7 +253,12 @@
   },
   "more_skills": {
     "message": "+$1$ ተጨማሪ",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "መተግበሪያ በራስ ተሞልቶ ገብቷል! ✨",
@@ -761,11 +786,24 @@
   },
   "job_details_detected_intro": {
     "message": "ሃይ! በ **$2$** ላይ ያለውን የ **$1$* ሚና እየተመለከቱ እንዳሉ አይቻለሁ።",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "ሃይ! የ **$1$** ሚና እየተመለከቱ እንደሆነ አይቻለሁ።",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "ሃይ! እኔ የእርስዎ AI የሙያ ረዳት ነኝ። ወደ ሥራ ዝርዝር ሂድ እና በራስ-ሰር እተነተነው ወይም ማንኛውንም ነገር ጠይቀኝ!",
@@ -889,7 +927,12 @@
   },
   "ai_analysis_compatible": {
     "message": "የስራ ሒሳብዎ **$1$% ከዚህ ሚና ጋር ተኳሃኝ ነው**።",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "እንኳን ደህና መጣህ _P_0__!",
@@ -1554,5 +1597,17 @@
   "privacy_policy_content": {
     "message": "**Flow Chrome ቅጥያ ተግብር — የግላዊነት መመሪያ**\nመጨረሻ የዘመነው፡ ሰኔ 2026\n\n--_NL_3__\n**1። መግቢያ**\n\nApplyFlow (\"እኛ\"የእኛ\"ኤክስቴንሽን\") ተጠቃሚዎች የስራ ማመልከቻ ቅጾችን በራስ-ሰር እንዲሞሉ፣ መተግበሪያዎቻቸውን እንዲከታተሉ እና ፕሮፌሽናል ፕሮፋይላቸውን እንዲያስተዳድሩ የሚያግዝ የChrome አሳሽ ቅጥያ ነው። ይህ የግላዊነት ፖሊሲ የእርስዎን መረጃ እንዴት እንደምንሰበስብ፣ እንደምንጠቀም፣ እንደምናከማች እና እንደምንጠብቅ ያብራራል።\n\nApplyFlowን በመጫን እና በመጠቀም በዚህ መመሪያ ውስጥ በተገለጹት ልምዶች ተስማምተዋል። የምንሰበስበው ውሂብ**\n\nየቅጥያውን ባህሪያት ለማስቻል በፈቃደኝነት ያቀረቡትን መረጃ ብቻ እንሰበስባለን፡\n\n• **የመገለጫ መረጃ**፡ የእርስዎ ስም፣ ኢሜል፣ ስልክ ቁጥር፣ ኮሌጅ፣ ዲግሪ፣ ችሎታ፣ የስራ ታሪክ፣ ፕሮጀክቶች እና ፕሮፌሽናል ማገናኛዎች (LinkedIn, GitHub, Portfo_NELO)። (አማራጭ)**፡ ፆታ፣ የአካል ጉዳት ሁኔታ፣ የውትድርና ሁኔታ እና የስራ ፈቃድ ምርጫዎች — እነዚህን መስኮች ለመሙላት ከመረጡ ብቻ የቀረበ። ይህ ዳታ በስራ አፕሊኬሽኖች ላይ የአማራጭ EEO መጠይቆችን በራስ ሰር ለመሙላት ብቻ የሚያገለግል ነው።\n• **የመተግበሪያ መከታተያ መረጃ**፡የስራ ስም፣የድርጅት፣የመተግበሪያ ዩአርኤል፣ሁኔታ እና ማስታዎሻ ቅጥያውን ተጠቅመው ለሚከታተሉት የስራ መደቦች። በGoogle ለመግባት ከመረጡ፣ የእርስዎን ተሞክሮ ለግል ለማበጀት እና የደመና ማመሳሰልን ለማስቻል የእርስዎን የጎግል ማሳያ ስም፣ ኢሜል አድራሻ እና የመገለጫ ስእል ዩአርኤል እናከማቻለን ። ቅጥያው በንቃት ካልተቀሰቀሰ ከገጾች የተገኘ ውሂብ\n\n--\n\n**3። ዳታህን እንዴት እንደምናከማች**\n\n**3.1 የአካባቢ ማከማቻ (ነባሪ)**\nሁሉም መረጃዎች በዋነኝነት የሚቀመጡት በአሳሽህ chrome.storage.local API ነው። ይህ ውሂብ በመሳሪያዎ ላይ ብቻ ነው የሚኖረው እና ያለግልጽ እርምጃዎ ወደማንኛውም አገልጋይ በጭራሽ አይተላለፍም።\n\n**3.2 Cloud Sync (አማራጭ)**\nከGoogle ጋር ለመግባት ከመረጡ እና የ\"Supabase Sync\" ባህሪን ካነቁ የእርስዎ መገለጫ እና መተግበሪያ ዳታቤዝ ከሱፓቤዝ ጋር ይመሳሰላሉ። የዚህን ውሂብ ሙሉ ባለቤትነት ያቆያሉ። በማንኛውም ጊዜ ከመለያ እና ማመሳሰል ክፍል ላይ መሰረዝ ይችላሉ። ይሄ በGoogle መደበኛ የኤፒአይ የአገልግሎት ውል እና የግላዊነት መመሪያ ስር ነው የሚሰራው። ሚስጥራዊነት ያላቸው የግል መለያዎችን በ AI በሚደገፍ ይዘትህ ውስጥ እንዳታካትት እንመክራለን።\n\n--\n\n**4። ዳታ መጋራት**\n\nአንሸጥም፣ አንገበያይም፣ አንከራይም፣ ወይም የግል መረጃዎን ለገበያ ወይም ለማስታወቂያ ዓላማ ከማንኛውም ሶስተኛ አካል ጋር አናጋራም። (https://policies.google.com/privacy)\n• **Google OAuth**፡ ለመለያ ማረጋገጥ (https://policies.google.com/privacy)\n• **Supabase**፡ ለአማራጭ የደመና ማከማቻ (https://supabase.com/privacy) — ካነቁ ብቻ አመሳስል\n\n---\n\n**5. የእርስዎ መብቶች እና መቆጣጠሪያዎች**\n\nመብት አልዎት፡\n• **መዳረስ** ስለእርስዎ ያከማቻል ሁሉንም ዳታ ApplyFlow (በቅንጅቶች ወደ ውጪ መላክ)\n• መረጃዎን በማንኛውም ጊዜ በመገለጫ ትሩ ውስጥ ያርሙ\n• ሁሉንም በአከባቢዎ ውስጥ ያለውን መረጃ ያጥፉ። መቼቶች\n• **ፍቃድ አንሳ** በማንኛውም ጊዜ ቅጥያውን በማራገፍ\n• **የደመና ማመሳሰልን አሰናክል** በመለያ እና ማመሳሰል ቅንብሮች ውስጥ በማጥፋት\n\n**GDPR (የአውሮፓ ህብረት ተጠቃሚዎች)**: የአውሮፓ ህብረት ነዋሪ ከሆኑ ፣መረጃውን የማስተካከል ፣የመገናኘት ፣የመገናኘት እና የመወሰን መብት አሎት። አጠቃላይ የዳታ ጥበቃ ደንብ.\n\n**ህንድ — ዲፒዲፒ ህግ 2023**፡ የህንድ ዲጂታል የግል መረጃ ጥበቃ ህግ 2023ን በማክበር የግል መረጃዎችን የምናስኬደው ለስራ ማመልከቻ እርዳታ አገልግሎት ለመስጠት ብቻ ነው። እኛን በማነጋገር በማንኛውም ጊዜ የስምምነትዎን መሰረዝ እና የውሂብዎን ስረዛ መጠየቅ ይችላሉ።\n\n**ካሊፎርኒያ — CCPA**፡ የካሊፎርኒያ ነዋሪዎች ምን የግል መረጃ እንደሚሰበሰብ፣ የመሰረዝ መብት እና ከሽያጭ የመውጣት መብት እንዳላቸው የማወቅ መብት አላቸው (እኛ አንሸጥም) ዳታ).\n\n---\n\n**6. የውሂብ ማቆየት**\n\nእራስዎ እስኪያጸዱ ድረስ የአካባቢያዊ መረጃ ተጠብቆ ይቆያል። መለያህን እስክትሰርዝ ወይም ስረዛን እስክትጠይቅ ድረስ ከደመና ጋር የተመሳሰለ ውሂብ ተጠብቆ ይቆያል። በራስ ሰር ውሂብ አንሰርዝም።_NL_74__\n---\n\n**7። ደህንነት**\nNL_79__መረጃዎን ለመጠበቅ ምክንያታዊ ቴክኒካል እርምጃዎችን እንወስዳለን፡\n• ሁሉም የደመና ግንኙነቶች HTTPS/TLS ምስጠራን ይጠቀማሉ\n• ሱፓቤዝ የረድፍ ደረጃ ደህንነት (RLS) ተጠቃሚዎች የራሳቸውን ውሂብ ብቻ ማግኘት እንደሚችሉ ያረጋግጣል\n• ቅጥያው ከሚያስፈልገው በላይ ፍቃድ አይጠይቅም ተግባር\n\n---\n\n**8። የልጆች ግላዊነት**_NL_87__\nApplyFlow ከ13 ዓመት በታች ለሆኑ ተጠቃሚዎች የታሰበ አይደለም። እያወቅን ከልጆች መረጃ አንሰበስብም። አንድ ልጅ የግል መረጃ ሰጥቶናል ብለው ካመኑ፣ እባክዎን ወዲያውኑ ያግኙን።\n\n--\n\n**9። በዚህ መመሪያ ላይ የተደረጉ ለውጦች *** ይህንን የግላዊነት መመሪያ ከጊዜ ወደ ጊዜ ማዘመን እንችላለን። ጉልህ ለውጦች በቅጥያው አማራጮች ገጽ በኩል ይላካሉ። ከለውጦች በኋላ የቅጥያውን መቀጠል የተሻሻለውን ፖሊሲ መቀበልን ያካትታል።\n\n--\n\n**10። ያግኙን**\n\nለማንኛውም ከግላዊነት ጋር ለተያያዙ ጥያቄዎች፣የውሂብ ስረዛ ጥያቄዎች ወይም ስጋቶች፡\n\nኢሜል፡ privacy@applyflow.in\nGitHub፡ https://github.com/applyflow/extension https://applyflow.in\n\nለሁሉም ጥያቄዎች በ30 ቀናት ውስጥ ምላሽ የመስጠት አላማ አለን።",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

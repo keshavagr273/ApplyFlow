@@ -145,9 +145,9 @@ test.describe('AI Copilot — Chat Platform', () => {
     await tailorChip.click();
 
     // Verify resume score rendering
-    await expect(page.locator('text=Resume Match Score').first()).toBeVisible({ timeout: 10000 });
+    await expect(page.locator('text=Resume Compatibility Score').first()).toBeVisible({ timeout: 10000 });
     await expect(page.locator('text=72%').first()).toBeVisible();
-    await expect(page.locator('text=Add Docker experience').first()).toBeVisible();
+    await expect(page.locator('text=Explicitly mention Docker').first()).toBeVisible();
 
     // 6. Custom Prompt Input
     await page.fill('textarea[placeholder*="Ask anything"]', 'Explain closure in JS.');

@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ کشف شو",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "د کار کومه پاڼه ونه موندل شوه",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ غوښتنلیکونه تعقیب شوي · $2$ مرکې",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "د خپل پرمختګ تعقیبولو لپاره غوښتنلیک پیل کړئ",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "په $1$ کې تجزیه شوی",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "د \"$1$\" څخه د پروفایل توضیحات پورته کړئ؟ دا به ستاسو اوسني سمونونه د دې بیا پیل شوي تحلیل شوي جوړښت سره بدل کړي.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "د $1$ څخه توضیحات بحال شوي",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "د میچ سکور",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ فټ",
-    "description": "Fit percent text"
+    "message": "$1$% فټ",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ نور",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "غوښتنلیک په اتوماتيک ډول ډک شوی او لاګ شوی! ✨",
@@ -261,7 +299,12 @@
   },
   "entries_count": {
     "message": "$1$ ننوتل",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "__P__0__ مهارتونه",
@@ -633,7 +676,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ ټول غوښتنلیکونه",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "تراوسه هیڅ معلومات نشته",
@@ -681,7 +729,12 @@
   },
   "context_label": {
     "message": "متن: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "ستاسو د مسلک شریک پیلوټ",
@@ -745,7 +798,12 @@
   },
   "ai_analysis_resume_score_intro": {
     "message": "د اصلاح کولو نمرې بیا پیل کړئ: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "د میچ وړاندیزونه بیا پیل کړئ",
@@ -761,11 +819,24 @@
   },
   "job_details_detected_intro": {
     "message": "سلام! زه وینم چې تاسو په **$1$** رول کې ګورئ **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "سلام! زه وینم چې تاسو د **$1$_** رول ته ګورئ.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "سلام! زه ستاسو د AI مسلک شریک پیلوټ یم. د دندې لیست ته لاړشئ او زه به یې په اتوماتيک ډول تحلیل کړم، یا له ما څخه څه وپوښتئ!",
@@ -833,7 +904,12 @@
   },
   "logged_in_as": {
     "message": "د $1$ په توګه ننوتل",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "لاسلیک کول",
@@ -889,11 +965,21 @@
   },
   "ai_analysis_compatible": {
     "message": "ستاسو بیا پیل د دې رول سره **$1$% مطابقت لري**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "بیرته ښه راغلاست، $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "د ګوګل کارن پروفایل معلوماتو په ترلاسه کولو کې پاتې راغلی.",
@@ -901,7 +987,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth ننوتنه ناکامه شوه: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "د ریډیریټ څخه د لاسرسي نښه ترلاسه کولو کې پاتې راغلی.",
@@ -1209,7 +1300,12 @@
   },
   "premium_active_desc": {
     "message": "د جواز کلید: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "جواز غیر فعال کړئ",
@@ -1549,10 +1645,27 @@
   },
   "shortcut_note_desc": {
     "message": "د کروم توسیع کمانډونه د کروم شارټ کټ مدیر کې لاسي دندې ته اړتیا لري. پورته لست شوي کیلي تړلو لپاره $1$ ته لاړ شئ.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow کروم توسیع — د محرمیت پالیسي**\nوروستی تازه: جون 2026\n\n---_\n\n**1. پیژندنه**\n_\nApplyFlow (\"موږ\"، \"زموږ\"، \"توسیع\") د کروم براوزر توسیع دی چې کاروونکو سره د دندې غوښتنلیک فارمونو په اتوماتيک ډول ډکولو، د دوی غوښتنلیکونو تعقیب، او د دوی مسلکي پروفایل اداره کولو کې مرسته کوي. دا د محرمیت پالیسي تشریح کوي چې موږ څنګه ستاسو معلومات راټولوو، کاروو، ذخیره کوو، او ساتنه کوو.\n\nد ApplyFlow په نصبولو او کارولو سره، تاسو په دې پالیسي کې بیان شوي طرزالعملونو سره موافق یاست. هغه معلومات چې موږ راټولوو**\n_NL_14__موږ یوازې هغه معلومات راټولوو چې تاسو یې په خپله خوښه د تمدید د ځانګړتیاوو د فعالولو لپاره چمتو کوئ: \n\n• **د پروفایل معلومات**: ستاسو نوم، بریښنالیک، د تلیفون شمیره، کالج، درجې، مهارتونه، د کار تاریخ، پروژې، او مسلکي لینکونه (لینک شوي، د پورټ__H14، GT__H76) لینک شوي. **EEO/ډیموګرافیک معلومات (اختیاري): د جنډر، معلولیت حالت، د تجربه کار حالت، او د کار واک کولو غوره توبونه - یوازې هغه وخت چمتو شوي چې تاسو د دې ساحو ډکولو انتخاب کوئ. دا ډاټا په ځانګړي ډول د دندې غوښتنلیکونو کې د اختیاري EEO پوښتنلیکونو اتومات ډکولو لپاره کارول کیږي.\n• **د غوښتنلیک تعقیب ډاټا**: د دندې سرلیک، شرکت، د غوښتنلیک URL، حالت، او د هغو پوستونو لپاره یادښتونه چې تاسو د توسیع په کارولو سره تعقیب کوئ. حدود).\n• **د تصدیق ډاټا**: که تاسو د ګوګل سره لاسلیک کول غوره کړئ، موږ ستاسو د تجربې شخصي کولو او د کلاوډ ترکیب فعالولو لپاره ستاسو د ګوګل نمایش نوم، بریښنالیک پته، او د پروفایل انځور URL ذخیره کوو. activity\n• د هغو پاڼو څخه کوم معلومات چې د کار غوښتنلیک سره تړاو نلري\n• د مخونو څخه کوم معلومات کله چې تمدید په فعاله توګه نه وي پیل شوی\n\n---\n\n**3. موږ څنګه ستاسو ډاټا ذخیره کوو**\n_NL_32__**3.1 سیمه ایز ذخیره (ډیفالټ)**\nټول معلومات په ابتدايي ډول ستاسو د براوزر په chrome.storage.local API کې زیرمه شوي. دا ډاټا یوازې ستاسو په وسیله کې پاتې کیږي او هیڅکله ستاسو د واضح عمل پرته هیڅ سرور ته نه لیږدول کیږي. \n\n**3.2 کلاوډ Sync (اختیاري)**\n که تاسو د ګوګل سره لاسلیک کول غوره کړئ او د \"Supabase Sync\" خصوصیت فعال کړئ، ستاسو د پروفایل او غوښتنلیک ډیټا به هم همغږي شي. تاسو د دې معلوماتو بشپړ ملکیت ساتئ. تاسو کولی شئ دا په هر وخت کې د حساب او همغږي برخې څخه حذف کړئ.\n\n**3.3 Gemini AI غوښتنې**\nکله چې د AI ځانګړتیاوې کارول کیږي (د بیلګې په توګه، د مقالې تولید، د کار تحلیل)، ستاسو د پروفایل برخې (مهارتونه، درجې، لنډیز) او د ځواب ویونکي د API متن ته د دندې توضیحاتو ته لیږل کیږي. دا د ګوګل د معیاري API خدماتو شرایطو او محرمیت پالیسۍ لاندې پروسس کیږي. موږ وړاندیز کوو چې ستاسو د AI په مرسته شوي مینځپانګې کې حساس شخصي پیژندونکي شامل نه کړئ. د معلوماتو شریکول**\n_\nموږ د بازار موندنې یا اعلاناتو موخو لپاره ستاسو شخصي معلومات له کوم دریم اړخ سره نه پلورو، تجارت، کرایه، یا شریک نه کوو. (https://policies.google.com/privacy)\n• **Google OAuth**: د حساب تصدیق لپاره (https://policies.google.com/privacy)\n• **Supabase**: د اختیاري کلاوډ ذخیره کولو لپاره (https://supabase.com/privacy) — یوازې که تاسو فعال کړئ همغږي\n_NL_52___---NL_53_\n_**5. ستاسو حقونه او کنټرولونه**\n\nتاسو حق لرئ:\n• **Access** ټول معلومات ApplyFlow ستاسو په اړه زیرمه کړي دي (په ترتیباتو کې د ایکسپورټ بیک اپ له لارې)\n• ** په هر وخت کې د پروفایل په ټب کې خپل معلومات سم کړئ \n• د ټولو ډیټا په کارولو سره خپل معلومات سم کړئ. د پروفایل ډیټا\" په ترتیباتو کې\n• ** رضایت بیرته واخلئ ** په هر وخت کې د تمدید په غیر نصبولو سره\n• **د کلاوډ ترکیب غیر فعال کړئ ** دا د حساب او همغږي کولو ترتیباتو کې د ټګل کولو سره بند کړئ\n\n**GDPR (EU کاروونکي)**: که تاسو د لاسرسي حق لرئ ، نو تاسو ته د لاسرسي حق لرئ. د عمومي معلوماتو محافظت مقرراتو لاندې پاکول، پروسس کول، او د معلوماتو لیږد محدودول.\n\n**هند - DPDP قانون 2023**: د هند د ډیجیټل شخصي معلوماتو ساتنې قانون 2023 سره په مطابقت کې، موږ یوازې د کار غوښتنلیک مرستې خدمت چمتو کولو هدف لپاره شخصي معلومات پروسس کوو. تاسو کولی شئ هر وخت له موږ سره په تماس کې رضایت بیرته واخلئ او د خپل ډیټا حذف کولو غوښتنه وکړئ.\n_NL_67__**کالیفورنیا - CCPA**: د کالیفورنیا اوسیدونکي حق لري پوه شي چې کوم شخصي معلومات راټول شوي ، د حذف کولو حق او د پلور څخه د وتلو حق (موږ نه پلورو) ډاټا).\n_NL_69___---NL_70_\n_**6. د معلوماتو ساتل**\n_\n ځایي ډاټا ساتل کیږي تر هغه چې تاسو یې په لاسي ډول پاک نه کړئ. د کلاوډ سره همغږي شوي ډاټا ساتل کیږي تر هغه چې تاسو خپل حساب حذف کړئ یا د حذف کولو غوښتنه وکړئ. موږ په اتوماتيک ډول ډیټا نه حذف کوو.\n_NL_75___---NL_76_\n_**7. امنیت**\n\nموږ ستاسو د معلوماتو د ساتنې لپاره مناسب تخنیکي ګامونه اخلو:\n• ټول کلاوډ مخابرات HTTPS/TLS انکرپشن کاروي\n• Supabase Row-level Security (RLS) ډاډ ترلاسه کوي چې کاروونکي کولی شي یوازې خپل ډیټا ته لاسرسی ولري\n• د تمدید اړتیا د هغه څه لپاره نه ده چې غوښتنه یې نه وي. فعالیت\n\n_---NL_85_\n_**8. د ماشومانو محرمیت**\n_NL_88__ApplyFlow د 13 کلونو څخه کم عمر کاروونکو لپاره نه دی. موږ په پوهه سره د ماشومانو معلومات نه راټولوو. که تاسو باور لرئ چې یو ماشوم موږ ته شخصي معلومات راکړي دي، مهرباني وکړئ سمدلاسه له موږ سره اړیکه ونیسئ. په دې پالیسۍ کې بدلونونه**\n_NL_94__موږ ممکن دا د محرمیت پالیسي وخت په وخت تازه کړو. د پام وړ بدلونونه به د توسیع د اختیارونو پاڼې له لارې خبر شي. د بدلونونو څخه وروسته د تمدید دوام کارول د نوي شوي پالیسي منل تشکیلوي. موږ سره اړیکه ونیسئ **\n_\n د محرمیت پورې اړوند پوښتنو، د معلوماتو حذف کولو غوښتنو، یا اندیښنو لپاره: \n\n بریښنالیک: privacy@applyflow.in\nGitHub: https://github.com/applyflow_4_Webite: https://applyflow.in\n_NL_106__موږ هدف لرو چې په 30 ورځو کې ټولو غوښتنو ته ځواب ووایو.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

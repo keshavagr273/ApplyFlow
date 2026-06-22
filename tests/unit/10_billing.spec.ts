@@ -68,7 +68,7 @@ describe('Billing & Credit System Unit Tests', () => {
       expect(billing.premiumUntil).toBeGreaterThan(Date.now());
     });
 
-    test('should return Ultimate Yearly plan with 2500 credits for grandfathered license key', async () => {
+    test('should return Pro Monthly plan (no ultimate yearly bypass) for license key APPLYFLOW-PRO-2026', async () => {
       mockStorage['settings'] = {
         isPremium: true,
         userEmail: 'ultimate@test.com',
@@ -76,8 +76,8 @@ describe('Billing & Credit System Unit Tests', () => {
       };
 
       const billing = await Storage.getUserBilling();
-      expect(billing.plan).toBe('ultimate_yearly');
-      expect(billing.creditsAllocated).toBe(2500);
+      expect(billing.plan).toBe('pro_monthly');
+      expect(billing.creditsAllocated).toBe(150);
       expect(billing.creditsUsed).toBe(0);
     });
 

@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Imetambuliwa",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Hakuna ukurasa wa kazi uliogunduliwa",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ maombi yaliyofuatiliwa · $2$ mahojiano",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Anza kutuma maombi ili kufuatilia maendeleo yako",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Ilichanganuliwa mnamo $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Pakia maelezo ya wasifu kutoka kwa \"$1$\"? Hii itachukua nafasi ya mabadiliko yako ya sasa na muundo uliochanganuliwa wa wasifu huu.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Maelezo yaliyorejeshwa kutoka $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Alama ya Mechi",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Inafaa",
-    "description": "Fit percent text"
+    "message": "$1$% Inafaa",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ zaidi",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Programu imejazwa kiotomatiki na kuingia! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ maingizo",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ ujuzi",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ miradi",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ majibu",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Imeidhinishwa",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ maombi",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Chuja kulingana na kampuni...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ jumla ya maombi",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Hakuna data bado",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Muktadha: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Mratibu wa kazi yako",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Haya hapa ni $1$ maswali ambayo huenda yakahojiwa:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Rejesha alama ya uboreshaji: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Rejesha Mapendekezo ya Mechi",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Habari! Ninaona unaangalia jukumu la **$1$** katika **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Habari! Ninaona unaangalia jukumu la **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Habari! Mimi ndiye rubani wako wa taaluma ya AI. Nenda kwenye orodha ya kazi na nitaichanganua kiotomatiki, au niulize chochote!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Umeingia kama $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Ondoka",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Wasifu wako **$1$% unalingana** na jukumu hili.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Karibu tena, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Imeshindwa kuleta maelezo ya wasifu wa mtumiaji wa Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Kuingia kwa OAuth Kumeshindwa: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Imeshindwa kuleta tokeni ya ufikiaji kutoka kwa kuelekeza kwingine.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Kitufe cha leseni: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Zima Leseni",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Amri za viendelezi vya Chrome zinahitaji kukabidhiwa kwa mikono katika kidhibiti cha njia ya mkato cha Chrome. Nenda kwa $1$ ili kubandika vitufe vilivyoorodheshwa hapo juu.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension - Sera ya Faragha**\nIlisasishwa Mwisho: Juni 2026\nNL_2__---\nNL_4__**1. Utangulizi**\nNL_6__ApplyFlow (\"sisi\", \"yetu\", \"Kiendelezi\") ni kiendelezi cha kivinjari cha Chrome ambacho huwasaidia watumiaji kujaza kiotomatiki fomu za maombi ya kazi, kufuatilia maombi yao na kudhibiti wasifu wao wa kitaaluma. Sera hii ya Faragha inafafanua jinsi tunavyokusanya, kutumia, kuhifadhi na kulinda maelezo yako.\nNL_8__Kwa kusakinisha na kutumia ApplyFlow, unakubali kanuni zilizoelezwa katika sera hii. Data Tunayokusanya**\nNL_14__Tunakusanya tu taarifa unayotoa kwa hiari ili kuwezesha vipengele vya kiendelezi:\nNL_16__• **Maelezo ya Wasifu**: Jina lako, barua pepe, nambari ya simu, chuo, shahada, ujuzi, historia ya kazi, miradi, na viungo vya kitaalamu (Hunked_7) Git_Portal. **EEO/Maelezo ya Idadi ya Watu (Si lazima)**: Jinsia, hali ya ulemavu, hali ya mkongwe, na mapendeleo ya uidhinishaji wa kazi - hutolewa tu ikiwa utachagua kujaza sehemu hizi. Data hii inatumika kwa ajili ya kujaza kiotomatiki hojaji za hiari za EEO kwenye maombi ya kazi.\n• **Data ya Ufuatiliaji wa Programu**: Jina la kazi, kampuni, URL ya programu, hali na madokezo ya nafasi unazofuatilia ukitumia kiendelezi.\n• **Takwimu za Matumizi**: Idadi ya shughuli za kila siku za ujazo otomatiki ili kutekelezwa (ili kutekelezwa). mipaka).\n• **Data ya Uthibitishaji**: Ukichagua kuingia na Google, tunahifadhi jina lako la Google linaloonyeshwa, anwani ya barua pepe, na URL ya picha ya wasifu ili kubinafsisha matumizi yako na kuwezesha usawazishaji wa wingu.\nNL_22__***hatukusanyi:\n_• Malipo au kuvinjari_4_historia ya jumla ya N_3 ya kuvinjari • N_2 maelezo ya kifedha. shughuli\n• Taarifa yoyote kutoka kwa kurasa ambazo hazihusiani na maombi ya kazi\n• Data yoyote kutoka kwa kurasa wakati kiendelezi hakijaanzishwa\n\n---\nNL_30__**3. Jinsi Tunavyohifadhi Data Yako**\nNL_32__**3.1 Hifadhi ya Ndani (Chaguo-msingi)**\nData zote kimsingi huhifadhiwa katika API ya kivinjari chako cha chrome.storage.local. Data hii hukaa kwenye kifaa chako pekee na haitumiwi kwa seva yoyote bila kitendo chako cha wazi.\n\n**3.2 Usawazishaji wa Wingu (Si lazima)**\nUkichagua kuingia na Google na kuwezesha kipengele cha \"Supabase Sync\", wasifu wako na data ya programu pia itasawazishwa kwenye hifadhidata ya Supabase. Unahifadhi umiliki kamili wa data hii. Unaweza kuifuta wakati wowote kwenye sehemu ya Akaunti na Usawazishaji.\nNL_38__**3.3 Maombi ya Gemini AI**\nVipengele vya AI vinapotumika (k.m., utengenezaji wa insha, uchanganuzi wa kazi), sehemu za wasifu wako (ujuzi, shahada, muhtasari) na maandishi ya maelezo ya kazi ya Gemini hutumwa kwa API ya Google. Hili linachakatwa chini ya Sheria na Masharti na Sera ya Faragha ya API ya kawaida. Tunapendekeza kutojumuisha vitambulishi nyeti vya kibinafsi katika maudhui yako yanayosaidiwa na AI.\nNL_41__---\nNL_43__**4. Kushiriki Data**\nNL_45__**hatuuzi, kufanya biashara, kukodisha, au kushiriki taarifa zako za kibinafsi na washirika wengine wowote kwa madhumuni ya uuzaji au utangazaji.\nNL_47__Data yako inaweza kuchakatwa na huduma zifuatazo zinazoaminika:\n• Fomu ya Uchanganuzi wa Google: Uchanganuzi wa Google. (https://policies.google.com/privacy)\n• **Google OAuth**: Kwa uthibitishaji wa akaunti (https://policies.google.com/privacy)\n• **Supabase**: Kwa hifadhi ya hiari ya wingu (https://supabase.com/privacy) — ikiwa tu utawasha kusawazisha\nNL_52__---\nNL_54__**5. Haki na Udhibiti Wako**\nNL_56__Una haki ya:\n• **Kufikia** data yote ApplyFlow imehifadhi kukuhusu (kupitia Hifadhi Nakala katika mipangilio)\n• **Sahihi** maelezo yako wakati wowote katika kichupo cha Wasifu__NL_59 **Futa Maelezo Mafupi yote* **Futa Maelezo Mafupi yote* Data\" katika mipangilio\n• **Ondoa idhini** wakati wowote kwa kusanidua kiendelezi\n• **Zima usawazishaji wa wingu** kwa kuuzima katika mipangilio ya Akaunti na Usawazishaji\nNL_63__**GDPR (Watumiaji wa Umoja wa Ulaya)**: Ikiwa una haki ya kukidhi, futa, futa haki za kufikia EU kuchakata, na kubebeka kwa data chini ya Kanuni ya Jumla ya Ulinzi wa Data.\nNL_65__**India - Sheria ya DPDP ya 2023**: Kwa kutii Sheria ya India ya Ulinzi wa Data ya Kibinafsi ya 2023, tunachakata data ya kibinafsi kwa madhumuni ya kutoa huduma ya usaidizi wa kutuma maombi ya kazi pekee. Unaweza kuondoa kibali na kuomba data yako ifutwe wakati wowote kwa kuwasiliana nasi.\nNL_67__**California — CCPA**: Wakazi wa California wana haki ya kujua ni taarifa gani za kibinafsi zinazokusanywa, haki ya kufuta na haki ya kuondoka kwenye mauzo (hatuuzi. data).\nNL_69__---\nNL_71__**6. Uhifadhi wa Data**\n\nData ya ndani huhifadhiwa hadi uifute wewe mwenyewe. Data iliyosawazishwa na wingu huhifadhiwa hadi ufute akaunti yako au uombe kufutwa. Hatufuti data kiotomatiki.\nNL_75__---\nNL_77__**7. Usalama**\nNL_79__Tunachukua hatua zinazofaa za kiufundi ili kulinda data yako:\n• Mawasiliano yote ya wingu hutumia usimbaji fiche wa HTTPS/TLS\n• Supabase Row-Level Security (RLS) huhakikisha kuwa watumiaji wanaweza tu kufikia data zao wenyewe ambazo hazihitaji idhini ya kiendelezi\n• kazi\nNL_84__---\nNL_86__**8. Faragha ya Watoto**\n\nApplyFlow haijakusudiwa watumiaji walio na umri wa chini ya miaka 13. Hatuasanyi data kutoka kwa watoto kimakusudi. Ikiwa unaamini kuwa mtoto ametupatia taarifa za kibinafsi, tafadhali wasiliana nasi mara moja.\nNL_90__---\nNL_92__**9. Mabadiliko kwenye Sera hii**\n\nTunaweza kusasisha Sera hii ya Faragha mara kwa mara. Mabadiliko makubwa yatawasilishwa kupitia ukurasa wa Chaguo za kiendelezi. Kuendelea kutumia kiendelezi baada ya mabadiliko kunajumuisha kukubalika kwa sera iliyosasishwa.\nNL_96__---\nNL_98__**10. Wasiliana Nasi**\nNL_100__Kwa maswali yoyote yanayohusiana na faragha, maombi ya kufuta data, au masuala yanayohusu:\nNL_102__Barua pepe: privacy@applyflow.in\nGitHub: https://github.com_site_site_ex_applyflow/ https://applyflow.in\nNL_106__Tunalenga kujibu maombi yote ndani ya siku 30.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

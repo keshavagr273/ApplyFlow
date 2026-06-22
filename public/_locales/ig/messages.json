@@ -93,7 +93,15 @@
   },
   "applications_tracked": {
     "message": "$1$ ngwa a na-enyocha · $2$ ajụjụ ọnụ",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Malite itinye akwụkwọ iji soro ọganihu gị",
@@ -213,11 +221,21 @@
   },
   "parsed_on": {
     "message": "Atụlere na $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Budata nkọwa profaịlụ site na \"$1$\"? Nke a ga-eji nhazi nrụgharị a tụgharịrị dochie ndezi gị ugbu a.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Ozi eweghachitere site na _P_0__",
@@ -228,12 +246,22 @@
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ dabara",
-    "description": "Fit percent text"
+    "message": "$1$% dabara",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ ọzọ",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Ngwa juputara ma banye! ✨",
@@ -261,7 +289,12 @@
   },
   "entries_count": {
     "message": "Ndenye $1$",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "_P_0__ nka",
@@ -273,7 +306,12 @@
   },
   "answers_count": {
     "message": "$1$ zara",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Enyere ikike",
@@ -741,7 +779,12 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Nke a bụ ajụjụ ajụjụ ọnụ $1$:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Malitekwa akara njikarịcha: _P_0__%",
@@ -761,11 +804,24 @@
   },
   "job_details_detected_intro": {
     "message": "Ndewo! Enwere m ike ịhụ na ị na-ele ọrụ **$1$** na **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Ndewo! Enwere m ike ịhụ na ị na-ele ọrụ **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Ndewo! Abụ m onye pilot ọrụ AI gị. Gaa na ndepụta ọrụ, m ga-enyocha ya ozugbo, ma ọ bụ jụọ m ihe ọ bụla!",
@@ -889,7 +945,12 @@
   },
   "ai_analysis_compatible": {
     "message": "resume gị bụ **$1$% dakọtara** na ọrụ a.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Nnọọ azụ, _P_0__!",
@@ -1549,10 +1610,27 @@
   },
   "shortcut_note_desc": {
     "message": "Iwu ndọtị Chrome chọrọ ọrụ aka na njikwa ụzọ mkpirisi Chrome. Gaa na $1$ iji kee igodo ndị edepụtara n'elu.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Tụgharịa chrome ndọtị - Amụma nzuzo**\nEmelitere ikpeazụ: June 2026\n\n--_NL_3__\n**1. Okwu mmalite**\n\nApplyFlow (\"anyị\", \"anyị\", \"The Extension\") bụ ihe nchọgharị Chrome na-enyere ndị ọrụ aka mejupụta fọm ngwa ọrụ, soro ngwa ha, ma jikwaa profaịlụ ọkachamara ha. Amụma nzuzo a na-akọwa otu anyị si anakọta, jiri, chekwaa, ma chekwaa ozi gị.\n\nSite na ịwụnye na iji ApplyFlow, ị kwenyere na omume ndị akọwara na amụma a.\nNL_10__---\nNL_12__*2. Data anyị na-anakọta**\nNL_14__Anyị na-anakọta naanị ozi ị wetara onwe gị iji mee ka atụmatụ ndọtị ahụ nwee ike:\n\n• ** Ozi profaịlụ**: Aha gị, email, akara ekwentị, kọleji, ogo, nka, akụkọ ọrụ, oru ngo, na njikọ ọkachamara (LinkedIn, GitHub, Pọtụfoliyo) . (Nhọrọ) ***: okike, ọkwa nkwarụ, ọkwa agha agha, yana mmasị ọrụ - enyere naanị ma ọ bụrụ na ịhọrọ imeju mpaghara ndị a. A na-eji data a naanị iji mejupụta akwụkwọ ajụjụ EEO nhọrọ na ngwa ọrụ.\n• ** Data Tracking Application **: Aha ọrụ, ụlọ ọrụ, URL ngwa, ọkwa, na ndetu maka ọnọdụ ị na-eso site na iji ndọtị. Ọ bụrụ na ịhọrọ ịbanye na Google, anyị na-echekwa aha ngosi Google gị, adreesị ozi-e, na URL foto profaịlụ gị iji hazie ahụmịhe gị wee mee ka mmekọrịta igwe ojii nwee ike. data sitere na ibe mgbe ndọtị ahụ anaghị akpalite nke ọma\n\n--\n\n**3. Otu esi echekwa data gị**\nNL_32__**3.1 Nchekwa mpaghara (Ndabere)**\nA na-echekwa data niile na chrome.storage.local API. Data a dị naanị na ngwaọrụ gị, a naghị ebufe ya na ihe nkesa ọ bụla na-enweghị ọrụ doro anya gị.\n\n**3.2 Cloud Sync (Nhọrọ)**\nỌ bụrụ na ịhọrọ ịbanye na Google wee mee ka atụmatụ \"Supabase Sync\", profaịlụ gị na data ngwa ga-ejikọta ya na nchekwa data Supabase. Ị na-ejigide data a zuru oke. Ị nwere ike ihichapụ ya n'oge ọ bụla site na Akaụntụ & Mmekọrịta ngalaba.\n\n**3.3 Gemini AI Arịrịọ **\nMgbe ejiri njirimara AI (dịka, ọgbọ edemede, nyocha ọrụ), akụkụ nke profaịlụ gị (nkà, ogo, nchịkọta) na nkọwa nkọwa ọrụ ka ezigara Google's Gemini. API iji mepụta Gemini API. A na-ahazi nke a n'okpuru ụkpụrụ ọrụ API ọkọlọtọ Google na amụma nzuzo. Anyị na-akwado ka ịghara ịgụnye ihe nhụbaanya nkeonwe na ọdịnaya AI-enyere gị aka.\n\n--\n\n**4. Ịkekọrịta data **\nNL_45__Anyị anaghị ere, ahia, mgbazinye, ma ọ bụ kesaa ozi gbasara gị n'aka ndị ọzọ ọ bụla maka ahịa ma ọ bụ mgbasa ozi. (https://policies.google.com/privacy)\n• **Google OAuth**: Maka njirimara akaụntụ (https://policies.google.com/privacy)\n• **Supabase**: Maka nchekwa igwe ojii nhọrọ (https://supabase.com/privacy) - naanị ma ọ bụrụ na ị nyere gị aka mekọrịta\n\n---\n\n**5. Ikike & Njikwa Gị**\n\nI nwere ikike:\n• **Nweta** niile data ApplyFlow echekwabara gbasara gị (site na mbupụ ndabere na ntọala)\n• *Dezie** ozi gị n'oge ọ bụla na profaịlụ profaịlụ\n• iji hichapụ profaịlụ niile na mpaghara gị*** settings\n• **Wepụ nkwenye** n'oge ọ bụla site na iwepu ndọtị\n• ** Gbanyụọ mmekọrịta igwe ojii ** site na ịgbanyụ ya na ntọala Akaụntụ & mmekọrịta \n\n**GDPR (Ndị ọrụ EU)**: Ọ bụrụ na ị bụ onye bi na EU, ị nwere ikike imezigharị data n'okpuru ọdụ ụgbọ mmiri. Iwu nchekwa data izugbe.\n\n**India — DPDP Act 2023 ***: N'ikwekọ na iwu nchekwa data nkeonwe dijitalụ nke India 2023, anyị na-ahazi data nkeonwe naanị maka ebumnuche inye ọrụ enyemaka ngwa ọrụ. Ị nwere ike ịwepụ nkwenye wee rịọ ka ihichapụ data gị n'oge ọ bụla site na ịkpọtụrụ anyị.\n\n**California - CCPA**: Ndị bi na California nwere ikike ịma ihe anakọtara ozi nkeonwe, ikike ihichapụ, yana ikike ịpụ arịre (anyị anaghị ere). data).\n\n---\n\n**6. Ndokwa data**\nNL_73__A na-edobe data mpaghara ruo mgbe i jiri aka kpochapụ ya. A na-edobe data emekọrịtara n'igwe ojii ruo mgbe ihichapụ akaụntụ gị ma ọ bụ rịọ ka ihichapụ ya. Anyị anaghị ehichapụ data ozugbo.\n\n---\n\n**7. Nchekwa **\nNL_79__Anyị na-ewere usoro teknụzụ ezi uche dị na ya iji chebe data gị:\n• Nkwukọrịta igwe ojii niile na-eji HTTPS/TLS encryption\n• Supabase Row-Level Security (RLS) na-eme ka ndị ọrụ nwee ike ịnweta data nke ha naanị\n• ndọtị anaghị arịọ ikike karịa ihe achọrọ ya. ọrụ\n\n---\n\n**8. Ebubeghi nzuzo ụmụaka**\n\nApplyFlow abụghị maka ndị ọrụ na-erubeghị afọ 13. Anyị anaghị ama ụma na-anakọta data n'aka ụmụaka. Ọ bụrụ na ị kwenyere na nwatakịrị enyela anyị ozi nkeonwe, biko kpọtụrụ anyị ozugbo.\n\n--\n\n**9. Mgbanwe na amụma a**\n\nAnyị nwere ike imelite amụma nzuzo a site n'oge ruo n'oge. A ga-ezitere mgbanwe ndị dị mkpa site na ibe Nhọrọ ndọtị. Iji ndọtị a na-aga n'ihu ka emechara mgbanwe bụ nnabata nke iwu emelitere.\n\n--\n\n**10. Kpọtụrụ anyị**\nNL_100__Maka ajụjụ ọ bụla metụtara nzuzo, arịrịọ ihichapụ data, ma ọ bụ nchegbu:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/siteL https://applyflow.in\n\nAnyị bu n'obi ịza arịrịọ niile n'ime ụbọchị 30.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

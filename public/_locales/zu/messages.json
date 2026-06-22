@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Kutholiwe",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Alikho ikhasi lomsebenzi elitholiwe",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ izicelo zilandelelwa · $2$ izingxoxo",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Qala ukufaka isicelo ukuze ulandelele ukuqhubeka kwakho",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Kuhlaziywe ngo-$1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Layisha imininingwane yephrofayela kusuka ku-\"$1$\"? Lokhu kuzomiselela ukuhlela kwakho kwamanje ngesakhiwo esincozululiwe salokhu kuqhuba.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Imininingwane ebuyiselwe evela ku-$1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Isilinganiso Sokufanisa",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ okuningi",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Uhlelo lokusebenza lugcwaliswe ngokuzenzakalelayo futhi lungeniwe! ✨",
@@ -261,11 +299,21 @@
   },
   "entries_count": {
     "message": "$1$ okufakiwe",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ amakhono",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "_P_0__ amaphrojekthi",
@@ -601,7 +649,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ izinhlelo zokusebenza",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Hlunga ngenkampani...",
@@ -633,7 +686,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ inani lezicelo",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Ayikho idatha okwamanje",
@@ -681,7 +739,12 @@
   },
   "context_label": {
     "message": "Umongo: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "I-career copilot yakho",
@@ -741,11 +804,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Nansi imibuzo $1$ okungenzeka ibe yinhlolokhono:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Qalisa kabusha isikolo sokuthuthukisa: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Qalisa kabusha Iziphakamiso Zokufanisa",
@@ -761,11 +834,24 @@
   },
   "job_details_detected_intro": {
     "message": "Sawubona! Ngiyabona ukuthi ubheka indima **$1$** kokuthi **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Sawubona! Ngiyabona ukuthi ubheke indima **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Sawubona! Ngingumsizi wakho we-AI. Zulazulela ohlwini lwemisebenzi futhi ngizoluhlaziya ngokuzenzekelayo, noma ngibuze noma yini!",
@@ -833,7 +919,12 @@
   },
   "logged_in_as": {
     "message": "Ungene njengo-$1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Phuma",
@@ -889,11 +980,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Ukuqhubeka kwakho **$1$% kuyahambisana** nale ndima.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Siyakwamukela futhi, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Yehlulekile ukulanda imininingwane yephrofayela yomsebenzisi we-Google.",
@@ -901,7 +1002,12 @@
   },
   "oauth_login_failed": {
     "message": "Ukungena ngemvume kwe-OAuth kuhlulekile: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Yehlulekile ukulanda ithokheni yokufinyelela ekuqondisweni kabusha.",
@@ -1209,7 +1315,12 @@
   },
   "premium_active_desc": {
     "message": "Ukhiye welayisensi: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Vala ilayisensi",
@@ -1549,10 +1660,27 @@
   },
   "shortcut_note_desc": {
     "message": "Imiyalo yesandiso se-Chrome idinga umsebenzi owenziwa ngesandla kusiphathi sesinqamuleli se-Chrome. Hamba ku-$1$ ukuze ubophe okhiye abasohlwini olungenhla.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**I-ApplyFlow Chrome Extension — Inqubomgomo Yobumfihlo**\nIgcine ukubuyekezwa: Juni 2026\nNL_2__---\nNL_4__**1. Isingeniso**\nNL_6__I-ApplyFlow (\"thina\", \"yethu\", \"Isandiso\") isandiso sesiphequluli se-Chrome esiza abasebenzisi ukuthi bagcwalise ngokuzenzakalelayo amafomu ezicelo zomsebenzi, balandelele izinhlelo zabo zokusebenza, futhi baphathe amaphrofayela abo ochwepheshe. Le Nqubomgomo Yobumfihlo ichaza ukuthi siluqoqa, silusebenzisa, silugcina kanjani futhi sivikela kanjani ulwazi lwakho.\nNL_8__Ngokufaka nokusebenzisa i-ApplyFlow, uyavumelana nezinqubo ezichazwe kule nqubomgomo.\nNL_10__--_\nNL_12__**2. Idatha Esiyiqoqayo**\nNL_14__Siqoqa kuphela ulwazi olunikeza ngokuzithandela ukuze unike amandla izici zesandiso:\nNL_16__• **Ulwazi Lwephrofayela**: Igama lakho, i-imeyili, inombolo yocingo, ikolishi, iziqu, amakhono, umlando womsebenzi, amaphrojekthi, nezixhumanisi zobungcweti (Hunked_7_) **I-EEO/Ulwazi Lokubalwa Kwendawo (Ongakukhetha)**: Ubulili, isimo sokukhubazeka, isimo somakadebona, nokuncanyelwayo kokugunyazwa komsebenzi — kunikezwa kuphela uma ukhetha ukugcwalisa lezi zindawo. Le datha isetshenziswa ngokukhethekile ukugcwalisa ngokuzenzakalelayo uhlu lwemibuzo lwe-EEO ezicelweni zomsebenzi.\n• **Idatha Yokulandelela Isicelo**: Isihloko somsebenzi, inkampani, i-URL yohlelo lokusebenza, isimo, namanothi ezikhundla ozilandelelayo usebenzisa isandiso.\n• **Izibalo Zokusetshenziswa**: Inombolo yemisebenzi yansuku zonke yokugcwalisa ngokuzenzakalelayo ukuze kwenziwe imikhawulo).\n• **Idatha Yokuqinisekisa**: Uma ukhetha ukungena ngemvume nge-Google, sigcina igama lakho lesibonisi le-Google, ikheli le-imeyili, ne-URL yesithombe sephrofayela ukuze senze okuhlangenwe nakho kwakho kube ngokwakho futhi unike amandla ukuvumelanisa kwamafu.\nNL_22__***asiqoqi:\n_Umlando wokukhokha noma weN_2 wezezimali ovamile •_2Iphequlula_2 umsebenzi\n• Noma yiluphi ulwazi oluvela emakhasini angahlobene nesicelo somsebenzi\n• Noma iyiphi idatha evela emakhasini uma isandiso singacushiwe\n\n---\nNL_30__**3. Siyigcina Kanjani Idatha Yakho**\nNL_32__**3.1 Isitoreji Sendawo (Okuzenzakalelayo)**\nYonke idatha igcinwa ngokuyinhloko ku-Chrome.storage.local API yesiphequluli sakho. Le datha ihlala kudivayisi yakho kuphela futhi ayilokothi idluliselwe kunoma iyiphi iseva ngaphandle kwesenzo sakho esisobala.\n\n**3.2 Ukuvumelanisa Kwamafu (Ngokuzithandela)**\nUma ukhetha ukungena ngemvume nge-Google futhi unike amandla isici se-\"Supabase Sync\", iphrofayela yakho nedatha yohlelo lokusebenza izophinde ihambisane ne-Supabase. Ugcina ubunikazi obugcwele bale datha. Ungayisusa noma nini esigabeni se-Akhawunti Nokuvumelanisa.\nNL_38__**3.3 Izicelo ze-Gemini AI**\nLapho kusetshenziswa izici ze-AI (isb., ukukhiqizwa kwe-eseyi, ukuhlaziya umsebenzi), izingxenye zephrofayela yakho (amakhono, iziqu, isifinyezo) kanye nombhalo wencazelo yomsebenzi i-Gemini ithunyelwa ku-Google API. Lokhu kucutshungulwa ngaphansi Kwemigomo Yesevisi ye-API ejwayelekile ye-Google kanye Nenqubomgomo Yobumfihlo. Sincoma ukuthi ungafaki izihlonzi zomuntu siqu ezibucayi kokuqukethwe kwakho okusizwa yi-AI.\nNL_41__---\nNL_43__**4. Ukwabelana Ngedatha**\nNL_45__**asithengisi, asidayisi, siqashisa, noma sabelane ngemininingwane yakho siqu nanoma yiziphi izinkampani zangaphandle ngenjongo yokuthengisa noma yokukhangisa.\nNL_47__Idatha yakho ingase icutshungulwe yilezi zinsizakalo ezithenjiwe ezilandelayo:\n• Ifomu lokuhlaziya le-Google: Ukuhlaziywa kwe-Google (https://policies.google.com/privacy)\n• **Google OAuth**: Ukuqinisekisa i-akhawunti (https://policies.google.com/privacy)\n• **Supabase**: Ngesitoreji samafu ozikhethela (https://supabase.com/privacy) — kuphela uma unika amandla vumelanisa\nNL_52__---\nNL_54__**5. Amalungelo Akho Nokulawula**\nNL_56__Unelungelo:\n• **Ukufinyelela** yonke idatha egcinwe yi-ApplyFlow emayelana nawe (nge-Export Backup kuzilungiselelo)\n• **Lungisa** imininingwane yakho nganoma isiphi isikhathi kuthebhu Yephrofayela___•Susa yonke imininingwane yasendaweni**Susa yonke imininingwane yakho* Idatha\" kuzilungiselelo\n• **Hoxisa imvume** nganoma isiphi isikhathi ngokukhipha isandiso\n• **Khubaza ukuvumelanisa kwamafu** ngokuyicisha kokuthi Izilungiselelo ze-Akhawunti Nokuvumelanisa\nNL_63__**GDPR (Abasebenzisi be-EU)**: Uma unamalungelo okufinyelela e-EU, nciphisa ukufinyelela kwe-EU ukucubungula, nokuphatheka kwedatha ngaphansi kwe-General Data Protection Regulation.\nNL_65__**India — DPDP Act 2023**: Ngokuthobelana Nomthetho Wokuvikelwa Kwedatha Yabantu Yedijithali wase-India 2023, sicubungula idatha yomuntu siqu kuphela ngenjongo yokuhlinzeka ngesevisi yosizo lwesicelo somsebenzi. Ungahoxisa imvume futhi ucele ukususwa kwedatha yakho noma nini ngokusithinta.\nNL_67__**California — CCPA**: Izakhamuzi zaseCalifornia zinelungelo lokwazi ukuthi yiluphi ulwazi lomuntu siqu oluqoqiwe, ilungelo lokususa, kanye nelungelo lokuphuma ekudayiseni (asithengisi idatha).\nNL_69__---\nNL_71__**6. Ukugcinwa Kwedatha**\n\nIdatha yasendaweni iyagcinwa uze uyisule mathupha. Idatha evunyelaniswe ngamafu iyagcinwa uze usule i-akhawunti yakho noma ucele ukususwa. Asiyisusi idatha ngokuzenzakalelayo.\nNL_75__---\nNL_77__**7. Ukuvikeleka**\nNL_79__Sithatha izinyathelo zobuchwepheshe eziphusile ukuze sivikele idatha yakho:\n• Konke ukuxhumana kwamafu kusebenzisa ukubethela kwe-HTTPS/TLS\n• I-Supabase Row-Level Security (RLS) iqinisekisa ukuthi abasebenzisi bangakwazi ukufinyelela kuphela idatha yabo siqu engadingeki ngaphandle kwedatha yabo siqu\n• umsebenzi\nNL_84__---\nNL_86__**8. Ubumfihlo Bezingane**\n\nI-ApplyFlow ayihloselwe abasebenzisi abangaphansi kweminyaka engu-13. Asiqoqi ngamabomu idatha ezinganeni. Uma ukholelwa ukuthi ingane isinikeze ulwazi lomuntu siqu, sicela usithinte ngokushesha.\nNL_90__---\nNL_92__**9. Izinguquko Kule Nqubomgomo**\n\nSingase sibuyekeze le Nqubomgomo Yobumfihlo ngezikhathi ezithile. Izinguquko ezinkulu zizokwaziswa ngekhasi lezinketho lesandiso. Ukusetshenziswa okuqhubekayo kwesandiso ngemva kwezinguquko kuhlanganisa ukwamukela inqubomgomo ebuyekeziwe.\nNL_96__---_\nNL_98__**10. Xhumana nathi**\nNL_100__Nganoma yimiphi imibuzo ehlobene nobumfihlo, izicelo zokususwa kwedatha, noma izinto ezikukhathazayo:\nNL_102__I-imeyili: privacy@applyflow.in\nGitHub: https://github.com_site_site0_L/applyNL/ https://applyflow.in\nNL_106__Sihlose ukuphendula zonke izicelo zingakapheli izinsuku ezingu-30.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

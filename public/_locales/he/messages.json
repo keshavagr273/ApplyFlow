@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ זוהה",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "לא זוהה דף עבודה",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ יישומים במעקב · $2$ ראיונות",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "התחל להגיש בקשה כדי לעקוב אחר ההתקדמות שלך",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "מנותח ב-$1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "האם לטעון את פרטי הפרופיל מ-\"$1$\"? זה יחליף את העריכות הנוכחיות שלך במבנה המנתח של קורות החיים האלה.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "פרטים משוחזרים מ-$1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "ציון התאמה",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ התאמה",
-    "description": "Fit percent text"
+    "message": "$1$% התאמה",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ נוספים",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "יישום מילוי אוטומטי ונרשם! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ערכים",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ כישורים",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ פרויקטים",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ תשובות",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "מורשה",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ יישומים",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "סנן לפי חברה...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ סך כל יישומים",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "עדיין אין נתונים",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "הקשר: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "טייס המשנה שלך בקריירה",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "הנה $1$ שאלות סבירות לראיון:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "המשך ציון אופטימיזציה: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "הצעות להמשך התאמה",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "היי! אני יכול לראות שאתה מסתכל על תפקיד **$1$** ב-**$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "היי! אני יכול לראות שאתה מסתכל על תפקיד **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "היי! אני טייס המשנה שלך בקריירה של AI. נווט לרשימת משרות ואני אנתח אותה אוטומטית, או אשאל אותי כל דבר!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "מחובר בתור $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "צא",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "קורות החיים שלך תואמים **$1$%** לתפקיד זה.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "ברוך שובך, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "אחזור פרטי פרופיל המשתמש של Google נכשל.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "התחברות OAuth נכשלה: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "שליפת אסימון הגישה מההפניה מחדש נכשלה.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "מפתח רישיון: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "השבת את הרישיון",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "פקודות תוסף Chrome דורשות הקצאה ידנית במנהל הקיצורים של Chrome. עבור אל $1$ כדי לאגד את המפתחות הרשומים למעלה.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — מדיניות פרטיות**\nעדכון אחרון: יוני 2026\n\n---\n\n**1. הקדמה**\n\nApplyFlow (\"אנחנו\", \"שלנו\", \"הרחבה\") היא תוסף לדפדפן Chrome המסייע למשתמשים למלא אוטומטית טפסי מועמדות לעבודה, לעקוב אחר הבקשות שלהם ולנהל את הפרופיל המקצועי שלהם. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים, מאחסנים ומגנים על המידע שלך.\n\nעל ידי התקנה ושימוש ב-ApplyFlow, אתה מסכים לנוהלים המתוארים במדיניות זו.\n\n---\n\n**2. נתונים שאנו אוספים**\n\nאנו אוספים רק את המידע שאתה מספק מרצונך כדי לאפשר את תכונות התוסף:\n\n• **פרטי פרופיל**: שמך, דוא\"ל, מספר טלפון, מכללה, תואר, כישורים, היסטוריית עבודה, פרויקטים וקישורים מקצועיים (LinkedIn, GitHub, Portfolio **_1__Degraphic).•NL (אופציונלי)**: העדפות מגדר, סטטוס נכות, סטטוס ותיק והרשאות עבודה - מסופקות רק אם תבחר למלא שדות אלה. נתונים אלה משמשים אך ורק למילוי אוטומטי של שאלוני EEO אופציונליים על הגשת מועמדות לעבודה.\n• **נתוני מעקב אחר מועמדות**: שם תפקיד, חברה, כתובת אפליקציה, סטטוס והערות עבור משרות שאחריהן עוקבים באמצעות התוסף.\n• **סטטיסטיקות שימוש**: מספר פעולות המילוי האוטומטי שבוצעו (מאוחסנים באופן מקומי כדי לאכוף מגבלות יומיות:**NLAuthentic:__•____). בוחרים להיכנס עם Google, אנו מאחסנים את שם התצוגה, כתובת האימייל וכתובת ה-URL של תמונת הפרופיל שלך כדי להתאים אישית את החוויה שלך ולאפשר סנכרון בענן.\n\nאנחנו **לא** אוספים:\n• מידע על תשלום או פיננסי\n• היסטוריית דפדפן או פעילות גלישה כללית\n• כל מידע מעמודי עבודה-__NL, כל מידע מהדפים-__NL הקשורים לדף העבודה-2 ההרחבה אינה מופעלת באופן פעיל\n\n---\n\n**3. כיצד אנו מאחסנים את הנתונים שלך**\n\n**3.1 אחסון מקומי (ברירת מחדל)**\nכל הנתונים מאוחסנים בעיקר ב-chrome.storage.local API של הדפדפן שלך. נתונים אלה נמצאים רק במכשיר שלך ולעולם לא מועברים לשרת כלשהו ללא פעולה מפורשת שלך.\n\n**3.2 Cloud Sync (אופציונלי)**\nאם תבחר להיכנס עם Google ולהפעיל את התכונה \"Supabase Sync\", נתוני הפרופיל והאפליקציה שלך יסונכרנו גם למסד נתונים של Supabase. אתה שומר בעלות מלאה על נתונים אלה. אתה יכול למחוק אותו בכל עת מהקטע 'חשבון וסנכרון'.\n\n**3.3 בקשות בינה מלאכותית של Gemini**\nכאשר נעשה שימוש בתכונות בינה מלאכותית (למשל, הפקת חיבורים, ניתוח עבודה), חלקים מהפרופיל שלך (מיומנויות, תואר, סיכום) וטקסט תיאור התפקיד נשלחים אל ה-API של התגובה של Google. זה מעובד תחת התנאים וההגבלות הסטנדרטיים של API ומדיניות הפרטיות של Google. אנו ממליצים לא לכלול מזהים אישיים רגישים בתוכן הנעזר ב-AI שלך.\n\n---\n\n**4. שיתוף נתונים**\n\nאנחנו **לא** מוכרים, סוחרים, משכירים או משתפים את המידע האישי שלך עם צדדים שלישיים כלשהם למטרות שיווק או פרסום.\n\nייתכן שהנתונים שלך יעובדו על ידי השירותים המהימנים הבאים:\n• **Google Gemini API**: למילוי טפסים וניתוח מבוסס AI (https://policies.google.com/privacy)\n• **Google OAuth**: לאימות חשבון (https://policies.google.com/privacy)\n• **Supabase**: לאחסון ענן אופציונלי (https://supabase.com/privacy) - רק אם תפעילו סינכרון\n\n---\n\n**5. הזכויות והבקרות שלך**\n\nיש לך הזכות:\n• **לגשת** לכל הנתונים ש-ApplyFlow מאחסנת אודותיך (דרך ייצוא גיבוי בהגדרות)\n• **לתקן** את המידע שלך בכל עת בלשונית הפרופיל\n• **מחיקת כל הנתונים** בהגדרות של כל הנתונים**_NL_0 **בטל את ההסכמה** בכל עת על ידי הסרת ההתקנה של התוסף\n• **השבת סנכרון בענן** על ידי כיבויו בהגדרות חשבון וסנכרון\n\n**GDPR (משתמשי האיחוד האירופי)**: אם אתה תושב האיחוד האירופי, יש לך את הזכויות לגשת, לתקן, למחוק, להגביל את עיבוד הנתונים הכלליים והעברת הנתונים תקנה.\n\n**הודו - DPDP Act 2023**: בהתאם לחוק הגנת המידע האישי הדיגיטלי של הודו 2023, אנו מעבדים נתונים אישיים רק לצורך מתן שירות הסיוע להגשת מועמדות לעבודה. אתה יכול לבטל את הסכמתך ולבקש מחיקת הנתונים שלך בכל עת על ידי יצירת קשר איתנו.\n\n**קליפורניה — CCPA**: לתושבי קליפורניה יש את הזכות לדעת איזה מידע אישי נאסף, הזכות למחוק, והזכות לבטל את המכירה (איננו מוכרים נתונים).\n**-__NL_7_7.\n**-__NL_7. שמירת נתונים**\n\nנתונים מקומיים נשמרים עד שתנקה אותם באופן ידני. נתונים מסונכרנים בענן נשמרים עד שתמחק את חשבונך או תבקש מחיקה. אנחנו לא מוחקים נתונים באופן אוטומטי.\n\n---\n\n**7. אבטחה**\n\nאנו נוקטים באמצעים טכניים סבירים כדי להגן על הנתונים שלך:\n• כל התקשורת בענן משתמשת בהצפנת HTTPS/TLS\n• Supabase Row-Level Security (RLS) מבטיחה שמשתמשים יכולים לגשת רק לנתונים שלהם \n• התוסף אינו מבקש הרשאות מעבר למה שנדרש עבור הליבה שלו function\n\n---\n\n**8. פרטיות ילדים**\n\nApplyFlow אינה מיועדת למשתמשים מתחת לגיל 13. איננו אוספים ביודעין נתונים מילדים. אם אתה מאמין שילד סיפק לנו מידע אישי, אנא פנה אלינו מיד.\n\n---\n\n**9. שינויים במדיניות זו**\n\nאנו עשויים לעדכן את מדיניות הפרטיות הזו מעת לעת. שינויים משמעותיים יימסרו דרך דף האפשרויות של התוסף. המשך השימוש בתוסף לאחר שינויים מהווה הסכמה למדיניות המעודכנת.\n\n---\n\n**10. צור איתנו קשר**\n\nלכל שאלה הקשורה לפרטיות, בקשות למחיקת נתונים או חשש:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n1. שואפים להגיב לכל הבקשות תוך 30 יום.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

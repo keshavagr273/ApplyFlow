@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Aptikta",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Jokio darbo puslapio neaptikta",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ stebimos paraiškos · $2$ interviu",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Pradėkite teikti paraiškas, kad galėtumėte stebėti savo pažangą",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Išnagrinėta $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Įkelti profilio informaciją iš „$1$“? Tai pakeis dabartinius pakeitimus šio gyvenimo aprašymo išanalizuota struktūra.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Atkurta informacija iš $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Rungtynių rezultatas",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Tinka",
-    "description": "Fit percent text"
+    "message": "$1$% Tinka",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ daugiau",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Paraiška automatiškai užpildyta ir užregistruota! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ įrašų",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ įgūdžius",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projektai",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ atsakymai",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Įgaliotas",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ programos",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtruoti pagal įmonę...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ iš viso paraiškų",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Dar nėra duomenų",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Kontekstas: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Jūsų karjeros antrasis pilotas",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Čia yra $1$ galimi interviu klausimai:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Tęsti optimizavimo balą: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Tęsti atitikties pasiūlymus",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Sveiki! Matau, kad žiūrite į **$1$** vaidmenį **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Sveiki! Matau, kad žiūrite į **$1$** vaidmenį.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Sveiki! Aš esu jūsų dirbtinio intelekto karjeros antrasis pilotas. Eikite į darbo sąrašą ir aš automatiškai jį išanalizuosiu arba paklausiu bet ko!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Prisijungęs kaip $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Atsijungti",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Jūsų gyvenimo aprašymas **$1$% suderinamas** su šiuo vaidmeniu.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Sveiki sugrįžę, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nepavyko gauti „Google“ naudotojo profilio informacijos.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Nepavyko prisijungti prie „OAuth“: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Nepavyko gauti prieigos prieigos rakto iš peradresavimo.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Licencijos raktas: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Išjungti licenciją",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "„Chrome“ plėtinių komandoms reikia rankiniu būdu priskirti „Chrome“ sparčiųjų klavišų tvarkytuvę. Eikite į $1$, kad susietumėte aukščiau išvardytus raktus.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**„ApplyFlow Chrome“ plėtinys – privatumo politika**\nPaskutinį kartą atnaujinta: 2026 m. birželio mėn.\n\n---\n\n**1. Įvadas**\n\nApplyFlow („mes“, „mūsų“, „Plėtinys“) yra „Chrome“ naršyklės plėtinys, padedantis naudotojams automatiškai užpildyti darbo prašymų formas, stebėti jų paraiškas ir tvarkyti savo profesinį profilį. Šioje privatumo politikoje paaiškinama, kaip renkame, naudojame, saugome ir saugome jūsų informaciją.\n\nĮdiegdami ir naudodami „ApplyFlow“ sutinkate su šioje politikoje aprašyta praktika.\n\n---\n__NL_12_**2. Mes renkame duomenis**\n\nRenkame tik informaciją, kurią savanoriškai pateikiate, kad įgalintumėte plėtinio funkcijas:\n\n• **Profilio informacija**: jūsų vardas, el. pašto adresas, telefono numeris, kolegija, laipsnis, įgūdžiai, darbo istorija, projektai ir profesionalios nuorodos, GitH Portfelis).\n• **EEO / demografinė informacija (neprivaloma)**: lytis, neįgalumo būsena, veterano būsena ir darbo leidimo nuostatos – pateikiamos tik tuo atveju, jei pasirenkate užpildyti šiuos laukus. Šie duomenys naudojami tik norint automatiškai užpildyti pasirenkamas EEO klausimynas dėl darbo paraiškų.\n• **Paraiškos stebėjimo duomenys**: pareigų pavadinimas, įmonė, paraiškos URL, būsena ir pastabos apie pareigas, kurias stebite naudodami plėtinį.\n• **Naudojimo statistika**: automatinio pildymo operacijų skaičius, atliktas (saugoma_ kasdien _ _ 0 _ vietiškai). **Autentifikavimo duomenys**: jei pasirinksite prisijungti naudodami „Google“, išsaugome jūsų „Google“ rodomą vardą, el. pašto adresą ir profilio nuotraukos URL, kad suasmenintume jūsų patirtį ir įgalintume sinchronizavimą debesyje.\n\n**Nerenkame**:\n• Mokėjimų arba finansinės informacijos______ arba bendrosios eilučių informacijos\n• N iš puslapių, kurie nėra susiję su darbo paraiška\n• Bet kokie duomenys iš puslapių, kai plėtinys nėra aktyviai suaktyvintas\n\n---\n\n**3. Kaip saugome jūsų duomenis**\n\n**3.1 Vietinė saugykla (numatytasis)**\nVisi duomenys pirmiausia saugomi jūsų naršyklės chrome.storage.local API. Šie duomenys yra tik jūsų įrenginyje ir niekada nepersiunčiami į jokį serverį be jūsų aiškaus veiksmo.\n\n**3.2 Sinchronizavimas debesyje (pasirenkamas)**\nJei pasirinksite prisijungti naudodami „Google“ ir įgalinsite funkciją „Supabase Sync“, jūsų profilis ir programos duomenys taip pat bus sinchronizuojami duomenų bazėje. Jūs išlaikote visišką šių duomenų nuosavybės teisę. Jį galite bet kada ištrinti paskyros ir sinchronizavimo skiltyje.\n\n**3.3 Gemini AI užklausos**\nKai naudojamos dirbtinio intelekto funkcijos (pvz., rašinių generavimas, darbo analizė), jūsų profilio dalys (įgūdžiai, laipsnis, santrauka) siunčiami API, o atsakymo į „Google“ generavimas yra Dvyniai. Tai apdorojama pagal standartines „Google“ API paslaugų teikimo sąlygas ir privatumo politiką. Rekomenduojame į AI padedamą turinį neįtraukti jautrių asmens identifikatorių.\n\n---\n\n**4. Dalijimasis duomenimis**\n\nMes **ne** neparduodame, neprekiaujame, neišnuomojame ir nesidaliname jūsų asmeninės informacijos su jokiomis trečiosiomis šalimis rinkodaros ar reklamos tikslais.\n\nJūsų duomenys gali būti tvarkomi naudojant šias patikimas paslaugas:\n• * Forma, skirta „Google AI-Analytics“ (https://policies.google.com/privacy)\n• **Google OAuth**: paskyros autentifikavimui (https://policies.google.com/privacy)\n• **Supabase**: pasirenkamai saugyklai debesyje (https://supabase.com/privacy) – tik jei įgalinate sinchronizavimas\n\n---\n\n**5. Jūsų teisės ir kontrolė**\n\nTurite teisę:\n• **Prieiti** prie visų „ApplyFlow“ saugomų duomenų apie jus (nustatymuose naudodama Eksportuoti atsarginę kopiją)\n• **Pataisyti** bet kuriuo metu savo informaciją profilio skirtuke** _ L ** • vietiškai ištrinti visus_ N duomenis _59_ „Išvalyti visus profilio duomenis“ nustatymuose\n• **Atšaukti sutikimą** bet kuriuo metu pašalinus plėtinį\n• **Išjungti sinchronizavimą debesyje** išjungus jį Paskyros ir sinchronizavimo nustatymuose\n\n****Pakartotinai patvirtinti ES teisę: Jei esate ES naudotojai, turite teisę į BDAR. ištrinti, apriboti duomenų apdorojimą ir perkeliamumą pagal Bendrąjį duomenų apsaugos reglamentą.\n\n**Indija – 2023 m. DPDP įstatymas**: laikydamiesi 2023 m. Indijos skaitmeninių asmens duomenų apsaugos akto, asmens duomenis tvarkome tik siekdami teikti pagalbos paraiškų teikimo į darbą paslaugą. Galite bet kada atšaukti sutikimą ir prašyti ištrinti savo duomenis susisiekę su mumis.\n\n**Kalifornija – CCPA**: Kalifornijos gyventojai turi teisę žinoti, kokia asmeninė informacija renkama, teisę ištrinti ir atsisakyti pardavimo (mes neparduodame). duomenys).\n\n---\n\n**6. Duomenų saugojimas**\n\nVietiniai duomenys saugomi tol, kol juos išvalysite rankiniu būdu. Debesyje sinchronizuoti duomenys saugomi tol, kol ištrinate paskyrą arba nepateikiate prašymo ištrinti. Duomenų automatiškai neištriname.\n\n---\n\n**7. Sauga**\n\nMes imamės pagrįstų techninių priemonių, kad apsaugotume jūsų duomenis:\n• Visuose debesies ryšiuose naudojamas HTTPS/TLS šifravimas\n• Supabase Row-Level Security (RLS) užtikrina, kad vartotojai gali pasiekti tik savo duomenis už jos ribų__NL_82_ funkcija\n\n---\n\n**8. Vaikų privatumas**\n\nApplyFlow nėra skirta jaunesniems nei 13 metų vartotojams. Sąmoningai nerenkame duomenų iš vaikų. Jei manote, kad vaikas mums pateikė asmeninės informacijos, nedelsdami susisiekite su mumis.\n\n---\n\n**9. Šios politikos pakeitimai**\n\nKartkartėmis galime atnaujinti šią privatumo politiką. Apie reikšmingus pakeitimus bus pranešta plėtinio puslapyje Parinktys. Toliau naudojant plėtinį po pakeitimų sutinkama su atnaujinta politika.\n\n---\n\n**10. Susisiekite su mumis**\n\nJei turite klausimų, susijusių su privatumu, duomenų ištrynimo užklausų ar rūpesčių:\n\nEl. paštas: privacy@applyflow.in\nGitHub: https://github_flow/Lb10:apply_Web_ https://applyflow.in\n\nSiekiame atsakyti į visas užklausas per 30 dienų.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

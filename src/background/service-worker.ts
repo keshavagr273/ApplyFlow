@@ -132,8 +132,14 @@ chrome.webNavigation.onCompleted.addListener(async (details) => {
 let isSidePanelOpen = false;
 
 chrome.runtime.onMessage.addListener((
-  message: { type: string; payload?: any; message?: string }
+  message: { type: string; payload?: any; message?: string },
+  sender,
+  sendResponse
 ) => {
+  // SECURITY: Only accept messages from this extension itself.
+  // Reject messages from web pages or other extensions.
+  if (sender.id !== chrome.runtime.id) return;
+
   if (message.type === 'OPEN_OPTIONS') {
     chrome.tabs.create({ url: chrome.runtime.getURL('options.html#billing') });
     return true;
@@ -279,45 +285,45 @@ chrome.runtime.onMessage.addListener((
 
   // ── ATS_FILL (run atsFiller directly on page) ──
   if (message.type === 'ATS_FILL') {
-    console.log('[ApplyFlow SW] Received ATS_FILL message with payload:', message.payload);
+    if (import.meta.env.DEV) console.log('[ApplyFlow SW] Received ATS_FILL message');
     const { profile, pendingApp } = message.payload;
     chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
-      console.log('[ApplyFlow SW] Query active lastFocusedWindow tabs:', tabs);
+      if (import.meta.env.DEV) console.log('[ApplyFlow SW] Query active lastFocusedWindow tabs count:', tabs?.length);
       const handleTab = (tab: chrome.tabs.Tab) => {
         const tabId = tab?.id;
         if (!tabId) {
-          console.warn('[ApplyFlow SW] No tab ID found for active tab:', tab);
+          console.warn('[ApplyFlow SW] No tab ID found for active tab');
           return;
         }
 
         if (pendingApp) {
-          console.log('[ApplyFlow SW] Setting pending application for tab:', tabId, pendingApp);
+          if (import.meta.env.DEV) console.log('[ApplyFlow SW] Setting pending application for tab:', tabId);
           pendingApplications.set(tabId, pendingApp);
         }
 
         // Store pending fill context
         pendingAtsFills.set(tabId, profile);
 
-        console.log('[ApplyFlow SW] Injecting atsFillerScript onto tab:', tabId);
+        if (import.meta.env.DEV) console.log('[ApplyFlow SW] Injecting atsFillerScript onto tab:', tabId);
         chrome.scripting.executeScript({
           target: { tabId },
           files: [atsFillerScript]
         }).then(() => {
-          console.log('[ApplyFlow SW] Injected atsFillerScript successfully. Sending DO_ATS_FILL message...');
+          if (import.meta.env.DEV) console.log('[ApplyFlow SW] Injected atsFillerScript successfully. Sending DO_ATS_FILL...');
           // Try sending immediately for tabs where the script is already loaded and listening
           chrome.tabs.sendMessage(tabId, { type: 'DO_ATS_FILL', payload: { profile } })
             .catch((err) => {
-              console.log('[ApplyFlow SW] Immediate send failed (expected if not loaded yet):', err.message);
+              if (import.meta.env.DEV) console.log('[ApplyFlow SW] Immediate send failed (expected if not loaded yet):', err.message);
             });
         }).catch((err) => {
-          console.error('[ApplyFlow SW] ATS fill inject error:', err, atsFillerScript);
+          console.error('[ApplyFlow SW] ATS fill inject error:', err);
         });
       };
 
       if (!tabs || tabs.length === 0) {
-        console.log('[ApplyFlow SW] lastFocusedWindow query returned nothing. Retrying query with currentWindow: true...');
+        if (import.meta.env.DEV) console.log('[ApplyFlow SW] lastFocusedWindow query returned nothing. Retrying with currentWindow: true...');
         chrome.tabs.query({ active: true, currentWindow: true }, (fallbackTabs) => {
-          console.log('[ApplyFlow SW] Query active currentWindow tabs:', fallbackTabs);
+          if (import.meta.env.DEV) console.log('[ApplyFlow SW] Query active currentWindow tabs count:', fallbackTabs?.length);
           if (fallbackTabs?.[0]) handleTab(fallbackTabs[0]);
         });
       } else {
@@ -335,7 +341,7 @@ chrome.runtime.onMessage.addListener((
         if (tabId && pendingAtsFills.has(tabId)) {
           const profile = pendingAtsFills.get(tabId);
           pendingAtsFills.delete(tabId);
-          console.log('[ApplyFlow SW] ATS_FILLER_READY received. Sending pending profile to tab:', tabId);
+          if (import.meta.env.DEV) console.log('[ApplyFlow SW] ATS_FILLER_READY received. Sending pending profile to tab:', tabId);
           chrome.tabs.sendMessage(tabId, { type: 'DO_ATS_FILL', payload: { profile } })
             .catch((err) => console.error('[ApplyFlow SW] Error sending DO_ATS_FILL to ready filler:', err));
         }
@@ -373,6 +379,48 @@ chrome.runtime.onMessage.addListener((
     const { appId, remindAt } = message.payload;
     const delayInMinutes = Math.max(1, Math.round((remindAt - Date.now()) / 60000));
     chrome.alarms.create(`reminder-${appId}`, { delayInMinutes });
+    return true;
+  }
+
+  // ── ANALYZE_JOB (proxy Gemini call from overlay — key stays in SW) ──
+  // SECURITY: The overlay routes its Gemini fetch here so the API key never
+  // appears in the content-script network tab visible to the page's DevTools.
+  if (message.type === 'ANALYZE_JOB') {
+    const { prompt, apiKey } = message.payload;
+    if (!apiKey) {
+      sendResponse({ error: 'no_api_key' });
+      return false;
+    }
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    fetch(geminiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: 'application/json' }
+      })
+    }).then(async (response) => {
+      if (!response.ok) {
+        sendResponse({ error: response.status });
+        chrome.runtime.sendMessage({ type: 'ANALYZE_JOB_RESULT', error: response.status }).catch(() => {});
+        return;
+      }
+      const data = await response.json();
+      let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+      try {
+        const parsed = JSON.parse(rawText);
+        sendResponse(parsed);
+        chrome.runtime.sendMessage({ type: 'ANALYZE_JOB_RESULT', payload: parsed }).catch(() => {});
+      } catch {
+        sendResponse({ error: 'parse_error' });
+        chrome.runtime.sendMessage({ type: 'ANALYZE_JOB_RESULT', error: 'parse_error' }).catch(() => {});
+      }
+    }).catch((err) => {
+      console.error('[ApplyFlow SW] Gemini proxy error:', err);
+      sendResponse({ error: 'fetch_error' });
+      chrome.runtime.sendMessage({ type: 'ANALYZE_JOB_RESULT', error: 'fetch_error' }).catch(() => {});
+    });
     return true;
   }
 

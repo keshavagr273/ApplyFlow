@@ -93,7 +93,12 @@
   },
   "applications_tracked": {
     "message": "Awọn ohun elo _P_0__ tọpinpin · $2$ ifọrọwanilẹnuwo",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Bẹrẹ ohun elo lati tọpa ilọsiwaju rẹ",
@@ -217,7 +222,12 @@
   },
   "restore_confirm": {
     "message": "Ṣe kojọpọ awọn alaye profaili lati \"$1$\"? Eyi yoo rọpo awọn atunṣe lọwọlọwọ rẹ pẹlu ilana atuntu ti bẹrẹ pada.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Awọn alaye pada lati _P_0__",
@@ -233,7 +243,12 @@
   },
   "more_skills": {
     "message": "+$1$ diẹ sii",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Ohun elo autofilled ati ibuwolu wọle! ✨",
@@ -273,7 +288,12 @@
   },
   "answers_count": {
     "message": "$1$ idahun",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Ti fun ni aṣẹ",
@@ -761,11 +781,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hi! Mo le rii pe o n wo ipa **$1$* kan ni **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hi! Mo le rii pe o n wo ipa **$1$* kan.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hi! Emi ni atukọ iṣẹ AI rẹ. Lilọ kiri si atokọ iṣẹ kan Emi yoo ṣe itupalẹ rẹ laifọwọyi, tabi beere lọwọ mi ohunkohun!",
@@ -889,7 +922,12 @@
   },
   "ai_analysis_compatible": {
     "message": "Ibẹrẹ rẹ jẹ **$1$% ibaramu** pẹlu ipa yii.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Kaabo pada, _P_0__!",
@@ -1549,10 +1587,27 @@
   },
   "shortcut_note_desc": {
     "message": "Awọn pipaṣẹ itẹsiwaju Chrome nilo iṣẹ afọwọṣe ni oluṣakoso ọna abuja Chrome. Lọ si $1$ lati di awọn bọtini ti a ṣe akojọ loke.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "** Waye Flow Chrome Itẹsiwaju - Ilana Aṣiri *** \nImudojuiwọn to kẹhin: Oṣu Kẹfa 2026\n\n--_NL_3__\n**1. Iṣafihan**\n\nApplyFlow (\"we\", \"our\", \"The Extension\") jẹ itẹsiwaju aṣawakiri Chrome kan ti o ṣe iranlọwọ fun awọn olumulo lati kun awọn fọọmu ohun elo iṣẹ adaṣe, tọpa awọn ohun elo wọn, ati ṣakoso profaili ọjọgbọn wọn. Ilana Aṣiri yii ṣe alaye bi a ṣe n gba, lo, fipamọ, ati aabo alaye rẹ.\n\nNipa fifi sori ẹrọ ati lilo ApplyFlow, o gba si awọn iṣe ti a ṣalaye ninu eto imulo yii. Data A gba**\nNL_14__A gba nikan alaye ti o pese atinuwa lati jeki awọn ẹya ara ẹrọ itẹsiwaju naa:\n\n• ** Alaye Profaili **: Orukọ rẹ, imeeli, nọmba foonu, kọlẹji, oye, ogbon, itan iṣẹ, awọn iṣẹ akanṣe, ati awọn ọna asopọ ọjọgbọn (LinkedIn, GitHub, Portfoografik)**. (Eyi je eyi ko je) ***: akọ-abo, ipo ailera, ipo ogbogun, ati awọn ayanfẹ aṣẹ iṣẹ - pese nikan ti o ba yan lati kun awọn aaye wọnyi. A lo data yii ni iyasọtọ lati ṣaṣeyọri awọn iwe ibeere EEO yiyan lori awọn ohun elo iṣẹ.\n• ** Data Itọpa Ohun elo **: Akọle iṣẹ, ile-iṣẹ, URL ohun elo, ipo, ati awọn akọsilẹ fun awọn ipo ti o tọpinpin nipa lilo itẹsiwaju. Ti o ba yan lati buwolu wọle pẹlu Google, a tọju orukọ ifihan Google rẹ, adirẹsi imeeli, ati URL aworan profaili rẹ lati sọ iriri rẹ di ti ara ẹni ati muuṣiṣẹpọ awọsanma ṣiṣẹ. data lati awọn oju-iwe nigbati itẹsiwaju ko ba ṣiṣẹ ni agbara\n\n--\n\n**3. Bawo ni A Ṣe Tọju Data Rẹ**\n\n**3.1 Ibi ipamọ Agbegbe (Iyipada)**\nGbogbo data wa ni akọkọ ti o fipamọ sinu chrome.storage.local API. Data yii wa lori ẹrọ rẹ nikan ko si gbejade rara si olupin eyikeyi laisi igbese ti o han kedere.\n\n**3.2 Cloud Sync (Aṣayan)**\nTi o ba yan lati wọle pẹlu Google ati mu ẹya “Supabase Sync” ṣiṣẹ, profaili rẹ ati data ohun elo yoo tun muṣiṣẹpọ si Supabase database. O ṣe idaduro nini kikun ti data yii. O le parẹ nigbakugba lati apakan Account & Amuṣiṣẹpọ.\n\n**3.3 Gemini AI Awọn ibeere**\nNigbati a ba lo awọn ẹya AI (fun apẹẹrẹ, iran arosọ, itupalẹ iṣẹ), awọn apakan ti profaili rẹ (awọn ọgbọn, iwọn, akopọ) ati ọrọ asọye iṣẹ ni a firanṣẹ lati ṣe ipilẹṣẹ Gemini API lati ṣe agbejade Google's Gemini. Eyi ti ni ilọsiwaju labẹ Awọn ofin API boṣewa Google ati Ilana Aṣiri. A ṣeduro pe ki o ma ṣe pẹlu awọn idamọ ara ẹni ti o ni imọlara ninu akoonu iranlọwọ AI rẹ. Pipin data **\nNL_45__A ko **ta, taja, yalo, tabi pin alaye ti ara ẹni pẹlu awọn ẹgbẹ kẹta fun titaja tabi awọn idi ipolowo. (https://policies.google.com/privacy)\n• **Google OAuth**: Fun ijẹrisi akọọlẹ (https://policies.google.com/privacy)\n• **Supabase**: Fun ibi ipamọ awọsanma iyan (https://supabase.com/privacy) - nikan ti o ba mu ṣiṣẹ amuṣiṣẹpọ\n\n---\n\n**5. Awọn ẹtọ rẹ & Awọn iṣakoso **_NL_55__\nO ni ẹtọ lati:\n• Wiwọle** gbogbo data ApplyFlow ti fipamọ nipa rẹ (nipasẹ Afẹyinti Export ni awọn eto)\n• Atunse** alaye rẹ nigbakugba ninu Profaili taabu\n• Paarẹ gbogbo data ni agbegbe rẹ. Eto\n• **Yọ ifohunsi** nigbakugba nipa yiyo itẹsiwaju\n• **Pa amuṣiṣẹpọ awọsanma ṣiṣẹ** nipa yiyi kuro ni Akọọlẹ & Eto Amuṣiṣẹpọ\nNL_63__**GDPR (Awọn olumulo EU)**: Ti o ba jẹ olugbe EU, o ni ẹtọ lati ni isunmọ sisẹ, o ni ẹtọ lati ni isunmọ sisẹ, ati ṣiṣe data labẹ aṣẹ. Ilana Idaabobo Data Gbogbogbo.\n\n**India — Ofin DPDP 2023 ***: Ni ibamu pẹlu Ofin Idaabobo Data Ti ara ẹni Digital ti India 2023, a ṣe ilana data ti ara ẹni nikan fun idi ti ipese iṣẹ iranlọwọ ohun elo iṣẹ. O le yọ aṣẹ kuro ki o beere piparẹ data rẹ nigbakugba nipa kikan si wa.\n\n**California — CCPA**: Awọn olugbe California ni ẹtọ lati mọ iru alaye ti ara ẹni ti a gba, ẹtọ lati paarẹ, ati ẹtọ lati jade kuro ni tita (a ko ta data).\n\n---\n\n**6. Idaduro data**\nNL_73__Data agbegbe ti wa ni idaduro titi ti o fi pa a pẹlu ọwọ. Awọn data imuṣiṣẹpọ awọsanma wa ni idaduro titi ti o fi pa akọọlẹ rẹ rẹ tabi beere piparẹ. A ko ni paarẹ data laifọwọyi.\n\n---\n\n**7. Aabo **\nNL_79__A gba awọn igbese imọ-ẹrọ ti o ni oye lati daabobo data rẹ:\n• Gbogbo awọn ibaraẹnisọrọ awọsanma lo HTTPS/TLS fifi ẹnọ kọ nkan\n• Supabase Row-Level Security (RLS) ṣe idaniloju pe awọn olumulo le wọle si data tiwọn nikan\n• Ifaagun naa ko beere fun awọn igbanilaaye ju ohun ti o nilo lọ. iṣẹ\n\n---\n\n**8. Aṣiri ọmọde ***NL_87\nApplyFlow kii ṣe ipinnu fun awọn olumulo ti o wa labẹ ọdun 13. A ko mọọmọ gba data lati ọdọ awọn ọmọde. Ti o ba gbagbọ pe ọmọ kan ti pese alaye ti ara ẹni, jọwọ kan si wa lẹsẹkẹsẹ.\n\n--\n\n**9. Awọn iyipada si Ilana yii **\n\nA le ṣe imudojuiwọn Ilana Aṣiri yii lati igba de igba. Awọn ayipada pataki yoo jẹ ibaraẹnisọrọ nipasẹ oju-iwe Awọn aṣayan itẹsiwaju. Lilo itẹsiwaju lẹhin awọn ayipada jẹ gbigba eto imulo imudojuiwọn.\n\n--\n\n**10. Kan si Wa**\n\nFun eyikeyi awọn ibeere ti o ni ibatan ikọkọ, awọn ibeere piparẹ data, tabi awọn ifiyesi:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension https://applyflow.in\n\nA ni ifọkansi lati dahun si gbogbo awọn ibeere laarin 30 ọjọ.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

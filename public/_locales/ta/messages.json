@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ கண்டறியப்பட்டது",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "வேலைப் பக்கம் எதுவும் கண்டறியப்படவில்லை",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ பயன்பாடுகள் கண்காணிக்கப்பட்டன · $2$ நேர்காணல்கள்",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "உங்கள் முன்னேற்றத்தைக் கண்காணிக்க விண்ணப்பிக்கத் தொடங்குங்கள்",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ இல் பாகுபடுத்தப்பட்டது",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" இலிருந்து சுயவிவர விவரங்களை ஏற்றவா? இது உங்களின் தற்போதைய திருத்தங்களை இந்த ரெஸ்யூமின் பாகுபடுத்தப்பட்ட அமைப்புடன் மாற்றும்.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ இலிருந்து விவரங்கள் மீட்டெடுக்கப்பட்டன",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "மேட்ச் ஸ்கோர்",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ பொருத்தம்",
-    "description": "Fit percent text"
+    "message": "$1$% பொருத்தம்",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ மேலும்",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "விண்ணப்பம் தானாக நிரப்பப்பட்டு உள்நுழைந்தது! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ உள்ளீடுகள்",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ திறன்கள்",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ திட்டங்கள்",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ பதில்கள்",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "அங்கீகரிக்கப்பட்டது",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ பயன்பாடுகள்",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "நிறுவனம் வாரியாக வடிகட்டவும்...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ மொத்த பயன்பாடுகள்",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "இன்னும் தரவு இல்லை",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "சூழல்: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "உங்கள் தொழில் துணை விமானி",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "இதோ $1$ நேர்காணல் கேள்விகள்:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "ரெஸ்யூம் ஆப்டிமைசேஷன் ஸ்கோர்: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "போட்டி பரிந்துரைகளை மீண்டும் தொடங்கவும்",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "ஹாய்! நீங்கள் **$1$** பாத்திரத்தை **$2$** இல் பார்க்கிறீர்கள் என்பதை என்னால் பார்க்க முடிகிறது.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "ஹாய்! நீங்கள் **$1$** பாத்திரத்தைப் பார்க்கிறீர்கள் என்பதை என்னால் பார்க்க முடிகிறது.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "ஹாய்! நான் உங்கள் AI தொழில் துணை விமானி. வேலைப் பட்டியலுக்குச் செல்லவும், நான் தானாகவே அதைப் பகுப்பாய்வு செய்வேன் அல்லது என்னிடம் எதையும் கேட்கிறேன்!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ ஆக உள்நுழைந்துள்ளார்",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "வெளியேறு",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "உங்கள் விண்ணப்பம் இந்தப் பாத்திரத்துடன் **$1$% இணக்கமானது**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "மீண்டும் வரவேற்கிறோம், $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google பயனர் சுயவிவரத் தகவலைப் பெறுவதில் தோல்வி.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth உள்நுழைவு தோல்வியடைந்தது: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "திசைதிருப்பலில் இருந்து அணுகல் டோக்கனைப் பெறுவதில் தோல்வி.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "உரிம விசை: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "உரிமத்தை முடக்கு",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome நீட்டிப்பு கட்டளைகளுக்கு Chrome இன் குறுக்குவழி மேலாளரில் கைமுறையாக ஒதுக்குதல் தேவை. மேலே பட்டியலிடப்பட்டுள்ள விசைகளை பிணைக்க $1$ க்குச் செல்லவும்.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome நீட்டிப்பு — தனியுரிமைக் கொள்கை**\nகடைசியாக புதுப்பிக்கப்பட்டது: ஜூன் 2026\n\n_____\n\n**1. அறிமுகம்**\n\nApplyFlow (\"நாங்கள்\", \"எங்கள்\", \"நீட்டிப்பு\") என்பது ஒரு Chrome உலாவி நீட்டிப்பாகும், இது பயனர்களுக்கு வேலை விண்ணப்பப் படிவங்களைத் தானாக நிரப்பவும், அவர்களின் பயன்பாடுகளைக் கண்காணிக்கவும் மற்றும் அவர்களின் தொழில்முறை சுயவிவரத்தை நிர்வகிக்கவும் உதவுகிறது. இந்த தனியுரிமைக் கொள்கையானது உங்கள் தகவலை நாங்கள் எவ்வாறு சேகரிக்கிறோம், பயன்படுத்துகிறோம், சேமிக்கிறோம் மற்றும் பாதுகாப்போம் என்பதை விளக்குகிறது.\n\nApplyFlow ஐ நிறுவி பயன்படுத்துவதன் மூலம், இந்தக் கொள்கையில் விவரிக்கப்பட்டுள்ள நடைமுறைகளை ஏற்கிறீர்கள்.\n\n_____\n\n**2. நாங்கள் சேகரிக்கும் தரவு**\n\nநீட்டிப்பின் அம்சங்களை இயக்க நீங்கள் தானாக முன்வந்து வழங்கும் தகவல்களை மட்டுமே நாங்கள் சேகரிக்கிறோம்:\n\n• **சுயவிவரத் தகவல்**: உங்கள் பெயர், மின்னஞ்சல், தொலைபேசி எண், கல்லூரி, பட்டம், திறன்கள், பணி வரலாறு, திட்டங்கள் மற்றும் தொழில்முறை இணைப்புகள், ஜி.ஐ.எல். போர்ட்ஃபோலியோ).\n• **EEO/மக்கள்தொகை தகவல் (விரும்பினால்)**: பாலினம், இயலாமை நிலை, அனுபவம் வாய்ந்த நிலை மற்றும் பணி அங்கீகார விருப்பத்தேர்வுகள் — இந்தப் புலங்களை நிரப்ப நீங்கள் தேர்வுசெய்தால் மட்டுமே வழங்கப்படும். வேலை விண்ணப்பங்களில் விருப்பமான EEO கேள்வித்தாள்களைத் தானாக நிரப்புவதற்கு மட்டுமே இந்தத் தரவு பயன்படுத்தப்படுகிறது.\n• **விண்ணப்பக் கண்காணிப்புத் தரவு**: வேலைத் தலைப்பு, நிறுவனம், பயன்பாட்டு URL, நிலை மற்றும் நீட்டிப்பைப் பயன்படுத்தி நீங்கள் கண்காணிக்கும் பதவிகளுக்கான குறிப்புகள்.\n• **பயன்பாட்டு புள்ளிவிவரங்கள் தினசரி செயல்படுத்தப்படும் வரம்புகள்).\n• **அங்கீகரிப்புத் தரவு**: நீங்கள் Google உடன் உள்நுழையத் தேர்வுசெய்தால், உங்கள் அனுபவத்தைத் தனிப்பயனாக்கி, கிளவுட் ஒத்திசைவை இயக்க, உங்கள் Google காட்சிப் பெயர், மின்னஞ்சல் முகவரி மற்றும் சுயவிவரப் பட URL ஆகியவற்றைச் சேமித்து வைக்கிறோம்.\n_NL_22__நாங்கள் **இல்லை** சேகரிக்கிறோம் அல்லது நிதி வரலாற்றை சேகரிக்கிறோம் செயல்பாடு\n• வேலை-விண்ணப்பம் தொடர்பான பக்கங்களிலிருந்து எந்த தகவலும்\n• நீட்டிப்பு செயலில் தூண்டப்படாத பக்கங்களிலிருந்து எந்தத் தரவும்\n\n---_\n\n**3. உங்கள் தரவை நாங்கள் எவ்வாறு சேமிப்போம்**\n\n**3.1 உள்ளூர் சேமிப்பகம் (இயல்புநிலை)**\nஎல்லா தரவுகளும் முதன்மையாக உங்கள் உலாவியின் chrome.storage.local API இல் சேமிக்கப்படும். இந்தத் தரவு உங்கள் சாதனத்தில் மட்டுமே உள்ளது மற்றும் உங்கள் வெளிப்படையான செயல் இல்லாமல் எந்த சேவையகத்திற்கும் அனுப்பப்படாது.\n\n**3.2 Cloud Sync (விரும்பினால்)**\nநீங்கள் Google உடன் உள்நுழைந்து \"Supabase Sync\" அம்சத்தை இயக்கத் தேர்வுசெய்தால், உங்கள் சுயவிவரம் மற்றும் பயன்பாட்டுத் தரவும் Supabase Supabase தரவு ஒத்திசைக்கப்படும். இந்தத் தரவின் முழு உரிமையையும் நீங்கள் வைத்திருக்கிறீர்கள். கணக்கு & ஒத்திசைவு பிரிவில் இருந்து எந்த நேரத்திலும் அதை நீக்கலாம்.\n\n**3.3 Gemini AI கோரிக்கைகள்**\nAI அம்சங்கள் பயன்படுத்தப்படும்போது (எ.கா., கட்டுரை உருவாக்கம், வேலை பகுப்பாய்வு), உங்கள் சுயவிவரத்தின் பகுதிகள் (திறன்கள், பட்டம், சுருக்கம்) மற்றும் Google வேலை விளக்க உரை ஜெமினிக்கு அனுப்பப்படும். இது Google இன் நிலையான API சேவை விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கையின் கீழ் செயல்படுத்தப்படுகிறது. உங்களின் AI-உதவி உள்ளடக்கத்தில் முக்கியமான தனிப்பட்ட அடையாளங்காட்டிகளைச் சேர்க்க வேண்டாம் என்று பரிந்துரைக்கிறோம்.\n_NL_41_______\n\n**4. தரவுப் பகிர்வு**\n\n நாங்கள் **** விற்பனை செய்யவோ, வர்த்தகம் செய்வதோ, வாடகைக்கு விடவோ அல்லது உங்கள் தனிப்பட்ட தகவலை சந்தைப்படுத்தல் அல்லது விளம்பர நோக்கங்களுக்காகவோ எந்தவொரு மூன்றாம் தரப்பினருடனும் பகிர்ந்து கொள்ள மாட்டோம்.\n\nஉங்கள் தரவு பின்வரும் நம்பகமான சேவைகளால் செயலாக்கப்படலாம்: \n• **கூகுள் ஃபார்ம் நிரப்பப்பட்ட ஜெமினி ஏபிஐ பகுப்பாய்வு (https://policies.google.com/privacy)\n• **Google OAuth**: கணக்கு அங்கீகரிப்புக்காக (https://policies.google.com/privacy)\n• **Supabase**: விருப்ப கிளவுட் சேமிப்பகத்திற்கு (https://supabase.com/privacy) — நீங்கள் ஆர்வமாக இருந்தால் மட்டுமே ஒத்திசைவு\n\n__\n\n**5. உங்கள் உரிமைகள் மற்றும் கட்டுப்பாடுகள்**\n\nஉங்களுக்கு உரிமை உள்ளது:\n• **Access** ApplyFlow உங்களைப் பற்றிச் சேமித்துள்ள எல்லாத் தரவையும் (அமைப்புகளில் ஏற்றுமதி காப்புப்பிரதி மூலம்)\n• **சரி*** உங்கள் எல்லாத் தரவையும் சுயவிவரத் தாவலில் எந்த நேரத்திலும் நீக்கவும்*•L_*N அமைப்புகளில் உள்ள சுயவிவரத் தரவு\"\n• **ஒப்புதலைத் திரும்பப் பெறுங்கள்** நீட்டிப்பை நிறுவல் நீக்குவதன் மூலம் எந்த நேரத்திலும்\n• **க்ளவுட் ஒத்திசைவை முடக்கவும்** கணக்கு மற்றும் ஒத்திசைவு அமைப்புகளில் அதை நிலைமாற்றுவதன் மூலம்\n\n**GDPR ஐப் பயன்படுத்துவதற்கான உரிமைகள் உங்களுக்கு இருந்தால், EU: பொதுத் தரவுப் பாதுகாப்பு ஒழுங்குமுறையின் கீழ் சரிசெய்தல், அழித்தல், கட்டுப்படுத்துதல் மற்றும் தரவுப் பெயர்வுத்திறன் ஆகியவற்றைத் திருத்தலாம். எங்களைத் தொடர்புகொள்வதன் மூலம் எந்த நேரத்திலும் நீங்கள் ஒப்புதலைத் திரும்பப் பெறலாம் மற்றும் உங்கள் தரவை நீக்கக் கோரலாம் தரவு).\n\n_____\n\n**6. தரவுத் தக்கவைப்பு**\n\nஉள்ளூர் தரவு நீங்கள் கைமுறையாக அழிக்கும் வரை அப்படியே இருக்கும். உங்கள் கணக்கை நீக்கும் வரை அல்லது நீக்கக் கோரும் வரை கிளவுட்-ஒத்திசைக்கப்பட்ட தரவு தக்கவைக்கப்படும். நாங்கள் தானாக தரவை நீக்க மாட்டோம்.\n\n_____\n\n**7. பாதுகாப்பு**\n\nஉங்கள் தரவைப் பாதுகாக்க நாங்கள் நியாயமான தொழில்நுட்ப நடவடிக்கைகளை மேற்கொள்கிறோம்:\n• அனைத்து கிளவுட் தகவல்தொடர்புகளும் HTTPS/TLS குறியாக்கத்தைப் பயன்படுத்துகின்றன\n• சுபாபேஸ் வரிசை-நிலை பாதுகாப்பு (RLS) பயனர்கள் தங்கள் சொந்த தரவை மட்டுமே அணுக முடியும் என்பதை உறுதிசெய்கிறது\n நீட்டிப்பு கோரிக்கைகளுக்கு அப்பால் செயல்பாடு\n\n_____\n\n**8. குழந்தைகளின் தனியுரிமை**\n\nApplyFlow என்பது 13 வயதுக்குட்பட்ட பயனர்களுக்கானது அல்ல. நாங்கள் தெரிந்தே குழந்தைகளிடமிருந்து தரவைச் சேகரிப்பதில்லை. ஒரு குழந்தை எங்களுக்கு தனிப்பட்ட தகவலை வழங்கியதாக நீங்கள் நம்பினால், உடனடியாக எங்களைத் தொடர்பு கொள்ளவும்.\n\n________\n\n**9. இந்தக் கொள்கையில் மாற்றங்கள்**\n\nஇந்த தனியுரிமைக் கொள்கையை நாங்கள் அவ்வப்போது புதுப்பிக்கலாம். குறிப்பிடத்தக்க மாற்றங்கள் நீட்டிப்பின் விருப்பங்கள் பக்கத்தின் மூலம் தெரிவிக்கப்படும். மாற்றங்களுக்குப் பிறகு நீட்டிப்பைத் தொடர்ந்து பயன்படுத்துவது, புதுப்பிக்கப்பட்ட கொள்கையை ஏற்றுக்கொள்வதைக் குறிக்கிறது.\n\n_____\n\n**10. எங்களைத் தொடர்புகொள்ளவும்**\n\nஎந்தவொரு தனியுரிமை தொடர்பான கேள்விகள், தரவு நீக்குதல் கோரிக்கைகள் அல்லது கவலைகள்:\n\nமின்னஞ்சல்: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension/4__NL_extension https://applyflow.in\n\nஎல்லா கோரிக்கைகளுக்கும் 30 நாட்களுக்குள் பதிலளிப்பதை நோக்கமாகக் கொண்டுள்ளோம்.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

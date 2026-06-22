@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Detectat",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Nu a fost detectată nicio pagină de job",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ aplicații urmărite · $2$ interviuri",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Începeți să aplicați pentru a vă urmări progresul",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Analizat pe $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Încărcați detaliile profilului de la „$1$”? Aceasta va înlocui editările dvs. curente cu structura analizată a acestui CV.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Detalii restaurate de la $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Scorul meciului",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ mai mult",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Aplicație completată automat și înregistrată! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ intrări",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ aptitudini",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ proiecte",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ răspunde",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Autorizat",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ aplicații",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filtrați după companie...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ aplicații totale",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Nu există date încă",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Context: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Copilotul tău de carieră",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Iată $1$ întrebări probabile de interviu:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Reluați scorul de optimizare: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Reluați sugestiile de potrivire",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hi! Văd că te uiți la un rol **$1$** la **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hi! Văd că te uiți la un rol **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hi! Sunt copilotul tău de carieră AI. Navigați la o listă de locuri de muncă și o voi analiza automat sau mă întreb orice!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Conectat ca $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Deconectați-vă",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "CV-ul tău este **$1$% compatibil** cu acest rol.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Bine ai revenit, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Nu s-au putut prelua informațiile despre profilul de utilizator Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Conectare OAuth a eșuat: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Nu s-a putut prelua indicativul de acces din redirecționare.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Cheie de licență: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Dezactivați licența",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Comenzile extensiilor Chrome necesită atribuirea manuală în managerul de comenzi rapide din Chrome. Accesați $1$ pentru a lega cheile enumerate mai sus.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Extensia ApplyFlow Chrome — Politica de confidențialitate**\nUltima actualizare: iunie 2026\n\n---\n\n**1. Introducere**\n\nApplyFlow („noi”, „nostru”, „extensia”) este o extensie de browser Chrome care îi ajută pe utilizatori să completeze automat formularele de cerere de angajare, să își urmărească aplicațiile și să își gestioneze profilul profesional. Această Politică de confidențialitate explică modul în care colectăm, utilizăm, stocăm și protejăm informațiile dumneavoastră.\n\nPrin instalarea și utilizarea ApplyFlow, sunteți de acord cu practicile descrise în această politică.\n\n---\n\n**2. Date pe care le colectăm**\n\nColectăm doar informațiile pe care le furnizați în mod voluntar pentru a activa funcțiile extensiei:\n\n• **Informații de profil**: numele dvs., e-mailul, numărul de telefon, facultatea, diplomă, abilitățile, istoricul profesional, proiectele și link-urile profesionale (LinkedIn, GitHub, **Informații demografice, GitHub, **_Demographic_Portfolio). (Opțional)**: sex, statutul de dizabilitate, statutul de veteran și preferințele de autorizare a muncii - furnizate numai dacă alegeți să completați aceste câmpuri. Aceste date sunt folosite exclusiv pentru completarea automată a chestionarelor EEO opționale pentru cererile de angajare.\n• **Datele de urmărire a aplicației**: titlul postului, compania, adresa URL a aplicației, starea și notele pentru pozițiile pe care le urmăriți folosind extensia.\n• **Statistici de utilizare**: numărul de operațiuni de completare automată efectuate (stocat local pentru aplicarea limitelor zilnice de __NL20). Date**: dacă alegeți să vă conectați cu Google, stocăm numele dvs. afișat Google, adresa de e-mail și adresa URL a imaginii de profil pentru a vă personaliza experiența și pentru a activa sincronizarea în cloud. legate de postul de muncă\n• Orice date din pagini când extensia nu este declanșată activ\n\n---\n\n**3. Cum vă stocăm datele**\n\n**3.1 Stocare locală (implicit)**\nToate datele sunt stocate în principal în API-ul chrome.storage.local al browserului dvs. Aceste date se află numai pe dispozitivul dvs. și nu sunt transmise niciodată către niciun server fără acțiunea dvs. explicită.\n\n**3.2 Cloud Sync (Opțional)**\nDacă alegeți să vă conectați la Google și să activați funcția „Supabase Sync”, profilul dvs. și datele aplicației vor fi, de asemenea, sincronizate cu o bază de date Supabase. Vă păstrați proprietatea deplină asupra acestor date. Îl puteți șterge oricând din secțiunea Cont și sincronizare.\n\n**3.3 Solicitări Gemini AI**\nCând sunt utilizate funcțiile AI (de exemplu, generarea de eseuri, analiza postului), părți din profilul dvs. (competențe, diplomă, rezumat) și textul descrierii postului sunt trimise la API-ul Google pentru a genera răspunsul Gemini. Aceasta este procesată în conformitate cu Termenii și condițiile API standard și Politica de confidențialitate Google. Vă recomandăm să nu includeți identificatori personali sensibili în conținutul dvs. asistat de AI.\n\n---\n\n**4. Partajarea datelor**\n\nNu **nu vindem, comercializăm, închiriem sau distribuim informațiile dumneavoastră personale cu terțe părți în scopuri de marketing sau publicitate.\n\nDatele dumneavoastră pot fi procesate de următoarele servicii de încredere:\n• **Pentru completarea formularelor Google Gemini și analiza API**: (https://policies.google.com/privacy)\n• **Google OAuth**: pentru autentificarea contului (https://policies.google.com/privacy)\n• **Supabase**: pentru stocarea opțională în cloud (https://supabase.com/privacy) — numai dacă activați sincronizare\n\n---\n\n**5. Drepturile și controalele dvs.**\n\nAveți dreptul de a:\n• **Accesa** toate datele pe care ApplyFlow le-a stocat despre dvs. (prin Export Backup în setări)\n• **Corectați** informațiile dvs. în orice moment în fila Profil\n• Toate datele dvs. locale utilizând toate datele locale. în setări\n• **Retrageți consimțământul** în orice moment prin dezinstalarea extensiei\n• **Dezactivați sincronizarea în cloud** dezactivând-o în setările Cont și sincronizare\n\n**GDPR (Utilizatori UE)**: Dacă sunteți rezident în UE, aveți dreptul de a procesa, de a accesa și de a modifica datele generale Regulamentul de protecție.\n\n**India — DPDP Act 2023**: în conformitate cu Digital Personal Data Protection Act 2023 din India, procesăm datele cu caracter personal numai în scopul furnizării serviciului de asistență pentru solicitarea de locuri de muncă. Vă puteți retrage consimțământul și puteți solicita ștergerea datelor dumneavoastră în orice moment, contactându-ne.\n\n**California — CCPA**: Rezidenții din California au dreptul de a ști ce informații personale sunt colectate, dreptul de a șterge și dreptul de a renunța la vânzare (nu vindem date).\n\n---\n\n**6. Păstrarea datelor**\n\nDatele locale sunt păstrate până când le ștergeți manual. Datele sincronizate în cloud sunt păstrate până când vă ștergeți contul sau solicitați ștergerea. Nu ștergem automat datele.\n\n---\n\n**7. Securitate**\n\nLuăm măsuri tehnice rezonabile pentru a vă proteja datele:\n• Toate comunicațiile în cloud folosesc criptare HTTPS/TLS\n• Supabase Row-Level Security (RLS) asigură utilizatorilor să-și acceseze numai propriile date\n• Extensia dincolo de ceea ce nu este necesară pentru permisiunea de bază funcția\n\n---\n\n**8. Confidențialitatea copiilor**\n\nApplyFlow nu este destinat utilizatorilor cu vârsta sub 13 ani. Nu colectăm cu bună știință date de la copii. Dacă credeți că un copil ne-a furnizat informații personale, vă rugăm să ne contactați imediat.\n\n---\n\n**9. Modificări ale acestei politici**\n\nPutem actualiza această politică de confidențialitate din când în când. Modificările semnificative vor fi comunicate prin intermediul paginii Opțiuni a extensiei. Utilizarea continuă a extensiei după modificări constituie acceptarea politicii actualizate.\n\n---\n\n**10. Contactați-ne**\n\nPentru orice întrebări legate de confidențialitate, solicitări de ștergere a datelor sau preocupări:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nNe propunem să răspundem tuturor solicitărilor în termen de 30 de zile.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

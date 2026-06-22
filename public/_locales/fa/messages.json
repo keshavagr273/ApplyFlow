@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ شناسایی شد",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "هیچ صفحه کاری شناسایی نشد",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ برنامه ها ردیابی شدند · $2$ مصاحبه",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "برای پیگیری پیشرفت خود اقدام به درخواست کنید",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "تجزیه در $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "جزئیات نمایه از \"$1$\" بارگیری شود؟ این ساختار تجزیه شده این رزومه را جایگزین ویرایش های فعلی شما می کند.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "جزئیات بازیابی شده از $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "امتیاز مسابقه",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ مناسب",
-    "description": "Fit percent text"
+    "message": "$1$% مناسب",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ بیشتر",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "برنامه به صورت خودکار تکمیل و ثبت شد! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ ورودی ها",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ مهارت",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "پروژه های $1$",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ پاسخ می دهد",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "مجاز",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ برنامه های کاربردی",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "فیلتر بر اساس شرکت ...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ کل برنامه ها",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "هنوز داده ای وجود ندارد",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "زمینه: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "خلبان شغلی شما",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "در اینجا $1$ سوالات احتمالی مصاحبه وجود دارد:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "امتیاز بهینه سازی رزومه: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "رزومه پیشنهادات مسابقه",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "سلام! می‌توانم ببینم که شما به نقش **$1$** در **$2$** نگاه می‌کنید.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "سلام! من می بینم که شما به نقش **$1$** نگاه می کنید.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "سلام! من خلبان شغلی هوش مصنوعی شما هستم. به یک لیست شغلی بروید و من به طور خودکار آن را تجزیه و تحلیل می کنم یا هر چیزی را از من می پرسم!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "وارد شده به عنوان $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "از سیستم خارج شوید",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "رزومه شما **$1$% سازگار ** با این نقش است.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "خوش آمدید، $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "اطلاعات نمایه کاربر Google واکشی نشد.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "ورود OAuth ناموفق بود: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "رمز دسترسی از تغییر مسیر واکشی نشد.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "کلید مجوز: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "غیرفعال کردن مجوز",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "دستورات افزونه کروم به تخصیص دستی در مدیر میانبر Chrome نیاز دارند. برای اتصال کلیدهای فهرست شده در بالا به $1$ بروید.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**افزونه ApplyFlow Chrome — خط مشی رازداری **\nآخرین به روز رسانی: ژوئن 2026\n\n---\n\n**1. مقدمه**\n\nApplyFlow (\"ما\"، \"ما\"، \"افزونه\") یک برنامه افزودنی مرورگر کروم است که به کاربران کمک می‌کند فرم‌های درخواست شغل را به‌طور خودکار تکمیل کنند، برنامه‌های خود را ردیابی کنند و نمایه حرفه‌ای خود را مدیریت کنند. این خط‌مشی رازداری توضیح می‌دهد که چگونه اطلاعات شما را جمع‌آوری، استفاده، ذخیره و محافظت می‌کنیم.\n\nبا نصب و استفاده از ApplyFlow، با روش‌های توضیح‌داده‌شده در این خط‌مشی موافقت می‌کنید.\n\n---\n__NL_12_**. داده‌هایی که جمع‌آوری می‌کنیم**\n\nما فقط اطلاعاتی را که داوطلبانه ارائه می‌دهید جمع‌آوری می‌کنیم تا ویژگی‌های برنامه افزودنی را فعال کنیم:\n\n• **اطلاعات نمایه**: نام، ایمیل، شماره تلفن، کالج، مدرک، مهارت‌ها، سابقه کاری، پیوندهای حرفه‌ای، پروژه‌ها نمونه کارها).\n• **اطلاعات EEO/دموگرافیک (اختیاری)**: جنسیت، وضعیت ناتوانی، وضعیت جانبازی، و اولویت های مجوز کار — تنها در صورتی ارائه می شود که این قسمت ها را پر کنید. این داده‌ها منحصراً برای تکمیل خودکار پرسشنامه‌های اختیاری EEO در برنامه‌های شغلی استفاده می‌شود.\n• **داده‌های پیگیری برنامه**: عنوان شغل، شرکت، URL برنامه، وضعیت، و یادداشت‌هایی برای موقعیت‌هایی که با استفاده از برنامه افزودنی ردیابی می‌کنید.\n• **آمار استفاده**: تعداد عملیات تکمیل خودکار روزانه برای ذخیره سازی انجام شده محدودیت‌ها).\n• **داده‌های احراز هویت**: اگر انتخاب کنید با Google وارد شوید، نام نمایشی Google، آدرس ایمیل، و نشانی اینترنتی تصویر نمایه شما را ذخیره می‌کنیم تا تجربه شما را شخصی‌سازی کنیم و همگام‌سازی ابری را فعال کنیم. فعالیت مرور\n• هر گونه اطلاعات از صفحاتی که با برنامه شغلی مرتبط نیستند\n• هر گونه داده از صفحاتی که برنامه افزودنی فعال نشده است\n\n---\n\n**. چگونه داده های شما را ذخیره می کنیم**\n\n**3.1 فضای ذخیره سازی محلی (پیش فرض)**\nهمه داده ها در درجه اول در chrome.storage.local API مرورگر شما ذخیره می شوند. این داده‌ها فقط در دستگاه شما قرار دارند و هرگز بدون اقدام صریح شما به هیچ سروری منتقل نمی‌شوند.\n\n**3.2 Cloud Sync (اختیاری)**\nاگر انتخاب کنید با Google وارد شوید و ویژگی \"Supabase Sync\" را فعال کنید، داده‌های پروفایل و برنامه کاربردی شما نیز به صورت همگام‌سازی داده می‌شوند. شما مالکیت کامل این داده ها را حفظ می کنید. می‌توانید هر زمان که بخواهید آن را از بخش حساب و همگام‌سازی حذف کنید.\n\n**3.3 درخواست‌های هوش مصنوعی Gemini**\nهنگامی که از ویژگی‌های هوش مصنوعی استفاده می‌شود (مثلاً تولید مقاله، تجزیه و تحلیل شغل)، بخش‌هایی از نمایه شما (مهارت‌ها، مدرک شغلی، پاسخ متن‌های Gemini به Google ارسال می‌شود). این مورد تحت شرایط استاندارد خدمات API و خط‌مشی رازداری Google پردازش می‌شود. توصیه می‌کنیم شناسه‌های شخصی حساس را در محتوای با کمک هوش مصنوعی خود وارد نکنید.\n\n---\n\n**4. به اشتراک گذاری داده**\n\nما **فروش، تجارت، اجاره یا به اشتراک گذاری اطلاعات شخصی شما را با اشخاص ثالث برای اهداف بازاریابی یا تبلیغاتی انجام نمی دهیم. (https://policies.google.com/privacy)\n• **Google OAuth**: برای احراز هویت حساب (https://policies.google.com/privacy)\n• **Supabase**: برای ذخیره سازی ابری اختیاری (https://supabase.com/privacy) — فقط در صورتی که شما sync\n\n---\n\n**5. حقوق و کنترل‌های شما**\n\nشما حق دارید:\n• **دسترسی داشته باشید** به همه داده‌هایی که ApplyFlow درباره شما ذخیره کرده است (از طریق صادرات پشتیبان در تنظیمات)\n• **در هر زمان که بخواهید اطلاعات خود را تصحیح کنید **• همه داده‌های خود را در هر زمانی در برگه نمایه حذف کنید. «پاک کردن همه داده‌های نمایه» در تنظیمات\n• **با حذف نصب برنامه افزودنی\n_******************************************************************************************************ها همگام سازی را غیرفعال کنید. برای دسترسی، اصلاح، پاک کردن، محدود کردن پردازش، و قابلیت حمل داده‌ها بر اساس مقررات عمومی حفاظت از داده‌ها.\n\n**هند — قانون DPDP 2023**: مطابق با قانون حفاظت از داده‌های شخصی دیجیتال هند در سال 2023، ما داده‌های شخصی را فقط به منظور ارائه خدمات درخواست شغلی پردازش می‌کنیم. شما می‌توانید در هر زمان رضایت خود را لغو کنید و با تماس با ما درخواست حذف داده‌های خود را داشته باشید.\n\n**کالیفرنیا — CCPA**: ساکنان کالیفرنیا این حق را دارند که بدانند چه اطلاعات شخصی جمع‌آوری شده است، حق حذف، و حق انصراف از فروش (ما نمی‌فروشیم) داده ها).\n\n---\n\n**6. حفظ داده**\n\nداده های محلی تا زمانی که آن را به صورت دستی پاک نکنید، حفظ می شود. داده‌های همگام‌سازی شده در فضای ابری تا زمانی که حساب خود را حذف نکنید یا درخواست حذف کنید، حفظ می‌شود. ما به طور خودکار داده ها را حذف نمی کنیم.\n\n---\n\n**7. امنیت**\n\nما اقدامات فنی معقولی را برای محافظت از داده‌های شما انجام می‌دهیم:\n• همه ارتباطات ابری از رمزگذاری HTTPS/TLS استفاده می‌کنند\n• امنیت سطح ردیف (RLS) Supabase تضمین می‌کند که کاربران فقط می‌توانند به داده‌های خودشان دسترسی داشته باشند. تابع\n\n---\n\n**8. حریم خصوصی کودکان**\n\nApplyFlow برای کاربران زیر 13 سال در نظر گرفته نشده است. ما آگاهانه داده‌هایی را از کودکان جمع‌آوری نمی‌کنیم. اگر فکر می کنید کودکی اطلاعات شخصی به ما ارائه کرده است، لطفاً فوراً با ما تماس بگیرید.\n\n---\n\n**9. تغییرات در این خط مشی **\n\nما ​​ممکن است هر از چند گاهی این خط مشی رازداری را به روز کنیم. تغییرات مهم از طریق صفحه گزینه های برنامه افزودنی اطلاع رسانی خواهد شد. ادامه استفاده از برنامه افزودنی پس از تغییرات به منزله پذیرش خط مشی به روز شده است.\n\n---\n\n**10. با ما تماس بگیرید**\n\nبرای هرگونه سوال مرتبط با حریم خصوصی، درخواست حذف داده یا نگرانی:\n\nایمیل: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nوب سایت: https://applyflow.in\n\nهدف ما این است که ظرف 30 روز به همه درخواست‌ها پاسخ دهیم.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

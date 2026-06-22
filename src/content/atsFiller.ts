@@ -393,7 +393,7 @@ async function fillLinkedIn(profile: UserProfile): Promise<void> {
 }
 
 async function fillInternshala(profile: UserProfile): Promise<void> {
-  console.log('[ApplyFlow ATS] Running fillInternshala with profile:', profile);
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Running fillInternshala');
   const fieldMap: Array<[string, string]> = [
     ['input[name="name"], input[id*="name"]',             profile.name],
     ['input[name="email"], input[id*="email"]',           profile.email],
@@ -416,11 +416,11 @@ async function fillInternshala(profile: UserProfile): Promise<void> {
       const el = querySelectorDeep(sel.trim()) as HTMLInputElement;
       if (el) {
         if (!el.value) {
-          console.log(`[ApplyFlow ATS] Internshala matched field "${sel.trim()}". Setting value:`, value);
+          if (import.meta.env.DEV) console.log(`[ApplyFlow ATS] Internshala matched field "${sel.trim()}".`);
           safeSetValue(el, value);
           await humanDelay();
         } else {
-          console.log(`[ApplyFlow ATS] Internshala matched field "${sel.trim()}" but it already has value:`, el.value);
+          if (import.meta.env.DEV) console.log(`[ApplyFlow ATS] Internshala field "${sel.trim()}" already filled.`);
         }
         break;
       }
@@ -429,13 +429,13 @@ async function fillInternshala(profile: UserProfile): Promise<void> {
 
   // Internshala cover letter / "why this role" textarea
   const coverAreas = Array.from(querySelectorAllDeep('textarea')) as HTMLTextAreaElement[];
-  console.log('[ApplyFlow ATS] Checking Internshala textareas. Count:', coverAreas.length);
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Checking Internshala textareas. Count:', coverAreas.length);
   for (const ta of coverAreas) {
     if (!ta.value) {
       const placeholder = (ta.placeholder || '').toLowerCase();
       if (placeholder.includes('why') || placeholder.includes('cover') || placeholder.includes('tell') || placeholder.includes('about yourself')) {
         const answer = `I am a ${profile.degree} student at ${profile.college} (${profile.graduationYear}) with strong expertise in ${profile.skills.slice(0, 4).join(', ')}. I am highly motivated and believe my technical skills and passion for building impactful products make me a great fit for this role.`;
-        console.log('[ApplyFlow ATS] Setting cover letter text on textarea with placeholder:', ta.placeholder);
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Setting cover letter on textarea.');
         safeSetValue(ta, answer);
         await humanDelay();
       }
@@ -756,7 +756,7 @@ async function fillGeneric(profile: UserProfile): Promise<void> {
     'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="file"]):not([type="checkbox"]):not([type="radio"]), textarea, select'
   )) as (HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement)[];
 
-  console.log('[ApplyFlow ATS] Starting fillGeneric on fields:', inputs.length);
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Starting fillGeneric on fields:', inputs.length);
 
   for (const el of inputs) {
     if (el.value && el.value.length > 0) continue; // Skip already-filled
@@ -826,12 +826,12 @@ async function fillGeneric(profile: UserProfile): Promise<void> {
     }
 
     if (fillValue) {
-      console.log(`[ApplyFlow ATS] Generic matched field "${combined.substring(0, 50)}..." -> "${fillValue}"`);
+      if (import.meta.env.DEV) console.log(`[ApplyFlow ATS] Generic matched field -> filling value`);
       el.focus();
       safeSetValue(el as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement, fillValue);
       await humanDelay();
     } else {
-      console.log(`[ApplyFlow ATS] No match for field text: "${combined.substring(0, 80)}..."`);
+      if (import.meta.env.DEV) console.log(`[ApplyFlow ATS] No match for field text: "${combined.substring(0, 80)}..."`);
     }
   }
 
@@ -883,7 +883,7 @@ async function fillGeneric(profile: UserProfile): Promise<void> {
         const label = querySelectorDeep(`label[for="${radio.id}"]`);
         const labelText = (label?.innerHTML || (label as HTMLElement)?.innerText || radio.nextElementSibling?.textContent || radio.parentElement?.innerText || '').toLowerCase();
         if (/yes|available|can start/i.test(labelText) && !/no\b|other/i.test(labelText)) {
-          console.log(`[ApplyFlow ATS] Generic matched radio option for "${groupLabel.substring(0, 50)}" -> "${labelText.trim()}"`);
+          if (import.meta.env.DEV) console.log(`[ApplyFlow ATS] Generic matched radio option for availability.`);
           radio.click();
           radio.dispatchEvent(new Event('change', { bubbles: true }));
           radio.dispatchEvent(new Event('input', { bubbles: true }));
@@ -980,12 +980,12 @@ export async function runATSFill(profile: UserProfile): Promise<{ filled: number
 
   const platform = detectATSPlatform();
   let filled = 0;
-  console.log('[ApplyFlow ATS] runATSFill started. Detected platform:', platform);
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] runATSFill started. Detected platform:', platform);
 
   const res = await chrome.storage.local.get('settings');
   const settings = (res.settings || {}) as { isPremium?: boolean };
   const isPremium = !!settings.isPremium;
-  console.log('[ApplyFlow ATS] isPremium settings:', isPremium);
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] isPremium:', isPremium);
 
   const freePlatforms: ATSPlatform[] = ['linkedin', 'internshala', 'unstop'];
   if (!isPremium && !freePlatforms.includes(platform)) {
@@ -997,54 +997,54 @@ export async function runATSFill(profile: UserProfile): Promise<{ filled: number
   try {
     switch (platform) {
       case 'linkedin':
-        console.log('[ApplyFlow ATS] Executing fillLinkedIn');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillLinkedIn');
         await fillLinkedIn(profile);
         break;
       case 'internshala':
-        console.log('[ApplyFlow ATS] Executing fillInternshala');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillInternshala');
         await fillInternshala(profile);
         break;
       case 'unstop':
-        console.log('[ApplyFlow ATS] Executing fillUnstop');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillUnstop');
         await fillUnstop(profile);
         break;
       case 'workday':
-        console.log('[ApplyFlow ATS] Executing fillWorkday');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillWorkday');
         await fillWorkday(profile);
         break;
       case 'greenhouse':
-        console.log('[ApplyFlow ATS] Executing fillGreenhouse');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillGreenhouse');
         await fillGreenhouse(profile);
         break;
       case 'lever':
-        console.log('[ApplyFlow ATS] Executing fillLever');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillLever');
         await fillLever(profile);
         break;
       case 'icims':
-        console.log('[ApplyFlow ATS] Executing fillICIMS');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillICIMS');
         await fillICIMS(profile);
         break;
       case 'smartrecruiters':
-        console.log('[ApplyFlow ATS] Executing fillSmartRecruiters');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillSmartRecruiters');
         await fillSmartRecruiters(profile);
         break;
       case 'naukri':
-        console.log('[ApplyFlow ATS] Executing fillNaukri');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillNaukri');
         await fillNaukri(profile);
         break;
       case 'indeed':
-        console.log('[ApplyFlow ATS] Executing fillIndeed');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillIndeed');
         await fillIndeed(profile);
         break;
       default:
-        console.log('[ApplyFlow ATS] Executing fillGeneric fallback');
+        if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing fillGeneric fallback');
         await fillGeneric(profile);
         break;
     }
 
     // Always run the generic filler as a second pass to catch any remaining fields
     if (platform !== 'generic') {
-      console.log('[ApplyFlow ATS] Executing second-pass fillGeneric');
+      if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Executing second-pass fillGeneric');
       await fillGeneric(profile);
     }
 
@@ -1099,21 +1099,23 @@ if (typeof window !== 'undefined' && typeof chrome !== 'undefined' && chrome.run
   (window as any).__applyFlowAtsFillerInjected = true;
   console.log('[ApplyFlow ATS] atsFiller.ts injected and listening for messages.');
 
-  chrome.runtime.onMessage.addListener((message: { type: string; payload?: any }) => {
-    console.log('[ApplyFlow ATS] Message received in listener:', message);
+  chrome.runtime.onMessage.addListener((message: { type: string; payload?: any }, sender) => {
+    if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Message received in listener:', message.type);
+    // SECURITY: Only accept messages from this extension
+    if (sender.id !== chrome.runtime.id) return;
     if (message.type === 'DO_ATS_FILL') {
       const { profile } = message.payload;
-      console.log('[ApplyFlow ATS] Triggering runATSFill with profile data');
+      if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Triggering runATSFill');
       runATSFill(profile)
         .then((result) => {
-          console.log('[ApplyFlow ATS] runATSFill execution completed:', result);
+          if (import.meta.env.DEV) console.log('[ApplyFlow ATS] runATSFill completed:', result);
         })
         .catch(err => console.error('[ApplyFlow ATS] runATSFill failed:', err));
     }
   });
 
   // Notify the service worker that we are ready
-  console.log('[ApplyFlow ATS] Sending ATS_FILLER_READY to background script...');
+  if (import.meta.env.DEV) console.log('[ApplyFlow ATS] Sending ATS_FILLER_READY to background script...');
   chrome.runtime.sendMessage({ type: 'ATS_FILLER_READY' })
     .catch((err) => console.warn('[ApplyFlow ATS] Failed to send ATS_FILLER_READY:', err));
 }

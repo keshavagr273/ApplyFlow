@@ -48,7 +48,8 @@ export const GroqAIService = {
         throw new Error("Empty response from Groq");
       }
       
-      console.error("=== RAW AI OUTPUT ===", responseText);
+      // SECURITY: Never log full AI responses in production (may contain PII)
+      if (import.meta.env.DEV) console.log("=== RAW AI OUTPUT ===", responseText);
 
       if (jsonMode) {
         let cleaned = responseText.trim();
@@ -228,7 +229,7 @@ ${pdfText}
     apiKey: string,
     isDemo = true
   ): Promise<Array<{ elementId: string; value: string; mappedTo: keyof UserProfile | 'custom_answer' }>> {
-    const success = await Storage.deductCredits(0, 'smart_autofill');
+    const success = await Storage.deductCredits(1, 'smart_autofill');
     if (!success) {
       throw new Error('Insufficient AI credits. Please purchase a top-up or upgrade your plan.');
     }

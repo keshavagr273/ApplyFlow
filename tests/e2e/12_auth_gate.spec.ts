@@ -8,7 +8,7 @@ async function setLoggedIn(page: any, email = 'user@gmail.com', name = 'Test Use
           userEmail: e,
           userDisplayName: n,
           userAvatar: '',
-          isPremium: false,
+          isPremium: e === 'keshavagrawal273@gmail.com',
           enableOverlay: true,
           showClipButton: true,
           demoMode: false,

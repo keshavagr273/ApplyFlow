@@ -392,8 +392,8 @@ export default function AIAssistant() {
               if (label === 'Cover Letter') return t('cover_letter');
               if (label === 'Analyze Job') return t('analyze_job');
               if (label === 'Custom Answers') return t('custom_answers_title');
-              if (label === 'Tailor Resume') return t('resume_title');
-              if (label === 'Interview Prep') return t('interview_status');
+              if (label === 'Tailor Resume') return t('tailor_resume_title');
+              if (label === 'Interview Prep') return t('interview_prep_title');
               return label;
             };
             return (

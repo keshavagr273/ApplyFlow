@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Открит",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Не е открита страница за работа",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ проследени приложения · $2$ интервюта",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Започнете да кандидатствате, за да проследите напредъка си",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Анализирано на $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Да се заредят подробности за профила от „$1$“? Това ще замени текущите ви редакции с анализираната структура на тази автобиография.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Възстановени подробности от $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Резултат от мача",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Подходящ",
-    "description": "Fit percent text"
+    "message": "$1$% Подходящ",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ още",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Приложението е автоматично попълнено и регистрирано! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ записи",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ умения",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ проекти",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ отговори",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Упълномощен",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ приложения",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Филтриране по фирма...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ общо приложения",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Все още няма данни",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Контекст: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Вашият кариерен втори пилот",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Ето $1$ вероятни въпроси за интервю:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Възобновете резултата за оптимизация: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Възобновяване на предложенията за съвпадение",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "здрасти Виждам, че търсите **$1$** роля на **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "здрасти Виждам, че гледаш на **$1$** роля.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "здрасти Аз съм вашият AI кариерен втори пилот. Отидете до обява за работа и аз автоматично ще я анализирам или ще ме попитате каквото и да било!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Влезли сте като $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Излезте",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Вашата автобиография е **$1$% съвместима** с тази длъжност.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Добре дошъл отново, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Неуспешно извличане на информация за потребителския профил в Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Неуспешно влизане в OAuth: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Неуспешно извличане на маркер за достъп от пренасочване.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Лицензионен ключ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Деактивиране на лиценза",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Командите за разширение на Chrome изискват ръчно присвояване в диспечера за бързи клавиши на Chrome. Отидете на $1$, за да свържете ключовете, изброени по-горе.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Разширение ApplyFlow за Chrome — Декларация за поверителност**\nПоследна актуализация: юни 2026\n\n---\n\n**1. Въведение**\n\nApplyFlow („ние“, „наше“, „разширението“) е разширение за браузър Chrome, което помага на потребителите да попълват автоматично формуляри за кандидатстване за работа, да проследяват своите кандидатури и да управляват своя професионален профил. Тази Политика за поверителност обяснява как събираме, използваме, съхраняваме и защитаваме вашата информация.\n\nС инсталирането и използването на ApplyFlow вие се съгласявате с практиките, описани в тази политика.\n\n---\n\n**2. Данни, които събираме**\n\nСъбираме само информацията, която предоставяте доброволно, за да активирате функциите на разширението:\n\n• **Профилна информация**: Вашето име, имейл, телефонен номер, колеж, степен, умения, трудова история, проекти и професионални връзки (LinkedIn, GitHub, Портфолио).\n• **EEO/Демографска информация (по избор)**: Пол, статут на увреждане, статут на ветеран и предпочитания за разрешение за работа — предоставя се само ако изберете да попълните тези полета. Тези данни се използват изключително за автоматично попълване на незадължителни EEO въпросници за кандидатури за работа.\n• **Данни за проследяване на кандидатури**: Длъжност, компания, URL адрес на кандидатурата, статус и бележки за позиции, които проследявате с помощта на разширението.\n• **Статистика на използването**: Брой извършени операции за автоматично попълване (съхранява се локално за налагане на дневни ограничения).\n• **Данни за удостоверяване**: Ако изберете да влезете с Google, ние съхраняваме вашето показвано име в Google, имейл адрес и URL адрес на профилна снимка, за да персонализираме вашето изживяване и да активираме синхронизиране в облака.\n\nНие **не** събираме:\n• Плащателна или финансова информация\n• История на браузъра или обща активност при сърфиране\n• Всякаква информация от страници, които не са свързани с кандидатстване за работа\n• Всички данни от страници, когато разширението не е активно задействано\n\n---\n\n**3. Как съхраняваме вашите данни**\n\n**3.1 Локално съхранение (по подразбиране)**\nВсички данни се съхраняват основно в chrome.storage.local API на вашия браузър. Тези данни се намират само на вашето устройство и никога не се предават на който и да е сървър без изричното ви действие.\n\n**3.2 Облачно синхронизиране (по избор)**\nАко изберете да влезете с Google и активирате функцията „Supabase Sync“, данните за вашия профил и приложение също ще бъдат синхронизирани с база данни на Supabase. Вие запазвате пълната собственост върху тези данни. Можете да го изтриете по всяко време от секцията Акаунт и синхронизиране.\n\n**3.3 Gemini AI Requests**\nКогато се използват AI функции (напр. генериране на есе, анализ на работа), части от вашия профил (умения, степен, резюме) и текстът на описанието на длъжността се изпращат до Gemini API на Google за генериране на отговора. Това се обработва съгласно стандартните условия на API на Google и Декларацията за поверителност. Препоръчваме да не включвате чувствителни лични идентификатори във вашето съдържание, подпомагано от AI.\n\n---\n\n**4. Споделяне на данни**\n\nНие **не** продаваме, търгуваме, отдаваме под наем или споделяме вашата лична информация с трети страни за маркетингови или рекламни цели.\n\nВашите данни може да бъдат обработени от следните доверени услуги:\n• **Google Gemini API**: За попълване и анализ на формуляри, базирани на AI (https://policies.google.com/privacy)\n• **Google OAuth**: За удостоверяване на акаунт (https://policies.google.com/privacy)\n• **Supabase**: За опционално облачно съхранение (https://supabase.com/privacy) — само ако активирате синхронизиране\n\n---\n\n**5. Вашите права и контрол**\n\nИмате право на:\n• **Достъп** до всички данни, съхранени от ApplyFlow за вас (чрез Експортиране на резервно копие в настройките)\n• **Коригиране** на информацията ви по всяко време в раздела Профил\n• **Изтриване** на всички ваши данни локално чрез „Изчистване на всички профилни данни“ в настройките\n• **Оттеглете съгласието** по всяко време, като деинсталирате разширението\n• **Деактивирайте облачната синхронизация**, като я изключите в настройките на акаунта и синхронизирането\n\n**GDPR (Потребители в ЕС)**: Ако сте жител на ЕС, имате права на достъп, коригиране, изтриване, ограничаване на обработката и преносимост на данните съгласно Общия регламент за защита на данните.\n\n**Индия — DPDP Act 2023**: В съответствие с индийския Закон за защита на цифровите лични данни от 2023 г. ние обработваме лични данни само за целите на предоставяне на услугата за помощ при кандидатстване за работа. Можете да оттеглите съгласието си и да поискате изтриване на вашите данни по всяко време, като се свържете с нас.\n\n**Калифорния — CCPA**: Жителите на Калифорния имат право да знаят каква лична информация се събира, право на изтриване и право на отказ от продажба (ние не продаваме данни).\n\n---\n\n**6. Запазване на данни**\n\nЛокалните данни се запазват, докато не ги изчистите ръчно. Синхронизираните в облак данни се запазват, докато не изтриете акаунта си или не поискате изтриване. Ние не изтриваме автоматично данни.\n\n---\n\n**7. Сигурност**\n\nНие вземаме разумни технически мерки, за да защитим вашите данни:\n• Всички облачни комуникации използват HTTPS/TLS криптиране\n• Supabase Row-Level Security (RLS) гарантира, че потребителите могат да имат достъп само до собствените си данни\n• Разширението не изисква разрешения извън това, което е необходимо за неговото ядро функция\n\n---\n\n**8. Поверителност на децата**\n\nApplyFlow не е предназначен за потребители под 13 години. Ние не събираме съзнателно данни от деца. Ако смятате, че дете ни е предоставило лична информация, моля, свържете се незабавно с нас.\n\n---\n\n**9. Промени в тази Политика**\n\n Може да актуализираме тази Политика за поверителност от време на време. Значителни промени ще бъдат съобщени чрез страницата с опции на разширението. Продължаващото използване на разширението след промени представлява приемане на актуализираната политика.\n\n---\n\n**10. Свържете се с нас**\n\nЗа всякакви въпроси, свързани с поверителността, искания за изтриване на данни или притеснения:\n\nИмейл: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nУебсайт: https://applyflow.in\n\nИмаме за цел да отговорим на всички заявки в рамките на 30 дни.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

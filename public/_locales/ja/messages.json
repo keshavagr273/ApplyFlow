@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ が検出されました",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "ジョブページが検出されませんでした",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ 件の応募を追跡 · $2$ 件の面接",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "申請を開始して進捗状況を追跡しましょう",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$ で解析されました",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "「$1$」からプロファイルの詳細を読み込みますか?これにより、現在の編集内容がこの履歴書の解析された構造に置き換えられます。",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ から詳細を復元しました",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "試合スコア",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ フィット",
-    "description": "Fit percent text"
+    "message": "$1$% フィット",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ 詳細",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "アプリケーションは自動入力され、記録されます。 ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ エントリ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ スキル",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ プロジェクト",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ の回答",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "認可された",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ アプリケーション",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "会社でフィルタリング...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "合計 $1$ 件のアプリケーション",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "まだデータがありません",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "コンテキスト: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "あなたのキャリアの副操縦士",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "面接でよくある $1$ の質問は次のとおりです。",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "再開最適化スコア: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "再開マッチの提案",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "こんにちは！ **$2$** の **$1$** ロールを見ていることがわかります。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "こんにちは！ **$1$** の役割を検討していることがわかります。",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "こんにちは！私はあなたの AI キャリアの副操縦士です。求人情報に移動すると、自動的に分析されたり、何か質問されたりします。",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ としてログインしています",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "サインアウト",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "あなたの履歴書はこの役割に **$1$% 適合します**。",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "おかえりなさい、$1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google ユーザーのプロフィール情報を取得できませんでした。",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth ログインに失敗しました: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "リダイレクトからのアクセストークンの取得に失敗しました。",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "ライセンス キー: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "ライセンスの無効化",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome 拡張コマンドを使用するには、Chrome のショートカット マネージャーで手動で割り当てる必要があります。 $1$ に移動して、上記のキーをバインドします。",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome 拡張機能 — プライバシー ポリシー**\n最終更新日: 2026 年 6 月\n\n---\n\n**1。はじめに**\n\nApplyFlow (「当社」、「当社の」、「拡張機能」) は、ユーザーが求人応募フォームに自動入力し、応募を追跡し、職業プロフィールを管理するのに役立つ Chrome ブラウザ拡張機能です。このプライバシー ポリシーでは、当社がお客様の情報を収集、使用、保存、保護する方法について説明します。\n\nApplyFlow をインストールして使用すると、このポリシーに記載されている慣行に同意したことになります。\n\n---\n\n**2。当社が収集するデータ**\n\n拡張機能の機能を有効にするためにお客様が自発的に提供した情報のみを収集します:\n\n• **プロフィール情報**: あなたの名前、電子メール、電話番号、大学、学位、スキル、職歴、プロジェクト、専門リンク (LinkedIn、GitHub、ポートフォリオ)。\n• **EEO/人口統計情報 (オプション)**:性別、障害ステータス、退役軍人のステータス、および就労許可の設定 - これらのフィールドに入力することを選択した場合にのみ提供されます。このデータは、求人応募に関するオプションの EEO アンケートを自動入力するためにのみ使用されます。\n• **応募追跡データ**: 役職名、会社、応募 URL、ステータス、拡張機能を使用して追跡するポジションのメモ。\n• **使用状況統計**: 実行された自動入力操作の数 (1 日の制限を適用するためにローカルに保存されます)。\n• **認証データ**: Google でログインすることを選択した場合、エクスペリエンスをパーソナライズし、クラウド同期を有効にするための Google 表示名、メール アドレス、プロフィール写真の URL。\n\n次の情報は**収集されません**:\n• 支払いまたは財務情報\n• ブラウザ履歴または一般的な閲覧アクティビティ\n• 求人応募に関連しないページからの情報\n• 拡張機能がアクティブでないときのページからのデータトリガー\n\n---\n\n**3。データの保存方法**\n\n**3.1 ローカル ストレージ (デフォルト)**\nすべてのデータは主にブラウザの chrome.storage.local API に保存されます。このデータはデバイス上にのみ存在し、明示的な操作がない限りサーバーに送信されることはありません。\n\n**3.2 クラウド同期 (オプション)**\nGoogle でサインインして「Supabase Sync」機能を有効にすることを選択した場合、プロフィールとアプリケーション データも Supabase データベースに同期されます。あなたはこのデータの完全な所有権を保持します。 [アカウントと同期] セクションでいつでも削除できます。\n\n**3.3 Gemini AI リクエスト**\nAI 機能が使用される場合 (エッセイ生成、職務分析など)、プロフィールの一部 (スキル、学位、概要) と職務内容のテキストが Google の Gemini API に送信され、応答が生成されます。これは、Google の標準 API 利用規約およびプライバシー ポリシーに基づいて処理されます。 AI 支援コンテンツには機密の個人識別子を含めないことをお勧めします。\n\n---\n\n**4。データ共有**\n\n当社は、マーケティングや広告目的でお客様の個人情報を第三者と販売、取引、貸与、共有することは**しません**。\n\nお客様のデータは、次の信頼できるサービスによって処理される場合があります:\n• **Google Gemini API**: AIを活用したフォーム入力と分析用(https://policies.google.com/privacy)\n• **Google OAuth**: アカウント認証用 (https://policies.google.com/privacy)\n• **Supabase**: オプションのクラウド ストレージ用 (https://supabase.com/privacy) — 有効にした場合のみ同期\n\n---\n\n**5。お客様の権利と管理**\n\nあなたには次の権利があります:\n• ApplyFlow が保存したあなたに関するすべてのデータに **アクセス** (設定のバックアップのエクスポート経由)\n• [プロファイル] タブでいつでもあなたの情報を**修正**\n• 設定の [すべてのプロファイル データをクリア] を使用してローカルですべてのデータを **削除**\n• **撤回拡張機能をアンインストールすることでいつでも同意**\n• **アカウントと同期設定でオフに切り替えてクラウド同期を無効にします\n\n**GDPR (EU ユーザー)**: EU 居住者の場合、一般データ保護に基づいてアクセス、修正、消去、処理の制限、およびデータの移植性を行う権利があります。規制.\n\n**インド — DPDP 法 2023**: インドのデジタル個人データ保護法 2023 に従って、当社は求職支援サービスを提供する目的でのみ個人データを処理します。当社にご連絡いただくことで、いつでも同意を撤回し、データの削除をリクエストすることができます。\n\n**カリフォルニア州 — CCPA**: カリフォルニア州の居住者は、どのような個人情報が収集されるかを知る権利、削除する権利、および販売をオプトアウトする権利を有します (当社はデータを販売しません)。\n\n---\n\n**6。データの保持**\n\nローカル データは、手動で消去するまで保持されます。クラウド同期データは、アカウントを削除するか削除をリクエストするまで保持されます。データは自動的に削除されません。\n\n---\n\n**7。セキュリティ**\n\n当社では、お客様のデータを保護するために合理的な技術的措置を講じています:\n• すべてのクラウド通信は HTTPS/TLS 暗号化を使用します\n• Supabase 行レベル セキュリティ (RLS) により、ユーザーは自分のデータのみにアクセスできるようにします\n• 拡張機能は、コアに必要な権限を超えた権限を要求しません関数\n\n---\n\n**8。子供のプライバシー**\n\nApplyFlow は 13 歳未満のユーザーを対象としていません。当社は故意に子供からデータを収集しません。お子様が当社に個人情報を提供したと思われる場合は、直ちに当社にご連絡ください。\n\n---\n\n**9。このポリシーの変更**\n\n当社は、このプライバシー ポリシーを随時更新することがあります。重要な変更は、拡張機能の [オプション] ページを通じて通知されます。変更後に拡張機能を継続して使用すると、更新されたポリシーに同意したことになります。\n\n---\n\n**10。お問い合わせ**\n\nプライバシー関連の質問、データ削除リクエスト、懸念事項については:\n\nメール:privacy@applyflow.in\nGitHub:https://github.com/applyflow/extension\nWebサイト: https://applyflow.in\n\nすべてのリクエストには 30 日以内に対応することを目指しています。",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

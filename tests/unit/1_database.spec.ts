@@ -101,14 +101,18 @@ describe('Settings API', () => {
     expect(s.theme).toBe('light');
   });
 
-  test('getSettings always returns the hardcoded geminiApiKey', async () => {
+  test('getSettings returns empty geminiApiKey by default (no hardcoded key shipped)', async () => {
+    // SECURITY: Hardcoded fallback keys were removed. The key is empty until the
+    // user enters their own in Settings, or VITE_GEMINI_API_KEY env var is set.
     const s = await Storage.getSettings();
-    expect(s.geminiApiKey).toBe('AIzaSyBq-whqtAErXrbshvOFX9J22-7AMWSItAo');
+    expect(s.geminiApiKey).toBe('');
   });
 
-  test('getSettings always returns the hardcoded supabaseUrl', async () => {
+  test('getSettings returns empty supabaseUrl by default (no hardcoded URL shipped)', async () => {
+    // SECURITY: Hardcoded fallback URLs were removed. The URL is empty until
+    // VITE_SUPABASE_URL env var is set.
     const s = await Storage.getSettings();
-    expect(s.supabaseUrl).toBe('https://lqddvilwmqthidjklghv.supabase.co');
+    expect(s.supabaseUrl).toBe('');
   });
 
   test('getSettings always forces demoMode=false even if stored as true', async () => {
@@ -117,10 +121,12 @@ describe('Settings API', () => {
     expect(s.demoMode).toBe(false);
   });
 
-  test('getSettings forces isPremium=true for keshavagrawal273@gmail.com', async () => {
+  test('getSettings does NOT auto-grant isPremium for any email (dev bypass removed)', async () => {
+    // SECURITY: The hardcoded email bypass was a P2 vulnerability. It is removed.
+    // Premium is now only granted server-side via Supabase.
     mockStorage['settings'] = { userEmail: 'keshavagrawal273@gmail.com', isPremium: false };
     const s = await Storage.getSettings();
-    expect(s.isPremium).toBe(true);
+    expect(s.isPremium).toBe(false);
   });
 
   test('getSettings enables supabaseSyncEnabled only when isPremium AND userEmail present', async () => {
@@ -149,10 +155,11 @@ describe('Settings API', () => {
     expect(s.demoMode).toBe(false); // unchanged default
   });
 
-  test('setSettings enforces isPremium=true for keshavagrawal273@gmail.com', async () => {
+  test('setSettings does NOT auto-grant isPremium for any email (dev bypass removed)', async () => {
+    // SECURITY: The hardcoded email bypass was a P2 vulnerability. It is removed.
     await Storage.setSettings({ userEmail: 'keshavagrawal273@gmail.com', isPremium: false });
     const s = await Storage.getSettings();
-    expect(s.isPremium).toBe(true);
+    expect(s.isPremium).toBe(false);
   });
 
   test('setSettings updates userDisplayName and userAvatar', async () => {

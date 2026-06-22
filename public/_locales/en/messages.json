@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Detected",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "No job page detected",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ applications tracked · $2$ interviews",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Start applying to track your progress",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Parsed on $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Load profile details from \"$1$\"? This will replace your current edits with this resume's parsed structure.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Restored details from $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Match Score",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Fit",
-    "description": "Fit percent text"
+    "message": "$1$% Fit",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ more",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Application autofilled and logged! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ entries",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ skills",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projects",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ answers",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Authorized",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ applications",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Filter by company...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ total applications",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "No data yet",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Context: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Your career copilot",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Here are $1$ likely interview questions:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Resume optimization score: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Resume Match Suggestions",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hi! I can see you're looking at a **$1$** role at **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hi! I can see you're looking at a **$1$** role.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hi! I'm your AI career copilot. Navigate to a job listing and I'll automatically analyze it, or ask me anything!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Logged in as $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Sign Out",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Your resume is **$1$% compatible** with this role.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Welcome back, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Failed to fetch Google user profile info.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth Login Failed: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Failed to fetch access token from redirect.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "License key: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Deactivate License",
@@ -1399,47 +1520,177 @@
     "message": "❓ Frequently Asked Questions",
     "description": "Section header for FAQ page"
   },
-  "faq_q1": { "message": "What is ApplyFlow and how does it work?", "description": "FAQ Question 1" },
-  "faq_a1": { "message": "ApplyFlow is an AI-powered Chrome extension that automatically detects and fills job application forms across 15+ platforms including LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, and more. It reads your saved profile and uses intelligent matching to fill text fields, dropdowns, radio buttons, and checkboxes — including EEO/demographic questions.", "description": "FAQ Answer 1" },
-  "faq_q2": { "message": "Is my personal data safe with ApplyFlow?", "description": "FAQ Question 2" },
-  "faq_a2": { "message": "Yes. Your data is stored locally in your browser's chrome.storage.local by default. It is never sent to any third-party server other than your own optional Supabase database (which you control). ApplyFlow never sells, shares, or monetizes your personal information.", "description": "FAQ Answer 2" },
-  "faq_q3": { "message": "Which job platforms does ApplyFlow support?", "description": "FAQ Question 3" },
-  "faq_a3": { "message": "ApplyFlow supports 15+ platforms out of the box: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, and any other site via our intelligent generic fallback matcher.", "description": "FAQ Answer 3" },
-  "faq_q4": { "message": "What is the Web Clipper?", "description": "FAQ Question 4" },
-  "faq_a4": { "message": "The Web Clipper is a floating \"Save Job\" button (📌) that automatically appears when you visit any job listing page. Clicking it extracts the job title, company, salary, and description, then saves it to your ApplyFlow tracker as a \"Saved\" application — so you can track jobs before applying.", "description": "FAQ Answer 4" },
-  "faq_q5": { "message": "How do I update my profile?", "description": "FAQ Question 5" },
-  "faq_a5": { "message": "Open the ApplyFlow popup, click the \"Profile\" tab, and upload your resume PDF. The AI will auto-populate all your fields. You can also manually edit any field including your EEO preferences, work authorization, and cover letters.", "description": "FAQ Answer 5" },
-  "faq_q6": { "message": "What are EEO fields and why do I need them?", "description": "FAQ Question 6" },
-  "faq_a6": { "message": "EEO (Equal Employment Opportunity) fields are questions that many US and global employers ask about gender, disability status, veteran status, and work authorization. ApplyFlow stores your preferred answers and automatically fills these radio button groups so you don't have to answer them manually every time.", "description": "FAQ Answer 6" },
-  "faq_q7": { "message": "Does ApplyFlow require any API keys or configuration?", "description": "FAQ Question 7" },
-  "faq_a7": { "message": "No! ApplyFlow handles all form detection, smart matching, cover letter generation, and compatibility scoring automatically. You do not need to obtain or configure any API keys.", "description": "FAQ Answer 7" },
-  "faq_q8": { "message": "What is Supabase sync and do I need it?", "description": "FAQ Question 8" },
-  "faq_a8": { "message": "Supabase sync is an optional cloud backup feature. When you sign in with Google and enable it, your profile and application tracker are synced to a private cloud database so your data is backed up and accessible from multiple devices. This is completely optional — the extension works fully offline.", "description": "FAQ Answer 8" },
-  "faq_q9": { "message": "Why does ApplyFlow need access to all websites?", "description": "FAQ Question 9" },
-  "faq_a9": { "message": "ApplyFlow requests access to all websites so it can inject the autofill engine on any job application form, and show the \"Save Job\" clipper button on any job listing. This permission is required for broad platform support. We only inject scripts on pages that are clearly job-related.", "description": "FAQ Answer 9" },
-  "faq_q10": { "message": "What is the Kanban Board?", "description": "FAQ Question 10" },
-  "faq_a10": { "message": "The Kanban Board is a visual job tracking view in the Tracker tab. It shows your applications organized in columns: Saved → Applied → Assessment → Interview → Offer. You can drag and drop cards between columns to update the status of any application.", "description": "FAQ Answer 10" },
-  "faq_q11": { "message": "How does submission detection work?", "description": "FAQ Question 11" },
-  "faq_a11": { "message": "When you enable \"Log only after submission\" in settings, ApplyFlow watches for page changes that indicate a successful submission (like a URL containing \"/success\" or body text saying \"Thank you for applying\"). It only logs the application to your tracker after it detects a real submission.", "description": "FAQ Answer 11" },
-  "faq_q12": { "message": "Can I store multiple cover letters?", "description": "FAQ Question 12" },
-  "faq_a12": { "message": "Yes! The Profile screen has a \"Cover Letter Vault\" section where you can store unlimited cover letters tailored to different roles or companies. When autofilling, ApplyFlow will use your most recent or most relevant cover letter.", "description": "FAQ Answer 12" },
-  "faq_q13": { "message": "How do I export my application data?", "description": "FAQ Question 13" },
-  "faq_a13": { "message": "Go to Account & Sync → scroll to the bottom → click \"Export Backup (JSON)\". This downloads all your profile and application data as a JSON file for safekeeping.", "description": "FAQ Answer 13" },
-  "faq_q14": { "message": "Does ApplyFlow work in Demo Mode?", "description": "FAQ Question 14" },
-  "faq_a14": { "message": "Demo Mode was a legacy setting used for testing. It is now disabled by default. All features are live and functional with the built-in Gemini API key.", "description": "FAQ Answer 14" },
-  "faq_q15": { "message": "How do I report a bug or request a feature?", "description": "FAQ Question 15" },
-  "faq_a15": { "message": "Please open an issue on our GitHub repository (linked in the About section) or email us at support@applyflow.in. We typically respond within 48 hours.", "description": "FAQ Answer 15" },
-  "shortcut_desc1": { "message": "Open ApplyFlow popup", "description": "Shortcut explanation" },
-  "shortcut_desc2": { "message": "Scan current page for form fields", "description": "Shortcut explanation" },
-  "shortcut_desc3": { "message": "Trigger Smart Autofill on current page", "description": "Shortcut explanation" },
-  "shortcut_desc4": { "message": "Clip current job listing to tracker", "description": "Shortcut explanation" },
-  "shortcut_desc5": { "message": "Open Tracker in a new tab", "description": "Shortcut explanation" },
-  "shortcut_configure_label": { "message": "Configure shortcuts in Chrome at", "description": "Shortcut help text label" },
-  "shortcut_note_title": { "message": "Note:", "description": "Shortcut note prefix bold" },
-  "shortcut_note_desc": { "message": "Chrome extension commands require manual assignment in Chrome's shortcut manager. Go to $1$ to bind the keys listed above.", "description": "Shortcut note description" },
+  "faq_q1": {
+    "message": "What is ApplyFlow and how does it work?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow is an AI-powered Chrome extension that automatically detects and fills job application forms across 15+ platforms including LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, and more. It reads your saved profile and uses intelligent matching to fill text fields, dropdowns, radio buttons, and checkboxes — including EEO/demographic questions.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Is my personal data safe with ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Yes. Your data is stored locally in your browser's chrome.storage.local by default. It is never sent to any third-party server other than your own optional Supabase database (which you control). ApplyFlow never sells, shares, or monetizes your personal information.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Which job platforms does ApplyFlow support?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow supports 15+ platforms out of the box: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, and any other site via our intelligent generic fallback matcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "What is the Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "The Web Clipper is a floating \"Save Job\" button (📌) that automatically appears when you visit any job listing page. Clicking it extracts the job title, company, salary, and description, then saves it to your ApplyFlow tracker as a \"Saved\" application — so you can track jobs before applying.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "How do I update my profile?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Open the ApplyFlow popup, click the \"Profile\" tab, and upload your resume PDF. The AI will auto-populate all your fields. You can also manually edit any field including your EEO preferences, work authorization, and cover letters.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "What are EEO fields and why do I need them?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Equal Employment Opportunity) fields are questions that many US and global employers ask about gender, disability status, veteran status, and work authorization. ApplyFlow stores your preferred answers and automatically fills these radio button groups so you don't have to answer them manually every time.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Does ApplyFlow require any API keys or configuration?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "No! ApplyFlow handles all form detection, smart matching, cover letter generation, and compatibility scoring automatically. You do not need to obtain or configure any API keys.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "What is Supabase sync and do I need it?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sync is an optional cloud backup feature. When you sign in with Google and enable it, your profile and application tracker are synced to a private cloud database so your data is backed up and accessible from multiple devices. This is completely optional — the extension works fully offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Why does ApplyFlow need access to all websites?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow requests access to all websites so it can inject the autofill engine on any job application form, and show the \"Save Job\" clipper button on any job listing. This permission is required for broad platform support. We only inject scripts on pages that are clearly job-related.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "What is the Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "The Kanban Board is a visual job tracking view in the Tracker tab. It shows your applications organized in columns: Saved → Applied → Assessment → Interview → Offer. You can drag and drop cards between columns to update the status of any application.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "How does submission detection work?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "When you enable \"Log only after submission\" in settings, ApplyFlow watches for page changes that indicate a successful submission (like a URL containing \"/success\" or body text saying \"Thank you for applying\"). It only logs the application to your tracker after it detects a real submission.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Can I store multiple cover letters?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Yes! The Profile screen has a \"Cover Letter Vault\" section where you can store unlimited cover letters tailored to different roles or companies. When autofilling, ApplyFlow will use your most recent or most relevant cover letter.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "How do I export my application data?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Go to Account & Sync → scroll to the bottom → click \"Export Backup (JSON)\". This downloads all your profile and application data as a JSON file for safekeeping.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Does ApplyFlow work in Demo Mode?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo Mode was a legacy setting used for testing. It is now disabled by default. All features are live and functional with the built-in Gemini API key.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "How do I report a bug or request a feature?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Please open an issue on our GitHub repository (linked in the About section) or email us at support@applyflow.in. We typically respond within 48 hours.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Open ApplyFlow popup",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Scan current page for form fields",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Trigger Smart Autofill on current page",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Clip current job listing to tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Open Tracker in a new tab",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Configure shortcuts in Chrome at",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Note:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome extension commands require manual assignment in Chrome's shortcut manager. Go to $1$ to bind the keys listed above.",
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome Extension — Privacy Policy**\nLast Updated: June 2026\n\n---\n\n**1. Introduction**\n\nApplyFlow (\"we\", \"our\", \"the Extension\") is a Chrome browser extension that helps users autofill job application forms, track their applications, and manage their professional profile. This Privacy Policy explains how we collect, use, store, and protect your information.\n\nBy installing and using ApplyFlow, you agree to the practices described in this policy.\n\n---\n\n**2. Data We Collect**\n\nWe collect only the information you voluntarily provide to enable the extension's features:\n\n• **Profile Information**: Your name, email, phone number, college, degree, skills, work history, projects, and professional links (LinkedIn, GitHub, Portfolio).\n• **EEO/Demographic Information (Optional)**: Gender, disability status, veteran status, and work authorization preferences — provided only if you choose to fill these fields. This data is used exclusively to autofill optional EEO questionnaires on job applications.\n• **Application Tracking Data**: Job title, company, application URL, status, and notes for positions you track using the extension.\n• **Usage Statistics**: Number of autofill operations performed (stored locally to enforce daily limits).\n• **Authentication Data**: If you choose to sign in with Google, we store your Google display name, email address, and profile picture URL to personalize your experience and enable cloud sync.\n\nWe do **not** collect:\n• Payment or financial information\n• Browser history or general browsing activity\n• Any information from pages that are not job-application-related\n• Any data from pages when the extension is not actively triggered\n\n---\n\n**3. How We Store Your Data**\n\n**3.1 Local Storage (Default)**\nAll data is primarily stored in your browser's chrome.storage.local API. This data resides only on your device and is never transmitted to any server without your explicit action.\n\n**3.2 Cloud Sync (Optional)**\nIf you choose to sign in with Google and enable the \"Supabase Sync\" feature, your profile and application data will also be synchronized to a Supabase database. You retain full ownership of this data. You can delete it at any time from the Account & Sync section.\n\n**3.3 Gemini AI Requests**\nWhen AI features are used (e.g., essay generation, job analysis), portions of your profile (skills, degree, summary) and the job description text are sent to Google's Gemini API to generate the response. This is processed under Google's standard API Terms of Service and Privacy Policy. We recommend not including sensitive personal identifiers in your AI-assisted content.\n\n---\n\n**4. Data Sharing**\n\nWe do **not** sell, trade, rent, or share your personal information with any third parties for marketing or advertising purposes.\n\nYour data may be processed by the following trusted services:\n• **Google Gemini API**: For AI-powered form filling and analysis (https://policies.google.com/privacy)\n• **Google OAuth**: For account authentication (https://policies.google.com/privacy)\n• **Supabase**: For optional cloud storage (https://supabase.com/privacy) — only if you enable sync\n\n---\n\n**5. Your Rights & Controls**\n\nYou have the right to:\n• **Access** all data ApplyFlow has stored about you (via Export Backup in settings)\n• **Correct** your information at any time in the Profile tab\n• **Delete** all your data locally using \"Clear All Profile Data\" in settings\n• **Withdraw consent** at any time by uninstalling the extension\n• **Disable cloud sync** by toggling it off in Account & Sync settings\n\n**GDPR (EU Users)**: If you are an EU resident, you have the rights to access, rectify, erase, restrict processing, and data portability under the General Data Protection Regulation.\n\n**India — DPDP Act 2023**: In compliance with India's Digital Personal Data Protection Act 2023, we process personal data only for the purpose of providing the job application assistance service. You may withdraw consent and request deletion of your data at any time by contacting us.\n\n**California — CCPA**: California residents have the right to know what personal information is collected, the right to delete, and the right to opt-out of sale (we do not sell data).\n\n---\n\n**6. Data Retention**\n\nLocal data is retained until you clear it manually. Cloud-synced data is retained until you delete your account or request deletion. We do not automatically delete data.\n\n---\n\n**7. Security**\n\nWe take reasonable technical measures to protect your data:\n• All cloud communications use HTTPS/TLS encryption\n• Supabase Row-Level Security (RLS) ensures users can only access their own data\n• The extension does not request permissions beyond what is needed for its core function\n\n---\n\n**8. Children's Privacy**\n\nApplyFlow is not intended for users under the age of 13. We do not knowingly collect data from children. If you believe a child has provided us with personal information, please contact us immediately.\n\n---\n\n**9. Changes to This Policy**\n\nWe may update this Privacy Policy from time to time. Significant changes will be communicated via the extension's Options page. Continued use of the extension after changes constitutes acceptance of the updated policy.\n\n---\n\n**10. Contact Us**\n\nFor any privacy-related questions, data deletion requests, or concerns:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nWe aim to respond to all requests within 30 days.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }
-

@@ -43,8 +43,8 @@ describe('Storage Manager', () => {
   describe('Settings API', () => {
     test('getSettings should return DEFAULT_SETTINGS initially and override forced keys', async () => {
       const settings = await Storage.getSettings();
-      expect(settings.geminiApiKey).toBe('AIzaSyBq-whqtAErXrbshvOFX9J22-7AMWSItAo');
-      expect(settings.supabaseUrl).toBe('https://lqddvilwmqthidjklghv.supabase.co');
+      expect(settings.geminiApiKey).toBe('');
+      expect(settings.supabaseUrl).toBe('');
       expect(settings.demoMode).toBe(false);
     });
 

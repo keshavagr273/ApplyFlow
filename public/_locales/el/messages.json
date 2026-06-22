@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Εντοπίστηκε",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Δεν εντοπίστηκε σελίδα εργασίας",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ παρακολούθηση αιτήσεων · $2$ συνεντεύξεις",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Ξεκινήστε να κάνετε αίτηση για να παρακολουθείτε την πρόοδό σας",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Αναλύθηκε στις $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Φόρτωση στοιχείων προφίλ από το \"$1$\"; Αυτό θα αντικαταστήσει τις τρέχουσες αλλαγές σας με την αναλυμένη δομή αυτού του βιογραφικού.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Έγινε επαναφορά στοιχείων από $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Βαθμολογία αγώνα",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Κατάλληλο",
-    "description": "Fit percent text"
+    "message": "$1$% Κατάλληλο",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ περισσότερα",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Η εφαρμογή συμπληρώθηκε αυτόματα και καταγράφηκε! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ καταχωρήσεις",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ δεξιότητες",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ έργα",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ απαντήσεις",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Εξουσιοδοτημένος",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ εφαρμογές",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Φιλτράρισμα ανά εταιρεία...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ σύνολο αιτήσεων",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Δεν υπάρχουν ακόμη στοιχεία",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Περιεχόμενο: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Ο συγκυβερνήτης της καριέρας σας",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Ακολουθούν $1$ πιθανές ερωτήσεις συνέντευξης:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Βαθμολογία βελτιστοποίησης βιογραφικού: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Συνέχιση προτάσεων αγώνα",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Γεια! Βλέπω ότι κοιτάτε έναν ρόλο **$1$** στο **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Γεια! Βλέπω ότι κοιτάτε έναν ρόλο **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Γεια! Είμαι ο συγκυβερνήτης σταδιοδρομίας σας στο AI. Πλοηγηθείτε σε μια λίστα εργασίας και θα την αναλύσω αυτόματα ή θα με ρωτήσω οτιδήποτε!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Συνδεθήκατε ως $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Αποσύνδεση",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Το βιογραφικό σας είναι **$1$% συμβατό** με αυτόν τον ρόλο.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Καλώς ήρθατε πίσω, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Απέτυχε η ανάκτηση των πληροφοριών προφίλ χρήστη Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Η σύνδεση OAuth απέτυχε: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Η ανάκτηση του διακριτικού πρόσβασης από την ανακατεύθυνση απέτυχε.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Κλειδί άδειας χρήσης: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Απενεργοποίηση άδειας χρήσης",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Οι εντολές επέκτασης Chrome απαιτούν μη αυτόματη ανάθεση στη διαχείριση συντομεύσεων του Chrome. Μεταβείτε στο $1$ για να συνδέσετε τα κλειδιά που αναφέρονται παραπάνω.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Επέκταση ApplyFlow Chrome — Πολιτική απορρήτου**\nΤελευταία ενημέρωση: Ιούνιος 2026\n\n---\n\n**1. Εισαγωγή**\n\nApplyFlow (\"εμείς\", \"μας\", \"η επέκταση\") είναι μια επέκταση προγράμματος περιήγησης Chrome που βοηθά τους χρήστες να συμπληρώνουν αυτόματα τις φόρμες αιτήσεων εργασίας, να παρακολουθούν τις εφαρμογές τους και να διαχειρίζονται το επαγγελματικό τους προφίλ. Αυτή η Πολιτική Απορρήτου εξηγεί πώς συλλέγουμε, χρησιμοποιούμε, αποθηκεύουμε και προστατεύουμε τις πληροφορίες σας.\n\nΜε την εγκατάσταση και τη χρήση του ApplyFlow, συμφωνείτε με τις πρακτικές που περιγράφονται σε αυτήν την πολιτική.\n\n---\n__NL_12_*. Δεδομένα που συλλέγουμε**\n\nΣυλλέγουμε μόνο τις πληροφορίες που παρέχετε οικειοθελώς για να ενεργοποιήσουμε τις δυνατότητες της επέκτασης:\n\n• **Πληροφορίες προφίλ**: Όνομα, email, αριθμός τηλεφώνου, κολέγιο, πτυχίο, δεξιότητες, επαγγελματικό ιστορικό, σύνδεσμοι, έργα Χαρτοφυλάκιο).\n• **EEO/Δημογραφικά στοιχεία (Προαιρετικά)**: Φύλο, κατάσταση αναπηρίας, κατάσταση βετεράνου και προτιμήσεις εξουσιοδότησης εργασίας — παρέχονται μόνο εάν επιλέξετε να συμπληρώσετε αυτά τα πεδία. Αυτά τα δεδομένα χρησιμοποιούνται αποκλειστικά για την αυτόματη συμπλήρωση προαιρετικών ερωτηματολογίων EEO σε αιτήσεις εργασίας.\n• **Δεδομένα παρακολούθησης εφαρμογής**: τίτλος εργασίας, εταιρεία, διεύθυνση URL εφαρμογής, κατάσταση και σημειώσεις για θέσεις που παρακολουθείτε χρησιμοποιώντας την επέκταση. όρια).\n• **Δεδομένα ελέγχου ταυτότητας**: Εάν επιλέξετε να συνδεθείτε με την Google, αποθηκεύουμε το εμφανιζόμενο όνομα Google, τη διεύθυνση email και τη διεύθυνση URL της εικόνας προφίλ σας για να εξατομικεύσουμε την εμπειρία σας και να ενεργοποιήσουμε το συγχρονισμό στο cloud. δραστηριότητα περιήγησης\n• Οποιεσδήποτε πληροφορίες από σελίδες που δεν σχετίζονται με την εφαρμογή εργασίας\n• Τυχόν δεδομένα από σελίδες όταν η επέκταση δεν ενεργοποιείται ενεργά\n\n---\n\n*. Πώς αποθηκεύουμε τα δεδομένα σας**\n\n**3.1 Τοπική αποθήκευση (Προεπιλογή)**\nΌλα τα δεδομένα αποθηκεύονται κυρίως στο chrome.storage.local API του προγράμματος περιήγησής σας. Αυτά τα δεδομένα βρίσκονται μόνο στη συσκευή σας και δεν μεταδίδονται ποτέ σε κανένα διακομιστή χωρίς τη ρητή σας ενέργεια.\n\n**3.2 Cloud Sync (Προαιρετικό)**\nΕάν επιλέξετε να συνδεθείτε με την Google και να ενεργοποιήσετε τη λειτουργία \"Supabase Sync\", θα γίνει επίσης ένα προφίλ και τα δεδομένα της εφαρμογής σας συγχρονισμού για να συγχρονιστούν τα δεδομένα της εφαρμογής σας. Διατηρείτε την πλήρη ιδιοκτησία αυτών των δεδομένων. Μπορείτε να το διαγράψετε ανά πάσα στιγμή από την ενότητα \"Λογαριασμός και συγχρονισμός\".\n\n**3.3 Αιτήματα τεχνητής νοημοσύνης Gemini A**\nΌταν χρησιμοποιούνται λειτουργίες τεχνητής νοημοσύνης (π.χ. δημιουργία δοκιμίου, ανάλυση εργασίας), τμήματα του προφίλ σας (δεξιότητες, πτυχίο, σύνοψη των θέσεων εργασίας στο Google αποστέλλονται στο Google και η σύνοψη των εργασιών Gemini). Αυτό υποβάλλεται σε επεξεργασία σύμφωνα με τους τυπικούς Όρους Παροχής Υπηρεσιών και Πολιτική Απορρήτου API της Google. Συνιστούμε να μην συμπεριλάβετε ευαίσθητα προσωπικά αναγνωριστικά στο περιεχόμενό σας με τη βοήθεια AI.\n\n---\n\n**4. Κοινή χρήση δεδομένων**\n\nΔεν **πωλούμε, εμπορευόμαστε, ενοικιάζουμε ή μοιραζόμαστε τα προσωπικά σας στοιχεία με τρίτους για σκοπούς μάρκετινγκ ή διαφήμισης.\n\nΤα δεδομένα σας ενδέχεται να υποβληθούν σε επεξεργασία από τις ακόλουθες αξιόπιστες υπηρεσίες:__NL_48_PI (https://policies.google.com/privacy)\n• **Google OAuth**: Για έλεγχο ταυτότητας λογαριασμού (https://policies.google.com/privacy)\n• **Supabase**: Για προαιρετική αποθήκευση στο cloud (https://supabase.com/privacy) — μόνο εάν έχετε sync\n\n---\n\n**5. Τα δικαιώματα και τα στοιχεία ελέγχου σας**\n\nΈχετε το δικαίωμα να:\n• **Πρόσβαση** σε όλα τα δεδομένα που έχει αποθηκεύσει το ApplyFlow για εσάς (μέσω Εξαγωγής αντιγράφου ασφαλείας στις ρυθμίσεις)\n• **Διόρθωση** των στοιχείων σας ανά πάσα στιγμή **• Διαγραφή όλων των δεδομένων σας ανά πάσα στιγμή στην καρτέλα Προφίλ τοπικά*__ \"Εκκαθάριση όλων των δεδομένων προφίλ\" στις ρυθμίσεις\n• **Ανάκληση συγκατάθεσης** ανά πάσα στιγμή, απεγκαταστήστε την επέκταση\n• **Απενεργοποιήστε το συγχρονισμό στο cloud** απενεργοποιώντας το στις ρυθμίσεις Λογαριασμού και συγχρονισμού\n\n** Εάν είστε μέλος της ΕΕ, έχετε δικαιώματα GDPR) για πρόσβαση, διόρθωση, διαγραφή, περιορισμό της επεξεργασίας και φορητότητα δεδομένων σύμφωνα με τον Γενικό Κανονισμό για την Προστασία Δεδομένων.\n\n**Ινδία — Νόμος DPDP 2023**: Σύμφωνα με τον Νόμο 2023 για την Προστασία των Ψηφιακών Προσωπικών Δεδομένων της Ινδίας, επεξεργαζόμαστε προσωπικά δεδομένα μόνο για την παροχή της υπηρεσίας βοήθειας για την εφαρμογή εργασίας. Μπορείτε να αποσύρετε τη συγκατάθεσή σας και να ζητήσετε τη διαγραφή των δεδομένων σας ανά πάσα στιγμή επικοινωνώντας μαζί μας.\n\n**Καλιφόρνια — CCPA**: Οι κάτοικοι της Καλιφόρνια έχουν το δικαίωμα να γνωρίζουν ποιες προσωπικές πληροφορίες συλλέγονται, το δικαίωμα διαγραφής και το δικαίωμα εξαίρεσης από την πώληση (δεν πουλάμε δεδομένα).\n\n---\n\n**6. Διατήρηση δεδομένων**\n\nΤα τοπικά δεδομένα διατηρούνται μέχρι να τα διαγράψετε με μη αυτόματο τρόπο. Τα δεδομένα που είναι συγχρονισμένα στο cloud διατηρούνται μέχρι να διαγράψετε τον λογαριασμό σας ή να ζητήσετε τη διαγραφή. Δεν διαγράφουμε αυτόματα δεδομένα.\n\n---\n\n**7. Ασφάλεια**\n\nΛαμβάνουμε εύλογα τεχνικά μέτρα για την προστασία των δεδομένων σας:\n• Όλες οι επικοινωνίες cloud χρησιμοποιούν κρυπτογράφηση HTTPS/TLS\n• Το Supabase Row-Level Security (RLS) διασφαλίζει ότι οι χρήστες μπορούν να έχουν πρόσβαση μόνο στα δικά τους δεδομένα__NL_82. συνάρτηση\n\n---\n\n**8. Παιδικό απόρρητο**\n\nApplyFlow δεν προορίζεται για χρήστες κάτω των 13 ετών. Δεν συλλέγουμε εν γνώσει μας δεδομένα από παιδιά. Εάν πιστεύετε ότι ένα παιδί μας έχει δώσει προσωπικά στοιχεία, επικοινωνήστε μαζί μας αμέσως.\n\n---\n\n**9. Αλλαγές σε αυτήν την Πολιτική**\n\nΕνδέχεται να ενημερώνουμε την παρούσα Πολιτική Απορρήτου από καιρό σε καιρό. Οι σημαντικές αλλαγές θα κοινοποιηθούν μέσω της σελίδας Επιλογές της επέκτασης. Η συνέχιση της χρήσης της επέκτασης μετά τις αλλαγές συνιστά αποδοχή της ενημερωμένης πολιτικής.\n\n---\n\n**10. Επικοινωνήστε μαζί μας**\n\nΓια τυχόν ερωτήσεις σχετικά με το απόρρητο, αιτήματα διαγραφής δεδομένων ή ανησυχίες:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nΙστότοπος: https://applyflow.in\n\nΣκοπεύουμε να απαντήσουμε σε όλα τα αιτήματα εντός 30 ημερών.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

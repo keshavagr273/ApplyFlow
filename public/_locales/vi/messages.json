@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Đã phát hiện",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Không tìm thấy trang việc làm",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ đơn đăng ký được theo dõi · $2$ phỏng vấn",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Bắt đầu đăng ký để theo dõi tiến trình của bạn",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Được phân tích cú pháp trên $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Tải chi tiết hồ sơ từ \"$1$\"? Điều này sẽ thay thế các chỉnh sửa hiện tại của bạn bằng cấu trúc được phân tích cú pháp của sơ yếu lý lịch này.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Đã khôi phục chi tiết từ $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Tỷ số trận đấu",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Vừa vặn",
-    "description": "Fit percent text"
+    "message": "$1$% Vừa vặn",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ thêm",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Ứng dụng tự động điền và đăng nhập! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ mục nhập",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ kỹ năng",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ dự án",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ câu trả lời",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Được ủy quyền",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ ứng dụng",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Lọc theo công ty...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ tổng số đơn đăng ký",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Chưa có dữ liệu",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Bối cảnh: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Phi công phụ trong sự nghiệp của bạn",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Dưới đây là $1$ câu hỏi phỏng vấn có thể xảy ra:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Điểm tối ưu hóa tiếp tục: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Tiếp tục đề xuất trận đấu",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "CHÀO! Tôi có thể thấy bạn đang xem vai trò **$1$** tại **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "CHÀO! Tôi có thể thấy bạn đang xem một vai trò **$1$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "CHÀO! Tôi là phi công phụ trong sự nghiệp AI của bạn. Điều hướng đến danh sách công việc và tôi sẽ tự động phân tích nó hoặc hỏi tôi bất cứ điều gì!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Đăng nhập với tên $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Đăng xuất",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Sơ yếu lý lịch của bạn **$1$%** tương thích** với vai trò này.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Chào mừng trở lại, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Không tìm nạp được thông tin hồ sơ người dùng Google.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "Đăng nhập OAuth không thành công: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Không tìm nạp được mã thông báo truy cập từ chuyển hướng.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Mã bản quyền: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Vô hiệu hóa giấy phép",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Các lệnh mở rộng của Chrome yêu cầu gán thủ công trong trình quản lý phím tắt của Chrome. Đi tới $1$ để liên kết các khóa được liệt kê ở trên.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**Tiện ích mở rộng ApplyFlow của Chrome — Chính sách quyền riêng tư**\nCập nhật lần cuối: Tháng 6 năm 2026\n_\n---\nNL_4__**1. Giới thiệu**\n_NL_6__ApplyFlow (\"chúng tôi\", \"của chúng tôi\", \"Tiện ích mở rộng\") là một tiện ích mở rộng của trình duyệt Chrome giúp người dùng tự động điền vào các mẫu đơn xin việc, theo dõi đơn xin việc và quản lý hồ sơ nghề nghiệp của họ. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ thông tin của bạn.\n\nBằng cách cài đặt và sử dụng ApplyFlow, bạn đồng ý với các thông lệ được mô tả trong chính sách này.\n_\n---\n_NL_12__**2. Dữ liệu chúng tôi thu thập**\n\nChúng tôi chỉ thu thập thông tin mà bạn tự nguyện cung cấp để kích hoạt các tính năng của tiện ích mở rộng:\n\n **Thông tin hồ sơ**: Tên, email, số điện thoại, trường đại học, bằng cấp, kỹ năng, lịch sử công việc, dự án và liên kết nghề nghiệp (LinkedIn, GitHub, Portfolio).\n **Thông tin EEO/Thông tin nhân khẩu học (Tùy chọn)**: Giới tính, tình trạng khuyết tật, tình trạng cựu chiến binh và tùy chọn ủy quyền làm việc — chỉ được cung cấp nếu bạn chọn điền vào các trường này. Dữ liệu này được sử dụng riêng để tự động điền các bảng câu hỏi EEO tùy chọn trong đơn xin việc.\n **Dữ liệu theo dõi đơn xin việc**: Chức vụ, công ty, URL ứng tuyển, trạng thái và ghi chú cho các vị trí bạn theo dõi bằng tiện ích mở rộng.\n **Thống kê sử dụng**: Số lượng thao tác tự động điền được thực hiện (được lưu trữ cục bộ để thực thi các giới hạn hàng ngày).\n **Dữ liệu xác thực**: Nếu bạn chọn đăng nhập bằng Google, chúng tôi sẽ lưu trữ tên hiển thị, địa chỉ email và URL ảnh hồ sơ Google của bạn để cá nhân hóa trải nghiệm của bạn và bật đồng bộ hóa trên đám mây.\n\nChúng tôi **không** thu thập:\n Thông tin thanh toán hoặc tài chính\n Lịch sử trình duyệt hoặc hoạt động duyệt web chung\n Bất kỳ thông tin nào từ các trang không liên quan đến đơn xin việc\n Bất kỳ dữ liệu nào từ các trang khi tiện ích mở rộng không được kích hoạt chủ động\n\n---\n\n**3. Cách chúng tôi lưu trữ dữ liệu của bạn**\n_NL_32__**3.1 Bộ nhớ cục bộ (Mặc định)**\nTất cả dữ liệu chủ yếu được lưu trữ trong API chrome.storage.local của trình duyệt của bạn. Dữ liệu này chỉ tồn tại trên thiết bị của bạn và không bao giờ được truyền đến bất kỳ máy chủ nào mà không có hành động rõ ràng của bạn.\n\n**3.2 Cloud Sync (Tùy chọn)**\nNếu bạn chọn đăng nhập bằng Google và bật tính năng \"Supabase Sync\", hồ sơ và dữ liệu ứng dụng của bạn cũng sẽ được đồng bộ hóa với cơ sở dữ liệu Supabase. Bạn giữ toàn quyền sở hữu dữ liệu này. Bạn có thể xóa nó bất kỳ lúc nào từ phần Tài khoản & Đồng bộ hóa.\n\n**3.3 Yêu cầu AI của Gemini**\nKhi các tính năng AI được sử dụng (ví dụ: tạo bài luận, phân tích công việc), các phần trong hồ sơ của bạn (kỹ năng, bằng cấp, tóm tắt) và văn bản mô tả công việc sẽ được gửi tới API Gemini của Google để tạo phản hồi. Việc này được xử lý theo Điều khoản dịch vụ và Chính sách quyền riêng tư API tiêu chuẩn của Google. Chúng tôi khuyên bạn không nên đưa thông tin nhận dạng cá nhân nhạy cảm vào nội dung được AI hỗ trợ.\n\n---\n_NL_43__**4. Chia sẻ dữ liệu**\n\nChúng tôi **không** bán, trao đổi, thuê hoặc chia sẻ thông tin cá nhân của bạn với bất kỳ bên thứ ba nào vì mục đích tiếp thị hoặc quảng cáo.\n\nDữ liệu của bạn có thể được xử lý bởi các dịch vụ đáng tin cậy sau:\n **Google Gemini API**: Để điền và phân tích biểu mẫu do AI cung cấp (https://policies.google.com/privacy)\n **Google OAuth**: Để xác thực tài khoản (https://policies.google.com/privacy)\n **Supabase**: Dành cho bộ nhớ đám mây tùy chọn (https://supabase.com/privacy) — chỉ khi bạn bật đồng bộ hóa\nNL_52__---\nNL_54__**5. Quyền và quyền kiểm soát của bạn**\n_NL_56__Bạn có quyền:\n **Truy cập** tất cả dữ liệu ApplyFlow đã lưu trữ về bạn (thông qua Xuất bản sao lưu trong cài đặt)\n **Chỉnh sửa** thông tin của bạn bất kỳ lúc nào trong tab Hồ sơ\n **Xóa** tất cả dữ liệu cục bộ của bạn bằng cách sử dụng \"Xóa tất cả dữ liệu hồ sơ\" trong cài đặt\n **Rút lại sự đồng ý** bất cứ lúc nào bằng cách gỡ cài đặt tiện ích mở rộng\n **Tắt đồng bộ hóa đám mây** bằng cách tắt tính năng này trong cài đặt Tài khoản & Đồng bộ hóa\n\n**GDPR (Người dùng ở Liên minh Châu Âu)**: Nếu là cư dân Liên minh Châu Âu, bạn có quyền truy cập, chỉnh sửa, xóa, hạn chế xử lý và di chuyển dữ liệu theo Quy định chung về bảo vệ dữ liệu.\n\n**Ấn Độ — Đạo luật DPDP 2023**: Tuân thủ Đạo luật bảo vệ dữ liệu cá nhân kỹ thuật số của Ấn Độ Kể từ năm 2023, chúng tôi chỉ xử lý dữ liệu cá nhân cho mục đích cung cấp dịch vụ hỗ trợ nộp đơn xin việc. Bạn có thể rút lại sự đồng ý và yêu cầu xóa dữ liệu của mình bất kỳ lúc nào bằng cách liên hệ với chúng tôi.\n\n**California - CCPA**: Cư dân California có quyền biết thông tin cá nhân nào được thu thập, quyền xóa và quyền chọn không bán dữ liệu (chúng tôi không bán dữ liệu).\n_NL_69__---\n\n**6. Lưu giữ dữ liệu**\n\nDữ liệu cục bộ được giữ lại cho đến khi bạn xóa thủ công. Dữ liệu được đồng bộ hóa trên đám mây được giữ lại cho đến khi bạn xóa tài khoản của mình hoặc yêu cầu xóa. Chúng tôi không tự động xóa dữ liệu.\n_\n---\n_NL_77__**7. Bảo mật**\n\nChúng tôi thực hiện các biện pháp kỹ thuật hợp lý để bảo vệ dữ liệu của bạn:\n Tất cả thông tin liên lạc trên đám mây đều sử dụng mã hóa HTTPS/TLS\n Bảo mật cấp hàng Supabase (RLS) đảm bảo người dùng chỉ có thể truy cập dữ liệu của riêng họ\n Tiện ích mở rộng không yêu cầu các quyền vượt quá những quyền cần thiết cho chức năng cốt lõi của nó\n\n---\nNL_86__**8. Quyền riêng tư của trẻ em**\n\nApplyFlow không dành cho người dùng dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu từ trẻ em. Nếu bạn cho rằng một đứa trẻ đã cung cấp thông tin cá nhân cho chúng tôi, vui lòng liên hệ với chúng tôi ngay lập tức.\n\n---\n_NL_92__**9. Những thay đổi đối với Chính sách này**_\n\nChúng tôi có thể cập nhật Chính sách quyền riêng tư này bất cứ lúc nào. Những thay đổi quan trọng sẽ được thông báo qua trang Tùy chọn của tiện ích mở rộng. Việc tiếp tục sử dụng tiện ích mở rộng sau khi thay đổi đồng nghĩa với việc chấp nhận chính sách đã cập nhật.\n\n---\n_NL_98__**10. Liên hệ với chúng tôi**\n\nĐối với bất kỳ câu hỏi, yêu cầu hoặc mối quan ngại nào liên quan đến quyền riêng tư:\nNL_102__Email: Privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nTrang web: https://applyflow.in\n\nChúng tôi mong muốn đáp ứng tất cả các yêu cầu trong vòng 30 ngày.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

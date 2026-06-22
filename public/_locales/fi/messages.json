@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ Havaittu",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "Työsivua ei havaittu",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ sovelluksia seurattu · $2$ haastattelua",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "Aloita hakeminen seurataksesi edistymistäsi",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "Jäsennetty $1$",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "Ladataanko profiilin tiedot kohteesta \"$1$\"? Tämä korvaa nykyiset muokkauksesi tämän ansioluettelon jäsennetyllä rakenteella.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "Palautetut tiedot kohteesta $1$",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "Ottelun pisteet",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ Sopiva",
-    "description": "Fit percent text"
+    "message": "$1$% Sopiva",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ lisää",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "Hakemus täytetty ja kirjattu automaattisesti! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ merkintöjä",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ taidot",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ projekteja",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ vastaa",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "Valtuutettu",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ sovelluksia",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "Suodata yrityksen mukaan...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ sovelluksia yhteensä",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "Ei vielä dataa",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "Konteksti: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "Sinun urasi perämies",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "Tässä $1$ todennäköisiä haastattelukysymyksiä:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "Jatka optimointipisteet: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "Jatka otteluehdotuksia",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "Hei! Näen, että etsit **$1$**-roolia osoitteessa **$2$**.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "Hei! Näen, että katsot **$1$**-roolia.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "Hei! Olen tekoäly-urasi perämies. Siirry työpaikkailmoitukseen, niin analysoin sen automaattisesti tai kysy minulta mitä tahansa!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "Kirjautunut sisään nimellä $1$",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "Kirjaudu ulos",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "Ansioluettelosi on **$1$% yhteensopiva** tämän roolin kanssa.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "Tervetuloa takaisin, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google-käyttäjäprofiilitietojen nouto epäonnistui.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth-kirjautuminen epäonnistui: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "Käyttötunnuksen nouto uudelleenohjauksesta epäonnistui.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "Lisenssiavain: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "Poista lisenssi käytöstä",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chromen laajennuskomennot edellyttävät manuaalista määritystä Chromen pikakuvakkeiden hallinnassa. Siirry kohtaan $1$ sitoaksesi yllä luetellut avaimet.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome -laajennus – Tietosuojakäytäntö**\nViimeksi päivitetty: kesäkuussa 2026\n\n---\n\n**1. Esittely**\n\nApplyFlow (\"me\", \"meidän\", \"laajennus\") on Chrome-selainlaajennus, jonka avulla käyttäjät voivat täyttää automaattisesti työhakemuslomakkeita, seurata hakemuksia ja hallita ammattiprofiiliaan. Tämä tietosuojakäytäntö selittää, kuinka keräämme, käytämme, tallennamme ja suojaamme tietojasi.\n\nAsentamalla ApplyFlow'n ja käyttämällä sitä hyväksyt tässä käytännössä kuvatut käytännöt.\n\n---\n__NL_12_**2. Keräämämme tiedot**\n\nKeräämme vain vapaaehtoisesti antamasi tiedot laajennuksen ominaisuuksien mahdollistamiseksi:\n\n• **Profiilin tiedot**: Nimesi, sähköpostiosoitteesi, puhelinnumerosi, korkeakoulu, tutkinto, taidot, työhistoria, projektit ja ammatilliset linkit, GitH Portfolio).\n• **EEO/Demographic Information (Valinnainen)**: Sukupuoli, vammaisuus, veteraanistatus ja työlupaasetukset – tarjotaan vain, jos päätät täyttää nämä kentät. Näitä tietoja käytetään yksinomaan valinnaisten EEO-kyselylomakkeiden automaattiseen täyttöön työhakemuksissa.\n• **Hakemuksen seurantatiedot**: Työnimike, yritys, hakemuksen URL-osoite, tila ja huomautukset työpaikoista, joita seuraat laajennuksen avulla.\n• **Käyttötilastot**: Automaattisen täytön toimintojen määrä en_force_n _2 to en_force_n _2. **Todennustiedot**: Jos päätät kirjautua sisään Googlella, tallennamme Google-näyttönimesi, sähköpostiosoitteesi ja profiilikuvasi URL-osoitteesi personoimaan käyttökokemustasi ja mahdollistamaan pilvisynkronoinnin.\n\nEmme** kerää:\n• Maksu- tai taloustietoja___ L-tietoja\n• B• Browsering__ -Browsering_2 sivuilta, jotka eivät liity työhakemukseen\n• Kaikki tiedot sivuilta, joilla laajennusta ei käynnistetä aktiivisesti\n\n---\n\n**3. Kuinka tallennamme tietosi**\n\n**3.1 Paikallinen tallennus (oletus)**\nKaikki tiedot tallennetaan ensisijaisesti selaimesi chrome.storage.local API:hen. Nämä tiedot ovat vain laitteessasi, eikä niitä koskaan lähetetä millekään palvelimelle ilman nimenomaista toimintoasi.\n\n**3.2 Cloud Sync (valinnainen)**\nJos päätät kirjautua sisään Googlella ja ottaa käyttöön \"Supabase Sync\" -ominaisuuden, myös profiilisi ja sovellustietosi synkronoidaan tietokantaan. Säilytät näiden tietojen täyden omistusoikeuden. Voit poistaa sen milloin tahansa Tili & synkronointi -osiossa.\n\n**3.3 Gemini AI -pyynnöt**\nKun tekoälyominaisuuksia käytetään (esim. esseiden luominen, työn analyysi), profiilisi osa (taidot, tutkinto, yhteenveto) lähetetään sovellusliittymään ja työnkuvausteksti lähetetään Gemini-vastaukselle. Tämä käsitellään Googlen standardisovellusliittymän käyttöehtojen ja tietosuojakäytännön mukaisesti. Suosittelemme, että et sisällytä arkaluonteisia henkilökohtaisia ​​tunnisteita tekoälyavusteiseen sisältöösi.\n\n---\n\n**4. Tietojen jakaminen**\n\nEmme **emme** myy, vaihda, vuokraa tai jaa henkilökohtaisia tietojasi kolmansille osapuolille markkinointi- tai mainontatarkoituksiin.\n\nTietojasi voidaan käsitellä seuraavissa luotetuissa palveluissa:\n• **Täytä lomake AI- ja API:lle. (https://policies.google.com/privacy)\n• **Google OAuth**: Tilin todennus (https://policies.google.com/privacy)\n• **Supabase**: valinnainen pilvitallennustila (https://supabase.com/privacy) – vain, jos otat käyttöön synkronointi\n\n---\n\n**5. Oikeutesi ja hallintaoikeutesi**\n\nSinulla on oikeus:\n• **Pääsy** kaikkiin ApplyFlow'n sinusta tallentamiin tietoihin (asetuksissa Export Backup -toiminnolla)\n• **Korjaa** tietosi milloin tahansa Profiili-välilehdellä**•_L-välilehdellä **•_L_59_ \"Poista kaikki profiilitiedot\" asetuksissa\n• **Peruuta suostumus** milloin tahansa poistamalla laajennuksen asennuksen\n• **Poista pilvisynkronointi käytöstä** kytkemällä se pois päältä Tilin ja synkronoinnin asetuksissa\n\n**** Vahvista EU:n GDPR:n käyttöoikeudet (EU-käyttäjät) poistaa, rajoittaa käsittelyä ja tietojen siirrettävyyttä yleisen tietosuoja-asetuksen mukaisesti.\n\n**Intia – DPDP Act 2023**: Intian Digital Personal Data Protection Act 2023 -lain mukaisesti käsittelemme henkilötietoja vain työnhakuapupalvelun tarjoamiseksi. Voit peruuttaa suostumuksesi ja pyytää tietojesi poistamista milloin tahansa ottamalla meihin yhteyttä.\n\n**Kalifornia – CCPA**: Kalifornian asukkailla on oikeus tietää, mitä henkilötietoja kerätään, oikeus poistaa ja oikeus kieltäytyä myynnistä (emme myy tiedot).\n\n---\n\n**6. Tietojen säilyttäminen**\n\nPaikallisia tietoja säilytetään, kunnes tyhjennät ne manuaalisesti. Pilviin synkronoidut tiedot säilytetään, kunnes poistat tilisi tai pyydät poistamista. Emme poista tietoja automaattisesti.\n\n---\n\n**7. Tietoturva**\n\nRyhdymme kohtuullisiin teknisiin toimenpiteisiin tietojesi suojaamiseksi:\n• Kaikessa pilviviestinnässä käytetään HTTPS/TLS-salausta\n• Supabase Row-Level Security (RLS) varmistaa, että käyttäjät voivat käyttää vain omia tietojaan sen ulkopuolella.__NL_82_ function\n\n---\n\n**8. Lasten tietosuoja**\n\nApplyFlow ei ole tarkoitettu alle 13-vuotiaille käyttäjille. Emme tietoisesti kerää tietoja lapsilta. Jos uskot, että lapsi on antanut meille henkilökohtaisia ​​tietoja, ota meihin välittömästi yhteyttä.\n\n---\n\n**9. Muutokset tähän käytäntöön**\n\nSaamme päivittää tätä tietosuojakäytäntöä ajoittain. Merkittävät muutokset ilmoitetaan laajennuksen Asetukset-sivulla. Laajennuksen käytön jatkaminen muutosten jälkeen merkitsee päivitetyn käytännön hyväksymistä.\n\n---\n\n**10. Ota meihin yhteyttä**\n\nKaikissa tietosuojaan liittyvissä kysymyksissä, tietojen poistopyynnöissä tai huolenaiheissa:\n\nSähköposti: privacy@applyflow.in\nGitHub: https://github_flow/ex_b04:apply_flow/ex_b0. https://applyflow.in\n\nPyrimme vastaamaan kaikkiin pyyntöihin 30 päivän kuluessa.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }

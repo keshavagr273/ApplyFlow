@@ -69,7 +69,12 @@
   },
   "job_detected": {
     "message": "$1$ കണ്ടെത്തി",
-    "description": "Platform detected label"
+    "description": "Platform detected label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_job_detected": {
     "message": "തൊഴിൽ പേജൊന്നും കണ്ടെത്തിയില്ല",
@@ -93,7 +98,15 @@
   },
   "applications_tracked": {
     "message": "$1$ ആപ്ലിക്കേഷനുകൾ ട്രാക്ക് ചെയ്തു · $2$ അഭിമുഖങ്ങൾ",
-    "description": "Tracker summary text"
+    "description": "Tracker summary text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "start_applying": {
     "message": "നിങ്ങളുടെ പുരോഗതി ട്രാക്ക് ചെയ്യുന്നതിന് അപേക്ഷിക്കാൻ ആരംഭിക്കുക",
@@ -213,27 +226,52 @@
   },
   "parsed_on": {
     "message": "$1$-ന് പാഴ്‌സ് ചെയ്‌തു",
-    "description": "Parsed on date text"
+    "description": "Parsed on date text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restore_confirm": {
     "message": "\"$1$\" എന്നതിൽ നിന്ന് പ്രൊഫൈൽ വിശദാംശങ്ങൾ ലോഡ് ചെയ്യണോ? ഇത് നിങ്ങളുടെ നിലവിലെ എഡിറ്റുകളെ ഈ റെസ്യൂമിൻ്റെ പാഴ്‌സ് ചെയ്ത ഘടന ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കും.",
-    "description": "Confirmation dialog message to restore"
+    "description": "Confirmation dialog message to restore",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "restored_msg": {
     "message": "$1$ എന്നതിൽ നിന്ന് വിശദാംശങ്ങൾ പുനഃസ്ഥാപിച്ചു",
-    "description": "Restored details message"
+    "description": "Restored details message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "match_score": {
     "message": "മാച്ച് സ്കോർ",
     "description": "Match score label"
   },
   "fit_percent": {
-    "message": "$1$ ഫിറ്റ്",
-    "description": "Fit percent text"
+    "message": "$1$% ഫിറ്റ്",
+    "description": "Fit percent text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "more_skills": {
     "message": "+$1$ കൂടുതൽ",
-    "description": "More skills count label"
+    "description": "More skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "autofill_success": {
     "message": "ആപ്ലിക്കേഷൻ സ്വയമേവ പൂരിപ്പിക്കുകയും ലോഗ് ചെയ്യുകയും ചെയ്തു! ✨",
@@ -261,19 +299,39 @@
   },
   "entries_count": {
     "message": "$1$ എൻട്രികൾ",
-    "description": "Entries count label"
+    "description": "Entries count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "skills_count": {
     "message": "$1$ കഴിവുകൾ",
-    "description": "Skills count label"
+    "description": "Skills count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "projects_count": {
     "message": "$1$ പദ്ധതികൾ",
-    "description": "Projects count label"
+    "description": "Projects count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "answers_count": {
     "message": "$1$ ഉത്തരങ്ങൾ",
-    "description": "Answers count label"
+    "description": "Answers count label",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "authorized": {
     "message": "അധികാരപ്പെടുത്തിയത്",
@@ -601,7 +659,12 @@
   },
   "applications_count_plural": {
     "message": "$1$ ആപ്ലിക്കേഷനുകൾ",
-    "description": "Apps count display"
+    "description": "Apps count display",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "filter_company_placeholder": {
     "message": "കമ്പനി പ്രകാരം ഫിൽട്ടർ ചെയ്യുക...",
@@ -633,7 +696,12 @@
   },
   "total_apps_subtitle": {
     "message": "$1$ ആകെ ആപ്ലിക്കേഷനുകൾ",
-    "description": "Total applications count"
+    "description": "Total applications count",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "no_data_yet": {
     "message": "ഇതുവരെ ഡാറ്റയില്ല",
@@ -681,7 +749,12 @@
   },
   "context_label": {
     "message": "സന്ദർഭം: $1$",
-    "description": "Assistant context badge"
+    "description": "Assistant context badge",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "general_copilot_subtitle": {
     "message": "നിങ്ങളുടെ കരിയർ കോപൈലറ്റ്",
@@ -741,11 +814,21 @@
   },
   "ai_analysis_questions_intro": {
     "message": "അഭിമുഖത്തിന് $1$ സാധ്യതയുള്ള ചോദ്യങ്ങൾ ഇതാ:",
-    "description": "Interview prep intro text"
+    "description": "Interview prep intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_resume_score_intro": {
     "message": "ഒപ്റ്റിമൈസേഷൻ സ്കോർ പുനരാരംഭിക്കുക: $1$%",
-    "description": "Resume score intro text"
+    "description": "Resume score intro text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "ai_analysis_suggestions_label": {
     "message": "പൊരുത്തം നിർദ്ദേശങ്ങൾ പുനരാരംഭിക്കുക",
@@ -761,11 +844,24 @@
   },
   "job_details_detected_intro": {
     "message": "ഹായ്! **$2$** എന്നതിൽ നിങ്ങൾ ഒരു **$1$** റോളിലേക്ക് നോക്കുന്നത് എനിക്ക് കാണാൻ കഴിയും.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      },
+      "2": {
+        "content": "$2"
+      }
+    }
   },
   "job_details_detected_no_company": {
     "message": "ഹായ്! നിങ്ങൾ ഒരു **$1$** റോളിലേക്ക് നോക്കുന്നത് എനിക്ക് കാണാൻ കഴിയും.",
-    "description": "Job detection greet message"
+    "description": "Job detection greet message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "job_details_not_detected_intro": {
     "message": "ഹായ്! ഞാൻ നിങ്ങളുടെ AI കരിയർ കോപൈലറ്റാണ്. ഒരു ജോലി ലിസ്റ്റിംഗിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക, ഞാൻ അത് സ്വയമേവ വിശകലനം ചെയ്യും, അല്ലെങ്കിൽ എന്നോട് എന്തെങ്കിലും ചോദിക്കും!",
@@ -833,7 +929,12 @@
   },
   "logged_in_as": {
     "message": "$1$ ആയി ലോഗിൻ ചെയ്തു",
-    "description": "Logged in user name text"
+    "description": "Logged in user name text",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "sign_out_btn": {
     "message": "സൈൻ ഔട്ട് ചെയ്യുക",
@@ -889,11 +990,21 @@
   },
   "ai_analysis_compatible": {
     "message": "നിങ്ങളുടെ റെസ്യൂമെ ഈ റോളുമായി **$1$% അനുയോജ്യമാണ്**.",
-    "description": "Compatibility message"
+    "description": "Compatibility message",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "welcome_back_msg": {
     "message": "തിരികെ സ്വാഗതം, $1$!",
-    "description": "Toast message on login"
+    "description": "Toast message on login",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_fetch_profile": {
     "message": "Google ഉപയോക്തൃ പ്രൊഫൈൽ വിവരം ലഭ്യമാക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
@@ -901,7 +1012,12 @@
   },
   "oauth_login_failed": {
     "message": "OAuth ലോഗിൻ പരാജയപ്പെട്ടു: $1$",
-    "description": "Toast message when oauth fails"
+    "description": "Toast message when oauth fails",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "failed_access_token": {
     "message": "റീഡയറക്‌ടിൽ നിന്ന് ആക്‌സസ് ടോക്കൺ ലഭ്യമാക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
@@ -1209,7 +1325,12 @@
   },
   "premium_active_desc": {
     "message": "ലൈസൻസ് കീ: $1$",
-    "description": "Description showing active license code"
+    "description": "Description showing active license code",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "deactivate_license_btn": {
     "message": "ലൈസൻസ് നിർജ്ജീവമാക്കുക",
@@ -1549,10 +1670,27 @@
   },
   "shortcut_note_desc": {
     "message": "Chrome വിപുലീകരണ കമാൻഡുകൾക്ക് Chrome-ൻ്റെ കുറുക്കുവഴി മാനേജറിൽ നേരിട്ട് അസൈൻമെൻ്റ് ആവശ്യമാണ്. മുകളിൽ ലിസ്റ്റുചെയ്തിരിക്കുന്ന കീകൾ ബന്ധിപ്പിക്കുന്നതിന് $1$ എന്നതിലേക്ക് പോകുക.",
-    "description": "Shortcut note description"
+    "description": "Shortcut note description",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
   },
   "privacy_policy_content": {
     "message": "**ApplyFlow Chrome എക്സ്റ്റൻഷൻ — സ്വകാര്യതാ നയം**\nഅവസാനം അപ്ഡേറ്റ് ചെയ്തത്: ജൂൺ 2026\n\n---_\n\n**1. ആമുഖം**\n\nApplyFlow (\"ഞങ്ങൾ\", \"ഞങ്ങളുടെ\", \"വിപുലീകരണം\") എന്നത് ഒരു Chrome ബ്രൗസർ വിപുലീകരണമാണ്, അത് ജോലി അപേക്ഷാ ഫോമുകൾ സ്വയമേവ പൂരിപ്പിക്കാനും അവരുടെ ആപ്ലിക്കേഷനുകൾ ട്രാക്ക് ചെയ്യാനും അവരുടെ പ്രൊഫഷണൽ പ്രൊഫൈൽ നിയന്ത്രിക്കാനും ഉപയോക്താക്കളെ സഹായിക്കുന്നു. ഈ സ്വകാര്യതാ നയം നിങ്ങളുടെ വിവരങ്ങൾ എങ്ങനെ ശേഖരിക്കുകയും ഉപയോഗിക്കുകയും സംഭരിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്യുന്നു എന്ന് വിശദീകരിക്കുന്നു.\n\nApplyFlow ഇൻസ്റ്റാൾ ചെയ്യുന്നതിലൂടെയും ഉപയോഗിക്കുന്നതിലൂടെയും, ഈ നയത്തിൽ വിവരിച്ചിരിക്കുന്ന സമ്പ്രദായങ്ങൾ നിങ്ങൾ അംഗീകരിക്കുന്നു.\n\n_____\n\n**2. ഞങ്ങൾ ശേഖരിക്കുന്ന ഡാറ്റ**\n\nവിപുലീകരണത്തിൻ്റെ സവിശേഷതകൾ പ്രവർത്തനക്ഷമമാക്കാൻ നിങ്ങൾ സ്വമേധയാ നൽകുന്ന വിവരങ്ങൾ മാത്രമാണ് ഞങ്ങൾ ശേഖരിക്കുന്നത്:\n\n• **പ്രൊഫൈൽ വിവരങ്ങൾ**: നിങ്ങളുടെ പേര്, ഇമെയിൽ, ഫോൺ നമ്പർ, കോളേജ്, ബിരുദം, വൈദഗ്ധ്യം, ജോലി ചരിത്രം, പ്രോജക്ടുകൾ, കൂടാതെ പ്രൊഫഷണൽ ലിങ്കുകൾ, GLinHk, പോർട്ട്ഫോളിയോ).\n• **EEO/ഡെമോഗ്രാഫിക് വിവരങ്ങൾ (ഓപ്ഷണൽ)**: ലിംഗഭേദം, വൈകല്യ നില, വെറ്ററൻ സ്റ്റാറ്റസ്, ജോലിയുടെ അംഗീകാര മുൻഗണനകൾ — നിങ്ങൾ ഈ ഫീൽഡുകൾ പൂരിപ്പിക്കാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ മാത്രം. ജോലി അപേക്ഷകളിലെ ഓപ്‌ഷണൽ EEO ചോദ്യാവലി ഓട്ടോഫിൽ ചെയ്യുന്നതിന് മാത്രമായി ഈ ഡാറ്റ ഉപയോഗിക്കുന്നു.\n• **അപ്ലിക്കേഷൻ ട്രാക്കിംഗ് ഡാറ്റ**: ജോലിയുടെ പേര്, കമ്പനി, ആപ്ലിക്കേഷൻ URL, സ്റ്റാറ്റസ്, വിപുലീകരണം ഉപയോഗിച്ച് നിങ്ങൾ ട്രാക്ക് ചെയ്യുന്ന സ്ഥാനങ്ങൾക്കുള്ള കുറിപ്പുകൾ.\n• **ഉപയോഗ സ്ഥിതിവിവരക്കണക്കുകൾ ദിവസേനയുള്ള പ്രവർത്തനത്തിനായി നടപ്പിലാക്കിയതിൻ്റെ എണ്ണം പരിധികൾ).\n• ** പ്രാമാണീകരണ ഡാറ്റ**: നിങ്ങൾ Google-ൽ സൈൻ ഇൻ ചെയ്യാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ അനുഭവം വ്യക്തിഗതമാക്കുന്നതിനും ക്ലൗഡ് സമന്വയം പ്രവർത്തനക്ഷമമാക്കുന്നതിനും ഞങ്ങൾ നിങ്ങളുടെ Google ഡിസ്പ്ലേ പേര്, ഇമെയിൽ വിലാസം, പ്രൊഫൈൽ ചിത്ര URL എന്നിവ സംഭരിക്കുന്നു.\n_NL_22__ഞങ്ങൾ **അല്ല** ശേഖരിക്കുന്നു അല്ലെങ്കിൽ സാമ്പത്തിക ചരിത്രം ശേഖരിക്കുന്നു പ്രവർത്തനം\n• ജോലി-അപേക്ഷയുമായി ബന്ധമില്ലാത്ത പേജുകളിൽ നിന്നുള്ള ഏത് വിവരവും\n• വിപുലീകരണം സജീവമായി ട്രിഗർ ചെയ്യാത്ത പേജുകളിൽ നിന്നുള്ള ഏത് ഡാറ്റയും\n\n---\n\n**3. ഞങ്ങൾ നിങ്ങളുടെ ഡാറ്റ എങ്ങനെ സംഭരിക്കുന്നു**\n\n**3.1 ലോക്കൽ സ്റ്റോറേജ് (സ്ഥിരസ്ഥിതി)**\nഎല്ലാ ഡാറ്റയും പ്രാഥമികമായി നിങ്ങളുടെ ബ്രൗസറിൻ്റെ chrome.storage.local API-ൽ സംഭരിച്ചിരിക്കുന്നു. ഈ ഡാറ്റ നിങ്ങളുടെ ഉപകരണത്തിൽ മാത്രമേ വസിക്കുന്നുള്ളൂ, നിങ്ങളുടെ വ്യക്തമായ നടപടിയില്ലാതെ ഒരു സെർവറിലേക്കും ഒരിക്കലും കൈമാറ്റം ചെയ്യപ്പെടില്ല.\n\n**3.2 ക്ലൗഡ് സമന്വയം (ഓപ്ഷണൽ)**\nനിങ്ങൾ Google-ൽ സൈൻ ഇൻ ചെയ്‌ത് \"Supabase Sync\" ഫീച്ചർ പ്രവർത്തനക്ഷമമാക്കാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ പ്രൊഫൈലും ആപ്ലിക്കേഷൻ ഡാറ്റയും Supabase സമന്വയിപ്പിക്കുകയും ചെയ്യും. ഈ ഡാറ്റയുടെ പൂർണ്ണ ഉടമസ്ഥാവകാശം നിങ്ങൾ നിലനിർത്തുന്നു. അക്കൗണ്ട് & സമന്വയ വിഭാഗത്തിൽ നിന്ന് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും ഇത് ഇല്ലാതാക്കാം.\n\n**3.3 ജെമിനി AI അഭ്യർത്ഥനകൾ**\nAI സവിശേഷതകൾ ഉപയോഗിക്കുമ്പോൾ (ഉദാ. ഉപന്യാസം സൃഷ്ടിക്കൽ, ജോലി വിശകലനം), നിങ്ങളുടെ പ്രൊഫൈലിൻ്റെ ഭാഗങ്ങൾ (നൈപുണ്യങ്ങൾ, ബിരുദം, സംഗ്രഹം), Google-ലേക്ക് ജോലി വിവരണത്തിൻ്റെ പ്രതികരണം സൃഷ്ടിക്കുന്നു. ഇത് Google-ൻ്റെ സ്റ്റാൻഡേർഡ് API സേവന നിബന്ധനകൾക്കും സ്വകാര്യതാ നയത്തിനും കീഴിലാണ് പ്രോസസ്സ് ചെയ്യുന്നത്. നിങ്ങളുടെ AI- സഹായത്തോടെയുള്ള ഉള്ളടക്കത്തിൽ സെൻസിറ്റീവ് വ്യക്തിഗത ഐഡൻ്റിഫയറുകൾ ഉൾപ്പെടുത്തരുതെന്ന് ഞങ്ങൾ ശുപാർശ ചെയ്യുന്നു.\n_NL_41_______\n\n**4. ഡാറ്റ പങ്കിടൽ**\n\nവിപണനത്തിനോ പരസ്യത്തിനോ വേണ്ടി ഏതെങ്കിലും മൂന്നാം കക്ഷികളുമായി നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങൾ ഞങ്ങൾ **** വിൽക്കുകയോ വ്യാപാരം ചെയ്യുകയോ വാടകയ്‌ക്കെടുക്കുകയോ പങ്കിടുകയോ ചെയ്യുന്നില്ല.\n\nനിങ്ങളുടെ ഡാറ്റ ഇനിപ്പറയുന്ന വിശ്വസനീയ സേവനങ്ങൾ വഴി പ്രോസസ്സ് ചെയ്തേക്കാം:\n• **Google ഫോം പൂരിപ്പിച്ച ജെമിനി API: (https://policies.google.com/privacy)\n• **Google OAuth**: അക്കൗണ്ട് പ്രാമാണീകരണത്തിന് (https://policies.google.com/privacy)\n• **Supabase**: ഓപ്‌ഷണൽ ക്ലൗഡ് സ്റ്റോറേജിനായി (https://supabase.com/privacy) — നിങ്ങൾക്ക് താൽപ്പര്യമുണ്ടെങ്കിൽ മാത്രം സമന്വയം\n\n_____\n\n**5. നിങ്ങളുടെ അവകാശങ്ങളും നിയന്ത്രണങ്ങളും**\n\nനിങ്ങൾക്ക് ഇനിപ്പറയുന്നവ ചെയ്യാനുള്ള അവകാശമുണ്ട്:\n• **Access** ApplyFlow നിങ്ങളെ കുറിച്ച് സംഭരിച്ചിട്ടുള്ള എല്ലാ ഡാറ്റയും (ക്രമീകരണങ്ങളിലെ എക്‌സ്‌പോർട്ട് ബാക്കപ്പ് വഴി)\n• **തിരുത്തുക** നിങ്ങളുടെ എല്ലാ വിവരങ്ങളും പ്രൊഫൈൽ ടാബിൽ എപ്പോൾ വേണമെങ്കിലും ഇല്ലാതാക്കുക*•*L_*L_N പ്രൊഫൈൽ ഡാറ്റ\" ക്രമീകരണങ്ങളിലെ\n• **എപ്പോൾ വേണമെങ്കിലും സമ്മതം പിൻവലിക്കുക** വിപുലീകരണം അൺഇൻസ്റ്റാൾ ചെയ്‌ത്\n• **ക്ലൗഡ് സമന്വയം അപ്രാപ്‌തമാക്കുക** അക്കൗണ്ട് & സമന്വയ ക്രമീകരണങ്ങളിൽ ടോഗിൾ ചെയ്‌ത് അത് ഓഫ് ചെയ്യുക\n\n**നിങ്ങൾക്ക് EU: ആക്‌സസ് ചെയ്യാനുള്ള അവകാശം, നിങ്ങൾക്ക് EU: ജനറൽ ഡാറ്റാ പ്രൊട്ടക്ഷൻ റെഗുലേഷനു കീഴിലുള്ള പ്രോസസ്സിംഗ്, ഡാറ്റ പോർട്ടബിലിറ്റി എന്നിവ ശരിയാക്കുക, മായ്‌ക്കുക, നിയന്ത്രിക്കുക.\n\n**ഇന്ത്യ — DPDP ആക്‌റ്റ് 2023**: ഇന്ത്യയുടെ ഡിജിറ്റൽ പേഴ്‌സണൽ ഡാറ്റ പ്രൊട്ടക്ഷൻ ആക്‌ട് 2023-ന് അനുസൃതമായി, ജോലി അപേക്ഷാ സേവനം നൽകുന്നതിന് വേണ്ടി മാത്രമാണ് ഞങ്ങൾ വ്യക്തിഗത ഡാറ്റ പ്രോസസ്സ് ചെയ്യുന്നത്. ഞങ്ങളെ ബന്ധപ്പെടുന്നതിലൂടെ നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും സമ്മതം പിൻവലിക്കുകയും നിങ്ങളുടെ ഡാറ്റ ഇല്ലാതാക്കാൻ അഭ്യർത്ഥിക്കുകയും ചെയ്യാം.\n\n**കാലിഫോർണിയ — CCPA**: കാലിഫോർണിയ നിവാസികൾക്ക് എന്ത് വ്യക്തിഗത വിവരങ്ങൾ ശേഖരിക്കുന്നു, ഇല്ലാതാക്കാനുള്ള അവകാശം, വിൽപ്പന ഒഴിവാക്കാനുള്ള അവകാശം എന്നിവ അറിയാനുള്ള അവകാശമുണ്ട് (ഞങ്ങൾ വിൽക്കില്ല ഡാറ്റ).\n\n_____\n\n**6. ഡാറ്റ നിലനിർത്തൽ**\n\nനിങ്ങൾ സ്വമേധയാ മായ്‌ക്കുന്നതുവരെ പ്രാദേശിക ഡാറ്റ നിലനിർത്തും. നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കുകയോ ഇല്ലാതാക്കാൻ അഭ്യർത്ഥിക്കുകയോ ചെയ്യുന്നതുവരെ ക്ലൗഡ് സമന്വയിപ്പിച്ച ഡാറ്റ നിലനിർത്തും. ഞങ്ങൾ ഡാറ്റ സ്വയമേവ ഇല്ലാതാക്കില്ല.\n\n_____\n\n**7. സുരക്ഷ**\n\nനിങ്ങളുടെ ഡാറ്റ പരിരക്ഷിക്കുന്നതിന് ഞങ്ങൾ ന്യായമായ സാങ്കേതിക നടപടികൾ കൈക്കൊള്ളുന്നു:\n• എല്ലാ ക്ലൗഡ് കമ്മ്യൂണിക്കേഷനുകളും HTTPS/TLS എൻക്രിപ്ഷൻ\n• ഉപയോക്താക്കൾക്ക് അവരുടെ സ്വന്തം ഡാറ്റയ്‌ക്ക് മാത്രം ആക്‌സസ്സ് ചെയ്യാൻ കഴിയുമെന്ന് സൂപാബേസ് റോ-ലെവൽ സെക്യൂരിറ്റി (RLS) ഉറപ്പാക്കുന്നു__NL_82. ഫംഗ്‌ഷൻ\n\n_____\n\n**8. കുട്ടികളുടെ സ്വകാര്യത**\n\nApplyFlow 13 വയസ്സിന് താഴെയുള്ള ഉപയോക്താക്കളെ ഉദ്ദേശിച്ചുള്ളതല്ല. കുട്ടികളിൽ നിന്ന് ഞങ്ങൾ അറിഞ്ഞുകൊണ്ട് ഡാറ്റ ശേഖരിക്കില്ല. ഒരു കുട്ടി ഞങ്ങൾക്ക് വ്യക്തിഗത വിവരങ്ങൾ നൽകിയിട്ടുണ്ടെന്ന് നിങ്ങൾ വിശ്വസിക്കുന്നുവെങ്കിൽ, ദയവായി ഞങ്ങളെ ഉടൻ ബന്ധപ്പെടുക.\n\n________\n\n**9. ഈ നയത്തിലെ മാറ്റങ്ങൾ**\n\nഞങ്ങൾ ഈ സ്വകാര്യതാ നയം കാലാകാലങ്ങളിൽ അപ്ഡേറ്റ് ചെയ്തേക്കാം. വിപുലീകരണത്തിൻ്റെ ഓപ്‌ഷൻ പേജ് വഴി കാര്യമായ മാറ്റങ്ങൾ അറിയിക്കും. മാറ്റങ്ങൾക്ക് ശേഷവും വിപുലീകരണത്തിൻ്റെ തുടർച്ചയായ ഉപയോഗം അപ്ഡേറ്റ് ചെയ്ത നയത്തിൻ്റെ സ്വീകാര്യതയാണ്. ഞങ്ങളെ ബന്ധപ്പെടുക**\n\nസ്വകാര്യത സംബന്ധിയായ ചോദ്യങ്ങൾക്കും ഡാറ്റ ഇല്ലാതാക്കൽ അഭ്യർത്ഥനകൾക്കും അല്ലെങ്കിൽ ആശങ്കകൾക്കും:\n\nഇമെയിൽ: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension/4__NL_extension https://applyflow.in\n\n30 ദിവസത്തിനുള്ളിൽ എല്ലാ അഭ്യർത്ഥനകളോടും പ്രതികരിക്കാൻ ഞങ്ങൾ ലക്ഷ്യമിടുന്നു.",
     "description": "Privacy policy document markdown text"
+  },
+  "custom_answers_title": {
+    "message": "Custom Answers",
+    "description": "Accordion section title for custom answers"
+  },
+  "tailor_resume_title": {
+    "message": "Tailor Resume",
+    "description": "Suggestion chip for tailoring resume"
+  },
+  "interview_prep_title": {
+    "message": "Interview Prep",
+    "description": "Suggestion chip for interview preparation"
   }
 }
