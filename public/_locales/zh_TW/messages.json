@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow：人工智慧職位自動填充和申請追蹤器",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "使用 AI 在 LinkedIn、Workday、Greenhouse 等平台上自動填寫工作申請並追蹤清單。",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "應用流程",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "活躍",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "應用",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "面試",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "優惠",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "已儲存",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "合計",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "自動填充",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "灌裝...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "快速自動填充",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "分析工作",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "打開側邊欄",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "請先使用 Google 登入才能使用快速自動填入！",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "請先在側邊面板/選項頁面中設定您的個人資料！",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "偵測到 $1$",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "未偵測到作業頁面",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "存取職位清單以解鎖 AI 功能",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "早安",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "午安",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "晚安",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ 申請追蹤 · $2$ 面試",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "開始申請以追蹤您的進度",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "求職信",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "問答幫助",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "準備好提供協助",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "導航至 LinkedIn、Workday、Greenhouse 或任何招聘委員會上的職位清單即可開始。",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "本週",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "最近的活動",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "看全部→",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "開始你的求職之旅！",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "造訪求職板並使用 ApplyFlow 自動填寫和追蹤您的申請。",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "我的個人資料",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "正在儲存...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "全部保存",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "個人資料已儲存！",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "儲存個人資料失敗。",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "履歷",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "上傳至自動填寫個人資料",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ 已上傳",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "個人資訊",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "不完整",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "地點",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "教育",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "技能",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "工作經驗",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "專案",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "工作偏好",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "工作授權",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "履歷歷史",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "使用這個",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "解析於 $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "從「$1$」載入個人資料詳細資料？這將用此簡歷的解析結構替換您當前的編輯。",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "從 $1$ 恢復詳細信息",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "比賽成績",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ 適合",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ 更多",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "申請表自動填寫並記錄！ ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "透過ApplyFlow側面板自動填充",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "那裡",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "沒有大學設置",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "設定您的個人資料以啟用自動填充",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "未設定",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ 條目",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ 技能",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ 項目",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ 答案",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "授權",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "未授權",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "全名",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "電子郵件",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "電話",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "備用電話",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "領英網址",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "作品集網址",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub 網址",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "簡歷連結",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "城市",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "狀態",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "國家",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "郵遞區號",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "地址",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "國籍",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "學院/大學",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "學位",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "畢業年份",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "平均績點 / 年級",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "通知期",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "期望薪資",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "首選角色",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "多年經驗",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "無需簽證擔保即可授權工作",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "需要簽證贊助",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "性別",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "殘障",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "寧願不說",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "未指定",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "男",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "女",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "非二元",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "是的",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "否",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "尚未添加技能",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "新增技能（輸入新增）",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "觸發短語（例如我們為什麼要雇用你）",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "你的答案...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "刪除",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ 新增自訂答案",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "公司簡介",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "角色/頭銜",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "開始日期",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "結束日期",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "現在",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "我目前正在擔任這個角色",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "描述",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "描述您的職責、主要成就、使用的技術...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ 新增工作經驗",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "項目名稱",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "技術堆疊",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "部署網址",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "描述您所建立的內容、解決的問題以及主要功能...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ 新增項目",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "追蹤器",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "已儲存",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "應用",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "評估",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "面試",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "優惠",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "被拒絕",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "撤回",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "刪除這個應用程式嗎？",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "應用程式已更新！",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "應用程式已刪除。",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "狀態",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "平台",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "應用",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "開放職缺發布",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "薪資/津貼",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "後續提醒",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "註解",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "新增註釋、聯絡資訊、採訪詳細資訊...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "職務說明（摘錄）",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "刪除",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "取消",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "儲存",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 份申請",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ 應用程式",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "按公司篩選...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "狀態過濾器",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "向右滾動看更多→",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "全部",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "沒有找到應用程式",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "嘗試重置過濾器或儲存作業以新增新的追蹤器條目",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "分析",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ 申請總數",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "還沒有數據",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "開始申請工作，您的分析將顯示在此。",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "轉換率",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "應用",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "面試率",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "報價率",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "本週申請",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "申請漏斗",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "頂級平台",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "狀態細目",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "人工智慧副駕駛",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "上下文：$1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "您的職業副駕駛",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "新聊天 ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "請先設定您的個人資料，以便人工智慧可以個性化回應。",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "聊天清空！我能為您提供什麼協助？",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "詢問關於這份工作的任何事情...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "設定您的個人資料以開始",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "按 Enter 發送",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "恢復相容性分數",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ 過硬的技能",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ 缺少的技能",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "這是您的個人化求職信：",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ 已複製！",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋複製",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️下載",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "以下是 $1$ 可能出現的面試問題：",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "恢復優化得分：$1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "恢復匹配建議",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "與此職位說明相比",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "出了點問題。請再試一次。",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "你好！我可以看到您正在尋找 **$2$** 的 **$1$** 職位。",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "你好！我可以看到您正在尋找 **$1$** 角色。",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "你好！我是你的人工智慧職業副駕駛。導航到職位列表，我會自動分析它，或問我任何問題！",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "請先在「個人資料」標​​籤中設定您的個人資料！",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "請先在瀏覽器中開啟職位清單頁面才能使用此功能！",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "解鎖ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "使用 Google 登入即可存取您的儀表板、同步職位、管理您的履歷資料並立即自動填寫職位申請。",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "人工智慧自動填充和剪輯器",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "一鍵掃描並自動填寫申請表。",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "雲端同步與備份",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "將您的所有作業追蹤詳細資訊同步到 Supabase。",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "履歷和簡介",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "上傳您的履歷並自訂申請答案。",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "正在連接到谷歌...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "使用 Google 登入",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "登入即表示您同意將您的個人資料資料安全地同步到您的活動工作區。",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "您確定要退出嗎？",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "退出成功。",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "以 $1$ 登入",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "退出",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "登入",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "正在連接...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "開啟應用程式流程",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "應用流程匹配",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "強大的匹配能力",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "缺少的技能",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "智慧型自動填充頁面",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "自動填寫表格...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "頁面上找不到可填寫的申請欄位。",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "已填寫成功！",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "由於頁面複雜性，自動填充失敗。",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "填充後自動儲存到日誌追蹤器。",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "您的履歷與此職位 **$1$% 相容**。",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "歡迎回來，$1$！",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "無法取得 Google 使用者個人資料資訊。",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth 登入失敗：$1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "無法從重定向取得存取令牌。",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "無法解析身份驗證重定向。",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "該平台不支援身份驗證。",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "作業已儲存到追蹤器！",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "嘉賓",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ 常規設置",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "在 LinkedIn 職位頁面上顯示",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "當您在 LinkedIn 上查看職缺時，顯示智慧匹配分數和一鍵自動填滿按鈕。",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "顯示「儲存作業」按鈕",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "在求職網站上顯示浮動的「儲存職位📌」按鈕，以便您可以在申請之前快速將職位詳細資訊儲存到您的追蹤器。",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "實際申請後才登入",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "等到您看到「謝謝」或「成功」畫面後，再將作業新增至追蹤器。透過防止將半填寫的表格儲存為“已套用”，保持追蹤器整潔。",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI 積分和使用分析",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "剩餘積分",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "剩餘學分",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "總學分",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "歷史上的自動填充",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "計劃狀態",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "高級👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "免費🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "專業提示：",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "智慧型自動填充操作消耗0積分且100%無限制！只有高級 AI 功能（如求職信（5 學分）和自訂論文（3 學分））才會消耗您的學分餘額。",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google 帳戶和雲端同步",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google雲端同步活動",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "雲端同步鎖定（僅限高級版）",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "雲端同步",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "推送至雲端",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "從雲端拉取",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "同步成功！",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "同步失敗。檢查您的連線。",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "安全雲端同步",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "使用 Google 登錄，將您的應用程式和設定檔備份到 Supabase。同步是一項進階功能，可確保跨裝置的日誌安全。",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase 雲端同步是一項進階功能。請在升級選項卡中升級以啟用同步！",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 資料管理",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "匯出備份 (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "清除所有本地數據",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "清除本機資料只會從此裝置中刪除您的個人資料和應用程式。雲端資料不受影響。",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "控制中心",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "首頁及關於",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "常規設定",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "升級到專業版👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "高級計劃👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "帳戶與同步",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "隱私權政策",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "常見問題解答",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "鍵盤快速鍵",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 歡迎來到ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow 是一款由人工智慧驅動的 Chrome 擴充程序，專為希望更快、更聰明地申請的學生和求職者而設計。它可以自動偵測並填寫超過 15 個平台的工作申請表，追蹤您的管道，並幫助您獲得更多面試機會。",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "智慧型自動填充",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ 個帶有精確選擇器的 ATS 平台",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "網頁剪輯器",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "一鍵儲存任何職位列表",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "看板追蹤器",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "拖放您的應用程式管道",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO 自動填充",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "自動填寫人口統計和簽證問題",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "人工智慧論文",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini 支援的自訂答案寫作",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "安全同步",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "可選的 Supabase 雲端備份",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 如何開始",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "建立您的個人資料",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "開啟彈出視窗→「個人資料」標籤→上傳您的履歷 PDF。人工智慧將自動提取您的所有詳細信息，包括技能、經驗、教育和專案。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "設定 EEO 首選項",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "捲動到您的個人資料中的 EEO 部分，然後設定您的工作授權、簽證贊助需求和人口偏好。這些用於自動填寫 EEO 調查問卷。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "瀏覽職位列表",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "導航到任何職位清單。您會看到出現 📌「儲存作業」按鈕。單擊它即可立即將位置保存到您的智慧型裝置中。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "打開申請表",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "導航至申請表。點選ApplyFlow彈出視窗→點選「掃描頁面」→然後「⚡智慧自動填入」。所有欄位（包括單選按鈕和下拉式選單）都會立即填入。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "追蹤您的管道",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "打開“追蹤器”標籤以查看所有應用程式。當狀態更新時，切換到看板視圖並在列之間拖曳卡片。",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 需要登入",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "登入以自訂設定",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "常規設定僅適用於登入使用者。使用 Google 登入以設定您的偏好設定、自動填入行為等。",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "前往帳戶和同步",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro 主動",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "許可證密鑰：$1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "停用許可證",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 許可證密鑰已激活",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "如果您已購買訂閱或收到存取代碼，請在下方輸入您的許可證金鑰以解鎖 ApplyFlow Premium。",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "啟用設定",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "啟動...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡提示：您可以使用金鑰 APPLYFLOW-PRO-2026 啟動高級版。",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "高級版已啟用！",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "感謝您對ApplyFlow的支持。所有高級功能現已解鎖。",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 高級升級計劃",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "解鎖您的職業匯出和高級人工智慧功能。",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "獲得求職信、客製化論文答案、履歷優化和模擬面試準備的高級人工智慧學分。支援平台上的自動填充操作完全不受限制，並且對所有高級用戶免費！",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 早期採用者優惠：",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "下次價格上漲為 500 名高級用戶。終身鎖定此利率！",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "每月專業版",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "適合短期搜尋",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 盧比",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/月",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "（只需 13 盧比/天）",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "每月 150 個 AI 積分|||無限自動填入（所有入口網站）|||雲端同步和 Google 備份|||進階主題|||無廣告體驗",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "每月訂閱",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "季刊專業版",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "對大多數求職者來說最有價值",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 盧比",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3個月",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "（只需 11 盧比/天）",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "每季 500 個 AI 積分|||無限自動填入（所有入口網站）|||客製化求職信和論文|||雲端同步和 Google 備份|||履歷表匹配建議",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "訂閱季刊",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "最受歡迎",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "年度終極版",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "為高級用戶提供最佳價值",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2,999 盧比",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/年",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "（相當於 249 盧比/月）",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "每年 2,500 個 AI 積分|||每日無限制自動填充|||定制求職信和論文|||雲端同步和 Google 備份|||簡歷匹配建議|||優先電子郵件支持",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "每年訂閱",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "最超值 - 省 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "支援ApplyFlow開發",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow 由獨立開發人員建置和維護。如果您發現擴展有幫助，請考慮在 Ko-fi 上捐款，以幫助其保持活躍、無廣告並針對新的招聘委員會進行更新。",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "在 Ko-fi 上買杯咖啡",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 評級|||🔒 安全付款|||✓ 隨時取消",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "許可證密鑰無效。提示：嘗試使用演示鍵“APPLYFLOW-PRO-2026”！",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "許可證啟動成功！歡迎使用ApplyFlow 進階版。 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "您確定要停用您的高級授權嗎？這將使您返回免費計劃。",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "高級許可證已停用。您現在使用的是免費方案。",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "這將永久刪除所有本地設定檔和應用程式資料。你確定嗎？",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 隱私權政策",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ 常見問題",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "什麼是ApplyFlow？它是如何運作的？",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow 是一款基於 AI 的 Chrome 擴充程序，可自動偵測並填寫超過 15 個平台的工作申請表，包括 LinkedIn、Internshala、Unstop、Workday、Greenhouse、Lever 等。它會讀取您保存的個人資料，並使用智慧匹配來填充文字欄位、下拉式選單、單選按鈕和複選框 - 包括 EEO/人口統計問題。",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "使用ApplyFlow 我的個人資料安全嗎？",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "是的。預設情況下，您的資料會本機儲存在瀏覽器的 chrome.storage.local 中。除了您自己的可選 Supabase 資料庫（由您控制​​）之外，它永遠不會發送到任何第三方伺服器。 ApplyFlow 絕不會出售、分享您的個人資訊或將您的個人資訊貨幣化。",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow支援哪些工作平台？",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow 支援超過 15 個開箱即用的平台：LinkedIn Easy Apply、Internshala、Unstop、Workday、Greenhouse、Lever、iCIMS、SmartRecruiters、BambooHR、Jobvite、Taleo、Naukri、Indeed、Wellfound/AngelList 以及透過我們的通用後備器來實現的任何其他網站。",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "什麼是網頁剪輯器？",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper 是一個浮動的「儲存職位」按鈕 (📌)，當您造訪任何職位清單頁面時，該按鈕會自動出現。點擊它會提取職位名稱、公司、薪資和描述，然後將其作為「已儲存」申請儲存到您的 ApplyFlow 追蹤器中 - 這樣您就可以在申請之前追蹤職位。",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "如何更新我的個人資料？",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "打開 ApplyFlow 彈出窗口，點擊「個人資料」選項卡，然後上傳您的履歷 PDF。人工智慧將自動填充您的所有欄位。您也可以手動編輯任何字段，包括您的 EEO 偏好、工作授權和求職信。",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "什麼是 EEO 字段以及為什麼我需要它們？",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO（平等就業機會）欄位是許多美國和全球雇主詢問的有關性別、殘疾狀況、退伍軍人狀況和工作授權的問題。 ApplyFlow 會儲存您首選的答案並自動填入這些單選按鈕群組，因此您不必每次都手動回答它們。",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow 是否需要任何 API 金鑰或配置？",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "不！ ApplyFlow 自動處理所有表單偵測、智慧匹配、求職信產生和相容性評分。您不需要取得或配置任何 API 金鑰。",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "什麼是 Supabase 同步？我需要它嗎？",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase 同步是一項可選的雲端備份功能。當您登入 Google 並啟用它時，您的個人資料和應用程式追蹤器將同步到私有雲資料庫，以便您的資料備份並可從多個裝置存取。這是完全可選的——擴展程序完全離線工作。",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "為什麼ApplyFlow需要造訪所有網站？",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow 要求造訪所有網站，以便它可以在任何職位申請表上註入自動填充引擎，並在任何職位清單上顯示「儲存職位」剪輯按鈕。廣泛的平台支援需要此權限。我們只在明顯與工作相關的頁面上註入腳本。",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "什麼是看板？",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "看板是「追蹤器」標籤中的視覺化作業追蹤視圖。它按列顯示您的申請：已儲存→已申請→評估→面試→錄取通知書。您可以在列之間拖放卡片以更新任何應用程式的狀態。",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "提交檢測如何運作？",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "當您在設定中啟用「僅在提交後記錄」時，ApplyFlow 會監視指示成功提交的頁面變更（例如包含「/success」的 URL 或正文「感謝您申請」）。它僅在檢測到真實提交後才將應用程式記錄到您的追蹤器。",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "我可以儲存多封求職信嗎？",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "是的！ 「個人資料」畫面有一個「求職信庫」部分，您可以在其中儲存針對不同角色或公司量身定制的無限求職信。自動填入時，ApplyFlow 將使用您最近或最相關的求職信。",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "如何匯出我的申請資料？",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "前往帳戶和同步→滾動到底部→點擊「匯出備份（JSON）」。這會將您的所有個人資料和應用程式資料下載為 JSON 檔案以便妥善保管。",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow 在演示模式下運作嗎？",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "演示模式是用於測試的舊設定。現在預設情況下它是禁用的。所有功能均透過內建 Gemini API 金鑰實現即時運作。",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "如何回報錯誤或請求功能？",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "請在我們的 GitHub 儲存庫上提出問題（在「關於」部分中連結）或向我們發送電子郵件至 support@applyflow.in。我們通常會在 48 小時內回覆。",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "打開ApplyFlow彈出視窗",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "掃描目前頁面的表單字段",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "在目前頁面觸發智慧自動填充",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "將目前職位清單剪輯到追蹤器",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "在新分頁中開啟追蹤器",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "在 Chrome 中設定快捷方式：",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "注意：",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome 擴充功能指令需要在 Chrome 的捷徑管理員中手動指派。轉到 $1$ 綁定上面列出的鍵。",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome 擴充功能 — 隱私權政策**\n最後更新：2026 年 6 月\n\n---\n\n**1。簡介**\n\nApplyFlow（「我們」、「我們的」、「擴充功能」）是一款 Chrome 瀏覽器擴充功能，可協助使用者自動填寫工作申請表、追蹤其申請並管理其職業檔案。本隱私權政策解釋了我們如何收集、使用、儲存和保護您的資訊。 \n\n安裝和使用ApplyFlow，即表示您同意本政策中所述的做法。 \n\n----\n\n**2。我們收集的資料**\n\n我們僅收集您自願提供的資訊以啟用擴充程式的功能：\n\n• **個人資料資訊**：您的姓名、電子郵件、電話號碼、學院、學位、技能、工作經驗、專案和專業連結（LinkedIn、GitHub、Portfolio）。 \n• **EEO/人口統計資訊（可選）**：性別、殘疾狀況、退伍軍人狀態和工作授權首選項 - 僅當您選擇填寫這些欄位時才提供。此數據專門用於自動填寫職位申請中的可選 EEO 調查問卷。 \n• **申請追蹤資料**：職位名稱、公司、申請 URL、狀態以及您使用擴展程序追蹤的職位的說明。 \n• **使用統計資料**：執行的自動填入操作數量（儲存在本機以強制執行每日限制）。 \n• **身份驗證資料**：如果您選擇使用 Google 登錄，我們會將您的 Google 顯示名稱、電子郵件地址和個人資料圖片 URL 儲存到個人化您的體驗並啟用雲端同步。 \n\n我們**不**收集：\n• 付款或財務資訊\n• 瀏覽器歷史記錄或一般瀏覽活動\n• 與職位申請無關的頁面中的任何資訊\n•未主動觸發擴充功能時頁面中的任何資料\n\n----\n\n**3.我們如何儲存您的資料**\n\n**3.1 本機儲存（預設）**\n所有資料主要儲存在您瀏覽器的 chromeage.storage。這些資料僅駐留在您的裝置上，未經您的明確操作，絕不會傳輸到任何伺服器。 \n\n**3.2 雲端同步（可選）**\n如果您選擇使用 Google 登入並啟用「Supabase 同步」功能，您的個人資料和應用程式資料也會同步到 Supabase 資料庫。您保留該資料的完全所有權。您可以隨時從帳戶和同步部分將其刪除。 \n\n**3.3 Gemini AI 請求**\n當使用 AI 功能（例如論文生成、工作分析）時，您的個人資料的一部分（技能、學位、摘要）和工作描述文字將發送到 Google 的 Gemini API 以產生回應。這是根據 Google 的標準 API 服務條款和隱私權政策進行處理的。我們建議不要在您的人工智慧輔助內容中包含敏感的個人識別碼。 \n\n----\n\n**4.資料共享**\n\n我們**不會**出於行銷或廣告目的向任何第三方出售、交易、出租或分享您的個人資訊。 \n\n您的資料可能會由以下可信任服務處理：\n• **Google Gemini API**：用於人工智慧驅動的表單填寫與分析 (https://policies.google.com/privacy)\n• **Google OAuth**：用於帳戶驗證(https://polipricies.google.com/• (https://supabase.com/privacy) — 只有當您啟用sync\n\n---\n\n**5。您的權利與控制**\n\n您有權：\n• **存取**ApplyFlow 儲存的所有關於您的資料（透過設定中的匯出備份）\n• **隨時在「個人資料」標籤中修正**62\n• **透過在帳戶和同步設定中將其關閉來停用雲端同步**\n\n**GDPR（歐盟用戶）**：如果您是歐盟居民，您有權根據《一般資料保護規範》存取、修正、刪除、限制處理和資料可攜性。 \n\n**印度 — 2023 年 DPDP 法案**：符合印度的數位個人資料根據 2023 年保護法，我們僅出於提供工作申請協助服務的目的處理個人資料。您可以隨時聯絡我們撤回同意並要求刪除您的資料。 \n\n**加州 — CCPA**：加州居民有權了解收集了哪些個人資訊、有權刪除以及選擇不出售資料（我們不出售資料）。 \n\n----\n\n**6。資料保留**\n\n本地資料將保留，直到您手動清除。雲端同步資料將保留，直到您刪除帳戶或要求刪除為止。我們不會自動刪除資料。 \n\n----\n\n**7。安全性**\n\n我們採取合理的技術措施來保護您的資料：\n• 所有雲端通訊均使用 HTTPS/TLS 加密\n• Supabase 行級安全性 (RLS) 確保使用者只能存取自己的資料\n•擴充程式不會請求超出其核心功能所需的權限\n\n----\n\n**8。兒童隱私**\n\nApplyFlow 不適合 13 歲以下的使用者。我們不會故意收集兒童的資料。如果您認為兒童向我們提供了個人訊息，請立即聯繫我們。 \n\n----\n\n**9。本政策的變更**\n\n我們可能會不時更新本隱私權政策。重大變更將透過擴充功能的選項頁面傳達。更改後繼續使用擴充功能即表示接受更新的政策。 \n\n----\n\n**10.聯絡我們**\n\n對於任何與隱私相關的問題、資料刪除請求或疑慮：\n\n電子郵件：privacy@ applyflow.in\nGitHub：https://github.com/applyflow/extension\n網站：https://applyflow.in\n\n我們的目標是在30 天內回覆所有請求天。",
+    "description": "Privacy policy document markdown text"
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Αυτόματη συμπλήρωση εφαρμογών εργασίας και λίστες παρακολούθησης αυτόματα με χρήση τεχνητής νοημοσύνης σε LinkedIn, Workday, Greenhouse και άλλα.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Ενεργός",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Εφαρμόστηκε",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Συνέντευξη",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Προσφορά",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Αποθηκεύτηκε",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Σύνολο",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Αυτόματη συμπλήρωση",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Γέμισμα...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Γρήγορη αυτόματη συμπλήρωση",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Αναλύστε την εργασία",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Ανοίξτε την πλευρική γραμμή",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Ρυθμίσεις",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Συνδεθείτε πρώτα με την Google για να χρησιμοποιήσετε τη Γρήγορη Αυτόματη Συμπλήρωση!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Ρυθμίστε το προφίλ σας πρώτα στη σελίδα Πλαϊνό Πάνελ/Επιλογές!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Εντοπίστηκε",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Δεν εντοπίστηκε σελίδα εργασίας",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Επισκεφτείτε μια λίστα εργασιών για να ξεκλειδώσετε λειτουργίες AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Καλημέρα",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Καλησπέρα",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "καλησπέρα",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ παρακολούθηση αιτήσεων · $2$ συνεντεύξεις",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Ξεκινήστε να κάνετε αίτηση για να παρακολουθείτε την πρόοδό σας",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Συνοδευτική επιστολή",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Βοήθεια Q&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Έτοιμοι να βοηθήσουν",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Πλοηγηθείτε σε μια λίστα θέσεων εργασίας στο LinkedIn, Workday, Greenhouse ή οποιονδήποτε πίνακα εργασιών για να ξεκινήσετε.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Αυτή την εβδομάδα",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Πρόσφατη Δραστηριότητα",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Προβολή όλων →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Ξεκινήστε το κυνήγι της δουλειάς σας!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Επισκεφτείτε έναν πίνακα εργασιών και χρησιμοποιήστε το ApplyFlow για αυτόματη συμπλήρωση και παρακολούθηση των αιτήσεών σας αυτόματα.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Το προφίλ μου",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Αποθήκευση...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Αποθήκευση όλων",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Το προφίλ αποθηκεύτηκε!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Αποτυχία αποθήκευσης προφίλ.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Βιογραφικό",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Μεταφόρτωση στο προφίλ αυτόματης συμπλήρωσης",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Μεταφορτώθηκε",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Προσωπικές Πληροφορίες",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Ημιτελής",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Τοποθεσία",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Εκπαίδευση",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Δεξιότητες",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Εργασιακή Εμπειρία",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Έργα",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Προτιμήσεις Εργασίας",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Εξουσιοδότηση Εργασίας",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Βιογραφικό Ιστορικό",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Χρησιμοποιήστε αυτό",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Αναλύθηκε στις $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Φόρτωση στοιχείων προφίλ από το \"$1$\"; Αυτό θα αντικαταστήσει τις τρέχουσες αλλαγές σας με την αναλυμένη δομή αυτού του βιογραφικού.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Έγινε επαναφορά στοιχείων από $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Βαθμολογία αγώνα",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Κατάλληλο",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ περισσότερα",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Η εφαρμογή συμπληρώθηκε αυτόματα και καταγράφηκε! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Αυτόματη συμπλήρωση μέσω του πλαϊνού πίνακα ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "εκεί",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Κανένα κολεγιακό σύνολο",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Ρυθμίστε το προφίλ σας για να ενεργοποιήσετε την αυτόματη συμπλήρωση",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Δεν έχει οριστεί",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ καταχωρήσεις",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ δεξιότητες",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ έργα",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ απαντήσεις",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Εξουσιοδοτημένος",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Μη εξουσιοδοτημένο",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Πλήρες Όνομα",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Τηλέφωνο",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Εναλλακτικό τηλέφωνο",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL του LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL χαρτοφυλακίου",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL του GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Σύνδεσμος βιογραφικού",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Πόλη",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "κράτος",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Χώρα",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "ΤΚ",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Διεύθυνση",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Εθνικότητα",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Κολλέγιο / Πανεπιστήμιο",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Πτυχίο",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Έτος αποφοίτησης",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Βαθμός",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10ο %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12ο %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Περίοδος προειδοποίησης",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Αναμενόμενος μισθός",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Προτιμώμενος ρόλος",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Χρόνια Εμπειρίας",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Εξουσιοδοτημένος να εργάζεται χωρίς χορηγία βίζας",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Απαιτείται χορηγία βίζας",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Φύλο",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Αναπηρία",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Προτιμήστε να μην πείτε",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Δεν διευκρινίζεται",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Αρσενικό",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Θηλυκό",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Μη δυαδικό",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ναι",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Όχι",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Δεν έχουν προστεθεί ακόμη δεξιότητες",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Προσθήκη δεξιότητας (Enter για προσθήκη)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Φράση ενεργοποίησης (π.χ. Γιατί να σας προσλάβουμε)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Η απάντησή σας...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Αφαίρεση",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Προσθήκη προσαρμοσμένης απάντησης",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Εταιρεία",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Ρόλος / Τίτλος",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Ημερομηνία έναρξης",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Ημερομηνία λήξης",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Παρόντες",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Αυτή τη στιγμή εργάζομαι σε αυτόν τον ρόλο",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Περιγραφή",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Περιγράψτε τις ευθύνες σας, τα βασικά επιτεύγματα, τις τεχνολογίες που χρησιμοποιούνται...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Προσθήκη εργασιακής εμπειρίας",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Τίτλος Έργου",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL ανάπτυξης",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Περιγράψτε τι κατασκευάσατε, ποιο πρόβλημα έλυσε και τα βασικά χαρακτηριστικά...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Προσθήκη έργου",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Ιχνηλάτης",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Αποθηκεύτηκε",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Εφαρμόστηκε",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Αξιολόγηση",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Συνέντευξη",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Προσφορά",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Απορρίφθηκε",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Αποσύρθηκε",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Διαγραφή αυτής της εφαρμογής;",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Η εφαρμογή ενημερώθηκε!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Η εφαρμογή διαγράφηκε.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Κατάσταση",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Πλατφόρμα",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Εφαρμόστηκε",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Ανοίξτε την Ανάρτηση Εργασίας",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Μισθός / Επίδομα",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Υπενθύμιση παρακολούθησης",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Σημειώσεις",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Προσθέστε σημειώσεις, στοιχεία επικοινωνίας, λεπτομέρειες συνέντευξης...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Περιγραφή εργασίας (απόσπασμα)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Διαγραφή",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Ακύρωση",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Αποθήκευση",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 αίτηση",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ εφαρμογές",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Φιλτράρισμα ανά εταιρεία...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Φίλτρα κατάστασης",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Κάντε κύλιση προς τα δεξιά για περισσότερα →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Όλα",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Δεν βρέθηκαν εφαρμογές",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Δοκιμάστε να επαναφέρετε τα φίλτρα ή αποθηκεύστε μια εργασία για να προσθέσετε μια νέα καταχώριση παρακολούθησης",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ σύνολο αιτήσεων",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Δεν υπάρχουν ακόμη στοιχεία",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Ξεκινήστε να κάνετε αίτηση για θέσεις εργασίας και τα αναλυτικά σας στοιχεία θα εμφανιστούν εδώ.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Ποσοστά Μετατροπής",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Εφαρμόστηκε",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Ποσοστό συνέντευξης",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Ποσοστό προσφοράς",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Εφαρμογές αυτή την εβδομάδα",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Διοχέτευση εφαρμογής",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Κορυφαίες πλατφόρμες",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Ανάλυση κατάστασης",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Περιεχόμενο: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Ο συγκυβερνήτης της καριέρας σας",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Νέα συνομιλία ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Ρυθμίστε πρώτα το προφίλ σας, ώστε το AI να μπορεί να εξατομικεύσει τις απαντήσεις.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Η συνομιλία διαγράφηκε! Σε τι μπορώ να σας βοηθήσω;",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Ρωτήστε οτιδήποτε για αυτή τη δουλειά...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Ρυθμίστε το προφίλ σας για να ξεκινήσετε",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Πατήστε Enter για αποστολή",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Βαθμολογία συμβατότητας βιογραφικού",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Ισχυρές δεξιότητες",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Λείπουν Δεξιότητες",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Εδώ είναι η εξατομικευμένη συνοδευτική επιστολή σας:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Αντιγράφηκε!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Αντιγραφή",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Λήψη",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Ακολουθούν $1$ πιθανές ερωτήσεις συνέντευξης:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Βαθμολογία βελτιστοποίησης βιογραφικού: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Συνέχιση προτάσεων αγώνα",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "έναντι αυτής της περιγραφής εργασίας",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Κάτι πήγε στραβά. Δοκιμάστε ξανά.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Γεια! Βλέπω ότι κοιτάτε έναν ρόλο **$1$** στο **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Γεια! Βλέπω ότι κοιτάτε έναν ρόλο **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Γεια! Είμαι ο συγκυβερνήτης σταδιοδρομίας σας στο AI. Πλοηγηθείτε σε μια λίστα εργασίας και θα την αναλύσω αυτόματα ή θα με ρωτήσω οτιδήποτε!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Ρυθμίστε το προφίλ σας πρώτα στην καρτέλα Προφίλ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Ανοίξτε πρώτα μια σελίδα καταχώρισης εργασιών στο πρόγραμμα περιήγησής σας για να χρησιμοποιήσετε αυτήν τη δυνατότητα!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Ξεκλειδώστε το ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Συνδεθείτε με το Google για να αποκτήσετε πρόσβαση στον πίνακα ελέγχου σας, να συγχρονίσετε εργασίες, να διαχειριστείτε το προφίλ του βιογραφικού σας και να συμπληρώσετε αυτόματα τις εφαρμογές εργασίας αμέσως.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Σάρωση και αυτόματη συμπλήρωση εφαρμογών με ένα κλικ.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Συγχρονίστε όλες τις λεπτομέρειες παρακολούθησης της εργασίας σας με το Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Βιογραφικό & Προφίλ",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Ανεβάστε το βιογραφικό σας και προσαρμόστε τις απαντήσεις της εφαρμογής.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Σύνδεση στο Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Συνδεθείτε με το Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Με τη σύνδεση, συμφωνείτε να συγχρονίσετε τα δεδομένα του προφίλ σας με ασφάλεια στον ενεργό χώρο εργασίας σας.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε;",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Έγινε επιτυχής αποσύνδεση.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Συνδεθήκατε ως $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Αποσύνδεση",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Είσοδος",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Σύνδεση...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Ανοίξτε το ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Ισχυρές δεξιότητες αντιστοίχισης",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Λείπουν Δεξιότητες",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Έξυπνη σελίδα αυτόματης συμπλήρωσης",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Αυτόματη συμπλήρωση φόρμας...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Δεν βρέθηκαν συμπληρωμένα πεδία αίτησης στη σελίδα.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Συμπληρώθηκε με επιτυχία!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Η αυτόματη συμπλήρωση απέτυχε λόγω πολυπλοκότητας της σελίδας.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Αποθηκεύεται αυτόματα στην καταγραφή του tracker κατά την πλήρωση.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Το βιογραφικό σας είναι **$1$% συμβατό** με αυτόν τον ρόλο.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Καλώς ήρθατε πίσω, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Απέτυχε η ανάκτηση των πληροφοριών προφίλ χρήστη Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Η σύνδεση OAuth απέτυχε: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Η ανάκτηση του διακριτικού πρόσβασης από την ανακατεύθυνση απέτυχε.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Απέτυχε η ανάλυση της ανακατεύθυνσης ελέγχου ταυτότητας.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Ο έλεγχος ταυτότητας δεν υποστηρίζεται σε αυτήν την πλατφόρμα.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Η εργασία αποθηκεύτηκε στο tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Επισκέπτης",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Γενικές ρυθμίσεις",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Εμφάνιση στις σελίδες εργασίας του LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Εμφανίζει μια έξυπνη βαθμολογία αντιστοίχισης και ένα κουμπί αυτόματης συμπλήρωσης με ένα κλικ όταν προβάλλετε αναρτήσεις εργασίας στο LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Εμφάνιση κουμπιού «Αποθήκευση εργασίας».",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Εμφανίζει ένα αιωρούμενο κουμπί \"Αποθήκευση εργασίας 📌\" στους ιστότοπους εργασίας, ώστε να μπορείτε να αποθηκεύετε γρήγορα τις λεπτομέρειες της εργασίας στον ιχνηλάτη πριν υποβάλετε αίτηση.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Συνδεθείτε μόνο μετά την πραγματική εφαρμογή",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Περιμένετε μέχρι να δείτε την οθόνη \"Ευχαριστώ\" ή \"Επιτυχία\" προτού προσθέσετε την εργασία στο πρόγραμμα παρακολούθησης. Διατηρεί τον ιχνηλάτη σας τακτοποιημένο αποτρέποντας την αποθήκευση μισογεμάτων φορμών ως \"Εφαρμοσμένη\".",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI Credits & Usage Analytics",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Μονάδες αριστερά",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Πιστώσεις που απομένουν",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Σύνολο πιστώσεων",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Αυτόματες συμπληρώσεις όλων των εποχών",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Κατάσταση σχεδίου",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Δωρεάν 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Επαγγελματική συμβουλή:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Οι λειτουργίες έξυπνης αυτόματης συμπλήρωσης καταναλώνουν 0 μονάδες και είναι 100% απεριόριστες! Μόνο προηγμένες λειτουργίες AI, όπως Συνοδευτικές επιστολές (5 μονάδες) και προσαρμοσμένες εκθέσεις (3 μονάδες) καταναλώνουν το πιστωτικό σας υπόλοιπο.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Λογαριασμός Google & Συγχρονισμός Cloud",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync Active",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Το Cloud Sync είναι κλειδωμένο (μόνο Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Σπρώξτε στο Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Τραβήξτε από το Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Επιτυχής συγχρονισμός!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Ο συγχρονισμός απέτυχε. Ελέγξτε τη σύνδεσή σας.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Ασφαλής συγχρονισμός Cloud",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Συνδεθείτε με την Google για να δημιουργήσετε αντίγραφα ασφαλείας των εφαρμογών και του προφίλ σας στο Supabase. Ο συγχρονισμός είναι μια λειτουργία Premium που διατηρεί τα αρχεία καταγραφής σας ασφαλή σε όλες τις συσκευές.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Το Supabase Cloud Sync είναι ένα Premium χαρακτηριστικό. Κάντε αναβάθμιση στην καρτέλα Αναβάθμιση για να ενεργοποιήσετε τον συγχρονισμό!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Διαχείριση δεδομένων",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Εξαγωγή αντιγράφων ασφαλείας (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Διαγραφή όλων των τοπικών δεδομένων",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Η εκκαθάριση τοπικών δεδομένων καταργεί το προφίλ και τις εφαρμογές σας μόνο από αυτήν τη συσκευή. Τα δεδομένα του cloud δεν επηρεάζονται.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Κέντρο Ελέγχου",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Αρχική σελίδα & Σχετικά",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Γενικές Ρυθμίσεις",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Αναβάθμιση σε Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Πρόγραμμα Premium 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Λογαριασμός & Συγχρονισμός",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Πολιτική Απορρήτου",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Συντομεύσεις πληκτρολογίου",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Καλώς ήρθατε στο ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "Το ApplyFlow είναι μια επέκταση Chrome με τεχνητή νοημοσύνη, σχεδιασμένη για φοιτητές και άτομα που αναζητούν εργασία που θέλουν να υποβάλουν αίτηση γρηγορότερα και πιο έξυπνα. Ανιχνεύει αυτόματα και συμπληρώνει φόρμες αίτησης εργασίας σε περισσότερες από 15 πλατφόρμες, παρακολουθεί τη διοχέτευσή σας και σας βοηθά να προσελκύσετε περισσότερες συνεντεύξεις.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Έξυπνη αυτόματη συμπλήρωση",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ πλατφόρμες ATS με ακριβείς επιλογείς",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Αποθήκευση οποιασδήποτε καταχώρισης εργασίας με ένα κλικ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Σύρετε και αποθέστε τη διοχέτευση της εφαρμογής σας",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Αυτόματη συμπλήρωση EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Συμπληρώνει αυτόματα ερωτήσεις δημογραφικών στοιχείων και βίζας",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Δοκίμια AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Προσαρμοσμένη γραφή απαντήσεων με δύναμη Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Ασφαλής συγχρονισμός",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Προαιρετικό αντίγραφο ασφαλείας του cloud Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Πώς να ξεκινήσετε",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Δημιουργήστε το προφίλ σας",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Ανοίξτε το αναδυόμενο παράθυρο → καρτέλα Προφίλ → μεταφορτώστε το βιογραφικό σας PDF. Το AI θα εξάγει αυτόματα όλα τα στοιχεία σας, συμπεριλαμβανομένων των δεξιοτήτων, της εμπειρίας, της εκπαίδευσης και των έργων.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Ορίστε τις προτιμήσεις EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Κάντε κύλιση στην ενότητα EEO στο προφίλ σας και ορίστε την εξουσιοδότηση εργασίας, τις ανάγκες χορηγίας βίζας και τις δημογραφικές προτιμήσεις σας. Αυτά χρησιμοποιούνται για την αυτόματη συμπλήρωση ερωτηματολογίων EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Περιήγηση σε μια καταχώριση εργασίας",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Πλοηγηθείτε σε οποιαδήποτε λίστα εργασιών. Θα δείτε να εμφανίζεται ένα κουμπί 📌 \"Αποθήκευση εργασίας\". Κάντε κλικ σε αυτό για να αποθηκεύσετε αμέσως τη θέση στον ιχνηλάτη σας.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Ανοίξτε μια φόρμα αίτησης",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Μεταβείτε στη φόρμα αίτησης. Κάντε κλικ στο αναδυόμενο παράθυρο ApplyFlow → πατήστε \"Σάρωση σελίδας\" → μετά \"⚡ Έξυπνη αυτόματη συμπλήρωση\". Όλα τα πεδία συμπεριλαμβανομένων των κουμπιών επιλογής και των αναπτυσσόμενων μενού συμπληρώνονται αμέσως.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Παρακολούθηση του αγωγού σας",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Ανοίξτε την καρτέλα Tracker για να δείτε όλες τις εφαρμογές σας. Μεταβείτε στην προβολή πίνακα Kanban και σύρετε κάρτες μεταξύ στηλών καθώς ενημερώνεστε για την κατάστασή σας.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Απαιτείται είσοδος",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Συνδεθείτε για να προσαρμόσετε τις ρυθμίσεις",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Οι Γενικές Ρυθμίσεις είναι διαθέσιμες μόνο σε συνδεδεμένους χρήστες. Συνδεθείτε με το Google για να διαμορφώσετε τις προτιμήσεις σας, τις συμπεριφορές αυτόματης συμπλήρωσης και πολλά άλλα.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Μεταβείτε στο Λογαριασμός και συγχρονισμός",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Κλειδί άδειας χρήσης: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Απενεργοποίηση άδειας χρήσης",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Ενεργοποίηση κλειδιού άδειας χρήσης",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Εάν έχετε αγοράσει μια συνδρομή ή έχετε λάβει έναν κωδικό πρόσβασης, εισαγάγετε το κλειδί άδειας χρήσης παρακάτω για να ξεκλειδώσετε το ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Ενεργοποίηση",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Ενεργοποίηση...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Συμβουλή: Μπορείτε να ενεργοποιήσετε το Premium χρησιμοποιώντας το κλειδί APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium Ενεργοποιήθηκε!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Σας ευχαριστούμε που υποστηρίζετε το ApplyFlow. Όλες οι premium λειτουργίες είναι πλέον ξεκλείδωτες.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Πρόγραμμα αναβάθμισης Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Ξεκλειδώστε τις εξαγωγές σταδιοδρομίας σας και προηγμένες λειτουργίες AI.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Λάβετε πιστώσεις τεχνητής νοημοσύνης κορυφαίας ποιότητας για συνοδευτικές επιστολές, προσαρμοσμένες απαντήσεις σε δοκίμια, βελτιστοποίηση βιογραφικού και εικονική προετοιμασία για συνέντευξη. Οι λειτουργίες αυτόματης συμπλήρωσης σε υποστηριζόμενες πλατφόρμες είναι πλήρως απεριόριστες και δωρεάν για όλους τους premium χρήστες!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Προσφορά έγκαιρης υιοθέτησης:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Επόμενη αύξηση τιμής στους 500 χρήστες Premium. Κλείστε αυτό το ποσοστό για μια ζωή!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Μηνιαίο Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Καλό για βραχυπρόθεσμη αναζήτηση",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ μήνα",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Μόλις 13 ₹ / ημέρα)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 πιστώσεις AI ανά μήνα|||Απεριόριστες αυτόματες συμπληρώσεις (Όλες οι πύλες)|||Cloud Sync & Google Backup|||Θέματα Premium|||Εμπειρία χωρίς διαφημίσεις",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Εγγραφή Μηνιαία",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Η καλύτερη αξία για τα περισσότερα άτομα που αναζητούν εργασία",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 μήνες",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Μόλις 11 ₹ / ημέρα)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 πιστώσεις AI ανά τρίμηνο|||Απεριόριστες αυτόματες συμπληρώσεις (Όλες οι πύλες)|||Προσαρμοσμένες συνοδευτικές επιστολές και δοκίμια|||Cloud Sync & Google Backup|||Συνέχιση προτάσεων αντιστοίχισης",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Εγγραφή Τριμηνιαία",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Δημοφιλέστερο",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ετήσιο απόλυτο",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Η καλύτερη τιμή για ισχυρούς χρήστες",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2.999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ έτος",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Ισοδύναμο με 249 ₹ / μήνα)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 πιστώσεις AI ετησίως|||Απεριόριστες ημερήσιες αυτόματες συμπληρώσεις|||Προσαρμοσμένες συνοδευτικές επιστολές και δοκίμια|||Cloud Sync & Google Backup|||Συνέχιση προτάσεων αντιστοίχισης|||Υποστήριξη με email προτεραιότητας",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Συνδρομή Ετήσια",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Καλύτερη Αξία - Εξοικονόμηση 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Υποστήριξη Ανάπτυξης ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "Το ApplyFlow κατασκευάζεται και συντηρείται από ανεξάρτητους προγραμματιστές. Εάν θεωρείτε χρήσιμη την επέκταση, σκεφτείτε να κάνετε δωρεά στο Ko-fi για να το διατηρήσετε ενεργό, χωρίς διαφημίσεις και ενημερωμένο για νέους πίνακες θέσεων εργασίας.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Αγόρασέ μου έναν καφέ στο Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Βαθμολογία|||🔒 Ασφαλείς πληρωμές|||✓ Ακύρωση ανά πάσα στιγμή",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Μη έγκυρο κλειδί άδειας χρήσης. Συμβουλή: Δοκιμάστε να χρησιμοποιήσετε το κλειδί επίδειξης 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Η άδεια ενεργοποιήθηκε με επιτυχία! Καλώς ήρθατε στο ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να απενεργοποιήσετε την premium άδεια χρήσης σας; Αυτό θα σας επιστρέψει στο Δωρεάν Πρόγραμμα.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Η άδεια Premium απενεργοποιήθηκε. Είστε τώρα στο Δωρεάν Πρόγραμμα.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Αυτό θα διαγράψει οριστικά ΟΛΑ τα τοπικά προφίλ και τα δεδομένα εφαρμογής. Είσαι σίγουρος;",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Πολιτική Απορρήτου",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Συχνές Ερωτήσεις",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Τι είναι το ApplyFlow και πώς λειτουργεί;",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "Το ApplyFlow είναι μια επέκταση Chrome με τεχνητή νοημοσύνη που εντοπίζει και συμπληρώνει αυτόματα φόρμες αιτήσεων εργασίας σε 15+ πλατφόρμες, συμπεριλαμβανομένων των LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever και άλλα. Διαβάζει το αποθηκευμένο προφίλ σας και χρησιμοποιεί έξυπνη αντιστοίχιση για να συμπληρώσει πεδία κειμένου, αναπτυσσόμενα μενού, κουμπιά επιλογής και πλαίσια ελέγχου — συμπεριλαμβανομένων ερωτήσεων EEO/δημογραφικών ερωτήσεων.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Είναι ασφαλή τα προσωπικά μου δεδομένα με το ApplyFlow;",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ναί. Τα δεδομένα σας αποθηκεύονται τοπικά στο chrome.storage.local του προγράμματος περιήγησής σας από προεπιλογή. Δεν αποστέλλεται ποτέ σε οποιονδήποτε διακομιστή τρίτου μέρους εκτός από τη δική σας προαιρετική βάση δεδομένων Supabase (την οποία ελέγχετε). Το ApplyFlow ποτέ δεν πουλά, μοιράζεται ή δημιουργεί έσοδα από τα προσωπικά σας στοιχεία.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Ποιες πλατφόρμες εργασίας υποστηρίζει το ApplyFlow;",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "Το ApplyFlow υποστηρίζει εξαρχής 15+ πλατφόρμες: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList και οποιονδήποτε άλλο ιστότοπο μέσω του intelligent μας fallback matcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Τι είναι το Web Clipper;",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Το Web Clipper είναι ένα αιωρούμενο κουμπί \"Αποθήκευση εργασίας\" (📌) που εμφανίζεται αυτόματα όταν επισκέπτεστε οποιαδήποτε σελίδα καταχώρισης εργασιών. Κάνοντας κλικ σε αυτό εξάγονται ο τίτλος εργασίας, η εταιρεία, ο μισθός και η περιγραφή και, στη συνέχεια, αποθηκεύονται στο πρόγραμμα παρακολούθησης ApplyFlow ως \"Αποθηκευμένη\" εφαρμογή — ώστε να μπορείτε να παρακολουθείτε τις εργασίες πριν υποβάλετε αίτηση.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Πώς μπορώ να ενημερώσω το προφίλ μου;",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Ανοίξτε το αναδυόμενο παράθυρο ApplyFlow, κάντε κλικ στην καρτέλα \"Προφίλ\" και μεταφορτώστε το βιογραφικό σας PDF. Το AI θα συμπληρώσει αυτόματα όλα τα πεδία σας. Μπορείτε επίσης να επεξεργαστείτε μη αυτόματα οποιοδήποτε πεδίο, συμπεριλαμβανομένων των προτιμήσεων EEO, της εξουσιοδότησης εργασίας και των συνοδευτικών επιστολών.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Τι είναι τα πεδία EEO και γιατί τα χρειάζομαι;",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Τα πεδία EEO (Ίσες Ευκαιρίες Απασχόλησης) είναι ερωτήσεις που κάνουν πολλοί εργοδότες στις ΗΠΑ και στον κόσμο σχετικά με το φύλο, το καθεστώς αναπηρίας, το καθεστώς βετεράνου και την άδεια εργασίας. Το ApplyFlow αποθηκεύει τις προτιμώμενες απαντήσεις σας και συμπληρώνει αυτόματα αυτές τις ομάδες κουμπιών επιλογής, ώστε να μην χρειάζεται να τις απαντάτε χειροκίνητα κάθε φορά.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Απαιτεί το ApplyFlow κάποια κλειδιά ή διαμόρφωση API;",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Όχι! Το ApplyFlow χειρίζεται αυτόματα την ανίχνευση φόρμας, την έξυπνη αντιστοίχιση, τη δημιουργία συνοδευτικών επιστολών και τη βαθμολογία συμβατότητας. Δεν χρειάζεται να αποκτήσετε ή να διαμορφώσετε κανένα κλειδί API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Τι είναι το Supabase sync και το χρειάζομαι;",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Ο συγχρονισμός Supabase είναι μια προαιρετική δυνατότητα δημιουργίας αντιγράφων ασφαλείας cloud. Όταν συνδέεστε με το Google και το ενεργοποιείτε, το προφίλ σας και η εφαρμογή παρακολούθησης συγχρονίζονται με μια ιδιωτική βάση δεδομένων cloud, ώστε τα δεδομένα σας να δημιουργούνται αντίγραφα ασφαλείας και να είναι προσβάσιμα από πολλές συσκευές. Αυτό είναι εντελώς προαιρετικό — η επέκταση λειτουργεί πλήρως εκτός σύνδεσης.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Γιατί το ApplyFlow χρειάζεται πρόσβαση σε όλους τους ιστότοπους;",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "Το ApplyFlow ζητά πρόσβαση σε όλους τους ιστότοπους, ώστε να μπορεί να εισάγει τη μηχανή αυτόματης συμπλήρωσης σε οποιαδήποτε φόρμα αίτησης εργασίας και να εμφανίζει το κουμπί κοπής \"Αποθήκευση εργασίας\" σε οποιαδήποτε λίστα εργασιών. Αυτή η άδεια απαιτείται για υποστήριξη ευρείας πλατφόρμας. Εμείς εισάγουμε σενάρια μόνο σε σελίδες που σχετίζονται σαφώς με την εργασία.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Τι είναι το Kanban Board;",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Ο πίνακας Kanban είναι μια οπτική προβολή παρακολούθησης εργασιών στην καρτέλα Tracker. Εμφανίζει τις εφαρμογές σας οργανωμένες σε στήλες: Αποθηκευμένες → Εφαρμοσμένες → Αξιολόγηση → Συνέντευξη → Προσφορά. Μπορείτε να σύρετε και να αποθέσετε κάρτες μεταξύ στηλών για να ενημερώσετε την κατάσταση οποιασδήποτε εφαρμογής.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Πώς λειτουργεί η ανίχνευση υποβολής;",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Όταν ενεργοποιείτε το \"Σύνδεση μόνο μετά την υποβολή\" στις ρυθμίσεις, το ApplyFlow παρακολουθεί για αλλαγές σελίδας που υποδεικνύουν μια επιτυχημένη υποβολή (όπως μια διεύθυνση URL που περιέχει \"/success\" ή κείμενο στο σώμα που λέει \"Ευχαριστώ για την αίτηση\"). Καταγράφει την εφαρμογή στον ιχνηλάτη μόνο αφού εντοπίσει μια πραγματική υποβολή.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Μπορώ να αποθηκεύσω πολλαπλές συνοδευτικές επιστολές;",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ναί! Η οθόνη Προφίλ έχει μια ενότητα \"Θησαυροφυλάκιο συνοδευτικών επιστολών\" όπου μπορείτε να αποθηκεύσετε απεριόριστες συνοδευτικές επιστολές προσαρμοσμένες σε διαφορετικούς ρόλους ή εταιρείες. Κατά την αυτόματη συμπλήρωση, το ApplyFlow θα χρησιμοποιήσει την πιο πρόσφατη ή πιο σχετική συνοδευτική επιστολή σας.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Πώς μπορώ να εξαγάγω τα δεδομένα της εφαρμογής μου;",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Μεταβείτε στο Λογαριασμός και συγχρονισμός → κάντε κύλιση προς τα κάτω → κάντε κλικ στην επιλογή \"Εξαγωγή αντιγράφου ασφαλείας (JSON)\". Αυτό κάνει λήψη όλων των δεδομένων του προφίλ και της εφαρμογής σας ως αρχείο JSON για φύλαξη.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Λειτουργεί το ApplyFlow σε λειτουργία επίδειξης;",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Η λειτουργία επίδειξης ήταν μια παλαιού τύπου ρύθμιση που χρησιμοποιήθηκε για δοκιμές. Είναι πλέον απενεργοποιημένο από προεπιλογή. Όλες οι λειτουργίες είναι ζωντανές και λειτουργικές με το ενσωματωμένο κλειδί Gemini API.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Πώς μπορώ να αναφέρω ένα σφάλμα ή να ζητήσω μια λειτουργία;",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Ανοίξτε ένα ζήτημα στο αποθετήριο GitHub (σύνδεσμος στην ενότητα Πληροφορίες) ή στείλτε μας email στη διεύθυνση support@applyflow.in. Συνήθως απαντάμε εντός 48 ωρών.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Ανοίξτε το αναδυόμενο παράθυρο ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Σάρωση της τρέχουσας σελίδας για πεδία φόρμας",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Ενεργοποίηση Έξυπνης αυτόματης συμπλήρωσης στην τρέχουσα σελίδα",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Κλιπ της τρέχουσας λίστας εργασιών στο tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Ανοίξτε το Tracker σε νέα καρτέλα",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Διαμόρφωση συντομεύσεων στο Chrome στο",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Σημείωση:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Οι εντολές επέκτασης Chrome απαιτούν μη αυτόματη ανάθεση στη διαχείριση συντομεύσεων του Chrome. Μεταβείτε στο $1$ για να συνδέσετε τα κλειδιά που αναφέρονται παραπάνω.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Επέκταση ApplyFlow Chrome — Πολιτική απορρήτου**\nΤελευταία ενημέρωση: Ιούνιος 2026\n\n---\n\n**1. Εισαγωγή**\n\nApplyFlow (\"εμείς\", \"μας\", \"η επέκταση\") είναι μια επέκταση προγράμματος περιήγησης Chrome που βοηθά τους χρήστες να συμπληρώνουν αυτόματα τις φόρμες αιτήσεων εργασίας, να παρακολουθούν τις εφαρμογές τους και να διαχειρίζονται το επαγγελματικό τους προφίλ. Αυτή η Πολιτική Απορρήτου εξηγεί πώς συλλέγουμε, χρησιμοποιούμε, αποθηκεύουμε και προστατεύουμε τις πληροφορίες σας.\n\nΜε την εγκατάσταση και τη χρήση του ApplyFlow, συμφωνείτε με τις πρακτικές που περιγράφονται σε αυτήν την πολιτική.\n\n---\n__NL_12_*. Δεδομένα που συλλέγουμε**\n\nΣυλλέγουμε μόνο τις πληροφορίες που παρέχετε οικειοθελώς για να ενεργοποιήσουμε τις δυνατότητες της επέκτασης:\n\n• **Πληροφορίες προφίλ**: Όνομα, email, αριθμός τηλεφώνου, κολέγιο, πτυχίο, δεξιότητες, επαγγελματικό ιστορικό, σύνδεσμοι, έργα Χαρτοφυλάκιο).\n• **EEO/Δημογραφικά στοιχεία (Προαιρετικά)**: Φύλο, κατάσταση αναπηρίας, κατάσταση βετεράνου και προτιμήσεις εξουσιοδότησης εργασίας — παρέχονται μόνο εάν επιλέξετε να συμπληρώσετε αυτά τα πεδία. Αυτά τα δεδομένα χρησιμοποιούνται αποκλειστικά για την αυτόματη συμπλήρωση προαιρετικών ερωτηματολογίων EEO σε αιτήσεις εργασίας.\n• **Δεδομένα παρακολούθησης εφαρμογής**: τίτλος εργασίας, εταιρεία, διεύθυνση URL εφαρμογής, κατάσταση και σημειώσεις για θέσεις που παρακολουθείτε χρησιμοποιώντας την επέκταση. όρια).\n• **Δεδομένα ελέγχου ταυτότητας**: Εάν επιλέξετε να συνδεθείτε με την Google, αποθηκεύουμε το εμφανιζόμενο όνομα Google, τη διεύθυνση email και τη διεύθυνση URL της εικόνας προφίλ σας για να εξατομικεύσουμε την εμπειρία σας και να ενεργοποιήσουμε το συγχρονισμό στο cloud. δραστηριότητα περιήγησης\n• Οποιεσδήποτε πληροφορίες από σελίδες που δεν σχετίζονται με την εφαρμογή εργασίας\n• Τυχόν δεδομένα από σελίδες όταν η επέκταση δεν ενεργοποιείται ενεργά\n\n---\n\n*. Πώς αποθηκεύουμε τα δεδομένα σας**\n\n**3.1 Τοπική αποθήκευση (Προεπιλογή)**\nΌλα τα δεδομένα αποθηκεύονται κυρίως στο chrome.storage.local API του προγράμματος περιήγησής σας. Αυτά τα δεδομένα βρίσκονται μόνο στη συσκευή σας και δεν μεταδίδονται ποτέ σε κανένα διακομιστή χωρίς τη ρητή σας ενέργεια.\n\n**3.2 Cloud Sync (Προαιρετικό)**\nΕάν επιλέξετε να συνδεθείτε με την Google και να ενεργοποιήσετε τη λειτουργία \"Supabase Sync\", θα γίνει επίσης ένα προφίλ και τα δεδομένα της εφαρμογής σας συγχρονισμού για να συγχρονιστούν τα δεδομένα της εφαρμογής σας. Διατηρείτε την πλήρη ιδιοκτησία αυτών των δεδομένων. Μπορείτε να το διαγράψετε ανά πάσα στιγμή από την ενότητα \"Λογαριασμός και συγχρονισμός\".\n\n**3.3 Αιτήματα τεχνητής νοημοσύνης Gemini A**\nΌταν χρησιμοποιούνται λειτουργίες τεχνητής νοημοσύνης (π.χ. δημιουργία δοκιμίου, ανάλυση εργασίας), τμήματα του προφίλ σας (δεξιότητες, πτυχίο, σύνοψη των θέσεων εργασίας στο Google αποστέλλονται στο Google και η σύνοψη των εργασιών Gemini). Αυτό υποβάλλεται σε επεξεργασία σύμφωνα με τους τυπικούς Όρους Παροχής Υπηρεσιών και Πολιτική Απορρήτου API της Google. Συνιστούμε να μην συμπεριλάβετε ευαίσθητα προσωπικά αναγνωριστικά στο περιεχόμενό σας με τη βοήθεια AI.\n\n---\n\n**4. Κοινή χρήση δεδομένων**\n\nΔεν **πωλούμε, εμπορευόμαστε, ενοικιάζουμε ή μοιραζόμαστε τα προσωπικά σας στοιχεία με τρίτους για σκοπούς μάρκετινγκ ή διαφήμισης.\n\nΤα δεδομένα σας ενδέχεται να υποβληθούν σε επεξεργασία από τις ακόλουθες αξιόπιστες υπηρεσίες:__NL_48_PI (https://policies.google.com/privacy)\n• **Google OAuth**: Για έλεγχο ταυτότητας λογαριασμού (https://policies.google.com/privacy)\n• **Supabase**: Για προαιρετική αποθήκευση στο cloud (https://supabase.com/privacy) — μόνο εάν έχετε sync\n\n---\n\n**5. Τα δικαιώματα και τα στοιχεία ελέγχου σας**\n\nΈχετε το δικαίωμα να:\n• **Πρόσβαση** σε όλα τα δεδομένα που έχει αποθηκεύσει το ApplyFlow για εσάς (μέσω Εξαγωγής αντιγράφου ασφαλείας στις ρυθμίσεις)\n• **Διόρθωση** των στοιχείων σας ανά πάσα στιγμή **• Διαγραφή όλων των δεδομένων σας ανά πάσα στιγμή στην καρτέλα Προφίλ τοπικά*__ \"Εκκαθάριση όλων των δεδομένων προφίλ\" στις ρυθμίσεις\n• **Ανάκληση συγκατάθεσης** ανά πάσα στιγμή, απεγκαταστήστε την επέκταση\n• **Απενεργοποιήστε το συγχρονισμό στο cloud** απενεργοποιώντας το στις ρυθμίσεις Λογαριασμού και συγχρονισμού\n\n** Εάν είστε μέλος της ΕΕ, έχετε δικαιώματα GDPR) για πρόσβαση, διόρθωση, διαγραφή, περιορισμό της επεξεργασίας και φορητότητα δεδομένων σύμφωνα με τον Γενικό Κανονισμό για την Προστασία Δεδομένων.\n\n**Ινδία — Νόμος DPDP 2023**: Σύμφωνα με τον Νόμο 2023 για την Προστασία των Ψηφιακών Προσωπικών Δεδομένων της Ινδίας, επεξεργαζόμαστε προσωπικά δεδομένα μόνο για την παροχή της υπηρεσίας βοήθειας για την εφαρμογή εργασίας. Μπορείτε να αποσύρετε τη συγκατάθεσή σας και να ζητήσετε τη διαγραφή των δεδομένων σας ανά πάσα στιγμή επικοινωνώντας μαζί μας.\n\n**Καλιφόρνια — CCPA**: Οι κάτοικοι της Καλιφόρνια έχουν το δικαίωμα να γνωρίζουν ποιες προσωπικές πληροφορίες συλλέγονται, το δικαίωμα διαγραφής και το δικαίωμα εξαίρεσης από την πώληση (δεν πουλάμε δεδομένα).\n\n---\n\n**6. Διατήρηση δεδομένων**\n\nΤα τοπικά δεδομένα διατηρούνται μέχρι να τα διαγράψετε με μη αυτόματο τρόπο. Τα δεδομένα που είναι συγχρονισμένα στο cloud διατηρούνται μέχρι να διαγράψετε τον λογαριασμό σας ή να ζητήσετε τη διαγραφή. Δεν διαγράφουμε αυτόματα δεδομένα.\n\n---\n\n**7. Ασφάλεια**\n\nΛαμβάνουμε εύλογα τεχνικά μέτρα για την προστασία των δεδομένων σας:\n• Όλες οι επικοινωνίες cloud χρησιμοποιούν κρυπτογράφηση HTTPS/TLS\n• Το Supabase Row-Level Security (RLS) διασφαλίζει ότι οι χρήστες μπορούν να έχουν πρόσβαση μόνο στα δικά τους δεδομένα__NL_82. συνάρτηση\n\n---\n\n**8. Παιδικό απόρρητο**\n\nApplyFlow δεν προορίζεται για χρήστες κάτω των 13 ετών. Δεν συλλέγουμε εν γνώσει μας δεδομένα από παιδιά. Εάν πιστεύετε ότι ένα παιδί μας έχει δώσει προσωπικά στοιχεία, επικοινωνήστε μαζί μας αμέσως.\n\n---\n\n**9. Αλλαγές σε αυτήν την Πολιτική**\n\nΕνδέχεται να ενημερώνουμε την παρούσα Πολιτική Απορρήτου από καιρό σε καιρό. Οι σημαντικές αλλαγές θα κοινοποιηθούν μέσω της σελίδας Επιλογές της επέκτασης. Η συνέχιση της χρήσης της επέκτασης μετά τις αλλαγές συνιστά αποδοχή της ενημερωμένης πολιτικής.\n\n---\n\n**10. Επικοινωνήστε μαζί μας**\n\nΓια τυχόν ερωτήσεις σχετικά με το απόρρητο, αιτήματα διαγραφής δεδομένων ή ανησυχίες:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nΙστότοπος: https://applyflow.in\n\nΣκοπεύουμε να απαντήσουμε σε όλα τα αιτήματα εντός 30 ημερών.",
+    "description": "Privacy policy document markdown text"
+  }
+}

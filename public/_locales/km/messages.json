@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & កម្មវិធីតាមដានកម្មវិធី",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "បំពេញកម្មវិធីការងារដោយស្វ័យប្រវត្តិ និងតាមដានការចុះបញ្ជីដោយស្វ័យប្រវត្តិដោយប្រើ AI នៅលើ LinkedIn, Workday, Greenhouse និងច្រើនទៀត។",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "អនុវត្តលំហូរ",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "សកម្ម",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "បានអនុវត្ត",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "សម្ភាស",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ការផ្តល់ជូន",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "បានរក្សាទុក",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "សរុប",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "បំពេញស្វ័យប្រវត្តិ",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ការបំពេញ...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ការបំពេញស្វ័យប្រវត្តិរហ័ស",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "វិភាគការងារ",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "បើករបារចំហៀង",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ការកំណត់",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "សូមចូលជាមួយ Google ជាមុនសិន ដើម្បីប្រើការបំពេញស្វ័យប្រវត្តិរហ័ស!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "សូមដំឡើងកម្រងព័ត៌មានរបស់អ្នកជាមុននៅក្នុងទំព័រ Side Panel/Options!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ បានរកឃើញ",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "រកមិនឃើញទំព័រការងារទេ។",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "ចូលទៅកាន់បញ្ជីការងារដើម្បីដោះសោមុខងារ AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "អរុណសួស្តី",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "អរុណសួស្តី",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "រាត្រីសួស្តី",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "កម្មវិធី $1$ បានតាមដាន · $2$ សំភាសន៍",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "ចាប់ផ្តើមអនុវត្តដើម្បីតាមដានវឌ្ឍនភាពរបស់អ្នក។",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "លិខិតគម្រប",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "ជំនួយ Q&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "ត្រៀមខ្លួនជាស្រេចដើម្បីជួយ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "រុករកទៅបញ្ជីការងារនៅលើ LinkedIn, Workday, Greenhouse, ឬក្រុមប្រឹក្សាការងារណាមួយដើម្បីចាប់ផ្តើម។",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "សប្តាហ៍នេះ។",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "សកម្មភាពថ្មីៗ",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "មើលទាំងអស់ →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "ចាប់ផ្តើមស្វែងរកការងាររបស់អ្នក!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "ចូលទៅកាន់ក្រុមប្រឹក្សាការងារ ហើយប្រើ ApplyFlow ដើម្បីបំពេញដោយស្វ័យប្រវត្តិ និងតាមដានកម្មវិធីរបស់អ្នកដោយស្វ័យប្រវត្តិ។",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "ប្រវត្តិរូបរបស់ខ្ញុំ",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "កំពុងរក្សាទុក...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "រក្សាទុកទាំងអស់។",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "ប្រវត្តិរូបត្រូវបានរក្សាទុក!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "បរាជ័យក្នុងការរក្សាទុកកម្រងព័ត៌មាន។",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "បន្ត",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "អាប់ឡូតទៅទម្រង់បំពេញស្វ័យប្រវត្តិ",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ ផ្ទុកឡើង",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "ព័ត៌មានផ្ទាល់ខ្លួន",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "មិនពេញលេញ",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "ទីតាំង",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "ការអប់រំ",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "ជំនាញ",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "បទពិសោធន៍ការងារ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "គម្រោង",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "ចំណូលចិត្តការងារ",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "ការអនុញ្ញាតការងារ",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "បន្តប្រវត្តិ",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ប្រើនេះ។",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "ញែកនៅលើ $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "ផ្ទុកព័ត៌មានលំអិតពី \"$1$\"? វានឹងជំនួសការកែសម្រួលបច្ចុប្បន្នរបស់អ្នកជាមួយនឹងរចនាសម្ព័ន្ធដែលបានញែកប្រវត្តិរូបសង្ខេបនេះ។",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "បានស្ដារព័ត៌មានលម្អិតពី $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "ពិន្ទុការប្រកួត",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ សម",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ ច្រើនទៀត",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "កម្មវិធីត្រូវបានបំពេញដោយស្វ័យប្រវត្តិ និងបានចូល! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "បំពេញដោយស្វ័យប្រវត្តិតាមរយៈ ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "នៅទីនោះ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "មិនមានកំណត់មហាវិទ្យាល័យទេ។",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ដំឡើងកម្រងព័ត៌មានរបស់អ្នកដើម្បីបើកការបំពេញស្វ័យប្រវត្តិ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "មិនបានកំណត់",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ធាតុ",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ ជំនាញ",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ គម្រោង",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ ចម្លើយ",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "អនុញ្ញាត",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "មិនត្រូវបានអនុញ្ញាត",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "ឈ្មោះពេញ",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "អ៊ីមែល",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ទូរស័ព្ទ",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "ទូរស័ព្ទជំនួស",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL ផលប័ត្រ",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL របស់ GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "បន្តតំណ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "ទីក្រុង",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "រដ្ឋ",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "ប្រទេស",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "លេខកូដប្រៃសណីយ៍",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "អាស័យដ្ឋាន",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "សញ្ជាតិ",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "មហាវិទ្យាល័យ / សាកលវិទ្យាល័យ",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "សញ្ញាបត្រ",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "ឆ្នាំបញ្ចប់ការសិក្សា",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ថ្នាក់",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "ទី 10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "ទី 12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "រយៈពេលជូនដំណឹង",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "ប្រាក់ខែរំពឹងទុក",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "តួនាទីដែលពេញចិត្ត",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "ឆ្នាំនៃបទពិសោធន៍",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ត្រូវបានអនុញ្ញាតឱ្យធ្វើការដោយគ្មានការឧបត្ថម្ភទិដ្ឋាការ",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ទាមទារការឧបត្ថម្ភទិដ្ឋាការ",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ភេទ",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "ពិការភាព",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "ចូលចិត្តមិននិយាយ",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "មិនបានបញ្ជាក់",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ប្រុស",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ស្រី",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "មិនមែនប្រព័ន្ធគោលពីរ",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "បាទ",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "ទេ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "មិនទាន់មានជំនាញបន្ថែមទេ។",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "បន្ថែមជំនាញ (បញ្ចូលដើម្បីបន្ថែម)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ឃ្លាកេះ (ឧ. ហេតុអ្វីយើងគួរជួលអ្នក)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "ចម្លើយរបស់អ្នក...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "ដកចេញ",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ បន្ថែមចម្លើយផ្ទាល់ខ្លួន",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "ក្រុមហ៊ុន",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "តួនាទី/ចំណងជើង",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "កាលបរិច្ឆេទចាប់ផ្តើម",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "កាលបរិច្ឆេទបញ្ចប់",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "បច្ចុប្បន្ន",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "បច្ចុប្បន្នខ្ញុំកំពុងធ្វើការក្នុងតួនាទីនេះ។",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "ការពិពណ៌នា",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "ពិពណ៌នាអំពីទំនួលខុសត្រូវរបស់អ្នក សមិទ្ធផលសំខាន់ៗ បច្ចេកវិទ្យាដែលបានប្រើ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ បន្ថែមបទពិសោធន៍ការងារ",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "ចំណងជើងគម្រោង",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "ជង់បច្ចេកវិទ្យា",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "ការដាក់ឱ្យប្រើប្រាស់ URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "ពិពណ៌នាអំពីអ្វីដែលអ្នកបានសាងសង់ ដោះស្រាយបញ្ហាអ្វី និងលក្ខណៈពិសេសសំខាន់ៗ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ បន្ថែមគម្រោង",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "កម្មវិធីតាមដាន",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "បានរក្សាទុក",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "បានអនុវត្ត",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "ការវាយតម្លៃ",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "សម្ភាស",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ការផ្តល់ជូន",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "បដិសេធ",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ដក",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "លុបកម្មវិធីនេះ?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "អាប់ដេតកម្មវិធី!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "កម្មវិធីត្រូវបានលុប។",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "ស្ថានភាព",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "វេទិកា",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "បានអនុវត្ត",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "បើកការប្រកាសការងារ",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "ប្រាក់ខែ / ប្រាក់ឧបត្ថម្ភ",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "ការរំលឹកតាមដាន",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "កំណត់ចំណាំ",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "បន្ថែមកំណត់ចំណាំ ព័ត៌មានទំនាក់ទំនង ព័ត៌មានលម្អិតសម្ភាសន៍...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "ការពិពណ៌នាការងារ (ដកស្រង់)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "លុប",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "បោះបង់",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "រក្សាទុក",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 កម្មវិធី",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ កម្មវិធី",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "ត្រងតាមក្រុមហ៊ុន...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "តម្រងស្ថានភាព",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "រំកិលទៅស្តាំសម្រាប់ច្រើនទៀត →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "ទាំងអស់។",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "រកមិនឃើញកម្មវិធីទេ។",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "សាកល្បងកំណត់តម្រងឡើងវិញ ឬរក្សាទុកការងារដើម្បីបន្ថែមធាតុកម្មវិធីតាមដានថ្មី។",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "វិភាគ",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ កម្មវិធីសរុប",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "មិនមានទិន្នន័យនៅឡើយទេ",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "ចាប់ផ្តើមអនុវត្តការងារ ហើយការវិភាគរបស់អ្នកនឹងបង្ហាញនៅទីនេះ។",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "អត្រាការបម្លែង",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "បានអនុវត្ត",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "អត្រាសម្ភាសន៍",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "អត្រាការផ្តល់ជូន",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "កម្មវិធីសប្តាហ៍នេះ។",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "បណ្តាញកម្មវិធី",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "វេទិកាកំពូល",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "ការបំបែកស្ថានភាព",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "បរិបទ៖ $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "អ្នកបើកយន្តហោះអាជីពរបស់អ្នក។",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "ការជជែកថ្មី↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "សូមដំឡើងកម្រងព័ត៌មានរបស់អ្នកជាមុនសិន ដើម្បីឲ្យ AI អាចកំណត់ការឆ្លើយតបផ្ទាល់ខ្លួនបាន។",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "ការជជែកត្រូវបានជម្រះ! តើខ្ញុំអាចជួយអ្នកជាមួយអ្វី?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "សួរស្តីការងារនេះ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "រៀបចំប្រវត្តិរូបរបស់អ្នកដើម្បីចាប់ផ្តើម",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "ចុច Enter ដើម្បីផ្ញើ",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "បន្តពិន្ទុភាពឆបគ្នា។",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ជំនាញខ្លាំង",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ខ្វះជំនាញ",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "នេះជាលិខិតគម្របផ្ទាល់ខ្លួនរបស់អ្នក៖",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ ចំលង!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 ចម្លង",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ទាញយក",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "នេះគឺជា $1$ សំណួរសម្ភាសន៍ទំនង៖",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "បន្តពិន្ទុបង្កើនប្រសិទ្ធភាព៖ $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "បន្តការណែនាំអំពីការប្រកួត",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "ធៀបនឹងការពិពណ៌នាការងារនេះ។",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "មានអ្វីមួយខុសប្រក្រតី។ សូមព្យាយាមម្តងទៀត។",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "សួស្តី! ខ្ញុំអាចមើលឃើញថាអ្នកកំពុងមើលតួនាទី **$1$** នៅ **$2$**។",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "សួស្តី! ខ្ញុំអាចមើលឃើញថាអ្នកកំពុងមើលតួនាទី **$1$** ។",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "សួស្តី! ខ្ញុំជាអ្នកបើកយន្តហោះអាជីព AI របស់អ្នក។ រុករកទៅបញ្ជីការងារ ហើយខ្ញុំនឹងវិភាគដោយស្វ័យប្រវត្តិ ឬសួរខ្ញុំអ្វីក៏បាន!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "សូមដំឡើងប្រវត្តិរូបរបស់អ្នកជាមុននៅក្នុងផ្ទាំង Profile!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "សូមបើកទំព័របញ្ជីការងារនៅក្នុងកម្មវិធីរុករករបស់អ្នកជាមុនសិន ដើម្បីប្រើមុខងារនេះ!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ដោះសោ ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "ចូលជាមួយ Google ដើម្បីចូលប្រើផ្ទាំងគ្រប់គ្រងរបស់អ្នក ធ្វើសមកាលកម្មការងារ គ្រប់គ្រងប្រវត្តិរូបសង្ខេបរបស់អ្នក និងកម្មវិធីការងារបំពេញដោយស្វ័យប្រវត្តិភ្លាមៗ។",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "ស្កេន និងបំពេញកម្មវិធីដោយស្វ័យប្រវត្តិដោយចុចតែម្តង។",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ធ្វើសមកាលកម្មព័ត៌មានលម្អិតនៃការតាមដានការងាររបស់អ្នកទៅ Supabase ។",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ប្រវត្តិរូប និងប្រវត្តិរូប",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "បង្ហោះប្រវត្តិរូបរបស់អ្នក និងកំណត់ចម្លើយកម្មវិធីតាមបំណង។",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "កំពុងភ្ជាប់ទៅ Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "ចូលជាមួយ Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "តាមរយៈការចូល អ្នកយល់ព្រមធ្វើសមកាលកម្មទិន្នន័យទម្រង់របស់អ្នកដោយសុវត្ថិភាពទៅកន្លែងធ្វើការសកម្មរបស់អ្នក។",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "តើ​អ្នក​ប្រាកដ​ជា​ចង់​ចេញ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "ចេញដោយជោគជ័យ។",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "ចូលជា $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "ចេញ",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "ចូល",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "កំពុងភ្ជាប់...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "បើក ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "អនុវត្តការផ្គូផ្គងលំហូរ",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ជំនាញផ្គូផ្គងខ្លាំង",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "បាត់ជំនាញ",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "ទំព័របំពេញស្វ័យប្រវត្តិឆ្លាតវៃ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "ទម្រង់បំពេញស្វ័យប្រវត្តិ...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "រកមិនឃើញវាលកម្មវិធីដែលអាចបំពេញបាននៅលើទំព័រ។",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "បំពេញដោយជោគជ័យ!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "ការបំពេញដោយស្វ័យប្រវត្តិបានបរាជ័យដោយសារតែភាពស្មុគស្មាញនៃទំព័រ។",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "រក្សាទុកដោយស្វ័យប្រវត្តិដើម្បីកត់ត្រាកម្មវិធីតាមដាននៅពេលបំពេញ។",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "ប្រវត្តិរូបសង្ខេបរបស់អ្នកគឺ **$1$% ឆបគ្នា** ជាមួយនឹងតួនាទីនេះ។",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "ស្វាគមន៍ការត្រឡប់មកវិញ $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "បរាជ័យក្នុងការទាញយកព័ត៌មានប្រវត្តិរូបអ្នកប្រើប្រាស់ Google ។",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "ការចូល OAuth បានបរាជ័យ៖ $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "មិន​អាច​ទៅ​យក​សញ្ញា​សម្ងាត់​ចូល​ពី​ការ​បញ្ជូន​បន្ត។",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "បានបរាជ័យក្នុងការញែកការបញ្ជូនបន្តការផ្ទៀងផ្ទាត់។",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ការផ្ទៀងផ្ទាត់មិនត្រូវបានគាំទ្រនៅលើវេទិកានេះទេ។",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ការងារត្រូវបានរក្សាទុកទៅអ្នកតាមដាន!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "ភ្ញៀវ",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ ការកំណត់ទូទៅ",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "បង្ហាញនៅលើទំព័រការងារ LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "បង្ហាញពិន្ទុផ្គូផ្គងដ៏ឆ្លាតវៃ និងប៊ូតុងបំពេញស្វ័យប្រវត្តិដោយចុចតែម្តង នៅពេលអ្នកមើលការប្រកាសការងារនៅលើ LinkedIn ។",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "បង្ហាញប៊ូតុង 'រក្សាទុកការងារ'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "បង្ហាញប៊ូតុង 'Save Job 📌' អណ្តែតលើគេហទំព័រការងារ ដូច្នេះអ្នកអាចរក្សាទុកព័ត៌មានលម្អិតការងារទៅកាន់កម្មវិធីតាមដានរបស់អ្នកបានយ៉ាងឆាប់រហ័ស មុនពេលដាក់ពាក្យ។",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "មានតែចុះឈ្មោះបន្ទាប់ពីអនុវត្តជាក់ស្តែង",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "រង់ចាំរហូតដល់អ្នកឃើញអេក្រង់ 'សូមអរគុណ' ឬ 'ជោគជ័យ' មុនពេលបន្ថែមការងារទៅកម្មវិធីតាមដានរបស់អ្នក។ រក្សា​កម្មវិធី​តាមដាន​របស់​អ្នក​ឱ្យ​ស្អាត​ដោយ​ការពារ​ទម្រង់​ដែល​បំពេញ​ពាក់កណ្តាល​មិន​ឱ្យ​ត្រូវ​បាន​រក្សា​ទុក​ជា 'បាន​អនុវត្ត'។",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 ឥណទាន AI & ការវិភាគការប្រើប្រាស់",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ក្រេឌីតខាងឆ្វេង",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ឥណទានដែលនៅសល់",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "ឥណទានសរុប",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "ការបំពេញស្វ័យប្រវត្តិគ្រប់ពេល",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "ស្ថានភាពផែនការ",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "ពិសេស👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "ឥតគិតថ្លៃ🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "គន្លឹះគាំទ្រ៖",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "ប្រតិបត្តិការ Smart Autofill ប្រើប្រាស់ 0 ក្រេឌីត និង 100% គ្មានដែនកំណត់! មានតែមុខងារ AI កម្រិតខ្ពស់ដូចជា Cover Letters (5 credits) និង custom Essays (3 credits) ប្រើប្រាស់សមតុល្យឥណទានរបស់អ្នក។",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 គណនី Google & Cloud សមកាលកម្ម",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync សកម្ម",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud សមកាលកម្មត្រូវបានចាក់សោ (ពិសេសតែប៉ុណ្ណោះ)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud សមកាលកម្ម",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "រុញទៅពពក",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "ទាញពីពពក",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "ធ្វើសមកាលកម្មបានជោគជ័យ!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "ការធ្វើសមកាលកម្មបានបរាជ័យ។ ពិនិត្យការតភ្ជាប់របស់អ្នក។",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "សុវត្ថិភាព Cloud សមកាលកម្ម",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "ចូលជាមួយ Google ដើម្បីបម្រុងទុកកម្មវិធី និងប្រវត្តិរូបរបស់អ្នកទៅ Supabase ។ ការធ្វើសមកាលកម្មគឺជាមុខងារពិសេសដែលរក្សាកំណត់ហេតុរបស់អ្នកឱ្យមានសុវត្ថិភាពនៅលើឧបករណ៍នានា។",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync គឺជាមុខងារពិសេស។ សូមដំឡើងកំណែនៅក្នុងផ្ទាំង អាប់ដេត ដើម្បីបើកការធ្វើសមកាលកម្ម!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ការគ្រប់គ្រងទិន្នន័យ",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "នាំចេញការបម្រុងទុក (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "សម្អាតទិន្នន័យមូលដ្ឋានទាំងអស់។",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "ការសម្អាតទិន្នន័យក្នុងតំបន់នឹងលុបកម្រងព័ត៌មាន និងកម្មវិធីរបស់អ្នកចេញពីឧបករណ៍នេះតែប៉ុណ្ណោះ។ ទិន្នន័យលើពពកមិនរងផលប៉ះពាល់ទេ។",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "មជ្ឈមណ្ឌលត្រួតពិនិត្យ",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "ទំព័រដើម និងអំពី",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "ការកំណត់ទូទៅ",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "ដំឡើងកំណែទៅ Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "ផែនការពិសេស👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "គណនី & សមកាលកម្ម",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "គោលការណ៍ឯកជនភាព",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "សំណួរគេសួរញឹកញាប់",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "ផ្លូវកាត់ក្តារចុច",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀សូមស្វាគមន៍មកកាន់ ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow គឺជាផ្នែកបន្ថែមរបស់ Chrome ដែលដំណើរការដោយ AI ដែលបង្កើតឡើងសម្រាប់សិស្ស និស្សិត និងអ្នកស្វែងរកការងារដែលចង់អនុវត្តកាន់តែលឿន និងឆ្លាតវៃ។ វារកឃើញដោយស្វ័យប្រវត្តិ និងបំពេញទម្រង់ពាក្យសុំការងារនៅទូទាំង 15+ វេទិកា តាមដានបំពង់បង្ហូរប្រេងរបស់អ្នក និងជួយអ្នកក្នុងការសម្ភាសន៍បន្ថែមទៀត។",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ការបំពេញស្វ័យប្រវត្តិឆ្លាតវៃ",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ វេទិកា ATS ជាមួយនឹងឧបករណ៍ជ្រើសរើសច្បាស់លាស់",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "ចុចមួយដងរក្សាទុកបញ្ជីការងារណាមួយ។",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "កម្មវិធីតាមដាន Kanban",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "អូស និងទម្លាក់បំពង់កម្មវិធីរបស់អ្នក។",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "ការបំពេញស្វ័យប្រវត្តិ EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "បំពេញដោយស្វ័យប្រវត្តិនូវសំណួរប្រជាសាស្រ្ត និងទិដ្ឋាការ",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "អត្ថបទ AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "ការសរសេរចម្លើយផ្ទាល់ខ្លួនដោយថាមពល Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "សមកាលកម្មសុវត្ថិភាព",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "ការបម្រុងទុកពពក Supabase ជាជម្រើស",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 របៀបចាប់ផ្តើម",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "បង្កើត Profile របស់អ្នក។",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "បើកផ្ទាំងលេចឡើង → ប្រវត្តិរូប → ផ្ទុកប្រវត្តិរូបសង្ខេបរបស់អ្នកជា PDF ។ AI នឹងទាញយកព័ត៌មានលម្អិតទាំងអស់របស់អ្នក រួមទាំងជំនាញ បទពិសោធន៍ ការអប់រំ និងគម្រោងដោយស្វ័យប្រវត្តិ។",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "កំណត់ចំណូលចិត្ត EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "រមូរទៅផ្នែក EEO នៅក្នុងប្រវត្តិរូបរបស់អ្នក ហើយកំណត់ការអនុញ្ញាតការងារ តម្រូវការឧបត្ថម្ភទិដ្ឋាការ និងចំណូលចិត្តប្រជាសាស្រ្តរបស់អ្នក។ ទាំងនេះត្រូវបានប្រើដើម្បីបំពេញកម្រងសំណួរ EEO ដោយស្វ័យប្រវត្តិ។",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "រកមើលបញ្ជីការងារ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "រុករកទៅបញ្ជីការងារណាមួយ។ អ្នកនឹងឃើញប៊ូតុង \"រក្សាទុកការងារ\" លេចឡើង។ ចុចវាដើម្បីរក្សាទុកទីតាំងភ្លាមៗទៅកាន់កម្មវិធីតាមដានរបស់អ្នក។",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "បើកទម្រង់ពាក្យសុំ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "រុករកទៅទម្រង់ពាក្យសុំ។ ចុចផ្ទាំងលេចឡើង ApplyFlow → ចុច \"ស្កេនទំព័រ\" → បន្ទាប់មក \"⚡ Smart Autofill\" ។ វាលទាំងអស់រួមទាំងប៊ូតុងវិទ្យុ និងបញ្ជីទម្លាក់ចុះត្រូវបានបំពេញភ្លាមៗ។",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "តាមដានបំពង់របស់អ្នក។",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "បើកផ្ទាំងកម្មវិធីតាមដាន ដើម្បីមើលកម្មវិធីរបស់អ្នកទាំងអស់។ ប្តូរទៅទិដ្ឋភាពក្រុមប្រឹក្សាភិបាល Kanban ហើយអូសកាតរវាងជួរឈរជាបច្ចុប្បន្នភាពស្ថានភាពរបស់អ្នក។",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 តម្រូវឱ្យចូល",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ចូលដើម្បីប្ដូរការកំណត់តាមបំណង",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "ការកំណត់ទូទៅមានសម្រាប់តែអ្នកប្រើប្រាស់ដែលបានចូលប៉ុណ្ណោះ។ ចូលជាមួយ Google ដើម្បីកំណត់រចនាសម្ព័ន្ធចំណូលចិត្តរបស់អ្នក ឥរិយាបថបំពេញដោយស្វ័យប្រវត្តិ និងច្រើនទៀត។",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "ចូលទៅកាន់គណនី & សមកាលកម្ម",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro សកម្ម",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "លេខកូដអាជ្ញាប័ណ្ណ៖ $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "អសកម្មអាជ្ញាប័ណ្ណ",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 ការធ្វើឱ្យសកម្មសោអាជ្ញាប័ណ្ណ",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "ប្រសិនបើអ្នកបានទិញការជាវ ឬបានទទួលលេខកូដចូលប្រើប្រាស់ សូមបញ្ចូលលេខកូដអាជ្ញាប័ណ្ណរបស់អ្នកខាងក្រោម ដើម្បីដោះសោ ApplyFlow Premium។",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "ធ្វើឱ្យសកម្ម",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "កំពុងធ្វើឱ្យសកម្ម...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 គន្លឹះ៖ អ្នកអាចដំណើរការ Premium ដោយប្រើសោ APPLYFLOW-PRO-2026។",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "ពិសេសបានដំណើរការហើយ!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "សូមអរគុណចំពោះការគាំទ្រ ApplyFlow ។ ឥឡូវនេះមុខងារពិសេសទាំងអស់ត្រូវបានដោះសោហើយ។",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 គម្រោងធ្វើឱ្យប្រសើរឡើងពិសេស",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "ដោះសោការនាំចេញអាជីពរបស់អ្នក និងមុខងារ AI កម្រិតខ្ពស់។",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "ទទួលបានក្រេឌីត AI លំដាប់ខ្ពស់សម្រាប់សំបុត្រគម្រប ចម្លើយអត្ថបទផ្ទាល់ខ្លួន បន្តការធ្វើឱ្យប្រសើរឡើងវិញ និងការរៀបចំសម្ភាសចំអក។ ប្រតិបត្តិការបំពេញដោយស្វ័យប្រវត្តិនៅលើវេទិកាដែលគាំទ្រគឺគ្មានដែនកំណត់ពេញលេញ និងឥតគិតថ្លៃសម្រាប់អ្នកប្រើប្រាស់បុព្វលាភទាំងអស់!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 ការផ្តល់ជូនអ្នកទទួលយកដំបូង៖",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "ការកើនឡើងតម្លៃបន្ទាប់នៅអ្នកប្រើប្រាស់ 500 Premium។ ចាក់សោក្នុងអត្រានេះសម្រាប់ជីវិត!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "ប្រូម៉ូសិនប្រចាំខែ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "ល្អសម្រាប់ការស្វែងរករយៈពេលខ្លី",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ខែ",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(ត្រឹមតែ ₹13 / ថ្ងៃ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI Credits ក្នុងមួយខែ|||ការបំពេញដោយស្វ័យប្រវត្តិគ្មានដែនកំណត់ (គ្រប់ច្រកទាំងអស់)|||Cloud Sync & Google Backup|||Premium Themes|||បទពិសោធន៍គ្មានពាណិជ្ជកម្ម",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "ជាវប្រចាំខែ",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "គាំទ្រប្រចាំត្រីមាស",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "តម្លៃល្អបំផុតសម្រាប់អ្នកស្វែងរកការងារភាគច្រើន",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ខែ",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(ត្រឹមតែ ₹11 / ថ្ងៃ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "ឥណទាន AI ចំនួន 500 ក្នុងមួយត្រីមាស|||ការបំពេញស្វ័យប្រវត្តិគ្មានដែនកំណត់ (វិបផតថលទាំងអស់)|||លិខិតគម្រប និងសំណេរតាមតម្រូវការ|||សមកាលកម្មលើពពក និង Google Backup|||បន្តការណែនាំអំពីការប្រកួត",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "ជាវប្រចាំត្រីមាស",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "ពេញនិយមបំផុត។",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "ចុងក្រោយប្រចាំឆ្នាំ",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "តម្លៃល្អបំផុតសម្រាប់អ្នកប្រើប្រាស់ថាមពល",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ ឆ្នាំ។",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(ស្មើនឹង ₹249 / ខែ)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "ឥណទាន AI ចំនួន 2,500 ក្នុងមួយឆ្នាំ|||ការបំពេញដោយស្វ័យប្រវត្តិប្រចាំថ្ងៃគ្មានដែនកំណត់|||លិខិតគម្រប និងសំណេរតាមតម្រូវការ||| Cloud Sync & Google Backup|||បន្តការណែនាំអំពីការប្រកួតឡើងវិញ|||ជំនួយអ៊ីមែលអាទិភាព",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "ជាវប្រចាំឆ្នាំ",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "តម្លៃល្អបំផុត - សន្សំបាន 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "គាំទ្រការអភិវឌ្ឍន៍ ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow ត្រូវបានសាងសង់ និងថែទាំដោយអ្នកអភិវឌ្ឍន៍ឯករាជ្យ។ ប្រសិនបើអ្នកយល់ថាកម្មវិធីបន្ថែមមានប្រយោជន៍ សូមពិចារណាបរិច្ចាគលើ Ko-fi ដើម្បីជួយរក្សាវាឱ្យសកម្ម គ្មានការផ្សាយពាណិជ្ជកម្ម និងធ្វើបច្ចុប្បន្នភាពសម្រាប់ក្រុមប្រឹក្សាការងារថ្មី។",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "ទិញកាហ្វេឱ្យខ្ញុំនៅ Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ ការវាយតម្លៃ 5.0 |||🔒 ការទូទាត់ប្រកបដោយសុវត្ថិភាព|||✓ បោះបង់គ្រប់ពេល",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "លេខកូដអាជ្ញាប័ណ្ណមិនត្រឹមត្រូវ។ ព័ត៌មានជំនួយ៖ សាកល្បងប្រើសោសាកល្បង 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "អាជ្ញាប័ណ្ណបានដំណើរការដោយជោគជ័យ! សូមស្វាគមន៍មកកាន់ ApplyFlow Premium ។ 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "តើអ្នកប្រាកដថាចង់បិទអាជ្ញាប័ណ្ណបុព្វលាភរបស់អ្នកទេ? វានឹងត្រឡប់អ្នកទៅកាន់គម្រោងឥតគិតថ្លៃ។",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "អាជ្ញាប័ណ្ណពិសេសត្រូវបានបិទដំណើរការ។ ឥឡូវនេះអ្នកស្ថិតនៅលើគម្រោងឥតគិតថ្លៃ។",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "វានឹងលុបប្រវត្តិរូប និងទិន្នន័យកម្មវិធីមូលដ្ឋានទាំងអស់ជាអចិន្ត្រៃយ៍។ តើអ្នកប្រាកដទេ?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 គោលការណ៍ឯកជនភាព",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ សំណួរដែលគេសួរញឹកញាប់",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "តើ ApplyFlow គឺជាអ្វី ហើយតើវាដំណើរការយ៉ាងដូចម្តេច?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow គឺជាផ្នែកបន្ថែមរបស់ Chrome ដែលដំណើរការដោយ AI ដែលរកឃើញ និងបំពេញទម្រង់ពាក្យសុំការងារដោយស្វ័យប្រវត្តិនៅទូទាំង 15+ platforms រួមទាំង LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever និងច្រើនទៀត។ វាអានប្រវត្តិរូបដែលបានរក្សាទុករបស់អ្នក ហើយប្រើការផ្គូផ្គងឆ្លាតវៃដើម្បីបំពេញវាលអត្ថបទ ទម្លាក់ចុះ ប៊ូតុងមូល និងប្រអប់ធីក — រួមទាំងសំណួរ EEO/ប្រជាសាស្រ្ត។",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "តើទិន្នន័យផ្ទាល់ខ្លួនរបស់ខ្ញុំមានសុវត្ថិភាពជាមួយ ApplyFlow ដែរឬទេ?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "បាទ។ ទិន្នន័យរបស់អ្នកត្រូវបានរក្សាទុកក្នុងមូលដ្ឋាននៅក្នុង chrome.storage.local នៃកម្មវិធីរុករកតាមអ៊ីនធឺណិតរបស់អ្នកតាមលំនាំដើម។ វាមិនដែលត្រូវបានផ្ញើទៅកាន់ម៉ាស៊ីនមេភាគីទីបីណាមួយក្រៅពីមូលដ្ឋានទិន្នន័យ Supabase ស្រេចចិត្តរបស់អ្នក (ដែលអ្នកគ្រប់គ្រង)។ ApplyFlow មិនដែលលក់ ចែករំលែក ឬរកប្រាក់ពីព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកទេ។",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "តើវេទិកាការងារណាខ្លះដែល ApplyFlow គាំទ្រ?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow គាំទ្រ 15+ platforms ចេញពីប្រអប់៖ LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, និងគេហទំព័រផ្សេងទៀតតាមរយៈកម្មវិធីផ្គូផ្គង fallback ទូទៅដ៏ឆ្លាតវៃរបស់យើង។",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "តើ Web Clipper ជាអ្វី?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper គឺជាប៊ូតុង \"រក្សាទុកការងារ\" អណ្តែតទឹក (📌) ដែលបង្ហាញដោយស្វ័យប្រវត្តិនៅពេលអ្នកចូលទៅកាន់ទំព័របញ្ជីការងារណាមួយ។ ការចុចវាទាញយកចំណងជើងការងារ ក្រុមហ៊ុន ប្រាក់ខែ និងការពិពណ៌នា បន្ទាប់មករក្សាទុកវាទៅក្នុងកម្មវិធីតាមដាន ApplyFlow របស់អ្នកជាកម្មវិធី \"រក្សាទុក\" ដូច្នេះអ្នកអាចតាមដានការងារមុនពេលដាក់ពាក្យ។",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "តើខ្ញុំធ្វើបច្ចុប្បន្នភាពទម្រង់របស់ខ្ញុំដោយរបៀបណា?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "បើកផ្ទាំងលេចឡើង ApplyFlow ចុចផ្ទាំង \"ប្រវត្តិរូប\" ហើយផ្ទុកប្រវត្តិរូបសង្ខេបរបស់អ្នកជា PDF ។ AI នឹងបញ្ចូលវាលទាំងអស់របស់អ្នកដោយស្វ័យប្រវត្តិ។ អ្នកក៏អាចកែសម្រួលវាលណាមួយដោយដៃរួមទាំងចំណូលចិត្ត EEO របស់អ្នក ការអនុញ្ញាតការងារ និងលិខិតគម្រប។",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "តើអ្វីទៅជាវាល EEO ហើយហេតុអ្វីបានជាខ្ញុំត្រូវការវា?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "វាល EEO (Equal Employment Opportunity) គឺជាសំណួរដែលនិយោជកអាមេរិក និងសកលលោកជាច្រើនសួរអំពីយេនឌ័រ ស្ថានភាពពិការ ស្ថានភាពអតីតយុទ្ធជន និងការអនុញ្ញាតការងារ។ ApplyFlow រក្សាទុកចម្លើយដែលអ្នកពេញចិត្ត ហើយបំពេញក្រុមប៊ូតុងវិទ្យុទាំងនេះដោយស្វ័យប្រវត្តិ ដូច្នេះអ្នកមិនចាំបាច់ឆ្លើយពួកគេដោយដៃរាល់ពេលនោះទេ។",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "តើ ApplyFlow ត្រូវការសោ API ឬការកំណត់រចនាសម្ព័ន្ធទេ?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "ទេ! ApplyFlow គ្រប់គ្រងការរកឃើញទម្រង់ទាំងអស់ ការផ្គូផ្គងឆ្លាតវៃ ការបង្កើតលិខិតគម្រប និងការដាក់ពិន្ទុភាពត្រូវគ្នាដោយស្វ័យប្រវត្តិ។ អ្នកមិនចាំបាច់ទទួលបាន ឬកំណត់រចនាសម្ព័ន្ធសោ API ណាមួយឡើយ។",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "តើសមកាលកម្ម Supabase ជាអ្វី ហើយតើខ្ញុំត្រូវការវាទេ?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "ការធ្វើសមកាលកម្ម Supabase គឺជាមុខងារបម្រុងទុកពពកស្រេចចិត្ត។ នៅពេលអ្នកចូលដោយប្រើ Google ហើយបើកវា ប្រវត្តិរូប និងកម្មវិធីតាមដានកម្មវិធីរបស់អ្នកត្រូវបានធ្វើសមកាលកម្មទៅមូលដ្ឋានទិន្នន័យពពកឯកជន ដូច្នេះទិន្នន័យរបស់អ្នកត្រូវបានបម្រុងទុក និងអាចចូលប្រើបានពីឧបករណ៍ជាច្រើន។ នេះជាជម្រើសទាំងស្រុង — ផ្នែកបន្ថែមដំណើរការដោយគ្មានអ៊ីនធឺណិតទាំងស្រុង។",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ហេតុអ្វីបានជា ApplyFlow ត្រូវការចូលទៅកាន់គេហទំព័រទាំងអស់?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow ស្នើសុំការចូលប្រើគេហទំព័រទាំងអស់ ដូច្នេះវាអាចចាក់បញ្ចូលម៉ាស៊ីនបំពេញស្វ័យប្រវត្តិនៅលើទម្រង់ពាក្យសុំការងារណាមួយ ហើយបង្ហាញប៊ូតុង \"រក្សាទុកការងារ\" នៅលើបញ្ជីការងារណាមួយ។ ការអនុញ្ញាតនេះត្រូវបានទាមទារសម្រាប់ការគាំទ្រវេទិកាទូលំទូលាយ។ យើងចាក់តែស្គ្រីបនៅលើទំព័រដែលច្បាស់លាស់ទាក់ទងនឹងការងារ។",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "តើក្រុមប្រឹក្សា Kanban ជាអ្វី?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "ក្រុមប្រឹក្សាភិបាល Kanban គឺជាទិដ្ឋភាពតាមដានការងារដែលមើលឃើញនៅក្នុងផ្ទាំងកម្មវិធីតាមដាន។ វាបង្ហាញកម្មវិធីរបស់អ្នកដែលបានរៀបចំនៅក្នុងជួរឈរ៖ បានរក្សាទុក → បានអនុវត្ត → ការវាយតម្លៃ → ការសម្ភាសន៍ → ការផ្តល់ជូន។ អ្នកអាចអូស និងទម្លាក់កាតរវាងជួរឈរ ដើម្បីធ្វើបច្ចុប្បន្នភាពស្ថានភាពនៃកម្មវិធីណាមួយ។",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "តើការរកឃើញការដាក់ស្នើដំណើរការយ៉ាងដូចម្តេច?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "នៅពេលអ្នកបើក \"Log only after submission\" នៅក្នុងការកំណត់ ApplyFlow មើលការផ្លាស់ប្តូរទំព័រដែលបង្ហាញពីការដាក់ស្នើដោយជោគជ័យ (ដូចជា URL ដែលមាន \"/success\" ឬតួអត្ថបទដែលនិយាយថា \"សូមអរគុណសម្រាប់ការដាក់ពាក្យ\")។ វាគ្រាន់តែកត់ត្រាកម្មវិធីទៅកាន់កម្មវិធីតាមដានរបស់អ្នក បន្ទាប់ពីវារកឃើញការបញ្ជូនពិតប្រាកដ។",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "តើខ្ញុំអាចទុក Cover Letter ច្រើនបានទេ?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "បាទ! អេក្រង់ប្រវត្តិរូបមានផ្នែក \"Cover Letter Vault\" ដែលអ្នកអាចរក្សាទុកអក្សរគម្របគ្មានដែនកំណត់ ស្របតាមតួនាទី ឬក្រុមហ៊ុនផ្សេងៗ។ នៅពេលបំពេញដោយស្វ័យប្រវត្តិ ApplyFlow នឹងប្រើលិខិតគម្របចុងក្រោយបំផុត ឬពាក់ព័ន្ធបំផុតរបស់អ្នក។",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "តើខ្ញុំត្រូវនាំចេញទិន្នន័យកម្មវិធីរបស់ខ្ញុំដោយរបៀបណា?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "ចូលទៅកាន់គណនី & សមកាលកម្ម → រមូរទៅបាត → ចុច \"នាំចេញការបម្រុងទុក (JSON)\" ។ វាទាញយកទិន្នន័យប្រវត្តិរូប និងកម្មវិធីរបស់អ្នកទាំងអស់ជាឯកសារ JSON សម្រាប់រក្សាសុវត្ថិភាព។",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "តើ ApplyFlow ដំណើរការក្នុងរបៀបសាកល្បងទេ?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "របៀបសាកល្បងគឺជាការកំណត់ចាស់ដែលប្រើសម្រាប់ការធ្វើតេស្ត។ ឥឡូវនេះវាត្រូវបានបិទតាមលំនាំដើម។ លក្ខណៈពិសេសទាំងអស់គឺផ្ទាល់ និងដំណើរការជាមួយនឹងគន្លឹះ Gemini API ដែលភ្ជាប់មកជាមួយ។",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "តើខ្ញុំរាយការណ៍អំពីបញ្ហា ឬស្នើសុំមុខងារដោយរបៀបណា?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "សូមបើកបញ្ហានៅលើឃ្លាំង GitHub របស់យើង (ភ្ជាប់នៅក្នុងផ្នែកអំពី) ឬផ្ញើអ៊ីមែលមកយើងតាមរយៈ support@applyflow.in ។ ជាធម្មតាយើងឆ្លើយតបក្នុងរយៈពេល 48 ម៉ោង។",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "បើកផ្ទាំងលេចឡើង ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ស្កេនទំព័របច្ចុប្បន្នសម្រាប់វាលទម្រង់",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "ចាប់ផ្តើមការបំពេញស្វ័យប្រវត្តិឆ្លាតវៃនៅលើទំព័របច្ចុប្បន្ន",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "ខ្ទាស់បញ្ជីការងារបច្ចុប្បន្នទៅកម្មវិធីតាមដាន",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "បើកកម្មវិធីតាមដានក្នុងផ្ទាំងថ្មី។",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "កំណត់រចនាសម្ព័ន្ធផ្លូវកាត់នៅក្នុង Chrome នៅ",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "ចំណាំ៖",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "ពាក្យបញ្ជាផ្នែកបន្ថែមរបស់ Chrome តម្រូវឱ្យមានការចាត់តាំងដោយដៃនៅក្នុងកម្មវិធីគ្រប់គ្រងផ្លូវកាត់របស់ Chrome ។ ចូលទៅកាន់ $1$ ដើម្បីចងសោដែលបានរាយខាងលើ។",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — គោលការណ៍ឯកជនភាព**\nបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ៖ ខែមិថុនា ឆ្នាំ 2026\n\n---\n\n**1. សេចក្តីផ្តើម**\n\nApplyFlow (\"យើង\", \"របស់យើង\", \"ផ្នែកបន្ថែម\") គឺជាផ្នែកបន្ថែមកម្មវិធីរុករកតាមអ៊ីនធឺណិត Chrome ដែលជួយអ្នកប្រើប្រាស់បំពេញទម្រង់ពាក្យសុំការងារដោយស្វ័យប្រវត្តិ តាមដានកម្មវិធីរបស់ពួកគេ និងគ្រប់គ្រងទម្រង់វិជ្ជាជីវៈរបស់ពួកគេ។ គោលការណ៍ឯកជនភាពនេះពន្យល់ពីរបៀបដែលយើងប្រមូល ប្រើប្រាស់ រក្សាទុក និងការពារព័ត៌មានរបស់អ្នក។\n\nដោយការដំឡើង និងប្រើប្រាស់ ApplyFlow អ្នកយល់ព្រមចំពោះការអនុវត្តដែលបានពិពណ៌នានៅក្នុងគោលការណ៍នេះ។\n\n---\n\n**2។ ទិន្នន័យដែលយើងប្រមូលបាន**\n\nយើងប្រមូលតែព័ត៌មានដែលអ្នកផ្តល់ដោយស្ម័គ្រចិត្ត ដើម្បីបើកដំណើរការលក្ខណៈពិសេសរបស់ផ្នែកបន្ថែម៖\n\n• **ព័ត៌មានប្រវត្តិរូប**៖ ឈ្មោះរបស់អ្នក អ៊ីមែល លេខទូរស័ព្ទ មហាវិទ្យាល័យ សញ្ញាបត្រ ជំនាញ ប្រវត្តិការងារ គម្រោង និងតំណភ្ជាប់ដែលមានជំនាញវិជ្ជាជីវៈ (LinkedIn, GitoHub) ___•__•__•__•__•__•__•__•__•__•___•__•__•___•___•__•___•___•__•___•___•___•___•___•___•___•___•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•__•_•__••_••••••••••••••••••••* ** EEO/ព័ត៌មានប្រជាសាស្ត្រ (ជាជម្រើស)**៖ ភេទ ស្ថានភាពពិការភាព ស្ថានភាពអតីតយុទ្ធជន និងចំណូលចិត្តការអនុញ្ញាតការងារ — ផ្តល់ជូនតែក្នុងករណីដែលអ្នកជ្រើសរើសបំពេញវាលទាំងនេះប៉ុណ្ណោះ។ ទិន្នន័យនេះត្រូវបានប្រើទាំងស្រុងដើម្បីបំពេញកម្រងសំណួរ EEO ស្រេចចិត្តលើកម្មវិធីការងារ។\n• ** ទិន្នន័យតាមដានកម្មវិធី**៖ ចំណងជើងការងារ ក្រុមហ៊ុន URL កម្មវិធី ស្ថានភាព និងកំណត់ចំណាំសម្រាប់មុខតំណែងដែលអ្នកតាមដានដោយប្រើផ្នែកបន្ថែម។\n• ** ស្ថិតិប្រើប្រាស់ **៖ ចំនួននៃការបំពេញដោយស្វ័យប្រវត្តិប្រតិបត្តិការប្រចាំថ្ងៃដែលត្រូវអនុវត្ត limits).\n• **ទិន្នន័យការផ្ទៀងផ្ទាត់**៖ ប្រសិនបើអ្នកជ្រើសរើសចូលដោយប្រើ Google យើងរក្សាទុកឈ្មោះបង្ហាញ Google របស់អ្នក អាសយដ្ឋានអ៊ីមែល និង URL រូបភាពកម្រងព័ត៌មាន ដើម្បីធ្វើការកំណត់បទពិសោធន៍ផ្ទាល់ខ្លួនរបស់អ្នក និងបើកការធ្វើសមកាលកម្មលើពពក។\n\nយើងមិន **** ប្រមូល៖\n•• ការបង់ប្រាក់ ឬព័ត៌មានប្រវត្តិកម្មវិធីរុករកតាមអ៊ីនធឺណិត 4__B សកម្មភាព\n• ព័ត៌មានណាមួយពីទំព័រដែលមិនទាក់ទងនឹងកម្មវិធីការងារ\n• ទិន្នន័យណាមួយពីទំព័រនៅពេលដែលកម្មវិធីបន្ថែមមិនត្រូវបានកេះយ៉ាងសកម្ម\n\n--\n\n**3។ របៀបដែលយើងរក្សាទុកទិន្នន័យរបស់អ្នក**\n\n**3.1 Local Storage (លំនាំដើម)**\nទិន្នន័យទាំងអស់ត្រូវបានរក្សាទុកជាចម្បងនៅក្នុង chrome.storage.local API របស់កម្មវិធីរុករកតាមអ៊ីនធឺណិតរបស់អ្នក។ ទិន្នន័យនេះមានតែនៅលើឧបករណ៍របស់អ្នកប៉ុណ្ណោះ ហើយមិនត្រូវបានបញ្ជូនទៅកាន់ម៉ាស៊ីនមេណាមួយដោយគ្មានសកម្មភាពច្បាស់លាស់របស់អ្នក។\n\n**3.2 Cloud Sync (ស្រេចចិត្ត)**\n_ប្រសិនបើអ្នកជ្រើសរើសចូលជាមួយ Google និងបើកមុខងារ \"Supabase Sync\" នោះ ប្រវត្តិរូប និងទិន្នន័យកម្មវិធីរបស់អ្នកនឹងធ្វើសមកាលកម្មមូលដ្ឋានទិន្នន័យផងដែរ។ អ្នករក្សាភាពជាម្ចាស់ពេញលេញនៃទិន្នន័យនេះ។ អ្នកអាចលុបវាបានគ្រប់ពេលពីផ្នែកគណនី និងសមកាលកម្ម។\n\n**3.3 Gemini AI Requests**\nនៅពេលដែលមុខងារ AI ត្រូវបានប្រើ (ឧ. ការបង្កើតអត្ថបទ ការវិភាគការងារ) ផ្នែកនៃកម្រងព័ត៌មានរបស់អ្នក (ជំនាញ សញ្ញាបត្រ សង្ខេប) និងអត្ថបទពិពណ៌នាការងាររបស់ Gemini ត្រូវបានផ្ញើទៅកាន់ API របស់ Gemini ។ នេះត្រូវបានដំណើរការក្រោមលក្ខខណ្ឌប្រើប្រាស់ API ស្តង់ដាររបស់ Google និងគោលការណ៍ឯកជនភាព។ យើងសូមណែនាំមិនរាប់បញ្ចូលលេខសម្គាល់ផ្ទាល់ខ្លួនដ៏រសើបនៅក្នុងខ្លឹមសារជំនួយ AI របស់អ្នក។\n\n---\n\n**4។ ការចែករំលែកទិន្នន័យ**\n\nយើងមិន **មិន**លក់ ជួញដូរ ជួល ឬចែករំលែកព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកជាមួយភាគីទីបីណាមួយសម្រាប់គោលបំណងទីផ្សារ ឬការផ្សាយពាណិជ្ជកម្ម។\n\nទិន្នន័យរបស់អ្នកអាចត្រូវបានដំណើរការដោយសេវាកម្មដែលអាចទុកចិត្តបានដូចខាងក្រោម៖ \n_• **ការវិភាគទម្រង់ Google Gemini API-powered**៖ (https://policies.google.com/privacy)\n• **Google OAuth**៖ សម្រាប់ការផ្ទៀងផ្ទាត់គណនី (https://policies.google.com/privacy)\n• **Supabase**៖ សម្រាប់កន្លែងផ្ទុកពពកស្រេចចិត្ត (https://supabase.com/privacy) — លុះត្រាតែអ្នកបើកដំណើរការ sync\n\n---\n\n**5. សិទ្ធិ និងការគ្រប់គ្រងរបស់អ្នក**\n\nអ្នកមានសិទ្ធិ៖\n• **ការចូលប្រើ** ទិន្នន័យទាំងអស់ដែល ApplyFlow បានរក្សាទុកអំពីអ្នក (តាមរយៈការនាំចេញការបម្រុងទុកក្នុងការកំណត់)\n• **កែតម្រូវ*•* ព័ត៌មានរបស់អ្នកគ្រប់ពេលនៅក្នុងផ្ទាំង Profile__Clear ទាំងអស់ ***_5** ទិន្នន័យ\" នៅក្នុងការកំណត់\n• **ការយល់ព្រមដកប្រាក់** នៅពេលណាក៏បានដោយលុបកម្មវិធីបន្ថែម\n• **បិទការធ្វើសមកាលកម្មលើពពក** ដោយបិទបើកវានៅក្នុងការកំណត់គណនី និងសមកាលកម្ម\n\n**GDPR (អ្នកប្រើប្រាស់សហភាពអឺរ៉ុប)**៖ ប្រសិនបើអ្នកមានសិទ្ធិចូលប្រើឡើងវិញ កំណត់សម័យសហភាពអឺរ៉ុប ដំណើរការ និងការចល័តទិន្នន័យក្រោមបទប្បញ្ញត្តិការការពារទិន្នន័យទូទៅ។\n\n** ឥណ្ឌា — DPDP Act 2023**៖ ដោយអនុលោមតាមច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួនឌីជីថលរបស់ឥណ្ឌាឆ្នាំ 2023 យើងដំណើរការទិន្នន័យផ្ទាល់ខ្លួនសម្រាប់គោលបំណងផ្តល់សេវាកម្មជំនួយកម្មវិធីការងារប៉ុណ្ណោះ។ អ្នកអាចដកការយល់ព្រម និងស្នើសុំការលុបទិន្នន័យរបស់អ្នកបានគ្រប់ពេល ដោយទាក់ទងមកយើងខ្ញុំ។ ទិន្នន័យ))\n\n--\n\n**6. ការរក្សាទិន្នន័យ**\n\nទិន្នន័យមូលដ្ឋានត្រូវបានរក្សាទុករហូតដល់អ្នកសម្អាតវាដោយដៃ។ ទិន្នន័យដែលបានធ្វើសមកាលកម្មលើពពកត្រូវបានរក្សាទុករហូតដល់អ្នកលុបគណនីរបស់អ្នក ឬស្នើសុំការលុប។ យើងមិនលុបទិន្នន័យដោយស្វ័យប្រវត្តិទេ។\n\n--\n\n**7. សុវត្ថិភាព**\n\nយើងចាត់វិធានការបច្ចេកទេសសមហេតុផលដើម្បីការពារទិន្នន័យរបស់អ្នក៖\n• ទំនាក់ទំនងលើពពកទាំងអស់ប្រើការអ៊ិនគ្រីប HTTPS/TLS\n• Supabase Row-Level Security (RLS) ធានាថាអ្នកប្រើប្រាស់អាចចូលប្រើទិន្នន័យផ្ទាល់ខ្លួនរបស់ពួកគេតែប៉ុណ្ណោះ___NL_82_ ការអនុញ្ញាតគឺមិនមានការអនុញ្ញាតលើសពីអ្វីដែលផ្នែកបន្ថែមនោះទេ។ អនុគមន៍ \n\n---\n\n**8. ឯកជនភាពរបស់កុមារ**\n\nApplyFlow មិនត្រូវបានបម្រុងទុកសម្រាប់អ្នកប្រើប្រាស់ដែលមានអាយុក្រោម 13 ឆ្នាំទេ។ យើងមិនប្រមូលទិន្នន័យពីកុមារដោយចេតនាទេ។ ប្រសិនបើអ្នកជឿថាកុមារបានផ្តល់ព័ត៌មានផ្ទាល់ខ្លួនដល់យើង សូមទាក់ទងមកយើងភ្លាមៗ។\n\n---\n\n**9។ ការផ្លាស់ប្តូរគោលការណ៍នេះ**\n\nយើងអាចធ្វើបច្ចុប្បន្នភាពគោលការណ៍ឯកជនភាពនេះពីពេលមួយទៅពេលមួយ។ ការផ្លាស់ប្តូរសំខាន់ៗនឹងត្រូវបានទាក់ទងតាមរយៈទំព័រជម្រើសរបស់ផ្នែកបន្ថែម។ ការបន្តការប្រើប្រាស់ផ្នែកបន្ថែមបន្ទាប់ពីការផ្លាស់ប្តូរគឺជាការទទួលយកគោលការណ៍ដែលបានធ្វើបច្ចុប្បន្នភាព។\n\n---\n\n**10. ទាក់ទងយើង**\n\nសម្រាប់សំណួរទាក់ទងនឹងឯកជនភាព សំណើលុបទិន្នន័យ ឬកង្វល់៖\n\nEmail៖ privacy@applyflow.in\nGitHub៖ https://github.com/applyflow/extension https://applyflow.in\n\nយើងមានគោលបំណងឆ្លើយតបទៅនឹងសំណើទាំងអស់ក្នុងរយៈពេល 30 ថ្ងៃ។",
+    "description": "Privacy policy document markdown text"
+  }
+}

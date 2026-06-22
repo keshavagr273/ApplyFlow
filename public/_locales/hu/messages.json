@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI feladat automatikus kitöltése és alkalmazáskövető",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatikusan töltse ki az álláspályázatokat és a zeneszámok listáját a mesterséges intelligencia segítségével a LinkedIn, Workday, Greenhouse stb.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktív",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Alkalmazva",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Interjú",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Ajánlat",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Mentve",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Összesen",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Automatikus kitöltés",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Kitöltés...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Gyors automatikus kitöltés",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Munka elemzése",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Nyissa meg az Oldalsávot",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Beállítások elemre",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Kérjük, először jelentkezzen be a Google-lal a Gyors automatikus kitöltés használatához!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Kérjük, először állítsa be profilját az Oldalpanel/Opciók oldalon!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Észlelve",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Nem észlelhető munkaoldal",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Látogassa meg az álláshirdetést az AI-funkciók feloldásához",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Jó reggelt",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Jó napot",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Jó estét",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ követett jelentkezés · $2$ interjú",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Kezdje el jelentkezni, hogy nyomon kövesse a fejlődését",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Kísérőlevél",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Kérdések és válaszok Súgó",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Készen áll a segítségre",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "A kezdéshez navigáljon egy álláshirdetéshez a LinkedIn, a Workday, a Greenhouse vagy bármely munkalapon.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Ezen a héten",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Legutóbbi tevékenység",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Összes megtekintése →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Kezdje el álláskeresését!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Látogasson el egy álláshirdetésre, és használja az ApplyFlow-t az alkalmazások automatikus kitöltéséhez és nyomon követéséhez.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Saját profil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Mentés...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Az összes mentése",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil mentve!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Nem sikerült menteni a profilt.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Folytatás",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Feltöltés az automatikus kitöltési profilba",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Feltöltve",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Személyes adatok",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Hiányos",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Helyszín",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Oktatás",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Készségek",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Munkatapasztalat",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projektek",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Munka beállításai",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Munkavégzés engedélyezése",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Előzmények folytatása",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Használja ezt",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Elemzés dátuma: $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Betölti a profil részleteit innen: \"$1$\"? Ezzel a jelenlegi szerkesztéseit az önéletrajz elemzett szerkezetére cseréli.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Visszaállított adatok innen: $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Match Score",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ további",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Az alkalmazás automatikusan kitöltve és naplózva! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Automatikus kitöltés az ApplyFlow oldalsó panelen keresztül",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ott",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Nincs főiskolai készlet",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Állítsa be profilját az automatikus kitöltés engedélyezéséhez",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Nincs beállítva",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ bejegyzés",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ készségek",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projektek",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ válaszol",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Engedélyezett",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Nem engedélyezett",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Teljes név",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternatív telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfólió URL-je",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Resume Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Város",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "állam",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Ország",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Irányítószám",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Cím",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nemzetiség",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Főiskola / Egyetem",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Fokozat",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Érettségi éve",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / fokozat",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10. %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12. %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Felmondási idő",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Várható fizetés",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Preferált szerepkör",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Több éves tapasztalat",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Jogosult vízum szponzorálás nélkül dolgozni",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Vízum szponzoráció szükséges",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Nem",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Fogyatékosság",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Inkább ne mondjam",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Nincs megadva",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Férfi",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Nő",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Nem bináris",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Igen",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nem",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Még nincsenek hozzáadott készségek",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Képesség hozzáadása (Enter a hozzáadáshoz)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Kiváltó kifejezés (pl. Miért vegyünk fel téged)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "A válaszod...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Távolítsa el",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Egyéni válasz hozzáadása",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Társaság",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Szerep / Cím",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Kezdés dátuma",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Befejezés dátuma",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Jelen",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Jelenleg ebben a szerepkörben dolgozom",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Leírás",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Mutassa be feladatait, legfontosabb eredményeit, használt technológiákat...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Add munkatapasztalat",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Projekt címe",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Telepítési URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Írja le, hogy mit épített, milyen problémát oldott meg, és a legfontosabb jellemzőket...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Projekt hozzáadása",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Nyomkövető",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Mentve",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Alkalmazva",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Értékelés",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Interjú",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Ajánlat",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Elutasítva",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Visszavonva",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Törli ezt az alkalmazást?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Alkalmazás frissítve!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Alkalmazás törölve.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Állapot",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Alkalmazva",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Nyissa meg az Álláshirdetést",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Fizetés / ösztöndíj",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Nyomon követési emlékeztető",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Megjegyzések",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Jegyzetek hozzáadása, elérhetőségi adatok, interjú részletei...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Munkakör leírása (részlet)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Törölje",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Mégsem",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Mentés",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 alkalmazás",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ alkalmazások",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Szűrés cég szerint...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Állapotszűrők",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Továbbiakért görgessen jobbra →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Mind",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Nem találhatók alkalmazások",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Próbálja meg alaphelyzetbe állítani a szűrőket, vagy mentsen el egy feladatot új nyomkövető bejegyzés hozzáadásához",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ összesen jelentkezés",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Még nincsenek adatok",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Kezdjen el állásokra jelentkezni, és az elemzési adatok itt jelennek meg.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Átváltási árfolyamok",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Alkalmazva",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Interjúk aránya",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Ajánlati arány",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Pályázatok ezen a héten",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Alkalmazástölcsér",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Legjobb platformok",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Állapot bontás",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI másodpilóta",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontextus: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "A karrier másodpilóta",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Új csevegés ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Kérjük, először állítsa be profilját, hogy az AI személyre szabhassa a válaszokat.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "A chat törölve! Miben segíthetek?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Kérdezz bármit erről a munkáról...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "A kezdéshez állítsa be profilját",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Nyomja meg az Entert a küldéshez",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Az önéletrajz kompatibilitási pontszáma",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Erős készségek",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Hiányzó készségek",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Íme az Ön személyre szabott kísérőlevele:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Másolva!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Másolás",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Letöltés",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Íme $1$ valószínű interjúkérdés:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Folytatás optimalizálási pontszám: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Folytatás egyezési javaslatok",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "ezzel a munkaköri leírással szemben",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Valami elromlott. Kérjük, próbálja újra.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Szia! Látom, hogy egy **$1$** szerepkört keresel a **$2$** címen.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Szia! Látom, hogy egy **$1$** szerepet nézel.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Szia! Én vagyok az AI karrier másodpilótája. Navigáljon egy álláshirdetéshez, és automatikusan elemzem, vagy kérdezzen tőlem bármit!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Kérjük, először állítsa be profilját a Profil fülön!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "A funkció használatához először nyisson meg egy álláshirdetési oldalt a böngészőjében!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Oldja fel az ApplyFlow zárolását",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Jelentkezzen be a Google-lal az irányítópult eléréséhez, a munkák szinkronizálásához, az önéletrajzi profil kezeléséhez és az állásjelentkezések azonnali automatikus kitöltéséhez.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Az alkalmazások beolvasása és automatikus kitöltése egyetlen kattintással.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Felhőszinkronizálás és biztonsági mentés",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Szinkronizálja az összes munkakövetési adatot a Supabase szolgáltatással.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Önéletrajz és profilok",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Töltse fel önéletrajzát, és szabja testre a pályázati válaszokat.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Csatlakozás a Google-hoz...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Jelentkezzen be a Google-lal",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "A bejelentkezéssel beleegyezik, hogy profiladatait biztonságosan szinkronizálja aktív munkaterületével.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Biztosan ki szeretne jelentkezni?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Sikeresen kijelentkezett.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Bejelentkezve mint $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Jelentkezzen ki",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Jelentkezzen be",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Csatlakozás...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Nyissa meg az ApplyFlow-t",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Erős illeszkedési készségek",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Hiányzó készségek",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Intelligens automatikus kitöltési oldal",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Űrlap automatikus kitöltése...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Az oldalon nem található kitölthető jelentkezési mező.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Sikeresen kitöltve!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Az automatikus kitöltés az oldal bonyolultsága miatt nem sikerült.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Kitöltéskor automatikusan mentve a naplókövetőbe.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Önéletrajza **$1$%-ban kompatibilis** ezzel a szereppel.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Üdv újra, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Nem sikerült lekérni a Google felhasználói profil adatait.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth bejelentkezés sikertelen: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Nem sikerült lekérni a hozzáférési tokent az átirányításból.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Nem sikerült elemezni a hitelesítés átirányítását.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "A hitelesítés nem támogatott ezen a platformon.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Az állás mentve a nyomkövetőbe!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Vendég",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Általános beállítások",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Megjelenítés a LinkedIn állásoldalain",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Intelligens egyezési pontszámot és egy kattintásos automatikus kitöltési gombot jelenít meg, amikor megtekinti az álláshirdetéseket a LinkedIn-en.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Mutasd a „Munka mentése” gombot",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Lebegő „Munka mentése 📌” gombot jelenít meg az álláshelyeken, így a jelentkezés előtt gyorsan elmentheti a munka részleteit a nyomkövetőjébe.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Csak a tényleges jelentkezés után jelentkezzen be",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Várja meg, amíg megjelenik a „Köszönöm” vagy a „Siker” képernyő, mielőtt hozzáadja a munkát a nyomkövetőhöz. Tisztán tartja a nyomkövetőt azáltal, hogy megakadályozza, hogy a félig kitöltött űrlapok „Alkalmazott” néven kerüljenek mentésre.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI kreditek és használati elemzések",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kredit maradt",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Fennmaradó kreditek",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Összes kredit",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Minden idők automatikus kitöltése",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Terv állapota",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Prémium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Ingyenes 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Profi tipp:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Az intelligens automatikus kitöltési műveletek 0 kreditet fogyasztanak, és 100%-ban korlátlanok! Csak a fejlett mesterséges intelligencia funkciók, például a kísérőlevelek (5 kredit) és az egyéni esszék (3 kredit) használják fel a hitelegyenlegét.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Fiók és Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "A Google Cloud Sync aktív",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync zárolva (csak prémium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Nyomd a felhőbe",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Húzza ki a Cloudból",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "A szinkronizálás sikeres!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "A szinkronizálás nem sikerült. Ellenőrizze a kapcsolatot.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Biztonságos felhőszinkronizálás",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Jelentkezzen be a Google-lal, hogy biztonsági másolatot készítsen alkalmazásairól és profiljáról a Supabase-re. A szinkronizálás egy prémium szolgáltatás, amely biztonságban tartja naplóit az eszközök között.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "A Supabase Cloud Sync egy prémium szolgáltatás. Kérjük, frissítsen a Frissítés lapon a szinkronizálás engedélyezéséhez!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Adatkezelés",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Biztonsági másolat exportálása (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Minden helyi adat törlése",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "A helyi adatok törlése csak erről az eszközről távolítja el profilját és alkalmazásait. A felhőadatok nem érintik.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Vezérlőközpont",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Kezdőlap és névjegy",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Általános beállítások",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Frissítsen Pro-ra 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Prémium csomag 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Fiók és szinkronizálás",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Adatvédelmi szabályzat",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "GYIK",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Billentyűparancsok",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Üdvözöljük az ApplyFlow-ban",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "Az ApplyFlow egy mesterséges intelligencia által vezérelt Chrome-bővítmény, amely azon diákok és álláskeresők számára készült, akik gyorsabban és okosabban szeretnének jelentkezni. Automatikusan felismeri és kitölti az állásjelentkezési űrlapokat több mint 15 platformon, nyomon követi a folyamatot, és segít további interjúk megszerzésében.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Intelligens automatikus kitöltés",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS platform precíz választókkal",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Egy kattintással mentse el bármelyik álláshirdetést",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Drag & drop az alkalmazási folyamat",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO automatikus kitöltése",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "A demográfiai és vízumkérdések automatikus kitöltése",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI esszék",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Ikrek által vezérelt egyéni válaszírás",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Biztonságos szinkronizálás",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Opcionális Supabase felhőalapú biztonsági mentés",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Hogyan kezdjük el",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Készítse el profilját",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Nyissa meg a felugró ablakot → Profil fül → töltse fel az önéletrajzát PDF-formátumban. Az AI automatikusan kibontja az összes részletet, beleértve a készségeket, a tapasztalatokat, az oktatást és a projekteket.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Állítsa be az EEO-beállításokat",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Görgessen az EEO részhez profiljában, és állítsa be a munkavállalási engedélyt, a vízum szponzorálási igényeit és a demográfiai preferenciákat. Ezeket az EEO-kérdőívek automatikus kitöltésére használják.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Böngésszen az álláshirdetések között",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigáljon bármelyik álláshirdetéshez. Megjelenik a 📌 „Munka mentése” gomb. Kattintson rá, hogy azonnal mentse a pozíciót a nyomkövetőjébe.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Nyisson meg egy jelentkezési lapot",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navigáljon a jelentkezési űrlaphoz. Kattintson az ApplyFlow felugró ablakra → nyomja meg az \"Oldal beolvasása\" → majd az \"⚡ Intelligens automatikus kitöltése\" lehetőséget. Minden mező, beleértve a rádiógombokat és a legördülő listákat is, azonnal kitölti.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Kövesse nyomon a csővezetéket",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Nyissa meg a Tracker lapot az összes alkalmazás megtekintéséhez. Váltson Kanban tábla nézetre, és állapotfrissítésként húzza a kártyákat az oszlopok között.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Bejelentkezés szükséges",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Jelentkezzen be a beállítások testreszabásához",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Az általános beállítások csak a bejelentkezett felhasználók számára érhetők el. Jelentkezzen be a Google-lal a beállítások, az automatikus kitöltési viselkedés és egyebek konfigurálásához.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Lépjen a Fiók és szinkronizálás lehetőségre",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licenckulcs: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Inaktiválja a licencet",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Licenckulcs aktiválása",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Ha előfizetést vásárolt vagy hozzáférési kódot kapott, adja meg licenckulcsát alább az ApplyFlow Premium feloldásához.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktiválja",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktiválás...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tipp: A Premiumot az APPLYFLOW-PRO-2026 kulccsal aktiválhatja.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Prémium aktiválva!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Köszönjük, hogy támogatja az ApplyFlow-t. Az összes prémium funkció feloldva.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Prémium frissítési terv",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Feloldja karrierje exportálását és fejlett AI-funkcióit.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Szerezzen prémium AI-krediteket motivációs levelekre, egyéni esszéválaszokra, önéletrajz-optimalizálásra és álinterjúra való felkészülésre. Az automatikus kitöltési műveletek a támogatott platformokon teljesen korlátlanok és ingyenesek minden prémium felhasználó számára!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Korai adoptáló ajánlat:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Következő áremelés 500 prémium felhasználónál. Zárd be ezt az árfolyamot egy életre!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Monthly Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Jó a rövid távú kereséshez",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ hónap",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Csak 13 ₹ / nap)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI-kredit havonta|||Korlátlan automatikus kitöltés (minden portálon)|||Cloud Sync és Google Backup|||Prémium témák|||Hirdetésmentes élmény",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Havi előfizetés",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "A legjobb érték a legtöbb álláskereső számára",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 hónap",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Csak 11 ₹ / nap)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI-kredit negyedévente|||Korlátlan automatikus kitöltés (minden portálon)|||Személyre szabott kísérőlevelek és esszék |||Cloud Sync és Google Backup",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Feliratkozás negyedévente",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Legnépszerűbb",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Éves Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "A legjobb ár-érték arány a hatékony felhasználók számára",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ év",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(249 INR/hónak felel meg)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 AI-jóváírás évente|||Korlátlan napi automatikus kitöltések|||Személyre szabott kísérőlevelek és esszék",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Előfizetés Évente",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Legjobb ár-érték arány – 40% megtakarítás",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Az ApplyFlow fejlesztés támogatása",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "Az ApplyFlow-t független fejlesztők építették és tartják karban. Ha hasznosnak találja a bővítményt, fontolja meg az adományozást a Ko-fi-n, hogy aktívan, hirdetések nélkül tarthassa, és frissítse az új álláshirdetéseket.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Vegyél nekem egy kávét a Ko-fi-n",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 értékelés|||🔒 Biztonságos fizetések|||✓ Bármikor lemondható",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Érvénytelen licenckulcs. Tipp: Próbálja meg az „APPLYFLOW-PRO-2026” demókulcsot használni!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "A licenc sikeresen aktiválva! Üdvözli az ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Biztosan deaktiválja a prémium licencét? Ezzel visszatér az ingyenes csomaghoz.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Prémium licenc deaktiválva. Ön most az ingyenes csomagban van.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Ezzel véglegesen törli az ÖSSZES helyi profil- és alkalmazásadatot. Biztos vagy benne?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Adatvédelmi szabályzat",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Gyakran Ismételt Kérdések",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Mi az ApplyFlow és hogyan működik?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "Az ApplyFlow egy mesterséges intelligencia által vezérelt Chrome-bővítmény, amely automatikusan észleli és kitölti az állásjelentkezési űrlapokat több mint 15 platformon, köztük a LinkedIn, az Internshala, az Unstop, a Workday, az Greenhouse, a Lever és egyebek között. Beolvassa a mentett profilt, és intelligens egyezést használ a szövegmezők, legördülő menük, választógombok és jelölőnégyzetek kitöltéséhez – beleértve az EEO/demográfiai kérdéseket is.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Biztonságban vannak-e személyes adataim az ApplyFlow segítségével?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Igen. Adatait alapértelmezés szerint helyileg a böngésző chrome.storage.local fájljában tároljuk. Soha nem küldi el semmilyen harmadik féltől származó kiszolgálóra, kivéve a saját opcionális Supabase adatbázisát (amelyet Ön irányít). Az ApplyFlow soha nem adja el, nem osztja meg az Ön személyes adatait, és nem tesz bevételt belőle.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Milyen munkaplatformokat támogat az ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "Az ApplyFlow 15+ platformot támogat a dobozból: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList és bármely más webhely az intelligens, általános tartalék matching webhelyen keresztül.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Mi az a Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "A Web Clipper egy lebegő \"Munka mentése\" gomb (📌), amely automatikusan megjelenik, amikor felkeres egy álláshirdetési oldalt. Ha rákattint, kibontja a munkakör megnevezését, a céget, a fizetést és a leírást, majd elmenti az ApplyFlow nyomkövetőjébe „Mentett” alkalmazásként – így a jelentkezés előtt nyomon követheti az állásokat.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Hogyan frissíthetem a profilomat?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Nyissa meg az ApplyFlow felugró ablakot, kattintson a „Profil” fülre, és töltse fel önéletrajzát PDF-fájlként. Az AI automatikusan kitölti az összes mezőt. Manuálisan is szerkesztheti bármelyik mezőt, beleértve az EEO-beállításokat, a munkavégzési engedélyt és a kísérőleveleket.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Mik azok az EEO mezők, és miért van szükségem rájuk?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Az EEO (Equal Employment Opportunity) mezők olyan kérdések, amelyeket sok egyesült államokbeli és globális munkaadó tesz fel a nemre, a rokkantsági állapotra, a veterán státuszra és a munkavállalási engedélyre vonatkozóan. Az ApplyFlow eltárolja a kívánt válaszokat, és automatikusan kitölti ezeket a választógomb-csoportokat, így nem kell minden alkalommal manuálisan válaszolnia rájuk.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Az ApplyFlow igényel API-kulcsot vagy konfigurációt?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Nem! Az ApplyFlow automatikusan kezel minden űrlapészlelést, intelligens egyeztetést, motivációs levél generálást és kompatibilitási pontozást. Nincs szükség API-kulcsok beszerzésére vagy konfigurálására.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Mi az a Supabase sync, és szükségem van rá?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "A Supabase sync egy opcionális felhőalapú biztonsági mentési funkció. Amikor bejelentkezik a Google-lal, és engedélyezi azt, profilja és alkalmazáskövetője szinkronizálva lesz egy privát felhőadatbázissal, így adatairól biztonsági másolat készül, és több eszközről is elérhető. Ez teljesen opcionális – a bővítmény teljesen offline módban működik.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Miért van szüksége az ApplyFlow-nak az összes webhelyhez való hozzáférésre?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "Az ApplyFlow hozzáférést kér az összes webhelyhez, így bármely álláspályázati űrlapon beillesztheti az automatikus kitöltő motort, és bármely álláshirdetésen megjelenítheti a „Munka mentése” vágógombot. Ez az engedély szükséges a széles platformtámogatáshoz. Csak olyan oldalakra szúrunk be szkripteket, amelyek egyértelműen munkához kapcsolódnak.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Mi az a Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "A Kanban Board egy vizuális munkakövetési nézet a Tracker lapon. Oszlopokba rendezve jeleníti meg a jelentkezéseket: Mentett → Alkalmazott → Értékelés → Interjú → Ajánlat. A kártyákat az oszlopok között húzással frissítheti bármely alkalmazás állapotának frissítéséhez.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Hogyan működik a benyújtás észlelése?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Ha a beállításokban engedélyezi a „Csak a beküldés után naplózást” funkciót, az ApplyFlow figyeli a sikeres beküldést jelző oldalmódosításokat (például a „/siker” kifejezést tartalmazó URL-t vagy a „Köszönjük, hogy jelentkezett” törzsszöveget). Csak azután naplózza az alkalmazást a nyomkövetőben, ha valódi beküldést észlel.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Tárolhatok több kísérőlevelet?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Igen! A Profil képernyőn található egy \"Címlevéltároló\" rész, ahol korlátlan számú kísérőlevelet tárolhat, különböző szerepkörökhöz vagy cégekhez szabva. Az automatikus kitöltés során az ApplyFlow a legfrissebb vagy legrelevánsabb kísérőlevelet használja.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Hogyan exportálhatom az alkalmazás adatait?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Lépjen a Fiók és szinkronizálás lehetőségre → görgessen lefelé → kattintson a \"Biztonsági másolat exportálása (JSON)\" elemre. Ez az összes profil- és alkalmazásadatot JSON-fájlként tölti le biztonság céljából.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Működik az ApplyFlow Demo módban?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "A Demo mód a teszteléshez használt örökölt beállítás volt. Alapértelmezés szerint most le van tiltva. Minden funkció éles és működőképes a beépített Gemini API kulccsal.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Hogyan jelenthetek hibát vagy kérhetek funkciót?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Kérjük, nyissa meg a problémát a GitHub-tárhelyünkön (a Névjegy részben található hivatkozás), vagy írjon nekünk a support@applyflow.in címre. Általában 48 órán belül válaszolunk.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Nyissa meg az ApplyFlow felugró ablakot",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Űrlapmezők keresése az aktuális oldalon",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Aktiválja az Intelligens automatikus kitöltést az aktuális oldalon",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Vágja le az aktuális álláslistát a nyomkövetőbe",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Nyissa meg a Trackert egy új lapon",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Parancsikonok konfigurálása a Chrome-ban itt:",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Megjegyzés:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "A Chrome-bővítményparancsokhoz manuális hozzárendelés szükséges a Chrome parancsikonkezelőjében. Lépjen a $1$ oldalra a fent felsorolt ​​kulcsok kötéséhez.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome-bővítmény – Adatvédelmi irányelvek**\nUtolsó frissítés: 2026. június\n\n---\n\n**1. Bevezetés**\n\nApplyFlow (\"mi\", \"mi\", \"a bővítmény\") egy Chrome böngészőbővítmény, amely segít a felhasználóknak automatikusan kitölteni az állásjelentkezési űrlapokat, nyomon követni jelentkezéseiket, és kezelni szakmai profiljukat. Ez az adatvédelmi szabályzat leírja, hogyan gyűjtjük, használjuk, tároljuk és védjük az Ön adatait.\n\nAz ApplyFlow telepítésével és használatával Ön elfogadja a jelen szabályzatban leírt gyakorlatokat.\n\n---\n__NL_12_**2. Gyűjtött adatok**\n\nCsak az Ön által önként megadott információkat gyűjtjük a bővítmény funkcióinak engedélyezéséhez:\n\n• **Profilinformációk**: Az Ön neve, e-mail címe, telefonszáma, főiskola, végzettsége, képességei, munkatörténete, projektjei és szakmai linkjei, GitH Portfólió).\n• **EEO/Demográfiai adatok (opcionális)**: Nem, fogyatékossági állapot, veterán státusz és munkaengedély-beállítások – csak akkor érhető el, ha úgy dönt, hogy kitölti ezeket a mezőket. Ezeket az adatokat kizárólag az álláspályázatokhoz tartozó opcionális EEO-kérdőívek automatikus kitöltésére használjuk.\n• **Pályázatkövetési adatok**: Beosztás megnevezése, cég, jelentkezési URL, állapot és megjegyzések a bővítmény segítségével nyomon követett pozíciókhoz.\n• **Használati statisztika**: Az elvégzett automatikus kitöltési műveletek száma (helyileg__napi korlát:_N•2). **Hitelesítési adatok**: Ha úgy dönt, hogy bejelentkezik a Google-lal, tároljuk Google-ban megjelenített nevét, e-mail címét és profilképének URL-jét, hogy személyre szabhassuk az élményt, és lehetővé tegyük a felhőalapú szinkronizálást.\n\n**Nem** gyűjtjük:\n• Fizetési vagy pénzügyi információ___ vagy általános tevékenység\n• B• Browsering__2 olyan oldalakról, amelyek nem kapcsolódnak az álláspályázatokhoz\n• Azokról az oldalakról származó adatok, amelyeknél a bővítmény nincs aktívan aktiválva\n\n---\n\n**3. Hogyan tároljuk adatait**\n\n**3.1 Helyi tárhely (alapértelmezett)**\nMinden adatot elsősorban a böngésző chrome.storage.local API-ja tárol. Ezek az adatok csak az Ön eszközén találhatók, és soha nem kerülnek továbbításra semmilyen szerverre az Ön kifejezett intézkedése nélkül.\n\n**3.2 Cloud Sync (opcionális)**\nHa úgy dönt, hogy bejelentkezik a Google-lal, és engedélyezi a „Supabase Sync” funkciót, akkor profilja és alkalmazásadatai szintén szinkronizálásra kerülnek. Ezen adatok teljes tulajdonjogát Ön tartja meg. Bármikor törölheti a Fiók és szinkronizálás szakaszból.\n\n**3.3 Gemini AI-kérelmek**\nAmikor mesterséges intelligencia-szolgáltatásokat használnak (pl. esszégenerálás, munkaelemzés), a profil egyes részei (készségek, végzettség, összefoglaló) a Google-nak elküldik az API-val kapcsolatos válaszokat, és a munkaleírás szövege a Gemini. Ennek feldolgozása a Google szabványos API szolgáltatási feltételei és adatvédelmi irányelvei szerint történik. Javasoljuk, hogy a mesterséges intelligencia által támogatott tartalomban ne szerepeltessen bizalmas személyes azonosítókat.\n\n---\n\n**4. Adatmegosztás**\n\nMi **nem** adjuk el, nem kereskedünk, béreljük vagy osztjuk meg személyes adatait harmadik felekkel marketing vagy hirdetési célból.\n\nAdatait a következő megbízható szolgáltatások dolgozhatják fel:\n• **A Google Gemini-elemzési űrlap kitöltése (https://policies.google.com/privacy)\n• **Google OAuth**: fiókhitelesítéshez (https://policies.google.com/privacy)\n• **Supabase**: opcionális felhőalapú tároláshoz (https://supabase.com/privacy) – csak akkor, ha engedélyezi sync\n\n---\n\n**5. Az Ön jogai és ellenőrzései**\n\nJoga van:\n• **Hozzáférni** minden adathoz, amelyet az ApplyFlow tárolt Önről (a beállításoknál a Biztonsági másolat exportálása funkcióval)\n• **A Profile lapon bármikor helyesbítheti** az Ön adatait**• Az összes adatot helyileg törölheti**•_L_59_ „Minden profiladat törlése” a beállításokban\n• **A hozzájárulást** bármikor visszavonhatja a bővítmény eltávolításával\n• **A felhő szinkronizálás letiltása** a Fiók és szinkronizálás beállításai között kapcsolva ki törli, korlátozza a feldolgozást és az adatok hordozhatóságát az általános adatvédelmi rendelet értelmében.\n\n**India – DPDP Act 2023**: India 2023. évi digitális személyes adatok védelméről szóló törvényének megfelelően személyes adatokat csak az álláspályázati segítségnyújtás céljából dolgozunk fel. Bármikor visszavonhatja hozzájárulását és kérheti adatainak törlését, ha felveszi velünk a kapcsolatot.\n\n**Kalifornia – CCPA**: A kaliforniai lakosoknak joguk van tudni, hogy milyen személyes adatokat gyűjtenek, törölni, valamint lemondani az értékesítésről (nem értékesítünk). adatok).\n\n---\n\n**6. Adatmegőrzés**\n\nA helyi adatok mindaddig megmaradnak, amíg azokat manuálisan nem törli. A felhőben szinkronizált adatokat a rendszer mindaddig megőrzi, amíg Ön nem törli fiókját, vagy nem kéri a törlést. Az adatokat nem töröljük automatikusan.\n\n---\n\n**7. Biztonság**\n\n Ésszerű technikai intézkedéseket teszünk az adatok védelme érdekében:\n• Minden felhőalapú kommunikáció HTTPS/TLS titkosítást használ\n• A Supabase Row-Level Security (RLS) biztosítja, hogy a felhasználók csak a saját adataikhoz férhessenek hozzá.__NL_82_ function\n\n---\n\n**8. Gyermekek adatvédelme**\n\nApplyFlow nem 13 éven aluli felhasználók számára készült. Nem gyűjtünk tudatosan adatokat gyermekektől. Ha úgy gondolja, hogy egy gyermek személyes adatokat adott meg nekünk, kérjük, azonnal lépjen kapcsolatba velünk.\n\n---\n\n**9. A jelen szabályzat változásai**\n\nEzt az Adatvédelmi szabályzatot időről időre frissíthetjük. A jelentős változásokról a bővítmény Opciók oldalán értesítjük. A bővítmény változtatások utáni további használata a frissített szabályzat elfogadását jelenti.\n\n---\n\n**10. Lépjen kapcsolatba velünk**\n\nAz adatvédelemmel kapcsolatos kérdéseivel, adattörlési kérelmével vagy aggályaival kapcsolatban:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github. https://applyflow.in\n\nCélunk, hogy minden kérésre 30 napon belül válaszoljunk.",
+    "description": "Privacy policy document markdown text"
+  }
+}

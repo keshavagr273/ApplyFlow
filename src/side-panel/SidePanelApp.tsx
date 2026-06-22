@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useStore } from '../shared/store';
 import { Screen, TabContext } from '../shared/types';
 import { isJobPage, detectPlatformFromUrl } from '../shared/platformUtils';
+import { t } from '../shared/i18n';
 
 import Dashboard from './screens/Dashboard.tsx';
 import AIAssistant from './screens/AIAssistant.tsx';
@@ -36,11 +37,11 @@ export default function SidePanelApp() {
             userAvatar: user.picture
           });
           await syncFromCloud();
-          showToast(`Welcome back, ${user.name}!`, 'success');
+          showToast(t('welcome_back_msg', user.name), 'success');
         }
       } catch (err) {
         console.error("Failed to load user info:", err);
-        showToast("Failed to fetch Google user profile info.", 'error');
+        showToast(t('failed_fetch_profile'), 'error');
       } finally {
         setIsLoggingIn(false);
       }
@@ -51,7 +52,7 @@ export default function SidePanelApp() {
         const actualToken = (typeof token === 'string' ? token : (token as any)?.token) || '';
         if (chrome.runtime.lastError || !actualToken) {
           console.error("GCP OAuth Error:", chrome.runtime.lastError);
-          showToast(`OAuth Login Failed: ${chrome.runtime.lastError?.message || 'Empty Token'}`, 'error');
+          showToast(t('oauth_login_failed', chrome.runtime.lastError?.message || 'Empty Token'), 'error');
           setIsLoggingIn(false);
           return;
         }
@@ -68,7 +69,7 @@ export default function SidePanelApp() {
       }, async (redirectUrl) => {
         if (chrome.runtime.lastError || !redirectUrl) {
           console.error("GCP OAuth Error:", chrome.runtime.lastError);
-          showToast(`OAuth Login Failed: ${chrome.runtime.lastError?.message || 'Redirect URL empty'}`, 'error');
+          showToast(t('oauth_login_failed', chrome.runtime.lastError?.message || 'Redirect URL empty'), 'error');
           setIsLoggingIn(false);
           return;
         }
@@ -78,32 +79,32 @@ export default function SidePanelApp() {
           const params = new URLSearchParams(urlObj.hash.substring(1));
           const token = params.get('access_token');
           if (!token) {
-            showToast("Failed to fetch access token from redirect.", 'error');
+            showToast(t('failed_access_token'), 'error');
             setIsLoggingIn(false);
             return;
           }
           await performUserFetch(token);
         } catch (err: any) {
           console.error("OAuth parse error:", err);
-          showToast("Failed to parse authentication redirect.", 'error');
+          showToast(t('failed_auth_redirect'), 'error');
           setIsLoggingIn(false);
         }
       });
     } else {
-      showToast("Authentication is not supported on this platform.", 'error');
+      showToast(t('auth_not_supported'), 'error');
       setIsLoggingIn(false);
     }
   }, [updateSettings, syncFromCloud, showToast]);
 
   const handleGoogleLogout = useCallback(() => {
-    if (!confirm("Are you sure you want to sign out?")) return;
+    if (!confirm(t('sign_out_confirm'))) return;
     const performSignOut = async () => {
       await updateSettings({
         userEmail: undefined,
         userDisplayName: undefined,
         userAvatar: undefined
       });
-      showToast("Signed out successfully.", 'success');
+      showToast(t('sign_out_success'), 'success');
     };
 
     if (typeof chrome !== 'undefined' && chrome.identity && chrome.identity.clearAllCachedAuthTokens) {
@@ -394,7 +395,7 @@ export default function SidePanelApp() {
       }
       if (msg.type === 'JOB_CLIPPED') {
         loadData();
-        showToast('Job saved to tracker!', 'success');
+        showToast(t('job_saved_tracker'), 'success');
       }
       if (msg.type === 'JOB_CONTEXT_UPDATED') {
         const { url, platform, company, role, jobDescription } = msg.payload;
@@ -465,7 +466,7 @@ interface SidePanelFooterProps {
 
 function SidePanelFooter({ isLoggingIn, onLogin, onLogout }: SidePanelFooterProps) {
   const { settings } = useStore();
-  const displayName = settings?.userDisplayName || 'Guest';
+  const displayName = settings?.userDisplayName || t('guest_user');
   const avatar = settings?.userAvatar;
 
   return (
@@ -479,7 +480,7 @@ function SidePanelFooter({ isLoggingIn, onLogin, onLogout }: SidePanelFooterProp
           </div>
         )}
         <span className="truncate">
-          Logged in as <strong className="text-slate-800">{displayName}</strong>
+          {t('logged_in_as', displayName)}
         </span>
       </div>
 
@@ -489,7 +490,7 @@ function SidePanelFooter({ isLoggingIn, onLogin, onLogout }: SidePanelFooterProp
             onClick={onLogout}
             className="bg-red-600 hover:bg-red-700 text-white font-bold px-2.5 py-0.5 rounded text-[9px] transition-all flex items-center gap-1.5 shadow-sm"
           >
-            Sign Out
+            {t('sign_out_btn')}
           </button>
         ) : (
           <button
@@ -500,7 +501,7 @@ function SidePanelFooter({ isLoggingIn, onLogin, onLogout }: SidePanelFooterProp
             {isLoggingIn && (
               <span className="w-1.5 h-1.5 rounded-full border border-white/30 border-t-white animate-spin shrink-0" />
             )}
-            <span>{isLoggingIn ? 'Connecting...' : 'Sign In'}</span>
+            <span>{isLoggingIn ? t('connecting_btn') : t('sign_in_btn')}</span>
           </button>
         )}
       </div>

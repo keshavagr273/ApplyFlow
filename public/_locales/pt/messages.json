@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: Preenchimento automático de tarefas de IA e rastreador de aplicativos",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Preencha automaticamente formulários de emprego e rastreie listas automaticamente usando IA no LinkedIn, Workday, Greenhouse e muito mais.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "AplicarFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Ativo",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Aplicado",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Entrevista",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Oferta",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Salvo",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Total",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Preenchimento automático",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Enchimento...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Preenchimento automático rápido",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analisar Trabalho",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Abrir barra lateral",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Configurações",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Faça login no Google primeiro para usar o Preenchimento automático rápido!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Por favor, configure seu perfil primeiro na página Painel Lateral/Opções!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Detectado",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Nenhuma página de trabalho detectada",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Visite uma lista de empregos para desbloquear recursos de IA",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Bom dia",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Boa tarde",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Boa noite",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ inscrições rastreadas · $2$ entrevistas",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Comece a se inscrever para acompanhar seu progresso",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Carta de apresentação",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Ajuda com perguntas e respostas",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Pronto para ajudar",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navegue até uma lista de empregos no LinkedIn, Workday, Greenhouse ou qualquer quadro de empregos para começar.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Esta semana",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Atividade recente",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Ver tudo →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Comece sua busca por emprego!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Visite um quadro de empregos e use o ApplyFlow para preencher e rastrear automaticamente suas inscrições.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Meu perfil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Salvando...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Salvar tudo",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Perfil salvo!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Falha ao salvar o perfil.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Currículo",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Fazer upload para perfil de preenchimento automático",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Carregado",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Informações pessoais",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Incompleto",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Localização",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Educação",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Habilidades",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Experiência Profissional",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projetos",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Preferências de trabalho",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Autorização de Trabalho",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Retomar histórico",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Use isto",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Analisado em $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Carregar detalhes do perfil de \"$1$\"? Isso substituirá suas edições atuais pela estrutura analisada deste currículo.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Detalhes restaurados de $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Pontuação da partida",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Ajuste",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ mais",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplicativo preenchido automaticamente e registrado! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Preenchido automaticamente via painel lateral ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "lá",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Sem conjunto de faculdade",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Configure seu perfil para ativar o preenchimento automático",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Não definido",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ entradas",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ habilidades",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projetos",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ respostas",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Autorizado",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Não autorizado",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Nome Completo",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefone",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Telefone alternativo",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL do LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL do portfólio",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL do GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Link de currículo",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Cidade",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Estado",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "País",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Código Postal",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Endereço",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nacionalidade",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Faculdade / Universidade",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Grau",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Ano de formatura",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Nota",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12º%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Período de aviso",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Salário Esperado",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Função preferida",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Anos de experiência",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Autorizado a trabalhar sem patrocínio de visto",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Requer patrocínio de visto",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Gênero",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Deficiência",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Prefiro não dizer",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Não especificado",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Masculino",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Feminino",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Não binário",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Sim",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Não",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Nenhuma habilidade adicionada ainda",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Adicionar habilidade (digite para adicionar)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Frase de gatilho (por exemplo, por que devemos contratá-lo)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Sua resposta...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Remover",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Adicionar resposta personalizada",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Empresa",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Função/Título",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Data de início",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Data de término",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Presente",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Atualmente estou trabalhando nesta função",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Descrição",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Descreva suas responsabilidades, principais conquistas, tecnologias utilizadas...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Adicionar experiência de trabalho",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Título do projeto",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Pilha de tecnologia",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL de implantação",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Descreva o que você construiu, qual problema foi resolvido e os principais recursos...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Adicionar projeto",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Rastreador",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Salvo",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Aplicado",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Avaliação",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Entrevista",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Oferta",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Rejeitado",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Retirado",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Excluir este aplicativo?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplicativo atualizado!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplicativo excluído.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Estado",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Plataforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Aplicado",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Publicação de emprego aberta",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Salário / Estipêndio",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Lembrete de acompanhamento",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Notas",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Adicione notas, informações de contato, detalhes da entrevista...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Descrição do trabalho (trecho)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Excluir",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Cancelar",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Salvar",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplicação",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplicativos",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtrar por empresa...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Filtros de status",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Role para a direita para mais →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Todos",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Nenhum aplicativo encontrado",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Tente redefinir os filtros ou salve um trabalho para adicionar uma nova entrada no rastreador",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Análise",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ total de aplicações",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Ainda não há dados",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Comece a se candidatar a empregos e suas análises aparecerão aqui.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Taxas de conversão",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Aplicado",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Taxa de entrevista",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Taxa de oferta",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Inscrições esta semana",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Funil de aplicativos",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Principais plataformas",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Detalhamento de status",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "Copiloto de IA",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Contexto: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Seu copiloto de carreira",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Novo bate-papo ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Configure seu perfil primeiro para que a IA possa personalizar as respostas.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Bate-papo limpo! Em que posso ajudá-lo?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Pergunte qualquer coisa sobre esse trabalho...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Configure seu perfil para começar",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Pressione Enter para enviar",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Retomar pontuação de compatibilidade",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Fortes habilidades",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Habilidades ausentes",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Aqui está sua carta de apresentação personalizada:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Copiado!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Copiar",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Baixar",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Aqui estão $1$ prováveis perguntas da entrevista:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Pontuação de otimização de currículo: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Retomar sugestões de correspondência",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "versus esta descrição de trabalho",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Algo deu errado. Por favor, tente novamente.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Oi! Posso ver que você está olhando para uma função **$1$** em **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Oi! Posso ver que você está olhando para uma função **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Oi! Sou seu copiloto de carreira em IA. Navegue até uma lista de empregos e eu a analisarei automaticamente ou pergunte qualquer coisa!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Configure seu perfil primeiro na guia Perfil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Abra primeiro uma página de listagem de empregos em seu navegador para usar esse recurso!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Desbloquear ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Faça login no Google para acessar seu painel, sincronizar vagas, gerenciar seu perfil de currículo e preencher automaticamente formulários de emprego instantaneamente.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "Preenchimento automático e Clipper AI",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Digitalize e preencha automaticamente aplicativos com um clique.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Sincronização e backup na nuvem",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Sincronize todos os detalhes de rastreamento de seu trabalho com o Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Currículo e Perfis",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Carregue seu currículo e personalize as respostas do aplicativo.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Conectando ao Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Faça login com o Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Ao fazer login, você concorda em sincronizar os dados do seu perfil com segurança com seu espaço de trabalho ativo.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Tem certeza de que deseja sair?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Desconectado com sucesso.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Conectado como $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Sair",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Entrar",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Conectando...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Abra ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Correspondência ApplyFlow",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Fortes habilidades de correspondência",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Habilidades ausentes",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Página de preenchimento automático inteligente",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Formulário de preenchimento automático...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Nenhum campo de inscrição preenchível encontrado na página.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Preenchido com sucesso!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "O preenchimento automático falhou devido à complexidade da página.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Salva automaticamente no rastreador de registro após o preenchimento.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Seu currículo é **$1$% compatível** com esta função.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Bem vindo de volta, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Falha ao buscar informações do perfil de usuário do Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Falha no login do OAuth: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Falha ao buscar o token de acesso do redirecionamento.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Falha ao analisar o redirecionamento de autenticação.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "A autenticação não é suportada nesta plataforma.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Trabalho salvo no rastreador!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Convidado",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Configurações Gerais",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Mostrar nas páginas de empregos do LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Mostra uma pontuação de correspondência inteligente e um botão de preenchimento automático com um clique quando você visualiza ofertas de emprego no LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Mostrar botão 'Salvar trabalho'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Mostra um botão flutuante 'Salvar vaga 📌' nos locais de trabalho para que você possa salvar rapidamente os detalhes da vaga em seu rastreador antes de se inscrever.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Somente faça login depois de realmente aplicar",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Espere até ver a tela 'Obrigado' ou 'Sucesso' antes de adicionar o trabalho ao seu rastreador. Mantém seu rastreador organizado, evitando que formulários preenchidos pela metade sejam salvos como 'Aplicado'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Créditos de IA e análise de uso",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Créditos restantes",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Créditos restantes",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Total de créditos",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Preenchimentos automáticos constantes",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Status do plano",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Prêmio 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Grátis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Dica profissional:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "As operações de preenchimento automático inteligente consomem 0 créditos e são 100% ilimitadas! Apenas recursos avançados de IA, como cartas de apresentação (5 créditos) e redações personalizadas (3 créditos), consomem seu saldo de créditos.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Conta do Google e sincronização na nuvem",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Sincronização do Google Cloud ativa",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Sincronização na nuvem bloqueada (somente Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Sincronização na nuvem",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Envie para a nuvem",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Extrair da nuvem",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sincronização bem-sucedida!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Falha na sincronização. Verifique sua conexão.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Sincronização segura na nuvem",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Faça login no Google para fazer backup de seus aplicativos e perfil no Supabase. A sincronização é um recurso Premium que mantém seus registros seguros em todos os dispositivos.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync é um recurso premium. Atualize na guia Atualizar para ativar a sincronização!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Gerenciamento de dados",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Exportar backup (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Limpar todos os dados locais",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "A limpeza dos dados locais remove seu perfil e aplicativos apenas deste dispositivo. Os dados da nuvem não são afetados.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Centro de Controle",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Página inicial e sobre",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Configurações Gerais",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Atualize para o Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Plano Premium 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Conta e sincronização",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Política de Privacidade",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Perguntas frequentes",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Atalhos de teclado",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Bem-vindo ao ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow é uma extensão do Chrome com tecnologia de IA desenvolvida para estudantes e candidatos a emprego que desejam se inscrever de maneira mais rápida e inteligente. Ele detecta e preenche automaticamente formulários de candidatura em mais de 15 plataformas, rastreia seu pipeline e ajuda você a conseguir mais entrevistas.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Preenchimento automático inteligente",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Mais de 15 plataformas ATS com seletores precisos",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Clipper da Web",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Com um clique, salve qualquer lista de empregos",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Rastreador Kanban",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Arraste e solte o pipeline do seu aplicativo",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Preenchimento automático EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Preenche automaticamente perguntas demográficas e de visto",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Ensaios de IA",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Escrita de respostas personalizadas com tecnologia Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Sincronização segura",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Backup opcional em nuvem Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Como começar",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Construa seu perfil",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Abra o pop-up → guia Perfil → carregue seu currículo em PDF. A IA extrairá automaticamente todos os seus detalhes, incluindo habilidades, experiência, educação e projetos.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Definir preferências de EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Vá até a seção EEO em seu perfil e defina sua autorização de trabalho, necessidades de patrocínio de visto e preferências demográficas. Eles são usados ​​para preencher automaticamente questionários EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Procure uma lista de empregos",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navegue para qualquer lista de empregos. Você verá um botão 📌 \"Salvar trabalho\" aparecer. Clique nele para salvar instantaneamente a posição em seu rastreador.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Abra um formulário de inscrição",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navegue até o formulário de inscrição. Clique no pop-up ApplyFlow → clique em \"Scan Page\" → depois em \"⚡ Smart Autofill\". Todos os campos, incluindo botões de opção e menus suspensos, são preenchidos instantaneamente.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Rastreie seu pipeline",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Abra a guia Rastreador para ver todos os seus aplicativos. Mude para a visualização do quadro Kanban e arraste os cartões entre as colunas conforme seu status é atualizado.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Login obrigatório",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Faça login para personalizar as configurações",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "As configurações gerais estão disponíveis apenas para usuários conectados. Faça login no Google para configurar suas preferências, comportamentos de preenchimento automático e muito mais.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Vá para Conta e sincronização",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro ativo",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Chave de licença: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Desativar licença",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Ativação da chave de licença",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Se você comprou uma assinatura ou recebeu um código de acesso, insira sua chave de licença abaixo para desbloquear o ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Ativar",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Ativando...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Dica: Você pode ativar o Premium usando a chave APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Prémio ativado!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Obrigado por apoiar o ApplyFlow. Todos os recursos premium agora estão desbloqueados.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Plano de atualização premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Desbloqueie suas exportações de carreira e recursos avançados de IA.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Obtenha créditos premium de IA para cartas de apresentação, respostas de dissertações personalizadas, otimização de currículos e preparação para entrevistas simuladas. As operações de preenchimento automático em plataformas suportadas são totalmente ilimitadas e gratuitas para todos os usuários premium!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Oferta para primeiros usuários:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Próximo aumento de preço para 500 usuários Premium. Garanta essa taxa para o resto da vida!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Profissional Mensal",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Bom para pesquisa de curto prazo",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "$$ 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/mês",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Apenas $$ 13 / dia)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 créditos de IA por mês|||Preenchimentos automáticos ilimitados (todos os portais)|||Sincronização na nuvem e backup do Google|||Temas premium|||Experiência sem anúncios",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Assine Mensalmente",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Trimestralmente Profissional",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Melhor valor para a maioria dos candidatos a emprego",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "$$ 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 meses",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Apenas ₹ 11/dia)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 créditos de IA por trimestre|||Preenchimentos automáticos ilimitados (todos os portais)|||Cartas de apresentação e ensaios personalizados|||Sincronização na nuvem e backup do Google|||Sugestões de currículo",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Assine trimestralmente",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Mais populares",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Final Anual",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Melhor valor para usuários avançados",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "$$ 2.999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ ano",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(equivalente a $$ 249/mês)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 créditos de IA por ano|||Preenchimentos automáticos diários ilimitados|||Cartas de apresentação e ensaios personalizados|||Sincronização na nuvem e backup do Google|||Sugestões de correspondência de currículo|||Suporte prioritário por e-mail",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Assine anualmente",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Melhor valor – economize 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Apoie o desenvolvimento do ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow é construído e mantido por desenvolvedores independentes. Se você achar a extensão útil, considere fazer uma doação no Ko-fi para ajudar a mantê-lo ativo, livre de anúncios e atualizado para novos quadros de empregos.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Compre-me um café no Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ Classificação 5,0|||🔒 Pagamentos Seguros|||✓ Cancele a qualquer momento",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Chave de licença inválida. Dica: tente usar a chave de demonstração 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licença ativada com sucesso! Bem-vindo ao ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Tem certeza de que deseja desativar sua licença premium? Isso o levará de volta ao Plano Gratuito.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Licença Premium desativada. Agora você está no Plano Gratuito.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Isso excluirá permanentemente TODOS os dados locais do perfil e do aplicativo. Tem certeza?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Política de Privacidade",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Perguntas frequentes",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "O que é ApplyFlow e como funciona?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow é uma extensão do Chrome com tecnologia de IA que detecta e preenche automaticamente formulários de candidatura de emprego em mais de 15 plataformas, incluindo LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever e muito mais. Ele lê seu perfil salvo e usa correspondência inteligente para preencher campos de texto, menus suspensos, botões de opção e caixas de seleção – incluindo questões demográficas/EEO.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Meus dados pessoais estão seguros com ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Sim. Seus dados são armazenados localmente no chrome.storage.local do seu navegador por padrão. Ele nunca é enviado para nenhum servidor de terceiros que não seja seu próprio banco de dados Supabase opcional (que você controla). ApplyFlow nunca vende, compartilha ou monetiza suas informações pessoais.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Quais plataformas de trabalho o ApplyFlow suporta?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow oferece suporte a mais de 15 plataformas prontas para uso: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Even, Wellfound/AngelList e qualquer outro site por meio de nosso correspondente substituto genérico inteligente.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "O que é o Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "O Web Clipper é um botão flutuante \"Salvar vaga\" (📌) que aparece automaticamente quando você visita qualquer página de anúncio de emprego. Clicar nele extrai o cargo, a empresa, o salário e a descrição e, em seguida, salva-os em seu rastreador ApplyFlow como um aplicativo \"Salvo\" - para que você possa acompanhar os empregos antes de se inscrever.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Como faço para atualizar meu perfil?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Abra o pop-up ApplyFlow, clique na guia \"Perfil\" e carregue o PDF do seu currículo. A IA preencherá automaticamente todos os seus campos. Você também pode editar manualmente qualquer campo, incluindo suas preferências de EEO, autorização de trabalho e cartas de apresentação.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "O que são campos EEO e por que preciso deles?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Os campos EEO (Oportunidades Iguais de Emprego) são perguntas que muitos empregadores dos EUA e do mundo fazem sobre gênero, status de deficiência, status de veterano e autorização de trabalho. ApplyFlow armazena suas respostas preferidas e preenche automaticamente esses grupos de botões de opção para que você não precise respondê-las manualmente todas as vezes.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "O ApplyFlow requer alguma chave de API ou configuração?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Não! ApplyFlow lida com toda a detecção de formulários, correspondência inteligente, geração de cartas de apresentação e pontuação de compatibilidade automaticamente. Você não precisa obter ou configurar nenhuma chave de API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "O que é sincronização Supabase e eu preciso disso?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "A sincronização Supabase é um recurso opcional de backup na nuvem. Quando você faz login no Google e o ativa, seu perfil e rastreador de aplicativos são sincronizados com um banco de dados em nuvem privada para que seus dados sejam salvos em backup e acessíveis em vários dispositivos. Isso é totalmente opcional – a extensão funciona totalmente offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Por que o ApplyFlow precisa de acesso a todos os sites?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow solicita acesso a todos os sites para que possa injetar o mecanismo de preenchimento automático em qualquer formulário de candidatura de emprego e mostrar o botão de recorte \"Salvar trabalho\" em qualquer lista de empregos. Essa permissão é necessária para suporte amplo à plataforma. Injetamos scripts apenas em páginas claramente relacionadas ao trabalho.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "O que é o Quadro Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "O Quadro Kanban é uma visualização visual de rastreamento de tarefas na guia Rastreador. Mostra suas inscrições organizadas em colunas: Salvas → Aplicadas → Avaliação → Entrevista → Oferta. Você pode arrastar e soltar cartões entre colunas para atualizar o status de qualquer aplicativo.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Como funciona a detecção de envios?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Quando você ativa \"Registrar somente após o envio\" nas configurações, o ApplyFlow observa alterações na página que indicam um envio bem-sucedido (como um URL contendo \"/sucesso\" ou o texto do corpo dizendo \"Obrigado por se inscrever\"). Ele só registra o aplicativo no seu rastreador depois de detectar um envio real.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Posso armazenar várias cartas de apresentação?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Sim! A tela Perfil possui uma seção \"Cofre de cartas de apresentação\", onde você pode armazenar cartas de apresentação ilimitadas, adaptadas a diferentes funções ou empresas. Ao preencher automaticamente, o ApplyFlow usará sua carta de apresentação mais recente ou mais relevante.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Como exporto os dados do meu aplicativo?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Vá para Conta e sincronização → role até o final → clique em “Exportar backup (JSON)”. Isso baixa todos os seus dados de perfil e aplicativo como um arquivo JSON para proteção.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "O ApplyFlow funciona no modo de demonstração?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "O Modo Demo era uma configuração legada usada para testes. Agora está desabilitado por padrão. Todos os recursos estão ativos e funcionais com a chave API Gemini integrada.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Como faço para relatar um bug ou solicitar um recurso?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Abra um problema em nosso repositório GitHub (link na seção Sobre) ou envie um email para support@applyflow.in. Normalmente respondemos dentro de 48 horas.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Abra o pop-up ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Digitalize a página atual em busca de campos de formulário",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Acione o preenchimento automático inteligente na página atual",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Recorte a lista de empregos atual no rastreador",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Abra o Tracker em uma nova guia",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Configure atalhos no Chrome em",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Nota:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Os comandos de extensão do Chrome exigem atribuição manual no gerenciador de atalhos do Chrome. Vá para $1$ para vincular as chaves listadas acima.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Extensão ApplyFlow do Chrome — Política de privacidade**\nÚltima atualização: junho de 2026\n\n---\n\n**1. Introdução**\n\nApplyFlow (\"nós\", \"nosso\", \"a extensão\") é uma extensão do navegador Chrome que ajuda os usuários a preencher automaticamente formulários de candidatura a empregos, rastrear suas inscrições e gerenciar seu perfil profissional. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações.\n\nAo instalar e usar o ApplyFlow, você concorda com as práticas descritas nesta política.\n\n---\n\n**2. Dados que coletamos**\n\nColetamos apenas as informações que você fornece voluntariamente para ativar os recursos da extensão:\n\n• **Informações de perfil**: seu nome, e-mail, número de telefone, faculdade, diploma, habilidades, histórico de trabalho, projetos e links profissionais (LinkedIn, GitHub, portfólio).\n• **EEO/informações demográficas (opcional)**: gênero, status de deficiência, veterano status e preferências de autorização de trabalho — fornecidos somente se você optar por preencher esses campos. Esses dados são usados exclusivamente para preencher automaticamente questionários EEO opcionais em formulários de emprego.\n• **Dados de rastreamento de aplicativos**: cargo, empresa, URL do aplicativo, status e notas para cargos que você monitora usando a extensão.\n• **Estatísticas de uso**: número de operações de preenchimento automático realizadas (armazenadas localmente para impor limites diários).\n• **Dados de autenticação**: se você optar por fazer login no Google, armazenaremos sua exibição do Google nome, endereço de e-mail e URL da foto do perfil para personalizar sua experiência e ativar a sincronização na nuvem.\n\nNós **não** coletamos:\n• Informações financeiras ou de pagamento\n• Histórico do navegador ou atividade geral de navegação\n• Qualquer informação de páginas que não sejam relacionadas a candidaturas de emprego\n• Quaisquer dados de páginas quando a extensão não está ativa acionado\n\n---\n\n**3. Como armazenamos seus dados**\n\n**3.1 Armazenamento local (padrão)**\nTodos os dados são armazenados principalmente na API chrome.storage.local do seu navegador. Esses dados residem apenas no seu dispositivo e nunca são transmitidos para qualquer servidor sem sua ação explícita.\n\n**3.2 Sincronização na nuvem (opcional)**\nSe você optar por fazer login no Google e ativar o recurso \"Supabase Sync\", seu perfil e dados do aplicativo também serão sincronizados com um banco de dados Supabase. Você mantém total propriedade desses dados. Você pode excluí-lo a qualquer momento na seção Conta e sincronização.\n\n**3.3 Solicitações do Gemini AI**\nQuando recursos de IA são usados ​​(por exemplo, geração de ensaios, análise de cargos), partes do seu perfil (habilidades, diploma, resumo) e o texto da descrição do cargo são enviados à API Gemini do Google para gerar a resposta. Isso é processado de acordo com os Termos de Serviço e a Política de Privacidade da API padrão do Google. Recomendamos não incluir identificadores pessoais confidenciais em seu conteúdo assistido por IA.\n\n---\n\n**4. Compartilhamento de dados**\n\nNós **não** vendemos, trocamos, alugamos ou compartilhamos suas informações pessoais com terceiros para fins de marketing ou publicidade.\n\nSeus dados podem ser processados pelos seguintes serviços confiáveis:\n• **Google Gemini API**: para preenchimento e análise de formulários com tecnologia de IA (https://policies.google.com/privacy)\n• **Google OAuth**: para autenticação de conta (https://policies.google.com/privacy)\n• **Supabase**: para armazenamento em nuvem opcional (https://supabase.com/privacy) — somente se você ativar a sincronização\n\n---\n\n**5. Seus direitos e controles**\n\nVocê tem o direito de:\n• **Acessar** todos os dados que o ApplyFlow armazenou sobre você (por meio do backup de exportação nas configurações)\n• **Corrigir** suas informações a qualquer momento na guia Perfil\n• **Excluir** todos os seus dados localmente usando \"Limpar todos os dados do perfil\" nas configurações\n• **Retirar o consentimento** a qualquer momento vez, desinstalando a extensão\n• **Desative a sincronização na nuvem** desativando-a nas configurações de conta e sincronização\n\n**GDPR (usuários da UE)**: se você é residente na UE, você tem o direito de acessar, retificar, apagar, restringir o processamento e portabilidade de dados de acordo com o Regulamento Geral de Proteção de Dados.\n\n**Índia — Lei DPDP 2023**: Em conformidade com a Lei de Proteção de Dados Pessoais Digitais de 2023 da Índia, processamos dados pessoais apenas com a finalidade de fornecer o serviço de assistência à candidatura de emprego. Você pode retirar o consentimento e solicitar a exclusão de seus dados a qualquer momento entrando em contato conosco.\n\n**Califórnia — CCPA**: Os residentes da Califórnia têm o direito de saber quais informações pessoais são coletadas, o direito de exclusão e o direito de cancelar a venda (não vendemos dados).\n\n---\n\n**6. Retenção de dados**\n\nOs dados locais são retidos até que você os limpe manualmente. Os dados sincronizados na nuvem são retidos até que você exclua sua conta ou solicite a exclusão. Não excluímos dados automaticamente.\n\n---\n\n**7. Segurança**\n\nTomamos medidas técnicas razoáveis para proteger seus dados:\n• Todas as comunicações em nuvem usam criptografia HTTPS/TLS\n• Supabase Row-Level Security (RLS) garante que os usuários possam acessar apenas seus próprios dados\n• A extensão não solicita permissões além do que é necessário para seu núcleo função\n\n---\n\n**8. Privacidade infantil**\n\nApplyFlow não se destina a usuários menores de 13 anos. Não coletamos dados de crianças intencionalmente. Se você acredita que uma criança nos forneceu informações pessoais, entre em contato conosco imediatamente.\n\n---\n\n**9. Alterações nesta Política**\n\nPodemos atualizar esta Política de Privacidade de tempos em tempos. Mudanças significativas serão comunicadas através da página Opções da extensão. O uso continuado da extensão após as alterações constitui aceitação da política atualizada.\n\n---\n\n**10. Entre em contato conosco**\n\nPara quaisquer dúvidas relacionadas à privacidade, solicitações de exclusão de dados ou preocupações:\n\nE-mail: privacidade@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nNosso objetivo é responder a todas as solicitações dentro de 30 dias.",
+    "description": "Privacy policy document markdown text"
+  }
+}

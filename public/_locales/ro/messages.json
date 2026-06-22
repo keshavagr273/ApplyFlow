@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Completați automat cererile de locuri de muncă și urmăriți automat listele folosind AI pe LinkedIn, Workday, Greenhouse și multe altele.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Activ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Aplicat",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Interviu",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Oferta",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Salvat",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Total",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Completare automată",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Umplerea...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Completare automată rapidă",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analizează Job",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Deschideți Bara laterală",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Setări",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Conectați-vă mai întâi cu Google pentru a utiliza completarea automată rapidă!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Vă rugăm să vă configurați mai întâi profilul în Panoul lateral/pagina Opțiuni!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Detectat",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Nu a fost detectată nicio pagină de job",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Vizitați o listă de locuri de muncă pentru a debloca funcțiile AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Bună dimineața",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Bună seara",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Bună seara",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ aplicații urmărite · $2$ interviuri",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Începeți să aplicați pentru a vă urmări progresul",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Scrisoare de intentie",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Întrebări și răspunsuri Ajutor",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Gata de ajutor",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navigați la o listă de locuri de muncă pe LinkedIn, Workday, Greenhouse sau orice panou de locuri de muncă pentru a începe.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Săptămâna aceasta",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Activitate recentă",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Vezi toate →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Începe-ți căutarea de locuri de muncă!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Vizitați un panou de locuri de muncă și utilizați ApplyFlow pentru a completa automat și a urmări automat aplicațiile.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profilul meu",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Se salvează...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Salvați tot",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil salvat!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Nu s-a salvat profilul.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Reluați",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Încărcați în profilul de completare automată",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Încărcat",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Informații personale",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Incomplet",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Locație",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Educație",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Abilități",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Experiență de muncă",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Proiecte",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Preferințe de lucru",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Autorizație de lucru",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Reluați istoricul",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Folosește asta",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Analizat pe $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Încărcați detaliile profilului de la „$1$”? Aceasta va înlocui editările dvs. curente cu structura analizată a acestui CV.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Detalii restaurate de la $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Scorul meciului",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ mai mult",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplicație completată automat și înregistrată! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Completat automat prin panoul lateral ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "acolo",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Nici un set de facultate",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Configurați-vă profilul pentru a activa completarea automată",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Nu setat",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ intrări",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ aptitudini",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ proiecte",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ răspunde",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Autorizat",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Neautorizat",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Nume complet",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Telefon alternativ",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Adresa URL a portofoliului",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "Adresa URL GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Link pentru reluare",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Orașul",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "de stat",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Țara",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Cod poștal",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adresa",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Naţionalitate",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Facultate / Universitate",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "grad",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Anul de absolvire",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Grad",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "al 10-lea %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "al 12-lea %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Perioada de preaviz",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Salariu asteptat",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Rol preferat",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Ani de experiență",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Autorizat să lucreze fără sponsorizare de viză",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Necesită sponsorizare pentru viză",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Gen",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Invaliditate",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Prefer să nu spun",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Nu este specificat",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Bărbat",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Femeie",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Non-binar",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Da",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nu",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Nu s-au adăugat încă abilități",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Adăugați abilitate (Intrați pentru a adăuga)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Expresie declanșatoare (de exemplu, De ce ar trebui să te angajăm)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Raspunsul tau...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Eliminați",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Adăugați un răspuns personalizat",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Compania",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rol / Titlu",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Data de începere",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Data de încheiere",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Prezent",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "În prezent lucrez în acest rol",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Descriere",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Descrieți-vă responsabilitățile, realizările cheie, tehnologiile utilizate...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Adăugați experiență de lucru",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Titlul proiectului",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Stack de tehnologie",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Adresa URL de implementare",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Descrieți ce ați construit, ce problemă a rezolvat și caracteristicile cheie...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Adăugați proiect",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Salvat",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Aplicat",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Evaluare",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Interviu",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Oferta",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Respins",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Retras",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Ștergeți această aplicație?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplicație actualizată!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplicația a fost ștearsă.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Stare",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platformă",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Aplicat",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Deschideți Postarea de locuri de muncă",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Salariu / Stipendiu",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Memento de urmărire",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Note",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Adăugați note, informații de contact, detalii interviu...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Descrierea postului (fragment)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Ștergeți",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Anulează",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Salvați",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 cerere",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplicații",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtrați după companie...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Filtre de stare",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Derulați la dreapta pentru mai multe →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Toate",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Nu s-au găsit aplicații",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Încercați să resetați filtrele sau să salvați o lucrare pentru a adăuga o nouă intrare de urmărire",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ aplicații totale",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Nu există date încă",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Începeți să aplicați la locuri de muncă și datele dvs. de analiză vor apărea aici.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Rate de conversie",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Aplicat",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Rata interviului",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tarif de oferta",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Aplicații în această săptămână",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Pâlnie de aplicare",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Platforme de top",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Defalcare de stare",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "Copilotul AI",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Context: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Copilotul tău de carieră",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Chat nou ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Vă rugăm să vă configurați mai întâi profilul, astfel încât AI să poată personaliza răspunsurile.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat șters! Cu ce ​​te pot ajuta?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Întreabă orice despre acest job...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Configurați-vă profilul pentru a începe",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Apăsați Enter pentru a trimite",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Reluați scorul de compatibilitate",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Abilități puternice",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Abilități lipsă",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Iată scrisoarea ta de intenție personalizată:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Copiat!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Copie",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Descărcați",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Iată $1$ întrebări probabile de interviu:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Reluați scorul de optimizare: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Reluați sugestiile de potrivire",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "față de această descriere a postului",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Ceva a mers prost. Vă rugăm să încercați din nou.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hi! Văd că te uiți la un rol **$1$** la **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hi! Văd că te uiți la un rol **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hi! Sunt copilotul tău de carieră AI. Navigați la o listă de locuri de muncă și o voi analiza automat sau mă întreb orice!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Vă rugăm să vă configurați mai întâi profilul în fila Profil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Vă rugăm să deschideți mai întâi o pagină cu lista de locuri de muncă în browser pentru a utiliza această funcție!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Deblocați ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Conectați-vă la Google pentru a vă accesa tabloul de bord, pentru a sincroniza joburi, pentru a vă gestiona profilul CV-ului și pentru a completa automat cererile de locuri de muncă instantaneu.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "Completare automată AI și Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Scanați și completați automat aplicațiile cu un singur clic.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Sincronizați toate detaliile de urmărire a locurilor de muncă cu Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV și profiluri",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Încărcați CV-ul și personalizați răspunsurile aplicației.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Se conectează la Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Conectați-vă cu Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Conectându-vă, sunteți de acord să vă sincronizați datele profilului în siguranță cu spațiul dvs. de lucru activ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Sigur doriți să vă deconectați?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "S-a deconectat cu succes.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Conectat ca $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Deconectați-vă",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Conectați-vă",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Se conectează...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Deschideți ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Abilități puternice de potrivire",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Abilități lipsă",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Pagina de completare automată inteligentă",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Completarea automată a formularului...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Nu s-au găsit câmpuri de cerere completabile pe pagină.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Completat cu succes!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Completarea automată a eșuat din cauza complexității paginii.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Salvat automat în trackerul de jurnal la completare.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "CV-ul tău este **$1$% compatibil** cu acest rol.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Bine ai revenit, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Nu s-au putut prelua informațiile despre profilul de utilizator Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Conectare OAuth a eșuat: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Nu s-a putut prelua indicativul de acces din redirecționare.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Nu s-a putut analiza redirecționarea de autentificare.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Autentificarea nu este acceptată pe această platformă.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Job salvat în tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Oaspete",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Setări generale",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Afișați pe paginile de locuri de muncă LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Afișează un scor de potrivire inteligentă și un buton de completare automată cu un singur clic atunci când vizualizați postările de locuri de muncă pe LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Afișați butonul „Salvare lucrare”.",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Afișează un buton plutitor „Salvează job 📌” pe site-urile de locuri de muncă, astfel încât să poți salva rapid detaliile jobului în tracker înainte de a aplica.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Înregistrați-vă numai după ce ați aplicat efectiv",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Așteptați până când vedeți ecranul „Mulțumesc” sau „Succes” înainte de a adăuga jobul la tracker. Vă păstrează monitorul îngrijit, împiedicând salvarea formularelor pe jumătate completate ca „Aplicat”.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Credite AI și analize de utilizare",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Credite rămase",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Credite rămase",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Total credite",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Completare automată permanentă",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Starea planului",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratuit 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Sfat pro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Operațiunile de completare automată inteligentă consumă 0 credite și sunt 100% nelimitate! Numai funcțiile avansate AI, cum ar fi Scrisori de intenție (5 credite) și Eseuri personalizate (3 credite) vă consumă soldul creditului.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Cont Google și Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync activ",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Sincronizare în cloud blocată (numai Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Sincronizare în cloud",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Push to Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Trage din Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sincronizare reușită!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sincronizarea a eșuat. Verificați-vă conexiunea.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Sincronizare cloud securizată",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Conectați-vă cu Google pentru a vă copia de rezervă aplicațiile și profilul dvs. în Supabase. Sincronizarea este o caracteristică Premium care vă păstrează jurnalele în siguranță pe toate dispozitivele.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync este o caracteristică premium. Vă rugăm să faceți upgrade în fila Upgrade pentru a activa sincronizarea!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Gestionarea datelor",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Exportați backup (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Ștergeți toate datele locale",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Ștergerea datelor locale elimină profilul și aplicațiile dvs. numai de pe acest dispozitiv. Datele din cloud nu sunt afectate.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Centru de control",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Acasă și Despre",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Setări generale",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Faceți upgrade la Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Plan Premium 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Cont și sincronizare",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Politica de confidențialitate",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Întrebări frecvente",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Comenzi rapide de la tastatură",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Bun venit la ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow este o extensie Chrome bazată pe inteligență artificială, creată pentru studenții și persoanele în căutarea unui loc de muncă care doresc să aplice mai rapid și mai inteligent. Detectează și completează automat formularele de cerere de angajare pe peste 15 platforme, vă urmărește pipeline și vă ajută să obțineți mai multe interviuri.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Completare automată inteligentă",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Peste 15 platforme ATS cu selectoare precise",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Salvați cu un singur clic orice listă de locuri de muncă",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Tracker Kanban",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Trageți și plasați canalul de aplicații",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Completare automată EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Completează automat întrebările demografice și privind vize",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Eseuri AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Scriere personalizată a răspunsurilor bazată pe Gemeni",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Sincronizare sigură",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Backup opțional în cloud Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Cum să începi",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Construiește-ți profilul",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Deschideți fereastra pop-up → fila Profil → încărcați CV-ul PDF. AI vă va extrage automat toate detaliile, inclusiv abilitățile, experiența, educația și proiectele.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Setați preferințele EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Derulați la secțiunea EEO din Profil și setați-vă autorizația de muncă, nevoile de sponsorizare a vizelor și preferințele demografice. Acestea sunt folosite pentru completarea automată a chestionarelor EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Răsfoiți o listă de locuri de muncă",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigați la orice listă de locuri de muncă. Veți vedea un buton 📌 „Salvați job”. Faceți clic pe acesta pentru a salva instantaneu poziția în tracker.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Deschideți un formular de cerere",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navigați la formularul de cerere. Faceți clic pe fereastra pop-up ApplyFlow → apăsați „Scanați pagina” → apoi „⚡ Completare automată inteligentă”. Toate câmpurile, inclusiv butoanele radio și meniurile derulante, sunt completate instantaneu.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Urmăriți conducta dvs",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Deschideți fila Tracker pentru a vedea toate aplicațiile dvs. Comutați la vizualizarea Kanban Board și trageți cardurile între coloane pe măsură ce starea dvs. se actualizează.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Conectarea este necesară",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Conectați-vă pentru a personaliza setările",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Setările generale sunt disponibile numai pentru utilizatorii conectați. Conectați-vă cu Google pentru a vă configura preferințele, comportamentele de completare automată și multe altele.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Accesați Cont și sincronizare",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Cheie de licență: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Dezactivați licența",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Activarea cheii de licență",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Dacă ați achiziționat un abonament sau ați primit un cod de acces, introduceți cheia de licență mai jos pentru a debloca ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Activați",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Se activează...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Sfat: Puteți activa Premium folosind tasta APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium activat!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Vă mulțumim pentru susținerea ApplyFlow. Toate funcțiile premium sunt acum deblocate.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Plan de upgrade Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Deblocați-vă exporturile de carieră și funcțiile AI avansate.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Obțineți credite AI premium pentru scrisorile de intenție, răspunsuri personalizate la eseuri, optimizarea CV-ului și pregătirea pentru interviuri simulate. Operațiunile de completare automată pe platformele acceptate sunt complet nelimitate și gratuite pentru toți utilizatorii premium!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Oferta Early Adopter:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Următoarea creștere de preț la 500 de utilizatori Premium. Blocați acest tarif pe viață!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Pro lunar",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Bun pentru căutare pe termen scurt",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/luna",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Doar 13 INR/zi)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 de credite AI pe lună|||Completare automată nelimitată (toate portalurile)|||Cloud Sync & Google Backup|||Teme premium|||Experiență fără anunțuri",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Abonați-vă lunar",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Trimestrial Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Cea mai bună valoare pentru majoritatea persoanelor în căutarea unui loc de muncă",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 luni",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Doar 11 INR/zi)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 de credite AI pe trimestru|||Completare automată nelimitată (toate portalurile)|||Scrisori de intenție și eseuri personalizate|||Cloud Sync și Google Backup|||Reluați sugestiile de potrivire",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Abonați-vă trimestrial",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Cele mai populare",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ultimate anuale",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Cea mai bună valoare pentru utilizatorii cu putere",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2.999 INR",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/an",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Echivalent cu 249 INR/lună)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 de credite AI pe an|||Completare automată zilnică nelimitată|||Scrisori de intenție și eseuri personalizate|||Cloud Sync și Backup Google|||Reluați sugestiile de potrivire|||Asistență prin e-mail prioritară",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Abonați-vă Anual",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Cea mai bună valoare - Economisiți 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Sprijină dezvoltarea ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow este construit și întreținut de dezvoltatori independenți. Dacă vi se pare utilă extensia, luați în considerare donarea pe Ko-fi pentru a o menține activă, fără reclame și actualizată pentru noi locuri de muncă.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Cumpără-mi o cafea pe Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ Evaluare 5.0|||🔒 Plăți sigure|||✓ Anulează oricând",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Cheie de licență nevalidă. Sugestie: Încercați să utilizați cheia demo „APPLYFLOW-PRO-2026”!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licență activată cu succes! Bun venit la ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Sigur doriți să vă dezactivați licența premium? Acest lucru vă va întoarce la Planul gratuit.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Licență premium dezactivată. Acum sunteți în planul gratuit.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Aceasta va șterge definitiv TOATE datele locale de profil și aplicație. esti sigur?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Politica de confidențialitate",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Întrebări frecvente",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Ce este ApplyFlow și cum funcționează?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow este o extensie Chrome bazată pe inteligență artificială care detectează și completează automat formularele de cerere de angajare pe peste 15 platforme, inclusiv LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever și multe altele. Acesta citește profilul dvs. salvat și utilizează potrivirea inteligentă pentru a completa câmpuri de text, meniuri derulante, butoane radio și casete de selectare - inclusiv întrebări EEO/demografice.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Sunt datele mele personale în siguranță cu ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Da. Datele dvs. sunt stocate local în browser-ul dvs. chrome.storage.local în mod implicit. Nu este trimis niciodată către niciun server terță parte, în afară de propria dumneavoastră bază de date opțională Supabase (pe care o controlați). ApplyFlow nu vinde, distribuie sau monetizează niciodată informațiile dvs. personale.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Ce platforme de locuri de muncă acceptă ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow acceptă peste 15 platforme: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList și orice alt site prin intermediul sistemului nostru inteligent de potrivire generic.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Ce este Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper este un buton plutitor „Salvați job” (📌) care apare automat atunci când vizitați orice pagină cu lista de locuri de muncă. Făcând clic pe acesta, se extrag titlul postului, compania, salariul și descrierea, apoi le salvează în aplicația de urmărire ApplyFlow ca aplicație „Salvată”, astfel încât să puteți urmări locurile de muncă înainte de a aplica.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Cum îmi actualizez profilul?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Deschideți fereastra pop-up ApplyFlow, faceți clic pe fila „Profil” și încărcați CV-ul în format PDF. AI vă va completa automat toate câmpurile. De asemenea, puteți edita manual orice câmp, inclusiv preferințele dvs. EEO, autorizarea de lucru și scrisorile de intenție.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Ce sunt câmpurile EEO și de ce am nevoie de ele?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Câmpurile EEO (Equal Employment Opportunity) sunt întrebări pe care mulți angajatori din SUA și din întreaga lume le pun despre sex, statutul de handicap, statutul de veteran și autorizația de muncă. ApplyFlow stochează răspunsurile preferate și completează automat aceste grupuri de butoane radio, astfel încât să nu fie nevoie să le răspundeți manual de fiecare dată.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow necesită chei API sau configurație?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Nu! ApplyFlow gestionează automat detectarea tuturor formularelor, potrivirea inteligentă, generarea scrisorilor de intenție și scorul de compatibilitate. Nu trebuie să obțineți sau să configurați chei API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Ce este Supabase sync și am nevoie de el?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Sincronizarea Supabase este o funcție opțională de backup în cloud. Când vă conectați cu Google și îl activați, profilul dvs. și instrumentul de urmărire a aplicației sunt sincronizate cu o bază de date cloud privată, astfel încât datele dvs. să fie salvate și accesibile de pe mai multe dispozitive. Acest lucru este complet opțional - extensia funcționează complet offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "De ce are nevoie ApplyFlow de acces la toate site-urile web?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow solicită acces la toate site-urile web, astfel încât să poată injecta motorul de completare automată în orice formular de cerere de angajare și să afișeze butonul de tăiere „Salvare job” pe orice listă de locuri de muncă. Această permisiune este necesară pentru suportul amplu al platformei. Injectăm scripturi doar pe paginile care au legătură în mod clar cu locul de muncă.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Ce este bordul Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Panoul Kanban este o vizualizare vizuală de urmărire a locurilor de muncă din fila Tracker. Afișează aplicațiile dvs. organizate în coloane: Salvate → Aplicat → Evaluare → Interviu → Oferta. Puteți trage și plasa carduri între coloane pentru a actualiza starea oricărei aplicații.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Cum funcționează detectarea trimiterii?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Când activați „Înregistrați numai după trimitere” în setări, ApplyFlow urmărește modificările paginii care indică o trimitere reușită (cum ar fi o adresă URL care conține „/success” sau textul textului „Mulțumesc pentru aplicare”). Înregistrează aplicația în tracker numai după ce detectează o trimitere reală.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Pot stoca mai multe scrisori de intenție?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Da! Ecranul Profil are o secțiune „Seif cu scrisori de intenție” unde puteți stoca scrisori de intenție nelimitate adaptate diferitelor roluri sau companii. La completarea automată, ApplyFlow va folosi cea mai recentă sau cea mai relevantă scrisoare de intenție.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Cum export datele aplicației mele?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Accesați Cont și sincronizare → derulați în partea de jos → faceți clic pe „Export Backup (JSON)”. Aceasta descarcă toate datele dvs. de profil și aplicație ca fișier JSON pentru păstrare.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Funcționează ApplyFlow în modul Demo?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Modul Demo a fost o setare moștenită folosită pentru testare. Acum este dezactivat implicit. Toate funcțiile sunt active și funcționale cu cheia API Gemini încorporată.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Cum raportez o eroare sau solicit o funcție?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Deschideți o problemă în depozitul nostru GitHub (legat în secțiunea Despre) sau trimiteți-ne un e-mail la support@applyflow.in. De obicei, răspundem în 48 de ore.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Deschideți pop-up ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Scanați pagina curentă pentru câmpuri de formular",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Declanșează completarea automată inteligentă pe pagina curentă",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Decupați lista de locuri de muncă actuale în tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Deschideți Tracker într-o filă nouă",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Configurați comenzile rapide în Chrome la",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Notă:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Comenzile extensiilor Chrome necesită atribuirea manuală în managerul de comenzi rapide din Chrome. Accesați $1$ pentru a lega cheile enumerate mai sus.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Extensia ApplyFlow Chrome — Politica de confidențialitate**\nUltima actualizare: iunie 2026\n\n---\n\n**1. Introducere**\n\nApplyFlow („noi”, „nostru”, „extensia”) este o extensie de browser Chrome care îi ajută pe utilizatori să completeze automat formularele de cerere de angajare, să își urmărească aplicațiile și să își gestioneze profilul profesional. Această Politică de confidențialitate explică modul în care colectăm, utilizăm, stocăm și protejăm informațiile dumneavoastră.\n\nPrin instalarea și utilizarea ApplyFlow, sunteți de acord cu practicile descrise în această politică.\n\n---\n\n**2. Date pe care le colectăm**\n\nColectăm doar informațiile pe care le furnizați în mod voluntar pentru a activa funcțiile extensiei:\n\n• **Informații de profil**: numele dvs., e-mailul, numărul de telefon, facultatea, diplomă, abilitățile, istoricul profesional, proiectele și link-urile profesionale (LinkedIn, GitHub, **Informații demografice, GitHub, **_Demographic_Portfolio). (Opțional)**: sex, statutul de dizabilitate, statutul de veteran și preferințele de autorizare a muncii - furnizate numai dacă alegeți să completați aceste câmpuri. Aceste date sunt folosite exclusiv pentru completarea automată a chestionarelor EEO opționale pentru cererile de angajare.\n• **Datele de urmărire a aplicației**: titlul postului, compania, adresa URL a aplicației, starea și notele pentru pozițiile pe care le urmăriți folosind extensia.\n• **Statistici de utilizare**: numărul de operațiuni de completare automată efectuate (stocat local pentru aplicarea limitelor zilnice de __NL20). Date**: dacă alegeți să vă conectați cu Google, stocăm numele dvs. afișat Google, adresa de e-mail și adresa URL a imaginii de profil pentru a vă personaliza experiența și pentru a activa sincronizarea în cloud. legate de postul de muncă\n• Orice date din pagini când extensia nu este declanșată activ\n\n---\n\n**3. Cum vă stocăm datele**\n\n**3.1 Stocare locală (implicit)**\nToate datele sunt stocate în principal în API-ul chrome.storage.local al browserului dvs. Aceste date se află numai pe dispozitivul dvs. și nu sunt transmise niciodată către niciun server fără acțiunea dvs. explicită.\n\n**3.2 Cloud Sync (Opțional)**\nDacă alegeți să vă conectați la Google și să activați funcția „Supabase Sync”, profilul dvs. și datele aplicației vor fi, de asemenea, sincronizate cu o bază de date Supabase. Vă păstrați proprietatea deplină asupra acestor date. Îl puteți șterge oricând din secțiunea Cont și sincronizare.\n\n**3.3 Solicitări Gemini AI**\nCând sunt utilizate funcțiile AI (de exemplu, generarea de eseuri, analiza postului), părți din profilul dvs. (competențe, diplomă, rezumat) și textul descrierii postului sunt trimise la API-ul Google pentru a genera răspunsul Gemini. Aceasta este procesată în conformitate cu Termenii și condițiile API standard și Politica de confidențialitate Google. Vă recomandăm să nu includeți identificatori personali sensibili în conținutul dvs. asistat de AI.\n\n---\n\n**4. Partajarea datelor**\n\nNu **nu vindem, comercializăm, închiriem sau distribuim informațiile dumneavoastră personale cu terțe părți în scopuri de marketing sau publicitate.\n\nDatele dumneavoastră pot fi procesate de următoarele servicii de încredere:\n• **Pentru completarea formularelor Google Gemini și analiza API**: (https://policies.google.com/privacy)\n• **Google OAuth**: pentru autentificarea contului (https://policies.google.com/privacy)\n• **Supabase**: pentru stocarea opțională în cloud (https://supabase.com/privacy) — numai dacă activați sincronizare\n\n---\n\n**5. Drepturile și controalele dvs.**\n\nAveți dreptul de a:\n• **Accesa** toate datele pe care ApplyFlow le-a stocat despre dvs. (prin Export Backup în setări)\n• **Corectați** informațiile dvs. în orice moment în fila Profil\n• Toate datele dvs. locale utilizând toate datele locale. în setări\n• **Retrageți consimțământul** în orice moment prin dezinstalarea extensiei\n• **Dezactivați sincronizarea în cloud** dezactivând-o în setările Cont și sincronizare\n\n**GDPR (Utilizatori UE)**: Dacă sunteți rezident în UE, aveți dreptul de a procesa, de a accesa și de a modifica datele generale Regulamentul de protecție.\n\n**India — DPDP Act 2023**: în conformitate cu Digital Personal Data Protection Act 2023 din India, procesăm datele cu caracter personal numai în scopul furnizării serviciului de asistență pentru solicitarea de locuri de muncă. Vă puteți retrage consimțământul și puteți solicita ștergerea datelor dumneavoastră în orice moment, contactându-ne.\n\n**California — CCPA**: Rezidenții din California au dreptul de a ști ce informații personale sunt colectate, dreptul de a șterge și dreptul de a renunța la vânzare (nu vindem date).\n\n---\n\n**6. Păstrarea datelor**\n\nDatele locale sunt păstrate până când le ștergeți manual. Datele sincronizate în cloud sunt păstrate până când vă ștergeți contul sau solicitați ștergerea. Nu ștergem automat datele.\n\n---\n\n**7. Securitate**\n\nLuăm măsuri tehnice rezonabile pentru a vă proteja datele:\n• Toate comunicațiile în cloud folosesc criptare HTTPS/TLS\n• Supabase Row-Level Security (RLS) asigură utilizatorilor să-și acceseze numai propriile date\n• Extensia dincolo de ceea ce nu este necesară pentru permisiunea de bază funcția\n\n---\n\n**8. Confidențialitatea copiilor**\n\nApplyFlow nu este destinat utilizatorilor cu vârsta sub 13 ani. Nu colectăm cu bună știință date de la copii. Dacă credeți că un copil ne-a furnizat informații personale, vă rugăm să ne contactați imediat.\n\n---\n\n**9. Modificări ale acestei politici**\n\nPutem actualiza această politică de confidențialitate din când în când. Modificările semnificative vor fi comunicate prin intermediul paginii Opțiuni a extensiei. Utilizarea continuă a extensiei după modificări constituie acceptarea politicii actualizate.\n\n---\n\n**10. Contactați-ne**\n\nPentru orice întrebări legate de confidențialitate, solicitări de ștergere a datelor sau preocupări:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nNe propunem să răspundem tuturor solicitărilor în termen de 30 de zile.",
+    "description": "Privacy policy document markdown text"
+  }
+}

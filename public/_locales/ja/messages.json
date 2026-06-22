@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "applyFlow: AI ジョブ自動入力とアプリケーション トラッカー",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn、Workday、Greenhouse などで AI を使用して求人応募を自動入力し、リストを自動的に追跡します。",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "適用フロー",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "アクティブ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "適用済み",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "インタビュー",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "オファー",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "保存されました",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "合計",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "自動入力",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "充填中...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "クイック自動入力",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "分析ジョブ",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "サイドバーを開く",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "クイック自動入力を使用するには、まず Google にサインインしてください。",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "最初にサイドパネル/オプションページでプロフィールを設定してください。",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ が検出されました",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "ジョブページが検出されませんでした",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI 機能を利用するには求人情報にアクセスしてください",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "おはようございます",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "こんにちは",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "こんばんは。",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ 件の応募を追跡 · $2$ 件の面接",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "申請を開始して進捗状況を追跡しましょう",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "カバーレター",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Q&Aヘルプ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "お手伝いする準備ができています",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "まずは、LinkedIn、Workday、Greenhouse、またはその他の求人掲示板の求人情報に移動してください。",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "今週",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "最近の活動",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "すべて見る→",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "就職活動を始めましょう！",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "求人掲示板にアクセスし、ApplyFlow を使用して応募書類を自動入力し、自動的に追跡します。",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "私のプロフィール",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "保存中...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "すべて保存",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "プロフィールを保存しました!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "プロファイルの保存に失敗しました。",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "再開",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "自動入力プロフィールにアップロードする",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ アップロード済み",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "個人情報",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "不完全",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "場所",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "教育",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "スキル",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "職歴",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "プロジェクト",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "仕事の好み",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "作業承認",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "履歴を再開する",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "これを使用してください",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ で解析されました",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "「$1$」からプロファイルの詳細を読み込みますか?これにより、現在の編集内容がこの履歴書の解析された構造に置き換えられます。",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ から詳細を復元しました",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "試合スコア",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ フィット",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ 詳細",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "アプリケーションは自動入力され、記録されます。 ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "applyFlowサイドパネル経由で自動入力",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "そこに",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "大学設定なし",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "自動入力を有効にするようにプロファイルを設定する",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "未設定",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ エントリ",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ スキル",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ プロジェクト",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ の回答",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "認可された",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "許可されていません",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "フルネーム",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "電子メール",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "電話",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "代替電話",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn の URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "ポートフォリオのURL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "リンクを再開する",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "都市",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "州",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "国",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "郵便番号",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "住所",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "国籍",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "カレッジ/大学",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "学位",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "卒業年度",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / グレード",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "通知期間",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "期待給与",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "望ましい役割",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "長年の経験",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ビザのスポンサーなしで働くことが許可されている",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ビザのスポンサーが必要です",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "性別",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "障害",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "言わないほうがいい",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "指定なし",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "男性",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "女性",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ノンバイナリ",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "はい",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "いいえ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "まだスキルは追加されていません",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "スキルを追加 (追加するには Enter を押します)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "トリガーフレーズ (例: なぜあなたを雇う必要があるのか)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "あなたの答えは...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "削除",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ カスタム回答を追加",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "会社名",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "役割・役職",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "開始日",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "終了日",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "プレゼント",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "私は現在この役割で働いています",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "説明",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "あなたの責任、主な成果、使用したテクノロジーについて説明してください...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ 実務経験を追加",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "プロジェクトタイトル",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "技術スタック",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "デプロイメント URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "何を構築したか、それによって解決された問題、および主な機能について説明してください。",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ プロジェクトを追加",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "トラッカー",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "保存されました",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "適用済み",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "評価",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "インタビュー",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "オファー",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "拒否されました",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "撤回されました",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "このアプリケーションを削除しますか?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "アプリケーションが更新されました！",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "アプリケーションが削除されました。",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "ステータス",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "プラットフォーム",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "適用済み",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "求人情報を公開中",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "給与・手当",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "フォローアップリマインダー",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "注意事項",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "メモ、連絡先情報、インタビューの詳細を追加...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "職務内容（抜粋）",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "削除",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "キャンセル",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "保存",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 アプリケーション",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ アプリケーション",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "会社でフィルタリング...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "ステータスフィルター",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "右にスクロールすると詳細が表示されます→",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "すべて",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "アプリケーションが見つかりませんでした",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "フィルタをリセットするか、ジョブを保存して新しいトラッカー エントリを追加してみてください",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "分析",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "合計 $1$ 件のアプリケーション",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "まだデータがありません",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "求人への応募を開始すると、分析がここに表示されます。",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "コンバージョン率",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "適用済み",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "面接率",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "オファーレート",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "今週のお申し込み",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "アプリケーションファネル",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "トッププラットフォーム",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "ステータスの内訳",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI副操縦士",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "コンテキスト: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "あなたのキャリアの副操縦士",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "新しいチャット ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "AI が応答をパーソナライズできるように、最初にプロフィールを設定してください。",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "チャットクリアしました！何をお手伝いできますか?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "この仕事について何でも聞いてください...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "まずはプロフィールを設定してください",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Enterを押して送信してください",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "履歴書の互換性スコア",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ 強力なスキル",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️不足しているスキル",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "あなた専用のカバーレターは次のとおりです。",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ コピーしました！",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 コピー",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ ダウンロード",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "面接でよくある $1$ の質問は次のとおりです。",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "再開最適化スコア: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "再開マッチの提案",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "この職務内容と比較して",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "何か問題が発生しました。もう一度試してください。",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "こんにちは！ **$2$** の **$1$** ロールを見ていることがわかります。",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "こんにちは！ **$1$** の役割を検討していることがわかります。",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "こんにちは！私はあなたの AI キャリアの副操縦士です。求人情報に移動すると、自動的に分析されたり、何か質問されたりします。",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "まずプロフィールタブでプロフィールを設定してください。",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "この機能を使用するには、まずブラウザで求人一覧ページを開いてください。",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "適用フローのロックを解除する",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Google でサインインすると、ダッシュボードにアクセスしたり、求人を同期したり、履歴書プロフィールを管理したり、求人応募を即座に自動入力したりできます。",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI オートフィルとクリッパー",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "ワンクリックでアプリケーションをスキャンして自動入力します。",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "クラウド同期とバックアップ",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "すべてのジョブ追跡の詳細を Supabase に同期します。",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "履歴書とプロフィール",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "履歴書をアップロードし、応募書類の回答をカスタマイズします。",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google に接続しています...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Googleでサインイン",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "サインインすると、プロファイル データをアクティブなワークスペースに安全に同期することに同意したことになります。",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "サインアウトしてもよろしいですか?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "正常にサインアウトしました。",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ としてログインしています",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "サインアウト",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "サインイン",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "接続中...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "アプライフローを開く",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "適用フローの一致",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "強力なマッチングスキル",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "不足しているスキル",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "スマート自動入力ページ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "フォームを自動入力中...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "ページ上に入力可能な申請フィールドが見つかりません。",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "無事に埋まりました！",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "ページが複雑なため、自動入力が失敗しました。",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "入力時にログ トラッカーに自動保存されます。",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "あなたの履歴書はこの役割に **$1$% 適合します**。",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "おかえりなさい、$1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google ユーザーのプロフィール情報を取得できませんでした。",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth ログインに失敗しました: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "リダイレクトからのアクセストークンの取得に失敗しました。",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "認証リダイレクトの解析に失敗しました。",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "このプラットフォームでは認証はサポートされていません。",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ジョブがトラッカーに保存されました!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "ゲスト",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ 一般設定",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn 求人ページに表示する",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "LinkedIn で求人情報を表示するときに、スマート マッチング スコアとワンクリックの自動入力ボタンを表示します。",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "「ジョブを保存」ボタンを表示",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "求人サイトにフローティングの「求人を保存 📌」ボタンを表示することで、応募する前に求人の詳細をトラッカーにすぐに保存できます。",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "実際に適用した後にのみログを記録する",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "ジョブをトラッカーに追加する前に、「ありがとう」または「成功」画面が表示されるまで待ちます。半分入力されたフォームが「適用済み」として保存されるのを防ぐことで、トラッカーをきれいに保ちます。",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI クレジットと使用状況分析",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "残りのクレジット",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "残りのクレジット",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "総クレジット数",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "常時自動入力",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "計画ステータス",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "プレミアム👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "無料🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "プロのヒント:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "スマート オートフィル操作はクレジットを消費せず、100% 無制限です。クレジット残高を消費するのは、カバー レター (5 クレジット) やカスタム エッセイ (3 クレジット) などの高度な AI 機能のみです。",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Googleアカウントとクラウド同期",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Googleクラウド同期がアクティブです",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "クラウド同期がロックされました (プレミアムのみ)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "クラウド同期",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "クラウドへのプッシュ",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "クラウドからプルする",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "同期が成功しました!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "同期に失敗しました。接続を確認してください。",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "安全なクラウド同期",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Google でサインインして、アプリケーションとプロファイルを Supabase にバックアップします。同期は、デバイス間でログを安全に保つプレミアム機能です。",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync はプレミアム機能です。同期を有効にするには、[アップグレード] タブでアップグレードしてください。",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 データ管理",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "バックアップのエクスポート (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "すべてのローカルデータをクリア",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "ローカル データをクリアすると、このデバイスからのみプロファイルとアプリケーションが削除されます。クラウドデータは影響を受けません。",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "コントロールセンター",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "ホーム&概要",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "一般設定",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "プロにアップグレード 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "プレミアムプラン👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "アカウントと同期",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "プライバシーポリシー",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "よくある質問",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀ApplyFlowへようこそ",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "applyFlow は、より迅速かつスマートに応募したい学生や求職者向けに構築された、AI を活用した Chrome 拡張機能です。 15 以上のプラットフォームにわたって求人応募フォームを自動的に検出して入力し、パイプラインを追跡し、より多くの面接に到達するのに役立ちます。",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "スマートオートフィル",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "正確なセレクターを備えた 15 以上の ATS プラットフォーム",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "ウェブクリッパー",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "ワンクリックで求人情報を保存",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "カンバントラッカー",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "アプリケーション パイプラインをドラッグ アンド ドロップします。",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO 自動入力",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "人口統計とビザに関する質問を自動入力",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI エッセイ",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini を活用したカスタム回答作成",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "安全な同期",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "オプションの Supabase クラウド バックアップ",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 始め方",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "プロフィールを作成する",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "ポップアップ→「プロフィール」タブを開き、→履歴書PDFをアップロードします。 AI は、スキル、経験、学歴、プロジェクトなど、すべての詳細を自動抽出します。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO 設定の設定",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "プロフィールの EEO セクションまでスクロールし、就労許可、ビザスポンサーシップの必要性、および人口統計上の好みを設定します。これらは、EEO アンケートの自動入力に使用されます。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "求人情報を閲覧する",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "任意の求人リストに移動します。 📌 [ジョブを保存] ボタンが表示されます。クリックすると、その位置がすぐにトラッカーに保存されます。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "申請フォームを開く",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "申請フォームに移動します。 [ApplyFlow] ポップアップをクリックし、[ページをスキャン] をクリックし、[⚡ スマート オートフィル] をクリックします。ラジオ ボタンやドロップダウンを含むすべてのフィールドが即座に入力されます。",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "パイプラインを追跡する",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "[トラッカー] タブを開いて、すべてのアプリケーションを表示します。カンバン ボード ビューに切り替え、ステータスが更新されたらカードを列間でドラッグします。",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 サインインが必要です",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "サインインして設定をカスタマイズする",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "一般設定は、サインインしているユーザーのみが使用できます。 Google でサインインして、設定や自動入力動作などを構成します。",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "「アカウントと同期」に移動します",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "アプライフロー プロ アクティブ",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "ライセンス キー: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "ライセンスの無効化",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 ライセンスキーのアクティベーション",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "サブスクリプションを購入した場合、またはアクセス コードを受け取った場合は、以下にライセンス キーを入力して、ApplyFlow プレミアムのロックを解除します。",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "アクティブ化する",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "アクティブ化中...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 ヒント: キー APPLYFLOW-PRO-2026 を使用してプレミアムをアクティブ化できます。",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "プレミアムが有効になりました!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "平素よりApplyFlowをご利用いただき誠にありがとうございます。すべてのプレミアム機能がロック解除されました。",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 プレミアムアップグレードプラン",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "キャリアのエクスポートと高度な AI 機能のロックを解除します。",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "カバーレター、カスタムエッセイの回答、履歴書の最適化、模擬面接の準備でプレミアム AI クレジットを取得しましょう。サポートされているプラ​​ットフォームでの自動入力操作は完全に無制限で、すべてのプレミアム ユーザーは無料です。",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 早期導入者特典:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "次の値上げはプレミアム ユーザー 500 人です。このレートを一生固定してください!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "マンスリープロ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "短期間の検索に適しています",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/月",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(1 日あたりわずか ₹13)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "1 か月あたり 150 AI クレジット|||無制限の自動入力 (すべてのポータル)|||クラウド同期と Google バックアップ|||プレミアム テーマ|||広告なしのエクスペリエンス",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "毎月購読する",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "季刊プロ",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "ほとんどの求職者にとって最高の価値",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3ヶ月",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(1 日あたりわずか ₹11)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "四半期ごとに 500 AI クレジット|||無制限の自動入力 (すべてのポータル)|||カスタマイズされたカバーレターとエッセイ|||クラウド同期と Google バックアップ|||履歴書のマッチング提案",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "四半期ごとに購読する",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "最も人気のある",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "年間アルティメット",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "パワーユーザーにとって最高の価値",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/年",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(月額 ₹249 に相当)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "年間 2,500 AI クレジット|||無制限の毎日の自動入力|||カスタマイズされたカバーレターとエッセイ|||クラウド同期と Google バックアップ|||履歴書のマッチング提案|||優先メール サポート",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "毎年購読する",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "ベストバリュー - 40% 割引",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "サポートApplyFlow開発",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "applyFlow は、独立した開発者によって構築および保守されています。この拡張機能が役に立つと思われる場合は、Ko-fi をアクティブに、広告なしで、新しい求人サイトに向けて更新し続けるために、Ko-fi に寄付することを検討してください。",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Ko-fi でコーヒーを買ってきてください",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 評価|||🔒 安全な支払い|||✓ いつでもキャンセル可能",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "ライセンスキーが無効です。ヒント: デモ キー「APPLYFLOW-PRO-2026」を使用してみてください。",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "ライセンスが正常にアクティベートされました。 applyFlow プレミアムへようこそ。 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "プレミアム ライセンスを非アクティブ化してもよろしいですか?これにより、無料プランに戻ります。",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "プレミアムライセンスが無効化されました。現在は無料プランをご利用中です。",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "これにより、すべてのローカル プロファイルとアプリケーション データが完全に削除されます。本気ですか？",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒プライバシーポリシー",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ よくある質問",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "applyFlow とは何ですか?またどのように機能しますか?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow は AI を活用した Chrome 拡張機能で、LinkedIn、Internshala、Unstop、Workday、Greenhouse、Lever などを含む 15 以上のプラットフォームにわたる求人応募フォームを自動的に検出して入力します。保存されたプロフィールを読み取り、インテリジェントなマッチングを使用してテキスト フィールド、ドロップダウン、ラジオ ボタン、チェックボックスに入力します (EEO/人口統計に関する質問も含まれます)。",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "私の個人データはApplyFlowで安全ですか?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "はい。デフォルトでは、データはブラウザの chrome.storage.local にローカルに保存されます。これは、ユーザー自身のオプションの Supabase データベース (ユーザーが管理する) 以外のサードパーティ サーバーに送信されることはありません。 applyFlow は、お客様の個人情報を販売、共有、または収益化することはありません。",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "applyFlow はどのジョブ プラットフォームをサポートしていますか?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "applyFlow は、インテリジェントな汎用フォールバック マッチャーを介して、LinkedIn Easy apply、Internshala、Unstop、Workday、Greenhouse、Lever、iCIMS、SmartRecruiters、BambooHR、Jobvite、Taleo、Naukri、Indeed、Wellfound/AngelList、およびその他のサイトの 15 以上のプラットフォームをすぐにサポートします。",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "ウェブクリッパーとは何ですか?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web クリッパーは、求人ページにアクセスすると自動的に表示されるフローティングの「求人を保存」ボタン (📌) です。これをクリックすると、役職、会社、給与、説明が抽出され、ApplyFlow トラッカーに「保存済み」アプリケーションとして保存されるため、応募する前に求人を追跡できます。",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "プロフィールを更新するにはどうすればよいですか?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "[ApplyFlow] ポップアップを開き、[プロフィール] タブをクリックして、履歴書の PDF をアップロードします。 AI がすべてのフィールドに自動入力します。 EEO 設定、作業権限、カバーレターなどのフィールドを手動で編集することもできます。",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO フィールドとは何ですか?なぜそれらが必要なのでしょうか?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (雇用機会均等) フィールドは、性別、障害ステータス、退役軍人ステータス、および就労許可に関して米国および世界の多くの雇用主が尋ねる質問です。 applyFlow は好みの回答を保存し、これらのラジオ ボタン グループに自動的に入力するため、毎回手動で回答する必要はありません。",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow には API キーや設定が必要ですか?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "いいえ！ applyFlow は、すべてのフォーム検出、スマート マッチング、カバー レターの生成、および互換性スコアリングを自動的に処理します。 API キーを取得したり設定したりする必要はありません。",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase sync とは何ですか? それは必要ですか?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase 同期は、オプションのクラウド バックアップ機能です。 Google にサインインして有効にすると、プロファイルとアプリケーション トラッカーがプライベート クラウド データベースに同期されるため、データがバックアップされ、複数のデバイスからアクセスできるようになります。これは完全にオプションです。拡張機能は完全にオフラインで動作します。",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "なぜApplyFlowはすべてのWebサイトにアクセスする必要があるのですか?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "applyFlow はすべての Web サイトへのアクセスを要求するため、あらゆる求人応募フォームに自動入力エンジンを挿入し、あらゆる求人リストに「求人を保存」クリッパー ボタンを表示できます。この権限は、幅広いプラットフォームをサポートするために必要です。明らかに仕事に関連しているページにのみスクリプトを挿入します。",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "カンバンボードとは何ですか?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "カンバン ボードは、[トラッカー] タブの視覚的なジョブ追跡ビューです。申請書が列に整理されて表示されます: 保存済み → 申請済み → 評価 → 面接 → 内定。列間でカードをドラッグ アンド ドロップして、アプリケーションのステータスを更新できます。",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "送信の検出はどのように機能しますか?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "設定で「送信後のみログに記録する」を有効にすると、ApplyFlow は、送信が成功したことを示すページの変更 (「/success」を含む URL や「お申し込みありがとうございます」という本文テキストなど) を監視します。実際の送信を検出した後にのみ、アプリケーションをトラッカーに記録します。",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "複数のカバーレターを保存できますか?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "はい！プロフィール画面には、さまざまな役割や会社に合わせたカバーレターを無制限に保存できる「カバーレター保管庫」セクションがあります。自動入力する場合、ApplyFlow は最新または最も関連性の高いカバーレターを使用します。",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "アプリケーション データをエクスポートするにはどうすればよいですか?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "[アカウントと同期] に移動し、一番下までスクロールし、[バックアップ (JSON) をエクスポート] をクリックします。これにより、すべてのプロファイルとアプリケーション データが JSON ファイルとしてダウンロードされ、保管されます。",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "applyFlow はデモ モードでも動作しますか?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "デモ モードは、テストに使用される従来の設定でした。現在はデフォルトで無効になっています。すべての機能は、組み込みの Gemini API キーを使用してライブで機能します。",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "バグを報告したり、機能をリクエストするにはどうすればよいですか?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "GitHub リポジトリ (「概要」セクションにリンク) で問題をオープンするか、support@applyflow.in にメールでご連絡ください。通常、48 時間以内に返信いたします。",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "「ApplyFlow」ポップアップを開く",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "現在のページをスキャンしてフォームフィールドを探します",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "現在のページでスマート自動入力をトリガーする",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "現在の求人情報をトラッカーにクリップします",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "新しいタブでトラッカーを開く",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome のショートカットを次の場所に設定します。",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "注:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome 拡張コマンドを使用するには、Chrome のショートカット マネージャーで手動で割り当てる必要があります。 $1$ に移動して、上記のキーをバインドします。",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome 拡張機能 — プライバシー ポリシー**\n最終更新日: 2026 年 6 月\n\n---\n\n**1。はじめに**\n\nApplyFlow (「当社」、「当社の」、「拡張機能」) は、ユーザーが求人応募フォームに自動入力し、応募を追跡し、職業プロフィールを管理するのに役立つ Chrome ブラウザ拡張機能です。このプライバシー ポリシーでは、当社がお客様の情報を収集、使用、保存、保護する方法について説明します。\n\nApplyFlow をインストールして使用すると、このポリシーに記載されている慣行に同意したことになります。\n\n---\n\n**2。当社が収集するデータ**\n\n拡張機能の機能を有効にするためにお客様が自発的に提供した情報のみを収集します:\n\n• **プロフィール情報**: あなたの名前、電子メール、電話番号、大学、学位、スキル、職歴、プロジェクト、専門リンク (LinkedIn、GitHub、ポートフォリオ)。\n• **EEO/人口統計情報 (オプション)**:性別、障害ステータス、退役軍人のステータス、および就労許可の設定 - これらのフィールドに入力することを選択した場合にのみ提供されます。このデータは、求人応募に関するオプションの EEO アンケートを自動入力するためにのみ使用されます。\n• **応募追跡データ**: 役職名、会社、応募 URL、ステータス、拡張機能を使用して追跡するポジションのメモ。\n• **使用状況統計**: 実行された自動入力操作の数 (1 日の制限を適用するためにローカルに保存されます)。\n• **認証データ**: Google でログインすることを選択した場合、エクスペリエンスをパーソナライズし、クラウド同期を有効にするための Google 表示名、メール アドレス、プロフィール写真の URL。\n\n次の情報は**収集されません**:\n• 支払いまたは財務情報\n• ブラウザ履歴または一般的な閲覧アクティビティ\n• 求人応募に関連しないページからの情報\n• 拡張機能がアクティブでないときのページからのデータトリガー\n\n---\n\n**3。データの保存方法**\n\n**3.1 ローカル ストレージ (デフォルト)**\nすべてのデータは主にブラウザの chrome.storage.local API に保存されます。このデータはデバイス上にのみ存在し、明示的な操作がない限りサーバーに送信されることはありません。\n\n**3.2 クラウド同期 (オプション)**\nGoogle でサインインして「Supabase Sync」機能を有効にすることを選択した場合、プロフィールとアプリケーション データも Supabase データベースに同期されます。あなたはこのデータの完全な所有権を保持します。 [アカウントと同期] セクションでいつでも削除できます。\n\n**3.3 Gemini AI リクエスト**\nAI 機能が使用される場合 (エッセイ生成、職務分析など)、プロフィールの一部 (スキル、学位、概要) と職務内容のテキストが Google の Gemini API に送信され、応答が生成されます。これは、Google の標準 API 利用規約およびプライバシー ポリシーに基づいて処理されます。 AI 支援コンテンツには機密の個人識別子を含めないことをお勧めします。\n\n---\n\n**4。データ共有**\n\n当社は、マーケティングや広告目的でお客様の個人情報を第三者と販売、取引、貸与、共有することは**しません**。\n\nお客様のデータは、次の信頼できるサービスによって処理される場合があります:\n• **Google Gemini API**: AIを活用したフォーム入力と分析用(https://policies.google.com/privacy)\n• **Google OAuth**: アカウント認証用 (https://policies.google.com/privacy)\n• **Supabase**: オプションのクラウド ストレージ用 (https://supabase.com/privacy) — 有効にした場合のみ同期\n\n---\n\n**5。お客様の権利と管理**\n\nあなたには次の権利があります:\n• ApplyFlow が保存したあなたに関するすべてのデータに **アクセス** (設定のバックアップのエクスポート経由)\n• [プロファイル] タブでいつでもあなたの情報を**修正**\n• 設定の [すべてのプロファイル データをクリア] を使用してローカルですべてのデータを **削除**\n• **撤回拡張機能をアンインストールすることでいつでも同意**\n• **アカウントと同期設定でオフに切り替えてクラウド同期を無効にします\n\n**GDPR (EU ユーザー)**: EU 居住者の場合、一般データ保護に基づいてアクセス、修正、消去、処理の制限、およびデータの移植性を行う権利があります。規制.\n\n**インド — DPDP 法 2023**: インドのデジタル個人データ保護法 2023 に従って、当社は求職支援サービスを提供する目的でのみ個人データを処理します。当社にご連絡いただくことで、いつでも同意を撤回し、データの削除をリクエストすることができます。\n\n**カリフォルニア州 — CCPA**: カリフォルニア州の居住者は、どのような個人情報が収集されるかを知る権利、削除する権利、および販売をオプトアウトする権利を有します (当社はデータを販売しません)。\n\n---\n\n**6。データの保持**\n\nローカル データは、手動で消去するまで保持されます。クラウド同期データは、アカウントを削除するか削除をリクエストするまで保持されます。データは自動的に削除されません。\n\n---\n\n**7。セキュリティ**\n\n当社では、お客様のデータを保護するために合理的な技術的措置を講じています:\n• すべてのクラウド通信は HTTPS/TLS 暗号化を使用します\n• Supabase 行レベル セキュリティ (RLS) により、ユーザーは自分のデータのみにアクセスできるようにします\n• 拡張機能は、コアに必要な権限を超えた権限を要求しません関数\n\n---\n\n**8。子供のプライバシー**\n\nApplyFlow は 13 歳未満のユーザーを対象としていません。当社は故意に子供からデータを収集しません。お子様が当社に個人情報を提供したと思われる場合は、直ちに当社にご連絡ください。\n\n---\n\n**9。このポリシーの変更**\n\n当社は、このプライバシー ポリシーを随時更新することがあります。重要な変更は、拡張機能の [オプション] ページを通じて通知されます。変更後に拡張機能を継続して使用すると、更新されたポリシーに同意したことになります。\n\n---\n\n**10。お問い合わせ**\n\nプライバシー関連の質問、データ削除リクエスト、懸念事項については:\n\nメール:privacy@applyflow.in\nGitHub:https://github.com/applyflow/extension\nWebサイト: https://applyflow.in\n\nすべてのリクエストには 30 日以内に対応することを目指しています。",
+    "description": "Privacy policy document markdown text"
+  }
+}

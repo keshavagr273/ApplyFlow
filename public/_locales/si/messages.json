@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI රැකියා ස්වයං පිරවීම සහ යෙදුම් ට්‍රැකර්",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn, Workday, Greenhouse සහ තවත් AI භාවිතයෙන් ස්වයංක්‍රීයව රැකියා අයදුම්පත් සහ ලුහුබැඳීම් ලැයිස්තුගත කරන්න.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "ක්රියාකාරී",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "අයදුම් කළා",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "සම්මුඛ පරීක්ෂණය",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "පිරිනැමීම",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "සුරකින ලදී",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "මුළු",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "ස්වයං පිරවීම",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "පිරවීම...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ඉක්මන් ස්වයං පිරවීම",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "රැකියාව විශ්ලේෂණය කරන්න",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "පැති තීරුව විවෘත කරන්න",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "සැකසීම්",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "ඉක්මන් ස්වයංක්‍රීය පිරවුම භාවිතා කිරීමට කරුණාකර Google සමඟින් පුරන්න!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "කරුණාකර පැති පැනලය/විකල්ප පිටුවේ පළමුව ඔබේ පැතිකඩ සකසන්න!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ අනාවරණය විය",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "රැකියා පිටුවක් අනාවරණය කර ගෙන නොමැත",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI විශේෂාංග අගුළු ඇරීමට රැකියා ලැයිස්තුවකට පිවිසෙන්න",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "සුභ උදෑසනක්",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "සුභ සන්ධ්‍යාවක්",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "සුභ සන්ධ්‍යාවක්",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ යෙදුම් නිරීක්ෂණය කරන ලදී · $2$ සම්මුඛ සාකච්ඡා",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "ඔබගේ ප්‍රගතිය නිරීක්ෂණය කිරීමට අයදුම් කිරීම ආරම්භ කරන්න",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "ආවරණ ලිපිය",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "ප්‍රශ්න සහ පිළිතුරු උදවු",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "උදව් කිරීමට සූදානම්",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "ආරම්භ කිරීම සඳහා LinkedIn, Workday, Greenhouse, හෝ ඕනෑම රැකියා මණ්ඩලයක් මත රැකියා ලැයිස්තුවක් වෙත සංචාලනය කරන්න.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "මේ සතියේ",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "මෑත ක්රියාකාරිත්වය",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "සියල්ල බලන්න →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "ඔබේ රැකියා දඩයම ආරම්භ කරන්න!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "රැකියා පුවරුවකට ගොස් ඔබගේ යෙදුම් ස්වයංක්‍රීයව පුරවා හඹා යාමට ApplyFlow භාවිතා කරන්න.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "මගේ පැතිකඩ",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "සුරකිමින්...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "සියල්ල සුරකින්න",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "පැතිකඩ සුරැකිණි!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "පැතිකඩ සුරැකීමට අසමත් විය.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "නැවත ආරම්භ කරන්න",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "ස්වයංක්‍රීය පිරවුම් පැතිකඩ වෙත උඩුගත කරන්න",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ උඩුගත කරන ලදී",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "පුද්ගලික තොරතුරු",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "අසම්පූර්ණයි",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "ස්ථානය",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "අධ්යාපනය",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "කුසලතා",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "වැඩ පළපුරුද්ද",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "ව්යාපෘති",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "වැඩ මනාප",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "වැඩ අවසරය",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ඉතිහාසය නැවත ආරම්භ කරන්න",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "මෙය භාවිතා කරන්න",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ මත විග්‍රහ කරන ලදී",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" වෙතින් පැතිකඩ විස්තර පූරණය කරන්නද? මෙය ඔබගේ වර්තමාන සංස්කරණ මෙම නැවත ආරම්භයේ විග්‍රහ කළ ව්‍යුහය සමඟ ප්‍රතිස්ථාපනය කරයි.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ වෙතින් විස්තර ප්‍රතිසාධනය කරන ලදී",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "තරඟ ලකුණු",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ තවත්",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "යෙදුම ස්වයංක්‍රීයව පුරවා ලොග් විය! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow පැති පැනලය හරහා ස්වයංක්‍රීයව පුරවා ඇත",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "එහි",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "කොලේජ් සෙට් නෑ",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ස්වයං පිරවුම සබල කිරීමට ඔබගේ පැතිකඩ සකසන්න",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "සකසා නැත",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ඇතුළත් කිරීම්",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ කුසලතා",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ ව්‍යාපෘති",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ පිළිතුරු",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "බලයලත්",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "අවසර නැත",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "සම්පූර්ණ නම",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ඊමේල් කරන්න",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "දුරකථනය",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "විකල්ප දුරකථනය",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfolio URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "සබැඳිය නැවත ආරම්භ කරන්න",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "නගරය",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "රාජ්ය",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "රට",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "තැපැල් කේතය",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "ලිපිනය",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ජාතිකත්වය",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "විද්යාලය / විශ්ව විද්යාලය",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "උපාධිය",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "උපාධි වර්ෂය",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ශ්‍රේණිය",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10 වන %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 වන %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "දැනුම්දීමේ කාලය",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "අපේක්ෂිත වැටුප",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "කැමති භූමිකාව",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "වසර ගණනාවක පළපුරුද්ද",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "වීසා අනුග්‍රහය නොමැතිව වැඩ කිරීමට අවසර ඇත",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "වීසා අනුග්‍රහය අවශ්‍යයි",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ලිංගභේදය",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "ආබාධිතභාවය",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "නොකියන්න කැමති",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "නිශ්චිතව දක්වා නැත",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "පිරිමි",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ගැහැණු",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ද්විමය නොවන",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ඔව්",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "නැත",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "තවම කුසලතා එකතු කර නැත",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "කුසලතා එක් කරන්න (එකතු කිරීමට ඇතුල් කරන්න)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ප්‍රේරක වාක්‍ය ඛණ්ඩය (උදා. අප ඔබව කුලියට ගත යුත්තේ ඇයි)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "ඔබේ පිළිතුර...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "ඉවත් කරන්න",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ අභිරුචි පිළිතුර එක් කරන්න",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "සමාගම",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "භූමිකාව / මාතෘකාව",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "ආරම්භක දිනය",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "අවසන් දිනය",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "ඉදිරිපත් කරන්න",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "මම දැනට මේ චරිතයේ වැඩ කරනවා",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "විස්තරය",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "ඔබේ වගකීම්, ප්‍රධාන ජයග්‍රහණ, භාවිතා කළ තාක්ෂණයන් විස්තර කරන්න...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ සේවා පළපුරුද්ද එක් කරන්න",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "ව්යාපෘති මාතෘකාව",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "තාක්ෂණික තොගය",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "යෙදවීමේ URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "ඔබ ගොඩනඟා ගත් දේ, එය විසඳූ ගැටලුව සහ ප්‍රධාන විශේෂාංග විස්තර කරන්න...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ ව්‍යාපෘතිය එක් කරන්න",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ට්රැකර්",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "සුරකින ලදී",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "අයදුම් කළා",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "තක්සේරුව",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "සම්මුඛ පරීක්ෂණය",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "පිරිනැමීම",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "ප්‍රතික්ෂේප කළා",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ඉල්ලා අස්කර ගත්තා",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "මෙම යෙදුම මකන්නද?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "යෙදුම යාවත්කාලීන කර ඇත!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "යෙදුම මකා ඇත.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "තත්ත්වය",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "වේදිකාව",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "අයදුම් කළා",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "රැකියා පළ කිරීම විවෘත කරන්න",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "වැටුප් / දීමනාව",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "පසු විපරම් මතක් කිරීම",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "සටහන්",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "සටහන්, සම්බන්ධතා තොරතුරු, සම්මුඛ පරීක්ෂණ විස්තර එක් කරන්න...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "රැකියා විස්තරය (උපුටා ගැනීම)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "මකන්න",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "අවලංගු කරන්න",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "සුරකින්න",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 යෙදුම",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ යෙදුම්",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "සමාගම අනුව පෙරහන් කරන්න...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "තත්ව පෙරහන්",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "වැඩි විස්තර සඳහා දකුණට අනුචලනය කරන්න →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "සියල්ල",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "යෙදුම් හමු නොවීය",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "නව ට්රැකර් ප්‍රවේශයක් එක් කිරීමට පෙරහන් නැවත සැකසීමට හෝ රැකියාවක් සුරැකීමට උත්සාහ කරන්න",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "විශ්ලේෂණ",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ මුළු යෙදුම්",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "තවමත් දත්ත නොමැත",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "රැකියා සඳහා අයදුම් කිරීම ආරම්භ කරන්න, එවිට ඔබේ විශ්ලේෂණ මෙහි දිස් වනු ඇත.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "පරිවර්තන අනුපාත",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "අයදුම් කළා",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "සම්මුඛ පරීක්ෂණ අනුපාතය",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "පිරිනැමීමේ අනුපාතය",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "මෙම සතියේ අයදුම්පත්",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "යෙදුම් පුනීලය",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "ඉහළ වේදිකා",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "තත්ත්‍වය බිඳවැටීම",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "සන්දර්භය: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "ඔබේ වෘත්තීය සහායක නියමුවා",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "නව කතාබස් ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "කරුණාකර පළමුව ඔබගේ පැතිකඩ සකසන්න එවිට AI හට ප්‍රතිචාර පුද්ගලීකරණය කළ හැක.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "කතාබස් හිස් කළා! මට ඔබට උදව් කළ හැක්කේ කුමක් ද?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "මේ වැඩේ ගැන ඕනම දෙයක් අහන්න...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "ආරම්භ කිරීමට ඔබගේ පැතිකඩ සකසන්න",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "යැවීමට Enter ඔබන්න",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "අනුකූලතා ලකුණු නැවත ආරම්භ කරන්න",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ශක්තිමත් කුසලතා",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ නැතිවූ කුසලතා",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "මෙන්න ඔබේ පුද්ගලාරෝපිත ආවරණ ලිපිය:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ පිටපත් කර ඇත!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 පිටපත් කරන්න",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ බාගත කරන්න",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "මෙන්න $1$ සම්මුඛ පරීක්ෂණ ප්‍රශ්න:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ප්‍රශස්තිකරණ ලකුණු නැවත ආරම්භ කරන්න: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "තරඟ යෝජනා නැවත ආරම්භ කරන්න",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "මෙම රැකියා විස්තරයට එරෙහිව",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "යමක් වැරදී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "ආයුබෝවන්! ඔබ **$2$** හි **$1$** භූමිකාවක් දෙස බලා සිටින බව මට පෙනේ.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "ආයුබෝවන්! ඔබ **$1$** භූමිකාවක් දෙස බලා සිටින බව මට පෙනේ.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "ආයුබෝවන්! මම ඔබේ AI වෘත්තීය සහායක නියමුවා. රැකියා ලැයිස්තුවක් වෙත සංචාලනය කරන්න, මම එය ස්වයංක්‍රීයව විශ්ලේෂණය කරන්නම්, නැතහොත් මගෙන් ඕනෑම දෙයක් අසන්න!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "කරුණාකර පැතිකඩ පටිත්තෙහි පළමුව ඔබගේ පැතිකඩ සකසන්න!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "මෙම විශේෂාංගය භාවිතා කිරීමට කරුණාකර ඔබගේ බ්‍රවුසරයේ රැකියා ලැයිස්තු පිටුවක් විවෘත කරන්න!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow අගුළු හරින්න",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "ඔබගේ උපකරණ පුවරුවට ප්‍රවේශ වීමට, රැකියා සමමුහුර්ත කිරීමට, ඔබගේ ජීව දත්ත පැතිකඩ කළමනාකරණය කිරීමට, සහ රැකියා අයදුම්පත් ස්වයංක්‍රීයව පිරවීමට Google සමගින් පුරන්න.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ස්වයං පිරවීම සහ ක්ලිපර්",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "එක් ක්ලික් කිරීමකින් යෙදුම් පරිලෝකනය කර ස්වයංක්‍රීයව පුරවන්න.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync සහ Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ඔබගේ සියලුම රැකියා ලුහුබැඳීමේ විස්තර Supabase වෙත සමමුහුර්ත කරන්න.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "නැවත ආරම්භ කිරීම සහ පැතිකඩ",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "ඔබගේ ජීව දත්ත පත්‍රය උඩුගත කර යෙදුම් පිළිතුරු අභිරුචිකරණය කරන්න.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google වෙත සම්බන්ධ වෙමින්...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google සමඟින් පුරනය වන්න",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "පුරනය වීමෙන්, ඔබ ඔබගේ සක්‍රිය වැඩබිම වෙත ඔබගේ පැතිකඩ දත්ත ආරක්ෂිතව සමමුහුර්ත කිරීමට එකඟ වේ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "ඔබට වරනය වීමට අවශ්‍ය බව විශ්වාසද?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "සාර්ථකව වරනය විය.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ ලෙස පුරනය වී ඇත",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "වරනය වන්න",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "පුරනය වන්න",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "සම්බන්ධ වෙමින්...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow විවෘත කරන්න",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ශක්තිමත් ගැලපීමේ කුසලතා",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "නැතිවූ කුසලතා",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "ස්මාර්ට් ස්වයං පිරවුම් පිටුව",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "පෝරමය ස්වයංක්‍රීයව පිරවීම...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "පිටුවෙහි පිරවිය හැකි යෙදුම් ක්ෂේත්‍ර කිසිවක් හමු නොවීය.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "සාර්ථකව පුරවා ඇත!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "පිටු සංකීර්ණත්වය හේතුවෙන් ස්වයං පිරවීම අසාර්ථක විය.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "පිරවීමේදී ලොග් ට්රැකර් වෙත ස්වයංක්‍රීයව සුරැකේ.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "ඔබගේ ජීව දත්ත පත්‍රය මෙම භූමිකාව සමඟ **$1$% අනුකූල වේ.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "නැවත සාදරයෙන් පිළිගනිමු, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google පරිශීලක පැතිකඩ තොරතුරු ලබා ගැනීමට අසමත් විය.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth පිවිසුම අසාර්ථක විය: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "යළි-යොමුවීම් වෙතින් ප්‍රවේශ ටෝකනය ලබා ගැනීමට අසමත් විය.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "සත්‍යාපන යළි-යොමුවීම් විග්‍රහ කිරීමට අසමත් විය.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "මෙම වේදිකාවේ සත්‍යාපනය සඳහා සහය නොදක්වයි.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "රැකියාව ට්රැකර් වෙත සුරැකිණි!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "අමුත්තා",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ සාමාන්‍ය සැකසුම්",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn රැකියා පිටුවල පෙන්වන්න",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "ඔබ LinkedIn හි රැකියා පළ කිරීම් බලන විට ස්මාර්ට් ගැළපෙන ලකුණු සහ එක් ක්ලික් ස්වයංක්‍රීය පිරවුම් බොත්තමක් පෙන්වයි.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'රැකියාව සුරකින්න' බොත්තම පෙන්වන්න",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "රැකියා අඩවිවල පාවෙන 'රැකියාව සුරකින්න 📌' බොත්තමක් පෙන්වයි, එවිට ඔබට අයදුම් කිරීමට පෙර රැකියා විස්තර ඉක්මනින් ඔබේ ට්‍රැකර් වෙත සුරැකිය හැක.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "ඇත්ත වශයෙන්ම අයදුම් කිරීමෙන් පසුව පමණක් ලොග් වන්න",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "ඔබගේ ට්රැකර් වෙත කාර්යය එක් කිරීමට පෙර ඔබ 'ස්තුතියි' හෝ 'සාර්ථකත්වය' තිරය දකින තෙක් රැඳී සිටින්න. අඩක් පුරවා ඇති පෝරම 'අයදුම්' ලෙස සුරැකීමෙන් වළක්වා ගැනීමෙන් ඔබේ ට්‍රැකරය පිළිවෙලට තබා ගනී.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI ණය සහ භාවිත විශ්ලේෂණ",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ණය ඉතිරි",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ඉතිරි ණය",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "මුළු ණය",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "සර්වකාලීන ස්වයං පිරවුම්",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "සැලසුම් තත්ත්වය",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "වාරික 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "නොමිලේ 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro ඉඟිය:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Smart Autofill මෙහෙයුම් සඳහා ණය 0 ක් වැය වන අතර 100% අසීමිත වේ! ආවරණ ලිපි (5 ණය) සහ අභිරුචි රචනා (3 ණය) වැනි උසස් AI විශේෂාංග පමණක් ඔබේ ණය ශේෂය පරිභෝජනය කරයි.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google ගිණුම සහ Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync Active",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync අගුළු දමා ඇත (වාරික පමණි)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Cloud වෙත තල්ලු කරන්න",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "වලාකුළෙන් අදින්න",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "සමමුහුර්ත කිරීම සාර්ථකයි!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "සමමුහුර්ත කිරීම අසාර්ථක විය. ඔබගේ සම්බන්ධතාවය පරීක්ෂා කරන්න.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "ආරක්ෂිත Cloud Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "ඔබගේ යෙදුම් සහ පැතිකඩ Supabase වෙත උපස්ථ කිරීමට Google සමඟින් පුරන්න. සමමුහුර්ත කිරීම ඔබගේ ලොග උපාංග හරහා ආරක්ෂිතව තබන වාරික විශේෂාංගයකි.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync යනු Premium විශේෂාංගයකි. සමමුහුර්ත කිරීම සබල කිරීමට කරුණාකර උත්ශ්‍රේණි පටිත්තෙහි උත්ශ්‍රේණි කරන්න!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 දත්ත කළමනාකරණය",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "අපනයන උපස්ථය (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "සියලුම දේශීය දත්ත හිස් කරන්න",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "දේශීය දත්ත හිස් කිරීමෙන් ඔබගේ පැතිකඩ සහ යෙදුම් මෙම උපාංගයෙන් පමණක් ඉවත් කරයි. වලාකුළු දත්ත බල නොපායි.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "පාලන මධ්යස්ථානය",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "නිවස සහ ගැන",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "සාමාන්ය සැකසුම්",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro 👑 වෙත උත්ශ්‍රේණි කරන්න",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "වාරික සැලැස්ම 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "ගිණුම සහ සමමුහුර්තකරණය",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "රහස්‍යතා ප්‍රතිපත්තිය",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "නිතර අසන පැන",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "යතුරුපුවරු කෙටිමං",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow වෙත සාදරයෙන් පිළිගනිමු",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow යනු AI බලයෙන් ක්‍රියාත්මක වන ක්‍රෝම් දිගුවක් වන අතර එය වඩා වේගයෙන් හා වඩා දක්ෂ ලෙස අයදුම් කිරීමට අවශ්‍ය සිසුන් සහ රැකියා සොයන්නන් සඳහා ගොඩනගා ඇත. එය වේදිකා 15+ හරහා රැකියා ඉල්ලුම්පත්‍ර ස්වයංක්‍රීයව හඳුනාගෙන පුරවයි, ඔබේ නල මාර්ගය හඹා යයි, සහ ඔබට තවත් සම්මුඛ පරීක්ෂණ සඳහා උපකාර කරයි.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ස්මාර්ට් ස්වයං පිරවීම",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "නිශ්චිත තේරීම් සහිත 15+ ATS වේදිකා",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "වෙබ් ක්ලිපර්",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "එක්-ක්ලික් කරන්න ඕනෑම රැකියා ලැයිස්තුවක් සුරකින්න",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "කන්බන් ට්රැකර්",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "ඔබගේ යෙදුම් නල මාර්ගය ඇද දමන්න",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO ස්වයං පිරවීම",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "ජනවිකාස සහ වීසා ප්‍රශ්න ස්වයංක්‍රීයව පුරවයි",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI රචනා",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "මිථුන ලග්නය බලැති අභිරුචි පිළිතුරු ලිවීම",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "ආරක්ෂිත සමමුහුර්තකරණය",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "විකල්ප Subbase cloud backup",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 ආරම්භ කරන්නේ කෙසේද",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "ඔබේ පැතිකඩ ගොඩනඟන්න",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "උත්පතන → පැතිකඩ ටැබය විවෘත කරන්න → ඔබේ ජීව දත්ත පත්‍රය PDF උඩුගත කරන්න. AI විසින් කුසලතා, පළපුරුද්ද, අධ්‍යාපනය සහ ව්‍යාපෘති ඇතුළුව ඔබගේ සියලු තොරතුරු ස්වයංක්‍රීයව උපුටා ගනු ඇත.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO මනාප සකසන්න",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "ඔබගේ පැතිකඩෙහි EEO කොටස වෙත අනුචලනය කර ඔබගේ වැඩ අවසරය, වීසා අනුග්‍රාහකත්ව අවශ්‍යතා සහ ජනවිකාස මනාප සකසන්න. මේවා EEO ප්‍රශ්නාවලිය ස්වයංක්‍රීයව පිරවීමට භාවිතා කරයි.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "රැකියා ලැයිස්තුවක් බ්‍රවුස් කරන්න",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "ඕනෑම රැකියා ලැයිස්තුවකට සංචාලනය කරන්න. ඔබට 📌 \"රැකියාව සුරකින්න\" බොත්තමක් පෙනෙනු ඇත. ඔබගේ ට්රැකර් වෙත ස්ථානය ක්ෂණිකව සුරැකීමට එය ක්ලික් කරන්න.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "අයදුම් පත්‍රයක් විවෘත කරන්න",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "අයදුම් පත්‍රය වෙත සංචාලනය කරන්න. ApplyFlow උත්පතන ක්ලික් කරන්න → \"ස්කෑන් පිටුව\" ක්ලික් කරන්න → ඉන්පසු \"⚡ Smart Autofill\". රේඩියෝ බොත්තම් සහ පතන ඇතුළු සියලුම ක්ෂේත්‍ර ක්ෂණිකව පුරවනු ලැබේ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "ඔබේ නල මාර්ගය නිරීක්ෂණය කරන්න",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "ඔබගේ සියලුම යෙදුම් බැලීමට ට්‍රැකර් ටැබය විවෘත කරන්න. කන්බන් බෝඩ් දර්ශනය වෙත මාරු වී ඔබේ තත්ත්‍ව යාවත්කාලීන ලෙස තීරු අතර කාඩ්පත් ඇද දමන්න.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 පුරනය වීම අවශ්‍යයි",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "සැකසීම් අභිරුචිකරණය කිරීමට පුරන්න",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "සාමාන්‍ය සැකසීම් ලබා ගත හැක්කේ පුරනය වී ඇති පරිශීලකයින්ට පමණි. ඔබගේ මනාප, ස්වයං පිරවුම් හැසිරීම් සහ තවත් දේ වින්‍යාස කිරීමට Google සමගින් පුරන්න.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "ගිණුම සහ සමමුහුර්ත කිරීම වෙත යන්න",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "බලපත්‍ර යතුර: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "බලපත්‍රය අක්‍රිය කරන්න",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 බලපත්‍ර යතුර සක්‍රිය කිරීම",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "ඔබ දායකත්වයක් මිල දී ගෙන තිබේ නම් හෝ ප්‍රවේශ කේතයක් ලැබී ඇත්නම්, ApplyFlow Premium අගුලු හැරීමට ඔබේ බලපත්‍ර යතුර පහතින් ඇතුළු කරන්න.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "සක්රිය කරන්න",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "සක්‍රිය කරමින්...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 ඉඟිය: ඔබට APPLYFLOW-PRO-2026 යතුර භාවිතයෙන් Premium සක්‍රිය කළ හැක.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "වාරික සක්රිය කර ඇත!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow සඳහා සහය දැක්වීම ගැන ඔබට ස්තුතියි. සියලුම වාරික විශේෂාංග දැන් අගුලු හැර ඇත.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium Upgrade සැලැස්ම",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "ඔබේ වෘත්තීය අපනයන සහ උසස් AI විශේෂාංග අගුළු හරින්න.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "ආවරණ ලිපි, අභිරුචි රචනා පිළිතුරු, නැවත ආරම්භ ප්‍රශස්තකරණය සහ ව්‍යාජ සම්මුඛ පරීක්ෂණ සඳහා වාරික AI ණය ලබා ගන්න. සහය දක්වන වේදිකාවල ස්වයංක්‍රීය පිරවුම් මෙහෙයුම් සම්පූර්ණයෙන්ම අසීමිත වන අතර සියලුම වාරික පරිශීලකයින් සඳහා නොමිලේ!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 කලින් දරුකමට හදාගැනීමේ දීමනාව:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "වාරික භාවිතා කරන්නන් 500 කින් මීළඟ මිල වැඩිවීම. ජීවිතය සඳහා මෙම අනුපාතය අගුලු දමන්න!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "මාසික Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "කෙටි කාලීන සෙවීම සඳහා හොඳයි",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "රුපියල් 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ මාසය",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(දිනකට රුපියල් 13 ක් පමණි)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "මසකට AI ක්‍රෙඩිට් 150ක්||||අසීමිත ස්වයං පිරවුම් (සියලු ද්වාර)|||Cloud Sync & Google Backup|||Premium Themes||||දැන්වීම්-රහිත අත්දැකීම",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "මාසිකව දායක වන්න",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "කාර්තුමය Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "බොහෝ රැකියා සොයන්නන් සඳහා හොඳම වටිනාකම",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "රුපියල් 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ මාස 3 යි",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(දිනකට රුපියල් 11 ක් පමණි)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "කාර්තුවකට AI ණය 500ක්|||අසීමිත ස්වයං පිරවුම් (සියලු ද්වාර)|||ගැලපුම් කළ ආවරණ ලිපි සහ රචනා|||Cloud Sync & Google Backup|||තරග යෝජනා නැවත ආරම්භ කරන්න",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "කාර්තුවකට දායක වන්න",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "වඩාත්ම ජනප්රියයි",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "වාර්ෂික අවසාන",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "බලශක්ති භාවිතා කරන්නන් සඳහා හොඳම වටිනාකම",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "රුපියල් 2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ වර්ෂය",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(මසකට රුපියල් 249 ට සමාන)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "වසරකට AI ණය 2,500ක්|||අසීමිත දෛනික ස්වයං පිරවුම්|||ගැලපුම් කළ ආවරණ ලිපි සහ රචනා|||Cloud Sync & Google Backup|||නැවත ආරම්භ තරඟ යෝජනා|||ප්‍රමුඛතා ඊමේල් සහාය",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "වාර්ෂිකව දායක වන්න",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "හොඳම වටිනාකම - 40% ඉතිරි කරන්න",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow සංවර්ධන සහාය",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow ස්වාධීන සංවර්ධකයින් විසින් ගොඩනගා නඩත්තු කරනු ලැබේ. ඔබට දිගුව ප්‍රයෝජනවත් යැයි හැඟේ නම්, එය සක්‍රිය, දැන්වීම්-රහිතව සහ නව රැකියා පුවරු සඳහා යාවත්කාලීනව තබා ගැනීමට උදවු කිරීමට Ko-fi මත පරිත්‍යාග කිරීම සලකා බලන්න.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "මට Ko-fi මත කෝපි එකක් මිලදී ගන්න",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 ශ්‍රේණිගත කිරීම|||🔒 ආරක්ෂිත ගෙවීම්|||✓ ඕනෑම වේලාවක අවලංගු කරන්න",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "වලංගු නොවන බලපත්‍ර යතුර. ඉඟිය: 'APPLYFLOW-PRO-2026' ආදර්ශන යතුර භාවිතා කිරීමට උත්සාහ කරන්න!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "බලපත්‍රය සාර්ථකව සක්‍රිය කර ඇත! ApplyFlow Premium වෙත සාදරයෙන් පිළිගනිමු. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "ඔබට ඔබේ වාරික බලපත්‍රය අක්‍රිය කිරීමට අවශ්‍ය බව විශ්වාසද? මෙය ඔබව නිදහස් සැලැස්ම වෙත ආපසු ලබා දෙනු ඇත.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "වාරික බලපත්‍රය අක්‍රිය කර ඇත. ඔබ දැන් සිටින්නේ නිදහස් සැලැස්මේ ය.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "මෙය සියලුම දේශීය පැතිකඩ සහ යෙදුම් දත්ත ස්ථිරවම මකනු ඇත. ඔයාට විශ්වාස ද?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 රහස්‍යතා ප්‍රතිපත්තිය",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ නිතර අසන ප්රශ්න",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow යනු කුමක්ද සහ එය ක්‍රියා කරන්නේ කෙසේද?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow යනු LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, සහ තවත් වේදිකා 15+ හරහා රැකියා ඉල්ලුම්පත්‍ර ස්වයංක්‍රීයව හඳුනාගෙන පුරවන AI-බලවත් Chrome දිගුවකි. එය ඔබගේ සුරැකි පැතිකඩ කියවන අතර EEO/ජන විකාශන ප්‍රශ්න ඇතුළුව - පෙළ ක්ෂේත්‍ර, පතන, රේඩියෝ බොත්තම් සහ පිරික්සුම් කොටු පිරවීමට බුද්ධිමත් ගැලපීම භාවිතා කරයි.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ApplyFlow සමඟ මගේ පුද්ගලික දත්ත ආරක්ෂිතද?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ඔව්. ඔබගේ දත්ත පෙරනිමියෙන් ඔබගේ බ්‍රවුසරයේ chrome.storage.local හි දේශීයව ගබඩා වේ. එය ඔබගේම විකල්ප Supabase දත්ත ගබඩාව (ඔබ පාලනය කරන) හැර වෙනත් කිසිම තෙවන පාර්ශ්ව සේවාදායකයකට කිසිදා යවන්නේ නැත. ApplyFlow කිසිවිටෙක ඔබේ පුද්ගලික තොරතුරු විකිණීම, බෙදාගැනීම හෝ මුදල් ඉපැයීම සිදු නොකරයි.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow සහාය දක්වන රැකියා වේදිකාවන් මොනවාද?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow පෙට්ටියෙන් පිටත වේදිකා 15+ සඳහා සහය දක්වයි: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, ඇත්ත වශයෙන්ම, Wellfound/AngelList, සහ අපගේ intelligent ජෙනරික් ෆෝල්බැක් හරහා වෙනත් ඕනෑම වෙබ් අඩවියක්.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper යනු කුමක්ද?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper යනු ඔබ කිසියම් රැකියා ලැයිස්තුගත කිරීමේ පිටුවකට පිවිසෙන විට ස්වයංක්‍රීයව දිස්වන පාවෙන \"රැකියාව සුරකින්න\" බොත්තමකි (📌). එය ක්ලික් කිරීමෙන් රැකියා මාතෘකාව, සමාගම, වැටුප සහ විස්තරය උපුටා ගනී, පසුව එය \"සුරකින ලද\" යෙදුමක් ලෙස ඔබගේ ApplyFlow ට්‍රැකර් වෙත සුරකියි - එවිට ඔබට අයදුම් කිරීමට පෙර රැකියා නිරීක්ෂණය කළ හැක.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "මම මගේ පැතිකඩ යාවත්කාලීන කරන්නේ කෙසේද?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow උත්පතන විවෘත කර, \"පැතිකඩ\" ටැබය ක්ලික් කර, ඔබගේ ජීව දත්ත පත්‍රය PDF උඩුගත කරන්න. AI ඔබගේ සියලුම ක්ෂේත්‍ර ස්වයංක්‍රීයව ජනනය කරයි. ඔබට ඔබේ EEO මනාප, වැඩ අවසරය සහ ආවරණ ලිපි ඇතුළුව ඕනෑම ක්ෂේත්‍රයක් අතින් සංස්කරණය කළ හැක.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO ක්ෂේත්‍ර මොනවාද සහ මට ඒවා අවශ්‍ය වන්නේ ඇයි?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (සමාන රැකියා අවස්ථා) ක්ෂේත්‍ර යනු බොහෝ එක්සත් ජනපද සහ ගෝලීය සේවා යෝජකයින් ස්ත්‍රී පුරුෂ භාවය, ආබාධිත තත්ත්වය, ප්‍රවීණ තත්ත්වය සහ රැකියා අවසරය පිළිබඳව අසන ප්‍රශ්න වේ. ApplyFlow ඔබ කැමති පිළිතුරු ගබඩා කරන අතර මෙම රේඩියෝ බොත්තම් කණ්ඩායම් ස්වයංක්‍රීයව පුරවයි, එවිට ඔබට සෑම අවස්ථාවකම ඒවාට අතින් පිළිතුරු දීමට අවශ්‍ය නොවේ.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow හට කිසියම් API යතුරු හෝ වින්‍යාස කිරීමක් අවශ්‍යද?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "නැහැ! ApplyFlow සියළුම ආකාර හඳුනාගැනීම්, ස්මාර්ට් ගැලපීම, ආවරණ ලිපි උත්පාදනය සහ අනුකූලතා ලකුණු කිරීම ස්වයංක්‍රීයව හසුරුවයි. ඔබට කිසිදු API යතුරු ලබා ගැනීමට හෝ වින්‍යාස කිරීමට අවශ්‍ය නොවේ.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase සමමුහුර්තකරණය යනු කුමක්ද සහ මට එය අවශ්‍යද?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase සමමුහුර්තකරණය විකල්ප වලාකුළු උපස්ථ විශේෂාංගයකි. ඔබ Google සමඟින් පුරනය වී එය සක්‍රීය කරන විට, ඔබගේ පැතිකඩ සහ යෙදුම් ට්‍රැකර් පුද්ගලික වලාකුළු දත්ත ගබඩාවකට සමමුහුර්ත වන නිසා ඔබගේ දත්ත උපස්ථ කර බහු උපාංග වලින් ප්‍රවේශ විය හැක. මෙය සම්පූර්ණයෙන්ම විකල්ප වේ - දිගුව සම්පූර්ණයෙන්ම නොබැඳිව ක්‍රියා කරයි.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ApplyFlow හට සියලුම වෙබ් අඩවි වෙත ප්‍රවේශය අවශ්‍ය වන්නේ ඇයි?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow සියලුම වෙබ් අඩවි වෙත ප්‍රවේශය ඉල්ලා සිටින අතර එමඟින් ඕනෑම රැකියා ඉල්ලුම් පත්‍රයක ස්වයංක්‍රීය පිරවුම් එන්ජිම එන්නත් කළ හැකි අතර ඕනෑම රැකියා ලැයිස්තුවක \"රැකියාව සුරකින්න\" බොත්තම පෙන්වයි. පුළුල් වේදිකා සහාය සඳහා මෙම අවසරය අවශ්‍ය වේ. අපි පැහැදිලිවම රැකියාවට සම්බන්ධ පිටු මත ස්ක්‍රිප්ට් එන්නත් කරන්නෙමු.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kanban Board යනු කුමක්ද?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board යනු Tracker පටිත්තෙහි දෘශ්‍ය රැකියා ලුහුබැඳීමේ දසුනකි. එය තීරු වලින් සංවිධානය කර ඇති ඔබගේ අයදුම්පත් පෙන්වයි: සුරැකි → යොදන ලද → තක්සේරුව → සම්මුඛ පරීක්ෂණය → පිරිනැමීම. ඔබට ඕනෑම යෙදුමක තත්ත්වය යාවත්කාලීන කිරීමට තීරු අතර කාඩ්පත් ඇදගෙන යා හැක.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "ඉදිරිපත් කිරීම් අනාවරණය ක්‍රියා කරන්නේ කෙසේද?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "ඔබ සැකසීම් තුළ \"ඉදිරිපත් කිරීමෙන් පසුව පමණක් ලොග් වන්න\" සබල කළ විට, සාර්ථක ඉදිරිපත් කිරීමක් පෙන්නුම් කරන පිටු වෙනස්කම් සඳහා ApplyFlow නරඹයි (\"/සාර්ථකත්වය\" අඩංගු URL එකක් හෝ \"අයදුම් කළාට ස්තූතියි\" යැයි පවසන ශරීර පෙළ වැනි). එය ඔබගේ ට්රැකර් වෙත යෙදුම ලොග් කරන්නේ එය සැබෑ ඉදිරිපත් කිරීමක් හඳුනා ගැනීමෙන් පසුව පමණි.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "මට ආවරණ ලිපි කිහිපයක් ගබඩා කළ හැකිද?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ඔව්! පැතිකඩ තිරයේ \"ආවරණ ලිපි සුරක්ෂිතාගාරය\" කොටසක් ඇත, එහිදී ඔබට විවිධ භූමිකාවන්ට හෝ සමාගම්වලට ගැලපෙන අසීමිත ආවරණ ලිපි ගබඩා කළ හැකිය. ස්වයංක්‍රීය පුරවන විට, ApplyFlow ඔබගේ වඩාත්ම මෑතකාලීන හෝ වඩාත්ම අදාළ ආවරණ ලිපිය භාවිතා කරනු ඇත.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "මගේ යෙදුම් දත්ත අපනයනය කරන්නේ කෙසේද?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "ගිණුමට ගොස් සමමුහුර්ත කරන්න → පහළට අනුචලනය කරන්න → \"අපනයන උපස්ථ (JSON)\" ක්ලික් කරන්න. මෙය ඔබගේ සියලු පැතිකඩ සහ යෙදුම් දත්ත ආරක්ෂිතව තබා ගැනීම සඳහා JSON ගොනුවක් ලෙස බාගත කරයි.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow Demo Mode එකේ ක්‍රියා කරයිද?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo Mode යනු පරීක්ෂා කිරීම සඳහා භාවිතා කරන ලද උරුම සැකසුමකි. එය දැන් පෙරනිමියෙන් අක්‍රිය කර ඇත. බිල්ට්-ඉන් Gemini API යතුර සමඟ සියලුම විශේෂාංග සජීවී සහ ක්‍රියාකාරී වේ.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "මම දෝෂයක් වාර්තා කරන්නේ හෝ විශේෂාංගයක් ඉල්ලන්නේ කෙසේද?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "කරුණාකර අපගේ GitHub ගබඩාවේ (ගැන කොටසේ සම්බන්ධිත) ගැටලුවක් විවෘත කරන්න හෝ support@applyflow.in හි අපට විද්‍යුත් තැපැල් කරන්න. අපි සාමාන්‍යයෙන් පැය 48ක් ඇතුළත ප්‍රතිචාර දක්වන්නෙමු.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow උත්පතන විවෘත කරන්න",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "පෝරම ක්ෂේත්‍ර සඳහා වත්මන් පිටුව පරිලෝකනය කරන්න",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "වත්මන් පිටුවෙහි Smart Autofill ක්‍රියාරම්භ කරන්න",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "වත්මන් රැකියා ලැයිස්තුව ට්රැකර් වෙත ක්ලිප් කරන්න",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "ට්‍රැකර් නව ටැබ් එකකින් විවෘත කරන්න",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome හි කෙටිමං වින්‍යාස කරන්න",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "සටහන:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome දිගු විධාන සඳහා Chrome හි කෙටිමං කළමනාකරු තුළ අතින් පැවරීම අවශ්‍ය වේ. ඉහත ලැයිස්තුගත කර ඇති යතුරු බැඳීමට $1$ වෙත යන්න.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — රහස්‍යතා ප්‍රතිපත්තිය**\nඅවසන් යාවත්කාලීන කළේ: 2026 ජූනි\n\n____\n\n**1. හැඳින්වීම**\n\nApplyFlow (\"අපි\", \"අපේ\", \"දිගුව\") යනු පරිශීලකයින්ට රැකියා ඉල්ලුම්පත්‍ර ස්වයංක්‍රීයව පිරවීමට, ඔවුන්ගේ යෙදුම් ලුහුබැඳීමට සහ ඔවුන්ගේ වෘත්තීය පැතිකඩ කළමනාකරණය කිරීමට උදවු කරන Chrome බ්‍රවුසර දිගුවකි. මෙම රහස්‍යතා ප්‍රතිපත්තිය අපි ඔබගේ තොරතුරු රැස් කරන, භාවිතා කරන, ගබඩා කරන සහ ආරක්ෂා කරන ආකාරය පැහැදිලි කරයි.\n\nApplyFlow ස්ථාපනය කිරීමෙන් සහ භාවිතා කිරීමෙන්, ඔබ මෙම ප්‍රතිපත්තියේ විස්තර කර ඇති පරිචයන් වලට එකඟ වේ.\n__\n_____\n\n**2. අපි රැස් කරන දත්ත**\n\n දිගුවේ විශේෂාංග සබල කිරීමට ඔබ ස්වේච්ඡාවෙන් සපයන තොරතුරු පමණක් අපි රැස් කරමු:\n\n• **පැතිකඩ තොරතුරු**: ඔබේ නම, විද්‍යුත් තැපෑල, දුරකථන අංකය, විද්‍යාලය, උපාධිය, කුසලතා, සේවා ඉතිහාසය, ව්‍යාපෘති, සහ වෘත්තීය සබැඳි, Gitink Portfolio).\n• **EEO/ජන විකාශන තොරතුරු (විකල්ප)**: ස්ත්‍රී පුරුෂ භාවය, ආබාධිත තත්ත්වය, ප්‍රවීණ තත්ත්වය, සහ රැකියා අවසර මනාප — ඔබ මෙම ක්ෂේත්‍ර පිරවීමට තෝරා ගන්නේ නම් පමණි. මෙම දත්ත රැකියා ඉල්ලුම්පත්‍රවල විකල්ප EEO ප්‍රශ්නාවලි ස්වයංක්‍රීයව පිරවීම සඳහා පමණක් භාවිත කෙරේ.\n• **අයදුම්පත් ලුහුබැඳීමේ දත්ත**: රැකියා මාතෘකාව, සමාගම, යෙදුම් URL, තත්ත්වය, සහ දිගුව භාවිතයෙන් ඔබ නිරීක්ෂණය කරන තනතුරු සඳහා සටහන්.\n• **භාවිතා කිරීමේ සංඛ්‍යාලේඛන සඳහා දෛනිකව ක්‍රියාත්මක වන සංඛ්‍යාලේඛන සීමාවන්).\n• **සත්‍යාපන දත්ත**: ඔබ Google සමඟ පුරනය වීමට තෝරා ගන්නේ නම්, අපි ඔබගේ Google සංදර්ශක නම, විද්‍යුත් තැපැල් ලිපිනය සහ පැතිකඩ පින්තූර URL ගබඩා කර ඔබගේ අත්දැකීම පුද්ගලීකරණය කිරීමට සහ වලාකුළු සමමුහුර්තකරණය සක්‍රීය කිරීමට ගබඩා කරමු.\n\nඅපි **නොවේ** රැස්කරන්නෙමු ක්‍රියාකාරකම\n• රැකියා-අයදුම්පතට අදාළ නොවන පිටු වලින් ඕනෑම තොරතුරක්\n• දිගුව සක්‍රියව ක්‍රියාරම්භ කර නොමැති විට පිටු වලින් ඕනෑම දත්තයක්\n\n---_\n\n**3. අපි ඔබේ දත්ත ගබඩා කරන්නේ කෙසේද**\n\n**3.1 දේශීය ආචයනය (පෙරනිමිය)**\nසියලු දත්ත ප්‍රධාන වශයෙන් ඔබේ බ්‍රවුසරයේ chrome.storage.local API තුළ ගබඩා කර ඇත. මෙම දත්ත ඔබගේ උපාංගයේ පමණක් පවතින අතර ඔබේ පැහැදිලි ක්‍රියාවකින් තොරව කිසිවිටෙක කිසිදු සේවාදායකයකට සම්ප්‍රේෂණය නොවේ.\n\n**3.2 Cloud Sync (විකල්ප)**\nඔබ Google සමඟ පුරනය වීමට සහ \"Supabase Sync\" විශේෂාංගය සක්‍රීය කිරීමට තෝරා ගන්නේ නම්, ඔබගේ පැතිකඩ සහ යෙදුම් දත්ත සමමුහුර්ත කිරීමට ද දත්ත සමමුහුර්ත කරනු ඇත. මෙම දත්තවල සම්පූර්ණ හිමිකාරිත්වය ඔබ සතුවේ. ඔබට එය ඕනෑම වේලාවක ගිණුම සහ සමමුහුර්ත කිරීමේ අංශයෙන් මකා දැමිය හැක.\n\n**3.3 Gemini AI ඉල්ලීම්**\nAI විශේෂාංග භාවිතා කරන විට (උදා., රචනා උත්පාදනය, රැකියා විශ්ලේෂණය), ඔබේ පැතිකඩෙහි කොටස් (නිපුණතා, උපාධිය, සාරාංශය) සහ Google රැකියා විස්තරය සඳහා ප්‍රතිචාරය උත්පාදනය කරනු ලැබේ. මෙය Google හි සම්මත API සේවා නියම සහ රහස්‍යතා ප්‍රතිපත්තිය යටතේ සකසනු ලැබේ. ඔබගේ AI-සහාය අන්තර්ගතය තුළ සංවේදී පුද්ගලික හඳුනාගැනීම් ඇතුළත් නොකිරීමට අපි නිර්දේශ කරමු.\n\n_____\n\n**4. දත්ත බෙදාගැනීම**\n\nඅපි අලෙවිකරණ හෝ ප්‍රචාරණ අරමුණු සඳහා ඔබේ පුද්ගලික තොරතුරු *************නො* විකිණීම, වෙළඳාම් කිරීම, කුලියට ගැනීම හෝ බෙදා නොගැනීම (https://policies.google.com/privacy)\n• **Google OAuth**: ගිණුම් සත්‍යාපනය සඳහා (https://policies.google.com/privacy)\n• **Supabase**: විකල්ප ක්ලවුඩ් ආචයනය සඳහා (https://supabase.com/privacy) — ඔබ ප්‍රිය කළ හැකි නම් පමණි. සමමුහුර්ත කරන්න\n\n_____\n\n**5. ඔබගේ අයිතිවාසිකම් සහ පාලනය**\n\nඔබට අයිතිය ඇත:\n• **ප්‍රවේශය** ApplyFlow ඔබ ගැන ගබඩා කර ඇති සියලුම දත්ත (සැකසීම් තුළ අපනයන උපස්ථ හරහා)\n• **නිවැරදි** ඔබගේ සියලු දත්ත ඕනෑම වේලාවක පැතිකඩ ටැබය භාවිතා කර ඔබගේ සියලු දත්ත ***L_L_L_DeleteClick 59__N පැතිකඩ දත්ත\" සැකසීම් තුළ\n• **කැමැත්ත ඉල්ලා අස්කර ගන්න** දිගුව අස්ථාපනය කිරීමෙන්\n• **ක්ලවුඩ් සමමුහුර්තකරණය අක්‍රිය කරන්න** ගිණුම් සහ සමමුහුර්ත සැකසීම් තුළ ටොගල් කිරීමෙන් එය අක්‍රිය කරන්න\n\n**ඔබට EU: ප්‍රවේශ වීමට ඔබට අයිතියක් තිබේ නම්, EU: සාමාන්‍ය දත්ත ආරක්ෂණ රෙගුලාසි යටතේ නිවැරදි කිරීම, මකා දැමීම, සැකසීම සහ සීමා කිරීම සහ දත්ත ගෙනයාමේ හැකියාව ඔබට ඕනෑම වේලාවක අප හා සම්බන්ධ වීමෙන් කැමැත්ත ඉල්ලා අස්කර ගැනීමට සහ ඔබගේ දත්ත මැකීමට ඉල්ලීමට හැකිය.\n\n**කැලිෆෝනියා — CCPA**: කැලිෆෝනියාවේ පදිංචිකරුවන්ට එකතු කරන පුද්ගලික තොරතුරු මොනවාදැයි දැන ගැනීමට, මකා දැමීමට අයිතිය සහ විකිණීමෙන් ඉවත් වීමේ අයිතිය (අපි විකුණන්නේ නැත. දත්ත).\n\n_____\n\n**6. දත්ත රඳවා ගැනීම**\n\nඔබ අතින් ඉවත් කරන තෙක් දේශීය දත්ත රඳවා තබා ගනී. ඔබ ඔබගේ ගිණුම මකන තෙක් හෝ මකාදැමීමට ඉල්ලා සිටින තෙක් Cloud-සමමුහුර්ත දත්ත රඳවා තබා ගනී. අපි ස්වයංක්‍රීයව දත්ත මකා නොදමමු.\n\n_____\n\n**7. ආරක්ෂාව**\n\nඔබගේ දත්ත ආරක්ෂා කිරීමට අපි සාධාරණ තාක්ෂණික ක්‍රියාමාර්ග ගන්නවා:\n• සියලුම ක්ලවුඩ් සන්නිවේදනයන් HTTPS/TLS සංකේතනය භාවිතා කරයි\n• Supabase Row-Level Security (RLS) පරිශීලකයින්ට ඔවුන්ගේ දත්ත වලට පමණක් ප්‍රවේශ විය හැකි බව සහතික කරයි__NL_82. ශ්‍රිතය\n\n_____\n\n**8. ළමා රහස්‍යතාව**\n\nApplyFlow වයස අවුරුදු 13ට අඩු පරිශීලකයින් සඳහා අදහස් නොකෙරේ. අපි දැනුවත්ව ළමයින්ගෙන් දත්ත රැස් නොකරමු. දරුවෙකු අපට පුද්ගලික තොරතුරු ලබා දී ඇතැයි ඔබ විශ්වාස කරන්නේ නම්, කරුණාකර වහාම අප හා සම්බන්ධ වන්න.\n\n________\n\n**9. මෙම ප්‍රතිපත්තියට වෙනස්කම්**\n\nඅපි මෙම රහස්‍යතා ප්‍රතිපත්තිය කලින් කලට යාවත්කාලීන කළ හැක. සැලකිය යුතු වෙනස්කම් දිගුවේ විකල්ප පිටුව හරහා සන්නිවේදනය කෙරේ. වෙනස්කම් වලින් පසුව දිගුව අඛණ්ඩව භාවිතා කිරීම යාවත්කාලීන කළ ප්‍රතිපත්තිය පිළිගැනීම වේ.\n\n_____\n\n**10. අප අමතන්න**\n\nපෞද්ගලිකත්වය සම්බන්ධ ඕනෑම ප්‍රශ්න, දත්ත මකාදැමීමේ ඉල්ලීම්, හෝ ගැටළු සඳහා:\n\nඊමේල්: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension https://applyflow.in\n\nඅපි සියලු ඉල්ලීම්වලට දින 30ක් ඇතුළත ප්‍රතිචාර දැක්වීමට ඉලක්ක කරමු.",
+    "description": "Privacy policy document markdown text"
+  }
+}

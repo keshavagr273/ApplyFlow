@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI-taak automatisch aanvullen en applicatietracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Sollicitaties automatisch invullen en vermeldingen automatisch bijhouden met behulp van AI op LinkedIn, Workday, Greenhouse en meer.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Actief",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Toegepast",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Interview",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Aanbieding",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Opgeslagen",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Totaal",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Automatisch aanvullen",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Vullen...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Snel automatisch aanvullen",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analyseer baan",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Zijbalk openen",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Instellingen",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Meld u eerst aan bij Google om Snel automatisch aanvullen te gebruiken!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Stel eerst uw profiel in op de pagina Zijpaneel/Opties!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Gedetecteerd",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Geen vacaturepagina gedetecteerd",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Bezoek een vacature om AI-functies te ontgrendelen",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Goedemorgen",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Goedemiddag",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Goedenavond",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ sollicitaties gevolgd · $2$ interviews",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Begin met solliciteren om uw voortgang bij te houden",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Sollicitatiebrief",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Hulp bij vragen en antwoorden",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Klaar om te helpen",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navigeer naar een vacature op LinkedIn, Workday, Greenhouse of een vacaturebank om aan de slag te gaan.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Deze week",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Recente activiteit",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Bekijk alles →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Start uw zoektocht naar een baan!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Bezoek een vacaturebank en gebruik ApplyFlow om uw sollicitaties automatisch in te vullen en te volgen.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Mijn profiel",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Opslaan...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Bewaar alles",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profiel opgeslagen!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Kan profiel niet opslaan.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Hervatten",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Uploaden naar automatisch aanvulprofiel",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Geüpload",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Persoonlijke informatie",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Onvolledig",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Locatie",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Onderwijs",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Vaardigheden",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Werkervaring",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projecten",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Werkvoorkeuren",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Werkvergunning",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Hervat de geschiedenis",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Gebruik dit",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Geparseerd op $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Profielgegevens laden van \"$1$\"? Hiermee worden uw huidige bewerkingen vervangen door de geparseerde structuur van dit cv.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Gegevens hersteld van $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Wedstrijdscore",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Pasvorm",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ meer",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Applicatie automatisch ingevuld en ingelogd! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Automatisch ingevuld via het ApplyFlow-zijpaneel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "daar",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Geen collegeset",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Stel uw profiel in om automatisch aanvullen in te schakelen",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Niet ingesteld",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ vermeldingen",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ vaardigheden",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projecten",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ antwoorden",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Geautoriseerd",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Niet geautoriseerd",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Volledige naam",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefoon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternatieve telefoon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn-URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfolio-URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub-URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "CV-link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Stad",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Staat",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Land",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Postcode",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adres",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nationaliteit",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Hogeschool / Universiteit",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Graad",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Afstudeerjaar",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Rang",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10e%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12e%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Opzegtermijn",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Verwacht salaris",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Voorkeursrol",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Jarenlange ervaring",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Geautoriseerd om te werken zonder visumsponsoring",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Vereist visumsponsoring",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Geslacht",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Handicap",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Zeg het liever niet",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Niet gespecificeerd",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Mannetje",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Vrouw",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Niet-binair",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ja",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nee",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Er zijn nog geen vaardigheden toegevoegd",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Vaardigheid toevoegen (enter om toe te voegen)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Triggerzin (bijv. Waarom moeten we u aannemen)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Jouw antwoord...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Verwijderen",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Aangepast antwoord toevoegen",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Bedrijf",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rol / Titel",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Startdatum",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Einddatum",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Aanwezig",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Momenteel ben ik werkzaam in deze rol",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Beschrijving",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Beschrijf uw verantwoordelijkheden, belangrijkste prestaties, gebruikte technologieën...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Voeg werkervaring toe",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Projecttitel",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Technische stapel",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Implementatie-URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Beschrijf wat je hebt gebouwd, welk probleem het heeft opgelost en de belangrijkste kenmerken...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Project toevoegen",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Volger",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Opgeslagen",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Toegepast",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Beoordeling",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Interview",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Aanbieding",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Afgewezen",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Ingetrokken",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Deze applicatie verwijderen?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Applicatie bijgewerkt!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Applicatie verwijderd.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Toegepast",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Vacature openen",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Salaris / Stipendium",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Vervolgherinnering",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Opmerkingen",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Voeg notities, contactgegevens, interviewdetails toe...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Functieomschrijving (uittreksel)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Verwijderen",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Annuleer",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Opslaan",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 applicatie",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ toepassingen",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filter op bedrijf...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Statusfilters",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Scroll naar rechts voor meer →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Allemaal",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Geen toepassingen gevonden",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Probeer de filters opnieuw in te stellen of sla een taak op om een nieuw trackeritem toe te voegen",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analyses",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ totaal aantal aanvragen",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Nog geen gegevens",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Begin met solliciteren op vacatures en uw analyses verschijnen hier.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Conversieratio's",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Toegepast",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Interviewtarief",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Aanbiedingstarief",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Toepassingen deze week",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Toepassingstrechter",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Topplatforms",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Statusverdeling",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI-copiloot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Context: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Jouw carrière-copiloot",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Nieuwe chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Stel eerst uw profiel in, zodat de AI de antwoorden kan personaliseren.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat gewist! Waar kan ik je mee helpen?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Vraag alles over deze baan...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Stel uw profiel in om te beginnen",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Druk op Enter om te verzenden",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Compatibiliteitsscore hervatten",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Sterke vaardigheden",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Ontbrekende vaardigheden",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Hier is uw persoonlijke sollicitatiebrief:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅Gekopieerd!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopiëren",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Downloaden",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Hier zijn $1$ waarschijnlijke sollicitatievragen:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "CV-optimalisatiescore: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Match-suggesties hervatten",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "versus deze functiebeschrijving",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Er is iets misgegaan. Probeer het opnieuw.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hoi! Ik zie dat je op zoek bent naar een functie van **$1$** bij **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hoi! Ik zie dat je naar een **$1$** rol kijkt.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hoi! Ik ben jouw AI-carrière-copiloot. Navigeer naar een vacature en ik analyseer deze automatisch, of vraag me wat dan ook!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Stel eerst uw profiel in op het tabblad Profiel!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Open eerst een vacaturepagina in uw browser om deze functie te gebruiken!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Ontgrendel ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Meld u aan bij Google om toegang te krijgen tot uw dashboard, vacatures te synchroniseren, uw cv-profiel te beheren en sollicitaties direct automatisch in te vullen.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Automatisch aanvullen en Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Scan applicaties en vul ze automatisch in met één klik.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloudsynchronisatie en back-up",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Synchroniseer al uw taakregistratiegegevens met Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV & profielen",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Upload uw cv en pas de sollicitatieantwoorden aan.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Verbinding maken met Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Log in met Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Door u aan te melden, gaat u ermee akkoord uw profielgegevens veilig te synchroniseren met uw actieve werkruimte.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Weet u zeker dat u zich wilt afmelden?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Afgemeld.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Ingelogd als $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Uitloggen",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Inloggen",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Verbinden...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Open ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Sterke matchingvaardigheden",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Ontbrekende vaardigheden",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Slimme pagina voor automatisch aanvullen",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Formulier automatisch invullen...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Er zijn geen invulbare toepassingsvelden gevonden op de pagina.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Succesvol gevuld!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Automatisch aanvullen mislukt vanwege de complexiteit van de pagina.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Automatisch opgeslagen in de logtracker bij het vullen.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Je CV is **$1$% compatibel** met deze rol.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Welkom terug, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Kan Google-gebruikersprofielgegevens niet ophalen.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth-aanmelding mislukt: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Kan het toegangstoken niet ophalen uit de omleiding.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Kan verificatie-omleiding niet parseren.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Authenticatie wordt niet ondersteund op dit platform.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Taak opgeslagen op tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Gast",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Algemene instellingen",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Weergeven op LinkedIn-vacaturepagina's",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Toont een slimme matchingscore en een knop voor automatisch aanvullen met één klik wanneer u vacatures op LinkedIn bekijkt.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Toon de knop 'Taak opslaan'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Toont een zwevende knop 'Vacature opslaan 📌' op vacaturesites, zodat u snel vacaturegegevens op uw tracker kunt opslaan voordat u solliciteert.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Log alleen in nadat u daadwerkelijk heeft gesolliciteerd",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Wacht tot je het 'Bedankt'- of 'Succes'-scherm ziet voordat je de taak aan je tracker toevoegt. Houdt uw tracker netjes door te voorkomen dat half ingevulde formulieren worden opgeslagen als 'Toegepast'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI-credits en gebruiksanalyse",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Credits over",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Resterende tegoeden",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Totaal krediet",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Altijd automatisch aanvullen",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Planstatus",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premie 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro-tip:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Slimme Autofill-bewerkingen verbruiken 0 credits en zijn 100% onbeperkt! Alleen geavanceerde AI-functies zoals sollicitatiebrieven (5 credits) en aangepaste essays (3 credits) verbruiken uw tegoed.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google-account en cloudsynchronisatie",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google CloudSync actief",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloudsynchronisatie vergrendeld (alleen Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloudsynchronisatie",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Push naar de cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Trek uit de cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Synchroniseren succesvol!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Synchronisatie mislukt. Controleer uw verbinding.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Veilige cloudsynchronisatie",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Log in met Google om een back-up te maken van uw applicaties en profiel naar Supabase. Synchroniseren is een Premium-functie die uw logboeken op verschillende apparaten veilig houdt.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync is een Premium-functie. Upgrade op het tabblad Upgrade om synchronisatie in te schakelen!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Gegevensbeheer",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Back-up exporteren (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Wis alle lokale gegevens",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Als u lokale gegevens wist, worden uw profiel en applicaties alleen van dit apparaat verwijderd. Cloudgegevens worden niet beïnvloed.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Controlecentrum",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Thuis & Over",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Algemene instellingen",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Upgrade naar Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premiumabonnement 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Account en synchronisatie",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Privacybeleid",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Veelgestelde vragen",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Sneltoetsen",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Welkom bij ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow is een door AI aangedreven Chrome-extensie die is gebouwd voor studenten en werkzoekenden die sneller en slimmer willen solliciteren. Het detecteert en vult automatisch sollicitatieformulieren in op meer dan 15 platforms, volgt uw pijplijn en helpt u meer sollicitatiegesprekken binnen te halen.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Slim automatisch aanvullen",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS-platforms met nauwkeurige selectors",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Webclipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Met één klik kunt u elke vacature opslaan",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban-tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Drag & drop uw applicatiepijplijn",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO automatisch aanvullen",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Vult automatisch demografische en visumvragen in",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI-essays",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-aangedreven antwoord op maat schrijven",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Veilige synchronisatie",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Optionele Supabase-cloudback-up",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Hoe u aan de slag kunt gaan",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Bouw uw profiel",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Open de pop-up → tabblad Profiel → upload uw CV-pdf. De AI extraheert automatisch al uw gegevens, inclusief vaardigheden, ervaring, opleiding en projecten.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO-voorkeuren instellen",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Scroll naar het EEO-gedeelte in uw profiel en stel uw werkvergunning, visumsponsoringbehoeften en demografische voorkeuren in. Deze worden gebruikt om EEO-vragenlijsten automatisch in te vullen.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Blader door een vacature",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigeer naar een vacature. Je ziet een 📌 \"Taak opslaan\" knop verschijnen. Klik erop om de positie onmiddellijk op uw tracker op te slaan.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Open een aanvraagformulier",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navigeer naar het aanvraagformulier. Klik op de ApplyFlow-pop-up → klik op \"Pagina scannen\" → en vervolgens op \"⚡ Slim automatisch aanvullen\". Alle velden, inclusief keuzerondjes en vervolgkeuzelijsten, worden onmiddellijk gevuld.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Volg uw pijplijn",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Open het tabblad Tracker om al uw applicaties te bekijken. Schakel over naar de Kanban Board-weergave en sleep kaarten tussen kolommen terwijl uw status wordt bijgewerkt.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Aanmelden vereist",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Meld u aan om de instellingen aan te passen",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Algemene instellingen zijn alleen beschikbaar voor ingelogde gebruikers. Meld u aan bij Google om uw voorkeuren, gedrag voor automatisch aanvullen en meer te configureren.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Ga naar Account en synchronisatie",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Actief",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licentiesleutel: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Licentie deactiveren",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Activering van licentiesleutel",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Als u een abonnement heeft aangeschaft of een toegangscode heeft ontvangen, voert u hieronder uw licentiesleutel in om ApplyFlow Premium te ontgrendelen.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Activeer",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Activeren...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡Tip: Premium activeer je met de sleutel APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium geactiveerd!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Bedankt voor het ondersteunen van ApplyFlow. Alle premiumfuncties zijn nu ontgrendeld.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium-upgradeplan",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Ontgrendel uw carrière-exports en geavanceerde AI-functies.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Ontvang premium AI-credits voor sollicitatiebrieven, op maat gemaakte essay-antwoorden, CV-optimalisatie en proefvoorbereiding van sollicitatiegesprekken. Autofill-bewerkingen op ondersteunde platforms zijn volledig onbeperkt en gratis voor alle premium-gebruikers!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Early Adopter-aanbieding:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Volgende prijsverhoging bij 500 Premium-gebruikers. Leg dit tarief levenslang vast!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Maandelijks Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Goed voor zoeken op korte termijn",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹ 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ maand",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Slechts ₹ 13 per dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI-credits per maand|||Onbeperkt automatisch invullen (alle portalen)|||Cloudsynchronisatie en Google Backup|||Premium-thema's|||Ervaring zonder advertenties",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Maandelijks abonneren",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Kwartaal Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Beste waarde voor de meeste werkzoekenden",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹ 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 maanden",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Slechts ₹ 11 per dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI-credits per kwartaal|||Onbeperkt automatisch invullen (alle portalen)|||Op maat gemaakte sollicitatiebrieven en essays|||Cloudsynchronisatie en Google-back-up|||Suggesties voor hervatten van overeenkomsten",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Abonneer u per kwartaal",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Meest populair",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Jaarlijks ultieme",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Beste waarde voor ervaren gebruikers",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2.999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ jaar",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Equivalent aan ₹ 249 / maand)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 AI Credits per jaar|||Onbeperkt dagelijks automatisch invullen|||Op maat gemaakte sollicitatiebrieven en essays|||Cloud Sync en Google Backup|||Suggesties voor hervatten van overeenkomsten|||Prioriteit per e-mailondersteuning",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Abonneer u jaarlijks",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Beste waarde - Bespaar 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Ondersteuning van ApplyFlow-ontwikkeling",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow wordt gebouwd en onderhouden door onafhankelijke ontwikkelaars. Als u de extensie nuttig vindt, kunt u overwegen een donatie te doen op Ko-fi, zodat deze actief, advertentievrij en bijgewerkt blijft voor nieuwe vacaturesites.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Koop een kopje koffie voor mij op Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5,0 beoordeling|||🔒 Veilige betalingen|||✓ Op elk moment annuleren",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Ongeldige licentiesleutel. Tip: Probeer de demosleutel 'APPLYFLOW-PRO-2026' te gebruiken!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licentie succesvol geactiveerd! Welkom bij ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Weet u zeker dat u uw premium-licentie wilt deactiveren? Hiermee keert u terug naar het gratis abonnement.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium-licentie gedeactiveerd. Je hebt nu het gratis abonnement.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Hierdoor worden ALLE lokale profiel- en applicatiegegevens permanent verwijderd. Weet je het zeker?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Privacybeleid",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Veelgestelde vragen",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Wat is ApplyFlow en hoe werkt het?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow is een door AI aangedreven Chrome-extensie die automatisch sollicitatieformulieren detecteert en invult op meer dan 15 platforms, waaronder LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever en meer. Het leest uw opgeslagen profiel en gebruikt intelligente matching om tekstvelden, vervolgkeuzelijsten, keuzerondjes en selectievakjes in te vullen, inclusief EEO/demografische vragen.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Zijn mijn persoonlijke gegevens veilig bij ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ja. Uw gegevens worden standaard lokaal opgeslagen in de chrome.storage.local van uw browser. Het wordt nooit naar een andere server van derden verzonden dan uw eigen optionele Supabase-database (die u beheert). ApplyFlow verkoopt, deelt nooit uw persoonlijke gegevens en genereert er geen inkomsten mee.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Welke vacatureplatformen ondersteunt ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow ondersteunt kant-en-klaar 15+ platforms: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList en elke andere site via onze intelligente generieke fallback matcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Wat is de Webclipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "De Web Clipper is een zwevende knop 'Vacature opslaan' (📌) die automatisch verschijnt wanneer u een vacaturepagina bezoekt. Als u erop klikt, worden de functietitel, het bedrijf, het salaris en de beschrijving opgehaald en vervolgens in uw ApplyFlow-tracker opgeslagen als een 'Opgeslagen' sollicitatie, zodat u vacatures kunt volgen voordat u solliciteert.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Hoe update ik mijn profiel?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Open de ApplyFlow-pop-up, klik op het tabblad \"Profiel\" en upload uw cv-pdf. De AI vult automatisch al uw velden in. U kunt elk veld ook handmatig bewerken, inclusief uw EEO-voorkeuren, werkvergunning en begeleidende brieven.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Wat zijn EEO-velden en waarom heb ik ze nodig?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO-velden (Equal Employment Opportunity) zijn vragen die veel Amerikaanse en mondiale werkgevers stellen over geslacht, arbeidsongeschiktheidsstatus, veteranenstatus en werkvergunning. ApplyFlow slaat uw favoriete antwoorden op en vult deze keuzerondjesgroepen automatisch in, zodat u ze niet elke keer handmatig hoeft te beantwoorden.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Heeft ApplyFlow API-sleutels of configuratie nodig?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Nee! ApplyFlow verwerkt automatisch alle formulierdetectie, slimme matching, het genereren van sollicitatiebrieven en compatibiliteitsscores. U hoeft geen API-sleutels te verkrijgen of te configureren.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Wat is Supabase synchronisatie en heb ik het nodig?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase-synchronisatie is een optionele cloudback-upfunctie. Wanneer u zich aanmeldt bij Google en deze inschakelt, worden uw profiel en applicatietracker gesynchroniseerd met een privéclouddatabase, zodat er een back-up van uw gegevens wordt gemaakt en deze toegankelijk zijn vanaf meerdere apparaten. Dit is volledig optioneel: de extensie werkt volledig offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Waarom heeft ApplyFlow toegang nodig tot alle websites?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow vraagt ​​toegang tot alle websites, zodat het de autofill-engine op elk sollicitatieformulier kan injecteren en de clipper-knop \"Vacature opslaan\" op elke vacature kan weergeven. Deze toestemming is vereist voor brede platformondersteuning. Wij injecteren alleen scripts op pagina’s die duidelijk functiegerelateerd zijn.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Wat is het Kanbanbord?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Het Kanban Board is een visuele weergave van het volgen van opdrachten op het tabblad Tracker. Het toont uw sollicitaties geordend in kolommen: Opgeslagen → Gesolliciteerd → Beoordeling → Interview → Aanbieding. U kunt kaarten tussen kolommen slepen en neerzetten om de status van elke toepassing bij te werken.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Hoe werkt inzendingsdetectie?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Wanneer u 'Alleen inloggen na indiening' in de instellingen inschakelt, let ApplyFlow op paginawijzigingen die wijzen op een succesvolle inzending (zoals een URL met '/success' of de hoofdtekst met de tekst 'Bedankt voor uw aanmelding'). Het logt de applicatie pas in uw tracker nadat het een echte inzending heeft gedetecteerd.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Kan ik meerdere sollicitatiebrieven opslaan?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ja! Het Profielscherm heeft een sectie \"Cover Letter Vault\" waar u een onbeperkt aantal sollicitatiebrieven kunt opslaan die zijn afgestemd op verschillende rollen of bedrijven. Bij het automatisch invullen gebruikt ApplyFlow uw meest recente of meest relevante motivatiebrief.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Hoe exporteer ik mijn sollicitatiegegevens?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Ga naar Account en synchronisatie → scroll naar beneden → klik op \"Back-up exporteren (JSON)\". Hiermee worden al uw profiel- en applicatiegegevens gedownload als JSON-bestand voor bewaring.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Werkt ApplyFlow in de demomodus?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demomodus was een oudere instelling die werd gebruikt voor testen. Het is nu standaard uitgeschakeld. Alle functies zijn live en functioneel met de ingebouwde Gemini API-sleutel.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Hoe rapporteer ik een bug of vraag ik een functie aan?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Open een probleem in onze GitHub-repository (gelinkt in de sectie Over) of e-mail ons op support@applyflow.in. Wij reageren doorgaans binnen 48 uur.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Open de ApplyFlow-pop-up",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Scan de huidige pagina op formuliervelden",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Activeer Slim automatisch aanvullen op de huidige pagina",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Knip de huidige vacature naar de tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Open Tracker in een nieuw tabblad",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Configureer snelkoppelingen in Chrome op",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Opmerking:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome-extensieopdrachten vereisen handmatige toewijzing in de snelkoppelingsbeheerder van Chrome. Ga naar $1$ om de hierboven genoemde sleutels te binden.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome-extensie — Privacybeleid**\nLaatst bijgewerkt: juni 2026\n\n---NL_3__\n**1. Inleiding**\n\nApplyFlow (\"wij\", \"onze\", \"de extensie\") is een Chrome-browserextensie waarmee gebruikers sollicitatieformulieren automatisch kunnen invullen, hun sollicitaties kunnen volgen en hun professionele profiel kunnen beheren. In dit privacybeleid wordt uitgelegd hoe wij uw gegevens verzamelen, gebruiken, opslaan en beschermen.\n\nDoor ApplyFlow te installeren en te gebruiken, gaat u akkoord met de praktijken die in dit beleid worden beschreven.\n\n---\n\n**2. Gegevens die we verzamelen**\n\nWe verzamelen alleen de informatie die u vrijwillig verstrekt om de functies van de extensie in te schakelen:\n\n• **Profielinformatie**: uw naam, e-mailadres, telefoonnummer, universiteit, graad, vaardigheden, werkgeschiedenis, projecten en professionele links (LinkedIn, GitHub, Portfolio).\n• **EEO/demografische informatie (optioneel)**: geslacht, handicapstatus, veteranenstatus en werk autorisatievoorkeuren — alleen verstrekt als u ervoor kiest deze velden in te vullen. Deze gegevens worden uitsluitend gebruikt om optionele EEO-vragenlijsten bij sollicitaties automatisch in te vullen.\n• **Applicatietrackinggegevens**: functietitel, bedrijf, sollicitatie-URL, status en opmerkingen voor posities die u bijhoudt met behulp van de extensie.\n• **Gebruiksstatistieken**: aantal uitgevoerde automatische aanvulbewerkingen (lokaal opgeslagen om dagelijkse limieten af te dwingen).\n• **Authenticatiegegevens**: als u ervoor kiest om in te loggen bij Google, slaan we uw Google-weergavenaam, e-mailadres, en profielfoto-URL om uw ervaring te personaliseren en cloudsynchronisatie in te schakelen.\n\nWij verzamelen **niet**:\n• Betalings- of financiële informatie\n• Browsergeschiedenis of algemene browse-activiteit\n• Alle informatie van pagina's die niet gerelateerd zijn aan een sollicitatie\n• Alle gegevens van pagina's waarop de extensie niet actief is geactiveerd\n\n---\n\n**3. Hoe we uw gegevens opslaan**\n\n**3.1 Lokale opslag (standaard)**\nAlle gegevens worden voornamelijk opgeslagen in de chrome.storage.local API van uw browser. Deze gegevens bevinden zich alleen op uw apparaat en worden nooit zonder uw expliciete actie naar een server verzonden.\n\n**3.2 Cloud Sync (optioneel)**\nAls u ervoor kiest om in te loggen met Google en de functie \"Supabase Sync\" in te schakelen, worden uw profiel- en applicatiegegevens ook gesynchroniseerd met een Supabase-database. U behoudt de volledige eigendom van deze gegevens. U kunt deze op elk gewenst moment verwijderen via de sectie Account en synchronisatie.\n\n**3.3 Gemini AI-verzoeken**\nWanneer AI-functies worden gebruikt (bijvoorbeeld het genereren van essays, functieanalyse), worden gedeelten van uw profiel (vaardigheden, graad, samenvatting) en de functiebeschrijvingstekst naar de Gemini API van Google verzonden om het antwoord te genereren. Dit wordt verwerkt onder de standaard API-servicevoorwaarden en het privacybeleid van Google. We raden u aan geen gevoelige persoonlijke identificatiegegevens op te nemen in uw AI-ondersteunde inhoud.\n\n---\n\n**4. Gegevens delen**\n\nWij verkopen, verhandelen, verhuren of delen uw persoonlijke gegevens **niet** met derden voor marketing- of advertentiedoeleinden.\n\nUw gegevens kunnen worden verwerkt door de volgende vertrouwde services:\n• **Google Gemini API**: voor het invullen en analyseren van formulieren op basis van AI (https://policies.google.com/privacy)\n• **Google OAuth**: Voor accountverificatie (https://policies.google.com/privacy)\n• **Supabase**: voor optionele cloudopslag (https://supabase.com/privacy) — alleen als u synchronisatie inschakelt\n\n---\n\n**5. Uw rechten en controles**\n\nU heeft het recht om:\n• **Toegang** tot alle gegevens die ApplyFlow over u heeft opgeslagen (via Export Backup in de instellingen)\n• **Uw informatie op elk moment corrigeren** op het tabblad Profiel\n• **Al uw gegevens lokaal verwijderen met behulp van \"Alle profielgegevens wissen\" in de instellingen\n• **Toestemming intrekken** op elk gewenst moment door de extensie verwijderen\n• **Cloudsynchronisatie uitschakelen** door deze uit te schakelen in Account- en synchronisatie-instellingen\n\n**GDPR (EU-gebruikers)**: als u een inwoner van de EU bent, heeft u het recht op toegang, rectificatie, verwijdering, beperking van de verwerking en gegevensportabiliteit onder de Algemene Verordening Gegevensbescherming.\n\n**India — DPDP Act 2023**: In overeenstemming met Volgens de Indiase Digital Personal Data Protection Act 2023 verwerken we persoonlijke gegevens uitsluitend met het doel de hulp bij sollicitaties te verlenen. U kunt op elk gewenst moment uw toestemming intrekken en verzoeken om verwijdering van uw gegevens door contact met ons op te nemen.\n\n**Californië — CCPA**: Inwoners van Californië hebben het recht om te weten welke persoonlijke gegevens worden verzameld, het recht om te verwijderen en het recht om zich af te melden voor de verkoop (wij verkopen geen gegevens).\n\n---NL_70__\n**6. Gegevensbewaring**\n\nLokale gegevens worden bewaard totdat u deze handmatig wist. Cloud-gesynchroniseerde gegevens worden bewaard totdat u uw account verwijdert of verzoekt om verwijdering. Wij verwijderen gegevens niet automatisch.\n\n---\n\n**7. Beveiliging**\n\nWe nemen redelijke technische maatregelen om uw gegevens te beschermen:\n• Alle cloudcommunicatie maakt gebruik van HTTPS/TLS-encryptie\n• Supabase Row-Level Security (RLS) zorgt ervoor dat gebruikers alleen toegang hebben tot hun eigen gegevens\n• De extensie vraagt geen toestemmingen die verder gaan dan wat nodig is voor de kern functie\n\n---\n\n**8. Privacy van kinderen**\n\nApplyFlow is niet bedoeld voor gebruikers jonger dan 13 jaar. We verzamelen niet bewust gegevens van kinderen. Als u denkt dat een kind ons persoonlijke gegevens heeft verstrekt, neem dan onmiddellijk contact met ons op.\n\n---\n\n**9. Wijzigingen in dit beleid**\n\nWe kunnen dit privacybeleid van tijd tot tijd bijwerken. Significante wijzigingen worden gecommuniceerd via de pagina Opties van de extensie. Voortgezet gebruik van de extensie na wijzigingen betekent aanvaarding van het bijgewerkte beleid.\n\n---\n\n**10. Neem contact met ons op**\n\nVoor privacygerelateerde vragen, verzoeken om gegevensverwijdering of zorgen:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite: https://applyflow.in\n\nWij streven ernaar te reageren op alle verzoeken binnen 30 dagen.",
+    "description": "Privacy policy document markdown text"
+  }
+}

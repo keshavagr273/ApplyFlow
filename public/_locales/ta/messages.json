@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI வேலை தானாக நிரப்புதல் & விண்ணப்ப டிராக்கர்",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "லிங்க்ட்இன், வேலை நாள், கிரீன்ஹவுஸ் மற்றும் பலவற்றில் AI ஐப் பயன்படுத்தி தானாகவே வேலை விண்ணப்பங்கள் மற்றும் டிராக் பட்டியல்கள்.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "செயலில்",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "விண்ணப்பிக்கப்பட்டது",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "நேர்காணல்",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "சலுகை",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "சேமிக்கப்பட்டது",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "மொத்தம்",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "தானாக நிரப்பு",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "நிரப்புகிறது...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "விரைவான தன்னியக்க நிரப்புதல்",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "வேலையை பகுப்பாய்வு செய்யுங்கள்",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "பக்கப்பட்டியைத் திறக்கவும்",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "அமைப்புகள்",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "விரைவு தன்னியக்க நிரப்புதலைப் பயன்படுத்த முதலில் Google இல் உள்நுழையவும்!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "பக்க பேனல்/விருப்பங்கள் பக்கத்தில் முதலில் உங்கள் சுயவிவரத்தை அமைக்கவும்!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ கண்டறியப்பட்டது",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "வேலைப் பக்கம் எதுவும் கண்டறியப்படவில்லை",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI அம்சங்களைத் திறக்க, வேலைப் பட்டியலைப் பார்வையிடவும்",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "காலை வணக்கம்",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "நல்ல மதியம்",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "மாலை வணக்கம்",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ பயன்பாடுகள் கண்காணிக்கப்பட்டன · $2$ நேர்காணல்கள்",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "உங்கள் முன்னேற்றத்தைக் கண்காணிக்க விண்ணப்பிக்கத் தொடங்குங்கள்",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "கவர் கடிதம்",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "கேள்வி பதில் உதவி",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "உதவ தயார்",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "தொடங்குவதற்கு, LinkedIn, Workday, Greenhouse அல்லது ஏதேனும் வேலை வாரியத்தில் உள்ள வேலைப் பட்டியலுக்கு செல்லவும்.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "இந்த வாரம்",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "சமீபத்திய செயல்பாடு",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "அனைத்தையும் காண்க →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "உங்கள் வேலை வேட்டையைத் தொடங்குங்கள்!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "வேலைப் பலகைக்குச் சென்று, உங்கள் விண்ணப்பங்களைத் தானாக நிரப்பி கண்காணிக்க ApplyFlow ஐப் பயன்படுத்தவும்.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "எனது சுயவிவரம்",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "சேமிக்கிறது...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "அனைத்தையும் சேமிக்கவும்",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "சுயவிவரம் சேமிக்கப்பட்டது!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "சுயவிவரத்தைச் சேமிப்பதில் தோல்வி.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "ரெஸ்யூம்",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "சுயவிவரத்தை தானாக நிரப்புவதற்கு பதிவேற்றவும்",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ பதிவேற்றப்பட்டது",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "தனிப்பட்ட தகவல்",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "முழுமையற்றது",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "இடம்",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "கல்வி",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "திறன்கள்",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "பணி அனுபவம்",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "திட்டங்கள்",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "வேலை விருப்பத்தேர்வுகள்",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "வேலை அங்கீகாரம்",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "வரலாற்றைத் தொடரவும்",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "இதை பயன்படுத்தவும்",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ இல் பாகுபடுத்தப்பட்டது",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" இலிருந்து சுயவிவர விவரங்களை ஏற்றவா? இது உங்களின் தற்போதைய திருத்தங்களை இந்த ரெஸ்யூமின் பாகுபடுத்தப்பட்ட அமைப்புடன் மாற்றும்.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ இலிருந்து விவரங்கள் மீட்டெடுக்கப்பட்டன",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "மேட்ச் ஸ்கோர்",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ பொருத்தம்",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ மேலும்",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "விண்ணப்பம் தானாக நிரப்பப்பட்டு உள்நுழைந்தது! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow பக்க பேனல் வழியாக தானாக நிரப்பப்பட்டது",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "அங்கு",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "காலேஜ் செட் இல்லை",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "தானியங்கு நிரப்புதலை இயக்க உங்கள் சுயவிவரத்தை அமைக்கவும்",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "அமைக்கப்படவில்லை",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ உள்ளீடுகள்",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ திறன்கள்",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ திட்டங்கள்",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ பதில்கள்",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "அங்கீகரிக்கப்பட்டது",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "அங்கீகரிக்கப்படவில்லை",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "முழுப் பெயர்",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "மின்னஞ்சல்",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "தொலைபேசி",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "மாற்று தொலைபேசி",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "போர்ட்ஃபோலியோ URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "இணைப்பை மீண்டும் தொடங்கவும்",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "நகரம்",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "மாநிலம்",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "நாடு",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "குறியீடு",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "முகவரி",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "தேசியம்",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "கல்லூரி / பல்கலைக்கழகம்",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "பட்டம்",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "பட்டப்படிப்பு ஆண்டு",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / கிரேடு",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10வது %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12வது %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "அறிவிப்பு காலம்",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "எதிர்பார்த்த சம்பளம்",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "விருப்பமான பாத்திரம்",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "வருட அனுபவம்",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "விசா ஸ்பான்சர்ஷிப் இல்லாமல் வேலை செய்ய அங்கீகாரம்",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "விசா ஸ்பான்சர்ஷிப் தேவை",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "பாலினம்",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "இயலாமை",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "சொல்லாமல் இருக்க விருப்பம்",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "குறிப்பிடப்படவில்லை",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ஆண்",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "பெண்",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "பைனரி அல்லாத",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ஆம்",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "இல்லை",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "இன்னும் திறமைகள் சேர்க்கப்படவில்லை",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "திறமையைச் சேர் (சேர்க்க உள்ளிடவும்)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "தூண்டுதல் சொற்றொடர் (எ.கா. நாங்கள் ஏன் உங்களை வேலைக்கு அமர்த்த வேண்டும்)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "உங்கள் பதில்...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "அகற்று",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ தனிப்பயன் பதிலைச் சேர்க்கவும்",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "நிறுவனம்",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "பாத்திரம் / தலைப்பு",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "தொடக்க தேதி",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "முடிவு தேதி",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "தற்போது",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "தற்போது இந்த கதாபாத்திரத்தில் நடித்து வருகிறேன்",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "விளக்கம்",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "உங்கள் பொறுப்புகள், முக்கிய சாதனைகள், பயன்படுத்தப்பட்ட தொழில்நுட்பங்கள் ஆகியவற்றை விவரிக்கவும்...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ பணி அனுபவத்தைச் சேர்க்கவும்",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "திட்டத்தின் தலைப்பு",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "தொழில்நுட்ப அடுக்கு",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "வரிசைப்படுத்தல் URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "நீங்கள் என்ன உருவாக்கினீர்கள், அது என்ன சிக்கலைத் தீர்த்தது மற்றும் முக்கிய அம்சங்களை விவரிக்கவும்...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ திட்டத்தைச் சேர்க்கவும்",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "டிராக்கர்",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "சேமிக்கப்பட்டது",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "விண்ணப்பிக்கப்பட்டது",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "மதிப்பீடு",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "நேர்காணல்",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "சலுகை",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "நிராகரிக்கப்பட்டது",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "திரும்பப் பெறப்பட்டது",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "இந்த பயன்பாட்டை நீக்கவா?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "விண்ணப்பம் புதுப்பிக்கப்பட்டது!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "விண்ணப்பம் நீக்கப்பட்டது.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "நிலை",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "மேடை",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "விண்ணப்பிக்கப்பட்டது",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "வேலை இடுகையைத் திறக்கவும்",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "சம்பளம் / உதவித்தொகை",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "பின்தொடர்தல் நினைவூட்டல்",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "குறிப்புகள்",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "குறிப்புகள், தொடர்புத் தகவல், நேர்காணல் விவரங்களைச் சேர்க்கவும்...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "வேலை விவரம் (பகுதி)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "நீக்கு",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "ரத்து செய்",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "சேமிக்கவும்",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 விண்ணப்பம்",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ பயன்பாடுகள்",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "நிறுவனம் வாரியாக வடிகட்டவும்...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "நிலை வடிகட்டிகள்",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "மேலும் →க்கு வலதுபுறமாக உருட்டவும்",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "அனைத்து",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "பயன்பாடுகள் எதுவும் இல்லை",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "வடிப்பான்களை மீட்டமைக்க முயற்சிக்கவும் அல்லது புதிய டிராக்கர் உள்ளீட்டைச் சேர்க்க வேலையைச் சேமிக்கவும்",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "பகுப்பாய்வு",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ மொத்த பயன்பாடுகள்",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "இன்னும் தரவு இல்லை",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "வேலைகளுக்கு விண்ணப்பிக்கத் தொடங்குங்கள், உங்கள் பகுப்பாய்வுகள் இங்கே தோன்றும்.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "மாற்று விகிதங்கள்",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "விண்ணப்பிக்கப்பட்டது",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "நேர்காணல் விகிதம்",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "சலுகை விகிதம்",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "இந்த வாரம் விண்ணப்பங்கள்",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "விண்ணப்ப புனல்",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "சிறந்த தளங்கள்",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "நிலை முறிவு",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI கோபிலட்",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "சூழல்: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "உங்கள் தொழில் துணை விமானி",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "புதிய அரட்டை ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "முதலில் உங்கள் சுயவிவரத்தை அமைக்கவும், இதனால் AI பதில்களைத் தனிப்பயனாக்க முடியும்.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "அரட்டை அழிக்கப்பட்டது! நான் உங்களுக்கு என்ன உதவ முடியும்?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "இந்த வேலையைப் பற்றி ஏதாவது கேளுங்கள்...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "தொடங்குவதற்கு உங்கள் சுயவிவரத்தை அமைக்கவும்",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "அனுப்ப Enter ஐ அழுத்தவும்",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "பொருந்தக்கூடிய மதிப்பெண்ணைத் தொடரவும்",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ வலுவான திறன்கள்",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ காணாமல் போன திறன்கள்",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "உங்கள் தனிப்பயனாக்கப்பட்ட கவர் கடிதம் இங்கே:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ நகலெடுக்கப்பட்டது!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 நகல்",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ பதிவிறக்கவும்",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "இதோ $1$ நேர்காணல் கேள்விகள்:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ரெஸ்யூம் ஆப்டிமைசேஷன் ஸ்கோர்: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "போட்டி பரிந்துரைகளை மீண்டும் தொடங்கவும்",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs இந்த வேலை விவரம்",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "ஏதோ தவறாகிவிட்டது. மீண்டும் முயற்சிக்கவும்.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "ஹாய்! நீங்கள் **$1$** பாத்திரத்தை **$2$** இல் பார்க்கிறீர்கள் என்பதை என்னால் பார்க்க முடிகிறது.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "ஹாய்! நீங்கள் **$1$** பாத்திரத்தைப் பார்க்கிறீர்கள் என்பதை என்னால் பார்க்க முடிகிறது.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "ஹாய்! நான் உங்கள் AI தொழில் துணை விமானி. வேலைப் பட்டியலுக்குச் செல்லவும், நான் தானாகவே அதைப் பகுப்பாய்வு செய்வேன் அல்லது என்னிடம் எதையும் கேட்கிறேன்!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "சுயவிவரத் தாவலில் முதலில் உங்கள் சுயவிவரத்தை அமைக்கவும்!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "இந்த அம்சத்தைப் பயன்படுத்த முதலில் உங்கள் உலாவியில் வேலைப் பட்டியல் பக்கத்தைத் திறக்கவும்!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow ஐத் திறக்கவும்",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "உங்கள் டாஷ்போர்டை அணுகவும், வேலைகளை ஒத்திசைக்கவும், உங்கள் ரெஸ்யூம் சுயவிவரத்தை நிர்வகிக்கவும், வேலை விண்ணப்பங்களை உடனடியாகத் தானாக நிரப்பவும் Google இல் உள்நுழையவும்.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ஆட்டோஃபில் & கிளிப்பர்",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "ஒரே கிளிக்கில் பயன்பாடுகளை ஸ்கேன் செய்து தானாக நிரப்பவும்.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "கிளவுட் ஒத்திசைவு & காப்புப்பிரதி",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "உங்களின் அனைத்து வேலை கண்காணிப்பு விவரங்களையும் Supabase உடன் ஒத்திசைக்கவும்.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ரெஸ்யூம் & சுயவிவரங்கள்",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "உங்கள் விண்ணப்பத்தைப் பதிவேற்றி, விண்ணப்பப் பதில்களைத் தனிப்பயனாக்கவும்.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google உடன் இணைக்கிறது...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google மூலம் உள்நுழையவும்",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "உள்நுழைவதன் மூலம், செயலில் உள்ள பணியிடத்தில் உங்கள் சுயவிவரத் தரவைப் பாதுகாப்பாக ஒத்திசைக்க ஒப்புக்கொள்கிறீர்கள்.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "நிச்சயமாக வெளியேற விரும்புகிறீர்களா?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "வெற்றிகரமாக வெளியேறியது.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ ஆக உள்நுழைந்துள்ளார்",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "வெளியேறு",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "உள்நுழையவும்",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "இணைக்கிறது...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlowஐத் திறக்கவும்",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow மேட்ச்",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "வலுவான பொருந்தக்கூடிய திறன்கள்",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "மிஸ்ஸிங் ஸ்கில்ஸ்",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "ஸ்மார்ட் ஆட்டோஃபில் பக்கம்",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "படிவத்தை தானாக நிரப்புகிறது...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "பக்கத்தில் நிரப்பக்கூடிய பயன்பாட்டு புலங்கள் எதுவும் இல்லை.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "வெற்றிகரமாக நிரப்பப்பட்டது!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "பக்கச் சிக்கலின் காரணமாகத் தானாக நிரப்ப முடியவில்லை.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "நிரப்பும்போது பதிவு டிராக்கரில் தானாகச் சேமிக்கப்பட்டது.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "உங்கள் விண்ணப்பம் இந்தப் பாத்திரத்துடன் **$1$% இணக்கமானது**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "மீண்டும் வரவேற்கிறோம், $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google பயனர் சுயவிவரத் தகவலைப் பெறுவதில் தோல்வி.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth உள்நுழைவு தோல்வியடைந்தது: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "திசைதிருப்பலில் இருந்து அணுகல் டோக்கனைப் பெறுவதில் தோல்வி.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "அங்கீகரிப்பு திசைதிருப்புதலை அலசுவதில் தோல்வி.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "இந்த இயங்குதளத்தில் அங்கீகாரம் ஆதரிக்கப்படவில்லை.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "டிராக்கரில் வேலை சேமிக்கப்பட்டது!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "விருந்தினர்",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ பொது அமைப்புகள்",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn வேலை பக்கங்களில் காட்டு",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "நீங்கள் LinkedIn இல் வேலை இடுகைகளைப் பார்க்கும்போது ஸ்மார்ட் மேட்சிங் ஸ்கோரையும், ஒரு கிளிக் தன்னியக்க நிரப்பு பட்டனையும் காட்டுகிறது.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'வேலையைச் சேமி' பொத்தானைக் காட்டு",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "வேலைத் தளங்களில் மிதக்கும் 'வேலையைச் சேமி 📌' என்ற பட்டனைக் காண்பிக்கும், எனவே விண்ணப்பிப்பதற்கு முன் உங்கள் டிராக்கரில் வேலை விவரங்களை விரைவாகச் சேமிக்கலாம்.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "உண்மையில் விண்ணப்பித்த பிறகு மட்டுமே உள்நுழையவும்",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "உங்கள் டிராக்கரில் வேலையைச் சேர்ப்பதற்கு முன், 'நன்றி' அல்லது 'வெற்றி' திரையைப் பார்க்கும் வரை காத்திருக்கவும். பாதி நிரப்பப்பட்ட படிவங்கள் 'பயன்படுத்தப்பட்டது' எனச் சேமிக்கப்படுவதைத் தடுப்பதன் மூலம் உங்கள் டிராக்கரை நேர்த்தியாக வைத்திருக்கும்.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI வரவுகள் & பயன்பாட்டு பகுப்பாய்வு",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "கடன்கள் விட்டு",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "மீதமுள்ள கடன்கள்",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "மொத்த வரவுகள்",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "எல்லா நேரமும் தன்னியக்க நிரப்பல்கள்",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "திட்ட நிலை",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "பிரீமியம் 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "இலவசம் 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "சார்பு உதவிக்குறிப்பு:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "ஸ்மார்ட் ஆட்டோஃபில் செயல்பாடுகள் 0 கிரெடிட்களைப் பயன்படுத்துகின்றன மற்றும் 100% வரம்பற்றவை! கவர் லெட்டர்ஸ் (5 கிரெடிட்கள்) மற்றும் தனிப்பயன் கட்டுரைகள் (3 கிரெடிட்கள்) போன்ற மேம்பட்ட AI அம்சங்கள் மட்டுமே உங்கள் கிரெடிட் பேலன்ஸைப் பயன்படுத்துகின்றன.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google கணக்கு & Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync செயலில் உள்ளது",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "கிளவுட் ஒத்திசைவு பூட்டப்பட்டது (பிரீமியம் மட்டும்)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "கிளவுட் ஒத்திசைவு",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "கிளவுட் டு புஷ்",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "மேகத்திலிருந்து இழுக்கவும்",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "ஒத்திசைவு வெற்றி!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "ஒத்திசைவு தோல்வியடைந்தது. உங்கள் இணைப்பைச் சரிபார்க்கவும்.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "பாதுகாப்பான கிளவுட் ஒத்திசைவு",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "உங்கள் பயன்பாடுகள் மற்றும் சுயவிவரத்தை Supabase இல் காப்புப் பிரதி எடுக்க Google உடன் உள்நுழையவும். ஒத்திசைவு என்பது பிரீமியம் அம்சமாகும், இது உங்கள் பதிவுகளை சாதனங்கள் முழுவதும் பாதுகாப்பாக வைத்திருக்கும்.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "சுபாபேஸ் கிளவுட் ஒத்திசைவு ஒரு பிரீமியம் அம்சமாகும். ஒத்திசைவை இயக்க, மேம்படுத்தல் தாவலில் மேம்படுத்தவும்!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 தரவு மேலாண்மை",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "ஏற்றுமதி காப்புப்பிரதி (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "அனைத்து உள்ளூர் தரவையும் அழிக்கவும்",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "உள்ளூர் தரவை அழிப்பது இந்தச் சாதனத்திலிருந்து மட்டுமே உங்கள் சுயவிவரத்தையும் பயன்பாடுகளையும் அகற்றும். கிளவுட் தரவு பாதிக்கப்படவில்லை.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "கட்டுப்பாட்டு மையம்",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "முகப்பு & பற்றி",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "பொது அமைப்புகள்",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro ஆக மேம்படுத்தவும் 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "பிரீமியம் திட்டம் 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "கணக்கு & ஒத்திசைவு",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "தனியுரிமைக் கொள்கை",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "விசைப்பலகை குறுக்குவழிகள்",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow க்கு வரவேற்கிறோம்",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow என்பது AI-இயங்கும் Chrome நீட்டிப்பு ஆகும், இது மாணவர்கள் மற்றும் வேலை தேடுபவர்களுக்காக விரைவாகவும் புத்திசாலித்தனமாகவும் விண்ணப்பிக்க விரும்புகிறது. இது 15+ பிளாட்ஃபார்ம்களில் வேலைக்கான விண்ணப்பப் படிவங்களைத் தானாகவே கண்டறிந்து நிரப்புகிறது, உங்கள் பைப்லைனைக் கண்காணிக்கிறது, மேலும் நேர்காணல்களை மேற்கொள்ள உதவுகிறது.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ஸ்மார்ட் ஆட்டோஃபில்",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "துல்லியமான தேர்வாளர்களுடன் 15+ ATS இயங்குதளங்கள்",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "வலை கிளிப்பர்",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "ஒரே கிளிக்கில் எந்த வேலை பட்டியலையும் சேமிக்கவும்",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "கான்பன் டிராக்கர்",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "உங்கள் பயன்பாட்டு பைப்லைனை இழுத்து விடுங்கள்",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO தன்னிரப்பி",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "மக்கள்தொகை மற்றும் விசா கேள்விகளை தானாக நிரப்புகிறது",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI கட்டுரைகள்",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "ஜெமினியால் இயங்கும் விருப்ப பதில் எழுதுதல்",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "பாதுகாப்பான ஒத்திசைவு",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "விருப்பமான சுபேபேஸ் கிளவுட் காப்புப்பிரதி",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 எப்படி தொடங்குவது",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "உங்கள் சுயவிவரத்தை உருவாக்கவும்",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "பாப்அப் → சுயவிவர தாவலைத் திறக்கவும் → உங்கள் விண்ணப்பத்தை PDF பதிவேற்றவும். திறன்கள், அனுபவம், கல்வி மற்றும் திட்டங்கள் உட்பட உங்களின் அனைத்து விவரங்களையும் AI தானாகவே பிரித்தெடுக்கும்.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO விருப்பங்களை அமைக்கவும்",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "உங்கள் சுயவிவரத்தில் உள்ள EEO பிரிவிற்குச் சென்று உங்கள் பணி அங்கீகாரம், விசா ஸ்பான்சர்ஷிப் தேவைகள் மற்றும் மக்கள்தொகை விருப்பத்தேர்வுகளை அமைக்கவும். இவை EEO கேள்வித்தாள்களை தானாக நிரப்ப பயன்படுகிறது.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "வேலைப் பட்டியலை உலாவவும்",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "எந்த வேலைப் பட்டியலுக்கும் செல்லவும். 📌 \"வேலையைச் சேமி\" பொத்தான் தோன்றுவதைக் காண்பீர்கள். உங்கள் டிராக்கரில் நிலையை உடனடியாகச் சேமிக்க அதைக் கிளிக் செய்யவும்.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "ஒரு விண்ணப்பப் படிவத்தைத் திறக்கவும்",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "விண்ணப்ப படிவத்திற்கு செல்லவும். ApplyFlow பாப்அப்பை கிளிக் செய்யவும் → \"ஸ்கேன் பக்கம்\" → ஹிட் பின்னர் \"⚡ Smart Autofill\". ரேடியோ பொத்தான்கள் மற்றும் கீழ்தோன்றும் உள்ளிட்ட அனைத்து புலங்களும் உடனடியாக நிரப்பப்படும்.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "உங்கள் பைப்லைனைக் கண்காணிக்கவும்",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "உங்கள் எல்லா பயன்பாடுகளையும் பார்க்க, டிராக்கர் தாவலைத் திறக்கவும். கான்பன் போர்டு காட்சிக்கு மாறவும் மற்றும் உங்கள் நிலை புதுப்பிப்புகளாக நெடுவரிசைகளுக்கு இடையே கார்டுகளை இழுக்கவும்.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 உள்நுழைவது அவசியம்",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "அமைப்புகளைத் தனிப்பயனாக்க உள்நுழைக",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "உள்நுழைந்துள்ள பயனர்களுக்கு மட்டுமே பொதுவான அமைப்புகள் கிடைக்கும். உங்கள் விருப்பத்தேர்வுகள், தானாக நிரப்பும் நடத்தைகள் மற்றும் பலவற்றை உள்ளமைக்க Google இல் உள்நுழையவும்.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "கணக்கு & ஒத்திசைவுக்குச் செல்லவும்",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro ஆக்டிவ்",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "உரிம விசை: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "உரிமத்தை முடக்கு",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 உரிம விசை செயல்படுத்தல்",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "நீங்கள் சந்தாவை வாங்கியிருந்தால் அல்லது அணுகல் குறியீட்டைப் பெற்றிருந்தால், ApplyFlow பிரீமியத்தைத் திறக்க, உங்கள் உரிம விசையை கீழே உள்ளிடவும்.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "செயல்படுத்து",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "செயல்படுத்துகிறது...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 உதவிக்குறிப்பு: APPLYFLOW-PRO-2026 விசையைப் பயன்படுத்தி நீங்கள் பிரீமியத்தை இயக்கலாம்.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "பிரீமியம் செயல்படுத்தப்பட்டது!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow ஐ ஆதரித்ததற்கு நன்றி. அனைத்து பிரீமியம் அம்சங்களும் இப்போது திறக்கப்பட்டுள்ளன.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 பிரீமியம் மேம்படுத்தல் திட்டம்",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "உங்கள் தொழில் ஏற்றுமதி மற்றும் மேம்பட்ட AI அம்சங்களைத் திறக்கவும்.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "கவர் கடிதங்கள், தனிப்பயன் கட்டுரை பதில்கள், ரெஸ்யூம் ஆப்டிமைசேஷன் மற்றும் போலி நேர்காணல் தயாரிப்புக்கான பிரீமியம் AI கிரெடிட்களைப் பெறுங்கள். ஆதரிக்கப்படும் இயங்குதளங்களில் தன்னியக்க நிரப்புதல் செயல்பாடுகள் முழுமையாக வரம்பற்றவை மற்றும் அனைத்து பிரீமியம் பயனர்களுக்கும் இலவசம்!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 ஆரம்பகால தத்தெடுப்பாளர் சலுகை:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 பிரீமியம் பயனர்களுக்கு அடுத்த விலை உயர்வு. வாழ்க்கைக்கு இந்த விகிதத்தில் பூட்டு!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "மாதாந்திர புரோ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "குறுகிய கால தேடலுக்கு நல்லது",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ மாதம்",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(ஒரு நாளைக்கு ₹13 மட்டுமே)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "மாதத்திற்கு 150 AI கிரெடிட்கள்|||வரம்பற்ற தன்னியக்க நிரப்பல்கள் (அனைத்து போர்ட்டல்கள்)||Cloud Sync & Google Backup|||Premium Themes|||விளம்பரம் இல்லாத அனுபவம்",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "மாதாந்திர குழுசேர்",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "காலாண்டு புரோ",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "பெரும்பாலான வேலை தேடுபவர்களுக்கு சிறந்த மதிப்பு",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 மாதங்கள்",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(ஒரு நாளைக்கு ₹11 மட்டுமே)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "ஒரு காலாண்டிற்கு 500 AI கிரெடிட்கள்|||வரம்பற்ற தன்னியக்க நிரப்பல்கள் (அனைத்து போர்ட்டல்கள்)|||தற்காலிக அட்டை கடிதங்கள் & கட்டுரைகள்|||Cloud Sync & Google Backup||| போட்டி பரிந்துரைகளை மீண்டும் தொடங்கவும்",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "காலாண்டுக்கு குழுசேரவும்",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "மிகவும் பிரபலமானது",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "வருடாந்திர அல்டிமேட்",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "ஆற்றல் பயனர்களுக்கு சிறந்த மதிப்பு",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ வருடம்",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(மாதம் ₹249க்கு சமம்)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "வருடத்திற்கு 2,500 AI கிரெடிட்கள்||அன்லிமிட்டெட் டெய்லி ஆட்டோஃபில்ஸ்|||டெய்லர்டு கவர் லெட்டர்ஸ் & எஸ்ஸேஸ்|||கிளவுட் ஒத்திசைவு & கூகுள் பேக்கப்|||மீண்டும் போட்டி பரிந்துரைகள்|||முன்னுரிமை மின்னஞ்சல் ஆதரவு",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "ஆண்டுதோறும் குழுசேர்",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "சிறந்த மதிப்பு - 40% சேமிக்கவும்",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow வளர்ச்சிக்கு ஆதரவு",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow சுயாதீன டெவலப்பர்களால் கட்டமைக்கப்பட்டு பராமரிக்கப்படுகிறது. நீட்டிப்பு உங்களுக்கு உதவிகரமாக இருந்தால், கோ-ஃபையை செயலில் வைத்திருக்கவும், விளம்பரமில்லாமலும், புதிய வேலைப் பலகைகளுக்குப் புதுப்பிக்கவும் உதவ, நன்கொடை அளிக்கவும்.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "கோ-ஃபையில் எனக்கு ஒரு காபி வாங்கு",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 மதிப்பீடு||✓ பாதுகாப்பான பணம்",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "தவறான உரிம விசை. குறிப்பு: 'APPLYFLOW-PRO-2026' என்ற டெமோ விசையைப் பயன்படுத்தி முயற்சிக்கவும்!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "உரிமம் வெற்றிகரமாக செயல்படுத்தப்பட்டது! ApplyFlow பிரீமியத்திற்கு வரவேற்கிறோம். 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "உங்கள் பிரீமியம் உரிமத்தை நிச்சயமாக முடக்க விரும்புகிறீர்களா? இது உங்களை இலவச திட்டத்திற்கு திருப்பிவிடும்.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "பிரீமியம் உரிமம் செயலிழக்கப்பட்டது. நீங்கள் இப்போது இலவச திட்டத்தில் இருக்கிறீர்கள்.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "இது அனைத்து உள்ளூர் சுயவிவரத்தையும் பயன்பாட்டுத் தரவையும் நிரந்தரமாக நீக்கும். நீங்கள் உறுதியாக இருக்கிறீர்களா?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 தனியுரிமைக் கொள்கை",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow என்றால் என்ன, அது எப்படி வேலை செய்கிறது?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow என்பது AI-இயங்கும் Chrome நீட்டிப்பாகும், இது LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever மற்றும் பல உட்பட 15+ தளங்களில் வேலை விண்ணப்பப் படிவங்களை தானாகவே கண்டறிந்து நிரப்புகிறது. இது உங்கள் சேமித்த சுயவிவரத்தைப் படித்து, EEO/மக்கள்தொகைக் கேள்விகள் உட்பட, உரைப் புலங்கள், கீழ்தோன்றும் இடங்கள், ரேடியோ பொத்தான்கள் மற்றும் தேர்வுப்பெட்டிகளை நிரப்ப புத்திசாலித்தனமான பொருத்தத்தைப் பயன்படுத்துகிறது.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ApplyFlow மூலம் எனது தனிப்பட்ட தரவு பாதுகாப்பானதா?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ஆம். உங்கள் தரவு இயல்பாக உங்கள் உலாவியின் chrome.storage.local இல் உள்ளூரில் சேமிக்கப்படும். உங்கள் சொந்த விருப்பமான Supabase தரவுத்தளத்தைத் தவிர (நீங்கள் கட்டுப்படுத்தும்) மூன்றாம் தரப்பு சேவையகத்திற்கு இது ஒருபோதும் அனுப்பப்படாது. ApplyFlow உங்கள் தனிப்பட்ட தகவலை ஒருபோதும் விற்காது, பகிராது அல்லது பணமாக்காது.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow எந்த வேலை தளங்களை ஆதரிக்கிறது?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow 15+ இயங்குதளங்களை ஆதரிக்கிறது: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList மற்றும் எங்களின் இன்டெலிஜெண்ட் ஃபால்பேக் மேட்ச்பேக் வழியாக வேறு எந்த தளமும்.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper என்றால் என்ன?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper என்பது ஒரு மிதக்கும் \"வேலையைச் சேமி\" பொத்தான் (📌) நீங்கள் எந்த வேலைப் பட்டியலிடும் பக்கத்தைப் பார்வையிடும்போது தானாகவே தோன்றும். அதைக் கிளிக் செய்வதன் மூலம் வேலை தலைப்பு, நிறுவனம், சம்பளம் மற்றும் விவரம் ஆகியவை பிரித்தெடுக்கப்படும், பின்னர் அதை உங்கள் ApplyFlow டிராக்கரில் \"சேமிக்கப்பட்ட\" பயன்பாடாகச் சேமிக்கும் - எனவே நீங்கள் விண்ணப்பிக்கும் முன் வேலைகளைக் கண்காணிக்கலாம்.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "எனது சுயவிவரத்தை எவ்வாறு புதுப்பிப்பது?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow பாப்அப்பைத் திறந்து, \"சுயவிவரம்\" தாவலைக் கிளிக் செய்து, உங்கள் விண்ணப்பத்தை PDF ஐப் பதிவேற்றவும். AI உங்கள் எல்லா புலங்களையும் தானாக நிரப்பும். உங்கள் EEO விருப்பத்தேர்வுகள், பணி அங்கீகாரம் மற்றும் கவர் கடிதங்கள் உட்பட எந்தத் துறையையும் நீங்கள் கைமுறையாகத் திருத்தலாம்.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO புலங்கள் என்றால் என்ன, அவை எனக்கு ஏன் தேவை?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (சமமான வேலை வாய்ப்பு) புலங்கள் என்பது பல அமெரிக்க மற்றும் உலகளாவிய முதலாளிகள் பாலினம், இயலாமை நிலை, அனுபவ நிலை மற்றும் பணி அங்கீகாரம் பற்றி கேட்கும் கேள்விகள். ApplyFlow உங்களுக்கு விருப்பமான பதில்களைச் சேமித்து, இந்த ரேடியோ பொத்தான் குழுக்களைத் தானாகவே நிரப்புகிறது, எனவே ஒவ்வொரு முறையும் நீங்கள் கைமுறையாக பதிலளிக்க வேண்டியதில்லை.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow க்கு ஏதேனும் API விசைகள் அல்லது உள்ளமைவு தேவையா?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "இல்லை! ApplyFlow அனைத்து படிவங்களைக் கண்டறிதல், ஸ்மார்ட் மேட்சிங், கவர் லெட்டர் உருவாக்கம் மற்றும் பொருந்தக்கூடிய ஸ்கோரிங் ஆகியவற்றை தானாகவே கையாளுகிறது. நீங்கள் எந்த API விசைகளையும் பெறவோ அல்லது கட்டமைக்கவோ தேவையில்லை.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase ஒத்திசைவு என்றால் என்ன, எனக்கு அது தேவையா?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "சுபாபேஸ் ஒத்திசைவு என்பது ஒரு விருப்ப கிளவுட் காப்பு அம்சமாகும். நீங்கள் Google இல் உள்நுழைந்து அதை இயக்கும் போது, ​​உங்கள் சுயவிவரமும் பயன்பாட்டு டிராக்கரும் தனிப்பட்ட கிளவுட் தரவுத்தளத்துடன் ஒத்திசைக்கப்படும், இதனால் உங்கள் தரவு காப்புப் பிரதி எடுக்கப்பட்டு பல சாதனங்களிலிருந்து அணுக முடியும். இது முற்றிலும் விருப்பமானது - நீட்டிப்பு முழுமையாக ஆஃப்லைனில் வேலை செய்கிறது.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ApplyFlow க்கு ஏன் எல்லா இணையதளங்களுக்கும் அணுகல் தேவை?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow அனைத்து இணையதளங்களுக்கும் அணுகலைக் கோருகிறது, அதனால் அது எந்த வேலை விண்ணப்பப் படிவத்திலும் தன்னியக்க நிரப்பு இயந்திரத்தை உட்செலுத்த முடியும், மேலும் எந்த வேலை பட்டியலிலும் \"வேலையைச் சேமி\" கிளிப்பர் பொத்தானைக் காண்பிக்கும். பரந்த இயங்குதள ஆதரவிற்கு இந்த அனுமதி தேவை. தெளிவாக வேலை தொடர்பான பக்கங்களில் மட்டுமே ஸ்கிரிப்ட்களை புகுத்துகிறோம்.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "கன்பன் வாரியம் என்றால் என்ன?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "கான்பன் போர்டு என்பது டிராக்கர் தாவலில் ஒரு காட்சி வேலை கண்காணிப்பு காட்சியாகும். இது நெடுவரிசைகளில் ஒழுங்கமைக்கப்பட்ட உங்கள் பயன்பாடுகளைக் காட்டுகிறது: சேமிக்கப்பட்டது → பயன்படுத்தப்பட்டது → மதிப்பீடு → நேர்காணல் → சலுகை. எந்தவொரு பயன்பாட்டின் நிலையைப் புதுப்பிக்க, நெடுவரிசைகளுக்கு இடையில் கார்டுகளை இழுத்து விடலாம்.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "சமர்ப்பிப்பு கண்டறிதல் எவ்வாறு செயல்படுகிறது?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "அமைப்புகளில் \"சமர்ப்பித்த பிறகு மட்டும் உள்நுழை\" என்பதை இயக்கும்போது, ​​வெற்றிகரமான சமர்ப்பிப்பைக் குறிக்கும் பக்க மாற்றங்களை ApplyFlow கண்காணிக்கும் (\"/success\" கொண்ட URL அல்லது \"விண்ணப்பித்ததற்கு நன்றி\" என்று கூறும் உடல் உரை போன்றவை). உண்மையான சமர்ப்பிப்பைக் கண்டறிந்த பிறகு மட்டுமே அது உங்கள் டிராக்கரில் பயன்பாட்டைப் பதிவு செய்யும்.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "நான் பல கவர் கடிதங்களை சேமிக்க முடியுமா?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ஆம்! சுயவிவரத் திரையில் \"கவர் லெட்டர் வால்ட்\" பிரிவு உள்ளது, அங்கு நீங்கள் வெவ்வேறு பாத்திரங்கள் அல்லது நிறுவனங்களுக்கு ஏற்றவாறு வரம்பற்ற கவர் கடிதங்களைச் சேமிக்கலாம். தானாக நிரப்பும் போது, ​​ApplyFlow உங்களின் மிகச் சமீபத்திய அல்லது மிகவும் பொருத்தமான கவர் கடிதத்தைப் பயன்படுத்தும்.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "எனது விண்ணப்பத் தரவை எவ்வாறு ஏற்றுமதி செய்வது?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "கணக்கு & ஒத்திசைவுக்குச் செல்லவும் → கீழே உருட்டவும் → \"ஏற்றுமதி காப்புப்பிரதி (JSON)\" என்பதைக் கிளிக் செய்யவும். இது உங்கள் சுயவிவரம் மற்றும் பயன்பாட்டுத் தரவை JSON கோப்பாகப் பாதுகாப்பாகப் பதிவிறக்குகிறது.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow டெமோ பயன்முறையில் வேலை செய்கிறதா?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "டெமோ பயன்முறை என்பது சோதனைக்கு பயன்படுத்தப்படும் மரபு அமைப்பாகும். இது இப்போது முன்னிருப்பாக முடக்கப்பட்டுள்ளது. உள்ளமைக்கப்பட்ட ஜெமினி API விசையுடன் அனைத்து அம்சங்களும் நேரலையில் செயல்படுகின்றன.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "பிழையைப் புகாரளிப்பது அல்லது அம்சத்தைக் கோருவது எப்படி?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "எங்கள் GitHub களஞ்சியத்தில் (அறிமுகம் பிரிவில் இணைக்கப்பட்டுள்ளது) சிக்கலைத் திறக்கவும் அல்லது support@applyflow.in இல் எங்களுக்கு மின்னஞ்சல் செய்யவும். நாங்கள் பொதுவாக 48 மணி நேரத்திற்குள் பதிலளிக்கிறோம்.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow பாப்அப்பைத் திறக்கவும்",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "படிவ புலங்களுக்கு தற்போதைய பக்கத்தை ஸ்கேன் செய்யவும்",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "தற்போதைய பக்கத்தில் ஸ்மார்ட் தன்னியக்க நிரப்புதலைத் தூண்டவும்",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "டிராக்கருக்கு தற்போதைய வேலை பட்டியலை கிளிப் செய்யவும்",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "புதிய தாவலில் டிராக்கரைத் திறக்கவும்",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome இல் குறுக்குவழிகளை உள்ளமைக்கவும்",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "குறிப்பு:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome நீட்டிப்பு கட்டளைகளுக்கு Chrome இன் குறுக்குவழி மேலாளரில் கைமுறையாக ஒதுக்குதல் தேவை. மேலே பட்டியலிடப்பட்டுள்ள விசைகளை பிணைக்க $1$ க்குச் செல்லவும்.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome நீட்டிப்பு — தனியுரிமைக் கொள்கை**\nகடைசியாக புதுப்பிக்கப்பட்டது: ஜூன் 2026\n\n_____\n\n**1. அறிமுகம்**\n\nApplyFlow (\"நாங்கள்\", \"எங்கள்\", \"நீட்டிப்பு\") என்பது ஒரு Chrome உலாவி நீட்டிப்பாகும், இது பயனர்களுக்கு வேலை விண்ணப்பப் படிவங்களைத் தானாக நிரப்பவும், அவர்களின் பயன்பாடுகளைக் கண்காணிக்கவும் மற்றும் அவர்களின் தொழில்முறை சுயவிவரத்தை நிர்வகிக்கவும் உதவுகிறது. இந்த தனியுரிமைக் கொள்கையானது உங்கள் தகவலை நாங்கள் எவ்வாறு சேகரிக்கிறோம், பயன்படுத்துகிறோம், சேமிக்கிறோம் மற்றும் பாதுகாப்போம் என்பதை விளக்குகிறது.\n\nApplyFlow ஐ நிறுவி பயன்படுத்துவதன் மூலம், இந்தக் கொள்கையில் விவரிக்கப்பட்டுள்ள நடைமுறைகளை ஏற்கிறீர்கள்.\n\n_____\n\n**2. நாங்கள் சேகரிக்கும் தரவு**\n\nநீட்டிப்பின் அம்சங்களை இயக்க நீங்கள் தானாக முன்வந்து வழங்கும் தகவல்களை மட்டுமே நாங்கள் சேகரிக்கிறோம்:\n\n• **சுயவிவரத் தகவல்**: உங்கள் பெயர், மின்னஞ்சல், தொலைபேசி எண், கல்லூரி, பட்டம், திறன்கள், பணி வரலாறு, திட்டங்கள் மற்றும் தொழில்முறை இணைப்புகள், ஜி.ஐ.எல். போர்ட்ஃபோலியோ).\n• **EEO/மக்கள்தொகை தகவல் (விரும்பினால்)**: பாலினம், இயலாமை நிலை, அனுபவம் வாய்ந்த நிலை மற்றும் பணி அங்கீகார விருப்பத்தேர்வுகள் — இந்தப் புலங்களை நிரப்ப நீங்கள் தேர்வுசெய்தால் மட்டுமே வழங்கப்படும். வேலை விண்ணப்பங்களில் விருப்பமான EEO கேள்வித்தாள்களைத் தானாக நிரப்புவதற்கு மட்டுமே இந்தத் தரவு பயன்படுத்தப்படுகிறது.\n• **விண்ணப்பக் கண்காணிப்புத் தரவு**: வேலைத் தலைப்பு, நிறுவனம், பயன்பாட்டு URL, நிலை மற்றும் நீட்டிப்பைப் பயன்படுத்தி நீங்கள் கண்காணிக்கும் பதவிகளுக்கான குறிப்புகள்.\n• **பயன்பாட்டு புள்ளிவிவரங்கள் தினசரி செயல்படுத்தப்படும் வரம்புகள்).\n• **அங்கீகரிப்புத் தரவு**: நீங்கள் Google உடன் உள்நுழையத் தேர்வுசெய்தால், உங்கள் அனுபவத்தைத் தனிப்பயனாக்கி, கிளவுட் ஒத்திசைவை இயக்க, உங்கள் Google காட்சிப் பெயர், மின்னஞ்சல் முகவரி மற்றும் சுயவிவரப் பட URL ஆகியவற்றைச் சேமித்து வைக்கிறோம்.\n_NL_22__நாங்கள் **இல்லை** சேகரிக்கிறோம் அல்லது நிதி வரலாற்றை சேகரிக்கிறோம் செயல்பாடு\n• வேலை-விண்ணப்பம் தொடர்பான பக்கங்களிலிருந்து எந்த தகவலும்\n• நீட்டிப்பு செயலில் தூண்டப்படாத பக்கங்களிலிருந்து எந்தத் தரவும்\n\n---_\n\n**3. உங்கள் தரவை நாங்கள் எவ்வாறு சேமிப்போம்**\n\n**3.1 உள்ளூர் சேமிப்பகம் (இயல்புநிலை)**\nஎல்லா தரவுகளும் முதன்மையாக உங்கள் உலாவியின் chrome.storage.local API இல் சேமிக்கப்படும். இந்தத் தரவு உங்கள் சாதனத்தில் மட்டுமே உள்ளது மற்றும் உங்கள் வெளிப்படையான செயல் இல்லாமல் எந்த சேவையகத்திற்கும் அனுப்பப்படாது.\n\n**3.2 Cloud Sync (விரும்பினால்)**\nநீங்கள் Google உடன் உள்நுழைந்து \"Supabase Sync\" அம்சத்தை இயக்கத் தேர்வுசெய்தால், உங்கள் சுயவிவரம் மற்றும் பயன்பாட்டுத் தரவும் Supabase Supabase தரவு ஒத்திசைக்கப்படும். இந்தத் தரவின் முழு உரிமையையும் நீங்கள் வைத்திருக்கிறீர்கள். கணக்கு & ஒத்திசைவு பிரிவில் இருந்து எந்த நேரத்திலும் அதை நீக்கலாம்.\n\n**3.3 Gemini AI கோரிக்கைகள்**\nAI அம்சங்கள் பயன்படுத்தப்படும்போது (எ.கா., கட்டுரை உருவாக்கம், வேலை பகுப்பாய்வு), உங்கள் சுயவிவரத்தின் பகுதிகள் (திறன்கள், பட்டம், சுருக்கம்) மற்றும் Google வேலை விளக்க உரை ஜெமினிக்கு அனுப்பப்படும். இது Google இன் நிலையான API சேவை விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கையின் கீழ் செயல்படுத்தப்படுகிறது. உங்களின் AI-உதவி உள்ளடக்கத்தில் முக்கியமான தனிப்பட்ட அடையாளங்காட்டிகளைச் சேர்க்க வேண்டாம் என்று பரிந்துரைக்கிறோம்.\n_NL_41_______\n\n**4. தரவுப் பகிர்வு**\n\n நாங்கள் **** விற்பனை செய்யவோ, வர்த்தகம் செய்வதோ, வாடகைக்கு விடவோ அல்லது உங்கள் தனிப்பட்ட தகவலை சந்தைப்படுத்தல் அல்லது விளம்பர நோக்கங்களுக்காகவோ எந்தவொரு மூன்றாம் தரப்பினருடனும் பகிர்ந்து கொள்ள மாட்டோம்.\n\nஉங்கள் தரவு பின்வரும் நம்பகமான சேவைகளால் செயலாக்கப்படலாம்: \n• **கூகுள் ஃபார்ம் நிரப்பப்பட்ட ஜெமினி ஏபிஐ பகுப்பாய்வு (https://policies.google.com/privacy)\n• **Google OAuth**: கணக்கு அங்கீகரிப்புக்காக (https://policies.google.com/privacy)\n• **Supabase**: விருப்ப கிளவுட் சேமிப்பகத்திற்கு (https://supabase.com/privacy) — நீங்கள் ஆர்வமாக இருந்தால் மட்டுமே ஒத்திசைவு\n\n__\n\n**5. உங்கள் உரிமைகள் மற்றும் கட்டுப்பாடுகள்**\n\nஉங்களுக்கு உரிமை உள்ளது:\n• **Access** ApplyFlow உங்களைப் பற்றிச் சேமித்துள்ள எல்லாத் தரவையும் (அமைப்புகளில் ஏற்றுமதி காப்புப்பிரதி மூலம்)\n• **சரி*** உங்கள் எல்லாத் தரவையும் சுயவிவரத் தாவலில் எந்த நேரத்திலும் நீக்கவும்*•L_*N அமைப்புகளில் உள்ள சுயவிவரத் தரவு\"\n• **ஒப்புதலைத் திரும்பப் பெறுங்கள்** நீட்டிப்பை நிறுவல் நீக்குவதன் மூலம் எந்த நேரத்திலும்\n• **க்ளவுட் ஒத்திசைவை முடக்கவும்** கணக்கு மற்றும் ஒத்திசைவு அமைப்புகளில் அதை நிலைமாற்றுவதன் மூலம்\n\n**GDPR ஐப் பயன்படுத்துவதற்கான உரிமைகள் உங்களுக்கு இருந்தால், EU: பொதுத் தரவுப் பாதுகாப்பு ஒழுங்குமுறையின் கீழ் சரிசெய்தல், அழித்தல், கட்டுப்படுத்துதல் மற்றும் தரவுப் பெயர்வுத்திறன் ஆகியவற்றைத் திருத்தலாம். எங்களைத் தொடர்புகொள்வதன் மூலம் எந்த நேரத்திலும் நீங்கள் ஒப்புதலைத் திரும்பப் பெறலாம் மற்றும் உங்கள் தரவை நீக்கக் கோரலாம் தரவு).\n\n_____\n\n**6. தரவுத் தக்கவைப்பு**\n\nஉள்ளூர் தரவு நீங்கள் கைமுறையாக அழிக்கும் வரை அப்படியே இருக்கும். உங்கள் கணக்கை நீக்கும் வரை அல்லது நீக்கக் கோரும் வரை கிளவுட்-ஒத்திசைக்கப்பட்ட தரவு தக்கவைக்கப்படும். நாங்கள் தானாக தரவை நீக்க மாட்டோம்.\n\n_____\n\n**7. பாதுகாப்பு**\n\nஉங்கள் தரவைப் பாதுகாக்க நாங்கள் நியாயமான தொழில்நுட்ப நடவடிக்கைகளை மேற்கொள்கிறோம்:\n• அனைத்து கிளவுட் தகவல்தொடர்புகளும் HTTPS/TLS குறியாக்கத்தைப் பயன்படுத்துகின்றன\n• சுபாபேஸ் வரிசை-நிலை பாதுகாப்பு (RLS) பயனர்கள் தங்கள் சொந்த தரவை மட்டுமே அணுக முடியும் என்பதை உறுதிசெய்கிறது\n நீட்டிப்பு கோரிக்கைகளுக்கு அப்பால் செயல்பாடு\n\n_____\n\n**8. குழந்தைகளின் தனியுரிமை**\n\nApplyFlow என்பது 13 வயதுக்குட்பட்ட பயனர்களுக்கானது அல்ல. நாங்கள் தெரிந்தே குழந்தைகளிடமிருந்து தரவைச் சேகரிப்பதில்லை. ஒரு குழந்தை எங்களுக்கு தனிப்பட்ட தகவலை வழங்கியதாக நீங்கள் நம்பினால், உடனடியாக எங்களைத் தொடர்பு கொள்ளவும்.\n\n________\n\n**9. இந்தக் கொள்கையில் மாற்றங்கள்**\n\nஇந்த தனியுரிமைக் கொள்கையை நாங்கள் அவ்வப்போது புதுப்பிக்கலாம். குறிப்பிடத்தக்க மாற்றங்கள் நீட்டிப்பின் விருப்பங்கள் பக்கத்தின் மூலம் தெரிவிக்கப்படும். மாற்றங்களுக்குப் பிறகு நீட்டிப்பைத் தொடர்ந்து பயன்படுத்துவது, புதுப்பிக்கப்பட்ட கொள்கையை ஏற்றுக்கொள்வதைக் குறிக்கிறது.\n\n_____\n\n**10. எங்களைத் தொடர்புகொள்ளவும்**\n\nஎந்தவொரு தனியுரிமை தொடர்பான கேள்விகள், தரவு நீக்குதல் கோரிக்கைகள் அல்லது கவலைகள்:\n\nமின்னஞ்சல்: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension/4__NL_extension https://applyflow.in\n\nஎல்லா கோரிக்கைகளுக்கும் 30 நாட்களுக்குள் பதிலளிப்பதை நோக்கமாகக் கொண்டுள்ளோம்.",
+    "description": "Privacy policy document markdown text"
+  }
+}

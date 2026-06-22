@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow- AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "အလုပ်လျှောက်လွှာများကို အလိုအလျောက်ဖြည့်ပြီး LinkedIn၊ Workday၊ Greenhouse နှင့် အခြားအရာများတွင် AI ကို အသုံးပြု၍ စာရင်းများကို အလိုအလျောက်ခြေရာခံပါ။",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "လှုပ်လှုပ်ရှားရှား",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "အသုံးချပါ။",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "အင်တာဗျူး",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ဝေငှခြင်း။",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "သိမ်းဆည်းခဲ့သည်။",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "စုစုပေါင်း",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "အလိုအလျောက်ဖြည့်ပါ။",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ဖြည့်စွက်ခြင်း...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "အမြန်အလိုအလျောက်ဖြည့်ပါ။",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Job ကိုခွဲခြမ်းစိတ်ဖြာပါ။",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Sidebar ကိုဖွင့်ပါ။",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ဆက်တင်များ",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Quick Autofill ကိုအသုံးပြုရန် Google နှင့် ဦးစွာဝင်ရောက်ပါ။",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Side Panel/Options စာမျက်နှာတွင် သင့်ပရိုဖိုင်ကို ဦးစွာ စတင်သတ်မှတ်ပါ။",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ တွေ့ရှိသည်။",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "အလုပ်စာမျက်နှာ မတွေ့ပါ။",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI ဝန်ဆောင်မှုများကို လော့ခ်ဖွင့်ရန် အလုပ်စာရင်းသို့ ဝင်ကြည့်ပါ။",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "မင်္ဂလာနံနက်ခင်းပါ။",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ကောင်းသောနေ့လည်ခင်း",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "မင်္ဂလာညချမ်းပါ။",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ လျှောက်လွှာများကို ခြေရာခံလိုက်သည် · $2$ အင်တာဗျူးများ",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "သင့်တိုးတက်မှုကို ခြေရာခံရန် စတင်လျှောက်ထားပါ။",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "မျက်နှာဖုံးလွှာ",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "အမေးအဖြေ အကူအညီ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "ကူညီရန်အဆင်သင့်",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "စတင်ရန် LinkedIn၊ Workday၊ Greenhouse သို့မဟုတ် မည်သည့်အလုပ်ဘုတ်အဖွဲ့တွင်မဆို အလုပ်အကိုင်စာရင်းတစ်ခုသို့ သွားပါ။",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "ဒီတစ်ပတ်",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "လတ်တလော လုပ်ဆောင်ချက်",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "→ အားလုံးကြည့်ရှုပါ။",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "သင်၏အလုပ်ရှာဖွေမှုစတင်ပါ။",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "အလုပ်ဘုတ်အဖွဲ့သို့သွားရောက်ပြီး သင့်လျှောက်လွှာများကို အလိုအလျောက်ဖြည့်ပြီး ခြေရာခံရန် ApplyFlow ကို အသုံးပြုပါ။",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "ကျွန်တော့် Profile",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "သိမ်းဆည်းနေသည်...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "အားလုံးကို သိမ်းဆည်းပါ။",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "ပရိုဖိုင်ကို သိမ်းဆည်းပြီးပါပြီ။",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "ပရိုဖိုင်ကို သိမ်းဆည်းရန် မအောင်မြင်ပါ။",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "ကိုယ်ရေးရာဇဝင်",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "အလိုအလျောက်ဖြည့်ပရိုဖိုင်သို့ အပ်လုဒ်လုပ်ပါ။",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ အပ်လုဒ်လုပ်ထားသည်။",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "ကိုယ်ရေးကိုယ်တာ အချက်အလက်",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "မပြည့်စုံ",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "တည်နေရာ",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "ပညာရေး",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "ကျွမ်းကျင်မှု",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "လုပ်ငန်းအတွေ့အကြုံ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "ပရောဂျက်များ",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "အလုပ်ဦးစားပေး",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "အလုပ်ခွင့်ပြုချက်",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "သမိုင်းကို ပြန်စပါ။",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ဒါကိုသုံးပါ။",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ တွင် ပိုင်းခြားထားသည်",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" မှ ပရိုဖိုင်အသေးစိတ်အချက်အလက်များကို တင်မလား။ ၎င်းသည် သင်၏ လက်ရှိတည်းဖြတ်မှုများကို ဤကိုယ်ရေးမှတ်တမ်း၏ ခွဲခြမ်းစိတ်ဖြာထားသည့် ဖွဲ့စည်းပုံဖြင့် အစားထိုးမည်ဖြစ်သည်။",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "အသေးစိတ်အချက်အလက်များကို $1$ မှ ပြန်လည်ရယူထားသည်",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "ပွဲစဉ်ရမှတ်",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ အံကိုက်",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "နောက်ထပ် +$1$",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "အပလီကေးရှင်းကို အလိုအလျောက်ဖြည့်ပြီး မှတ်တမ်းတင်ထားသည်။ ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow Side Panel မှတစ်ဆင့် အလိုအလျောက် ဖြည့်ပေးသည်။",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "အဲဒီမှာ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "ကောလိပ်မသတ်မှတ်ဘူး။",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "အော်တိုဖြည့်စွက်မှုကို ဖွင့်ရန် သင့်ပရိုဖိုင်ကို စနစ်ထည့်သွင်းပါ။",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "မသတ်မှတ်ထားဘူး။",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ထည့်သွင်းမှုများ",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ အရည်အချင်း",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ ပရောဂျက်များ",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ အဖြေများ",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "လုပ်ပိုင်ခွင့်",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "ခွင့်မပြု",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "နာမည်အပြည့်အစုံ",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "အီးမေးလ်",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ဖုန်း",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "အခြားဖုန်း",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "အစုစု URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Resume Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "မြို",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "ပြည်နယ်",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "တိုင်းပြည်",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "စာတိုက်ကုဒ်",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "လိပ်စာ",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "လူမျိုးစု",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "ကောလိပ်/တက္ကသိုလ်",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ဘွဲ့",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "ဘွဲ့နှစ်",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / အဆင့်",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "၁၀ ရာခိုင်နှုန်း",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "သတိပေးချက်ကာလ",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "မျှော်မှန်းလစာ",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "ဦးစားပေးအခန်းကဏ္ဍ",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "အတွေ့အကြုံနှစ်များ",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ဗီဇာစပွန်ဆာမပါဘဲ အလုပ်လုပ်ခွင့်",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ဗီဇာစပွန်ဆာလိုအပ်သည်။",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ကျား၊",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "မသန်စွမ်း",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "မပြောလိုပါ။",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "မသတ်မှတ်ထားပါ။",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "အထီး",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "အပျို",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ဒွိမဟုတ်သော",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ဟုတ်ကဲ့",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "မရှိ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "အရည်အချင်းမထည့်ရသေးဘူး။",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "ကျွမ်းကျင်မှုထည့်ပါ (ထည့်ရန်ထည့်ပါ)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "အစပျိုးထားသော စကားစု (ဥပမာ၊ ကျွန်ုပ်တို့ သင့်ကို ဘာကြောင့် ငှားရမ်းသင့်သလဲ)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "မင်းရဲ့အဖြေ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "ဖယ်ရှားပါ။",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ စိတ်ကြိုက်အဖြေထည့်ပါ။",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "ကုမ္ပဏီ",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "အခန်းကဏ္ဍ / ခေါင်းစဉ်",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "စတင်ရက်စွဲ",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "ကုန်ဆုံးရက်စွဲ",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "ပစ္စုပ္ပန်",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "ကျွန်တော် လက်ရှိ ဒီအခန်းကဏ္ဍမှာ အလုပ်လုပ်နေပါတယ်။",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "ဖော်ပြချက်",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "သင်၏တာဝန်များ၊ အဓိကအောင်မြင်မှုများ၊ အသုံးပြုထားသောနည်းပညာများကို ဖော်ပြပါ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ အလုပ်အတွေ့အကြုံထည့်ပါ။",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "ပရောဂျက်ခေါင်းစဉ်",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "ဖြန့်ကျက် URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "သင်တည်ဆောက်ခဲ့ရာ၊ မည်သည့်ပြဿနာကို ဖြေရှင်းခဲ့ကြောင်းနှင့် အဓိကလုပ်ဆောင်ချက်များကို ဖော်ပြပါ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ ပရောဂျက်ကိုထည့်ပါ။",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ခြေရာခံပါ။",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "သိမ်းဆည်းခဲ့သည်။",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "အသုံးချပါ။",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "အကဲဖြတ်ခြင်း။",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "အင်တာဗျူး",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ဝေငှခြင်း။",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "ပယ်ချသည်။",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ထုတ်ယူသည်။",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "ဤအပလီကေးရှင်းကို ဖျက်မလား။",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "အက်ပ်ကို အပ်ဒိတ်လုပ်ထားသည်။",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "အပလီကေးရှင်းကို ဖျက်လိုက်ပါပြီ။",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "အဆင့်အတန်း",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "ပလပ်ဖောင်း",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "အသုံးချပါ။",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Job Posting ကိုဖွင့်ပါ။",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "လစာ/ထောက်ပံ့ကြေး",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "နောက်ဆက်တွဲသတိပေးချက်",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "မှတ်စုများ",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "မှတ်စုများ၊ ဆက်သွယ်ရန်အချက်အလက်၊ အင်တာဗျူးအသေးစိတ်အချက်အလက်များကို ထည့်ပါ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "အလုပ်ဖော်ပြချက် (ကောက်နုတ်ချက်)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ဖျက်ပါ။",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "မလုပ်တော့",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "သိမ်းဆည်းပါ။",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "လျှောက်လွှာ ၁",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ လျှောက်လွှာများ",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "ကုမ္ပဏီအလိုက် စစ်ထုတ်ပါ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "အခြေအနေ စစ်ထုတ်မှုများ",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "ပိုမိုသိရှိရန် → ညာဘက်သို့ ရွှေ့ပါ။",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "အားလုံး",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "အပလီကေးရှင်း မတွေ့ပါ။",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "စစ်ထုတ်မှုများကို ပြန်လည်သတ်မှတ်ကြည့်ပါ သို့မဟုတ် ခြေရာခံကိရိယာအသစ်တစ်ခုထည့်သွင်းရန် အလုပ်တစ်ခုကို သိမ်းဆည်းပါ။",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "ပိုင်းခြားစိတ်ဖြာပါ။",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ စုစုပေါင်း အပလီကေးရှင်းများ",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "အချက်အလက်မရှိသေးပါ။",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "အလုပ်များတွင် စတင်လျှောက်ထားပြီး သင်၏ ခွဲခြမ်းစိတ်ဖြာချက်သည် ဤနေရာတွင် ပေါ်လာပါမည်။",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "ကူးပြောင်းနှုန်းများ",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "အသုံးချပါ။",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "အင်တာဗျူးနှုန်း",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "ကမ်းလှမ်းမှုနှုန်း",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "ဒီတစ်ပတ်အတွက် လျှောက်လွှာများ",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Application Funnel",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "ထိပ်တန်းပလပ်ဖောင်းများ",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "အဆင့်အတန်းခွဲခြားမှု",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "အကြောင်းအရာ- $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "မင်းရဲ့အသက်မွေးဝမ်းကြောင်းစမ်းသပ်မှု",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "ချတ်အသစ် ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "AI သည် တုံ့ပြန်မှုများကို စိတ်ကြိုက်ပြင်ဆင်နိုင်စေရန် သင့်ပရိုဖိုင်ကို ဦးစွာ စနစ်ထည့်သွင်းပါ။",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "ချတ်ရှင်းပြီးပါပြီ။ ငါ မင်းကို ဘာကူညီပေးရမလဲ။",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "ဒီအလုပ်နဲ့ပတ်သတ်ပြီး မေးပါ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "စတင်ရန် သင့်ပရိုဖိုင်ကို စနစ်ထည့်သွင်းပါ။",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "ပေးပို့ရန် Enter နှိပ်ပါ။",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "လိုက်ဖက်ညီမှုရမှတ်ကို ပြန်လည်စတင်ပါ။",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ကျွမ်းကျင်မှုအားကောင်းခြင်း။",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ လွဲမှားနေသော အရည်အချင်းများ",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "ဤသည်မှာ သင်၏ ပုဂ္ဂိုလ်ရေးသီးသန့် ကာဗာစာဖြစ်သည်-",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ ကူးယူထားပါသည်။",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 မိတ္တူ",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ဒေါင်းလုပ်ဆွဲပါ။",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "ဤသည်မှာ $1$ ဖြစ်နိုင်ချေရှိသော အင်တာဗျူးမေးခွန်းများဖြစ်သည်-",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ပိုမိုကောင်းမွန်အောင် ပြန်လည်လုပ်ဆောင်ရန် ရမှတ်- $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "ပွဲစဉ်အကြံပြုချက်များကို ပြန်လည်စတင်ပါ။",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs ဤအလုပ်ဖော်ပြချက်",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "တစ်ခုခုမှားသွားသည်။ ထပ်စမ်းကြည့်ပါ။",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "မင်္ဂလာပါ **$2$** တွင် **$1$** အခန်းကဏ္ဍကို သင်ကြည့်ရှုနေသည်ကို ကျွန်ုပ်တွေ့မြင်နိုင်ပါသည်။",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "မင်္ဂလာပါ **$1$** အခန်းကဏ္ဍကို သင်ကြည့်နေသည်ကို ကျွန်ုပ်တွေ့မြင်နိုင်ပါသည်။",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "မင်္ဂလာပါ ငါက မင်းရဲ့ AI ရဲ့ အသက်မွေးဝမ်းကြောင်း စမ်းသပ်သူပါ။ အလုပ်စာရင်းတစ်ခုသို့ သွား၍ ၎င်းကို အလိုအလျောက် ခွဲခြမ်းစိတ်ဖြာမည် သို့မဟုတ် ကျွန်ုပ်ကို ဘာမဆို မေးပါမည်။",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "ကျေးဇူးပြု၍ သင့်ပရိုဖိုင်ကို ပရိုဖိုင်တက်ဘ်တွင် ဦးစွာ သတ်မှတ်ပါ။",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "ဤအင်္ဂါရပ်ကိုအသုံးပြုရန် ဦးစွာ သင့်ဘရောက်ဆာတွင် အလုပ်စာရင်းစာမျက်နှာကိုဖွင့်ပါ။",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow ကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "သင်၏ ဒက်ရှ်ဘုတ်သို့ ဝင်ရောက်ရန်၊ အလုပ်များကို စင့်ခ်လုပ်ရန်၊ သင့်ကိုယ်ရေးရာဇဝင် ပရိုဖိုင်ကို စီမံခန့်ခွဲရန်နှင့် အလုပ်လျှောက်လွှာများကို ချက်ချင်း အလိုအလျောက်ဖြည့်ရန် Google ဖြင့် ဝင်ရောက်ပါ။",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI အလိုအလျောက်ဖြည့်စွက်ခြင်းနှင့် ညှပ်",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "တစ်ချက်နှိပ်ရုံဖြင့် အပလီကေးရှင်းများကို စကင်န်ဖတ်ပြီး အလိုအလျောက်ဖြည့်ပါ။",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "သင်၏အလုပ်ခြေရာခံခြင်းအသေးစိတ်အချက်အလက်များအားလုံးကို Supabase သို့ စင့်ခ်လုပ်ပါ။",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ကိုယ်ရေးမှတ်တမ်းနှင့် ပရိုဖိုင်များ",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "သင်၏ကိုယ်ရေးအကျဉ်းကို အပ်လုဒ်လုပ်ပြီး လျှောက်လွှာအဖြေများကို စိတ်ကြိုက်ပြင်ဆင်ပါ။",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google သို့ ချိတ်ဆက်နေသည်...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google ဖြင့် လက်မှတ်ထိုးဝင်ပါ။",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "လက်မှတ်ထိုးဝင်ခြင်းဖြင့်၊ သင်သည် သင်၏ပရိုဖိုင်ဒေတာကို သင်၏လက်ရှိအလုပ်ခွင်တွင် လုံခြုံစွာထပ်တူကူးရန် သဘောတူပါသည်။",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "ထွက်လိုသည်မှာ သေချာပါသလား။",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "အောင်မြင်စွာ ထွက်လိုက်ပါပြီ။",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ အဖြစ် အကောင့်ဝင်ခဲ့သည်",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "ထွက်ပါ။",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "အကောင့်ဝင်ပါ။",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "ချိတ်ဆက်နေသည်...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow ကိုဖွင့်ပါ။",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow ကိုက်ညီမှု",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ခိုင်မာသောကိုက်ညီမှုစွမ်းရည်",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "လွဲမှားနေသော အရည်အချင်းများ",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "စမတ် အလိုအလျောက်ဖြည့် စာမျက်နှာ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "အလိုအလျောက်ဖြည့်ဖောင်...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "စာမျက်နှာပေါ်တွင် ဖြည့်စွက်နိုင်သော အပလီကေးရှင်းအကွက်များကို မတွေ့ပါ။",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "အောင်မြင်စွာ ဖြည့်စွက်ပြီးပါပြီ။",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "စာမျက်နှာရှုပ်ထွေးမှုကြောင့် အလိုအလျောက်ဖြည့်စွက်မှု မအောင်မြင်ပါ။",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "ဖြည့်ပြီးပါက မှတ်တမ်းခြေရာခံသို့ အလိုအလျောက် သိမ်းဆည်းထားသည်။",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "သင့်ကိုယ်ရေးရာဇဝင်သည် ဤအခန်းကဏ္ဍနှင့် **$1$% သဟဇာတ** ဖြစ်သည်။",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "ကြိုဆိုပါတယ် $1$။",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google အသုံးပြုသူပရိုဖိုင်အချက်အလက်ကို ရယူ၍မရပါ။",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth အကောင့်ဝင်ခြင်း မအောင်မြင်ပါ- $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "လမ်းကြောင်းလွှဲခြင်းမှ ဝင်ရောက်ခွင့် တိုကင်ကို ရယူ၍မရပါ။",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "အထောက်အထားစိစစ်ခြင်း လမ်းကြောင်းလွှဲခြင်းကို ခွဲခြမ်းစိတ်ဖြာရန် မအောင်မြင်ပါ။",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ဤပလပ်ဖောင်းတွင် စစ်မှန်ကြောင်းအထောက်အထားပြခြင်းကို မပံ့ပိုးပါ။",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "အလုပ်အား ခြေရာခံစနစ်တွင် သိမ်းဆည်းထားသည်။",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "ဧည့်သည်",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ အထွေထွေဆက်တင်များ",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn အလုပ်စာမျက်နှာများပေါ်တွင်ပြသပါ။",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "LinkedIn တွင် အလုပ်တင်ခြင်းများကို သင်ကြည့်ရှုသောအခါတွင် စမတ်ကျသောကိုက်ညီမှုရမှတ်နှင့် တစ်ချက်နှိပ်ရုံဖြင့် အလိုအလျောက်ဖြည့်ခလုတ်ကို ပြသသည်။",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'အလုပ်သိမ်း' ခလုတ်ကို ပြပါ။",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "အလုပ်ဝဘ်ဆိုက်များပေါ်တွင် မျောနေသော 'အလုပ်သိမ်းပါ 📌' ခလုတ်ကို ပြသထားသောကြောင့် အလုပ်အသေးစိတ်အချက်အလက်များကို မလျှောက်ထားမီ သင်၏ခြေရာခံကိရိယာတွင် အမြန်သိမ်းဆည်းနိုင်မည်ဖြစ်သည်။",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "အမှန်တကယ် လျှောက်ထားပြီးမှသာ စာရင်းသွင်းပါ။",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "သင်၏ခြေရာခံကိရိယာသို့ အလုပ်မထည့်မီ 'ကျေးဇူးတင်ပါတယ်' သို့မဟုတ် 'အောင်မြင်မှု' စခရင်ကို သင်တွေ့သည်အထိ စောင့်ပါ။ တစ်ဝက်ပြည့်ဖောင်များကို 'Applied' အဖြစ် သိမ်းဆည်းခြင်းမှ တားဆီးခြင်းဖြင့် သင့်ခြေရာခံကိရိယာကို သပ်ရပ်အောင် ထားပါ။",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI ခရက်ဒစ်များနှင့် အသုံးပြုမှုပိုင်းခြားစိတ်ဖြာချက်",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ခရက်ဒစ်ဝဲ",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ခရက်ဒစ်များ ကျန်ရှိနေသည်။",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "စုစုပေါင်း ခရက်ဒစ်များ",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "အချိန်တိုင်း အလိုအလျောက်ဖြည့်မှုများ",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "အစီအစဉ်အခြေအနေ",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "ပရီမီယံ 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "🔓 အခမဲ့",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "အကြံပြုချက်-",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "စမတ် အော်တိုဖြည့်ခြင်း လုပ်ငန်းများသည် 0 ခရက်ဒစ်များကို စားသုံးပြီး 100% အကန့်အသတ်မရှိ လုပ်ဆောင်ပါသည်။ Cover Letters (5 ခရက်ဒစ်) နှင့် စိတ်ကြိုက် Essays (ခရက်ဒစ် 3 ခု) ကဲ့သို့သော အဆင့်မြင့် AI အင်္ဂါရပ်များကသာ သင့်ခရက်ဒစ်လက်ကျန်ကို စားသုံးပါသည်။",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google အကောင့်နှင့် Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync ကို အသုံးပြုထားသည်။",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync ကို လော့ခ်ချထားသည် (Premium သာ)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Cloud သို့ တွန်းပါ။",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Cloud မှ ဆွဲထုတ်ပါ။",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "စင့်ခ်လုပ်ခြင်း အောင်မြင်ပါသည်။",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "စင့်ခ်လုပ်ခြင်း မအောင်မြင်ပါ။ သင်၏ချိတ်ဆက်မှုကိုစစ်ဆေးပါ။",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "လုံခြုံသော Cloud Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "သင်၏ အပလီကေးရှင်းများနှင့် ပရိုဖိုင်ကို Supabase သို့ အရန်ကူးရန် Google ဖြင့် ဝင်ရောက်ပါ။ စင့်ခ်လုပ်ခြင်းသည် စက်ပစ္စည်းများတွင် သင့်မှတ်တမ်းများကို လုံခြုံစေသည့် ပရီမီယံဝန်ဆောင်မှုတစ်ခုဖြစ်သည်။",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync သည် ပရီမီယံအင်္ဂါရပ်တစ်ခုဖြစ်သည်။ စင့်ခ်လုပ်ခြင်းကို ဖွင့်ရန် ကျေးဇူးပြု၍ အဆင့်မြှင့်တင်ပါ တက်ဘ်တွင် အဆင့်မြှင့်ပါ။",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ဒေတာစီမံခန့်ခွဲမှု",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "အရန်သိမ်းခြင်း (JSON) ကို ထုတ်ယူရန်",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Local Data အားလုံးကို ရှင်းလင်းပါ။",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "ဒေသတွင်းဒေတာကို ရှင်းလင်းခြင်းသည် သင့်ပရိုဖိုင်နှင့် အပလီကေးရှင်းများကို ဤစက်မှသာလျှင် ဖယ်ရှားသည်။ Cloud ဒေတာကို ထိခိုက်ခြင်းမရှိပါ။",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "ထိန်းချုပ်ရေးစင်တာ",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "အိမ်နှင့် အကြောင်း",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "အထွေထွေဆက်တင်များ",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "👑 Pro သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "ပရီမီယံအစီအစဉ် 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "အကောင့်နှင့် စင့်ခ်လုပ်ခြင်း။",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "ကိုယ်ရေးကိုယ်တာမူဝါဒ",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "ကီးဘုတ်ဖြတ်လမ်းများ",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow မှလှိုက်လှဲစွာကြိုဆိုပါသည်။",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow သည် ပိုမိုမြန်ဆန်ပြီး စမတ်ကျကျ လျှောက်ထားလိုသော ကျောင်းသားများနှင့် အလုပ်ရှာဖွေသူများအတွက် တည်ဆောက်ထားသည့် AI-powered Chrome extension တစ်ခုဖြစ်သည်။ ၎င်းသည် 15+ ပလပ်ဖောင်းများတစ်လျှောက် အလုပ်လျှောက်လွှာပုံစံများကို အလိုအလျောက်ရှာဖွေပြီး ဖြည့်ပေးကာ သင့်ပိုက်လိုင်းကို ခြေရာခံကာ အင်တာဗျူးများကို ပိုမိုလုပ်ဆောင်ပေးသည်။",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "စမတ်အလိုအလျောက်ဖြည့်",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "တိကျသောရွေးချယ်မှုများပါရှိသော 15+ ATS ပလပ်ဖောင်းများ",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "ဝဘ်ညှပ်",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "အလုပ်စာရင်းကို တစ်ချက်နှိပ်ရုံဖြင့် သိမ်းဆည်းပါ။",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "သင့်လျှောက်လွှာပိုက်လိုင်းကို ဆွဲဆွဲချလိုက်ပါ။",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO အလိုအလျောက်ဖြည့်",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "လူဦးရေစာရင်းနှင့် ဗီဇာမေးခွန်းများကို အလိုအလျောက် ဖြည့်ပေးသည်။",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI အက်ဆေးများ",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-powered စိတ်ကြိုက်အဖြေစာရေး",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "လုံခြုံသော စင့်ခ်လုပ်ခြင်း။",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "ရွေးချယ်နိုင်သော Supabase cloud အရန်ကူးခြင်း။",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 ဘယ်လိုစတင်ရမလဲ",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "သင်၏ပရိုဖိုင်ကိုတည်ဆောက်ပါ။",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "ပေါ့ပ်အပ် → ပရိုဖိုင် တက်ဘ် → သင့်ကိုယ်ရေးရာဇဝင် PDF ကို အပ်လုဒ်လုပ်ပါ။ AI သည် ကျွမ်းကျင်မှု၊ အတွေ့အကြုံ၊ ပညာရေးနှင့် ပရောဂျက်များအပါအဝင် သင်၏အသေးစိတ်အချက်အလက်များအားလုံးကို အလိုအလျောက် ထုတ်ယူမည်ဖြစ်သည်။",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO ဦးစားပေးများကို သတ်မှတ်ပါ။",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "သင့်ပရိုဖိုင်ရှိ EEO ကဏ္ဍသို့ ဆင်းပြီး သင့်အလုပ်ခွင့်ပြုချက်၊ ဗီဇာစပွန်ဆာလိုအပ်ချက်များနှင့် လူဦးရေစာရင်းဆိုင်ရာ ဦးစားပေးမှုများကို သတ်မှတ်ပါ။ EEO မေးခွန်းပုံစံများကို အလိုအလျောက်ဖြည့်ရန် ၎င်းတို့ကို အသုံးပြုသည်။",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Job Listing ကို ကြည့်ပါ။",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "မည်သည့်အလုပ်စာရင်းကိုမဆို သွားပါ။ 📌 \"Save Job\" ခလုတ်လေး ပေါ်လာပါမယ်။ တည်နေရာကို သင့်ခြေရာခံကိရိယာတွင် ချက်ချင်းသိမ်းဆည်းရန် ၎င်းကို နှိပ်ပါ။",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "လျှောက်လွှာပုံစံကိုဖွင့်ပါ။",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "လျှောက်လွှာပုံစံသို့သွားပါ။ ApplyFlow popup → \"Scan Page\" → ထို့နောက် \"⚡ Smart Autofill\" ကိုနှိပ်ပါ။ ရေဒီယိုခလုတ်များနှင့် dropdowns များအပါအဝင် အကွက်များအားလုံး ချက်ချင်းပြည့်သွားပါသည်။",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "သင့်ပိုက်လိုင်းကို ခြေရာခံပါ။",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "သင်၏အပလီကေးရှင်းအားလုံးကိုကြည့်ရှုရန် Tracker တက်ဘ်ကိုဖွင့်ပါ။ သင့်အခြေအနေအပ်ဒိတ်များအဖြစ် Kanban Board မြင်ကွင်းသို့ ပြောင်းပြီး ကော်လံများကြားတွင် ကတ်များကို ဆွဲယူပါ။",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 အကောင့်ဝင်ရန် လိုအပ်ပါသည်။",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ဆက်တင်များကို စိတ်ကြိုက်ပြင်ဆင်ရန် အကောင့်ဝင်ပါ။",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "အထွေထွေဆက်တင်များကို အကောင့်ဝင်အသုံးပြုသူများအတွက်သာ ရနိုင်ပါသည်။ သင့်စိတ်ကြိုက်ရွေးချယ်မှုများ၊ အလိုအလျောက်ဖြည့်သည့်အပြုအမူများနှင့် အခြားအရာများကို စီစဉ်သတ်မှတ်ရန် Google ဖြင့် ဝင်ရောက်ပါ။",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "အကောင့်နှင့် စင့်ခ်လုပ်ခြင်းသို့ သွားပါ။",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "လိုင်စင်ကီး- $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "လိုင်စင်ပိတ်လိုက်ပါ။",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 လိုင်စင်ကီးကို အသက်သွင်းခြင်း။",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "သင်သည် စာရင်းသွင်းမှုတစ်ခုကို ဝယ်ယူပြီး သို့မဟုတ် ဝင်ရောက်ခွင့်ကုဒ်ကို လက်ခံရရှိပါက၊ ApplyFlow Premium ကိုသော့ဖွင့်ရန် အောက်ပါ သင်၏လိုင်စင်ကီးကို ထည့်သွင်းပါ။",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "အသက်သွင်းပါ။",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "အသက်သွင်းနေသည်...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 အကြံပြုချက်- သင်သည် APPLYFLOW-PRO-2026 သော့ကို အသုံးပြု၍ Premium ကို အသက်သွင်းနိုင်ပါသည်။",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "ပရီမီယံကို အသက်သွင်းခဲ့သည်။",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow ကို အားပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။ ပရီမီယံ ဝန်ဆောင်မှုအားလုံးကို ယခု လော့ခ်ဖွင့်ပါပြီ။",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 ပရီမီယံ အဆင့်မြှင့်တင်မှု အစီအစဉ်",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "သင်၏ အသက်မွေးဝမ်းကြောင်း ပို့ကုန်များနှင့် အဆင့်မြင့် AI ဝန်ဆောင်မှုများကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "မျက်နှာဖုံးစာများ၊ စိတ်ကြိုက်စာစီစာကုံးအဖြေများ၊ ပိုမိုကောင်းမွန်အောင်ပြန်လည်စတင်ရန်နှင့် အင်တာဗျူးအတွက် လှောင်ပြောင်ပြင်ဆင်မှုများအတွက် ပရီမီယံ AI ခရက်ဒစ်များကို ရယူပါ။ ပံ့ပိုးထားသော ပလပ်ဖောင်းများတွင် အလိုအလျောက်ဖြည့်ခြင်း လုပ်ဆောင်ချက်များသည် ပရီမီယံအသုံးပြုသူအားလုံးအတွက် အကန့်အသတ်မရှိ အခမဲ့ဖြစ်သည်။",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 အစောပိုင်းလက်ခံသူကမ်းလှမ်းချက်-",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "ပရီမီယံအသုံးပြုသူ 500 တွင် နောက်တစ်ခုစျေးနှုန်းတိုးလာသည်။ ဤနှုန်းထားတွင် ဘဝအတွက် သော့ခတ်ပါ။",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "လစဉ် ပရို",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "ရေတိုရှာဖွေခြင်းအတွက် ကောင်းမွန်သည်။",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ လ",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(₹13/ရက် သာ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "တစ်လလျှင် AI ခရက်ဒစ် 150 |||အကန့်အသတ်မရှိ အလိုအလျောက်ဖြည့်စွက်မှုများ (ပေါ်တယ်များအားလုံး)|||Cloud Sync & Google Backup|||Premium Themes|||ကြော်ငြာမပါသော အတွေ့အကြုံ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "လစဉ်စာရင်းသွင်းပါ။",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "သုံးလပတ် Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "အလုပ်ရှာဖွေသူအများစုအတွက် အကောင်းဆုံးတန်ဖိုး",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ ၃ လ",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(₹11/ရက် သာ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "လေးပုံတစ်ပုံလျှင် AI ခရက်ဒစ် 500 |||အကန့်အသတ်မရှိ အလိုအလျောက်ဖြည့်စွက်မှုများ (ပေါ်တယ်များအားလုံး)|||အံဝင်ခွင်ကျသော အဖုံးစာများနှင့် စာစီစာကုံးများ|||Cloud Sync & Google Backup|||ကိုက်ညီမှုအကြံပြုချက်များကို ပြန်လည်စတင်ရန်",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "လစဉ်စာရင်းသွင်းပါ။",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "လူကြိုက်အများဆုံး",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "နှစ်အလိုက် ပရမတ္ထ",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "ပါဝါအသုံးပြုသူများအတွက် အကောင်းဆုံးတန်ဖိုး",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ နှစ်",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(₹249/လနှင့်ညီမျှသည်)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "တစ်နှစ်လျှင် AI ခရက်ဒစ် 2,500|||အကန့်အသတ်မရှိ နေ့စဉ်အလိုအလျောက်ဖြည့်စွက်မှုများ|||အံဝင်ခွင်ကျသော မျက်နှာဖုံးစာများနှင့် စာစီစာကုံးများ|||Cloud Sync & Google Backup|||ကိုက်ညီမှုအကြံပြုချက်များကို ပြန်လည်စတင်ရန်|||ဦးစားပေးအီးမေးလ်ပံ့ပိုးမှု",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "နှစ်စဉ် စာရင်းသွင်းပါ။",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "အကောင်းဆုံးတန်ဖိုး - 40% ချွေတာ",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow Development ကို ပံ့ပိုးပါ။",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow ကို လွတ်လပ်သော developer များမှ တည်ဆောက်ထိန်းသိမ်းထားသည်။ တိုးချဲ့မှုကို အထောက်အကူဖြစ်စေသည်ဟု သင်တွေ့ရှိပါက၊ ၎င်းကို တက်ကြွစေရန်၊ ကြော်ငြာမဲ့နှင့် အလုပ်ဘုတ်အသစ်များအတွက် အပ်ဒိတ်လုပ်ရန် ကူညီပေးရန် Ko-fi တွင် လှူဒါန်းရန် စဉ်းစားပါ။",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Ko-fi မှာ ကော်ဖီဝယ်ပါ။",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 အဆင့်သတ်မှတ်ချက်|||🔒 လုံခြုံသောငွေပေးချေမှုများ|||✓ အချိန်မရွေး ပယ်ဖျက်ပါ",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "လိုင်စင်ကီး မမှန်ကန်ပါ။ အရိပ်အမြွက်- ဒီမိုကီး 'APPLYFLOW-PRO-2026' ကို သုံးကြည့်ပါ။",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "လိုင်စင်ကို အောင်မြင်စွာ အသက်သွင်းခဲ့သည်။ ApplyFlow Premium မှလှိုက်လှဲစွာကြိုဆိုပါသည်။ 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "သင်၏ ပရီမီယံလိုင်စင်ကို ပိတ်လိုသည်မှာ သေချာပါသလား။ ၎င်းသည် သင့်အား အခမဲ့အစီအစဉ်သို့ ပြန်ပေးမည်ဖြစ်သည်။",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "ပရီမီယံလိုင်စင်ကို ပိတ်ထားသည်။ သင်သည် ယခု အခမဲ့ အစီအစဉ်တွင် ရှိနေပါပြီ။",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "၎င်းသည် ဒေသတွင်း ပရိုဖိုင်နှင့် အပလီကေးရှင်းဒေတာအားလုံးကို အပြီးအပိုင် ဖျက်လိုက်ပါမည်။ သေချာလား?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 ကိုယ်ရေးကိုယ်တာမူဝါဒ",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓မေးလေ့မေးထရှိတဲ့မေးခွန်းများ",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow ဆိုတာ ဘာလဲ၊ ဘယ်လိုအလုပ်လုပ်လဲ",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow သည် LinkedIn၊ Internshala၊ Unstop၊ Workday၊ Greenhouse၊ Lever နှင့် အခြား 15+ ပလပ်ဖောင်းများတွင် အလုပ်လျှောက်လွှာပုံစံများကို အလိုအလျောက်ရှာဖွေပြီး ဖြည့်ပေးသည့် AI-powered Chrome extension တစ်ခုဖြစ်သည်။ ၎င်းသည် သင်၏သိမ်းဆည်းထားသောပရိုဖိုင်ကိုဖတ်ပြီး EEO/လူဦးရေစာရင်းမေးခွန်းများအပါအဝင် စာသားအကွက်များ၊ ကွက်လပ်များ၊ ရေဒီယိုခလုတ်များနှင့် အမှန်ခြစ်ဘောက်စ်များကိုဖြည့်ရန် ဉာဏ်ရည်ထက်မြက်သောကိုက်ညီမှုကို အသုံးပြုသည်။",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ကျွန်ုပ်၏ကိုယ်ရေးကိုယ်တာဒေတာကို ApplyFlow ဖြင့် လုံခြုံပါသလား။",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ဟုတ်ကဲ့။ သင့်ဒေတာကို မူရင်းအတိုင်း သင့်ဘရောက်ဆာ၏ chrome.storage.local တွင် စက်တွင်း၌ သိမ်းဆည်းထားသည်။ သင်၏ကိုယ်ပိုင်ရွေးချယ်နိုင်သော Supabase ဒေတာဘေ့စ် (သင်ထိန်းချုပ်သည့်) မှလွဲ၍ အခြားပြင်ပမှဆာဗာသို့ မည်သည့်အခါမျှ ပေးပို့မည်မဟုတ်ပါ။ ApplyFlow သည် သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ဘယ်သောအခါမှ ရောင်းချခြင်း၊ မျှဝေခြင်း သို့မဟုတ် ငွေရှာခြင်းများ ပြုလုပ်မည်မဟုတ်ပါ။",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "မည်သည့်အလုပ်ပလက်ဖောင်းများသည် ApplyFlow ကို ပံ့ပိုးပေးသနည်း။",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow သည် ကွက်လပ်မှ 15+ ပလပ်ဖောင်းများကို ပံ့ပိုးပေးသည်- LinkedIn Easy Apply၊ Internshala၊ Unstop၊ Workday၊ Greenhouse၊ Lever၊ iCIMS၊ SmartRecruiters၊ BambooHR၊ Jobvite၊ Taleo၊ Naukri၊ အမှန်ပင်၊ Wellfound/AngelList နှင့် ကျွန်ုပ်တို့၏ ဉာဏ်ရည်ထက်မြက်သော ယေဘူယျ တုံ့ပြန်မှု ကိုက်ညီသော အခြားဆိုက်တစ်ခု။",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper ဆိုတာဘာလဲ။",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper သည် အလုပ်စာရင်း စာမျက်နှာကို ဝင်ကြည့်သည့်အခါ အလိုအလျောက် ပေါ်လာသည့် ရေပေါ် \"အလုပ် သိမ်းဆည်း\" ခလုတ် (📌) ဖြစ်သည်။ ၎င်းကိုနှိပ်ခြင်းဖြင့် အလုပ်ခေါင်းစဉ်၊ ကုမ္ပဏီ၊ လစာနှင့် ဖော်ပြချက်ကို ထုတ်ယူပြီး ၎င်းကို သင်၏ ApplyFlow tracker တွင် \"သိမ်းဆည်းထားသည်\" အက်ပ်တစ်ခုအဖြစ် သိမ်းဆည်းသည် — ထို့ကြောင့် သင်လျှောက်ထားခြင်းမပြုမီ အလုပ်များကို ခြေရာခံနိုင်သည်။",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "ကျွန်ုပ်၏ ပရိုဖိုင်ကို မည်သို့ အပ်ဒိတ်လုပ်ရမည်နည်း။",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow ပေါ့ပ်အပ်ကိုဖွင့်ပါ၊ \"ပရိုဖိုင်\" တက်ဘ်ကိုနှိပ်ပါ၊ သင်၏ကိုယ်ရေးအကျဉ်း PDF ကို အပ်လုဒ်လုပ်ပါ။ AI သည် သင့်နယ်ပယ်အားလုံးကို အလိုအလျောက်ဖြည့်ပေးလိမ့်မည်။ သင်၏ EEO စိတ်ကြိုက်ရွေးချယ်မှုများ၊ အလုပ်ခွင့်ပြုချက်နှင့် မျက်နှာဖုံးစာများအပါအဝင် မည်သည့်နယ်ပယ်ကိုမဆို သင်ကိုယ်တိုင်တည်းဖြတ်နိုင်သည်။",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO နယ်ပယ်တွေက ဘာတွေလဲ၊ ဘာကြောင့် လိုအပ်တာလဲ။",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Equal Employment Opportunity) နယ်ပယ်များသည် ကျား၊မ မသန်စွမ်းမှု အခြေအနေ၊ စစ်မှုထမ်းဟောင်း အဆင့်အတန်းနှင့် အလုပ်ခွင့်ပြုချက်တို့အကြောင်း အမေရိကန်နှင့် ကမ္ဘာလုံးဆိုင်ရာ အလုပ်ရှင်များစွာ မေးသည့် မေးခွန်းများဖြစ်သည်။ ApplyFlow သည် သင်နှစ်သက်သော အဖြေများကို သိမ်းဆည်းထားပြီး ဤရေဒီယိုခလုတ်အုပ်စုများကို အလိုအလျောက်ဖြည့်ပေးသောကြောင့် ၎င်းတို့ကို အချိန်တိုင်း ကိုယ်တိုင်ဖြေဆိုရန် မလိုအပ်ပါ။",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow သည် မည်သည့် API သော့များ သို့မဟုတ် ဖွဲ့စည်းမှုပုံစံကို လိုအပ်သနည်း။",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "မဟုတ်ဘူး! ApplyFlow သည် ဖောင်ရှာဖွေခြင်း၊ စမတ်ကိုက်ညီမှု၊ အဖုံးစာထုတ်ခြင်း နှင့် လိုက်ဖက်ညီသော အမှတ်ပေးမှုအားလုံးကို အလိုအလျောက် ဆောင်ရွက်ပေးသည်။ မည်သည့် API ကီးများကိုမဆို ရယူခြင်း သို့မဟုတ် ပြင်ဆင်သတ်မှတ်ရန် မလိုအပ်ပါ။",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase စင့်ခ်ဆိုတာ ဘာလဲ၊ ငါ အဲဒါကို လိုအပ်ပါသလား။",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase စင့်ခ်သည် စိတ်ကြိုက်ရွေးချယ်နိုင်သော cloud အရန်အင်္ဂါရပ်တစ်ခုဖြစ်သည်။ Google ဖြင့် လက်မှတ်ထိုးဝင်ပြီး ၎င်းကိုဖွင့်သည့်အခါ၊ သင်၏ပရိုဖိုင်နှင့် အပလီကေးရှင်းခြေရာခံကိရိယာကို သီးသန့် cloud ဒေတာဘေ့စ်သို့ စင့်ခ်လုပ်ထားသောကြောင့် သင့်ဒေတာများကို မိတ္တူကူးထားပြီး စက်များစွာမှ ဝင်ရောက်အသုံးပြုနိုင်ပါသည်။ ၎င်းသည် လုံးဝရွေးချယ်ခွင့်ဖြစ်သည် — တိုးချဲ့မှုသည် အော့ဖ်လိုင်းတွင် အပြည့်အဝအလုပ်လုပ်သည်။",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "အဘယ်ကြောင့် ApplyFlow သည် ဝဘ်ဆိုဒ်များအားလုံးသို့ ဝင်ရောက်ရန် လိုအပ်သနည်း။",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow သည် မည်သည့်အလုပ်လျှောက်လွှာပုံစံတွင်မဆို အလိုအလျောက်ဖြည့်အင်ဂျင်ကို ဝဘ်ဆိုက်များအားလုံးသို့ ဝင်ရောက်ကြည့်ရှုနိုင်ပြီး မည်သည့်အလုပ်စာရင်းတွင်မဆို \"အလုပ်သိမ်းပါ\" ခလုတ်ကို ပြသနိုင်သည်။ ကျယ်ပြန့်သော ပလက်ဖောင်းပံ့ပိုးမှုအတွက် ဤခွင့်ပြုချက်လိုအပ်ပါသည်။ ကျွန်ုပ်တို့သည် အလုပ်နှင့်ပတ်သက်သော ရှင်းလင်းထင်ရှားသော စာမျက်နှာများပေါ်တွင် scripts များကိုသာ ထည့်သွင်းပါသည်။",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kanban Board ဆိုတာ ဘာလဲ။",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board သည် Tracker တက်ဘ်ရှိ မြင်သာထင်သာရှိ အလုပ်ခြေရာခံခြင်း မြင်ကွင်းဖြစ်သည်။ ၎င်းသည် ကော်လံများတွင် စုစည်းထားသော သင်၏လျှောက်လွှာများကို ပြသသည်- သိမ်းဆည်းပြီး → အသုံးချခြင်း → အကဲဖြတ်ခြင်း → အင်တာဗျူး → ကမ်းလှမ်းချက်။ အပလီကေးရှင်း၏ အခြေအနေကို အပ်ဒိတ်လုပ်ရန် ကော်လံများကြားတွင် ကတ်များကို ဆွဲချနိုင်သည်။",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "တင်သွင်းမှုကို ထောက်လှမ်းခြင်း မည်သို့လုပ်ဆောင်သနည်း။",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "ဆက်တင်များတွင် \"တင်သွင်းမှုပြီးမှသာ အကောင့်ဝင်ပါ\" ကိုဖွင့်သောအခါ၊ အောင်မြင်သော တင်ပြမှုကို ညွှန်ပြသော စာမျက်နှာပြောင်းလဲမှုများအတွက် ApplyFlow (\"/success\" သို့မဟုတ် \"လျှောက်ထားမှုအတွက် ကျေးဇူးတင်ပါသည်\" ပါရှိသော URL ကဲ့သို့)။ ၎င်းသည် အမှန်တကယ်တင်ပြချက်ကို တွေ့ရှိပြီးနောက် အပလီကေးရှင်းကို သင်၏ခြေရာခံကိရိယာသို့သာ မှတ်တမ်းတင်သည်။",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "ကာဗာစာလုံး အများအပြားကို သိမ်းဆည်းနိုင်ပါသလား။",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ဟုတ်တယ်! ပရိုဖိုင်စခရင်တွင် မတူညီသော အခန်းကဏ္ဍများ သို့မဟုတ် ကုမ္ပဏီများနှင့် အံဝင်ခွင်ကျဖြစ်စေသော အကန့်အသတ်မရှိ ကာဗာစာများကို သိမ်းဆည်းနိုင်သည့် \"Cover Letter Vault\" အပိုင်းပါရှိသည်။ အလိုအလျောက်ဖြည့်သည့်အခါ၊ ApplyFlow သည် သင်၏ လတ်တလော သို့မဟုတ် အသက်ဆိုင်ဆုံး ကာဗာစာတစ်စောင်ကို အသုံးပြုမည်ဖြစ်သည်။",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "ကျွန်ုပ်၏ အပလီကေးရှင်းဒေတာကို မည်သို့ထုတ်ယူနိုင်မည်နည်း။",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "အကောင့်နှင့် ထပ်တူကျခြင်း → အောက်ဘက်သို့ ရွှေ့ပါ → \"Export Backup (JSON)\" ကို နှိပ်ပါ။ ၎င်းသည် သင့်ပရိုဖိုင်နှင့် အပလီကေးရှင်းဒေတာအားလုံးကို ဘေးကင်းစေရန်အတွက် JSON ဖိုင်အဖြစ် ဒေါင်းလုဒ်လုပ်ပါသည်။",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow သရုပ်ပြမုဒ်တွင် အလုပ်လုပ်ပါသလား။",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "သရုပ်ပြမုဒ်သည် စမ်းသပ်ရန်အတွက် အသုံးပြုသည့် အမွေအနှစ်ဆက်တင်တစ်ခုဖြစ်သည်။ ၎င်းကို မူရင်းအတိုင်း ပိတ်ထားသည်။ အင်္ဂါရပ်အားလုံးသည် built-in Gemini API သော့ဖြင့် တိုက်ရိုက်လုပ်ဆောင်နိုင်သည်။",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "ချွတ်ယွင်းချက်တစ်ခုအား မည်သို့သတင်းပို့ရမည် သို့မဟုတ် အင်္ဂါရပ်တစ်ခုတောင်းဆိုနိုင်မည်နည်း။",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "ကျွန်ုပ်တို့၏ GitHub သိုလှောင်မှုတွင် ပြဿနာတစ်ခုဖွင့်ပါ (အကြောင်းကဏ္ဍတွင် လင့်ခ်ချိတ်ထားသည်) သို့မဟုတ် support@applyflow.in သို့ ကျွန်ုပ်တို့ထံ အီးမေးလ်ပို့ပါ။ ကျွန်ုပ်တို့သည် ပုံမှန်အားဖြင့် ၄၈ နာရီအတွင်း တုံ့ပြန်ပါသည်။",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow ပေါ့ပ်အပ်ကိုဖွင့်ပါ။",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ဖောင်အကွက်များအတွက် လက်ရှိစာမျက်နှာကို စကင်န်ဖတ်ပါ။",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "လက်ရှိစာမျက်နှာတွင် စမတ်အလိုအလျောက်ဖြည့်စွက်မှုကို အစပျိုးပါ။",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "လက်ရှိအလုပ်စာရင်းကို ခြေရာခံရန်အတွက် ကလစ်လုပ်ပါ။",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "တက်ဘ်အသစ်တစ်ခုတွင် Tracker ကိုဖွင့်ပါ။",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome တွင် ဖြတ်လမ်းများ စီစဉ်သတ်မှတ်ပါ။",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "မှတ်ချက်-",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome extension commands များသည် Chrome ၏ ဖြတ်လမ်းမန်နေဂျာတွင် ကိုယ်တိုင်တာဝန်ပေးရန်လိုအပ်ပါသည်။ အထက်ဖော်ပြပါသော့များကိုချိတ်ရန် $1$ သို့သွားပါ။",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome တိုးချဲ့မှု — ကိုယ်ရေးကိုယ်တာမူဝါဒ**\nနောက်ဆုံးမွမ်းမံမှု- ဇွန်လ 2026\n\n---\n\n**1။ နိဒါန်း**\n\nApplyFlow (\"ကျွန်ုပ်တို့\", \"ကျွန်ုပ်တို့၏\", \"နောက်ဆက်တွဲ\") သည် အသုံးပြုသူများအား အလုပ်လျှောက်လွှာပုံစံများကို အလိုအလျောက်ဖြည့်ပေးခြင်း၊ ၎င်းတို့၏ အပလီကေးရှင်းများကို ခြေရာခံကာ ၎င်းတို့၏ ပရော်ဖက်ရှင်နယ်ပရိုဖိုင်ကို စီမံခန့်ခွဲရန် ကူညီပေးသည့် Chrome ဘရောက်ဆာ တိုးချဲ့မှုတစ်ခုဖြစ်သည်။ ဤကိုယ်ရေးကိုယ်တာမူဝါဒတွင် ကျွန်ုပ်တို့သည် သင့်အချက်အလက်များကို စုဆောင်းအသုံးပြုပုံ၊ သိမ်းဆည်းပုံနှင့် ကာကွယ်ပုံတို့ကို ရှင်းပြထားသည်။\n\nApplyFlow ကို ထည့်သွင်းအသုံးပြုခြင်းဖြင့်၊ ဤမူဝါဒတွင်ဖော်ပြထားသည့် ကျင့်ထုံးများကို သင်သဘောတူပါသည်။\n\n---\n\n**2။ ကျွန်ုပ်တို့စုဆောင်းထားသောဒေတာ**\n\nကျွန်ုပ်တို့သည် တိုးချဲ့မှု၏အင်္ဂါရပ်များကိုဖွင့်ရန် သင်ဆန္ဒအလျောက်ပေးသည့်အချက်အလက်ကိုသာ စုဆောင်းပါသည်-\n\n• **ကိုယ်ရေးအကျဉ်းအချက်အလက်**- သင့်အမည်၊ အီးမေးလ်၊ ဖုန်းနံပါတ်၊ ကောလိပ်၊ ဒီဂရီ၊ ကျွမ်းကျင်မှု၊ အလုပ်မှတ်တမ်း၊ ပရောဂျက်များနှင့် ပရော်ဖက်ရှင်နယ်လင့်ခ်များ (LinkedIn၊ Gito)။L7____ ပို့တ်၊ **EEO/Demographic Information (ချန်လှပ်ထားနိုင်သည်)**- ကျား၊မ မသန်စွမ်းမှုအခြေအနေ၊ စစ်ပြန်အခြေအနေနှင့် အလုပ်ခွင့်ပြုချက်ဦးစားပေးများ — ဤကွက်လပ်များကို ဖြည့်စွက်ရန် သင်ရွေးချယ်မှသာ ပံ့ပိုးပေးပါသည်။ အလုပ်လျှောက်လွှာများတွင် ရွေးချယ်နိုင်သော EEO မေးခွန်းလွှာများကို အလိုအလျောက်ဖြည့်ရန်အတွက် သီးသန့်အသုံးပြုပါသည်။\n• **လျှောက်လွှာခြေရာခံခြင်းဒေတာ**- အလုပ်ခေါင်းစဉ်၊ ကုမ္ပဏီ၊ အပလီကေးရှင်း URL၊ အခြေအနေနှင့် မှတ်စုများ။\n• **အသုံးပြုမှုစာရင်းအင်းများ**- နေ့စဉ်လုပ်ဆောင်ရမည့် ဒေသအလိုက် အလိုအလျောက်ဖြည့်သွင်းသည့် လုပ်ဆောင်ချက်အရေအတွက် ကန့်သတ်ချက်များ))))\n• **အထောက်အထားစိစစ်ခြင်းဒေတာ**- Google ဖြင့် အကောင့်ဝင်ရန် ရွေးချယ်ပါက၊ သင့်အတွေ့အကြုံကို ပုဂ္ဂိုလ်ရေးသီးသန့်ပြုလုပ်ပြီး cloud ထပ်တူပြုခြင်းကို ဖွင့်ရန် သင့် Google ၏ ဖော်ပြမှုအမည်၊ အီးမေးလ်လိပ်စာနှင့် ပရိုဖိုင်ပုံ URL ကို သိမ်းဆည်းထားပါသည်။\n\nကျွန်ုပ်တို့သည် **ဘရောက်ဆာ 2** အတန်းများကို စုဆောင်းခြင်းမပြုပါ** :\n•• ငွေပေးချေမှု သို့မဟုတ် ငွေကြေးဆိုင်ရာ အချက်အလက် 4__B မှတ်တမ်း 4__L လှုပ်ရှားမှု\n• အလုပ်-လျှောက်လွှာနှင့်ပတ်သက်သည့်မဟုတ်သော စာမျက်နှာများမှ မည်သည့်အချက်အလက်မဆို\n• တိုးချဲ့မှုကို တက်ကြွစွာမလုပ်ဆောင်သည့်အခါ စာမျက်နှာများမှ မည်သည့်ဒေတာမဆို\n\n---\n\n**3။ သင့်ဒေတာကို ကျွန်ုပ်တို့သိမ်းဆည်းနည်း**\n\n**3.1 Local Storage (Default)**\nဒေတာအားလုံးကို သင့်ဘရောက်ဆာ၏ chrome.storage.local API တွင် အဓိကသိမ်းဆည်းထားသည်။ ဤဒေတာသည် သင့်စက်ပစ္စည်းပေါ်တွင်သာ တည်ရှိပြီး သင်၏ တိကျပြတ်သားသော လုပ်ဆောင်မှုမရှိဘဲ မည်သည့်ဆာဗာထံ မည်သည့်အခါမျှ မကူးစက်ပါ။\n\n**3.2 Cloud Sync (ချန်လှပ်ထားနိုင်သည်)**\n_ Google နှင့် လက်မှတ်ထိုးဝင်ရန် ရွေးချယ်ပြီး \"Supabase Sync\" အင်္ဂါရပ်ကို ဖွင့်ပါက၊ သင့်ပရိုဖိုင်နှင့် အပလီကေးရှင်းဒေတာကို ဒေတာဘေ့စ်တစ်ခုသို့ ထပ်တူပြုပါမည်။ သင်သည် ဤဒေတာ၏ ပိုင်ဆိုင်မှုအပြည့်အဝကို ဆက်လက်ထိန်းသိမ်းထားသည်။ အကောင့်နှင့် စင့်ခ်လုပ်ခြင်းကဏ္ဍမှ ၎င်းကို အချိန်မရွေး ဖျက်နိုင်ပါသည်။\n\n**3.3 Gemini AI Requests**\n_ AI အင်္ဂါရပ်များကို အသုံးပြုသည့်အခါ (ဥပမာ၊ စာစီစာကုံးထုတ်လုပ်ခြင်း၊ အလုပ်ခွဲခြမ်းစိတ်ဖြာခြင်း)၊ သင့်ပရိုဖိုင်၏အပိုင်းများ (ကျွမ်းကျင်မှု၊ ဘွဲ့၊ အကျဉ်းချုပ်) နှင့် အလုပ်ဖော်ပြချက် Gemini ထံသို့ Google မှ ပေးပို့ထားသော တုံ့ပြန်ချက်စာသားကို ထုတ်ပေးပါသည်။ ၎င်းကို Google ၏ စံ API ဝန်ဆောင်မှုစည်းမျဉ်းများနှင့် ကိုယ်ရေးကိုယ်တာမူဝါဒအောက်တွင် လုပ်ဆောင်သည်။ သင်၏ AI-အကူအညီပေးထားသော အကြောင်းအရာတွင် အရေးကြီးသော ကိုယ်ရေးကိုယ်တာ အထောက်အထားများ မပါဝင်ရန် ကျွန်ုပ်တို့ အကြံပြုအပ်ပါသည်။\n\n---\n\n**4။ ဒေတာမျှဝေခြင်း**\n\nကျွန်ုပ်တို့** ရောင်းချခြင်း၊ ရောင်းဝယ်ခြင်း၊ ငှားရမ်းခြင်း သို့မဟုတ် သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို စျေးကွက်ရှာဖွေခြင်း သို့မဟုတ် ကြော်ငြာခြင်းရည်ရွယ်ချက်အတွက် ပြင်ပအဖွဲ့အစည်းတစ်ခုခုနှင့် မျှဝေခြင်းမပြုပါ။\n\nသင်၏ဒေတာကို အောက်ပါယုံကြည်စိတ်ချရသောဝန်ဆောင်မှုများဖြင့် လုပ်ဆောင်နိုင်သည်-\n• **Google Gemini API-ပါဝါ ဖောင်ဖြည့်ခြင်းနှင့် AI ပိုင်းခြားစိတ်ဖြာချက်အတွက်**- (https://policies.google.com/privacy)\n• **Google OAuth**- အကောင့်အထောက်အထားစိစစ်ခြင်းအတွက် (https://policies.google.com/privacy)\n• **Supabase**- ရွေးချယ်နိုင်သော cloud သိုလှောင်မှုအတွက် (https://supabase.com/privacy) — သင်ဖွင့်ထားမှသာ ထပ်တူပြုခြင်း\n\n---\n\n**5။ သင်၏အခွင့်အရေးများနှင့် ထိန်းချုပ်မှုများ**\n\nသင်တွင်-\n• **ဝင်ရောက်ခွင့်** တွင် ApplyFlow က သင့်အကြောင်းသိမ်းဆည်းထားသည့် ဒေတာအားလုံးကို (ဆက်တင်များတွင် ထုတ်ယူရန်အရန်သိမ်းဆည်းမှုမှတစ်ဆင့်)\n• **မှန်ကန်ပါ**• \"ပရိုဖိုင်တက်ဘ်__NL_5** အားလုံးကို အသုံးပြု၍ ဒေသတွင်းရှိ ဒေတာအားလုံးကို အချိန်မရွေးဖျက်ပါ။ ဆက်တင်များတွင် ဒေတာ\"\n• ** သဘောတူညီချက်ကို ရုတ်သိမ်းပါ** တိုးချဲ့မှုကို ဖြုတ်ခြင်းဖြင့် အချိန်မရွေး\n• ** အကောင့်နှင့် စင့်ခ်လုပ်ခြင်း ဆက်တင်များတွင် ပိတ်ထားခြင်းဖြင့် ** cloud sync** ကို ပိတ်ခြင်းဖြင့် ** cloud Sync** \n\n_**GDPR (EU Users)** တွင် ဝင်ရောက်အသုံးပြုခွင့်ကို ကန့်သတ်ထားပါက သင့်တွင် ကန့်သတ်ချက်တစ်ခုရှိပါက၊ စီမံဆောင်ရွက်ခြင်းနှင့် အထွေထွေဒေတာကာကွယ်ရေးစည်းမျဉ်းအရ ဒေတာသယ်ဆောင်ရလွယ်ကူခြင်း။\n\n**India — DPDP Act 2023**- India's Digital Personal Data Protection Act 2023 နှင့်အညီ အလုပ်လျှောက်လွှာအကူအညီပေးရေးဝန်ဆောင်မှုကို ပံ့ပိုးပေးသည့်ရည်ရွယ်ချက်အတွက်သာ ကျွန်ုပ်တို့သည် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို လုပ်ဆောင်ပါသည်။ သင်သည် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ခြင်းဖြင့် သင့်ဒေတာကို အချိန်မရွေး ဖျက်နိုင်ပြီး သဘောတူညီချက်ကို ရုပ်သိမ်းရန် တောင်းဆိုနိုင်ပါသည်။\n\n**California — CCPA**- ကယ်လီဖိုးနီးယားတွင် နေထိုင်သူများသည် မည်သည့်ကိုယ်ရေးကိုယ်တာအချက်အလက်ကို စုဆောင်းထားသည်၊ ဖျက်ပိုင်ခွင့်နှင့် ရောင်းချခွင့်တို့ကို ဖယ်ထုတ်ပိုင်ခွင့်ရှိသည် (ကျွန်ုပ်တို့ မရောင်းပါ data).\n\n---\n\n**6။ ဒေတာထိန်းသိမ်းခြင်း**\n\n သင်ကိုယ်တိုင် မရှင်းလင်းမချင်း ဒေသဆိုင်ရာဒေတာကို ထိန်းသိမ်းထားသည်။ သင့်အကောင့်ကို မဖျက်မချင်း သို့မဟုတ် ဖျက်ရန် တောင်းဆိုသည်အထိ Cloud-Sync လုပ်ထားသည့် ဒေတာကို သိမ်းဆည်းထားသည်။ ကျွန်ုပ်တို့သည် ဒေတာကို အလိုအလျောက်ဖျက်မည်မဟုတ်ပါ။\n\n---\n\n**7။ လုံခြုံရေး**\n\nကျွန်ုပ်တို့သည် သင့်ဒေတာကို ကာကွယ်ရန် ကျိုးကြောင်းဆီလျော်သော နည်းပညာပိုင်းဆိုင်ရာ အစီအမံများကို လုပ်ဆောင်ပါသည်-\n• cloud ဆက်သွယ်ရေးအားလုံး HTTPS/TLS ကုဒ်ဝှက်စနစ်ကို အသုံးပြုသည်\n• Supabase Row-Level Security (RLS) သည် သုံးစွဲသူများသည် ၎င်းတို့၏ကိုယ်ပိုင်ဒေတာများကိုသာ ဝင်ရောက်ကြည့်ရှုနိုင်သည်__NL_82_ ခွင့်ပြုချက်များအတွက် ၎င်း၏နောက်ဆက်တွဲသည် core မလိုအပ်ကြောင်း သေချာစေသည်။ လုပ်ဆောင်ချက်\n\n---\n\n**8။ ကလေးများ၏ ကိုယ်ရေးကိုယ်တာ**\n\nApplyFlow သည် အသက် 13 နှစ်အောက် အသုံးပြုသူများအတွက် ရည်ရွယ်ခြင်းမဟုတ်ပါ။ ကျွန်ုပ်တို့သည် ကလေးငယ်များထံမှ အချက်အလက်များကို သိလျက်နှင့် စုဆောင်းထားခြင်းမရှိပါ။ ကလေးတစ်ဦးသည် ကျွန်ုပ်တို့အား ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ပေးထားကြောင်း သင်ယုံကြည်ပါက၊ ကျွန်ုပ်တို့အား ချက်ချင်းဆက်သွယ်ပါ။\n\n---\n\n**9။ ဤမူဝါဒပြောင်းလဲမှုများ**\n\nကျွန်ုပ်တို့သည် ဤကိုယ်ရေးကိုယ်တာမူဝါဒကို အခါအားလျော်စွာ အပ်ဒိတ်လုပ်နိုင်ပါသည်။ သိသာထင်ရှားသော အပြောင်းအလဲများကို တိုးချဲ့မှု၏ ရွေးချယ်မှုများ စာမျက်နှာမှတစ်ဆင့် ဆက်သွယ်ပေးပါမည်။ အပြောင်းအလဲများပြီးနောက် တိုးချဲ့မှုကို ဆက်လက်အသုံးပြုခြင်းသည် အပ်ဒိတ်မူဝါဒကို လက်ခံခြင်းဖြစ်သည်။\n\n---\n\n**10။ ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ**\n\nကိုယ်ရေးကိုယ်တာဆိုင်ရာမေးခွန်းများ၊ ဒေတာဖျက်ခြင်းတောင်းဆိုမှုများ သို့မဟုတ် စိုးရိမ်ပူပန်မှုများအတွက်-\n\nEmail: privacy@applyflow.in\nGitHub- https://github.com/applyflow/extension https://applyflow.in\n\nကျွန်ုပ်တို့သည် ရက် 30 အတွင်း တောင်းဆိုချက်အားလုံးကို တုံ့ပြန်ရန် ရည်ရွယ်ပါသည်။",
+    "description": "Privacy policy document markdown text"
+  }
+}

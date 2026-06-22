@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: การป้อนงานอัตโนมัติของ AI และตัวติดตามแอปพลิเคชัน",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "กรอกใบสมัครงานอัตโนมัติและติดตามรายการโดยอัตโนมัติโดยใช้ AI บน LinkedIn, Workday, Greenhouse และอื่นๆ",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "สมัครโฟลว์",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "ใช้งานอยู่",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "ประยุกต์แล้ว",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "สัมภาษณ์",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ข้อเสนอ",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "บันทึกแล้ว",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "รวม",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "ป้อนอัตโนมัติ",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "กำลังกรอก...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ป้อนอัตโนมัติอย่างรวดเร็ว",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "วิเคราะห์งาน",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "เปิดแถบด้านข้าง",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "การตั้งค่า",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "โปรดลงชื่อเข้าใช้ด้วย Google ก่อนเพื่อใช้ Quick Autofill!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "โปรดตั้งค่าโปรไฟล์ของคุณก่อนในหน้าแผงด้านข้าง/ตัวเลือก!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ ตรวจพบ",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "ไม่พบหน้างาน",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "เยี่ยมชมรายการงานเพื่อปลดล็อคคุณสมบัติ AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "สวัสดีตอนเช้า",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "สวัสดีตอนบ่าย",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "สวัสดีตอนเย็น",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "ติดตามการสมัคร $1$ · สัมภาษณ์ $2$",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "เริ่มสมัครเพื่อติดตามความก้าวหน้าของคุณ",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "จดหมายปะหน้า",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "ช่วยเหลือถามตอบ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "พร้อมให้ความช่วยเหลือ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "นำทางไปยังรายการงานบน LinkedIn, Workday, Greenhouse หรือกระดานงานใดๆ เพื่อเริ่มต้น",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "สัปดาห์นี้",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "กิจกรรมล่าสุด",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "ดูทั้งหมด →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "เริ่มการหางานของคุณ!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "เยี่ยมชมกระดานรับสมัครงานและใช้ ApplyFlow เพื่อกรอกข้อความอัตโนมัติและติดตามใบสมัครของคุณโดยอัตโนมัติ",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "โปรไฟล์ของฉัน",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "กำลังบันทึก...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "บันทึกทั้งหมด",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "บันทึกโปรไฟล์แล้ว!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "ไม่สามารถบันทึกโปรไฟล์ได้",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "ดำเนินการต่อ",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "อัปโหลดไปยังโปรไฟล์ที่กรอกอัตโนมัติ",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ อัปโหลดแล้ว",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "ข้อมูลส่วนบุคคล",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "ไม่สมบูรณ์",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "ที่ตั้ง",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "การศึกษา",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "ทักษะ",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "ประสบการณ์การทำงาน",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "โครงการ",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "การตั้งค่าการทำงาน",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "ใบอนุญาตทำงาน",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ประวัติประวัติย่อ",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ใช้สิ่งนี้",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "แยกวิเคราะห์เมื่อ $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "โหลดรายละเอียดโปรไฟล์จาก \"$1$\" หรือไม่ สิ่งนี้จะแทนที่การแก้ไขปัจจุบันของคุณด้วยโครงสร้างการแยกวิเคราะห์ของเรซูเม่นี้",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "กู้คืนรายละเอียดจาก $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "คะแนนการแข่งขัน",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ พอดี",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ เพิ่มเติม",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "แอปพลิเคชันกรอกอัตโนมัติและเข้าสู่ระบบ! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "เติมอัตโนมัติผ่านแผงด้านข้าง ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ที่นั่น",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "ไม่มีชุดวิทยาลัย",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ตั้งค่าโปรไฟล์ของคุณเพื่อเปิดใช้งานการป้อนอัตโนมัติ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "ไม่ได้ตั้งค่า",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ รายการ",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ ทักษะ",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ โครงการ",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ คำตอบ",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "ได้รับอนุญาต",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "ไม่ได้รับอนุญาต",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "ชื่อเต็ม",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "อีเมล",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "โทรศัพท์",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "โทรศัพท์สำรอง",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL ของ LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL ผลงาน",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL ของ GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "ลิงก์ดำเนินการต่อ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "เมือง",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "รัฐ",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "ประเทศ",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "รหัสไปรษณีย์",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "ที่อยู่",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "สัญชาติ",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "วิทยาลัย/มหาวิทยาลัย",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ปริญญา",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "ปีที่สำเร็จการศึกษา",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / เกรด",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "ระยะเวลาแจ้งให้ทราบล่วงหน้า",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "เงินเดือนที่คาดหวัง",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "บทบาทที่ต้องการ",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "ปีแห่งประสบการณ์",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ได้รับอนุญาตให้ทำงานโดยไม่ต้องมีวีซ่าสนับสนุน",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ต้องมีการสนับสนุนวีซ่า",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "เพศ",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "ความพิการ",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "เลือกที่จะไม่พูด",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "ไม่ระบุ",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ชาย",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "หญิง",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ไม่ใช่ไบนารี",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ใช่",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "ไม่",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "ยังไม่มีทักษะเพิ่ม",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "เพิ่มทักษะ (ใส่เพื่อเพิ่ม)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "วลีกระตุ้น (เช่น ทำไมเราจึงควรจ้างคุณ)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "คำตอบของคุณ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "ลบ",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ เพิ่มคำตอบที่กำหนดเอง",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "บริษัท",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "บทบาท/ตำแหน่ง",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "วันที่เริ่มต้น",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "วันที่สิ้นสุด",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "ปัจจุบัน",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "ปัจจุบันฉันทำงานในตำแหน่งนี้",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "คำอธิบาย",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "อธิบายความรับผิดชอบ ความสำเร็จที่สำคัญ เทคโนโลยีที่ใช้...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ เพิ่มประสบการณ์การทำงาน",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "ชื่อโครงการ",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "เทคสแต็ค",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL การปรับใช้",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "อธิบายสิ่งที่คุณสร้างขึ้น ปัญหาที่แก้ไขได้ และคุณลักษณะหลัก...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ เพิ่มโครงการ",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ตัวติดตาม",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "บันทึกแล้ว",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "ประยุกต์แล้ว",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "การประเมิน",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "สัมภาษณ์",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ข้อเสนอ",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "ถูกปฏิเสธ",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ถอนออกแล้ว",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "ลบแอปพลิเคชันนี้ใช่ไหม",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "อัปเดตแอปพลิเคชันแล้ว!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "ลบแอปพลิเคชันแล้ว",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "สถานะ",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "แพลตฟอร์ม",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "ประยุกต์แล้ว",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "เปิดประกาศรับสมัครงาน",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "เงินเดือน/เบี้ยเลี้ยง",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "การแจ้งเตือนการติดตามผล",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "หมายเหตุ",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "เพิ่มบันทึก ข้อมูลการติดต่อ รายละเอียดการสัมภาษณ์...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "รายละเอียดงาน (ข้อความที่ตัดตอนมา)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ลบ",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "ยกเลิก",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "บันทึก",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ใบสมัคร",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ แอปพลิเคชัน",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "กรองตามบริษัท...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "ตัวกรองสถานะ",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "เลื่อนไปทางขวาเพื่อดูเพิ่มเติม →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "ทั้งหมด",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "ไม่พบแอปพลิเคชัน",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "ลองรีเซ็ตตัวกรองหรือบันทึกงานเพื่อเพิ่มรายการติดตามใหม่",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "การวิเคราะห์",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ แอปพลิเคชันทั้งหมด",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "ยังไม่มีข้อมูล",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "เริ่มสมัครงานแล้วข้อมูลวิเคราะห์ของคุณจะปรากฏที่นี่",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "อัตราการแปลง",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "ประยุกต์แล้ว",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "อัตราการสัมภาษณ์",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "อัตราข้อเสนอ",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "การใช้งานสัปดาห์นี้",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "ช่องทางการสมัคร",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "แพลตฟอร์มยอดนิยม",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "รายละเอียดสถานะ",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "เอไอ โคไพลอต",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "บริบท: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "นักบินอาชีพของคุณ",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "แชทใหม่ ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "โปรดตั้งค่าโปรไฟล์ของคุณก่อนเพื่อให้ AI สามารถปรับแต่งคำตอบในแบบของคุณได้",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "แชทเคลียร์แล้ว! ฉันสามารถช่วยอะไรคุณได้?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "ถามอะไรเกี่ยวกับงานนี้...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "ตั้งค่าโปรไฟล์ของคุณเพื่อเริ่มต้น",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "กด Enter เพื่อส่ง",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "คะแนนความเข้ากันได้ต่อ",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ทักษะที่แข็งแกร่ง",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ ทักษะที่ขาดหายไป",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "นี่คือจดหมายสมัครงานส่วนตัวของคุณ:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ก็อปปี้!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 คัดลอก",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ดาวน์โหลด",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "ต่อไปนี้เป็นคำถามสัมภาษณ์ที่เป็นไปได้ $1$:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "คะแนนการปรับให้เหมาะสมต่อ: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "ข้อเสนอแนะการจับคู่ต่อ",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "เทียบกับรายละเอียดงานนี้",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "มีบางอย่างผิดพลาด โปรดลองอีกครั้ง",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "สวัสดี! ฉันเห็นว่าคุณกำลังมองหาบทบาท **$1$** ที่ **$2$**",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "สวัสดี! ฉันเห็นว่าคุณกำลังมองหาบทบาท **$1$**",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "สวัสดี! ฉันเป็นนักบินอาชีพ AI ของคุณ นำทางไปยังรายการงานแล้วฉันจะวิเคราะห์โดยอัตโนมัติหรือถามอะไรฉันเลย!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "โปรดตั้งค่าโปรไฟล์ของคุณก่อนในแท็บโปรไฟล์!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "กรุณาเปิดหน้ารายการงานในเบราว์เซอร์ของคุณก่อนเพื่อใช้คุณสมบัตินี้!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ปลดล็อค ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "ลงชื่อเข้าใช้ด้วย Google เพื่อเข้าถึงแดชบอร์ด ซิงค์งาน จัดการโปรไฟล์ประวัติย่อ และกรอกใบสมัครงานอัตโนมัติทันที",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ป้อนอัตโนมัติและคลิปเปอร์",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "สแกนและกรอกแอปพลิเคชันอัตโนมัติด้วยคลิกเดียว",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "การซิงค์และสำรองข้อมูลบนคลาวด์",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ซิงค์รายละเอียดการติดตามงานทั้งหมดของคุณกับ Supabase",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ประวัติย่อและโปรไฟล์",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "อัปโหลดเรซูเม่ของคุณและปรับแต่งคำตอบของใบสมัคร",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "กำลังเชื่อมต่อกับ Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "ลงชื่อเข้าใช้งานด้วย Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "การลงชื่อเข้าใช้แสดงว่าคุณตกลงที่จะซิงค์ข้อมูลโปรไฟล์ของคุณอย่างปลอดภัยกับพื้นที่ทำงานที่คุณใช้งานอยู่",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "ออกจากระบบเรียบร้อยแล้ว",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "เข้าสู่ระบบด้วย $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "ออกจากระบบ",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "เข้าสู่ระบบ",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "กำลังเชื่อมต่อ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "เปิด ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ใช้การจับคู่ Flow",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ทักษะการจับคู่ที่แข็งแกร่ง",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "ทักษะที่หายไป",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "หน้าป้อนอัตโนมัติอัจฉริยะ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "กำลังกรอกแบบฟอร์มอัตโนมัติ...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "ไม่พบช่องการสมัครที่กรอกได้บนหน้าเว็บ",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "เติมเต็มสำเร็จ!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "การป้อนอัตโนมัติล้มเหลวเนื่องจากความซับซ้อนของหน้า",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "บันทึกอัตโนมัติเพื่อบันทึกตัวติดตามเมื่อกรอก",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "ประวัติย่อของคุณ *$1$% เข้ากันได้** กับตำแหน่งนี้",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "ยินดีต้อนรับกลับมา $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "ไม่สามารถเรียกข้อมูลโปรไฟล์ผู้ใช้ Google",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "การเข้าสู่ระบบ OAuth ล้มเหลว: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "ไม่สามารถดึงโทเค็นการเข้าถึงจากการเปลี่ยนเส้นทาง",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "ไม่สามารถแยกวิเคราะห์การเปลี่ยนเส้นทางการตรวจสอบสิทธิ์",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ไม่รองรับการรับรองความถูกต้องบนแพลตฟอร์มนี้",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "บันทึกงานไปยังตัวติดตามแล้ว!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "แขก",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ การตั้งค่าทั่วไป",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "แสดงบนหน้างาน LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "แสดงคะแนนการจับคู่อัจฉริยะและปุ่มป้อนอัตโนมัติเพียงคลิกเดียวเมื่อคุณดูประกาศรับสมัครงานบน LinkedIn",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "แสดงปุ่ม 'บันทึกงาน'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "แสดงปุ่ม 'บันทึกงาน 📌' แบบลอยบนไซต์งาน เพื่อให้คุณสามารถบันทึกรายละเอียดงานลงในตัวติดตามของคุณได้อย่างรวดเร็วก่อนที่จะสมัคร",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "เข้าสู่ระบบหลังจากสมัครจริงเท่านั้น",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "รอจนกว่าคุณจะเห็นหน้าจอ 'ขอบคุณ' หรือ 'ความสำเร็จ' ก่อนที่จะเพิ่มงานลงในตัวติดตามของคุณ ช่วยให้ตัวติดตามของคุณเรียบร้อยโดยป้องกันไม่ให้แบบฟอร์มที่กรอกไว้ครึ่งหนึ่งถูกบันทึกเป็น 'นำไปใช้'",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 เครดิต AI และการวิเคราะห์การใช้งาน",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "เครดิตเหลือ",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "เครดิตคงเหลือ.",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "เครดิตทั้งหมด",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "ป้อนอัตโนมัติตลอดเวลา",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "สถานะแผน",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "พรีเมี่ยม 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "ฟรี 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "เคล็ดลับสำหรับมือโปร:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "การดำเนินการป้อนอัตโนมัติอัจฉริยะใช้ 0 เครดิตและไม่จำกัด 100%! เฉพาะฟีเจอร์ AI ขั้นสูง เช่น จดหมายสมัครงาน (5 หน่วยกิต) และเรียงความที่กำหนดเอง (3 หน่วยกิต) เท่านั้นที่ใช้ยอดคงเหลือเครดิตของคุณ",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 บัญชี Google และคลาวด์ซิงค์",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync ทำงานอยู่",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync ถูกล็อค (พรีเมียมเท่านั้น)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "การซิงค์บนคลาวด์",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "พุชไปที่คลาวด์",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "ดึงออกจากคลาวด์",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "ซิงค์สำเร็จ!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "การซิงค์ล้มเหลว ตรวจสอบการเชื่อมต่อของคุณ",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "การซิงค์คลาวด์ที่ปลอดภัย",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "ลงชื่อเข้าใช้ด้วย Google เพื่อสำรองข้อมูลแอปพลิเคชันและโปรไฟล์ของคุณไปที่ Supabase การซิงค์เป็นคุณสมบัติระดับพรีเมียมที่ช่วยรักษาบันทึกของคุณให้ปลอดภัยในทุกอุปกรณ์",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync เป็นคุณสมบัติระดับพรีเมียม โปรดอัปเกรดในแท็บอัปเกรดเพื่อเปิดใช้งานการซิงค์!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 การจัดการข้อมูล",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "ส่งออกข้อมูลสำรอง (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "ล้างข้อมูลในเครื่องทั้งหมด",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "การล้างข้อมูลในเครื่องจะเป็นการลบโปรไฟล์และแอปพลิเคชันของคุณออกจากอุปกรณ์นี้เท่านั้น ข้อมูลบนคลาวด์ไม่ได้รับผลกระทบ",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "ศูนย์ควบคุม",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "หน้าแรกและเกี่ยวกับ",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "การตั้งค่าทั่วไป",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "อัปเกรดเป็น Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "แผนพรีเมียม 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "บัญชีและการซิงค์",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "นโยบายความเป็นส่วนตัว",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "แป้นพิมพ์ลัด",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ยินดีต้อนรับสู่ ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow เป็นส่วนขยาย Chrome ที่ขับเคลื่อนด้วย AI ที่สร้างขึ้นสำหรับนักเรียนและผู้หางานที่ต้องการสมัครงานได้รวดเร็วและชาญฉลาดยิ่งขึ้น โดยจะตรวจจับและกรอกแบบฟอร์มสมัครงานในกว่า 15 แพลตฟอร์มโดยอัตโนมัติ ติดตามไปป์ไลน์ของคุณ และช่วยให้คุณได้รับการสัมภาษณ์มากขึ้น",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ป้อนอัตโนมัติอัจฉริยะ",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ แพลตฟอร์ม ATS พร้อมตัวเลือกที่แม่นยำ",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "เว็บคลิปเปอร์",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "คลิกเพียงครั้งเดียวบันทึกรายการงานใด ๆ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "คัมบังติดตาม",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "ลากและวางไปป์ไลน์แอปพลิเคชันของคุณ",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO ป้อนอัตโนมัติ",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "กรอกคำถามด้านประชากรศาสตร์และวีซ่าโดยอัตโนมัติ",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "บทความ AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "การเขียนคำตอบแบบกำหนดเองที่ขับเคลื่อนโดยราศีเมถุน",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "การซิงค์ที่ปลอดภัย",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "การสำรองข้อมูลบนคลาวด์ Supabase เสริม",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 วิธีเริ่มต้นใช้งาน",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "สร้างโปรไฟล์ของคุณ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "เปิดป๊อปอัป → แท็บโปรไฟล์ → อัปโหลดประวัติย่อ PDF ของคุณ AI จะดึงรายละเอียดทั้งหมดของคุณโดยอัตโนมัติ รวมถึงทักษะ ประสบการณ์ การศึกษา และโครงการ",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "ตั้งค่ากำหนด EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "เลื่อนไปที่ส่วน EEO ในโปรไฟล์ของคุณและตั้งค่าการอนุญาตทำงาน ความต้องการในการให้การสนับสนุนวีซ่า และการตั้งค่าด้านประชากรศาสตร์ สิ่งเหล่านี้ใช้เพื่อกรอกแบบสอบถาม EEO อัตโนมัติ",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "เรียกดูรายการงาน",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "นำทางไปยังรายการงานใด ๆ คุณจะเห็นปุ่ม 📌 \"บันทึกงาน\" ปรากฏขึ้น คลิกเพื่อบันทึกตำแหน่งลงในตัวติดตามของคุณทันที",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "เปิดแบบฟอร์มใบสมัคร",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "นำทางไปยังแบบฟอร์มใบสมัคร คลิกป๊อปอัป ApplyFlow → กด \"สแกนหน้า\" → จากนั้น \"⚡ ป้อนอัตโนมัติอัจฉริยะ\" ทุกช่องรวมทั้งปุ่มตัวเลือกและรายการแบบเลื่อนลงจะถูกกรอกทันที",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "ติดตามไปป์ไลน์ของคุณ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "เปิดแท็บ Tracker เพื่อดูแอปพลิเคชันทั้งหมดของคุณ สลับไปที่มุมมองบอร์ดคัมบังและลากการ์ดระหว่างคอลัมน์เพื่ออัปเดตสถานะของคุณ",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 ต้องลงชื่อเข้าใช้",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ลงชื่อเข้าใช้เพื่อปรับแต่งการตั้งค่า",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "การตั้งค่าทั่วไปมีให้เฉพาะผู้ใช้ที่ลงชื่อเข้าใช้เท่านั้น ลงชื่อเข้าใช้ด้วย Google เพื่อกำหนดค่ากำหนด ลักษณะการทำงานในการป้อนอัตโนมัติ และอื่นๆ",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "ไปที่บัญชีและการซิงค์",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro ใช้งานอยู่",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "รหัสใบอนุญาต: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "ปิดการใช้งานใบอนุญาต",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 การเปิดใช้งานคีย์ใบอนุญาต",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "หากคุณซื้อการสมัครสมาชิกหรือได้รับรหัสการเข้าถึง ให้ป้อนรหัสใบอนุญาตของคุณด้านล่างเพื่อปลดล็อค ApplyFlow Premium",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "เปิดใช้งาน",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "กำลังเปิดใช้งาน...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 เคล็ดลับ: คุณสามารถเปิดใช้งาน Premium ได้โดยใช้ปุ่ม APPLYFLOW-PRO-2026",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "เปิดใช้งานระดับพรีเมียมแล้ว!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ขอบคุณที่สนับสนุน ApplyFlow ตอนนี้ปลดล็อคฟีเจอร์พรีเมียมทั้งหมดแล้ว",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 แผนอัปเกรดระดับพรีเมียม",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "ปลดล็อกการส่งออกอาชีพของคุณและฟีเจอร์ AI ขั้นสูง",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "รับเครดิต AI ระดับพรีเมียมสำหรับจดหมายปะหน้า การตอบเรียงความแบบกำหนดเอง การเพิ่มประสิทธิภาพเรซูเม่ และการเตรียมการสัมภาษณ์จำลอง การดำเนินการป้อนอัตโนมัติบนแพลตฟอร์มที่รองรับนั้นไม่จำกัดและฟรีสำหรับผู้ใช้ระดับพรีเมียมทุกคน!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 ข้อเสนอสำหรับผู้รับช่วงแรก:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "ขึ้นราคาครั้งถัดไปที่ผู้ใช้ระดับพรีเมียม 500 ราย ล็อคเรทนี้ตลอดชีวิต!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "โปรรายเดือน",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "เหมาะสำหรับการค้นหาในระยะสั้น",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/เดือน",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(เพียง₹ 13 / วัน)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 เครดิต AI ต่อเดือน|||การป้อนอัตโนมัติไม่จำกัด (ทุกพอร์ทัล)|||Cloud Sync และการสำรองข้อมูลของ Google|||ธีมพรีเมียม|||ประสบการณ์แบบไม่มีโฆษณา",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "สมัครสมาชิกรายเดือน",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "โปรรายไตรมาส",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "คุ้มค่าที่สุดสำหรับผู้หางานส่วนใหญ่",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/3เดือน",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(เพียง₹ 11 / วัน)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "เครดิต AI 500 หน่วยต่อไตรมาส|||การป้อนอัตโนมัติไม่จำกัด (ทุกพอร์ทัล)|||จดหมายปะหน้าและเรียงความที่ปรับแต่งโดยเฉพาะ|||Cloud Sync และการสำรองข้อมูลของ Google|||คำแนะนำการจับคู่ต่อ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "สมัครสมาชิกรายไตรมาส",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "ยอดนิยมที่สุด",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "สุดยอดประจำปี",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "คุ้มค่าที่สุดสำหรับผู้ใช้ระดับสูง",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ ปี",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(เทียบเท่ากับ ₹249 / เดือน)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "เครดิต AI 2,500 ต่อปี|||การป้อนอัตโนมัติรายวันไม่จำกัด|||จดหมายปะหน้าและเรียงความที่ปรับแต่งมาโดยเฉพาะ|||Cloud Sync และการสำรองข้อมูลของ Google|||คำแนะนำการจับคู่ต่อ|||การสนับสนุนทางอีเมลตามลำดับความสำคัญ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "สมัครสมาชิกรายปี",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "คุ้มค่าที่สุด - ประหยัด 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "สนับสนุนการพัฒนา ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow สร้างและดูแลโดยนักพัฒนาอิสระ หากคุณพบว่าส่วนขยายนี้มีประโยชน์ ลองบริจาคบน Ko-fi เพื่อช่วยให้ส่วนขยายใช้งานได้ ไม่มีโฆษณา และอัปเดตสำหรับบอร์ดงานใหม่",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "ซื้อกาแฟให้ฉันที่ Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ การให้คะแนน 5.0|||🔒 การชำระเงินที่ปลอดภัย|||✓ ยกเลิกได้ตลอดเวลา",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "รหัสใบอนุญาตไม่ถูกต้อง คำแนะนำ: ลองใช้คีย์สาธิต 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "เปิดใช้งานใบอนุญาตเรียบร้อยแล้ว! ยินดีต้อนรับสู่ ApplyFlow พรีเมี่ยม 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการปิดการใช้งานใบอนุญาตระดับพรีเมียมของคุณ? นี่จะนำคุณกลับสู่แผนแบบฟรี",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "ปิดใช้งานใบอนุญาตแบบพรีเมียมแล้ว ตอนนี้คุณอยู่ในแผนฟรี",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "การดำเนินการนี้จะลบโปรไฟล์ในเครื่องและข้อมูลแอปพลิเคชันทั้งหมดอย่างถาวร คุณแน่ใจเหรอ?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 นโยบายความเป็นส่วนตัว",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓คำถามที่พบบ่อย",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow คืออะไรและทำงานอย่างไร",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow เป็นส่วนขยาย Chrome ที่ขับเคลื่อนด้วย AI ซึ่งจะตรวจจับและกรอกแบบฟอร์มสมัครงานโดยอัตโนมัติในกว่า 15 แพลตฟอร์ม รวมถึง LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever และอีกมากมาย มันจะอ่านโปรไฟล์ที่คุณบันทึกไว้และใช้การจับคู่อัจฉริยะเพื่อกรอกช่องข้อความ เมนูแบบเลื่อนลง ปุ่มตัวเลือก และช่องทำเครื่องหมาย รวมถึงคำถามเกี่ยวกับ EEO/ข้อมูลประชากร",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ข้อมูลส่วนตัวของฉันปลอดภัยกับ ApplyFlow หรือไม่?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ใช่. ข้อมูลของคุณจะถูกจัดเก็บไว้ใน chrome.storage.local ของเบราว์เซอร์ตามค่าเริ่มต้น จะไม่ถูกส่งไปยังเซิร์ฟเวอร์ของบุคคลที่สามนอกเหนือจากฐานข้อมูล Supabase ของคุณเอง (ซึ่งคุณควบคุม) ApplyFlow ไม่เคยขาย แบ่งปัน หรือสร้างรายได้จากข้อมูลส่วนบุคคลของคุณ",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow รองรับแพลตฟอร์มงานใดบ้าง?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow รองรับแพลตฟอร์มมากกว่า 15 แพลตฟอร์ม: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList และเว็บไซต์อื่น ๆ ผ่านทางตัวจับคู่ทางเลือกทั่วไปที่ชาญฉลาดของเรา",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper คืออะไร?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper เป็นปุ่ม \"บันทึกงาน\" แบบลอย (📌) ที่จะปรากฏขึ้นโดยอัตโนมัติเมื่อคุณเยี่ยมชมหน้ารายการงานใดๆ การคลิกจะแยกตำแหน่งงาน บริษัท เงินเดือน และคำอธิบาย จากนั้นบันทึกลงในตัวติดตาม ApplyFlow ของคุณเป็นแอปพลิเคชัน \"ที่บันทึกไว้\" เพื่อให้คุณสามารถติดตามงานก่อนสมัครงานได้",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "ฉันจะอัพเดตโปรไฟล์ของฉันได้อย่างไร?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "เปิดป๊อปอัป ApplyFlow คลิกแท็บ \"โปรไฟล์\" และอัปโหลดประวัติย่อ PDF ของคุณ AI จะเติมฟิลด์ทั้งหมดของคุณโดยอัตโนมัติ คุณยังสามารถแก้ไขฟิลด์ใดๆ ด้วยตนเอง รวมถึงการตั้งค่า EEO การอนุญาตทำงาน และจดหมายปะหน้าของคุณ",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "ฟิลด์ EEO คืออะไร และเหตุใดฉันจึงต้องมี",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "ช่อง EEO (โอกาสการจ้างงานที่เท่าเทียมกัน) เป็นคำถามที่นายจ้างจำนวนมากในสหรัฐฯ และทั่วโลกถามเกี่ยวกับเพศ สถานะความพิการ สถานะทหารผ่านศึก และการอนุญาตทำงาน ApplyFlow เก็บคำตอบที่คุณต้องการและเติมกลุ่มปุ่มตัวเลือกเหล่านี้โดยอัตโนมัติ ดังนั้นคุณจึงไม่จำเป็นต้องตอบด้วยตนเองทุกครั้ง",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow ต้องการคีย์ API หรือการกำหนดค่าใดๆ หรือไม่",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "เลขที่! ApplyFlow จัดการการตรวจจับแบบฟอร์มทั้งหมด การจับคู่อัจฉริยะ การสร้างจดหมายปะหน้า และการให้คะแนนความเข้ากันได้โดยอัตโนมัติ คุณไม่จำเป็นต้องรับหรือกำหนดค่าคีย์ API ใดๆ",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "การซิงค์ Supabase คืออะไร และฉันจำเป็นต้องใช้หรือไม่",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "การซิงค์ Supabase เป็นคุณสมบัติการสำรองข้อมูลบนคลาวด์เสริม เมื่อคุณลงชื่อเข้าใช้ด้วย Google และเปิดใช้งาน โปรไฟล์และตัวติดตามแอปพลิเคชันของคุณจะถูกซิงค์กับฐานข้อมูลคลาวด์ส่วนตัว ดังนั้นข้อมูลของคุณจึงได้รับการสำรองและเข้าถึงได้จากอุปกรณ์หลายเครื่อง นี่เป็นทางเลือกโดยสมบูรณ์ — ส่วนขยายทำงานแบบออฟไลน์โดยสมบูรณ์",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "เหตุใด ApplyFlow จึงจำเป็นต้องเข้าถึงเว็บไซต์ทั้งหมด?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow ร้องขอการเข้าถึงเว็บไซต์ทั้งหมด เพื่อให้สามารถแทรกกลไกป้อนอัตโนมัติในแบบฟอร์มการสมัครงานใดๆ และแสดงปุ่มคลิปเปอร์ \"บันทึกงาน\" บนรายการงานใดๆ การอนุญาตนี้จำเป็นสำหรับการรองรับแพลตฟอร์มในวงกว้าง เราใส่สคริปต์ลงในหน้าเว็บที่เกี่ยวข้องกับงานอย่างชัดเจนเท่านั้น",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "คณะกรรมการคัมบังคืออะไร?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board เป็นมุมมองการติดตามงานแบบภาพในแท็บ Tracker โดยจะแสดงใบสมัครของคุณที่จัดเป็นคอลัมน์: บันทึกแล้ว → นำไปใช้ → การประเมิน → สัมภาษณ์ → ข้อเสนอ คุณสามารถลากและวางการ์ดระหว่างคอลัมน์เพื่ออัปเดตสถานะของแอปพลิเคชันใดก็ได้",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "การตรวจจับการส่งทำงานอย่างไร",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "เมื่อคุณเปิดใช้งาน \"บันทึกเฉพาะหลังจากส่ง\" ในการตั้งค่า ApplyFlow จะคอยดูการเปลี่ยนแปลงหน้าที่ระบุว่าส่งสำเร็จ (เช่น URL ที่มี \"/success\" หรือข้อความเนื้อหาว่า \"ขอบคุณสำหรับการสมัคร\") มันจะบันทึกแอปพลิเคชันลงในตัวติดตามของคุณหลังจากตรวจพบการส่งจริงเท่านั้น",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "ฉันสามารถจัดเก็บจดหมายปะหน้าหลายฉบับได้หรือไม่",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ใช่! หน้าจอโปรไฟล์มีส่วน \"ห้องเก็บจดหมายปะหน้า\" ซึ่งคุณสามารถจัดเก็บจดหมายปะหน้าได้ไม่จำกัดซึ่งปรับให้เหมาะกับบทบาทหรือบริษัทต่างๆ เมื่อกรอกอัตโนมัติ ApplyFlow จะใช้จดหมายปะหน้าล่าสุดหรือที่เกี่ยวข้องที่สุดของคุณ",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "ฉันจะส่งออกข้อมูลแอปพลิเคชันของฉันได้อย่างไร",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "ไปที่บัญชีและการซิงค์ → เลื่อนไปที่ด้านล่าง → คลิก \"ส่งออกข้อมูลสำรอง (JSON)\" การดำเนินการนี้จะดาวน์โหลดโปรไฟล์และข้อมูลแอปพลิเคชันทั้งหมดของคุณเป็นไฟล์ JSON เพื่อเก็บไว้อย่างปลอดภัย",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow ทำงานในโหมดสาธิตหรือไม่",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "โหมดสาธิตเป็นการตั้งค่าแบบเดิมที่ใช้สำหรับการทดสอบ ตอนนี้มันถูกปิดใช้งานโดยค่าเริ่มต้น คุณสมบัติทั้งหมดใช้งานได้จริงและใช้งานได้ด้วยคีย์ Gemini API ในตัว",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "ฉันจะรายงานจุดบกพร่องหรือขอคุณสมบัติได้อย่างไร",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "โปรดเปิดปัญหาในพื้นที่เก็บข้อมูล GitHub ของเรา (ลิงก์ในส่วนเกี่ยวกับ) หรือส่งอีเมลถึงเราที่ support@applyflow.in โดยปกติเราจะตอบกลับภายใน 48 ชั่วโมง",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "เปิดป๊อปอัป ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "สแกนหน้าปัจจุบันเพื่อดูช่องแบบฟอร์ม",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "ทริกเกอร์การป้อนอัตโนมัติอัจฉริยะบนหน้าปัจจุบัน",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "คลิปรายการงานปัจจุบันเพื่อติดตาม",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "เปิดตัวติดตามในแท็บใหม่",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "กำหนดค่าทางลัดใน Chrome ได้ที่",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "หมายเหตุ:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "คำสั่งส่วนขยาย Chrome ต้องมีการกำหนดด้วยตนเองในตัวจัดการทางลัดของ Chrome ไปที่ $1$ เพื่อผูกคีย์ที่แสดงไว้ด้านบน",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ส่วนขยาย Chrome ApplyFlow — นโยบายความเป็นส่วนตัว**\nอัปเดตล่าสุด: มิถุนายน 2026\n\n---\n\n**1. บทนำ**\n\nApplyFlow (\"เรา\", \"ของเรา\", \"ส่วนขยาย\") คือส่วนขยายเบราว์เซอร์ Chrome ที่ช่วยให้ผู้ใช้กรอกแบบฟอร์มสมัครงานอัตโนมัติ ติดตามใบสมัคร และจัดการโปรไฟล์ทางวิชาชีพของตน นโยบายความเป็นส่วนตัวนี้อธิบายวิธีที่เรารวบรวม ใช้ จัดเก็บ และปกป้องข้อมูลของคุณ\n\nการติดตั้งและใช้งาน ApplyFlow แสดงว่าคุณยอมรับหลักปฏิบัติที่อธิบายไว้ในนโยบายนี้\n\n---\n\n**2 ข้อมูลที่เรารวบรวม**\n\nเรารวบรวมเฉพาะข้อมูลที่คุณให้ไว้โดยสมัครใจเพื่อเปิดใช้งานคุณลักษณะของส่วนขยาย:\n\n• **ข้อมูลโปรไฟล์**: ชื่อ อีเมล หมายเลขโทรศัพท์ วิทยาลัย ระดับการศึกษา ทักษะ ประวัติการทำงาน โครงการ และลิงก์ทางวิชาชีพของคุณ (LinkedIn, GitHub, ผลงาน)\n• **ข้อมูล EEO/ข้อมูลประชากร (ไม่บังคับ)**: เพศ สถานะความพิการ สถานะทหารผ่านศึก และการตั้งค่าการอนุญาตทำงาน — มีให้เฉพาะเมื่อคุณเลือกที่จะกรอกข้อมูลในฟิลด์เหล่านี้ ข้อมูลนี้ใช้เพื่อกรอกแบบสอบถาม EEO ที่ไม่บังคับในการสมัครงานเท่านั้น\n• **ข้อมูลการติดตามใบสมัคร**: ตำแหน่งงาน บริษัท URL ใบสมัคร สถานะ และหมายเหตุสำหรับตำแหน่งที่คุณติดตามโดยใช้ส่วนขยาย\n• **สถิติการใช้งาน**: จำนวนการดำเนินการกรอกอัตโนมัติที่ดำเนินการ (จัดเก็บไว้ในเครื่องเพื่อบังคับใช้ขีดจำกัดรายวัน)\n• **ข้อมูลการรับรองความถูกต้อง**: หากคุณเลือกที่จะลงชื่อเข้าใช้ด้วย Google เราจะจัดเก็บการแสดงผลของ Google ของคุณ ชื่อ ที่อยู่อีเมล และ URL รูปโปรไฟล์เพื่อปรับแต่งประสบการณ์ของคุณและเปิดใช้งานการซิงค์บนคลาวด์\n\nเราไม่**รวบรวม:\n• ข้อมูลการชำระเงินหรือทางการเงิน\n• ประวัติเบราว์เซอร์หรือกิจกรรมการท่องเว็บทั่วไป\n• ข้อมูลใด ๆ จากเพจที่ไม่เกี่ยวข้องกับการสมัครงาน\n• ข้อมูลใด ๆ จากเพจเมื่อส่วนขยายไม่ทำงาน ทริกเกอร์\n\n---\n\n**3. เราจัดเก็บข้อมูลของคุณอย่างไร**\n\n**3.1 พื้นที่จัดเก็บในตัวเครื่อง (ค่าเริ่มต้น)**\nข้อมูลทั้งหมดจะถูกจัดเก็บไว้ใน chrome.storage.local API ของเบราว์เซอร์ของคุณเป็นหลัก ข้อมูลนี้จะอยู่บนอุปกรณ์ของคุณเท่านั้น และจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใดๆ โดยที่คุณไม่ดำเนินการอย่างชัดเจน\n\n**3.2 Cloud Sync (ไม่บังคับ)**\nหากคุณเลือกที่จะลงชื่อเข้าใช้ด้วย Google และเปิดใช้งานคุณสมบัติ \"Supabase Sync\" ข้อมูลโปรไฟล์และแอปพลิเคชันของคุณจะถูกซิงโครไนซ์กับฐานข้อมูล Supabase ด้วย คุณยังคงเป็นเจ้าของข้อมูลนี้โดยสมบูรณ์ คุณสามารถลบได้ตลอดเวลาจากส่วนบัญชีและการซิงค์\n\n**3.3 คำขอ AI ของ Gemini**\nเมื่อมีการใช้คุณลักษณะของ AI (เช่น การสร้างเรียงความ การวิเคราะห์งาน) บางส่วนของโปรไฟล์ของคุณ (ทักษะ ปริญญา สรุป) และข้อความคำอธิบายงานจะถูกส่งไปยัง Gemini API ของ Google เพื่อสร้างการตอบกลับ สิ่งนี้ได้รับการประมวลผลภายใต้ข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัว API มาตรฐานของ Google เราขอแนะนำไม่ให้รวมตัวระบุส่วนบุคคลที่ละเอียดอ่อนในเนื้อหาที่ได้รับความช่วยเหลือจาก AI\n\n---\n\n**4. การแบ่งปันข้อมูล**\n\nเรา **ไม่** ขาย แลกเปลี่ยน ให้เช่า หรือแบ่งปันข้อมูลส่วนบุคคลของคุณกับบุคคลที่สามเพื่อวัตถุประสงค์ทางการตลาดหรือการโฆษณา\n\nข้อมูลของคุณอาจได้รับการประมวลผลโดยบริการที่เชื่อถือได้ดังต่อไปนี้:\n• **Google Gemini API**: สำหรับการกรอกและวิเคราะห์แบบฟอร์มที่ขับเคลื่อนด้วย AI (https://policies.google.com/privacy)\n• **Google OAuth**: สำหรับบัญชี การตรวจสอบสิทธิ์ (https://policies.google.com/privacy)\n• **Supabase**: สำหรับพื้นที่เก็บข้อมูลระบบคลาวด์เสริม (https://supabase.com/privacy) — เฉพาะในกรณีที่คุณเปิดใช้งาน sync\n\n---\n\n**5 สิทธิ์และการควบคุมของคุณ**\n\nคุณมีสิทธิ์ที่จะ:\n• **เข้าถึง** ข้อมูลทั้งหมดที่ ApplyFlow เก็บไว้เกี่ยวกับคุณ (ผ่านการสำรองข้อมูลการส่งออกในการตั้งค่า)\n• **แก้ไข** ข้อมูลของคุณได้ตลอดเวลาในแท็บโปรไฟล์\n• **ลบ** ข้อมูลทั้งหมดของคุณภายในเครื่องโดยใช้ \"ล้างข้อมูลโปรไฟล์ทั้งหมด\" ในการตั้งค่า\n• **ถอนความยินยอม** ได้ตลอดเวลาโดยการถอนการติดตั้ง extension\n• **ปิดใช้งานการซิงค์บนคลาวด์** โดยสลับเป็นปิดในการตั้งค่าบัญชีและการซิงค์\n\n**GDPR (ผู้ใช้ในสหภาพยุโรป)**: หากคุณเป็นผู้อาศัยอยู่ในสหภาพยุโรป คุณมีสิทธิ์ในการเข้าถึง แก้ไข ลบ จำกัดการประมวลผล และการโอนย้ายข้อมูลภายใต้กฎระเบียบคุ้มครองข้อมูลส่วนบุคคลทั่วไป\n\n**อินเดีย — พระราชบัญญัติ DPDP ปี 2023**: เป็นไปตามกฎหมายคุ้มครองข้อมูลส่วนบุคคลทางดิจิทัลของอินเดีย ปี 2023 เราประมวลผลข้อมูลส่วนบุคคลเพื่อวัตถุประสงค์ในการให้บริการช่วยเหลือการสมัครงานเท่านั้น คุณสามารถเพิกถอนความยินยอมและขอลบข้อมูลของคุณได้ตลอดเวลาโดยติดต่อเรา\n\n**แคลิฟอร์เนีย — CCPA**: ผู้อยู่อาศัยในแคลิฟอร์เนียมีสิทธิ์ที่จะรู้ว่าข้อมูลส่วนบุคคลใดที่ถูกรวบรวม สิทธิ์ในการลบ และสิทธิ์ในการยกเลิกการขาย (เราไม่ขายข้อมูล)\n\n---\n\n**6 การเก็บรักษาข้อมูล**\n\nข้อมูลในเครื่องจะถูกเก็บไว้จนกว่าคุณจะล้างข้อมูลด้วยตนเอง ข้อมูลที่ซิงค์บนคลาวด์จะถูกเก็บไว้จนกว่าคุณจะลบบัญชีของคุณหรือขอลบ เราจะไม่ลบข้อมูลโดยอัตโนมัติ\n\n---\n\n**7 ความปลอดภัย**\n\nเราใช้มาตรการทางเทคนิคที่เหมาะสมเพื่อปกป้องข้อมูลของคุณ:\n• การสื่อสารบนคลาวด์ทั้งหมดใช้การเข้ารหัส HTTPS/TLS\n• Supabase Row-Level Security (RLS) ช่วยให้มั่นใจว่าผู้ใช้สามารถเข้าถึงข้อมูลของตนเองเท่านั้น\n• ส่วนขยายไม่ได้ร้องขอการอนุญาตที่เกินกว่าที่จำเป็นสำหรับแกนหลัก ฟังก์ชั่น\n\n---\n\n**8. ความเป็นส่วนตัวของเด็ก**\n\nApplyFlow ไม่ได้มีไว้สำหรับผู้ใช้ที่มีอายุต่ำกว่า 13 ปี เราไม่ได้รวบรวมข้อมูลจากเด็กโดยเจตนา หากคุณเชื่อว่าเด็กให้ข้อมูลส่วนบุคคลแก่เรา โปรดติดต่อเราทันที\n\n---\n\n**9 การเปลี่ยนแปลงนโยบายนี้**\n\nเราอาจอัปเดตนโยบายความเป็นส่วนตัวนี้เป็นครั้งคราว การเปลี่ยนแปลงที่สำคัญจะได้รับแจ้งผ่านหน้าตัวเลือกของส่วนขยาย การใช้ส่วนขยายต่อไปหลังการเปลี่ยนแปลงจะถือเป็นการยอมรับนโยบายที่อัปเดต\n\n---\n\n**10 ติดต่อเรา**\n\nสำหรับคำถามที่เกี่ยวข้องกับความเป็นส่วนตัว คำขอลบข้อมูล หรือข้อกังวล:\n\nอีเมล: Privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nเว็บไซต์: https://applyflow.in\n\nเรามุ่งมั่นที่จะตอบสนองต่อคำขอทั้งหมดภายใน 30 วัน",
+    "description": "Privacy policy document markdown text"
+  }
+}

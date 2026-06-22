@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI ജോബ് ഓട്ടോഫിൽ & ആപ്ലിക്കേഷൻ ട്രാക്കർ",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "ലിങ്ക്ഡ്ഇൻ, വർക്ക്ഡേ, ഗ്രീൻഹൗസ് എന്നിവയിലും മറ്റും AI ഉപയോഗിച്ച് യാന്ത്രികമായി തൊഴിൽ അപേക്ഷകളും ട്രാക്ക് ലിസ്റ്റിംഗുകളും സ്വയമേവ പൂരിപ്പിക്കുക.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "സജീവമാണ്",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "പ്രയോഗിച്ചു",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "അഭിമുഖം",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ഓഫർ",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "സംരക്ഷിച്ചു",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "ആകെ",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "ഓട്ടോഫിൽ",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "പൂരിപ്പിക്കുന്നു...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ദ്രുത ഓട്ടോഫിൽ",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "ജോലി വിശകലനം ചെയ്യുക",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "സൈഡ്‌ബാർ തുറക്കുക",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ക്രമീകരണങ്ങൾ",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "ദ്രുത ഓട്ടോഫിൽ ഉപയോഗിക്കുന്നതിന് ആദ്യം Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "സൈഡ് പാനൽ/ഓപ്‌ഷൻസ് പേജിൽ ആദ്യം നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജീകരിക്കുക!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ കണ്ടെത്തി",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "തൊഴിൽ പേജൊന്നും കണ്ടെത്തിയില്ല",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI ഫീച്ചറുകൾ അൺലോക്ക് ചെയ്യാൻ ജോലി ലിസ്റ്റിംഗ് സന്ദർശിക്കുക",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "സുപ്രഭാതം",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ഗുഡ് ആഫ്റ്റർനൂൺ",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "ശുഭ സായാഹ്നം",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ ആപ്ലിക്കേഷനുകൾ ട്രാക്ക് ചെയ്തു · $2$ അഭിമുഖങ്ങൾ",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "നിങ്ങളുടെ പുരോഗതി ട്രാക്ക് ചെയ്യുന്നതിന് അപേക്ഷിക്കാൻ ആരംഭിക്കുക",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "കവർ ലെറ്റർ",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "ചോദ്യോത്തര സഹായം",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "സഹായിക്കാൻ തയ്യാറാണ്",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "ആരംഭിക്കുന്നതിന് ലിങ്ക്ഡ്ഇൻ, വർക്ക്ഡേ, ഗ്രീൻഹൗസ്, അല്ലെങ്കിൽ ഏതെങ്കിലും ജോബ് ബോർഡ് എന്നിവയിലെ ജോലി ലിസ്റ്റിംഗിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "ഈ ആഴ്ച",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "സമീപകാല പ്രവർത്തനം",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "എല്ലാം കാണുക →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "നിങ്ങളുടെ ജോലി വേട്ട ആരംഭിക്കുക!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "നിങ്ങളുടെ ആപ്ലിക്കേഷനുകൾ സ്വയമേവ പൂരിപ്പിക്കാനും ട്രാക്ക് ചെയ്യാനും ഒരു ജോബ് ബോർഡ് സന്ദർശിച്ച് ApplyFlow ഉപയോഗിക്കുക.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "എൻ്റെ പ്രൊഫൈൽ",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "സംരക്ഷിക്കുന്നു...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "എല്ലാം സംരക്ഷിക്കുക",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "പ്രൊഫൈൽ സംരക്ഷിച്ചു!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "പ്രൊഫൈൽ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "പുനരാരംഭിക്കുക",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "സ്വയമേവ പൂരിപ്പിക്കൽ പ്രൊഫൈലിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ അപ്‌ലോഡ് ചെയ്തു",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "വ്യക്തിഗത വിവരങ്ങൾ",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "അപൂർണ്ണം",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "സ്ഥാനം",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "വിദ്യാഭ്യാസം",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "കഴിവുകൾ",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "പ്രവൃത്തി പരിചയം",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "പദ്ധതികൾ",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "ജോലി മുൻഗണനകൾ",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "ജോലിയുടെ അംഗീകാരം",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ചരിത്രം പുനരാരംഭിക്കുക",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ഇത് ഉപയോഗിക്കുക",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$-ന് പാഴ്‌സ് ചെയ്‌തു",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" എന്നതിൽ നിന്ന് പ്രൊഫൈൽ വിശദാംശങ്ങൾ ലോഡ് ചെയ്യണോ? ഇത് നിങ്ങളുടെ നിലവിലെ എഡിറ്റുകളെ ഈ റെസ്യൂമിൻ്റെ പാഴ്‌സ് ചെയ്ത ഘടന ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കും.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ എന്നതിൽ നിന്ന് വിശദാംശങ്ങൾ പുനഃസ്ഥാപിച്ചു",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "മാച്ച് സ്കോർ",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ ഫിറ്റ്",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ കൂടുതൽ",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "ആപ്ലിക്കേഷൻ സ്വയമേവ പൂരിപ്പിക്കുകയും ലോഗ് ചെയ്യുകയും ചെയ്തു! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow സൈഡ് പാനൽ വഴി സ്വയമേവ പൂരിപ്പിക്കുന്നു",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "അവിടെ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "കോളേജ് സെറ്റില്ല",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ഓട്ടോഫിൽ പ്രവർത്തനക്ഷമമാക്കാൻ നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജീകരിക്കുക",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "സജ്ജമാക്കിയിട്ടില്ല",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ എൻട്രികൾ",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ കഴിവുകൾ",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ പദ്ധതികൾ",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ ഉത്തരങ്ങൾ",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "അധികാരപ്പെടുത്തിയത്",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "അധികാരപ്പെടുത്തിയിട്ടില്ല",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "മുഴുവൻ പേര്",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ഇമെയിൽ",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ഫോൺ",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "ഇതര ഫോൺ",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "ലിങ്ക്ഡ്ഇൻ URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "പോർട്ട്ഫോളിയോ URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "ലിങ്ക് പുനരാരംഭിക്കുക",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "നഗരം",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "സംസ്ഥാനം",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "രാജ്യം",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "തപാൽ കോഡ്",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "വിലാസം",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ദേശീയത",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "കോളേജ് / യൂണിവേഴ്സിറ്റി",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ബിരുദം",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "ബിരുദ വർഷം",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ഗ്രേഡ്",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "അറിയിപ്പ് കാലയളവ്",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "പ്രതീക്ഷിക്കുന്ന ശമ്പളം",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "ഇഷ്ടപ്പെട്ട റോൾ",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "വർഷങ്ങളുടെ അനുഭവപരിചയം",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "വിസ സ്പോൺസർഷിപ്പില്ലാതെ ജോലി ചെയ്യാൻ അധികാരമുണ്ട്",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "വിസ സ്പോൺസർഷിപ്പ് ആവശ്യമാണ്",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ലിംഗഭേദം",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "വൈകല്യം",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "പറയാതിരിക്കാനാണ് ഇഷ്ടം",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "വ്യക്തമാക്കിയിട്ടില്ല",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "പുരുഷൻ",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "സ്ത്രീ",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "നോൺ-ബൈനറി",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "അതെ",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "ഇല്ല",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "ഇതുവരെ കഴിവുകളൊന്നും ചേർത്തിട്ടില്ല",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "വൈദഗ്ദ്ധ്യം ചേർക്കുക (ചേർക്കാൻ നൽകുക)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ട്രിഗർ വാക്യം (ഉദാ. ഞങ്ങൾ നിങ്ങളെ എന്തിന് നിയമിക്കണം)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "നിങ്ങളുടെ ഉത്തരം...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "നീക്കം ചെയ്യുക",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ ഇഷ്‌ടാനുസൃത ഉത്തരം ചേർക്കുക",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "കമ്പനി",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "റോൾ / തലക്കെട്ട്",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "ആരംഭ തീയതി",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "അവസാന തീയതി",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "അവതരിപ്പിക്കുക",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "ഞാൻ ഇപ്പോൾ ഈ റോളിൽ പ്രവർത്തിക്കുന്നു",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "വിവരണം",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "നിങ്ങളുടെ ഉത്തരവാദിത്തങ്ങൾ, പ്രധാന നേട്ടങ്ങൾ, ഉപയോഗിച്ച സാങ്കേതികവിദ്യകൾ എന്നിവ വിവരിക്കുക...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ പ്രവൃത്തി പരിചയം ചേർക്കുക",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "പദ്ധതിയുടെ പേര്",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "ടെക് സ്റ്റാക്ക്",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "വിന്യാസ URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "നിങ്ങൾ എന്താണ് നിർമ്മിച്ചത്, എന്ത് പ്രശ്നം പരിഹരിച്ചു, പ്രധാന സവിശേഷതകൾ എന്നിവ വിവരിക്കുക...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ പ്രോജക്റ്റ് ചേർക്കുക",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ട്രാക്കർ",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "സംരക്ഷിച്ചു",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "പ്രയോഗിച്ചു",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "വിലയിരുത്തൽ",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "അഭിമുഖം",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ഓഫർ",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "നിരസിച്ചു",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "പിൻവലിച്ചു",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "ഈ ആപ്ലിക്കേഷൻ ഇല്ലാതാക്കണോ?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "ആപ്ലിക്കേഷൻ അപ്ഡേറ്റ് ചെയ്തു!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "അപ്ലിക്കേഷൻ ഇല്ലാതാക്കി.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "നില",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "പ്ലാറ്റ്ഫോം",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "പ്രയോഗിച്ചു",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "ജോലി പോസ്റ്റിംഗ് തുറക്കുക",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "ശമ്പളം / സ്റ്റൈപ്പൻഡ്",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "ഫോളോ-അപ്പ് ഓർമ്മപ്പെടുത്തൽ",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "കുറിപ്പുകൾ",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "കുറിപ്പുകൾ, ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ, അഭിമുഖ വിശദാംശങ്ങൾ എന്നിവ ചേർക്കുക...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "ജോലി വിവരണം (ഉദ്ധരണം)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ഇല്ലാതാക്കുക",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "റദ്ദാക്കുക",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "സംരക്ഷിക്കുക",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 അപേക്ഷ",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ ആപ്ലിക്കേഷനുകൾ",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "കമ്പനി പ്രകാരം ഫിൽട്ടർ ചെയ്യുക...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "സ്റ്റാറ്റസ് ഫിൽട്ടറുകൾ",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "കൂടുതൽ അറിയാൻ വലത്തേക്ക് സ്ക്രോൾ ചെയ്യുക →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "എല്ലാം",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "ആപ്ലിക്കേഷനുകളൊന്നും കണ്ടെത്തിയില്ല",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "പുതിയ ട്രാക്കർ എൻട്രി ചേർക്കാൻ ഫിൽട്ടറുകൾ പുനഃസജ്ജമാക്കാനോ ജോലി സംരക്ഷിക്കാനോ ശ്രമിക്കുക",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "അനലിറ്റിക്സ്",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ ആകെ ആപ്ലിക്കേഷനുകൾ",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "ഇതുവരെ ഡാറ്റയില്ല",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "ജോലികളിലേക്ക് അപേക്ഷിക്കാൻ ആരംഭിക്കുക, നിങ്ങളുടെ അനലിറ്റിക്‌സ് ഇവിടെ ദൃശ്യമാകും.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "പരിവർത്തന നിരക്കുകൾ",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "പ്രയോഗിച്ചു",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "അഭിമുഖ നിരക്ക്",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "ഓഫർ നിരക്ക്",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "ഈ ആഴ്ചയിലെ അപേക്ഷകൾ",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "ആപ്ലിക്കേഷൻ ഫണൽ",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "മുൻനിര പ്ലാറ്റ്ഫോമുകൾ",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "സ്റ്റാറ്റസ് ബ്രേക്ക്ഡൗൺ",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI കോപൈലറ്റ്",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "സന്ദർഭം: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "നിങ്ങളുടെ കരിയർ കോപൈലറ്റ്",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "പുതിയ ചാറ്റ് ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "ദയവായി ആദ്യം നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജീകരിക്കുക, അതുവഴി AI-ക്ക് പ്രതികരണങ്ങൾ വ്യക്തിഗതമാക്കാനാകും.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "ചാറ്റ് മായ്‌ച്ചു! എനിക്ക് നിങ്ങളെ എന്ത് സഹായിക്കാനാകും?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "ഈ ജോലിയെ കുറിച്ച് എന്തെങ്കിലും ചോദിക്കൂ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "ആരംഭിക്കുന്നതിന് നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജീകരിക്കുക",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "അയയ്ക്കാൻ എൻ്റർ അമർത്തുക",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "അനുയോജ്യത സ്കോർ പുനരാരംഭിക്കുക",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ശക്തമായ കഴിവുകൾ",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ നഷ്‌ടമായ കഴിവുകൾ",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "നിങ്ങളുടെ വ്യക്തിഗതമാക്കിയ കവർ ലെറ്റർ ഇതാ:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ പകർത്തി!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 പകർത്തുക",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ ഡൗൺലോഡ് ചെയ്യുക",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "അഭിമുഖത്തിന് $1$ സാധ്യതയുള്ള ചോദ്യങ്ങൾ ഇതാ:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ഒപ്റ്റിമൈസേഷൻ സ്കോർ പുനരാരംഭിക്കുക: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "പൊരുത്തം നിർദ്ദേശങ്ങൾ പുനരാരംഭിക്കുക",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "ഈ ജോലി വിവരണം vs",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "എന്തോ കുഴപ്പം സംഭവിച്ചു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "ഹായ്! **$2$** എന്നതിൽ നിങ്ങൾ ഒരു **$1$** റോളിലേക്ക് നോക്കുന്നത് എനിക്ക് കാണാൻ കഴിയും.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "ഹായ്! നിങ്ങൾ ഒരു **$1$** റോളിലേക്ക് നോക്കുന്നത് എനിക്ക് കാണാൻ കഴിയും.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "ഹായ്! ഞാൻ നിങ്ങളുടെ AI കരിയർ കോപൈലറ്റാണ്. ഒരു ജോലി ലിസ്റ്റിംഗിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക, ഞാൻ അത് സ്വയമേവ വിശകലനം ചെയ്യും, അല്ലെങ്കിൽ എന്നോട് എന്തെങ്കിലും ചോദിക്കും!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "പ്രൊഫൈൽ ടാബിൽ ആദ്യം നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജീകരിക്കുക!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "ഈ ഫീച്ചർ ഉപയോഗിക്കുന്നതിന് ആദ്യം നിങ്ങളുടെ ബ്രൗസറിൽ ജോലി ലിസ്റ്റിംഗ് പേജ് തുറക്കുക!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow അൺലോക്ക് ചെയ്യുക",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "നിങ്ങളുടെ ഡാഷ്‌ബോർഡ് ആക്‌സസ് ചെയ്യാനും ജോലികൾ സമന്വയിപ്പിക്കാനും നിങ്ങളുടെ ബയോഡാറ്റ പ്രൊഫൈൽ മാനേജ് ചെയ്യാനും ജോബ് ആപ്ലിക്കേഷനുകൾ തൽക്ഷണം സ്വയമേവ പൂരിപ്പിക്കാനും Google-ൽ സൈൻ ഇൻ ചെയ്യുക.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ഓട്ടോഫിൽ & ക്ലിപ്പർ",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "ഒറ്റ ക്ലിക്കിൽ ആപ്ലിക്കേഷനുകൾ സ്കാൻ ചെയ്ത് ഓട്ടോഫിൽ ചെയ്യുക.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "ക്ലൗഡ് സമന്വയവും ബാക്കപ്പും",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "നിങ്ങളുടെ എല്ലാ ജോലി ട്രാക്കിംഗ് വിശദാംശങ്ങളും Supabase-ലേക്ക് സമന്വയിപ്പിക്കുക.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "റെസ്യൂമെയും പ്രൊഫൈലുകളും",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "നിങ്ങളുടെ ബയോഡാറ്റ അപ്‌ലോഡ് ചെയ്‌ത് ആപ്ലിക്കേഷൻ ഉത്തരങ്ങൾ ഇഷ്ടാനുസൃതമാക്കുക.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google-ലേക്ക് ബന്ധിപ്പിക്കുന്നു...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "സൈൻ ഇൻ ചെയ്യുന്നതിലൂടെ, നിങ്ങളുടെ സജീവ വർക്ക്‌സ്‌പെയ്‌സിലേക്ക് സുരക്ഷിതമായി പ്രൊഫൈൽ ഡാറ്റ സമന്വയിപ്പിക്കാൻ നിങ്ങൾ സമ്മതിക്കുന്നു.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "സൈൻ ഔട്ട് ചെയ്യണമെന്ന് തീർച്ചയാണോ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "വിജയകരമായി സൈൻ ഔട്ട് ചെയ്‌തു.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ ആയി ലോഗിൻ ചെയ്തു",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "സൈൻ ഔട്ട് ചെയ്യുക",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "ബന്ധിപ്പിക്കുന്നു...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow തുറക്കുക",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow പൊരുത്തം",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ശക്തമായ പൊരുത്തപ്പെടുത്തൽ കഴിവുകൾ",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "മിസ്സിംഗ് സ്കിൽസ്",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "സ്മാർട്ട് ഓട്ടോഫിൽ പേജ്",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "സ്വയം പൂരിപ്പിക്കൽ ഫോം...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "പേജിൽ പൂരിപ്പിക്കാവുന്ന ആപ്ലിക്കേഷൻ ഫീൽഡുകളൊന്നും കണ്ടെത്തിയില്ല.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "വിജയകരമായി നിറഞ്ഞു!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "പേജ് സങ്കീർണ്ണത കാരണം ഓട്ടോഫിൽ പരാജയപ്പെട്ടു.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "പൂരിപ്പിക്കുമ്പോൾ ലോഗ് ട്രാക്കറിലേക്ക് സ്വയമേവ സംരക്ഷിച്ചു.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "നിങ്ങളുടെ റെസ്യൂമെ ഈ റോളുമായി **$1$% അനുയോജ്യമാണ്**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "തിരികെ സ്വാഗതം, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google ഉപയോക്തൃ പ്രൊഫൈൽ വിവരം ലഭ്യമാക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth ലോഗിൻ പരാജയപ്പെട്ടു: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "റീഡയറക്‌ടിൽ നിന്ന് ആക്‌സസ് ടോക്കൺ ലഭ്യമാക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "പ്രാമാണീകരണ റീഡയറക്‌ട് പാഴ്‌സ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ഈ പ്ലാറ്റ്‌ഫോമിൽ പ്രാമാണീകരണം പിന്തുണയ്ക്കുന്നില്ല.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ജോലി ട്രാക്കറിൽ സംരക്ഷിച്ചു!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "അതിഥി",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ പൊതു ക്രമീകരണങ്ങൾ",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "ലിങ്ക്ഡ്ഇൻ ജോബ് പേജുകളിൽ കാണിക്കുക",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "നിങ്ങൾ LinkedIn-ൽ ജോലി പോസ്റ്റിംഗുകൾ കാണുമ്പോൾ ഒരു മികച്ച മാച്ചിംഗ് സ്‌കോറും ഒറ്റ ക്ലിക്ക് ഓട്ടോഫിൽ ബട്ടണും കാണിക്കുന്നു.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'ജോബ് സംരക്ഷിക്കുക' ബട്ടൺ കാണിക്കുക",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "ജോലി സൈറ്റുകളിൽ ഫ്ലോട്ടിംഗ് 'ജോബ് സംരക്ഷിക്കുക 📌' ബട്ടൺ കാണിക്കുന്നു, അതിനാൽ അപേക്ഷിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ട്രാക്കറിൽ ജോലി വിശദാംശങ്ങൾ വേഗത്തിൽ സംരക്ഷിക്കാനാകും.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "യഥാർത്ഥത്തിൽ അപേക്ഷിച്ചതിന് ശേഷം മാത്രം ലോഗിൻ ചെയ്യുക",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "നിങ്ങളുടെ ട്രാക്കറിലേക്ക് ജോലി ചേർക്കുന്നതിന് മുമ്പ് 'നന്ദി' അല്ലെങ്കിൽ 'വിജയം' സ്‌ക്രീൻ കാണുന്നത് വരെ കാത്തിരിക്കുക. പകുതി പൂരിപ്പിച്ച ഫോമുകൾ 'പ്രയോഗിച്ചു' എന്ന് സംരക്ഷിക്കുന്നത് തടയുന്നതിലൂടെ നിങ്ങളുടെ ട്രാക്കർ വൃത്തിയായി സൂക്ഷിക്കുന്നു.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI ക്രെഡിറ്റുകളും ഉപയോഗ അനലിറ്റിക്‌സും",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ക്രെഡിറ്റുകൾ അവശേഷിക്കുന്നു",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ബാക്കിയുള്ള ക്രെഡിറ്റുകൾ",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "മൊത്തം ക്രെഡിറ്റുകൾ",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "എല്ലാ സമയത്തും ഓട്ടോഫില്ലുകൾ",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "പ്ലാൻ നില",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "പ്രീമിയം 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "സൗജന്യം 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "പ്രോ ടിപ്പ്:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "സ്‌മാർട്ട് ഓട്ടോഫിൽ പ്രവർത്തനങ്ങൾ 0 ക്രെഡിറ്റുകൾ ഉപയോഗിക്കുകയും 100% പരിധിയില്ലാത്തതുമാണ്! കവർ ലെറ്ററുകൾ (5 ക്രെഡിറ്റുകൾ), ഇഷ്‌ടാനുസൃത ഉപന്യാസങ്ങൾ (3 ക്രെഡിറ്റുകൾ) എന്നിവ പോലുള്ള നൂതന AI സവിശേഷതകൾ മാത്രമേ നിങ്ങളുടെ ക്രെഡിറ്റ് ബാലൻസ് ഉപയോഗിക്കുന്നുള്ളൂ.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google അക്കൗണ്ടും ക്ലൗഡ് സമന്വയവും",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google ക്ലൗഡ് സമന്വയം സജീവമാണ്",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "ക്ലൗഡ് സമന്വയം ലോക്ക് ചെയ്തു (പ്രീമിയം മാത്രം)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "ക്ലൗഡ് സമന്വയം",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "ക്ലൗഡിലേക്ക് പുഷ് ചെയ്യുക",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "ക്ലൗഡിൽ നിന്ന് വലിക്കുക",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "സമന്വയം വിജയിച്ചു!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "സമന്വയം പരാജയപ്പെട്ടു. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "സുരക്ഷിത ക്ലൗഡ് സമന്വയം",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Supabase-ലേക്ക് നിങ്ങളുടെ ആപ്ലിക്കേഷനുകളും പ്രൊഫൈലും ബാക്കപ്പ് ചെയ്യാൻ Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക. ഉപകരണങ്ങളിലുടനീളം നിങ്ങളുടെ ലോഗുകൾ സുരക്ഷിതമായി സൂക്ഷിക്കുന്ന ഒരു പ്രീമിയം ഫീച്ചറാണ് സമന്വയിപ്പിക്കൽ.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "സുപാബേസ് ക്ലൗഡ് സമന്വയം ഒരു പ്രീമിയം ഫീച്ചറാണ്. സമന്വയം പ്രവർത്തനക്ഷമമാക്കാൻ അപ്‌ഗ്രേഡ് ടാബിൽ അപ്‌ഗ്രേഡ് ചെയ്യുക!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ഡാറ്റ മാനേജ്മെൻ്റ്",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "കയറ്റുമതി ബാക്കപ്പ് (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "എല്ലാ പ്രാദേശിക ഡാറ്റയും മായ്‌ക്കുക",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "പ്രാദേശിക ഡാറ്റ മായ്‌ക്കുന്നത് ഈ ഉപകരണത്തിൽ നിന്ന് മാത്രം നിങ്ങളുടെ പ്രൊഫൈലും അപ്ലിക്കേഷനുകളും നീക്കംചെയ്യുന്നു. ക്ലൗഡ് ഡാറ്റയെ ബാധിക്കില്ല.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "നിയന്ത്രണ കേന്ദ്രം",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "ഹോം & എബൌട്ട്",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "പൊതുവായ ക്രമീകരണങ്ങൾ",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro ലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "പ്രീമിയം പ്ലാൻ 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "അക്കൗണ്ടും സമന്വയവും",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "സ്വകാര്യതാ നയം",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "പതിവുചോദ്യങ്ങൾ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "കീബോർഡ് കുറുക്കുവഴികൾ",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow-ലേക്ക് സ്വാഗതം",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "വേഗത്തിലും മികച്ചതിലും അപേക്ഷിക്കാൻ ആഗ്രഹിക്കുന്ന വിദ്യാർത്ഥികൾക്കും തൊഴിലന്വേഷകർക്കും വേണ്ടി നിർമ്മിച്ച AI- പവർ ക്രോം വിപുലീകരണമാണ് ApplyFlow. ഇത് 15+ പ്ലാറ്റ്‌ഫോമുകളിലുടനീളമുള്ള തൊഴിൽ അപേക്ഷാ ഫോമുകൾ സ്വയമേവ കണ്ടെത്തുകയും പൂരിപ്പിക്കുകയും ചെയ്യുന്നു, നിങ്ങളുടെ പൈപ്പ്‌ലൈൻ ട്രാക്കുചെയ്യുന്നു, കൂടാതെ കൂടുതൽ അഭിമുഖങ്ങൾ നടത്താൻ നിങ്ങളെ സഹായിക്കുന്നു.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "സ്മാർട്ട് ഓട്ടോഫിൽ",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "കൃത്യമായ സെലക്ടറുകളുള്ള 15+ ATS പ്ലാറ്റ്‌ഫോമുകൾ",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "വെബ് ക്ലിപ്പർ",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "ഏതെങ്കിലും ജോലി ലിസ്റ്റിംഗ് സംരക്ഷിക്കുക ഒറ്റ ക്ലിക്ക്",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "കാൻബൻ ട്രാക്കർ",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ പൈപ്പ്ലൈൻ വലിച്ചിടുക",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO ഓട്ടോഫിൽ",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "ജനസംഖ്യാപരമായ, വിസ ചോദ്യങ്ങൾ സ്വയമേവ പൂരിപ്പിക്കുന്നു",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI ഉപന്യാസങ്ങൾ",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "ജെമിനി-പവർ ഇഷ്‌ടാനുസൃത ഉത്തര രചന",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "സുരക്ഷിത സമന്വയം",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "ഓപ്ഷണൽ സുപാബേസ് ക്ലൗഡ് ബാക്കപ്പ്",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 എങ്ങനെ ആരംഭിക്കാം",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "നിങ്ങളുടെ പ്രൊഫൈൽ നിർമ്മിക്കുക",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "പോപ്പ്അപ്പ് → പ്രൊഫൈൽ ടാബ് തുറക്കുക → നിങ്ങളുടെ റെസ്യൂം PDF അപ്‌ലോഡ് ചെയ്യുക. കഴിവുകൾ, അനുഭവം, വിദ്യാഭ്യാസം, പ്രോജക്ടുകൾ എന്നിവയുൾപ്പെടെ നിങ്ങളുടെ എല്ലാ വിശദാംശങ്ങളും AI സ്വയമേവ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യും.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO മുൻഗണനകൾ സജ്ജമാക്കുക",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "നിങ്ങളുടെ പ്രൊഫൈലിലെ EEO വിഭാഗത്തിലേക്ക് സ്ക്രോൾ ചെയ്ത് നിങ്ങളുടെ ജോലി അംഗീകാരം, വിസ സ്പോൺസർഷിപ്പ് ആവശ്യകതകൾ, ജനസംഖ്യാപരമായ മുൻഗണനകൾ എന്നിവ സജ്ജമാക്കുക. EEO ചോദ്യാവലികൾ ഓട്ടോഫിൽ ചെയ്യാൻ ഇവ ഉപയോഗിക്കുന്നു.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "ഒരു ജോലി ലിസ്റ്റിംഗ് ബ്രൗസ് ചെയ്യുക",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "ഏതെങ്കിലും ജോലി ലിസ്റ്റിംഗിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക. ഒരു 📌 \"ജോബ് സംരക്ഷിക്കുക\" ബട്ടൺ ദൃശ്യമാകുന്നത് നിങ്ങൾ കാണും. നിങ്ങളുടെ ട്രാക്കറിൽ സ്ഥാനം തൽക്ഷണം സംരക്ഷിക്കാൻ അതിൽ ക്ലിക്ക് ചെയ്യുക.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "ഒരു അപേക്ഷാ ഫോം തുറക്കുക",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "അപേക്ഷാ ഫോമിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക. ApplyFlow പോപ്പ്അപ്പ് ക്ലിക്ക് ചെയ്യുക → \"സ്കാൻ പേജ്\" → അമർത്തുക, തുടർന്ന് \"⚡ Smart Autofill\". റേഡിയോ ബട്ടണുകളും ഡ്രോപ്പ്ഡൗണുകളും ഉൾപ്പെടെ എല്ലാ ഫീൽഡുകളും തൽക്ഷണം പൂരിപ്പിച്ചിരിക്കുന്നു.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "നിങ്ങളുടെ പൈപ്പ്ലൈൻ ട്രാക്ക് ചെയ്യുക",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "നിങ്ങളുടെ എല്ലാ ആപ്ലിക്കേഷനുകളും കാണുന്നതിന് ട്രാക്കർ ടാബ് തുറക്കുക. കാൻബൻ ബോർഡ് കാഴ്ചയിലേക്ക് മാറുക, നിങ്ങളുടെ സ്റ്റാറ്റസ് അപ്‌ഡേറ്റുകൾ പോലെ കോളങ്ങൾക്കിടയിൽ കാർഡുകൾ വലിച്ചിടുക.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 സൈൻ ഇൻ ആവശ്യമാണ്",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ക്രമീകരണങ്ങൾ ഇഷ്ടാനുസൃതമാക്കാൻ സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "സൈൻ ഇൻ ചെയ്ത ഉപയോക്താക്കൾക്ക് മാത്രമേ പൊതുവായ ക്രമീകരണങ്ങൾ ലഭ്യമാകൂ. നിങ്ങളുടെ മുൻഗണനകളും സ്വയമേവ പൂരിപ്പിക്കൽ പെരുമാറ്റങ്ങളും മറ്റും കോൺഫിഗർ ചെയ്യാൻ Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "അക്കൗണ്ട് & സമന്വയത്തിലേക്ക് പോകുക",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro സജീവമാണ്",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "ലൈസൻസ് കീ: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "ലൈസൻസ് നിർജ്ജീവമാക്കുക",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 ലൈസൻസ് കീ സജീവമാക്കൽ",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "നിങ്ങൾ ഒരു സബ്‌സ്‌ക്രിപ്‌ഷൻ വാങ്ങുകയോ ആക്‌സസ് കോഡ് ലഭിക്കുകയോ ചെയ്‌തിട്ടുണ്ടെങ്കിൽ, ApplyFlow Premium അൺലോക്ക് ചെയ്യാൻ നിങ്ങളുടെ ലൈസൻസ് കീ ചുവടെ നൽകുക.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "സജീവമാക്കുക",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "സജീവമാക്കുന്നു...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 നുറുങ്ങ്: APPLYFLOW-PRO-2026 കീ ഉപയോഗിച്ച് നിങ്ങൾക്ക് പ്രീമിയം സജീവമാക്കാം.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "പ്രീമിയം സജീവമാക്കി!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow-നെ പിന്തുണച്ചതിന് നന്ദി. എല്ലാ പ്രീമിയം ഫീച്ചറുകളും ഇപ്പോൾ അൺലോക്ക് ചെയ്തിരിക്കുന്നു.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 പ്രീമിയം അപ്‌ഗ്രേഡ് പ്ലാൻ",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "നിങ്ങളുടെ കരിയർ കയറ്റുമതിയും വിപുലമായ AI ഫീച്ചറുകളും അൺലോക്ക് ചെയ്യുക.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "കവർ ലെറ്ററുകൾ, ഇഷ്‌ടാനുസൃത ഉപന്യാസ ഉത്തരങ്ങൾ, റെസ്യൂം ഒപ്റ്റിമൈസേഷൻ, മോക്ക് ഇൻ്റർവ്യൂ പ്രെപ്പ് എന്നിവയ്‌ക്കായി പ്രീമിയം AI ക്രെഡിറ്റുകൾ നേടുക. പിന്തുണയ്‌ക്കുന്ന പ്ലാറ്റ്‌ഫോമുകളിലെ ഓട്ടോഫിൽ പ്രവർത്തനങ്ങൾ പൂർണ്ണമായും പരിധിയില്ലാത്തതും എല്ലാ പ്രീമിയം ഉപയോക്താക്കൾക്കും സൗജന്യവുമാണ്!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 നേരത്തെയുള്ള അഡോപ്റ്റർ ഓഫർ:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 പ്രീമിയം ഉപയോക്താക്കൾക്ക് അടുത്ത വില വർദ്ധനവ്. ജീവിതത്തിനായുള്ള ഈ നിരക്കിൽ ലോക്ക് ചെയ്യുക!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "പ്രതിമാസ പ്രൊ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "ഹ്രസ്വകാല തിരയലിന് നല്ലതാണ്",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ മാസം",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(പ്രതിദിനം ₹13 മാത്രം)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "പ്രതിമാസം 150 AI ക്രെഡിറ്റുകൾ|||അൺലിമിറ്റഡ് ഓട്ടോഫില്ലുകൾ (എല്ലാ പോർട്ടലുകളും)|||Cloud Sync & Google ബാക്കപ്പ്|||പ്രീമിയം തീമുകൾ|||പരസ്യരഹിത അനുഭവം",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "പ്രതിമാസ സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "ത്രൈമാസിക പ്രൊ",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "മിക്ക തൊഴിലന്വേഷകർക്കും ഏറ്റവും മികച്ച മൂല്യം",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 മാസം",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(പ്രതിദിനം ₹11 മാത്രം)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "ഓരോ പാദത്തിലും 500 AI ക്രെഡിറ്റുകൾ|||അൺലിമിറ്റഡ് ഓട്ടോഫില്ലുകൾ (എല്ലാ പോർട്ടലുകളും)|||തയ്യാറാക്കിയ കവർ ലെറ്ററുകളും ഉപന്യാസങ്ങളും|||ക്ലൗഡ് സമന്വയവും ഗൂഗിൾ ബാക്കപ്പും|||മാച്ച് നിർദ്ദേശങ്ങൾ പുനരാരംഭിക്കുക",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "ത്രൈമാസിക സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "ഏറ്റവും ജനപ്രിയമായത്",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "വാർഷിക ആത്യന്തിക",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "ഊർജ്ജ ഉപയോക്താക്കൾക്ക് ഏറ്റവും മികച്ച മൂല്യം",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ വർഷം",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(പ്രതിമാസം ₹249 ന് തുല്യം)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "പ്രതിവർഷം 2,500 AI ക്രെഡിറ്റുകൾ|||അൺലിമിറ്റഡ് പ്രതിദിന ഓട്ടോഫില്ലുകൾ||അനുയോജ്യമായ കവർ ലെറ്ററുകളും ഉപന്യാസങ്ങളും|||ക്ലൗഡ് സമന്വയവും ഗൂഗിൾ ബാക്കപ്പും|||മത്സര നിർദ്ദേശങ്ങൾ പുനരാരംഭിക്കുക|||മുൻഗണന ഇമെയിൽ പിന്തുണ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "വർഷം തോറും സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "മികച്ച മൂല്യം - 40% ലാഭിക്കുക",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow വികസനത്തിന് പിന്തുണ",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow നിർമ്മിക്കുന്നതും പരിപാലിക്കുന്നതും സ്വതന്ത്ര ഡെവലപ്പർമാരാണ്. വിപുലീകരണം സഹായകരമാണെന്ന് നിങ്ങൾ കണ്ടെത്തുകയാണെങ്കിൽ, അത് സജീവമായും പരസ്യരഹിതമായും പുതിയ തൊഴിൽ ബോർഡുകൾക്കായി അപ്‌ഡേറ്റ് ചെയ്‌ത് നിലനിർത്താൻ സഹായിക്കുന്നതിന് Ko-fi-ൽ സംഭാവന ചെയ്യുന്നത് പരിഗണിക്കുക.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "കോ-ഫൈയിൽ എനിക്ക് ഒരു കോഫി വാങ്ങൂ",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 റേറ്റിംഗ്||🔒 സുരക്ഷിത പേയ്‌മെൻ്റുകൾ||✓ എപ്പോൾ വേണമെങ്കിലും റദ്ദാക്കുക",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "ലൈസൻസ് കീ അസാധുവാണ്. സൂചന: 'APPLYFLOW-PRO-2026' എന്ന ഡെമോ കീ ഉപയോഗിച്ച് ശ്രമിക്കുക!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "ലൈസൻസ് സജീവമാക്കി! ApplyFlow Premium-ലേക്ക് സ്വാഗതം. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "നിങ്ങളുടെ പ്രീമിയം ലൈസൻസ് നിർജ്ജീവമാക്കണമെന്ന് തീർച്ചയാണോ? ഇത് നിങ്ങളെ ഫ്രീ പ്ലാനിലേക്ക് തിരികെ കൊണ്ടുവരും.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "പ്രീമിയം ലൈസൻസ് നിർജ്ജീവമാക്കി. നിങ്ങൾ ഇപ്പോൾ സൗജന്യ പ്ലാനിലാണ്.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "ഇത് എല്ലാ പ്രാദേശിക പ്രൊഫൈലും ആപ്ലിക്കേഷൻ ഡാറ്റയും ശാശ്വതമായി ഇല്ലാതാക്കും. നിങ്ങൾക്ക് ഉറപ്പാണോ?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 സ്വകാര്യതാ നയം",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ പതിവായി ചോദിക്കുന്ന ചോദ്യങ്ങൾ",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow എന്താണ്, അത് എങ്ങനെ പ്രവർത്തിക്കുന്നു?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever എന്നിവയും അതിലേറെയും ഉൾപ്പെടെ 15+ പ്ലാറ്റ്‌ഫോമുകളിലുടനീളമുള്ള തൊഴിൽ അപേക്ഷാ ഫോമുകൾ സ്വയമേവ കണ്ടെത്തുകയും പൂരിപ്പിക്കുകയും ചെയ്യുന്ന AI- പവർ ചെയ്യുന്ന Chrome വിപുലീകരണമാണ് ApplyFlow. ഇത് നിങ്ങളുടെ സംരക്ഷിച്ച പ്രൊഫൈൽ വായിക്കുകയും ടെക്‌സ്‌റ്റ് ഫീൽഡുകൾ, ഡ്രോപ്പ്‌ഡൗണുകൾ, റേഡിയോ ബട്ടണുകൾ, ചെക്ക്‌ബോക്‌സുകൾ എന്നിവ പൂരിപ്പിക്കുന്നതിന് ഇൻ്റലിജൻ്റ് മാച്ചിംഗ് ഉപയോഗിക്കുകയും ചെയ്യുന്നു - ഇഇഒ/ഡെമോഗ്രാഫിക് ചോദ്യങ്ങൾ ഉൾപ്പെടെ.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ApplyFlow ഉപയോഗിച്ച് എൻ്റെ സ്വകാര്യ ഡാറ്റ സുരക്ഷിതമാണോ?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "അതെ. നിങ്ങളുടെ ഡാറ്റ സ്ഥിരസ്ഥിതിയായി നിങ്ങളുടെ ബ്രൗസറിൻ്റെ chrome.storage.local-ൽ പ്രാദേശികമായി സംഭരിച്ചിരിക്കുന്നു. നിങ്ങളുടെ സ്വന്തം ഓപ്‌ഷണൽ സുപാബേസ് ഡാറ്റാബേസ് (നിങ്ങൾ നിയന്ത്രിക്കുന്നത്) അല്ലാതെ ഒരു മൂന്നാം കക്ഷി സെർവറിലേക്കും ഇത് ഒരിക്കലും അയയ്‌ക്കില്ല. ApplyFlow ഒരിക്കലും നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങൾ വിൽക്കുകയോ പങ്കിടുകയോ ധനസമ്പാദനം നടത്തുകയോ ചെയ്യുന്നില്ല.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow ഏത് തൊഴിൽ പ്ലാറ്റ്‌ഫോമുകളെയാണ് പിന്തുണയ്ക്കുന്നത്?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow 15+ പ്ലാറ്റ്‌ഫോമുകളെ പിന്തുണയ്‌ക്കുന്നു: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, കൂടാതെ ഞങ്ങളുടെ ഇൻ്റലിജൻ്റ് ഫാൾബാക്ക് വഴിയുള്ള മറ്റേതെങ്കിലും സൈറ്റ്.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "എന്താണ് വെബ് ക്ലിപ്പർ?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "നിങ്ങൾ ഏതെങ്കിലും ജോലി ലിസ്റ്റിംഗ് പേജ് സന്ദർശിക്കുമ്പോൾ സ്വയമേവ ദൃശ്യമാകുന്ന ഒരു ഫ്ലോട്ടിംഗ് \"ജോബ് സംരക്ഷിക്കുക\" ബട്ടണാണ് (📌) വെബ് ക്ലിപ്പർ. അതിൽ ക്ലിക്കുചെയ്യുന്നത് ജോലിയുടെ പേര്, കമ്പനി, ശമ്പളം, വിവരണം എന്നിവ എക്‌സ്‌ട്രാക്‌റ്റുചെയ്യുന്നു, തുടർന്ന് അത് നിങ്ങളുടെ ApplyFlow ട്രാക്കറിലേക്ക് \"സംരക്ഷിച്ച\" ആപ്ലിക്കേഷനായി സംരക്ഷിക്കുന്നു - അതിനാൽ നിങ്ങൾക്ക് അപേക്ഷിക്കുന്നതിന് മുമ്പ് ജോലികൾ ട്രാക്ക് ചെയ്യാൻ കഴിയും.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "എൻ്റെ പ്രൊഫൈൽ എങ്ങനെ അപ്ഡേറ്റ് ചെയ്യാം?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow പോപ്പ്അപ്പ് തുറന്ന് \"പ്രൊഫൈൽ\" ടാബിൽ ക്ലിക്ക് ചെയ്ത് നിങ്ങളുടെ റെസ്യൂം PDF അപ്‌ലോഡ് ചെയ്യുക. AI നിങ്ങളുടെ എല്ലാ ഫീൽഡുകളും സ്വയമേവ പോപ്പുലേറ്റ് ചെയ്യും. നിങ്ങളുടെ EEO മുൻഗണനകൾ, വർക്ക് അംഗീകാരം, കവർ ലെറ്ററുകൾ എന്നിവയുൾപ്പെടെ ഏത് ഫീൽഡും നിങ്ങൾക്ക് സ്വമേധയാ എഡിറ്റുചെയ്യാനാകും.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "എന്താണ് EEO ഫീൽഡുകൾ, എനിക്ക് അവ എന്തുകൊണ്ട് ആവശ്യമാണ്?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "ഇഇഒ (തുല്യ തൊഴിൽ അവസരങ്ങൾ) ഫീൽഡുകൾ ലിംഗഭേദം, വികലാംഗ നില, വെറ്ററൻ സ്റ്റാറ്റസ്, ജോലി അംഗീകാരം എന്നിവയെക്കുറിച്ച് നിരവധി യുഎസിലും ആഗോള തൊഴിലുടമകളും ചോദിക്കുന്ന ചോദ്യങ്ങളാണ്. ApplyFlow നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉത്തരങ്ങൾ സംഭരിക്കുകയും ഈ റേഡിയോ ബട്ടൺ ഗ്രൂപ്പുകൾ സ്വയമേവ പൂരിപ്പിക്കുകയും ചെയ്യുന്നു, അതിനാൽ നിങ്ങൾ അവയ്ക്ക് ഓരോ തവണയും നേരിട്ട് ഉത്തരം നൽകേണ്ടതില്ല.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow-ന് ഏതെങ്കിലും API കീകളോ കോൺഫിഗറേഷനോ ആവശ്യമുണ്ടോ?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "ഇല്ല! ApplyFlow എല്ലാ ഫോം ഡിറ്റക്ഷൻ, സ്‌മാർട്ട് മാച്ചിംഗ്, കവർ ലെറ്റർ ജനറേഷൻ, കോംപാറ്റിബിലിറ്റി സ്കോറിംഗ് എന്നിവ സ്വയമേവ കൈകാര്യം ചെയ്യുന്നു. നിങ്ങൾ ഏതെങ്കിലും API കീകൾ നേടുകയോ കോൺഫിഗർ ചെയ്യുകയോ ചെയ്യേണ്ടതില്ല.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "എന്താണ് സുപാബേസ് സമന്വയം, എനിക്ക് അത് ആവശ്യമുണ്ടോ?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "ഒരു ഓപ്‌ഷണൽ ക്ലൗഡ് ബാക്കപ്പ് സവിശേഷതയാണ് സുപാബേസ് സമന്വയം. നിങ്ങൾ Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്‌ത് അത് പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ, നിങ്ങളുടെ പ്രൊഫൈലും ആപ്ലിക്കേഷൻ ട്രാക്കറും ഒരു സ്വകാര്യ ക്ലൗഡ് ഡാറ്റാബേസിലേക്ക് സമന്വയിപ്പിക്കപ്പെടുന്നതിനാൽ നിങ്ങളുടെ ഡാറ്റ ബാക്കപ്പ് ചെയ്യപ്പെടുകയും ഒന്നിലധികം ഉപകരണങ്ങളിൽ നിന്ന് ആക്‌സസ് ചെയ്യപ്പെടുകയും ചെയ്യും. ഇത് പൂർണ്ണമായും ഓപ്ഷണലാണ് - വിപുലീകരണം പൂർണ്ണമായും ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കുന്നു.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ApplyFlow ന് എല്ലാ വെബ്‌സൈറ്റുകളിലേക്കും ആക്‌സസ് ആവശ്യമായിരിക്കുന്നത് എന്തുകൊണ്ട്?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow എല്ലാ വെബ്‌സൈറ്റുകളിലേക്കും ആക്‌സസ് അഭ്യർത്ഥിക്കുന്നു, അതുവഴി ഏത് ജോലി അപേക്ഷാ ഫോമിലും ഓട്ടോഫിൽ എഞ്ചിൻ കുത്തിവയ്ക്കാനും ഏത് ജോലി ലിസ്റ്റിംഗിലും \"ജോബ് സംരക്ഷിക്കുക\" ക്ലിപ്പർ ബട്ടൺ കാണിക്കാനും കഴിയും. വിശാലമായ പ്ലാറ്റ്‌ഫോം പിന്തുണയ്‌ക്ക് ഈ അനുമതി ആവശ്യമാണ്. ജോലിയുമായി ബന്ധപ്പെട്ട വ്യക്തമായ പേജുകളിൽ മാത്രമേ ഞങ്ങൾ സ്ക്രിപ്റ്റുകൾ കുത്തിവയ്ക്കുകയുള്ളൂ.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "എന്താണ് കാൻബൻ ബോർഡ്?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "ട്രാക്കർ ടാബിലെ വിഷ്വൽ ജോബ് ട്രാക്കിംഗ് കാഴ്ചയാണ് കാൻബൻ ബോർഡ്. ഇത് കോളങ്ങളിൽ ക്രമീകരിച്ച നിങ്ങളുടെ ആപ്ലിക്കേഷനുകൾ കാണിക്കുന്നു: സംരക്ഷിച്ചത് → പ്രയോഗിച്ചു → വിലയിരുത്തൽ → അഭിമുഖം → ഓഫർ. ഏത് ആപ്ലിക്കേഷൻ്റെയും സ്റ്റാറ്റസ് അപ്ഡേറ്റ് ചെയ്യാൻ നിങ്ങൾക്ക് കോളങ്ങൾക്കിടയിൽ കാർഡുകൾ വലിച്ചിടാം.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "സമർപ്പിക്കൽ കണ്ടെത്തൽ എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "നിങ്ങൾ ക്രമീകരണങ്ങളിൽ \"സമർപ്പിച്ചതിന് ശേഷം മാത്രം ലോഗിൻ ചെയ്യുക\" പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ, വിജയകരമായ സമർപ്പണത്തെ സൂചിപ്പിക്കുന്ന പേജ് മാറ്റങ്ങൾക്കായി ApplyFlow നിരീക്ഷിക്കുന്നു (\"/success\" അടങ്ങിയിരിക്കുന്ന URL അല്ലെങ്കിൽ \"അപേക്ഷിച്ചതിന് നന്ദി\" എന്ന് പറയുന്ന ബോഡി ടെക്‌സ്‌റ്റ് പോലെ). ഒരു യഥാർത്ഥ സമർപ്പണം കണ്ടെത്തിയതിന് ശേഷം മാത്രമേ ഇത് നിങ്ങളുടെ ട്രാക്കറിലേക്ക് ആപ്ലിക്കേഷൻ ലോഗ് ചെയ്യുകയുള്ളൂ.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "എനിക്ക് ഒന്നിലധികം കവർ ലെറ്ററുകൾ സൂക്ഷിക്കാൻ കഴിയുമോ?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "അതെ! പ്രൊഫൈൽ സ്‌ക്രീനിൽ \"കവർ ലെറ്റർ വോൾട്ട്\" വിഭാഗമുണ്ട്, അവിടെ നിങ്ങൾക്ക് വ്യത്യസ്ത റോളുകൾക്കോ ​​കമ്പനികൾക്കോ ​​അനുയോജ്യമായ പരിധികളില്ലാത്ത കവർ ലെറ്ററുകൾ സംഭരിക്കാനാകും. ഓട്ടോഫിൽ ചെയ്യുമ്പോൾ, ApplyFlow നിങ്ങളുടെ ഏറ്റവും പുതിയ അല്ലെങ്കിൽ ഏറ്റവും പ്രസക്തമായ കവർ ലെറ്റർ ഉപയോഗിക്കും.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "എങ്ങനെയാണ് എൻ്റെ ആപ്ലിക്കേഷൻ ഡാറ്റ എക്സ്പോർട്ട് ചെയ്യുക?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "അക്കൗണ്ട് & സമന്വയത്തിലേക്ക് പോകുക → താഴേക്ക് സ്ക്രോൾ ചെയ്യുക → \"എക്സ്പോർട്ട് ബാക്കപ്പ് (JSON)\" ക്ലിക്ക് ചെയ്യുക. ഇത് നിങ്ങളുടെ എല്ലാ പ്രൊഫൈലും ആപ്ലിക്കേഷൻ ഡാറ്റയും സുരക്ഷിതമായി സൂക്ഷിക്കുന്നതിനുള്ള ഒരു JSON ഫയലായി ഡൗൺലോഡ് ചെയ്യുന്നു.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow ഡെമോ മോഡിൽ പ്രവർത്തിക്കുമോ?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "ഡെമോ മോഡ് ടെസ്റ്റിംഗിനായി ഉപയോഗിക്കുന്ന ഒരു ലെഗസി ക്രമീകരണമായിരുന്നു. ഇത് ഇപ്പോൾ ഡിഫോൾട്ടായി പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു. ബിൽറ്റ്-ഇൻ ജെമിനി API കീ ഉപയോഗിച്ച് എല്ലാ സവിശേഷതകളും തത്സമയവും പ്രവർത്തനക്ഷമവുമാണ്.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "ഞാൻ എങ്ങനെയാണ് ഒരു ബഗ് റിപ്പോർട്ട് ചെയ്യുക അല്ലെങ്കിൽ ഒരു ഫീച്ചർ അഭ്യർത്ഥിക്കുക?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "ദയവായി ഞങ്ങളുടെ GitHub ശേഖരണത്തിൽ ഒരു പ്രശ്നം തുറക്കുക (ആമുഖം വിഭാഗത്തിൽ ലിങ്ക് ചെയ്‌തിരിക്കുന്നു) അല്ലെങ്കിൽ support@applyflow.in എന്ന വിലാസത്തിൽ ഞങ്ങൾക്ക് ഇമെയിൽ ചെയ്യുക. ഞങ്ങൾ സാധാരണയായി 48 മണിക്കൂറിനുള്ളിൽ പ്രതികരിക്കും.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow പോപ്പ്അപ്പ് തുറക്കുക",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ഫോം ഫീൽഡുകൾക്കായി നിലവിലെ പേജ് സ്കാൻ ചെയ്യുക",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "നിലവിലെ പേജിൽ സ്മാർട്ട് ഓട്ടോഫിൽ ട്രിഗർ ചെയ്യുക",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "ട്രാക്കറിലേക്ക് നിലവിലെ ജോലി ലിസ്റ്റിംഗ് ക്ലിപ്പ് ചെയ്യുക",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "ഒരു പുതിയ ടാബിൽ ട്രാക്കർ തുറക്കുക",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome-ൽ കുറുക്കുവഴികൾ കോൺഫിഗർ ചെയ്യുക",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "കുറിപ്പ്:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome വിപുലീകരണ കമാൻഡുകൾക്ക് Chrome-ൻ്റെ കുറുക്കുവഴി മാനേജറിൽ നേരിട്ട് അസൈൻമെൻ്റ് ആവശ്യമാണ്. മുകളിൽ ലിസ്റ്റുചെയ്തിരിക്കുന്ന കീകൾ ബന്ധിപ്പിക്കുന്നതിന് $1$ എന്നതിലേക്ക് പോകുക.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome എക്സ്റ്റൻഷൻ — സ്വകാര്യതാ നയം**\nഅവസാനം അപ്ഡേറ്റ് ചെയ്തത്: ജൂൺ 2026\n\n---_\n\n**1. ആമുഖം**\n\nApplyFlow (\"ഞങ്ങൾ\", \"ഞങ്ങളുടെ\", \"വിപുലീകരണം\") എന്നത് ഒരു Chrome ബ്രൗസർ വിപുലീകരണമാണ്, അത് ജോലി അപേക്ഷാ ഫോമുകൾ സ്വയമേവ പൂരിപ്പിക്കാനും അവരുടെ ആപ്ലിക്കേഷനുകൾ ട്രാക്ക് ചെയ്യാനും അവരുടെ പ്രൊഫഷണൽ പ്രൊഫൈൽ നിയന്ത്രിക്കാനും ഉപയോക്താക്കളെ സഹായിക്കുന്നു. ഈ സ്വകാര്യതാ നയം നിങ്ങളുടെ വിവരങ്ങൾ എങ്ങനെ ശേഖരിക്കുകയും ഉപയോഗിക്കുകയും സംഭരിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്യുന്നു എന്ന് വിശദീകരിക്കുന്നു.\n\nApplyFlow ഇൻസ്റ്റാൾ ചെയ്യുന്നതിലൂടെയും ഉപയോഗിക്കുന്നതിലൂടെയും, ഈ നയത്തിൽ വിവരിച്ചിരിക്കുന്ന സമ്പ്രദായങ്ങൾ നിങ്ങൾ അംഗീകരിക്കുന്നു.\n\n_____\n\n**2. ഞങ്ങൾ ശേഖരിക്കുന്ന ഡാറ്റ**\n\nവിപുലീകരണത്തിൻ്റെ സവിശേഷതകൾ പ്രവർത്തനക്ഷമമാക്കാൻ നിങ്ങൾ സ്വമേധയാ നൽകുന്ന വിവരങ്ങൾ മാത്രമാണ് ഞങ്ങൾ ശേഖരിക്കുന്നത്:\n\n• **പ്രൊഫൈൽ വിവരങ്ങൾ**: നിങ്ങളുടെ പേര്, ഇമെയിൽ, ഫോൺ നമ്പർ, കോളേജ്, ബിരുദം, വൈദഗ്ധ്യം, ജോലി ചരിത്രം, പ്രോജക്ടുകൾ, കൂടാതെ പ്രൊഫഷണൽ ലിങ്കുകൾ, GLinHk, പോർട്ട്ഫോളിയോ).\n• **EEO/ഡെമോഗ്രാഫിക് വിവരങ്ങൾ (ഓപ്ഷണൽ)**: ലിംഗഭേദം, വൈകല്യ നില, വെറ്ററൻ സ്റ്റാറ്റസ്, ജോലിയുടെ അംഗീകാര മുൻഗണനകൾ — നിങ്ങൾ ഈ ഫീൽഡുകൾ പൂരിപ്പിക്കാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ മാത്രം. ജോലി അപേക്ഷകളിലെ ഓപ്‌ഷണൽ EEO ചോദ്യാവലി ഓട്ടോഫിൽ ചെയ്യുന്നതിന് മാത്രമായി ഈ ഡാറ്റ ഉപയോഗിക്കുന്നു.\n• **അപ്ലിക്കേഷൻ ട്രാക്കിംഗ് ഡാറ്റ**: ജോലിയുടെ പേര്, കമ്പനി, ആപ്ലിക്കേഷൻ URL, സ്റ്റാറ്റസ്, വിപുലീകരണം ഉപയോഗിച്ച് നിങ്ങൾ ട്രാക്ക് ചെയ്യുന്ന സ്ഥാനങ്ങൾക്കുള്ള കുറിപ്പുകൾ.\n• **ഉപയോഗ സ്ഥിതിവിവരക്കണക്കുകൾ ദിവസേനയുള്ള പ്രവർത്തനത്തിനായി നടപ്പിലാക്കിയതിൻ്റെ എണ്ണം പരിധികൾ).\n• ** പ്രാമാണീകരണ ഡാറ്റ**: നിങ്ങൾ Google-ൽ സൈൻ ഇൻ ചെയ്യാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ അനുഭവം വ്യക്തിഗതമാക്കുന്നതിനും ക്ലൗഡ് സമന്വയം പ്രവർത്തനക്ഷമമാക്കുന്നതിനും ഞങ്ങൾ നിങ്ങളുടെ Google ഡിസ്പ്ലേ പേര്, ഇമെയിൽ വിലാസം, പ്രൊഫൈൽ ചിത്ര URL എന്നിവ സംഭരിക്കുന്നു.\n_NL_22__ഞങ്ങൾ **അല്ല** ശേഖരിക്കുന്നു അല്ലെങ്കിൽ സാമ്പത്തിക ചരിത്രം ശേഖരിക്കുന്നു പ്രവർത്തനം\n• ജോലി-അപേക്ഷയുമായി ബന്ധമില്ലാത്ത പേജുകളിൽ നിന്നുള്ള ഏത് വിവരവും\n• വിപുലീകരണം സജീവമായി ട്രിഗർ ചെയ്യാത്ത പേജുകളിൽ നിന്നുള്ള ഏത് ഡാറ്റയും\n\n---\n\n**3. ഞങ്ങൾ നിങ്ങളുടെ ഡാറ്റ എങ്ങനെ സംഭരിക്കുന്നു**\n\n**3.1 ലോക്കൽ സ്റ്റോറേജ് (സ്ഥിരസ്ഥിതി)**\nഎല്ലാ ഡാറ്റയും പ്രാഥമികമായി നിങ്ങളുടെ ബ്രൗസറിൻ്റെ chrome.storage.local API-ൽ സംഭരിച്ചിരിക്കുന്നു. ഈ ഡാറ്റ നിങ്ങളുടെ ഉപകരണത്തിൽ മാത്രമേ വസിക്കുന്നുള്ളൂ, നിങ്ങളുടെ വ്യക്തമായ നടപടിയില്ലാതെ ഒരു സെർവറിലേക്കും ഒരിക്കലും കൈമാറ്റം ചെയ്യപ്പെടില്ല.\n\n**3.2 ക്ലൗഡ് സമന്വയം (ഓപ്ഷണൽ)**\nനിങ്ങൾ Google-ൽ സൈൻ ഇൻ ചെയ്‌ത് \"Supabase Sync\" ഫീച്ചർ പ്രവർത്തനക്ഷമമാക്കാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ പ്രൊഫൈലും ആപ്ലിക്കേഷൻ ഡാറ്റയും Supabase സമന്വയിപ്പിക്കുകയും ചെയ്യും. ഈ ഡാറ്റയുടെ പൂർണ്ണ ഉടമസ്ഥാവകാശം നിങ്ങൾ നിലനിർത്തുന്നു. അക്കൗണ്ട് & സമന്വയ വിഭാഗത്തിൽ നിന്ന് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും ഇത് ഇല്ലാതാക്കാം.\n\n**3.3 ജെമിനി AI അഭ്യർത്ഥനകൾ**\nAI സവിശേഷതകൾ ഉപയോഗിക്കുമ്പോൾ (ഉദാ. ഉപന്യാസം സൃഷ്ടിക്കൽ, ജോലി വിശകലനം), നിങ്ങളുടെ പ്രൊഫൈലിൻ്റെ ഭാഗങ്ങൾ (നൈപുണ്യങ്ങൾ, ബിരുദം, സംഗ്രഹം), Google-ലേക്ക് ജോലി വിവരണത്തിൻ്റെ പ്രതികരണം സൃഷ്ടിക്കുന്നു. ഇത് Google-ൻ്റെ സ്റ്റാൻഡേർഡ് API സേവന നിബന്ധനകൾക്കും സ്വകാര്യതാ നയത്തിനും കീഴിലാണ് പ്രോസസ്സ് ചെയ്യുന്നത്. നിങ്ങളുടെ AI- സഹായത്തോടെയുള്ള ഉള്ളടക്കത്തിൽ സെൻസിറ്റീവ് വ്യക്തിഗത ഐഡൻ്റിഫയറുകൾ ഉൾപ്പെടുത്തരുതെന്ന് ഞങ്ങൾ ശുപാർശ ചെയ്യുന്നു.\n_NL_41_______\n\n**4. ഡാറ്റ പങ്കിടൽ**\n\nവിപണനത്തിനോ പരസ്യത്തിനോ വേണ്ടി ഏതെങ്കിലും മൂന്നാം കക്ഷികളുമായി നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങൾ ഞങ്ങൾ **** വിൽക്കുകയോ വ്യാപാരം ചെയ്യുകയോ വാടകയ്‌ക്കെടുക്കുകയോ പങ്കിടുകയോ ചെയ്യുന്നില്ല.\n\nനിങ്ങളുടെ ഡാറ്റ ഇനിപ്പറയുന്ന വിശ്വസനീയ സേവനങ്ങൾ വഴി പ്രോസസ്സ് ചെയ്തേക്കാം:\n• **Google ഫോം പൂരിപ്പിച്ച ജെമിനി API: (https://policies.google.com/privacy)\n• **Google OAuth**: അക്കൗണ്ട് പ്രാമാണീകരണത്തിന് (https://policies.google.com/privacy)\n• **Supabase**: ഓപ്‌ഷണൽ ക്ലൗഡ് സ്റ്റോറേജിനായി (https://supabase.com/privacy) — നിങ്ങൾക്ക് താൽപ്പര്യമുണ്ടെങ്കിൽ മാത്രം സമന്വയം\n\n_____\n\n**5. നിങ്ങളുടെ അവകാശങ്ങളും നിയന്ത്രണങ്ങളും**\n\nനിങ്ങൾക്ക് ഇനിപ്പറയുന്നവ ചെയ്യാനുള്ള അവകാശമുണ്ട്:\n• **Access** ApplyFlow നിങ്ങളെ കുറിച്ച് സംഭരിച്ചിട്ടുള്ള എല്ലാ ഡാറ്റയും (ക്രമീകരണങ്ങളിലെ എക്‌സ്‌പോർട്ട് ബാക്കപ്പ് വഴി)\n• **തിരുത്തുക** നിങ്ങളുടെ എല്ലാ വിവരങ്ങളും പ്രൊഫൈൽ ടാബിൽ എപ്പോൾ വേണമെങ്കിലും ഇല്ലാതാക്കുക*•*L_*L_N പ്രൊഫൈൽ ഡാറ്റ\" ക്രമീകരണങ്ങളിലെ\n• **എപ്പോൾ വേണമെങ്കിലും സമ്മതം പിൻവലിക്കുക** വിപുലീകരണം അൺഇൻസ്റ്റാൾ ചെയ്‌ത്\n• **ക്ലൗഡ് സമന്വയം അപ്രാപ്‌തമാക്കുക** അക്കൗണ്ട് & സമന്വയ ക്രമീകരണങ്ങളിൽ ടോഗിൾ ചെയ്‌ത് അത് ഓഫ് ചെയ്യുക\n\n**നിങ്ങൾക്ക് EU: ആക്‌സസ് ചെയ്യാനുള്ള അവകാശം, നിങ്ങൾക്ക് EU: ജനറൽ ഡാറ്റാ പ്രൊട്ടക്ഷൻ റെഗുലേഷനു കീഴിലുള്ള പ്രോസസ്സിംഗ്, ഡാറ്റ പോർട്ടബിലിറ്റി എന്നിവ ശരിയാക്കുക, മായ്‌ക്കുക, നിയന്ത്രിക്കുക.\n\n**ഇന്ത്യ — DPDP ആക്‌റ്റ് 2023**: ഇന്ത്യയുടെ ഡിജിറ്റൽ പേഴ്‌സണൽ ഡാറ്റ പ്രൊട്ടക്ഷൻ ആക്‌ട് 2023-ന് അനുസൃതമായി, ജോലി അപേക്ഷാ സേവനം നൽകുന്നതിന് വേണ്ടി മാത്രമാണ് ഞങ്ങൾ വ്യക്തിഗത ഡാറ്റ പ്രോസസ്സ് ചെയ്യുന്നത്. ഞങ്ങളെ ബന്ധപ്പെടുന്നതിലൂടെ നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും സമ്മതം പിൻവലിക്കുകയും നിങ്ങളുടെ ഡാറ്റ ഇല്ലാതാക്കാൻ അഭ്യർത്ഥിക്കുകയും ചെയ്യാം.\n\n**കാലിഫോർണിയ — CCPA**: കാലിഫോർണിയ നിവാസികൾക്ക് എന്ത് വ്യക്തിഗത വിവരങ്ങൾ ശേഖരിക്കുന്നു, ഇല്ലാതാക്കാനുള്ള അവകാശം, വിൽപ്പന ഒഴിവാക്കാനുള്ള അവകാശം എന്നിവ അറിയാനുള്ള അവകാശമുണ്ട് (ഞങ്ങൾ വിൽക്കില്ല ഡാറ്റ).\n\n_____\n\n**6. ഡാറ്റ നിലനിർത്തൽ**\n\nനിങ്ങൾ സ്വമേധയാ മായ്‌ക്കുന്നതുവരെ പ്രാദേശിക ഡാറ്റ നിലനിർത്തും. നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കുകയോ ഇല്ലാതാക്കാൻ അഭ്യർത്ഥിക്കുകയോ ചെയ്യുന്നതുവരെ ക്ലൗഡ് സമന്വയിപ്പിച്ച ഡാറ്റ നിലനിർത്തും. ഞങ്ങൾ ഡാറ്റ സ്വയമേവ ഇല്ലാതാക്കില്ല.\n\n_____\n\n**7. സുരക്ഷ**\n\nനിങ്ങളുടെ ഡാറ്റ പരിരക്ഷിക്കുന്നതിന് ഞങ്ങൾ ന്യായമായ സാങ്കേതിക നടപടികൾ കൈക്കൊള്ളുന്നു:\n• എല്ലാ ക്ലൗഡ് കമ്മ്യൂണിക്കേഷനുകളും HTTPS/TLS എൻക്രിപ്ഷൻ\n• ഉപയോക്താക്കൾക്ക് അവരുടെ സ്വന്തം ഡാറ്റയ്‌ക്ക് മാത്രം ആക്‌സസ്സ് ചെയ്യാൻ കഴിയുമെന്ന് സൂപാബേസ് റോ-ലെവൽ സെക്യൂരിറ്റി (RLS) ഉറപ്പാക്കുന്നു__NL_82. ഫംഗ്‌ഷൻ\n\n_____\n\n**8. കുട്ടികളുടെ സ്വകാര്യത**\n\nApplyFlow 13 വയസ്സിന് താഴെയുള്ള ഉപയോക്താക്കളെ ഉദ്ദേശിച്ചുള്ളതല്ല. കുട്ടികളിൽ നിന്ന് ഞങ്ങൾ അറിഞ്ഞുകൊണ്ട് ഡാറ്റ ശേഖരിക്കില്ല. ഒരു കുട്ടി ഞങ്ങൾക്ക് വ്യക്തിഗത വിവരങ്ങൾ നൽകിയിട്ടുണ്ടെന്ന് നിങ്ങൾ വിശ്വസിക്കുന്നുവെങ്കിൽ, ദയവായി ഞങ്ങളെ ഉടൻ ബന്ധപ്പെടുക.\n\n________\n\n**9. ഈ നയത്തിലെ മാറ്റങ്ങൾ**\n\nഞങ്ങൾ ഈ സ്വകാര്യതാ നയം കാലാകാലങ്ങളിൽ അപ്ഡേറ്റ് ചെയ്തേക്കാം. വിപുലീകരണത്തിൻ്റെ ഓപ്‌ഷൻ പേജ് വഴി കാര്യമായ മാറ്റങ്ങൾ അറിയിക്കും. മാറ്റങ്ങൾക്ക് ശേഷവും വിപുലീകരണത്തിൻ്റെ തുടർച്ചയായ ഉപയോഗം അപ്ഡേറ്റ് ചെയ്ത നയത്തിൻ്റെ സ്വീകാര്യതയാണ്. ഞങ്ങളെ ബന്ധപ്പെടുക**\n\nസ്വകാര്യത സംബന്ധിയായ ചോദ്യങ്ങൾക്കും ഡാറ്റ ഇല്ലാതാക്കൽ അഭ്യർത്ഥനകൾക്കും അല്ലെങ്കിൽ ആശങ്കകൾക്കും:\n\nഇമെയിൽ: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension/4__NL_extension https://applyflow.in\n\n30 ദിവസത്തിനുള്ളിൽ എല്ലാ അഭ്യർത്ഥനകളോടും പ്രതികരിക്കാൻ ഞങ്ങൾ ലക്ഷ്യമിടുന്നു.",
+    "description": "Privacy policy document markdown text"
+  }
+}

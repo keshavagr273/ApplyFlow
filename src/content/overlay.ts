@@ -1,6 +1,7 @@
 import { Storage } from '../shared/storage';
 import { UserProfile } from '../shared/types';
 import { extractJobInfo as extractClipperJobInfo } from './clipper';
+import { t } from '../shared/i18n';
 
 (async () => {
   try {
@@ -163,7 +164,7 @@ export function injectOverlay(
         <div class="af-panel-title">
           <img src="${chrome.runtime.getURL('icons/icon32.png')}" class="af-logo-img" alt="ApplyFlow Logo" />
           <div>
-            <div class="af-main-title">ApplyFlow Match</div>
+            <div class="af-main-title">${t('overlay_match_title')}</div>
             <div class="af-sub-title">${jobInfo.company || 'Ready'} • ${jobInfo.role || 'Job'}</div>
           </div>
         </div>
@@ -185,27 +186,27 @@ export function injectOverlay(
       <div class="af-panel-body">
         <div class="af-score-section">
           <div class="af-big-score">${analysis.matchScore}%</div>
-          <div class="af-score-label">Resume Compatibility Score</div>
+          <div class="af-score-label">${t('ai_analysis_score_label')}</div>
         </div>
 
         <div class="af-skills-group">
-          <div class="af-group-title">Strong Matching Skills</div>
+          <div class="af-group-title">${t('overlay_strong_skills')}</div>
           <div class="af-tags-container">
             ${(analysis.strongSkills || []).map(s => `<span class="af-tag tag-strong">${s}</span>`).join('')}
           </div>
         </div>
 
         <div class="af-skills-group">
-          <div class="af-group-title">Missing Skills</div>
+          <div class="af-group-title">${t('overlay_missing_skills')}</div>
           <div class="af-tags-container">
             ${(analysis.missingSkills || []).map(s => `<span class="af-tag tag-missing">${s}</span>`).join('')}
           </div>
         </div>
 
         <button class="af-autofill-btn" id="af-autofill-action">
-          <span class="af-btn-icon">⚡</span> Smart Autofill Page
+          <span class="af-btn-icon">⚡</span> ${t('overlay_autofill_btn')}
         </button>
-        <div class="af-footer">Auto-saved to log tracker upon filling.</div>
+        <div class="af-footer">${t('overlay_footer_notes')}</div>
       </div>
     </div>
   `;
@@ -237,7 +238,7 @@ export function injectOverlay(
   autofillBtn.addEventListener('click', async () => {
     autofillBtn.disabled = true;
     autofillBtn.innerHTML = `
-      <span class="af-spinner"></span> Autofilling Form...
+      <span class="af-spinner"></span> ${t('overlay_autofill_progress')}
     `;
 
     try {
@@ -277,7 +278,7 @@ export function injectOverlay(
         });
 
       if (scannedFields.length === 0) {
-        showWidgetToast(widget, "No fillable application fields found on the page.");
+        showWidgetToast(widget, t('overlay_no_fields_found'));
         resetAutofillBtn(autofillBtn);
         return;
       }
@@ -304,13 +305,13 @@ export function injectOverlay(
         platform: detectPlatform(),
         status: 'applied' as const,
         appliedAt: Date.now(),
-        notes: `Automatically parsed & auto-filled via ApplyFlow LinkedIn Enhancer.`
+        notes: t('autofill_notes')
       };
       
       await Storage.addApplication(newApp).catch(err => console.error(err));
 
       // 5. Success UI feedback
-      autofillBtn.innerHTML = `✅ Successfully Filled!`;
+      autofillBtn.innerHTML = `✅ ${t('overlay_autofill_success')}`;
       autofillBtn.style.background = '#10b981';
       setTimeout(() => {
         resetAutofillBtn(autofillBtn);
@@ -323,7 +324,7 @@ export function injectOverlay(
 
     } catch (err) {
       console.error("Smart autofill failed:", err);
-      showWidgetToast(widget, "Autofill failed due to page complexity.");
+      showWidgetToast(widget, t('overlay_autofill_failed'));
       resetAutofillBtn(autofillBtn);
     }
   });
@@ -348,7 +349,7 @@ function showWidgetToast(widget: HTMLElement, message: string) {
 function resetAutofillBtn(btn: HTMLButtonElement) {
   btn.disabled = false;
   btn.style.background = 'var(--brand)';
-  btn.innerHTML = `<span class="af-btn-icon">⚡</span> Smart Autofill Page`;
+  btn.innerHTML = `<span class="af-btn-icon">⚡</span> ${t('overlay_autofill_btn')}`;
 }
 
 function detectPlatform(): 'linkedin' | 'internshala' | 'unstop' | 'company_site' | 'other' {

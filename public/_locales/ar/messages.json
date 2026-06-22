@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: الملء التلقائي لوظيفة الذكاء الاصطناعي وتعقب التطبيقات",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "الملء التلقائي لطلبات الوظائف وتتبع القوائم تلقائيًا باستخدام الذكاء الاصطناعي على LinkedIn وWorkday وGreenhouse والمزيد.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "تطبيق التدفق",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "نشط",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "مطبق",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "مقابلة",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "العرض",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "تم الحفظ",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "المجموع",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "الملء التلقائي",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "حشوة...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "الملء التلقائي السريع",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "تحليل الوظيفة",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "افتح الشريط الجانبي",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "الإعدادات",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "الرجاء تسجيل الدخول باستخدام Google أولاً لاستخدام الملء التلقائي السريع!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "يرجى إعداد ملف التعريف الخاص بك أولاً في صفحة اللوحة الجانبية/الخيارات!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "تم اكتشاف $1$",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "لم يتم اكتشاف أي صفحة مهمة",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "قم بزيارة قائمة الوظائف لفتح ميزات الذكاء الاصطناعي",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "صباح الخير",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "مساء الخير",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "مساء الخير",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "تم تتبع طلبات $1$ · مقابلات $2$",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "ابدأ التقديم لتتبع تقدمك",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "رسالة الغلاف",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "مساعدة في الأسئلة والأجوبة",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "على استعداد للمساعدة",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "انتقل إلى قائمة الوظائف على LinkedIn أو Workday أو Greenhouse أو أي لوحة وظائف للبدء.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "هذا الأسبوع",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "النشاط الأخير",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "عرض الكل →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "ابدأ البحث عن وظيفتك!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "تفضل بزيارة لوحة الوظائف واستخدم ApplyFlow لملء طلباتك تلقائيًا وتتبعها تلقائيًا.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "ملفي الشخصي",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "جارٍ الحفظ...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "حفظ الكل",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "تم حفظ الملف الشخصي!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "فشل حفظ الملف الشخصي.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "استئناف",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "تحميل إلى ملف التعريف الملء التلقائي",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ تم الرفع",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "المعلومات الشخصية",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "غير مكتمل",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "الموقع",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "التعليم",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "المهارات",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "خبرة العمل",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "المشاريع",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "تفضيلات العمل",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "تصريح العمل",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "استئناف التاريخ",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "استخدم هذا",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "تم التحليل على $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "هل تريد تحميل تفاصيل الملف الشخصي من \"$1$\"؟ سيؤدي هذا إلى استبدال تعديلاتك الحالية بالبنية التي تم تحليلها لهذه السيرة الذاتية.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "تمت استعادة التفاصيل من $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "نتيجة المباراة",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ مناسب",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ المزيد",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "تم ملء الطلب تلقائيًا وتسجيله! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "يتم ملؤها تلقائيًا عبر لوحة ApplyFlow الجانبية",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "هناك",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "لا مجموعة الكلية",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "قم بإعداد ملف التعريف الخاص بك لتمكين الملء التلقائي",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "لم يتم ضبطه",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ إدخالات",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ المهارات",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ المشاريع",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ الإجابات",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "أذن",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "غير مصرح به",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "الاسم الكامل",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "البريد الإلكتروني",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "الهاتف",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "الهاتف البديل",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "لينكد إن URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "عنوان URL للمحفظة",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "عنوان URL على جيثب",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "رابط السيرة الذاتية",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "المدينة",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "الدولة",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "البلد",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "الرمز البريدي",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "العنوان",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "الجنسية",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "الكلية / الجامعة",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "درجة",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "سنة التخرج",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "المعدل التراكمي / الصف",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "فترة الإشعار",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "الراتب المتوقع",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "الدور المفضل",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "سنوات من الخبرة",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "مصرح له بالعمل دون كفالة التأشيرة",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "يتطلب رعاية التأشيرة",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "الجنس",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "الإعاقة",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "يفضل عدم القول",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "غير محدد",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ذكر",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "أنثى",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "غير ثنائي",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "نعم",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "لا",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "لم تتم إضافة أي مهارات حتى الآن",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "إضافة مهارة (أدخل للإضافة)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "عبارة التحفيز (على سبيل المثال، لماذا يجب علينا توظيفك)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "إجابتك...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "إزالة",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ إضافة إجابة مخصصة",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "الشركة",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "الدور / العنوان",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "تاريخ البدء",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "تاريخ الانتهاء",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "الحاضر",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "أنا أعمل حاليا في هذا الدور",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "الوصف",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "صف مسؤولياتك، والإنجازات الرئيسية، والتقنيات المستخدمة...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ إضافة الخبرة العملية",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "عنوان المشروع",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "مكدس التكنولوجيا",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "عنوان URL للنشر",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "قم بوصف ما قمت بإنشائه، والمشكلة التي تم حلها، والميزات الرئيسية...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ إضافة مشروع",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "المقتفي",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "تم الحفظ",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "مطبق",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "التقييم",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "مقابلة",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "العرض",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "مرفوض",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "انسحبت",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "هل تريد حذف هذا التطبيق؟",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "تم تحديث التطبيق!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "تم حذف التطبيق.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "الحالة",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "منصة",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "مطبق",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "افتح إعلان الوظيفة",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "الراتب / الراتب",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "تذكير بالمتابعة",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "ملاحظات",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "إضافة الملاحظات ومعلومات الاتصال وتفاصيل المقابلة ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "الوصف الوظيفي (مقتطف)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "حذف",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "إلغاء",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "حفظ",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 تطبيق",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ التطبيقات",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "تصفية حسب الشركة...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "مرشحات الحالة",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "انتقل لليمين للمزيد ←",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "الكل",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "لم يتم العثور على أي تطبيقات",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "حاول إعادة تعيين عوامل التصفية أو احفظ مهمة لإضافة إدخال تعقب جديد",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "التحليلات",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ إجمالي الطلبات",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "لا توجد بيانات حتى الآن",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "ابدأ التقديم على الوظائف وستظهر تحليلاتك هنا.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "أسعار التحويل",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "مطبق",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "معدل المقابلة",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "سعر العرض",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "التطبيقات هذا الأسبوع",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "قمع التطبيق",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "أعلى المنصات",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "انهيار الحالة",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "مساعد الطيار بالذكاء الاصطناعي",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "السياق: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "مساعد الطيار الوظيفي الخاص بك",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "دردشة جديدة ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "يرجى إعداد ملف التعريف الخاص بك أولاً حتى يتمكن الذكاء الاصطناعي من تخصيص الردود.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "تم مسح الدردشة! ما الذي يمكنني مساعدتك به؟",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "اسأل أي شيء عن هذا العمل...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "قم بإعداد ملف التعريف الخاص بك للبدء",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "اضغط على Enter للإرسال",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "استئناف نقاط التوافق",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ مهارات قوية",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ المهارات المفقودة",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "إليك خطاب التغطية المخصص لك:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ منقول!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 نسخ",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ تحميل",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "فيما يلي $1$ أسئلة المقابلة المحتملة:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "استئناف نتيجة التحسين: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "استئناف اقتراحات المباراة",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "مقابل هذا الوصف الوظيفي",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "أهلاً! أستطيع أن أرى أنك تنظر إلى دور **$1$** في **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "أهلاً! أستطيع أن أرى أنك تنظر إلى دور **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "أهلاً! أنا مساعد الطيار الوظيفي الخاص بك في مجال الذكاء الاصطناعي. انتقل إلى قائمة الوظائف وسأقوم بتحليلها تلقائيًا أو اسألني عن أي شيء!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "يرجى إعداد ملف التعريف الخاص بك أولاً في علامة التبويب الملف الشخصي!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "يرجى فتح صفحة قائمة الوظائف في متصفحك أولاً لاستخدام هذه الميزة!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "فتح تطبيق التدفق",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "قم بتسجيل الدخول باستخدام Google للوصول إلى لوحة التحكم الخاصة بك، ومزامنة الوظائف، وإدارة ملف تعريف سيرتك الذاتية، وملء طلبات الوظائف تلقائيًا على الفور.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "الذكاء الاصطناعي للملء التلقائي والمقص",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "مسح التطبيقات وملؤها تلقائيًا بنقرة واحدة.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "المزامنة السحابية والنسخ الاحتياطي",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "قم بمزامنة جميع تفاصيل تتبع المهام الخاصة بك مع Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "السيرة الذاتية والملفات الشخصية",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "قم بتحميل سيرتك الذاتية وتخصيص إجابات التطبيق.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "جارٍ الاتصال بـ Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "قم بتسجيل الدخول باستخدام جوجل",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "من خلال تسجيل الدخول، فإنك توافق على مزامنة بيانات ملفك الشخصي بشكل آمن مع مساحة العمل النشطة الخاصة بك.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "تم تسجيل الخروج بنجاح.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "تم تسجيل الدخول كـ $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "تسجيل الخروج",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "تسجيل الدخول",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "جارٍ الاتصال...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "افتح تطبيق التدفق",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "مطابقة التدفق",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "مهارات مطابقة قوية",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "المهارات المفقودة",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "صفحة الملء التلقائي الذكية",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "نموذج الملء التلقائي...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "لم يتم العثور على حقول طلب قابلة للملء في الصفحة.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "تم ملؤها بنجاح!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "فشل الملء التلقائي بسبب تعقيد الصفحة.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "تم الحفظ التلقائي لتسجيل الدخول عند التعبئة.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "سيرتك الذاتية **$1$% متوافقة** مع هذا الدور.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "مرحبًا بعودتك، $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "فشل جلب معلومات الملف الشخصي لمستخدم Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "فشل تسجيل الدخول عبر OAuth: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "فشل جلب رمز الوصول من إعادة التوجيه.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "فشل تحليل إعادة توجيه المصادقة.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "المصادقة غير مدعومة على هذا النظام الأساسي.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "تم حفظ الوظيفة في المتعقب!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "ضيف",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ الإعدادات العامة",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "تظهر على صفحات الوظائف على LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "يُظهر نتيجة المطابقة الذكية وزر الملء التلقائي بنقرة واحدة عند عرض منشورات الوظائف على LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "إظهار زر \"حفظ الوظيفة\".",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "يُظهر زر \"حفظ الوظيفة 📌\" العائم على مواقع العمل حتى تتمكن من حفظ تفاصيل الوظيفة بسرعة إلى متتبعك قبل التقديم.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "قم بالتسجيل فقط بعد التقديم الفعلي",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "انتظر حتى ترى شاشة \"شكرًا لك\" أو \"النجاح\" قبل إضافة الوظيفة إلى أداة التتبع الخاصة بك. يحافظ على نظام التتبع الخاص بك عن طريق منع حفظ النماذج نصف المملوءة على أنها \"مطبقة\".",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 أرصدة الذكاء الاصطناعي وتحليلات الاستخدام",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "الاعتمادات اليسار",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "الاعتمادات المتبقية",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "إجمالي الاعتمادات",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "الملء التلقائي في جميع الأوقات",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "حالة الخطة",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "قسط 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "مجاني 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "نصيحة للمحترفين:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "تستهلك عمليات الملء التلقائي الذكية 0 نقطة وهي غير محدودة بنسبة 100%! فقط ميزات الذكاء الاصطناعي المتقدمة مثل خطابات الغلاف (5 وحدات دراسية) والمقالات المخصصة (3 وحدات دراسية) تستهلك رصيدك الائتماني.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 حساب Google والمزامنة السحابية",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "جوجل كلاود سينك نشط",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "تم قفل المزامنة السحابية (للاشتراك المميز فقط)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "مزامنة السحابة",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "ادفع إلى السحابة",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "سحب من السحابة",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "تمت المزامنة بنجاح!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "فشلت المزامنة. تحقق من اتصالك.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "مزامنة سحابية آمنة",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "قم بتسجيل الدخول باستخدام Google لإجراء نسخ احتياطي لتطبيقاتك وملفك الشخصي إلى Supabase. تعد المزامنة إحدى الميزات المميزة التي تحافظ على أمان سجلاتك عبر الأجهزة.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "تعد Supabase Cloud Sync ميزة مميزة. يرجى الترقية في علامة التبويب \"ترقية\" لتمكين المزامنة!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 إدارة البيانات",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "تصدير النسخة الاحتياطية (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "مسح كافة البيانات المحلية",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "يؤدي مسح البيانات المحلية إلى إزالة ملف التعريف والتطبيقات الخاصة بك من هذا الجهاز فقط. لا تتأثر البيانات السحابية.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "مركز التحكم",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "الصفحة الرئيسية وحول",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "الإعدادات العامة",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "الترقية إلى برو 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "الخطة المميزة 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "الحساب والمزامنة",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "سياسة الخصوصية",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "الأسئلة الشائعة",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "اختصارات لوحة المفاتيح",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 مرحبًا بك في ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow عبارة عن امتداد Chrome مدعوم بالذكاء الاصطناعي مصمم للطلاب والباحثين عن عمل الذين يرغبون في التقديم بشكل أسرع وأكثر ذكاءً. فهو يكتشف نماذج طلبات الوظائف ويملأها تلقائيًا عبر أكثر من 15 منصة، ويتتبع مسارك، ويساعدك في الحصول على المزيد من المقابلات.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "الملء التلقائي الذكي",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "أكثر من 15 منصة ATS مع محددات دقيقة",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "مقص الويب",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "بنقرة واحدة حفظ أي قائمة الوظائف",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "تعقب كانبان",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "قم بسحب وإسقاط مسار التطبيق الخاص بك",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "الملء التلقائي لـ EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "الملء التلقائي للأسئلة الديموغرافية والتأشيرة",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "مقالات الذكاء الاصطناعي",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "كتابة الإجابات المخصصة التي تعمل بالطاقة الجوزاء",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "مزامنة آمنة",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "النسخ الاحتياطي السحابي الاختياري Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 كيف تبدأ",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "قم ببناء ملف التعريف الخاص بك",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "افتح النافذة المنبثقة ← علامة تبويب الملف الشخصي ← قم بتحميل سيرتك الذاتية بصيغة PDF. سيقوم الذكاء الاصطناعي باستخراج جميع التفاصيل الخاصة بك تلقائيًا بما في ذلك المهارات والخبرة والتعليم والمشاريع.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "قم بتعيين تفضيلات EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "قم بالتمرير إلى قسم EEO في ملفك الشخصي وقم بتعيين تصريح العمل الخاص بك، واحتياجات رعاية التأشيرة، والتفضيلات الديموغرافية. يتم استخدامها للملء التلقائي لاستبيانات EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "تصفح قائمة الوظائف",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "انتقل إلى أي قائمة الوظائف. سيظهر لك زر \"حفظ الوظيفة\". انقر فوقه لحفظ الموقع على الفور في جهاز التعقب الخاص بك.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "افتح نموذج الطلب",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "انتقل إلى نموذج الطلب. انقر على نافذة ApplyFlow المنبثقة ← اضغط على \"Scan Page\" ← ثم \"⚡ Smart Autofill\". يتم ملء جميع الحقول بما في ذلك أزرار الاختيار والقوائم المنسدلة على الفور.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "تتبع خط الأنابيب الخاص بك",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "افتح علامة التبويب Tracker لرؤية جميع تطبيقاتك. قم بالتبديل إلى عرض لوحة كانبان واسحب البطاقات بين الأعمدة أثناء تحديث الحالة.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 تسجيل الدخول مطلوب",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "قم بتسجيل الدخول لتخصيص الإعدادات",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "الإعدادات العامة متاحة فقط للمستخدمين الذين قاموا بتسجيل الدخول. قم بتسجيل الدخول باستخدام Google لتكوين تفضيلاتك وسلوكيات الملء التلقائي والمزيد.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "انتقل إلى الحساب والمزامنة",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "تطبيق ApplyFlow Pro نشط",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "مفتاح الترخيص: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "إلغاء تنشيط الترخيص",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 تفعيل مفتاح الترخيص",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "إذا قمت بشراء اشتراك أو تلقيت رمز وصول، فأدخل مفتاح الترخيص الخاص بك أدناه لفتح تطبيق ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "تفعيل",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "جارٍ التنشيط...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 نصيحة: يمكنك تفعيل Premium باستخدام المفتاح APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "قسط المنشط!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "شكرًا لك على دعم ApplyFlow. جميع الميزات المتميزة مقفلة الآن.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 خطة الترقية المميزة",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "أطلق العنان لصادراتك المهنية وميزات الذكاء الاصطناعي المتقدمة.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "احصل على أرصدة الذكاء الاصطناعي المتميزة لرسائل التقديم، وإجابات المقالات المخصصة، وتحسين السيرة الذاتية، والإعداد للمقابلة الوهمية. عمليات الملء التلقائي على الأنظمة الأساسية المدعومة غير محدودة تمامًا ومجانية لجميع المستخدمين المميزين!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 عرض المتبني المبكر:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "زيادة السعر التالية عند 500 مستخدم مميز. قفل في هذا المعدل مدى الحياة!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "الشهرية برو",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "جيد للبحث على المدى القصير",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 دولارًا",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ شهر",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(فقط 13 روبية هندية / يوم)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 رصيدًا من الذكاء الاصطناعي شهريًا ||| عمليات تعبئة تلقائية غير محدودة (جميع البوابات)|||المزامنة السحابية والنسخ الاحتياطي في Google|||الموضوعات المميزة|||تجربة خالية من الإعلانات",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "الاشتراك الشهري",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "ربع سنوية برو",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "أفضل قيمة لمعظم الباحثين عن عمل",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 دولارًا",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 أشهر",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(فقط 11 روبية هندية في اليوم)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 نقطة اعتماد للذكاء الاصطناعي كل ربع سنة|||عمليات تعبئة تلقائية غير محدودة (جميع البوابات)|||رسائل الغلاف والمقالات المخصصة|||المزامنة السحابية والنسخ الاحتياطي على Google|||اقتراحات مطابقة السيرة الذاتية",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "الاشتراك ربع سنوي",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "الأكثر شعبية",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "النهائي السنوي",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "أفضل قيمة لمستخدمي الطاقة",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2,999 دولارًا أمريكيًا",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ سنة",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(ما يعادل 249 روبية هندية في الشهر)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 رصيد AI سنويًا|||عمليات تعبئة تلقائية يومية غير محدودة|||رسائل تعريفية ومقالات مخصصة|||المزامنة السحابية والنسخ الاحتياطي في Google|||اقتراحات مطابقة السيرة الذاتية|||دعم البريد الإلكتروني ذو الأولوية",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "الاشتراك سنويا",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "أفضل قيمة - وفر 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "دعم تطوير ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "تم إنشاء ApplyFlow وصيانته بواسطة مطورين مستقلين. إذا وجدت الامتداد مفيدًا، ففكر في التبرع على Ko-fi للمساعدة في إبقائه نشطًا وخاليًا من الإعلانات ومحدثًا للوحات الوظائف الجديدة.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "اشتري لي قهوة على Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ تقييم 5.0 |||🔒 المدفوعات الآمنة |||✓ إلغاء في أي وقت",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "مفتاح الترخيص غير صالح. تلميح: حاول استخدام المفتاح التجريبي \"APPLYFLOW-PRO-2026\"!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "تم تفعيل الترخيص بنجاح! مرحبًا بك في ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "هل أنت متأكد أنك تريد إلغاء تنشيط الترخيص المميز الخاص بك؟ سيعيدك هذا إلى الخطة المجانية.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "تم إلغاء تنشيط الترخيص المميز. أنت الآن مشترك في الخطة المجانية.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "سيؤدي هذا إلى حذف جميع بيانات الملف الشخصي والتطبيق المحلي نهائيًا. هل أنت متأكد؟",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 سياسة الخصوصية",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ الأسئلة المتداولة",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ما هو ApplyFlow وكيف يعمل؟",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow عبارة عن امتداد Chrome مدعوم بالذكاء الاصطناعي يقوم تلقائيًا باكتشاف نماذج طلبات الوظائف وتعبئتها عبر أكثر من 15 نظامًا أساسيًا، بما في ذلك LinkedIn وInternshala وUnstop وWorkday وGreenhouse وLever والمزيد. فهو يقرأ ملفك الشخصي المحفوظ ويستخدم المطابقة الذكية لملء حقول النص والقوائم المنسدلة وأزرار الاختيار ومربعات الاختيار - بما في ذلك الأسئلة الديموغرافية/EEO.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "هل بياناتي الشخصية آمنة مع ApplyFlow؟",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "نعم. يتم تخزين بياناتك محليًا في chrome.storage.local بمتصفحك افتراضيًا. ولا يتم إرسالها مطلقًا إلى أي خادم تابع لجهة خارجية بخلاف قاعدة بيانات Supabase الاختيارية الخاصة بك (والتي تتحكم فيها). لا تقوم ApplyFlow أبدًا ببيع معلوماتك الشخصية أو مشاركتها أو استثمارها.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ما هي منصات الوظائف التي يدعمها ApplyFlow؟",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "يدعم ApplyFlow أكثر من 15 منصة جاهزة: LinkedIn Easy Apply وInternshala وUnstop وWorkday وGreenhouse وLever وiCIMS وSmartRecruiters وBambooHR وJobvite وTaleo وNaukri وIndeed وWellfound/AngelList وأي موقع آخر عبر أداة المطابقة الاحتياطية العامة الذكية الخاصة بنا.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "ما هو الويب كليبر؟",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper عبارة عن زر عائم \"حفظ الوظيفة\" (📌) يظهر تلقائيًا عند زيارة أي صفحة قائمة وظائف. يؤدي النقر فوقه إلى استخراج المسمى الوظيفي والشركة والراتب والوصف، ثم حفظه في متتبع ApplyFlow كتطبيق \"محفوظ\" - حتى تتمكن من تتبع الوظائف قبل التقديم.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "كيف أقوم بتحديث ملفي الشخصي؟",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "افتح نافذة ApplyFlow المنبثقة، وانقر فوق علامة التبويب \"الملف الشخصي\"، وقم بتحميل ملف PDF لسيرتك الذاتية. سيقوم الذكاء الاصطناعي بملء جميع حقولك تلقائيًا. يمكنك أيضًا تعديل أي حقل يدويًا بما في ذلك تفضيلات EEO الخاصة بك وتفويض العمل والخطابات التعريفية.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "ما هي حقول EEO ولماذا أحتاج إليها؟",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "حقول EEO (تكافؤ فرص العمل) هي أسئلة يطرحها العديد من أصحاب العمل في الولايات المتحدة والعالم حول الجنس وحالة الإعاقة والحالة العسكرية وتصريح العمل. يقوم ApplyFlow بتخزين إجاباتك المفضلة ويملأ مجموعات أزرار الاختيار هذه تلقائيًا حتى لا تضطر إلى الإجابة عليها يدويًا في كل مرة.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "هل يتطلب ApplyFlow أي مفاتيح API أو تكوين؟",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "لا! يتعامل ApplyFlow مع جميع عمليات الكشف عن النماذج والمطابقة الذكية وإنشاء خطابات التقديم وتسجيل التوافق تلقائيًا. لا تحتاج إلى الحصول على أي مفاتيح API أو تكوينها.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "ما هي مزامنة Supabase وهل أحتاجها؟",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "تعد مزامنة Supabase ميزة نسخ احتياطي سحابي اختيارية. عند تسجيل الدخول باستخدام Google وتمكينه، تتم مزامنة ملفك الشخصي ومتتبع التطبيقات مع قاعدة بيانات سحابية خاصة بحيث يتم نسخ بياناتك احتياطيًا ويمكن الوصول إليها من أجهزة متعددة. وهذا أمر اختياري تمامًا، حيث يعمل الامتداد دون الاتصال بالإنترنت بشكل كامل.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "لماذا يحتاج ApplyFlow إلى الوصول إلى جميع مواقع الويب؟",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "يطلب ApplyFlow الوصول إلى جميع مواقع الويب حتى يتمكن من إدخال محرك الملء التلقائي في أي نموذج طلب وظيفة، وإظهار زر \"حفظ الوظيفة\" في أي قائمة وظائف. هذا الإذن مطلوب لدعم النظام الأساسي على نطاق واسع. نحن نقوم فقط بإدخال النصوص البرمجية في الصفحات التي من الواضح أنها ذات صلة بالوظيفة.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "ما هو مجلس كانبان؟",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "لوحة Kanban هي طريقة عرض مرئية لتتبع الوظائف في علامة التبويب Tracker. يعرض طلباتك منظمة في أعمدة: المحفوظة → المطبقة → التقييم → المقابلة → العرض. يمكنك سحب وإفلات البطاقات بين الأعمدة لتحديث حالة أي تطبيق.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "كيف يعمل الكشف عن التقديم؟",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "عند تمكين \"التسجيل فقط بعد الإرسال\" في الإعدادات، يراقب ApplyFlow تغييرات الصفحة التي تشير إلى إرسال ناجح (مثل عنوان URL الذي يحتوي على \"/success\" أو النص الأساسي الذي يقول \"شكرًا لك على التقديم\"). يقوم فقط بتسجيل التطبيق على جهاز التتبع الخاص بك بعد أن يكتشف إرسالًا حقيقيًا.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "هل يمكنني تخزين خطابات تغطية متعددة؟",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "نعم! تحتوي شاشة الملف الشخصي على قسم \"Cover Letter Vault\" حيث يمكنك تخزين عدد غير محدود من الرسائل التعريفية المصممة لأدوار أو شركات مختلفة. عند الملء التلقائي، سيستخدم ApplyFlow خطاب التقديم الأحدث أو الأكثر صلة.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "كيف يمكنني تصدير بيانات طلبي؟",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "انتقل إلى الحساب والمزامنة ← قم بالتمرير إلى الأسفل ← انقر على \"تصدير النسخة الاحتياطية (JSON)\". يؤدي هذا إلى تنزيل جميع بيانات ملفك الشخصي وتطبيقك كملف JSON لحفظها.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "هل يعمل ApplyFlow في الوضع التجريبي؟",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "كان الوضع التجريبي عبارة عن إعداد قديم يُستخدم للاختبار. تم تعطيله الآن بشكل افتراضي. جميع الميزات حية وعملية باستخدام مفتاح Gemini API المدمج.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "كيف يمكنني الإبلاغ عن خطأ أو طلب ميزة؟",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "يرجى فتح مشكلة في مستودع GitHub الخاص بنا (المرتبط في قسم \"حول\") أو مراسلتنا عبر البريد الإلكتروني على support@applyflow.in. نرد عادةً خلال 48 ساعة.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "افتح نافذة ApplyFlow المنبثقة",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "مسح الصفحة الحالية لحقول النموذج",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "تشغيل الملء التلقائي الذكي في الصفحة الحالية",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "قص قائمة الوظائف الحالية لتعقبها",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "افتح Tracker في علامة تبويب جديدة",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "قم بتكوين الاختصارات في Chrome على",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "ملحوظة:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "تتطلب أوامر ملحق Chrome تعيينًا يدويًا في مدير اختصارات Chrome. انتقل إلى $1$ لربط المفاتيح المذكورة أعلاه.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ملحق ApplyFlow لمتصفح Chrome — سياسة الخصوصية**\nآخر تحديث: يونيو 2026\n\n---\n\n**1. مقدمة**\n\nApplyFlow (\"نحن\"، \"خاصتنا\"، \"الملحق\") هو امتداد لمتصفح Chrome يساعد المستخدمين على الملء التلقائي لنماذج طلبات الوظائف، وتتبع طلباتهم، وإدارة ملفاتهم الشخصية المهنية. تشرح سياسة الخصوصية هذه كيف نقوم بجمع معلوماتك واستخدامها وتخزينها وحمايتها.\n\nبتثبيت واستخدام ApplyFlow، فإنك توافق على الممارسات الموضحة في هذه السياسة.\n\n---\n\n**2. البيانات التي نجمعها**\n\nنحن نجمع فقط المعلومات التي تقدمها طوعًا لتمكين ميزات الامتداد:\n\n• **معلومات الملف الشخصي**: اسمك، بريدك الإلكتروني، رقم هاتفك، كليتك، الدرجة العلمية، المهارات، تاريخ العمل، المشاريع، والروابط المهنية (LinkedIn، GitHub، Portfolio).\n• **معلومات تكافؤ فرص العمل/المعلومات الديموغرافية (اختياري)**: الجنس، وحالة الإعاقة، وحالة المحاربين القدامى، وتفضيلات تصريح العمل - يتم تقديمها فقط إذا اخترت ملء هذه الحقول. يتم استخدام هذه البيانات حصريًا للملء التلقائي لاستبيانات EEO الاختيارية في طلبات الوظائف.\n• **بيانات تتبع الطلب**: المسمى الوظيفي، والشركة، وعنوان URL للتطبيق، والحالة، والملاحظات الخاصة بالمناصب التي تتتبعها باستخدام الامتداد.\n• **إحصاءات الاستخدام**: عدد عمليات الملء التلقائي التي تم إجراؤها (المخزنة محليًا لفرض الحدود اليومية).\n• **بيانات المصادقة**: إذا اخترت تسجيل الدخول باستخدام Google، فإننا نخزن عرض Google الخاص بك الاسم وعنوان البريد الإلكتروني وعنوان URL لصورة الملف الشخصي لتخصيص تجربتك وتمكين المزامنة السحابية.\n\nنحن **لا** نجمع:\n• معلومات الدفع أو المعلومات المالية\n• سجل المتصفح أو نشاط التصفح العام\n• أي معلومات من الصفحات التي لا تتعلق بطلب الوظيفة\n• أي بيانات من الصفحات عندما لا يكون الامتداد نشطًا تم تشغيله\n\n---\n\n**3. كيف نقوم بتخزين بياناتك**\n\n**3.1 التخزين المحلي (افتراضي)**\nيتم تخزين جميع البيانات بشكل أساسي في واجهة برمجة تطبيقات chrome.storage.local في متصفحك. توجد هذه البيانات على جهازك فقط ولا يتم نقلها مطلقًا إلى أي خادم دون اتخاذ إجراء صريح منك.\n_NL_35__**3.2 المزامنة السحابية (اختياري)**\nإذا اخترت تسجيل الدخول باستخدام Google وتمكين ميزة \"Supabase Sync\"، فستتم مزامنة ملفك الشخصي وبيانات التطبيق أيضًا مع قاعدة بيانات Supabase. أنت تحتفظ بالملكية الكاملة لهذه البيانات. يمكنك حذفه في أي وقت من قسم \"الحساب والمزامنة\".\n\n**3.3 طلبات Gemini AI**\nعند استخدام ميزات الذكاء الاصطناعي (مثل إنشاء المقالات وتحليل الوظائف)، يتم إرسال أجزاء من ملفك الشخصي (المهارات والدرجة العلمية والملخص) ونص الوصف الوظيفي إلى Gemini API من Google لإنشاء الرد. تتم معالجة ذلك بموجب شروط خدمة واجهة برمجة التطبيقات (API) القياسية وسياسة الخصوصية الخاصة بشركة Google. نوصي بعدم تضمين معرفات شخصية حساسة في المحتوى المدعوم بالذكاء الاصطناعي.\n\n---\n\n**4. مشاركة البيانات**\n\nنحن **لا** نبيع معلوماتك الشخصية أو نتاجر بها أو نؤجرها أو نشاركها مع أي طرف ثالث لأغراض تسويقية أو إعلانية.\n\nقد تتم معالجة بياناتك عن طريق الخدمات الموثوقة التالية:\n• **Google Gemini API**: لملء النماذج وتحليلها المدعومة بالذكاء الاصطناعي (https://policies.google.com/privacy)\n• **Google OAuth**: لمصادقة الحساب (https://policies.google.com/privacy)\n• **Supabase**: للتخزين السحابي الاختياري (https://supabase.com/privacy) - فقط إذا قمت بتمكينه sync\n\n---\n\n**5. حقوقك وضوابطك**\n\nلديك الحق في:\n• **الوصول** إلى جميع البيانات التي قام ApplyFlow بتخزينها عنك (عبر تصدير النسخ الاحتياطي في الإعدادات)\n• **تصحيح** معلوماتك في أي وقت في علامة التبويب ملف التعريف\n• **حذف** جميع بياناتك محليًا باستخدام \"مسح جميع بيانات الملف الشخصي\" في الإعدادات\n• **سحب الموافقة** في أي وقت عن طريق إلغاء تثبيت الامتداد\n• **تعطيل المزامنة السحابية** عن طريق إيقاف تشغيلها في إعدادات الحساب والمزامنة\n\n**GDPR (مستخدمو الاتحاد الأوروبي)**: إذا كنت مقيمًا في الاتحاد الأوروبي، فلديك حقوق الوصول إلى البيانات وتصحيحها ومحوها وتقييد معالجتها وإمكانية نقلها بموجب اللائحة العامة لحماية البيانات.\n\n**الهند — DPDP قانون 2023**: وفقًا لقانون حماية البيانات الشخصية الرقمية الهندي لعام 2023، نقوم بمعالجة البيانات الشخصية فقط لغرض تقديم خدمة المساعدة في طلبات التوظيف. يمكنك سحب الموافقة وطلب حذف بياناتك في أي وقت عن طريق الاتصال بنا.\n\n**كاليفورنيا - CCPA**: يحق للمقيمين في كاليفورنيا معرفة المعلومات الشخصية التي يتم جمعها، والحق في الحذف، والحق في إلغاء الاشتراك في البيع (نحن لا نبيع البيانات).\n\n---\n\n**6. الاحتفاظ بالبيانات**\n\nيتم الاحتفاظ بالبيانات المحلية حتى تقوم بمسحها يدويًا. يتم الاحتفاظ بالبيانات المتزامنة مع السحابة حتى تقوم بحذف حسابك أو طلب الحذف. نحن لا نحذف البيانات تلقائيًا.\n\n---\n\n**7. الأمان**\n\nنحن نتخذ تدابير فنية معقولة لحماية بياناتك:\n• تستخدم جميع الاتصالات السحابية تشفير HTTPS/TLS\n• يضمن Supabase Row-Level Security (RLS) للمستخدمين إمكانية الوصول فقط إلى بياناتهم الخاصة\n• لا يطلب الامتداد أذونات تتجاوز ما هو مطلوب لجوهره وظيفة\n\n---\n\n**8. خصوصية الأطفال**\n\nApplyFlow غير مخصص للمستخدمين الذين تقل أعمارهم عن 13 عامًا. نحن لا نجمع البيانات من الأطفال عن قصد. إذا كنت تعتقد أن أحد الأطفال قد زودنا بمعلومات شخصية، فيرجى الاتصال بنا على الفور.\n\n---\n\n**9. التغييرات على هذه السياسة**\n\nقد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم إرسال التغييرات المهمة عبر صفحة خيارات الامتداد. يشكل الاستمرار في استخدام الامتداد بعد التغييرات قبولًا للسياسة المحدثة.\n\n---\n\n**10. اتصل بنا**\n\nلأي أسئلة تتعلق بالخصوصية أو طلبات حذف البيانات أو المخاوف:\n\nالبريد الإلكتروني:privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nموقع الويب: https://applyflow.in\n\nنهدف إلى الرد على جميع الطلبات خلال 30 يومًا.",
+    "description": "Privacy policy document markdown text"
+  }
+}

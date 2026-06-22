@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "تکمیل خودکار برنامه‌های شغلی و ردیابی فهرست‌ها به‌طور خودکار با استفاده از هوش مصنوعی در LinkedIn، Workday، Greenhouse و موارد دیگر.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "فعال",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "اعمال شد",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "مصاحبه",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "پیشنهاد",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "ذخیره شد",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "مجموع",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "تکمیل خودکار",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "پر کردن...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "تکمیل خودکار سریع",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "کار را تحلیل کنید",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "نوار کناری را باز کنید",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "تنظیمات",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "لطفاً برای استفاده از تکمیل خودکار سریع ابتدا با Google وارد شوید!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "لطفاً ابتدا نمایه خود را در صفحه پانل کناری/گزینه ها تنظیم کنید!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ شناسایی شد",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "هیچ صفحه کاری شناسایی نشد",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "برای باز کردن قفل ویژگی‌های هوش مصنوعی به فهرست مشاغل مراجعه کنید",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "صبح بخیر",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ظهر بخیر",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "عصر بخیر",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ برنامه ها ردیابی شدند · $2$ مصاحبه",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "برای پیگیری پیشرفت خود اقدام به درخواست کنید",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "جلد نامه",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "راهنمای پرسش و پاسخ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "آماده کمک است",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "برای شروع به فهرست مشاغل در LinkedIn، Workday، Greenhouse یا هر تابلوی شغلی بروید.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "این هفته",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "فعالیت اخیر",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "مشاهده همه →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "شکار شغل خود را شروع کنید!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "به یک صفحه کار مراجعه کنید و از ApplyFlow برای تکمیل خودکار و ردیابی خودکار برنامه های خود استفاده کنید.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "نمایه من",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "در حال ذخیره...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "ذخیره همه",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "نمایه ذخیره شد!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "نمایه ذخیره نشد.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "رزومه",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "در نمایه تکمیل خودکار آپلود کنید",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ آپلود شد",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "اطلاعات شخصی",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "ناقص",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "مکان",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "آموزش و پرورش",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "مهارت ها",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "تجربه کاری",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "پروژه ها",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "اولویت های کاری",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "مجوز کار",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "رزومه سابقه",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "از این استفاده کنید",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "تجزیه در $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "جزئیات نمایه از \"$1$\" بارگیری شود؟ این ساختار تجزیه شده این رزومه را جایگزین ویرایش های فعلی شما می کند.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "جزئیات بازیابی شده از $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "امتیاز مسابقه",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ مناسب",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ بیشتر",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "برنامه به صورت خودکار تکمیل و ثبت شد! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "از طریق پنل جانبی ApplyFlow پر می شود",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "وجود دارد",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "بدون مجموعه کالج",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "نمایه خود را برای فعال کردن تکمیل خودکار تنظیم کنید",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "تنظیم نشده است",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ورودی ها",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ مهارت",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "پروژه های $1$",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ پاسخ می دهد",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "مجاز",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "مجاز نیست",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "نام کامل",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ایمیل",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "تلفن",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "تلفن جایگزین",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "آدرس لینکدین",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL نمونه کارها",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "لینک رزومه",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "شهر",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "ایالت",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "کشور",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "کد پستی",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "آدرس",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ملیت",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "کالج / دانشگاه",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "مدرک",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "سال فارغ التحصیلی",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / درجه",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10 درصد",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 درصد",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "دوره اطلاعیه",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "حقوق مورد انتظار",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "نقش ترجیحی",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "سالها تجربه",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "مجاز به کار بدون حمایت ویزا",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "نیاز به اسپانسر ویزا دارد",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "جنسیت",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "ناتوانی",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "ترجیح می دهم نگوییم",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "مشخص نشده است",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "مرد",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "زن",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "غیر باینری",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "بله",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "خیر",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "هنوز هیچ مهارتی اضافه نشده است",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "افزودن مهارت (برای افزودن وارد کنید)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "عبارت ماشه (مثلاً چرا باید شما را استخدام کنیم)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "پاسخ شما...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "حذف کنید",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ پاسخ سفارشی را اضافه کنید",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "شرکت",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "نقش / عنوان",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "تاریخ شروع",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "تاریخ پایان",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "حاضر شود",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "در حال حاضر در این نقش مشغول به کار هستم",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "توضیحات",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "مسئولیت ها، دستاوردهای کلیدی، فناوری های مورد استفاده خود را شرح دهید...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ اضافه کردن تجربه کاری",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "عنوان پروژه",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "پشته فناوری",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL استقرار",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "آنچه را که ساخته اید، چه مشکلی را حل کرده و ویژگی های کلیدی را شرح دهید...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ اضافه کردن پروژه",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ردیاب",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "ذخیره شد",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "اعمال شد",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "ارزیابی",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "مصاحبه",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "پیشنهاد",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "رد شد",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "برداشته شد",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "این برنامه حذف شود؟",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "برنامه به روز شد!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "برنامه حذف شد",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "وضعیت",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "پلت فرم",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "اعمال شد",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "پست شغلی را باز کنید",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "حقوق / دستمزد",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "یادآوری پیگیری",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "یادداشت ها",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "اضافه کردن یادداشت، اطلاعات تماس، جزئیات مصاحبه...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "شرح شغل (گزیده)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "حذف کنید",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "لغو کنید",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "ذخیره کنید",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 برنامه",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ برنامه های کاربردی",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "فیلتر بر اساس شرکت ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "فیلترهای وضعیت",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "برای اطلاعات بیشتر به راست بروید →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "همه",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "هیچ برنامه ای یافت نشد",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "فیلترها را بازنشانی کنید یا شغلی را ذخیره کنید تا یک ورودی ردیاب جدید اضافه کنید",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "تجزیه و تحلیل",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ کل برنامه ها",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "هنوز داده ای وجود ندارد",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "شروع به درخواست برای مشاغل کنید و تجزیه و تحلیل شما در اینجا ظاهر می شود.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "نرخ های تبدیل",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "اعمال شد",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "نرخ مصاحبه",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "نرخ پیشنهادی",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "برنامه های کاربردی این هفته",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "قیف برنامه",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "پلتفرم های برتر",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "خرابی وضعیت",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "زمینه: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "خلبان شغلی شما",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "چت جدید ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "لطفاً ابتدا نمایه خود را تنظیم کنید تا هوش مصنوعی بتواند پاسخ ها را شخصی کند.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "چت پاک شد! در چه زمینه ای می توانم به شما کمک کنم؟",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "هر چیزی در مورد این شغل بپرسید ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "برای شروع، نمایه خود را تنظیم کنید",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "برای ارسال اینتر را فشار دهید",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "امتیاز سازگاری رزومه",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ مهارت های قوی",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ مهارت های از دست رفته",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "این نامه پوشش شخصی شما است:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ کپی شده!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 کپی کنید",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ دانلود کنید",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "در اینجا $1$ سوالات احتمالی مصاحبه وجود دارد:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "امتیاز بهینه سازی رزومه: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "رزومه پیشنهادات مسابقه",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "در مقابل این شرح شغل",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "مشکلی پیش آمد. لطفا دوباره امتحان کنید.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "سلام! می‌توانم ببینم که شما به نقش **$1$** در **$2$** نگاه می‌کنید.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "سلام! من می بینم که شما به نقش **$1$** نگاه می کنید.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "سلام! من خلبان شغلی هوش مصنوعی شما هستم. به یک لیست شغلی بروید و من به طور خودکار آن را تجزیه و تحلیل می کنم یا هر چیزی را از من می پرسم!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "لطفا ابتدا نمایه خود را در تب نمایه تنظیم کنید!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "لطفاً برای استفاده از این ویژگی ابتدا یک صفحه فهرست مشاغل را در مرورگر خود باز کنید!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "قفل ApplyFlow را باز کنید",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "برای دسترسی به داشبورد، همگام‌سازی مشاغل، مدیریت نمایه رزومه و تکمیل خودکار برنامه‌های شغلی فوراً با Google وارد شوید.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "اسکن و تکمیل خودکار برنامه ها با یک کلیک.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "تمام جزئیات ردیابی شغل خود را با Supabase همگام کنید.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "رزومه و پروفایل ها",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "رزومه خود را آپلود کنید و پاسخ های برنامه را سفارشی کنید.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "در حال اتصال به گوگل...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "با گوگل وارد شوید",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "با ورود به سیستم، موافقت می کنید که داده های نمایه خود را به صورت ایمن با فضای کاری فعال خود همگام کنید.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "با موفقیت از سیستم خارج شد.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "وارد شده به عنوان $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "از سیستم خارج شوید",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "وارد شوید",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "در حال اتصال...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow را باز کنید",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "مهارت های تطبیق قوی",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "مهارت های از دست رفته",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "صفحه تکمیل خودکار هوشمند",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "تکمیل خودکار فرم...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "هیچ فیلد کاربردی قابل پر کردنی در صفحه یافت نشد.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "با موفقیت پر شد!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "تکمیل خودکار به دلیل پیچیدگی صفحه انجام نشد.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "به صورت خودکار برای ورود ردیاب پس از پر کردن ذخیره می شود.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "رزومه شما **$1$% سازگار ** با این نقش است.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "خوش آمدید، $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "اطلاعات نمایه کاربر Google واکشی نشد.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "ورود OAuth ناموفق بود: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "رمز دسترسی از تغییر مسیر واکشی نشد.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "تغییر مسیر احراز هویت تجزیه نشد.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "احراز هویت در این پلتفرم پشتیبانی نمی‌شود.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "کار در ردیاب ذخیره شد!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "مهمان",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ تنظیمات عمومی",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "نمایش در صفحات شغلی لینکدین",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "هنگام مشاهده آگهی‌های شغلی در لینکدین، امتیاز تطبیق هوشمند و دکمه تکمیل خودکار با یک کلیک را نشان می‌دهد.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "نمایش دکمه \"ذخیره کار\".",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "دکمه شناور «ذخیره شغل 📌» را در سایت‌های شغلی نشان می‌دهد تا بتوانید به سرعت جزئیات کار را قبل از درخواست در ردیاب خود ذخیره کنید.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "فقط پس از اعمال واقعی وارد شوید",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "قبل از افزودن کار به ردیاب خود، صبر کنید تا صفحه «متشکرم» یا «موفقیت» را ببینید. با جلوگیری از ذخیره شدن فرم های نیمه پر به عنوان «اعمال شده»، ردیاب شما را مرتب نگه می دارد.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 اعتبارات هوش مصنوعی و تجزیه و تحلیل استفاده",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "اعتبارات باقی مانده است",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "اعتبارات باقی مانده",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "کل اعتبارات",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "تکمیل خودکار تمام وقت",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "وضعیت طرح",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "ممتاز 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "رایگان 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "نکته حرفه ای:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "عملیات تکمیل خودکار هوشمند 0 اعتبار مصرف می کند و 100٪ نامحدود است! فقط ویژگی های پیشرفته هوش مصنوعی مانند نامه های جلد (5 اعتبار) و مقالات سفارشی (3 اعتبار) موجودی اعتبار شما را مصرف می کند.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 حساب گوگل و همگام سازی ابری",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync فعال است",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync قفل شد (فقط Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "همگام سازی ابری",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "فشار به ابر",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "از ابر بکشید",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "همگام سازی با موفقیت انجام شد!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "همگام سازی انجام نشد. اتصال خود را بررسی کنید.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "همگام سازی ابری امن",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "برای پشتیبان‌گیری از برنامه‌ها و نمایه خود در Supabase، با Google وارد شوید. همگام‌سازی یک ویژگی ممتاز است که گزارش‌های شما را در همه دستگاه‌ها ایمن نگه می‌دارد.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync یک ویژگی ممتاز است. لطفاً برای فعال کردن همگام‌سازی، آن را در برگه ارتقا ارتقا دهید!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 مدیریت داده ها",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "صادرات نسخه پشتیبان (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "تمام داده های محلی را پاک کنید",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "پاک کردن داده‌های محلی، نمایه و برنامه‌های شما را فقط از این دستگاه حذف می‌کند. داده های ابری تحت تأثیر قرار نمی گیرند.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "مرکز کنترل",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "صفحه اصلی و درباره",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "تنظیمات عمومی",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "ارتقا به Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "طرح پرمیوم 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "حساب و همگام سازی",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "سیاست حفظ حریم خصوصی",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "سوالات متداول",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "میانبرهای صفحه کلید",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 به ApplyFlow خوش آمدید",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow یک برنامه افزودنی کروم مبتنی بر هوش مصنوعی است که برای دانش‌آموزان و جویندگان کار ساخته شده است که می‌خواهند سریع‌تر و هوشمندتر درخواست دهند. به طور خودکار فرم‌های درخواست کار را در بیش از 15 پلتفرم شناسایی و پر می‌کند، خط لوله شما را ردیابی می‌کند و به شما کمک می‌کند تا مصاحبه‌های بیشتری داشته باشید.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "تکمیل خودکار هوشمند",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ سکوی ATS با انتخابگرهای دقیق",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "با یک کلیک ذخیره هر فهرست شغلی",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "ردیاب کانبان",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "خط لوله برنامه خود را بکشید و رها کنید",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "تکمیل خودکار EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "سوالات دموگرافیک و ویزا را به صورت خودکار پر می کند",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "مقالات هوش مصنوعی",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "پاسخ نویسی سفارشی مبتنی بر Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "همگام سازی ایمن",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "پشتیبان گیری ابری اختیاری Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 چگونه شروع کنیم",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "نمایه خود را بسازید",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "پنجره بازشو ← تب نمایه ← آپلود رزومه PDF خود را باز کنید. هوش مصنوعی تمام جزئیات شما از جمله مهارت ها، تجربه، تحصیلات و پروژه ها را به صورت خودکار استخراج می کند.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "تنظیمات EEO را تنظیم کنید",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "به بخش EEO در نمایه خود بروید و مجوز کار، نیازهای حمایت مالی ویزا و اولویت‌های جمعیتی را تنظیم کنید. اینها برای تکمیل خودکار پرسشنامه های EEO استفاده می شوند.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "فهرست مشاغل را مرور کنید",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "به هر فهرست شغلی بروید. خواهید دید که دکمه 📌 \"ذخیره کار\" ظاهر می شود. روی آن کلیک کنید تا فورا موقعیت را در ردیاب خود ذخیره کنید.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "یک فرم درخواست باز کنید",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "به فرم درخواست بروید. روی پنجره ApplyFlow کلیک کنید ← \"Scan Page\" → سپس \"⚡ Smart Autofill\" را بزنید. تمام فیلدها از جمله دکمه های رادیویی و کشویی فورا پر می شوند.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "خط لوله خود را دنبال کنید",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "تب Tracker را باز کنید تا همه برنامه های خود را ببینید. به نمای Kanban Board بروید و کارت ها را بین ستون ها به عنوان به روز رسانی وضعیت خود بکشید.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 ورود به سیستم الزامی است",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "برای سفارشی کردن تنظیمات وارد شوید",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "تنظیمات عمومی فقط برای کاربرانی که وارد سیستم شده اند در دسترس است. برای پیکربندی تنظیمات برگزیده، رفتارهای تکمیل خودکار و موارد دیگر، با Google وارد شوید.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "به Account & Sync بروید",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "کلید مجوز: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "غیرفعال کردن مجوز",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 فعال سازی کلید لایسنس",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "اگر اشتراکی خریداری کرده اید یا کد دسترسی دریافت کرده اید، کلید مجوز خود را در زیر وارد کنید تا قفل ApplyFlow Premium باز شود.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "فعال کنید",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "فعال سازی...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 نکته: می‌توانید Premium را با استفاده از کلید APPLYFLOW-PRO-2026 فعال کنید.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "حق بیمه فعال شد!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "از شما برای حمایت از ApplyFlow سپاسگزاریم. همه ویژگی‌های پریمیوم اکنون باز هستند.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 طرح ارتقاء حق بیمه",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "صادرات شغلی و ویژگی های پیشرفته هوش مصنوعی خود را باز کنید.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "برای نامه‌های پوششی، پاسخ‌های مقاله سفارشی، بهینه‌سازی رزومه و آمادگی برای مصاحبه ساختگی، اعتبارات هوش مصنوعی برتر دریافت کنید. عملیات تکمیل خودکار در سیستم عامل های پشتیبانی شده کاملاً نامحدود و رایگان برای همه کاربران ممتاز است!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 پیشنهاد پذیرنده زودهنگام:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "افزایش قیمت بعدی در 500 کاربر Premium. این نرخ را برای زندگی قفل کنید!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "ماهانه حرفه ای",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "برای جستجوی کوتاه مدت خوب است",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 روپیه",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ماه",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(فقط 13 روپیه در روز)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 اعتبار AI در ماه|||تکمیل خودکار نامحدود (همه پورتال ها)|||Cloud Sync و Google Backup|||طرح های ممتاز|||تجربه بدون آگهی",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "اشتراک ماهانه",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "فصلنامه حرفه ای",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "بهترین ارزش برای اکثر جویندگان کار",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 روپیه",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ماه",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(فقط 11 روپیه در روز)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 اعتبار هوش مصنوعی در هر سه ماهه|||تکمیل خودکار نامحدود (همه پورتال ها)|||نامه ها و مقالات سفارشی|||Cloud Sync و پشتیبان گیری Google|||پیشنهادات بازی از سرگیری",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "اشتراک فصلنامه",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "محبوب ترین",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "نهایی سالانه",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "بهترین ارزش برای کاربران قدرتمند",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2999 روپیه",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ سال",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(معادل 249 روپیه در ماه)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 اعتبار هوش مصنوعی در سال|||تکمیل خودکار نامحدود روزانه|||نامه و مقالات اختصاصی|||همگام‌سازی ابری و پشتیبان‌گیری Google|||پیشنهادات تطابق رزومه|||پشتیبانی ایمیل اولویت‌دار",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "اشتراک سالانه",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "بهترین ارزش - 40٪ صرفه جویی",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "از توسعه ApplyFlow پشتیبانی کنید",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow توسط توسعه دهندگان مستقل ساخته و نگهداری می شود. اگر برنامه افزودنی را مفید می‌دانید، کمک مالی به Ko-fi برای کمک به فعال نگه داشتن آن، بدون آگهی و به‌روزرسانی برای تابلوهای شغلی جدید در نظر بگیرید.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "برای من یک قهوه در Ko-fi بخر",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ رتبه 5.0|||🔒 پرداخت ایمن|||✓ لغو هر زمان",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "کلید مجوز نامعتبر است. نکته: از کلید نمایشی «APPLYFLOW-PRO-2026» استفاده کنید!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "مجوز با موفقیت فعال شد! به ApplyFlow Premium خوش آمدید. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "آیا مطمئن هستید که می خواهید مجوز حق بیمه خود را غیرفعال کنید؟ این شما را به طرح رایگان باز می گرداند.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "مجوز پریمیوم غیرفعال شد. اکنون در طرح رایگان هستید.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "با این کار همه پروفایل محلی و داده های برنامه برای همیشه حذف می شود. مطمئنی؟",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 سیاست حفظ حریم خصوصی",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ سوالات متداول",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow چیست و چگونه کار می کند؟",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow یک برنامه افزودنی کروم مبتنی بر هوش مصنوعی است که به‌طور خودکار فرم‌های درخواست کار را در بیش از 15 پلتفرم از جمله LinkedIn، Internshala، Unstop، Workday، Greenhouse، Lever و غیره شناسایی و پر می‌کند. نمایه ذخیره‌شده شما را می‌خواند و از تطبیق هوشمند برای پر کردن فیلدهای نوشتاری، فهرست‌های بازشو، دکمه‌های رادیویی، و کادرهای تأیید استفاده می‌کند - از جمله سؤالات EEO/دموگرافیک.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "آیا اطلاعات شخصی من با ApplyFlow ایمن است؟",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "بله. داده های شما به صورت محلی در chrome.storage.local مرورگر شما به طور پیش فرض ذخیره می شود. هرگز به هیچ سرور شخص ثالثی غیر از پایگاه داده اختیاری Supabase شما (که شما آن را کنترل می کنید) ارسال نمی شود. ApplyFlow هرگز اطلاعات شخصی شما را نمی فروشد، به اشتراک نمی گذارد، یا کسب درآمد نمی کند.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow از کدام پلتفرم های شغلی پشتیبانی می کند؟",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow از بیش از 15 پلتفرم خارج از جعبه پشتیبانی می کند: LinkedIn Easy Apply، Internshala، Unstop، Workday، Greenhouse، Lever، iCIMS، SmartRecruiters، BambooHR، Jobvite، Taleo، Naukri، Indeed، Wellfound/AngelList، و هر سایت دیگری از طریق Fallback Matchgene.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper چیست؟",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper یک دکمه شناور \"ذخیره کار\" (📌) است که به طور خودکار هنگام بازدید از هر صفحه فهرست شغلی ظاهر می شود. با کلیک بر روی آن عنوان شغل، شرکت، حقوق و توضیحات استخراج می شود، سپس آن را به عنوان یک برنامه \"ذخیره شده\" در ردیاب ApplyFlow ذخیره می کند - بنابراین می توانید قبل از درخواست، مشاغل را ردیابی کنید.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "چگونه پروفایل خود را به روز کنم؟",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "پنجره ApplyFlow را باز کنید، روی تب \"Profile\" کلیک کنید و رزومه خود را PDF آپلود کنید. هوش مصنوعی تمام فیلدهای شما را به صورت خودکار پر می کند. همچنین می‌توانید به‌صورت دستی هر فیلدی از جمله تنظیمات برگزیده EEO، مجوز کار و نامه‌های پوششی خود را ویرایش کنید.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "فیلدهای EEO چیست و چرا به آنها نیاز دارم؟",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "فیلدهای EEO (فرصت شغلی برابر) سوالاتی هستند که بسیاری از کارفرمایان ایالات متحده و جهانی در مورد جنسیت، وضعیت ناتوانی، وضعیت جانبازی و مجوز کار می پرسند. ApplyFlow پاسخ‌های دلخواه شما را ذخیره می‌کند و به‌طور خودکار این گروه‌های دکمه‌های رادیویی را پر می‌کند، بنابراین مجبور نیستید هر بار به صورت دستی به آنها پاسخ دهید.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "آیا ApplyFlow به کلیدهای API یا پیکربندی نیاز دارد؟",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "نه! ApplyFlow به طور خودکار تشخیص فرم، تطبیق هوشمند، تولید نامه پوششی و امتیازدهی سازگاری را انجام می دهد. شما نیازی به دریافت یا پیکربندی کلیدهای API ندارید.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase sync چیست و آیا به آن نیاز دارم؟",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "همگام سازی Supabase یک ویژگی اختیاری پشتیبان گیری ابری است. وقتی با Google وارد می‌شوید و آن را فعال می‌کنید، نمایه و ردیاب برنامه شما با یک پایگاه داده خصوصی ابری همگام‌سازی می‌شوند تا از داده‌های شما پشتیبان‌گیری شود و از چندین دستگاه قابل دسترسی باشد. این کاملا اختیاری است - برنامه افزودنی کاملاً آفلاین کار می کند.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "چرا ApplyFlow نیاز به دسترسی به همه وب سایت ها دارد؟",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow درخواست دسترسی به همه وب‌سایت‌ها را می‌دهد تا بتواند موتور تکمیل خودکار را در هر فرم درخواست شغلی تزریق کند و دکمه «ذخیره کار» را در هر فهرست شغلی نشان دهد. این مجوز برای پشتیبانی از پلتفرم گسترده مورد نیاز است. ما فقط اسکریپت ها را در صفحاتی تزریق می کنیم که به وضوح مرتبط با کار هستند.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "هیئت کانبان چیست؟",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "صفحه کانبان یک نمای ردیابی کار بصری در تب Tracker است. برنامه های شما را در ستون ها سازماندهی شده نشان می دهد: ذخیره شده → کاربردی → ارزیابی → مصاحبه → پیشنهاد. برای به‌روزرسانی وضعیت هر برنامه، می‌توانید کارت‌ها را بین ستون‌ها بکشید و رها کنید.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "تشخیص ارسال چگونه کار می کند؟",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "وقتی «ورود فقط پس از ارسال» را در تنظیمات فعال می‌کنید، ApplyFlow تغییرات صفحه‌ای را که نشان‌دهنده ارسال موفقیت‌آمیز است (مانند URL حاوی «/success» یا متن متنی که می‌گوید «متشکرم برای درخواست» مشاهده می‌کند. این برنامه فقط پس از شناسایی یک ارسال واقعی، برنامه را در ردیاب شما ثبت می کند.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "آیا می توانم چندین نامه پوششی ذخیره کنم؟",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "بله! صفحه نمایه دارای یک بخش \"حفظ نامه جلد\" است که در آن می توانید نامه های پوششی نامحدود متناسب با نقش ها یا شرکت های مختلف را ذخیره کنید. هنگام تکمیل خودکار، ApplyFlow از جدیدترین یا مرتبط ترین نامه پوششی شما استفاده می کند.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "چگونه داده های برنامه خود را صادر کنم؟",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "به Account & Sync بروید ← به پایین بروید ← روی «Export Backup (JSON)» کلیک کنید. با این کار تمام داده های نمایه و برنامه شما به عنوان یک فایل JSON برای حفظ امنیت دانلود می شود.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "آیا ApplyFlow در حالت نمایشی کار می کند؟",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "حالت نمایشی یک تنظیم قدیمی بود که برای آزمایش استفاده می شد. اکنون به طور پیش فرض غیرفعال است. همه ویژگی‌ها با کلید داخلی Gemini API فعال و کاربردی هستند.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "چگونه یک اشکال را گزارش کنم یا یک ویژگی را درخواست کنم؟",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "لطفاً مشکلی را در مخزن GitHub ما باز کنید (پیوند شده در بخش About) یا به ما ایمیل بزنید support@applyflow.in. ما معمولاً ظرف 48 ساعت پاسخ می دهیم.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "پنجره ApplyFlow را باز کنید",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "صفحه فعلی را برای فیلدهای فرم اسکن کنید",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "تکمیل خودکار هوشمند را در صفحه فعلی فعال کنید",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "فهرست شغل فعلی را به ردیاب گیره دهید",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Tracker را در یک تب جدید باز کنید",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "پیکربندی میانبرها در کروم در",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "توجه:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "دستورات افزونه کروم به تخصیص دستی در مدیر میانبر Chrome نیاز دارند. برای اتصال کلیدهای فهرست شده در بالا به $1$ بروید.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**افزونه ApplyFlow Chrome — خط مشی رازداری **\nآخرین به روز رسانی: ژوئن 2026\n\n---\n\n**1. مقدمه**\n\nApplyFlow (\"ما\"، \"ما\"، \"افزونه\") یک برنامه افزودنی مرورگر کروم است که به کاربران کمک می‌کند فرم‌های درخواست شغل را به‌طور خودکار تکمیل کنند، برنامه‌های خود را ردیابی کنند و نمایه حرفه‌ای خود را مدیریت کنند. این خط‌مشی رازداری توضیح می‌دهد که چگونه اطلاعات شما را جمع‌آوری، استفاده، ذخیره و محافظت می‌کنیم.\n\nبا نصب و استفاده از ApplyFlow، با روش‌های توضیح‌داده‌شده در این خط‌مشی موافقت می‌کنید.\n\n---\n__NL_12_**. داده‌هایی که جمع‌آوری می‌کنیم**\n\nما فقط اطلاعاتی را که داوطلبانه ارائه می‌دهید جمع‌آوری می‌کنیم تا ویژگی‌های برنامه افزودنی را فعال کنیم:\n\n• **اطلاعات نمایه**: نام، ایمیل، شماره تلفن، کالج، مدرک، مهارت‌ها، سابقه کاری، پیوندهای حرفه‌ای، پروژه‌ها نمونه کارها).\n• **اطلاعات EEO/دموگرافیک (اختیاری)**: جنسیت، وضعیت ناتوانی، وضعیت جانبازی، و اولویت های مجوز کار — تنها در صورتی ارائه می شود که این قسمت ها را پر کنید. این داده‌ها منحصراً برای تکمیل خودکار پرسشنامه‌های اختیاری EEO در برنامه‌های شغلی استفاده می‌شود.\n• **داده‌های پیگیری برنامه**: عنوان شغل، شرکت، URL برنامه، وضعیت، و یادداشت‌هایی برای موقعیت‌هایی که با استفاده از برنامه افزودنی ردیابی می‌کنید.\n• **آمار استفاده**: تعداد عملیات تکمیل خودکار روزانه برای ذخیره سازی انجام شده محدودیت‌ها).\n• **داده‌های احراز هویت**: اگر انتخاب کنید با Google وارد شوید، نام نمایشی Google، آدرس ایمیل، و نشانی اینترنتی تصویر نمایه شما را ذخیره می‌کنیم تا تجربه شما را شخصی‌سازی کنیم و همگام‌سازی ابری را فعال کنیم. فعالیت مرور\n• هر گونه اطلاعات از صفحاتی که با برنامه شغلی مرتبط نیستند\n• هر گونه داده از صفحاتی که برنامه افزودنی فعال نشده است\n\n---\n\n**. چگونه داده های شما را ذخیره می کنیم**\n\n**3.1 فضای ذخیره سازی محلی (پیش فرض)**\nهمه داده ها در درجه اول در chrome.storage.local API مرورگر شما ذخیره می شوند. این داده‌ها فقط در دستگاه شما قرار دارند و هرگز بدون اقدام صریح شما به هیچ سروری منتقل نمی‌شوند.\n\n**3.2 Cloud Sync (اختیاری)**\nاگر انتخاب کنید با Google وارد شوید و ویژگی \"Supabase Sync\" را فعال کنید، داده‌های پروفایل و برنامه کاربردی شما نیز به صورت همگام‌سازی داده می‌شوند. شما مالکیت کامل این داده ها را حفظ می کنید. می‌توانید هر زمان که بخواهید آن را از بخش حساب و همگام‌سازی حذف کنید.\n\n**3.3 درخواست‌های هوش مصنوعی Gemini**\nهنگامی که از ویژگی‌های هوش مصنوعی استفاده می‌شود (مثلاً تولید مقاله، تجزیه و تحلیل شغل)، بخش‌هایی از نمایه شما (مهارت‌ها، مدرک شغلی، پاسخ متن‌های Gemini به Google ارسال می‌شود). این مورد تحت شرایط استاندارد خدمات API و خط‌مشی رازداری Google پردازش می‌شود. توصیه می‌کنیم شناسه‌های شخصی حساس را در محتوای با کمک هوش مصنوعی خود وارد نکنید.\n\n---\n\n**4. به اشتراک گذاری داده**\n\nما **فروش، تجارت، اجاره یا به اشتراک گذاری اطلاعات شخصی شما را با اشخاص ثالث برای اهداف بازاریابی یا تبلیغاتی انجام نمی دهیم. (https://policies.google.com/privacy)\n• **Google OAuth**: برای احراز هویت حساب (https://policies.google.com/privacy)\n• **Supabase**: برای ذخیره سازی ابری اختیاری (https://supabase.com/privacy) — فقط در صورتی که شما sync\n\n---\n\n**5. حقوق و کنترل‌های شما**\n\nشما حق دارید:\n• **دسترسی داشته باشید** به همه داده‌هایی که ApplyFlow درباره شما ذخیره کرده است (از طریق صادرات پشتیبان در تنظیمات)\n• **در هر زمان که بخواهید اطلاعات خود را تصحیح کنید **• همه داده‌های خود را در هر زمانی در برگه نمایه حذف کنید. «پاک کردن همه داده‌های نمایه» در تنظیمات\n• **با حذف نصب برنامه افزودنی\n_******************************************************************************************************ها همگام سازی را غیرفعال کنید. برای دسترسی، اصلاح، پاک کردن، محدود کردن پردازش، و قابلیت حمل داده‌ها بر اساس مقررات عمومی حفاظت از داده‌ها.\n\n**هند — قانون DPDP 2023**: مطابق با قانون حفاظت از داده‌های شخصی دیجیتال هند در سال 2023، ما داده‌های شخصی را فقط به منظور ارائه خدمات درخواست شغلی پردازش می‌کنیم. شما می‌توانید در هر زمان رضایت خود را لغو کنید و با تماس با ما درخواست حذف داده‌های خود را داشته باشید.\n\n**کالیفرنیا — CCPA**: ساکنان کالیفرنیا این حق را دارند که بدانند چه اطلاعات شخصی جمع‌آوری شده است، حق حذف، و حق انصراف از فروش (ما نمی‌فروشیم) داده ها).\n\n---\n\n**6. حفظ داده**\n\nداده های محلی تا زمانی که آن را به صورت دستی پاک نکنید، حفظ می شود. داده‌های همگام‌سازی شده در فضای ابری تا زمانی که حساب خود را حذف نکنید یا درخواست حذف کنید، حفظ می‌شود. ما به طور خودکار داده ها را حذف نمی کنیم.\n\n---\n\n**7. امنیت**\n\nما اقدامات فنی معقولی را برای محافظت از داده‌های شما انجام می‌دهیم:\n• همه ارتباطات ابری از رمزگذاری HTTPS/TLS استفاده می‌کنند\n• امنیت سطح ردیف (RLS) Supabase تضمین می‌کند که کاربران فقط می‌توانند به داده‌های خودشان دسترسی داشته باشند. تابع\n\n---\n\n**8. حریم خصوصی کودکان**\n\nApplyFlow برای کاربران زیر 13 سال در نظر گرفته نشده است. ما آگاهانه داده‌هایی را از کودکان جمع‌آوری نمی‌کنیم. اگر فکر می کنید کودکی اطلاعات شخصی به ما ارائه کرده است، لطفاً فوراً با ما تماس بگیرید.\n\n---\n\n**9. تغییرات در این خط مشی **\n\nما ​​ممکن است هر از چند گاهی این خط مشی رازداری را به روز کنیم. تغییرات مهم از طریق صفحه گزینه های برنامه افزودنی اطلاع رسانی خواهد شد. ادامه استفاده از برنامه افزودنی پس از تغییرات به منزله پذیرش خط مشی به روز شده است.\n\n---\n\n**10. با ما تماس بگیرید**\n\nبرای هرگونه سوال مرتبط با حریم خصوصی، درخواست حذف داده یا نگرانی:\n\nایمیل: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nوب سایت: https://applyflow.in\n\nهدف ما این است که ظرف 30 روز به همه درخواست‌ها پاسخ دهیم.",
+    "description": "Privacy policy document markdown text"
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: מילוי אוטומטי של עבודות בינה מלאכותית ומעקב אחר יישומים",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "מילוי אוטומטי של יישומי עבודה ומעקב אחר רישומים באופן אוטומטי באמצעות AI ב-LinkedIn, Workday, Greenhouse ועוד.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "פעיל",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "הוחל",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "ראיון",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "הצעה",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "נשמר",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "סך הכל",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "מילוי אוטומטי",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ממלא...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "מילוי אוטומטי מהיר",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "נתח את איוב",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "פתח את סרגל הצד",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "הגדרות",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "היכנס תחילה ל-Google כדי להשתמש במילוי אוטומטי מהיר!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "אנא הגדר את הפרופיל שלך תחילה בלוח הצד/האפשרויות!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ זוהה",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "לא זוהה דף עבודה",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "בקר ברשימת משרות כדי לפתוח תכונות AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "בוקר טוב",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "צהריים טובים",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "ערב טוב",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ יישומים במעקב · $2$ ראיונות",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "התחל להגיש בקשה כדי לעקוב אחר ההתקדמות שלך",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "מכתב כיסוי",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "שאלות ותשובות עזרה",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "מוכן לעזור",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "נווט לרשימת משרות ב-LinkedIn, Workday, Greenhouse או כל לוח דרושים כדי להתחיל.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "השבוע",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "פעילות אחרונה",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "הצג הכל →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "התחל בחיפוש העבודה שלך!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "בקר בלוח דרושים והשתמש ב-ApplyFlow למילוי אוטומטי ולעקוב אחר האפליקציות שלך באופן אוטומטי.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "הפרופיל שלי",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "שומר...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "שמור הכל",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "הפרופיל נשמר!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "שמירת הפרופיל נכשלה.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "קורות חיים",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "העלה לפרופיל מילוי אוטומטי",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ הועלה",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "מידע אישי",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "לא שלם",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "מיקום",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "חינוך",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "מיומנויות",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "ניסיון בעבודה",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "פרויקטים",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "העדפות עבודה",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "אישור עבודה",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "המשך היסטוריה",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "השתמש בזה",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "מנותח ב-$1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "האם לטעון את פרטי הפרופיל מ-\"$1$\"? זה יחליף את העריכות הנוכחיות שלך במבנה המנתח של קורות החיים האלה.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "פרטים משוחזרים מ-$1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "ציון התאמה",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ התאמה",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ נוספים",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "יישום מילוי אוטומטי ונרשם! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "מילוי אוטומטי באמצעות לוח הצד של ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "שם",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "אין סט קולג'",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "הגדר את הפרופיל שלך כדי להפעיל מילוי אוטומטי",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "לא מוגדר",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ערכים",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ כישורים",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ פרויקטים",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ תשובות",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "מורשה",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "לא מורשה",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "שם מלא",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "דוא\"ל",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "טלפון",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "טלפון חלופי",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "כתובת האתר של לינקדאין",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "כתובת אתר של תיק",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "כתובת אתר של GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "קישור להמשך",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "עיר",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "מדינה",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "מדינה",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "מיקוד",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "כתובת",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "לאום",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "מכללה / אוניברסיטה",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "תואר",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "שנת סיום",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ציון",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "אחוז 12",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "תקופת הודעה מוקדמת",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "שכר צפוי",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "תפקיד מועדף",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "שנים של ניסיון",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "מורשה לעבוד ללא חסות ויזה",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "דורש חסות ויזה",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "מגדר",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "מוגבלות",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "מעדיפה לא להגיד",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "לא צוין",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "זכר",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "נקבה",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "לא בינארי",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "כן",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "לא",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "עדיין לא נוספו כישורים",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "הוסף מיומנות (הזן כדי להוסיף)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ביטוי טריגר (למשל למה כדאי לנו להעסיק אותך)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "התשובה שלך...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "הסר",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ הוסף תשובה מותאמת אישית",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "חברה",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "תפקיד / כותרת",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "תאריך התחלה",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "תאריך סיום",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "הווה",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "כרגע אני עובד בתפקיד זה",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "תיאור",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "תאר את האחריות שלך, הישגי מפתח, טכנולוגיות בשימוש...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ הוסף ניסיון בעבודה",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "כותרת הפרויקט",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "כתובת אתר לפריסה",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "תאר מה בנית, איזו בעיה זה פתר, ואת התכונות העיקריות...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ הוסף פרויקט",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "גשש",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "נשמר",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "הוחל",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "הערכה",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "ראיון",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "הצעה",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "נדחה",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "נסוג",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "למחוק את האפליקציה הזו?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "האפליקציה עודכנה!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "האפליקציה נמחקה.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "סטטוס",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "פלטפורמה",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "הוחל",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "פתח פרסום דרושים",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "שכר / מלגה",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "תזכורת למעקב",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "הערות",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "הוסף הערות, פרטי קשר, פרטי ראיון...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "תיאור התפקיד (קטע)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "מחק",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "בטל",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "שמור",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "אפליקציה אחת",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ יישומים",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "סנן לפי חברה...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "מסנני סטטוס",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "גלול ימינה לעוד →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "הכל",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "לא נמצאו אפליקציות",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "נסה לאפס מסננים או לשמור עבודה כדי להוסיף רשומת מעקב חדשה",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "אנליטיקס",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ סך כל יישומים",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "עדיין אין נתונים",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "התחל להגיש מועמדות למשרות והניתוח שלך יופיע כאן.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "שיעורי המרה",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "הוחל",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "שיעור ראיונות",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "תעריף הצעה",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "יישומים השבוע",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "משפך יישומים",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "פלטפורמות מובילות",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "פירוט סטטוס",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "הקשר: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "טייס המשנה שלך בקריירה",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "צ'אט חדש ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "אנא הגדר תחילה את הפרופיל שלך כדי שה-AI יוכל להתאים אישית את התגובות.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "הצ'אט נמחק! במה אוכל לעזור לך?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "תשאל כל דבר על העבודה הזו...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "הגדר את הפרופיל שלך כדי להתחיל",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "הקש Enter כדי לשלוח",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "ציון תאימות לקורות חיים",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ מיומנויות חזקות",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ כישורים חסרים",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "הנה מכתב הכיסוי האישי שלך:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ מועתק!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 העתק",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ הורדה",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "הנה $1$ שאלות סבירות לראיון:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "המשך ציון אופטימיזציה: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "הצעות להמשך התאמה",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "לעומת תיאור התפקיד הזה",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "משהו השתבש. אנא נסה שוב.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "היי! אני יכול לראות שאתה מסתכל על תפקיד **$1$** ב-**$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "היי! אני יכול לראות שאתה מסתכל על תפקיד **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "היי! אני טייס המשנה שלך בקריירה של AI. נווט לרשימת משרות ואני אנתח אותה אוטומטית, או אשאל אותי כל דבר!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "אנא הגדר את הפרופיל שלך תחילה בלשונית פרופיל!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "אנא פתח תחילה דף רישום משרות בדפדפן שלך כדי להשתמש בתכונה זו!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "בטל את הנעילה של ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "היכנס ל-Google כדי לגשת למרכז השליטה שלך, לסנכרן משרות, לנהל את פרופיל קורות החיים שלך ולמלא אוטומטית יישומי עבודה באופן מיידי.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "מילוי אוטומטי וקליפר בינה מלאכותית",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "סרוק ומילוי אוטומטי של יישומים בלחיצה אחת.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "סנכרון וגיבוי בענן",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "סנכרן את כל פרטי מעקב העבודה שלך עם Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "קורות חיים ופרופילים",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "העלה את קורות החיים שלך והתאם אישית את התשובות ליישום.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "מתחבר לגוגל...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "היכנס באמצעות גוגל",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "על ידי כניסה, אתה מסכים לסנכרן את נתוני הפרופיל שלך בצורה מאובטחת עם סביבת העבודה הפעילה שלך.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "האם אתה בטוח שאתה רוצה לצאת?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "יצא בהצלחה.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "מחובר בתור $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "צא",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "היכנס",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "מתחבר...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "פתח את ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "מיומנויות התאמה חזקות",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "מיומנויות חסרות",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "דף מילוי אוטומטי חכם",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "מילוי אוטומטי של טופס...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "לא נמצאו שדות יישום שניתנים למילוי בדף.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "התמלא בהצלחה!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "המילוי האוטומטי נכשל עקב מורכבות הדף.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "נשמר אוטומטית לגשש יומן בעת ​​המילוי.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "קורות החיים שלך תואמים **$1$%** לתפקיד זה.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "ברוך שובך, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "אחזור פרטי פרופיל המשתמש של Google נכשל.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "התחברות OAuth נכשלה: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "שליפת אסימון הגישה מההפניה מחדש נכשלה.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "ניתוח ההפניה מחדש של אימות נכשל.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "אימות אינו נתמך בפלטפורמה זו.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "העבודה נשמרה למעקב!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "אורח",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ הגדרות כלליות",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "הצג בדפי משרות של LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "מציג ציון התאמה חכם וכפתור מילוי אוטומטי בלחיצה אחת כאשר אתה מציג פרסומי דרושים בלינקדאין.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "הצג את לחצן 'שמור עבודה'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "מציג כפתור צף 'שמור עבודה 📌' באתרי דרושים, כך שתוכל לשמור במהירות פרטי עבודה במעקב שלך לפני הגשת מועמדות.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "התחבר רק לאחר יישום בפועל",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "המתן עד שתראה את המסך 'תודה' או 'הצלחה' לפני שתוסיף את העבודה למעקב שלך. שומר על הגשש שלך מסודר על ידי מניעת שמירת טפסים מלאים למחצה כ'מוחל'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 קרדיטים בינה מלאכותית וניתוח שימוש",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "קרדיטים נותרו",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "קרדיטים שנותרו",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "סה\"כ קרדיטים",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "מילוי אוטומטי של כל הזמנים",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "סטטוס תוכנית",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "פרימיום 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "חינם 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "טיפ מקצועי:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "פעולות מילוי אוטומטי חכמות צורכות 0 זיכויים והן ללא הגבלה ב-100%! רק תכונות בינה מלאכותית מתקדמות כמו מכתבי כיסוי (5 נקודות זכות) ומאמרים מותאמים אישית (3 נקודות זכות) צורכות את יתרת האשראי שלך.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 חשבון Google וסנכרון ענן",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync פעיל",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "סנכרון ענן נעול (פרימיום בלבד)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "סנכרון ענן",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "דחוף לענן",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "משוך מענן",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "הסנכרון הצליח!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "הסנכרון נכשל. בדוק את החיבור שלך.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "סנכרון ענן מאובטח",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "היכנס עם Google כדי לגבות את היישומים והפרופיל שלך ל-Supabase. סנכרון הוא תכונת פרימיום השומרת על בטיחות היומנים שלך בין מכשירים.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync היא תכונה פרימיום. אנא שדרג בכרטיסייה שדרוג כדי לאפשר סנכרון!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ניהול נתונים",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "ייצוא גיבוי (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "נקה את כל הנתונים המקומיים",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "ניקוי נתונים מקומיים מסיר את הפרופיל והאפליקציות שלך מהמכשיר הזה בלבד. נתוני ענן אינם מושפעים.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "מרכז בקרה",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "דף הבית ואודות",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "הגדרות כלליות",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "שדרג ל-Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "תוכנית פרימיום 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "חשבון וסנכרון",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "מדיניות פרטיות",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "שאלות נפוצות",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "קיצורי מקלדת",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ברוכים הבאים ל-ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow הוא תוסף Chrome המופעל על ידי בינה מלאכותית שנבנה עבור סטודנטים ומחפשי עבודה שרוצים להגיש מועמדות מהירה וחכמה יותר. הוא מזהה וממלא באופן אוטומטי טפסי מועמדות לעבודה על פני 15+ פלטפורמות, עוקב אחר הצינור שלך ועוזר לך להשיג ראיונות נוספים.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "מילוי אוטומטי חכם",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ פלטפורמות ATS עם בוררים מדויקים",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "שמור כל רישום עבודה בלחיצה אחת",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "גרור ושחרר את צינור היישום שלך",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "מילוי אוטומטי של EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "מילוי אוטומטי של שאלות דמוגרפיות וויזה",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "מאמרי AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "כתיבת תשובה מותאמת אישית באמצעות תאומים",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "סנכרון מאובטח",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "גיבוי ענן אופציונלי של Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 איך להתחיל",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "בנה את הפרופיל שלך",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "פתח את החלון הקופץ ← לשונית פרופיל ← העלה את קורות החיים שלך ב-PDF. ה-AI יחלץ אוטומטית את כל הפרטים שלך כולל מיומנויות, ניסיון, השכלה ופרויקטים.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "הגדר העדפות EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "גלול לקטע EEO בפרופיל שלך וקבע את הרשאת העבודה שלך, צרכי חסות ויזה והעדפות דמוגרפיות. אלה משמשים למילוי אוטומטי של שאלוני EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "עיין ברישום משרות",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "נווט לכל רישום משרות. תראה כפתור 📌 \"שמור עבודה\" מופיע. לחץ עליו כדי לשמור את המיקום באופן מיידי במעקב שלך.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "פתח טופס בקשה",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "נווט לטופס הבקשה. לחץ על החלון הקופץ ApplyFlow → לחץ על \"סרוק עמוד\" → ואז \"⚡ מילוי אוטומטי חכם\". כל השדות כולל לחצני בחירה ותפריטים נפתחים מתמלאים באופן מיידי.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "עקוב אחר הצינור שלך",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "פתח את הכרטיסייה Tracker כדי לראות את כל היישומים שלך. עבור לתצוגת Kanban Board וגרור כרטיסים בין עמודות עם עדכון הסטטוס שלך.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 נדרשת כניסה",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "היכנס להתאמה אישית של הגדרות",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "הגדרות כלליות זמינות רק למשתמשים מחוברים. היכנס עם Google כדי להגדיר את ההעדפות שלך, התנהגויות המילוי האוטומטי ועוד.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "עבור אל חשבון וסנכרון",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "מפתח רישיון: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "השבת את הרישיון",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 הפעלת מפתח רישיון",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "אם רכשת מנוי או קיבלת קוד גישה, הזן את מפתח הרישיון שלך למטה כדי לבטל את הנעילה של ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "הפעל",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "מפעיל...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 טיפ: ניתן להפעיל את פרימיום באמצעות מקש APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "פרימיום מופעל!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "תודה על תמיכתך ב-ApplyFlow. כל תכונות הפרימיום פתוחות כעת.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 תוכנית שדרוג פרימיום",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "פתח את הנעילה של יצוא הקריירה שלך ותכונות AI מתקדמות.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "קבל קרדיט פרימיום בינה מלאכותית עבור מכתבי כיסוי, תשובות לחיבורים מותאמים אישית, אופטימיזציה של קורות חיים והכנה מדומה לראיונות. פעולות המילוי האוטומטי בפלטפורמות נתמכות הן בלתי מוגבלות לחלוטין וחינמיות לכל משתמשי הפרימיום!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 הצעה לאמץ מוקדם:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "עליית המחיר הבאה ב-500 משתמשי פרימיום. נעל את התעריף הזה לכל החיים!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "פרו חודשי",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "טוב לחיפוש קצר טווח",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ חודש",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(רק ₹13 ליום)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 זיכויים בינה מלאכותית לחודש|||מילוי אוטומטי ללא הגבלה (כל הפורטלים)|||Cloud Sync וגיבוי של Google|||ערכות נושא פרימיום|||חוויה ללא מודעות",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "הירשם חודשי",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "רבעון פרו",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "התמורה הטובה ביותר עבור רוב מחפשי העבודה",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 חודשים",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(רק ₹11 ליום)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 זיכויים בינה מלאכותית לרבעון|||מילוי אוטומטי ללא הגבלה (כל הפורטלים)|||מכתבים ומאמרים מותאמים אישית|||ענן סינכרון וגיבוי של Google|||הצעות להמשך התאמה",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "הירשם מדי רבעון",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "הכי פופולרי",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ultimate שנתי",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "התמורה הטובה ביותר עבור משתמשים חזקים",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ שנה",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(שווה ערך ל-₹249 לחודש)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 זיכויים בינה מלאכותית לשנה|||מילוי אוטומטי יומי בלתי מוגבל|||מכתבי כיסוי ומאמרים מותאמים|||ענן סינכרון וגיבוי של Google|||הצעות להמשך התאמה|||תמיכה מועדפת בדוא\"ל",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "הירשם מדי שנה",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "התמורה הטובה ביותר - חסוך 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "תמיכה בפיתוח ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow נבנה ומתוחזק על ידי מפתחים עצמאיים. אם אתה מוצא את התוסף מועיל, שקול לתרום ב-Ko-fi כדי לשמור עליו פעיל, ללא פרסומות ומעודכן עבור לוחות דרושים חדשים.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "קנה לי קפה בקו-פי",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ דירוג 5.0|||🔒 תשלומים מאובטחים|||✓ בטל בכל עת",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "מפתח רישיון לא חוקי. רמז: נסה להשתמש במפתח ההדגמה 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "הרישיון הופעל בהצלחה! ברוכים הבאים ל-ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "האם אתה בטוח שברצונך לבטל את רישיון הפרימיום שלך? זה יחזיר אותך לתוכנית החינמית.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "רישיון פרימיום מושבת. אתה כעת בתוכנית החינמית.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "פעולה זו תמחק לצמיתות את כל נתוני הפרופיל והאפליקציה המקומיים. אתה בטוח?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 מדיניות פרטיות",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ שאלות נפוצות",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "מה זה ApplyFlow ואיך זה עובד?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow הוא תוסף Chrome המופעל על ידי בינה מלאכותית שמזהה וממלא באופן אוטומטי טפסי מועמדות לעבודה על פני 15+ פלטפורמות כולל LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever ועוד. הוא קורא את הפרופיל השמור שלך ומשתמש בהתאמה חכמה למילוי שדות טקסט, תפריטים נפתחים, לחצני בחירה ותיבות סימון - כולל שאלות EEO/דמוגרפיה.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "האם הנתונים האישיים שלי בטוחים עם ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "כֵּן. הנתונים שלך מאוחסנים באופן מקומי ב-chrome.storage.local של הדפדפן שלך כברירת מחדל. הוא לעולם לא נשלח לשום שרת של צד שלישי מלבד מסד הנתונים האופציונלי של Supabase שלך ​​(בו אתה שולט). ApplyFlow לעולם לא מוכרת, משתפת או מייצרת רווח מהמידע האישי שלך.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "באילו פלטפורמות עבודה תומכת ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow תומכת ב-15+ פלטפורמות מחוץ לקופסה: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, וכל אתר אחר באמצעות ההתאמה הגנרית הגנרית הנבונה שלנו.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "מהו ה-Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "ה-Web Clipper הוא כפתור צף \"שמור עבודה\" (📌) המופיע אוטומטית כאשר אתה מבקר בכל דף רישום משרות. לחיצה עליו מחלצת את כותרת המשרה, החברה, המשכורת והתיאור, ולאחר מכן שומרת אותו במעקב ApplyFlow שלך כיישום \"שמור\" - כך שתוכל לעקוב אחר משרות לפני הגשת מועמדות.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "איך אני מעדכן את הפרופיל שלי?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "פתח את החלון הקופץ של ApplyFlow, לחץ על הכרטיסייה \"פרופיל\" והעלה את קורות החיים שלך ב-PDF. ה-AI יאכלס אוטומטית את כל השדות שלך. אתה יכול גם לערוך ידנית כל שדה כולל העדפות EEO שלך, הרשאת עבודה ומכתבי כיסוי.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "מהם שדות EEO ומדוע אני צריך אותם?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "שדות EEO (Equal Employment Opportunity) הם שאלות שמעסיקים רבים בארה\"ב ובעולם שואלים לגבי מגדר, סטטוס נכות, סטטוס ותיק והרשאת עבודה. ApplyFlow מאחסן את התשובות המועדפות עליך וממלא אוטומטית את קבוצות לחצני הבחירה האלה כך שלא תצטרך לענות עליהן ידנית בכל פעם.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "האם ApplyFlow דורש מפתחות API או תצורה?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "לֹא! ApplyFlow מטפל בכל זיהוי הטפסים, התאמה חכמה, יצירת מכתבי כיסוי וציון תאימות באופן אוטומטי. אינך צריך להשיג או להגדיר מפתחות API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "מהו סנכרון Supabase והאם אני צריך אותו?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "סינכרון Supabase הוא תכונת גיבוי ענן אופציונלית. כאשר אתה נכנס ל-Google ומפעיל אותה, הפרופיל והמעקב אחר האפליקציות שלך מסונכרנים עם מסד נתונים פרטי בענן כך שהנתונים שלך מגובים ונגישים ממספר מכשירים. זה אופציונלי לחלוטין - התוסף פועל במצב לא מקוון לחלוטין.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "למה ApplyFlow צריך גישה לכל האתרים?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow מבקש גישה לכל אתרי האינטרנט כדי שיוכל להזריק את מנוע המילוי האוטומטי בכל טופס הגשת מועמדות לעבודה, ולהראות את כפתור הקוצץ \"שמור עבודה\" בכל רישום עבודה. הרשאה זו נדרשת לתמיכה בפלטפורמה רחבה. אנו מחדירים סקריפטים רק לדפים הקשורים בבירור לעבודה.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "מהי לוח Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "לוח Kanban הוא תצוגת מעקב עבודה ויזואלית בלשונית Tracker. זה מציג את היישומים שלך מאורגנים בעמודות: נשמר ← יישום ← הערכה ← ראיון ← הצעה. אתה יכול לגרור ולשחרר כרטיסים בין עמודות כדי לעדכן את הסטטוס של כל יישום.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "איך עובד זיהוי הגשה?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "כאשר אתה מפעיל את \"התחבר רק לאחר הגשה\" בהגדרות, ApplyFlow צופה בשינויים בדף שמצביעים על הגשה מוצלחת (כמו כתובת אתר המכילה \"/success\" או טקסט גוף שאומר \"תודה על הגשת הבקשה\"). זה רושם את האפליקציה לגשש שלך רק לאחר שהוא מזהה הגשה אמיתית.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "האם אני יכול לאחסן מכתבי כיסוי מרובים?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "כֵּן! במסך הפרופיל יש קטע \"כספת מכתבי כיסוי\" שבו ניתן לאחסן מכתבי כיסוי ללא הגבלה המותאמים לתפקידים או לחברות שונות. בעת מילוי אוטומטי, ApplyFlow ישתמש במכתב הכיסוי העדכני ביותר או הרלוונטי ביותר שלך.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "כיצד אוכל לייצא את נתוני האפליקציה שלי?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "עבור אל חשבון וסנכרון ← גלול לתחתית ← לחץ על \"ייצוא גיבוי (JSON)\". זה מוריד את כל נתוני הפרופיל והאפליקציה שלך כקובץ JSON לשמירה.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "האם ApplyFlow עובד במצב הדגמה?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "מצב הדגמה היה הגדרה מדור קודם ששימשה לבדיקה. זה מושבת כעת כברירת מחדל. כל התכונות פועלות ופונקציונליות עם מפתח ה-API המובנה של Gemini.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "איך אני מדווח על באג או מבקש תכונה?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "אנא פתח בעיה במאגר GitHub שלנו (מקושר בסעיף אודות) או שלח לנו דוא\"ל לכתובת support@applyflow.in. בדרך כלל אנו מגיבים תוך 48 שעות.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "פתח את החלון הקופץ של ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "סרוק את הדף הנוכחי עבור שדות טופס",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "הפעל מילוי אוטומטי חכם בדף הנוכחי",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "קטע את רשימת המשרה הנוכחית לגשש",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "פתח את Tracker בכרטיסייה חדשה",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "הגדר קיצורי דרך ב-Chrome ב-",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "הערה:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "פקודות תוסף Chrome דורשות הקצאה ידנית במנהל הקיצורים של Chrome. עבור אל $1$ כדי לאגד את המפתחות הרשומים למעלה.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — מדיניות פרטיות**\nעדכון אחרון: יוני 2026\n\n---\n\n**1. הקדמה**\n\nApplyFlow (\"אנחנו\", \"שלנו\", \"הרחבה\") היא תוסף לדפדפן Chrome המסייע למשתמשים למלא אוטומטית טפסי מועמדות לעבודה, לעקוב אחר הבקשות שלהם ולנהל את הפרופיל המקצועי שלהם. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים, מאחסנים ומגנים על המידע שלך.\n\nעל ידי התקנה ושימוש ב-ApplyFlow, אתה מסכים לנוהלים המתוארים במדיניות זו.\n\n---\n\n**2. נתונים שאנו אוספים**\n\nאנו אוספים רק את המידע שאתה מספק מרצונך כדי לאפשר את תכונות התוסף:\n\n• **פרטי פרופיל**: שמך, דוא\"ל, מספר טלפון, מכללה, תואר, כישורים, היסטוריית עבודה, פרויקטים וקישורים מקצועיים (LinkedIn, GitHub, Portfolio **_1__Degraphic).•NL (אופציונלי)**: העדפות מגדר, סטטוס נכות, סטטוס ותיק והרשאות עבודה - מסופקות רק אם תבחר למלא שדות אלה. נתונים אלה משמשים אך ורק למילוי אוטומטי של שאלוני EEO אופציונליים על הגשת מועמדות לעבודה.\n• **נתוני מעקב אחר מועמדות**: שם תפקיד, חברה, כתובת אפליקציה, סטטוס והערות עבור משרות שאחריהן עוקבים באמצעות התוסף.\n• **סטטיסטיקות שימוש**: מספר פעולות המילוי האוטומטי שבוצעו (מאוחסנים באופן מקומי כדי לאכוף מגבלות יומיות:**NLAuthentic:__•____). בוחרים להיכנס עם Google, אנו מאחסנים את שם התצוגה, כתובת האימייל וכתובת ה-URL של תמונת הפרופיל שלך כדי להתאים אישית את החוויה שלך ולאפשר סנכרון בענן.\n\nאנחנו **לא** אוספים:\n• מידע על תשלום או פיננסי\n• היסטוריית דפדפן או פעילות גלישה כללית\n• כל מידע מעמודי עבודה-__NL, כל מידע מהדפים-__NL הקשורים לדף העבודה-2 ההרחבה אינה מופעלת באופן פעיל\n\n---\n\n**3. כיצד אנו מאחסנים את הנתונים שלך**\n\n**3.1 אחסון מקומי (ברירת מחדל)**\nכל הנתונים מאוחסנים בעיקר ב-chrome.storage.local API של הדפדפן שלך. נתונים אלה נמצאים רק במכשיר שלך ולעולם לא מועברים לשרת כלשהו ללא פעולה מפורשת שלך.\n\n**3.2 Cloud Sync (אופציונלי)**\nאם תבחר להיכנס עם Google ולהפעיל את התכונה \"Supabase Sync\", נתוני הפרופיל והאפליקציה שלך יסונכרנו גם למסד נתונים של Supabase. אתה שומר בעלות מלאה על נתונים אלה. אתה יכול למחוק אותו בכל עת מהקטע 'חשבון וסנכרון'.\n\n**3.3 בקשות בינה מלאכותית של Gemini**\nכאשר נעשה שימוש בתכונות בינה מלאכותית (למשל, הפקת חיבורים, ניתוח עבודה), חלקים מהפרופיל שלך (מיומנויות, תואר, סיכום) וטקסט תיאור התפקיד נשלחים אל ה-API של התגובה של Google. זה מעובד תחת התנאים וההגבלות הסטנדרטיים של API ומדיניות הפרטיות של Google. אנו ממליצים לא לכלול מזהים אישיים רגישים בתוכן הנעזר ב-AI שלך.\n\n---\n\n**4. שיתוף נתונים**\n\nאנחנו **לא** מוכרים, סוחרים, משכירים או משתפים את המידע האישי שלך עם צדדים שלישיים כלשהם למטרות שיווק או פרסום.\n\nייתכן שהנתונים שלך יעובדו על ידי השירותים המהימנים הבאים:\n• **Google Gemini API**: למילוי טפסים וניתוח מבוסס AI (https://policies.google.com/privacy)\n• **Google OAuth**: לאימות חשבון (https://policies.google.com/privacy)\n• **Supabase**: לאחסון ענן אופציונלי (https://supabase.com/privacy) - רק אם תפעילו סינכרון\n\n---\n\n**5. הזכויות והבקרות שלך**\n\nיש לך הזכות:\n• **לגשת** לכל הנתונים ש-ApplyFlow מאחסנת אודותיך (דרך ייצוא גיבוי בהגדרות)\n• **לתקן** את המידע שלך בכל עת בלשונית הפרופיל\n• **מחיקת כל הנתונים** בהגדרות של כל הנתונים**_NL_0 **בטל את ההסכמה** בכל עת על ידי הסרת ההתקנה של התוסף\n• **השבת סנכרון בענן** על ידי כיבויו בהגדרות חשבון וסנכרון\n\n**GDPR (משתמשי האיחוד האירופי)**: אם אתה תושב האיחוד האירופי, יש לך את הזכויות לגשת, לתקן, למחוק, להגביל את עיבוד הנתונים הכלליים והעברת הנתונים תקנה.\n\n**הודו - DPDP Act 2023**: בהתאם לחוק הגנת המידע האישי הדיגיטלי של הודו 2023, אנו מעבדים נתונים אישיים רק לצורך מתן שירות הסיוע להגשת מועמדות לעבודה. אתה יכול לבטל את הסכמתך ולבקש מחיקת הנתונים שלך בכל עת על ידי יצירת קשר איתנו.\n\n**קליפורניה — CCPA**: לתושבי קליפורניה יש את הזכות לדעת איזה מידע אישי נאסף, הזכות למחוק, והזכות לבטל את המכירה (איננו מוכרים נתונים).\n**-__NL_7_7.\n**-__NL_7. שמירת נתונים**\n\nנתונים מקומיים נשמרים עד שתנקה אותם באופן ידני. נתונים מסונכרנים בענן נשמרים עד שתמחק את חשבונך או תבקש מחיקה. אנחנו לא מוחקים נתונים באופן אוטומטי.\n\n---\n\n**7. אבטחה**\n\nאנו נוקטים באמצעים טכניים סבירים כדי להגן על הנתונים שלך:\n• כל התקשורת בענן משתמשת בהצפנת HTTPS/TLS\n• Supabase Row-Level Security (RLS) מבטיחה שמשתמשים יכולים לגשת רק לנתונים שלהם \n• התוסף אינו מבקש הרשאות מעבר למה שנדרש עבור הליבה שלו function\n\n---\n\n**8. פרטיות ילדים**\n\nApplyFlow אינה מיועדת למשתמשים מתחת לגיל 13. איננו אוספים ביודעין נתונים מילדים. אם אתה מאמין שילד סיפק לנו מידע אישי, אנא פנה אלינו מיד.\n\n---\n\n**9. שינויים במדיניות זו**\n\nאנו עשויים לעדכן את מדיניות הפרטיות הזו מעת לעת. שינויים משמעותיים יימסרו דרך דף האפשרויות של התוסף. המשך השימוש בתוסף לאחר שינויים מהווה הסכמה למדיניות המעודכנת.\n\n---\n\n**10. צור איתנו קשר**\n\nלכל שאלה הקשורה לפרטיות, בקשות למחיקת נתונים או חשש:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n1. שואפים להגיב לכל הבקשות תוך 30 יום.",
+    "description": "Privacy policy document markdown text"
+  }
+}

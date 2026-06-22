@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI жұмысын автотолтыру және қолданбаларды бақылау құралы",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn, Workday, Greenhouse және т.б. қызметтерде AI көмегімен жұмыс қосымшаларын автоматты түрде толтырыңыз және тізімдерді автоматты түрде қадағалаңыз.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Белсенді",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Қолданылған",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Сұхбат",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Ұсыныс",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Сақталды",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Барлығы",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Автотолтыру",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Толтырылуда...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Жылдам автотолтыру",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Тапсырманы талдау",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Бүйірлік тақтаны ашыңыз",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Параметрлер",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Жылдам автотолтыруды пайдалану үшін алдымен Google жүйесіне кіріңіз!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Алдымен профиліңізді бүйірлік тақта/параметрлер бетінде орнатыңыз!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Анықталды",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Жұмыс беті табылмады",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI мүмкіндіктерін ашу үшін жұмыс тізіміне кіріңіз",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Қайырлы таң",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Қайырлы күн",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Қайырлы кеш",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ қолданбалар бақыланды · $2$ сұхбат",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Прогрессіңізді бақылау үшін өтініш беруді бастаңыз",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Қосымша хат",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Сұрақ-жауап анықтамасы",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Көмек беруге дайын",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Бастау үшін LinkedIn, Workday, Greenhouse немесе кез келген жұмыс тақтасындағы жұмыс тізіміне өтіңіз.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Осы аптада",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Соңғы әрекет",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Барлығын көру →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Жұмыс іздеуді бастаңыз!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Тапсырмалар тақтасына кіріп, қолданбаларды автоматты түрде толтыру және қадағалау үшін ApplyFlow пайдаланыңыз.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Менің профилім",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Сақталуда...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Барлығын сақтау",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Профиль сақталды!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Профиль сақталмады.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Резюме",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Автоматты толтыру профиліне жүктеп салыңыз",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Жүктеп салынды",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Жеке ақпарат",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Аяқталмаған",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Орналасқан жері",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Білім",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Дағдылар",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Жұмыс тәжірибесі",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Жобалар",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Жұмыс параметрлері",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Жұмысқа рұқсат беру",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Тарихты жалғастыру",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Мынаны пайдаланыңыз",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ талданған",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Профиль мәліметтерін \"$1$\" ішінен жүктеу керек пе? Бұл ағымдағы өңдеулеріңізді осы түйіндеменің талданған құрылымымен ауыстырады.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ қалпына келтірілген мәліметтер",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Сәйкестік ұпайы",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Сәйкес",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ тағы",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Қолданба автоматты түрде толтырылды және тіркелді! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow бүйірлік тақтасы арқылы автоматты түрде толтырылады",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "сонда",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Колледж жинағы жоқ",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Автоматты толтыруды қосу үшін профиліңізді орнатыңыз",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Орнатылмаған",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ жазбалар",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ дағдылары",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ жобалары",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ жауап береді",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Рұқсат етілген",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Рұқсат етілмеген",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Толық аты-жөні",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Электрондық пошта",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Телефон",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Балама телефон",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL мекенжайы",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Портфолио URL мекенжайы",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL мекенжайы",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Жалғастыру сілтемесі",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Қала",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Мемлекет",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Ел",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Пошта индексі",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Мекенжай",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Ұлты",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Колледж / Университет",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Дәреже",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Бітіру жылы",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / баға",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Ескерту кезеңі",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Күтілетін жалақы",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Таңдаулы рөл",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Жылдар тәжірибесі",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Визасыз демеушіліксіз жұмыс істеуге рұқсат етілген",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Визалық демеушілік қажет",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Жыныс",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Мүгедектік",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Айтпағанды жөн көр",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Белгіленген жоқ",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Еркек",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Әйел",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Екілік емес",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Иә",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Жоқ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ешқандай дағдылар әлі қосылмаған",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Дағды қосу (қосу үшін енгізіңіз)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Триггер фразасы (мысалы, сізді неге жұмысқа алуымыз керек)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Сіздің жауабыңыз...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Жою",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Теңшелетін жауапты қосыңыз",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Компания",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Рөл/атауы",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Басталу күні",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Аяқталу күні",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Қазіргі",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Мен қазір осы рөлде жұмыс істеймін",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Сипаттама",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Жауапкершіліктеріңізді, негізгі жетістіктеріңізді, қолданылатын технологияларды сипаттаңыз...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Жұмыс тәжірибесін қосыңыз",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Жоба атауы",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Техникалық стек",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Орналастыру URL мекенжайы",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Не салғаныңызды, қандай мәселені шешкенін және негізгі мүмкіндіктерді сипаттаңыз...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Жоба қосу",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Трекер",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Сақталды",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Қолданылған",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Бағалау",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Сұхбат",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Ұсыныс",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Қабылданбады",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Шығарылды",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Бұл қолданбаны жою қажет пе?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Қолданба жаңартылды!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Қолданба жойылды.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Күй",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Платформа",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Қолданылған",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Жұмыс жариялауын ашыңыз",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Жалақы / Стипендия",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Кейінгі еске салғыш",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Ескертпелер",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Жазбаларды, байланыс ақпаратын, сұхбат мәліметтерін қосыңыз...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Жұмыс сипаттамасы (үзінді)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Жою",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Бас тарту",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Сақтау",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 қолданба",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ қолданбалары",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Компания бойынша сүзу...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Күй сүзгілері",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Қосымша ақпарат алу үшін оңға жылжытыңыз →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Барлығы",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Қолданбалар табылмады",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Жаңа трекер жазбасын қосу үшін сүзгілерді қалпына келтіріп көріңіз немесе тапсырманы сақтаңыз",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Аналитика",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ жалпы өтінімдер",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Әзірге деректер жоқ",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Жұмыс орындарына өтініш бере бастасаңыз, аналитика осы жерде пайда болады.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Конверсия бағамдары",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Қолданылған",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Әңгімелесу бағамы",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Ұсыныс мөлшерлемесі",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Осы аптада қолданбалар",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Қолданба шұңқыры",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Үздік платформалар",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Күйдің бөлінуі",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI қосалқы ұшқышы",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Мәтінмән: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Сіздің мансаптық көмекші пилот",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Жаңа чат ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Жасанды интеллект жауаптарды жекелендіруі үшін алдымен профиліңізді орнатыңыз.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Чат тазартылды! Мен сізге немен көмектесе аламын?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Осы жұмыс туралы кез келген нәрсені сұраңыз ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Бастау үшін профиліңізді орнатыңыз",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Жіберу үшін Enter пернесін басыңыз",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Үйлесімділік ұпайын жалғастырыңыз",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Күшті дағдылар",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Жетіспейтін дағдылар",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Міне, сіздің жеке мұқаба хатыңыз:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Көшірілген!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Көшіру",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Жүктеп алу",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Міне $1$ ықтимал сұхбат сұрақтары:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Жалғастыру оңтайландыру баллы: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Сәйкестік ұсыныстарын жалғастыру",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "осы жұмыс сипаттамасына қарсы",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Бірдеңе дұрыс болмады. Қайталап көріңіз.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Сәлем! **$2$**-де **$1$** рөлге қарап отырғаныңызды көріп тұрмын.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Сәлем! Сіз **$1$** рөлге қарап жатқаныңызды көріп тұрмын.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Сәлем! Мен сіздің AI мансабыңыздағы екінші пилотпын. Жұмыс тізіміне өтіңіз, мен оны автоматты түрде талдаймын немесе кез келген нәрсені сұраймын!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Алдымен профиль қойындысында профиліңізді орнатыңыз!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Бұл мүмкіндікті пайдалану үшін алдымен браузеріңізде жұмыс тізімі бетін ашыңыз!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow құлпын ашыңыз",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Бақылау тақтасына кіру, тапсырмаларды синхрондау, түйіндеме профилін басқару және жұмыс қолданбаларын автоматты түрде толтыру үшін Google жүйесіне кіріңіз.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI автотолтыру және кескіш",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Бір рет басу арқылы қолданбаларды сканерлеу және автотолтыру.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Бұлтты синхрондау және сақтық көшірме жасау",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Барлық жұмысты бақылау мәліметтерін Supabase бағдарламасына синхрондаңыз.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Түйіндеме және профильдер",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Түйіндемеңізді жүктеп салыңыз және өтінім жауаптарын реттеңіз.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google-ға қосылуда...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google арқылы жүйеге кіріңіз",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Жүйеге кіру арқылы сіз профиль деректеріңізді белсенді жұмыс кеңістігіңізге қауіпсіз синхрондауға келісесіз.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Шығыңыз келетініне сенімдісіз бе?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Жүйеден сәтті шықты.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ ретінде кірдіңіз",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Шығу",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Жүйеге кіру",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Қосылуда...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow ашыңыз",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Қолдану ағыны сәйкестігі",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Күшті сәйкестік дағдылары",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Жетіспейтін дағдылар",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Смарт автотолтыру беті",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Пішін автоматты түрде толтырылуда...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Бетте толтырылатын қолданба өрістері табылмады.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Сәтті толтырылды!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Бет күрделілігіне байланысты автотолтыру орындалмады.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Толтыру кезінде журнал трекеріне автоматты түрде сақталады.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Сіздің түйіндемеңіз осы рөлге **$1$% үйлесімді**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Қайтадан қош келдіңіз, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google пайдаланушы профилі ақпаратын алу мүмкін болмады.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth кіру сәтсіз аяқталды: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Қайта бағыттаудан кіру таңбалауышын алу мүмкін болмады.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Аутентификацияны қайта бағыттауды талдау сәтсіз аяқталды.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Бұл платформада аутентификацияға қолдау көрсетілмейді.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Тапсырма трекерге сақталды!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Қонақ",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Жалпы параметрлер",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn жұмыс беттерінде көрсету",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "LinkedIn сайтында жұмыс туралы хабарларды көргенде смарт сәйкестік ұпайын және бір рет басу арқылы автоматты толтыру түймесін көрсетеді.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "«Тапсырманы сақтау» түймесін көрсету",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Жұмыс сайттарында қалқымалы \"Жұмысты сақтау 📌\" түймешігін көрсетеді, осылайша өтінім берер алдында жұмыс мәліметтерін трекерге жылдам сақтай аласыз.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Тек нақты қолданғаннан кейін ғана жүйеге кіріңіз",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Тапсырманы трекерге қоспас бұрын, «Рахмет» немесе «Сәттілік» экранын көргенше күтіңіз. Жартылай толтырылған пішіндердің \"Қолданылған\" ретінде сақталуына жол бермеу арқылы трекерді ұқыпты ұстайды.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI несиелері және пайдалану аналитикасы",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Несиелер қалды",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Қалған несиелер",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Жалпы несиелер",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Барлық уақыттағы автотолтырулар",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Жоспар күйі",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Премиум 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Тегін 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Кәсіби кеңес:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Smart Autofill операциялары 0 кредитті жұмсайды және 100% шектеусіз! Тек Мұқаба хаттар (5 кредит) және реттелетін эсселер (3 кредит) сияқты жетілдірілген AI мүмкіндіктері ғана несие балансын жұмсайды.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google есептік жазбасы және бұлтты синхрондау",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync белсенді",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync құлыпталған (тек премиум)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Бұлтты синхрондау",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Бұлтқа басыңыз",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Бұлттан тартыңыз",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Синхрондау сәтті болды!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Синхрондау сәтсіз аяқталды. Байланысты тексеріңіз.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Қауіпсіз бұлтты синхрондау",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Қолданбалар мен профильдердің сақтық көшірмесін Supabase жүйесіне жасау үшін Google жүйесіне кіріңіз. Синхрондау - журналдарыңызды құрылғыларда қауіпсіз сақтайтын премиум мүмкіндігі.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync - бұл премиум мүмкіндік. Синхрондауды қосу үшін Жаңарту қойындысында жаңартыңыз!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Деректерді басқару",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Сақтық көшірмені экспорттау (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Барлық жергілікті деректерді өшіру",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Жергілікті деректерді өшіру профиліңізді және қолданбаларды тек осы құрылғыдан жояды. Бұлттық деректерге әсер етпейді.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Басқару орталығы",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Басты және туралы",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Жалпы параметрлер",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro 👑 нұсқасына жаңартыңыз",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Премиум жоспар 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Есептік жазба және синхрондау",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Құпиялық саясаты",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Жиі қойылатын сұрақтар",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Пернелер тіркесімдері",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow қызметіне қош келдіңіз",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow – тезірек және ақылдырақ өтініш тапсырғысы келетін студенттер мен жұмыс іздеушілерге арналған жасанды жасанды Chrome кеңейтімі. Ол 15-тен астам платформалардағы жұмысқа өтінім пішіндерін автоматты түрде анықтайды және толтырады, сіздің құбырларыңызды қадағалайды және көбірек сұхбат алуға көмектеседі.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart автотолтыру",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Нақты селекторлары бар 15+ ATS платформалары",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Кез келген жұмыс тізімін бір рет басу арқылы сақтаңыз",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Қолданба құбырын сүйреп апарыңыз",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO автотолтыру",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Демографиялық және визалық сұрақтарды автоматты түрде толтырады",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI эсселері",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Егіздердің көмегімен реттелетін жауап жазу",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Қауіпсіз синхрондау",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Қосымша Supabase бұлттық сақтық көшірмесі",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Жұмысты қалай бастау керек",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Профильді жасаңыз",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Қалқымалы терезені ашыңыз → Профиль қойындысы → түйіндемеңізді PDF жүктеп салыңыз. Жасанды интеллект сіздің барлық мәліметтеріңізді, соның ішінде дағдыларды, тәжірибені, білім мен жобаларды автоматты түрде шығарады.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO теңшелімдерін орнатыңыз",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Профильдегі EEO бөліміне жылжып, жұмыс рұқсатын, визалық демеушілік қажеттіліктерін және демографиялық таңдауларды орнатыңыз. Олар EEO сауалнамасын автотолтыру үшін пайдаланылады.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Жұмыс тізімін шолыңыз",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Кез келген жұмыс тізіміне өтіңіз. 📌 \"Тапсырманы сақтау\" түймесі пайда болады. Позицияны трекерге бірден сақтау үшін оны басыңыз.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Өтініш формасын ашыңыз",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Өтінім пішініне өтіңіз. ApplyFlow қалқымалы терезесін басыңыз → «Бетті сканерлеу» → содан кейін «⚡ Smart автотолтыру» түймесін басыңыз. Барлық өрістер, соның ішінде радио түймелері мен ашылмалы тізімдері бірден толтырылады.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Құбырыңызды қадағалаңыз",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Барлық қолданбаларды көру үшін Tracker қойындысын ашыңыз. Kanban тақтасының көрінісіне ауысыңыз және күй жаңартулары ретінде карталарды бағандар арасында сүйреңіз.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Жүйеге кіру қажет",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Параметрлерді реттеу үшін жүйеге кіріңіз",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Жалпы параметрлер тек жүйеге кірген пайдаланушылар үшін қолжетімді. Параметрлеріңізді, автотолтыру әрекеттерін және т.б. конфигурациялау үшін Google жүйесіне кіріңіз.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Тіркелгі және синхрондау бөліміне өтіңіз",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Лицензия кілті: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Лицензияны өшіру",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Лицензия кілтін белсендіру",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Жазылымды сатып алсаңыз немесе кіру кодын алсаңыз, ApplyFlow Premium құлпын ашу үшін төменде лицензия кілтін енгізіңіз.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Іске қосу",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Белсендіруде...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Кеңес: Премиумды APPLYFLOW-PRO-2026 пернесі арқылы қосуға болады.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Премиум белсендірілді!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow қызметіне қолдау көрсеткеніңіз үшін рахмет. Барлық премиум мүмкіндіктердің құлпы ашылды.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Премиум жаңарту жоспары",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Мансап экспорты мен кеңейтілген AI мүмкіндіктерін ашыңыз.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Қосымша хаттар, реттелетін эссе жауаптары, түйіндемені оңтайландыру және жалған сұхбатқа дайындық үшін жоғары сапалы AI кредиттерін алыңыз. Қолдау көрсетілетін платформалардағы автотолтыру операциялары толығымен шектеусіз және барлық премиум пайдаланушылар үшін тегін!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Ерте қабылдауға арналған ұсыныс:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 Premium пайдаланушысында келесі баға өсімі. Бұл тарифті өмір бойы құлыптаңыз!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Ай сайынғы Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Қысқа мерзімді іздеу үшін жақсы",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ай",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Тәулігіне бар болғаны ₹13)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "Айына 150 AI кредиті|||Шексіз автотолтырулар (барлық порталдар)|||Бұлтты синхрондау және Google сақтық көшірмесі|||Премиум тақырыптар|||Жарнамасыз тәжірибе",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Ай сайын жазылу",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Тоқсандық Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Көптеген жұмыс іздеушілер үшін ең жақсы баға",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ай",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Тәулігіне бар болғаны ₹11)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "Тоқсан сайын 500 AI кредиті|||Шектеусіз автотолтырулар (барлық порталдар)|||Арнайы мұқаба хаттар мен эсселер|||Бұлтты синхрондау және Google сақтық көшірмесі|||Сәйкестікті жалғастыру ұсыныстары",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Тоқсан сайын жазылу",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Ең танымал",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Жылдық Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Қуатты пайдаланушылар үшін ең жақсы баға",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2 999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ жыл",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Айына ₹249 баламасы)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "Жылына 2500 AI кредиті|||Шектеусіз күнделікті автотолтырулар|||Арнайы мұқабалық хаттар мен эсселер|||Бұлтты синхрондау және Google сақтық көшірмесі|||Сәйкестік ұсыныстарын жалғастыру|||Басымды электрондық поштаны қолдау",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Жыл сайын жазылу",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Ең жақсы баға - 40% үнемдеңіз",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow әзірлеуге қолдау көрсету",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow тәуелсіз әзірлеушілермен құрастырылады және оған қызмет көрсетеді. Кеңейтімді пайдалы деп тапсаңыз, оны белсенді, жарнамасыз және жаңа жұмыс тақталары үшін жаңартылған күйде ұстауға көмектесу үшін Ko-fi сайтында қайырымдылық жасауды қарастырыңыз.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Маған Ко-фиден кофе сатып алыңыз",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 рейтинг|||🔒 Қауіпсіз төлемдер|||✓ Кез келген уақытта бас тарту",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Жарамсыз лицензия кілті. Кеңес: 'APPLYFLOW-PRO-2026' демонстрациялық кілтін пайдаланып көріңіз!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Лицензия сәтті іске қосылды! ApplyFlow Premium қызметіне қош келдіңіз. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Премиум лицензияңызды шынымен өшіргіңіз келе ме? Бұл сізді Тегін жоспарға қайтарады.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Премиум лицензия өшірілді. Сіз қазір тегін жоспардасыз.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Бұл БАРЛЫҚ жергілікті профиль мен қолданба деректерін біржола жояды. Сіз сенімдісіз бе?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Құпиялық саясаты",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Жиі қойылатын сұрақтар",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow дегеніміз не және ол қалай жұмыс істейді?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow — LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever және т.б. қоса алғанда, 15+ платформасында жұмысқа өтінім пішіндерін автоматты түрде анықтайтын және толтыратын AI-мен жұмыс істейтін Chrome кеңейтімі. Ол сақталған профильді оқиды және мәтін өрістерін, ашылмалы тізімдерді, радио түймелерді және құсбелгілерді, соның ішінде EEO/демографиялық сұрақтарды толтыру үшін интеллектуалды сәйкестікті пайдаланады.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Менің жеке деректерім ApplyFlow арқылы қауіпсіз бе?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Иә. Деректеріңіз әдепкі бойынша браузеріңіздің chrome.storage.local ішінде жергілікті түрде сақталады. Ол ешқашан жеке Supabase дерекқорынан (сіз басқаратын) басқа ешбір үшінші тарап серверіне жіберілмейді. ApplyFlow ешқашан жеке ақпаратыңызды сатпайды, бөліспейді немесе ақшаға айналдырмайды.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow қандай жұмыс платформаларын қолдайды?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow қораптан тыс 15+ платформаны қолдайды: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList және біздің intelligent generic matcher арқылы кез келген басқа сайт.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper дегеніміз не?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper - кез келген жұмыс тізімі бетіне кірген кезде автоматты түрде пайда болатын қалқымалы \"Тапсырманы сақтау\" түймесі (📌). Оны басу жұмыс атауын, компанияны, жалақыны және сипаттаманы шығарып алады, содан кейін оны ApplyFlow трекеріне \"Сақталған\" қолданба ретінде сақтайды, осылайша өтінім берер алдында тапсырмаларды бақылай аласыз.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Профильді қалай жаңартамын?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow қалқымалы терезесін ашыңыз, «Профиль» қойындысын басыңыз және түйіндемеңізді PDF жүктеп салыңыз. AI сіздің барлық өрістеріңізді автоматты түрде толтырады. Сондай-ақ кез келген өрісті, соның ішінде EEO теңшелімдерін, жұмыс рұқсатын және мұқаба хаттарды қолмен өңдеуге болады.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO өрістері дегеніміз не және олар маған не үшін қажет?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Жұмыспен қамтудың тең мүмкіндігі) өрістері - көптеген АҚШ және жаһандық жұмыс берушілер жыныс, мүгедектік мәртебесі, ардагер мәртебесі және жұмысқа рұқсат туралы сұрайтын сұрақтар. ApplyFlow таңдаулы жауаптарыңызды сақтайды және осы радио түймелері топтарын автоматты түрде толтырады, сондықтан оларға әр уақытта қолмен жауап берудің қажеті жоқ.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow кез келген API кілттерін немесе конфигурацияны қажет ете ме?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Жоқ! ApplyFlow барлық пішінді анықтауды, смарт сәйкестендіруді, мұқаба хатын жасауды және үйлесімділік ұпайларын автоматты түрде өңдейді. Сізге API кілттерін алу немесе конфигурациялау қажет емес.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase синхрондау дегеніміз не және ол маған қажет пе?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase синхрондау - бұлттың сақтық көшірмесін жасаудың қосымша мүмкіндігі. Google жүйесіне кіріп, оны қосқан кезде профиліңіз және қолданба трекеріңіз жеке бұлттық дерекқормен синхрондалады, осылайша деректеріңіздің сақтық көшірмесі жасалады және бірнеше құрылғыдан қол жетімді болады. Бұл толықтай міндетті емес — кеңейтім толығымен офлайн режимінде жұмыс істейді.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Неліктен ApplyFlow барлық веб-сайттарға кіруге мұқтаж?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow барлық веб-сайттарға кіруді сұрайды, осылайша ол кез келген жұмысқа өтінім пішініне автоматты толтыру механизмін енгізе алады және кез келген жұмыс тізімінде «Тапсырманы сақтау» кескіш түймесін көрсетеді. Бұл рұқсат кең платформаны қолдау үшін қажет. Біз сценарийлерді тек жұмысқа қатысты нақты беттерге енгіземіз.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Канбан кеңесі дегеніміз не?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban тақтасы - Tracker қойындысындағы визуалды тапсырманы бақылау көрінісі. Ол қолданбаларыңызды бағандарда реттелген көрсетеді: Сақталған → Қолданылған → Бағалау → Сұхбат → Ұсыныс. Кез келген қолданбаның күйін жаңарту үшін карталарды бағандар арасында сүйреп апаруға болады.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Жіберуді анықтау қалай жұмыс істейді?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Параметрлерде «Жіберілгеннен кейін ғана журналға кіру» мүмкіндігін қосқанда, ApplyFlow сәтті жіберуді көрсететін бет өзгерістерін бақылайды («/сәтті» бар URL мекенжайы немесе «Өтініш бергеніңіз үшін рақмет» деген негізгі мәтін сияқты). Ол нақты жіберуді анықтағаннан кейін ғана қолданбаны трекерге тіркейді.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Бірнеше мұқаба әріптерді сақтай аламын ба?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Иә! Профиль экранында әртүрлі рөлдерге немесе компанияларға бейімделген шексіз мұқаба хаттарды сақтауға болатын «Мұқаба хаттар қоймасы» бөлімі бар. Автотолтыру кезінде ApplyFlow сіздің ең соңғы немесе ең сәйкес мұқаба хатыңызды пайдаланады.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Қолданба деректерін қалай экспорттаймын?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "«Тіркелгі және синхрондау» тармағына өтіңіз → төменге қарай жылжыңыз → «Сақтық көшірмені экспорттау (JSON)» түймесін басыңыз. Бұл барлық профильді және қолданба деректерін сақтау үшін JSON файлы ретінде жүктеп алады.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow демо режимінде жұмыс істей ме?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Демо режимі тестілеу үшін пайдаланылған ескі параметр болды. Ол енді әдепкі бойынша өшірілген. Барлық мүмкіндіктер кірістірілген Gemini API кілтімен белсенді және жұмыс істейді.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Қате туралы қалай хабарлауға немесе мүмкіндікті сұрауға болады?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Мәселені GitHub репозиторийімізде ашыңыз (бұл туралы бөлімде сілтеме бар) немесе support@applyflow.in электрондық поштасына жіберіңіз. Біз әдетте 48 сағат ішінде жауап береміз.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow қалқымалы терезесін ашыңыз",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Пішін өрістері үшін ағымдағы бетті сканерлеңіз",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Ағымдағы бетте Smart автотолтыруды іске қосыңыз",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Ағымдағы жұмыс тізімін трекерге қиып алыңыз",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Tracker қолданбасын жаңа қойындыда ашыңыз",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome браузерінде төте жолдарды конфигурациялаңыз",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Ескерту:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome кеңейтімінің пәрмендері Chrome таңбаша менеджерінде қолмен тағайындауды қажет етеді. Жоғарыда аталған пернелерді байланыстыру үшін $1$ өтіңіз.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome кеңейтімі — Құпиялық саясаты**\nСоңғы жаңартылған уақыты: 2026 жылдың маусымы\n\n---\n\n**1. Кіріспе**\n\nApplyFlow («біз», «біздің», «кеңейтім») — пайдаланушыларға жұмысқа өтінім пішіндерін автоматты түрде толтыруға, олардың өтініштерін қадағалауға және кәсіби профилін басқаруға көмектесетін Chrome браузерінің кеңейтімі. Бұл Құпиялық саясаты ақпаратыңызды қалай жинайтынымызды, пайдаланатынымызды, сақтайтынымызды және қорғайтынымызды түсіндіреді.\n\nApplyFlow орнату және пайдалану арқылы сіз осы саясатта сипатталған тәжірибелермен келісесіз.\nNL_10__---\n\n**2. Біз жинайтын деректер**\n\nКеңейтім мүмкіндіктерін қосу үшін сіз өз еркіңізбен берген ақпаратты ғана жинаймыз:\n\n• **Профиль ақпараты**: Сіздің атыңыз, электрондық поштаңыз, телефон нөміріңіз, колледжіңіз, дәрежеңіз, дағдыларыңыз, жұмыс тарихы, жобалары және кәсіби сілтемелері (Linkub, GitHB_1L•In__In). **EEO/Демографиялық ақпарат (міндетті емес)**: жынысы, мүгедектік күйі, ардагер мәртебесі және жұмысқа рұқсат беру таңдаулары — осы өрістерді толтыруды таңдасаңыз ғана беріледі. Бұл деректер тек жұмысқа өтінімдердегі қосымша EEO сауалнамасын автотолтыру үшін пайдаланылады.\n• **Өтінімдерді бақылау деректері**: жұмыс атауы, компания, қолданбаның URL мекенжайы, күй және кеңейтімді пайдаланып қадағалайтын орындарға арналған ескертпелер.\n• **Пайдалану статистикасы**: (күнделікті автоматты толтыру үшін орындалатын операциялардың саны) шектеулер).\n• **Түпнұсқалық растау деректері**: Google жүйесімен кіруді таңдасаңыз, тәжірибеңізді жекелендіру және бұлтты синхрондауды қосу үшін Google көрсетілетін атыңызды, электрондық пошта мекенжайыңызды және профиль суретінің URL мекенжайын сақтаймыз.\nNL_22__Біз **жиналмаймыз**:\n• Төлем немесе қаржылық шолу • B__NL224 әрекет\n• Жұмыс қолданбасына қатысы жоқ беттердегі кез келген ақпарат\n• Кеңейтім белсенді іске қосылмаған кездегі беттердегі кез келген деректер\nNL_28__---\n\n**3. Деректерді қалай сақтаймыз**\n\n**3.1 Жергілікті сақтау (әдепкі)**\nБарлық деректер негізінен браузеріңіздің chrome.storage.local API ішінде сақталады. Бұл деректер тек құрылғыңызда болады және сіздің нақты әрекетіңізсіз ешқашан ешбір серверге берілмейді.\n\n**3.2 Cloud Sync (қосымша)**\nGoogle жүйесіне кіруді және \"Supabase Sync\" мүмкіндігін қосуды таңдасаңыз, профиліңіз бен қолданба деректеріңіз де синхрондалатын дерекқор болады. Сіз бұл деректердің толық иелігін сақтайсыз. Оны кез келген уақытта «Тіркелгі және синхрондау» бөлімінен жоя аласыз.\n\n**3.3 Gemini AI сұраулары**\nAI мүмкіндіктері пайдаланылғанда (мысалы, эссе жасау, жұмыс талдауы), профиліңіздің бөліктері (дағдылар, дәреже, қорытынды) және Google жұмыс сипаттамасының жауап мәтіні Gemini API жасау үшін жіберіледі. Бұл Google стандартты API қызмет көрсету шарттары мен құпиялылық саясаты бойынша өңделеді. Жасанды интеллект көмегімен қолданылатын мазмұнға құпия жеке идентификаторларды қоспауды ұсынамыз.\n\n---\n\n**4. Деректерді ортақ пайдалану**\n\nБіз жеке ақпаратыңызды маркетинг немесе жарнама мақсатында үшінші тараптарға **сатпаймыз, сатпаймыз, жалға бермейміз немесе бөліспейміз.\n\nДеректеріңізді келесі сенімді қызметтер өңдеуі мүмкін:\n• **Google Gemini-ді талдау және толтыру үшін API-ді толтыру** (https://policies.google.com/privacy)\n• **Google OAuth**: тіркелгі аутентификациясы үшін (https://policies.google.com/privacy)\n• **Supabase**: қосымша бұлттық жады үшін (https://supabase.com/privacy қоссаңыз ғана) — sync\n\n---\n\n**5. Құқықтарыңыз бен бақылауларыңыз**\n\nСіздің құқығыңыз бар:\n• **ApplyFlow сіз туралы сақтаған барлық деректерге қол жеткізу** (параметрлердегі Экспорттық сақтық көшірме арқылы)\n• **Кез келген уақытта Профиль қойындысында ақпаратыңызды түзетіңіз****Барлық деректеріңізді пайдалана отырып **барлық деректеріңізді түзетіңіз*** Параметрлердегі \"Барлық профиль деректерін өшіру\"\n• **Келісімнен бас тарту**** кеңейтімді кез келген уақытта жою\n• **Тіркелгі және синхрондау параметрлерінде өшіру арқылы бұлттық синхрондауды өшіріңіз**\n\n**GDPR (ЕО резиденті болсаңыз, құқығыңыз бар): ЕО-ға кіру құқығыңыз бар. Деректерді қорғаудың жалпы ережесіне сәйкес түзету, өшіру, өңдеуді және деректерді тасымалдау мүмкіндігін шектеу.\n\n**Үндістан — DPDP 2023 актісі**: Үндістанның 2023 жылғы сандық жеке деректерді қорғау актісіне сәйкес, біз жеке деректерді жұмысқа өтінімге көмек көрсету қызметін ұсыну мақсатында ғана өңдейміз. Бізге хабарласу арқылы кез келген уақытта келісімнен бас тарта аласыз және деректеріңізді жоюды сұрай аласыз.\n\n**Калифорния — CCPA**: Калифорния тұрғындары қандай жеке ақпарат жиналғанын, жою құқығын және сатудан бас тарту құқығын білуге құқылы (біз сатпаймыз. деректер).\n\n---\n\n**6. Деректерді сақтау**\n\nЖергілікті деректер сіз оларды қолмен тазаламайынша сақталады. Бұлтпен синхрондалған деректер тіркелгіңізді жоймайынша немесе жоюды сұрамайынша сақталады. Біз деректерді автоматты түрде жоймаймыз.\n\n---\n\n**7. Қауіпсіздік**\n\nДеректерді қорғау үшін ақылға қонымды техникалық шараларды қабылдаймыз:\n• Барлық бұлттық байланыстар HTTPS/TLS шифрлауын пайдаланады\n• Supabase Row-Level Security (RLS) пайдаланушыларға тек өз деректеріне қол жеткізе алатынын қамтамасыз етеді\n оның рұқсат сұрауы қажет емес. функциясы\n\n---\n\n**8. Балалардың құпиялылығы**\n\nApplyFlow 13 жасқа толмаған пайдаланушыларға арналмаған. Біз балалардан әдейі деректерді жинамаймыз. Бала бізге жеке ақпаратты берді деп ойласаңыз, дереу бізге хабарласыңыз.\n\n---\n\n**9. Осы саясатқа өзгертулер**\n\nБіз осы Құпиялық саясатын мезгіл-мезгіл жаңарта аламыз. Маңызды өзгерістер кеңейтімнің Параметрлер беті арқылы хабарланады. Өзгерістер енгізілгеннен кейін кеңейтімді пайдалануды жалғастыру жаңартылған саясатты қабылдауды білдіреді.\n\n---\n\n**10. Бізбен хабарласыңыз**\n\nҚұпиялылыққа қатысты сұрақтар, деректерді жою сұраулары немесе алаңдаушылықтар үшін:\n\nЭлектрондық пошта: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nВеб-сайт: https://applyflow.in\n\nБіз барлық сұрауларға 30 күн ішінде жауап беруге тырысамыз.",
+    "description": "Privacy policy document markdown text"
+  }
+}

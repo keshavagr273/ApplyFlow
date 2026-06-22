@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "Ngwa ngwa: AI Job Autofill & Ngwa Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Mejupụta ngwa ọrụ na ndepụta egwu na-akpaghị aka site na iji AI na LinkedIn, ụbọchị ọrụ, griin haus na ndị ọzọ.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "Ngwa ngwa",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Na-arụ ọrụ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Tinyere",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Ajụjụ ọnụ",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Nye",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Echekwara",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Mkpokọta",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Mejuputa akpaaka",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Na-ejuputa...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Ngwa ngwa akpaaka",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Nyochaa Job",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Mepee Ogwe akụkụ",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Ntọala",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Biko buru ụzọ banye Google ka ijiri ngwa ngwa ngwa ngwa!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Biko buru ụzọ guzobe profaịlụ gị na ibe akụkụ/Nhọrọ!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "_P_0__ Achọpụtara",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Enweghị ibe ọrụ ahụrụ",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Gaa na ndepụta ọrụ ka imeghe atụmatụ AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Ututu oma",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "N'ehihie ọma",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Mgbede ọma",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ ngwa a na-enyocha · $2$ ajụjụ ọnụ",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Malite itinye akwụkwọ iji soro ọganihu gị",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Akwụkwọ ozi mkpuchi",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Enyemaka Ajụjụ&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Njikere inye aka",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Gaa na ndepụta ọrụ na LinkedIn, ụbọchị ọrụ, griin haus, ma ọ bụ bọọdụ ọrụ ọ bụla ka ịmalite.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Izu a",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Ihe omume na nso nso a",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Lelee ihe niile →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Malite ịchụ nta ọrụ gị!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Gaa na bọọdụ ọrụ wee jiri ApplyFlow mejupụta ma soro ngwa gị na-akpaghị aka.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profaịlụ m",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Na-echekwa...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Chekwaa Ha niile",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "echekwara profaịlụ!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Ịchekwa profaịlụ adịghị.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "maliteghachi",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Bulite na profaịlụ mejuo onwe ya",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Ebugoro",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Ozi nkeonwe",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Ezughi oke",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Ebe",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Agụmakwụkwọ",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Nkà",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Ahụmahụ ọrụ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Ihe oru ngo",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Mmasị ọrụ",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Ikike ọrụ",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Malitegharịa akụkọ ihe mere eme",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Jiri Nke a",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Atụlere na $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Budata nkọwa profaịlụ site na \"$1$\"? Nke a ga-eji nhazi nrụgharị a tụgharịrị dochie ndezi gị ugbu a.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Ozi eweghachitere site na _P_0__",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Akara egwuregwu",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ dabara",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ ọzọ",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Ngwa juputara ma banye! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Mejuru onwe ya site na ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ebe ahu",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Enweghị ntọala kọleji",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Hazie profaịlụ gị iji mee ka autofill nwee ike",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Edobeghị",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "Ndenye $1$",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "_P_0__ nka",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "_P_0__ oru ngo",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ zara",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Enyere ikike",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Enweghi ikike",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Aha zuru oke",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Ekwentị",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Ekwentị ọzọ",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Pọtụfoliyo URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Malitegharịa njikọ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Obodo",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Steeti",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Obodo",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Koodu nzipu ozi",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "adreesị",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Obodo",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Ụlọ akwụkwọ / mahadum",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ogo",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Afọ ngụsị akwụkwọ",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ọkwa",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10th%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Oge ngosi",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Ụgwọ ọnwa a tụrụ anya ya",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Ọrụ ahọpụtara",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Afọ Ahụmahụ",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Enyere ikike ịrụ ọrụ na-enweghị nkwado visa",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Achọrọ nkwado visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "okike",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Nkwarụ",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Ọ masịrị ka ị ghara ikwu",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Akpọpụtaghị ya",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Nwoke",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Nwanyị",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Na-abụghị ọnụọgụ abụọ",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ee",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Mba",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ọnweghị nka agbakwunyere",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Tinye nka (Tinye ka ịgbakwunye)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Akpaokwu akpalite (dịka gịnị kpatara anyị ga-eji were gị n'ọrụ)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Azịza gị...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Wepu",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Tinye Azịza Omenala",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Ụlọ ọrụ",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Ọrụ / Aha",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Ụbọchị mmalite",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Ụbọchị ngwụcha",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Dị ugbu a",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Ana m arụ ọrụ ugbu a n'ọrụ a",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Nkọwa",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Kọwaa ọrụ gị, ihe ndị isi rụpụtara, teknụzụ ejiri...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Tinye ahụmịhe ọrụ",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Aha oru ngo",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Teknụzụ Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL nsonye",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Kọwaa ihe ị wuru, nsogbu ọ doziri, yana njirimara ndị bụ isi...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Tinye Project",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Echekwara",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Tinyere",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Ntụle",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Ajụjụ ọnụ",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Nye",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Ajụjụ",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ewepụrụ",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Hichapụ ngwa a?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Emelitere ngwa!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "ehichapụrụ ngwa.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Ọnọdụ",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Tinyere",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Mepee Mbipute Ọrụ",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Ụgwọ ọnwa / nkwụ ụgwọ",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Ihe ncheta sochiri",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Ihe ndetu",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Tinye ndetu, ozi kọntaktị, nkọwa ajụjụ ọnụ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Nkọwa ọrụ (nkebi)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Hichapụ",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Kagbuo",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Chekwa",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ngwa",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "Ngwa _P_0__",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Wepụta site na ụlọ ọrụ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Ihe nzacha ọnọdụ",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Pịrị aka nri maka ihe ọzọ →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Ha niile",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Enweghị ngwa ahụrụ",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Gbalịa ịtọgharịa ihe nzacha ma ọ bụ chekwaa ọrụ ka ịgbakwunye ntinye ihe nleba anya ọhụrụ",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Nchịkọta",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "_P_0__ ngwa ngwa",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Enweghị data ma",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Malite itinye akwụkwọ maka ọrụ na nyocha gị ga-apụta ebe a.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Ọnụego mgbanwe",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Tinyere",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Ọnụọgụgụ ajụjụ ọnụ",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Ọnụego enye",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Ngwa nke izu a",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Ngwa Funnel",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Platform kacha elu",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Nkwụsị ọnọdụ",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Okwu: _P_0__",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Onye nnochite anya ọrụ gị",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Mkparịta ụka ọhụrụ ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Biko buru ụzọ guzobe profaịlụ gị ka AI nwee ike hazie nzaghachi gị.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Akpochapụla nkata! Kedu ihe m nwere ike inyere gị aka?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Jụọ ihe ọ bụla gbasara ọrụ a...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Hazie profaịlụ gị ka ịmalite",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Pịa Tinye ka izipu",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Malitegharịa akara ndakọrịta",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Nka siri ike",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Nkà na-efu efu",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Nke a bụ leta mkpuchi ahaziri onwe gị:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Eṅomiri!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Copy",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Budata",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Nke a bụ ajụjụ ajụjụ ọnụ $1$:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Malitekwa akara njikarịcha: _P_0__%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Malitegharịa aro egwuregwu",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs nkọwa ọrụ a",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Ọ nwere ihe adịghị mma. Biko nwaa ọzọ.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Ndewo! Enwere m ike ịhụ na ị na-ele ọrụ **$1$** na **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Ndewo! Enwere m ike ịhụ na ị na-ele ọrụ **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Ndewo! Abụ m onye pilot ọrụ AI gị. Gaa na ndepụta ọrụ, m ga-enyocha ya ozugbo, ma ọ bụ jụọ m ihe ọ bụla!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Biko buru ụzọ guzobe profaịlụ gị na taabụ Profaịlụ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Biko buru ụzọ mepee ibe ndepụta ọrụ na ihe nchọgharị gị ka iji atụmatụ a!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Mepee ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Soro Google banye ka ịnweta dashboard gị, mekọrịta ọrụ, jikwaa profaịlụ mmalite gị, wee mejupụta ngwa ọrụ ozugbo.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Jiri otu ọpịpị nyochaa ma mejupụta ngwa akpaaka.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Mmekọrịta igwe ojii na ndabere",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Mekọrịta nkọwa nsochi ọrụ gị niile na Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "malitegharịa & Profaịlụ",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Bulite malitegharịa gị wee hazie azịza ngwa.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Na-ejikọ na Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Jiri Google banye",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Site na ịbanye, ị kwenyere ka mekọrịta data profaịlụ gị na nchekwa na oghere ọrụ gị nọ n'ọrụ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Ị ji n'aka na ị chọrọ ịpụ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Ebipụtara nke ọma.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Batara ka _P_0__",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Banye",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Banye",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Na-ejikọ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Mepee ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Nka siri ike ijikọ",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Nka na-efu efu",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart Autofill Page",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Ụdị njuputa akpaaka...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Ọnweghị oghere ngwa enwere ike ịhụ na ibe ahụ.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Jupụta nke ọma!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Njuputa akpaaka dara n'ihi mgbagwoju ibe.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Echekwara na akpaghị aka ka ọ bụrụ ihe ndekọ ndekọ mgbe emejuchara.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "resume gị bụ **$1$% dakọtara** na ọrụ a.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Nnọọ azụ, _P_0__!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Ị nweta ozi profaịlụ onye ọrụ Google agaghị.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Nbanye OAuth dara: _P_0__",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Enwetaghị akara ohere na redirect.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Ịtụgharị nyocha redirect agaghị.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Anaghị akwado nkwenye n'elu ikpo okwu a.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "A na-echekwa ọrụ na tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Onye ọbịa",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Ntọala izugbe",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Gosi na ibe ọrụ LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Na-egosi akara dakọtara smart yana otu pịa bọtịnụ autofill mgbe ị na-elele nbipute ọrụ na LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Gosi bọtịnụ 'Chekwa Job'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Na-egosi bọtịnụ 'Chekwa Job 📌' na-ese n'elu saịtị na saịtị ọrụ ka ị nwee ike chekwaa nkọwa ọrụ ngwa ngwa na onye na-egwu gị tupu itinye akwụkwọ.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Naanị Debanye aha mgbe itinye akwụkwọ n'ezie",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Chere ruo mgbe ị ga-ahụ ihuenyo 'Daalụ' ma ọ bụ 'Ịga nke Ọma' tupu ịgbakwunye ọrụ na tracker gị. Na-eme ka ihe nchọta gị dị ọcha site na igbochi ụdị ndị nwere ọkara ka echekwara ka 'Etinye'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 kredit AI & nyocha ojiji",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Ebe E Si Nweta Hapụrụ",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Ebe E Si Nweta fọdụrụ",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Mgbakọta kredit",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Ngwunye akpaaka oge niile",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Ọnọdụ atụmatụ",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Free 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Ndụmọdụ Pro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Ọrụ Smart Autofill na-eri kredit 0 yana enweghị oke 100%! Naanị atụmatụ AI dị elu dị ka akwụkwọ ozi mkpuchi (kredit 5) na Essays omenala (kredit 3) na-eri itule kredit gị.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Akaụntụ Google na mmekọrịta igwe ojii",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Mmekọrịta igwe ojii Google na-arụ ọrụ",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Akpọchiri mmekọrịta igwe ojii (naanị adịchaghị)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Mmekọrịta igwe ojii",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Pịa na igwe ojii",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Si n'igwe ojii dọrọ",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Mmekọrịta gara nke ọma!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Mmekọrịta dara. Lelee njikọ gị.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Mmekọrịta igwe ojii echekwara",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Jiri Google banye iji kwado ngwa gị na profaịlụ gị na Supabase. Mmekọrịta bụ njirimara adịchaghị nke na-echekwa ndekọ gị n'ofe ngwaọrụ.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync bụ njirimara adịchaghị. Biko kwalite na taabụ nkwalite ka ịmekọrịta mmekọrịta!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Njikwa data",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Mbupu ndabere (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Hichapụ data mpaghara niile",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Ikpochapụ data mpaghara na-ewepụ profaịlụ gị na ngwa na naanị ngwaọrụ a. data igwe ojii emetụtaghị ya.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Ebe njikwa",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Ụlọ & Ihe gbasara",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Ntọala izugbe",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Nweta nkwalite gaa na Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Atụmatụ adịchaghị 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Akaụntụ & Mmekọrịta",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Amụma nzuzo",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Ụzọ mkpirisi ahụigodo",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Nnọọ na ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow bụ ndọtị Chrome nke AI kwadoro maka ụmụ akwụkwọ na ndị na-achọ ọrụ chọrọ itinye ngwa ngwa na amamihe. Ọ na-achọpụta na-akpaghị aka ma na-ejuputa ụdị ngwa ọrụ n'ofe 15+ nyiwe, soro pipeline gị, ma na-enyere gị aka iweta ajụjụ ọnụ.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart Autofill",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS nyiwe nwere ezigbo nhọrọ",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Mpempe akwụkwọ ntanetị",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Otu-pịa chekwaa ndepụta ọrụ ọ bụla",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Dọrọ ma dobe pipeline ngwa gị",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofill",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Na-ejuputa igwe mmadụ na ajụjụ visa na akpaghị aka",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI edemede",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Ederede omenala nke Gemini kwadoro",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Mmekọrịta echekwara",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Nkwado igwe ojii Supabase nhọrọ",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Otu esi amalite",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Mepụta profaịlụ gị",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Mepee popup → Profaịlụ taabụ → bulite malitegharịa PDF gị. AI ga-ewepụta nkọwa gị niile gụnyere nka, ahụmịhe, agụmakwụkwọ na ọrụ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Tọọ mmasị EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Pịgharịa gaa na ngalaba EEO na profaịlụ gị wee tọọ ikike ọrụ gị, mkpa nkwado visa na mmasị igwe mmadụ. A na-eji ihe ndị a emeju akwụkwọ ajụjụ EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Chọgharịa ndepụta ọrụ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Gaa na ndepụta ọrụ ọ bụla. Ị ga-ahụ bọtịnụ 📌 \"Save Job\" pụtara. Pịa ya ka ịchekwaa ọnọdụ ahụ ozugbo na tracker gị.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Mepee akwụkwọ anamachọihe",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Gaa na ụdị ngwa. Pịa popup ApplyFlow → kụọ \"nyocha ibe\" → wee \"⚡ Smart Autofill\". A na-ejupụta mpaghara niile gụnyere bọtịnụ redio na dropdown ozugbo.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Soro pipeline gị",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Mepee taabụ Tracker ka ịhụ ngwa gị niile. Banye na nlele Kanban Board wee dọrọ kaadị n'etiti kọlụm ka ọkwa gị na-emelite.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Achọrọ nbanye",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Banye ka hazie ntọala",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Ntọala izugbe dị naanị maka ndị ọrụ abanyela. Banye na Google ka ịhazie mmasị gị, omume mmeju akpaaka na ndị ọzọ.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Gaa na Akaụntụ & Mmekọrịta",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Igodo ikike: _P_0__",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Gbanyụọ ikike",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Ntinye igodo ikike",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Ọ bụrụ na ịzụrụ ndenye aha ma ọ bụ nweta koodu nnweta, tinye igodo ikike gị n'okpuru ka ị kpọghee ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Mee ka ọ rụọ ọrụ",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Na-arụ ọrụ...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Ndụmọdụ: Ị nwere ike rụọ ọrụ Premium site na iji igodo APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Agbalitere adịchaghị!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Daalụ maka ịkwado ApplyFlow. A kpọchiela atụmatụ adịchaghị mma ugbu a.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Atụmatụ nkwalite adịchaghị",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Mepee mbupụ ọrụ gị yana atụmatụ AI dị elu.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Nweta kredit AI adịchaghị mma maka mkpụrụedemede mkpuchi, azịza edemede ọdịnala, nkwalite maliteghachi, yana nkwadebe ajụjụ ọnụ ọchị. Ọrụ imeju akpaaka na nyiwe akwadoro enweghị oke yana n'efu maka ndị ọrụ niile adịchaghị!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Enyemaka onye nkuchi mbụ:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Mmụba ọnụ ahịa na-esote na ndị ọrụ Premium 500. Mkpọchi na ọnụego a maka ndụ!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Kwa ọnwa Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Ọ dị mma maka ịchọ obere oge",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "Ọnụ ego 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ọnwa",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Naanị ₹ 13 / ụbọchị)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI Ebe E Si Nweta kwa ọnwa|||Akụkụ na-akparaghị ókè (Oghere ụzọ niile)|||mmekọrịta igwe ojii na ndabere Google||| Gburugburu dị elu||| Ahụmahụ na-enweghị mgbasa ozi",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Idenye aha kwa ọnwa",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Kwa nkeji Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Uru kacha mma maka ọtụtụ ndị na-achọ ọrụ",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ ọnwa 3",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Naanị ₹ 11 / ụbọchị)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI Ebe E Si Nweta kwa nkeji iri na ise|||Akụkụ na-akparaghị ókè (Oghere ụzọ niile)||| Akwụkwọ edemede mkpuchi ahaziri iche na edemede|||mmekọrịta igwe ojii na ndabere Google||| malitegharịa aro egwuregwu",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Idenye aha kwa nkeji",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Kacha ewu ewu",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Kwa afọ Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Uru kacha mma maka ndị ọrụ ike",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ afọ",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Ekweta na ₹249 / ọnwa)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI Ebe E Si Nweta kwa afọ|||Ana-akparaghị ókè kwa ụbọchị autofills||| Akwụkwọ ozi mkpuchi ahaziri ahazi na edemede|||mmekọrịta igwe ojii na ndabere Google||| maliteghachi aro egwuregwu||| Nkwado email mbụ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Idenye aha kwa afọ",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Uru kacha mma - Chekwa 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Nkwado ApplyFlow Development",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "Ndị nrụpụta nọọrọ onwe ha wuru ma na-echekwa ApplyFlow. Ọ bụrụ na ịchọta na ndọtị ahụ na-enyere aka, tụlee inye onyinye na Ko-fi iji nyere aka mee ka ọ na-arụsi ọrụ ike, enweghị mgbasa ozi na emelitere maka bọọdụ ọrụ ọhụrụ.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Zụrụ m kọfị na Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rating|||🔒 Ịkwụ Ụgwọ echekwabara|||✓ Kagbuo oge ọ bụla",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Igodo ikike ezighi ezi. Ndụmọdụ: Gbalịa iji igodo ngosi 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Agbanyere ikike nke ọma! Nnọọ na ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ị ji n'aka na ịchọrọ iwepụ akwụkwọ ikike adịchaghị gị? Nke a ga-eweghachi gị na atụmatụ efu.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Agbanyụrụ ikike adịchaghị. Ị nọ ugbu a na atụmatụ efu.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Nke a ga-ehichapụ profaịlụ mpaghara yana data ngwa niile kpamkpam. O doro gị anya?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Amụma nzuzo",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Ajụjụ a na-ajụkarị",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Kedu ihe bụ ApplyFlow na kedu ka ọ si arụ ọrụ?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow bụ ndọtị Chrome na-akwado AI nke na-achọpụta na akpaghị aka ma mejupụta ụdị ngwa ọrụ n'ofe nyiwe 15+ gụnyere LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, na ndị ọzọ. Ọ na-agụ profaịlụ gị echekwara wee jiri ọgụgụ isi dakọtara mejupụta mpaghara ederede, ndetu, bọtịnụ redio na igbe nlele - gụnyere EEO/ajụjụ igwe mmadụ.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Data nkeonwe m enwere nchekwa na ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ee. A na-echekwa data gị na mpaghara na chrome.storage.local ihe nchọgharị gị na ndabara. Ọ dịghị mgbe ezigara ya na ihe nkesa ndị ọzọ na-abụghị nke gị Supabase nchekwa data nhọrọ (nke ị na-achịkwa). ApplyFlow anaghị ere, kekọrịta, ma ọ bụ tinye ego na ozi nkeonwe gị.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Kedu nyiwe ọrụ na-akwado ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow na-akwado ikpo okwu 15+ site na igbe: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, N'ezie, Wellfound/AngelList, na saịtị ọ bụla ọzọ site na ọgụgụ isi anyị.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Kedu ihe bụ Clipper Weebụ?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Clipper webụ bụ bọtịnụ na-ese n'elu mmiri \"Chekwa Job\" (📌) na-apụta na-akpaghị aka mgbe ị gara na ibe ndepụta ọrụ ọ bụla. Ịpị ya na-ewepụta aha ọrụ, ụlọ ọrụ, ụgwọ ọnwa na nkọwa, wee chekwaa ya na ApplyFlow tracker gị dị ka ngwa \"echekwara\" - yabụ ị nwere ike soro ọrụ tupu itinye akwụkwọ.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Kedu otu m ga-esi melite profaịlụ m?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Mepee popup ApplyFlow, pịa taabụ \"Profile\", wee bulite PDF malitegharịa gị. AI ga-ejupụta ubi gị niile na akpaghị aka. Ị nwekwara ike iji aka dezie ubi ọ bụla gụnyere mmasị EEO gị, ikike ọrụ, na mkpụrụedemede mkpuchi.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Kedu ihe ubi EEO na gịnị kpatara m ji chọọ ha?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Ugbo EEO (Ohere nha nhata) bụ ajụjụ ọtụtụ ndị US na ndị na-ewe mmadụ n'ọrụ na-ajụ gbasara okike, ọnọdụ nkwarụ, ọkwa ndị agha agha, na ikike ọrụ. ApplyFlow na-echekwa azịza ndị ọkacha mmasị gị ma mejuo otu bọtịnụ redio ndị a ozugbo ka ị ghara iji aka na-aza ha oge ọ bụla.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow ọ chọrọ igodo ma ọ bụ nhazi API ọ bụla?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Mba! ApplyFlow na-ejikwa nchọpụta ụdị niile, smart dakọtara, ọgbọ akwụkwọ ozi, yana akara ndakọrịta na-akpaghị aka. Ịkwesighi ịnweta ma ọ bụ hazie igodo API ọ bụla.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Kedu ihe bụ mmekọrịta Supabase na achọrọ m ya?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Mmekọrịta Supabase bụ njirimara ndabere igwe ojii nhọrọ. Mgbe iji Google banye wee mee ya, profaịlụ gị na ngwa tracker na-ejikọta ya na nchekwa data igwe ojii nkeonwe ka echekwara data gị wee nweta ya site na ọtụtụ ngwaọrụ. Nke a bụ nhọrọ kpamkpam - ndọtị ahụ na-arụ ọrụ zuru oke na-anọghị n'ịntanetị.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Kedu ihe kpatara ApplyFlow ji chọọ ịnweta weebụsaịtị niile?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow na-arịọ ka ịnweta weebụsaịtị niile ka ọ nwee ike ịgbanye injin autofill n'ụdị ngwa ọrụ ọ bụla, wee gosi bọtịnụ \"Chekwa Job\" na ndepụta ọrụ ọ bụla. Achọrọ ikike a maka nkwado ikpo okwu sara mbara. Anyị na-agbanye naanị edemede na ibe ndị metụtara ọrụ doro anya.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kedu ihe bụ Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Board Kanban bụ nlele nleba anya ọrụ na taabụ Tracker. Ọ na-egosi ngwa gị ahaziri na kọlụm: echekwara → etinyere → Ntụle → Ajụjụ ọnụ → Nye. Ị nwere ike ịdọrọ na dobe kaadị n'etiti kọlụm iji melite ọkwa nke ngwa ọ bụla.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Kedu ka nchọpụta nrubeisi si arụ ọrụ?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Mgbe ị na-eme ka \"Log naanị ka nrubeisi\" dị na ntọala, ApplyFlow na-elele maka mgbanwe ihu akwụkwọ na-egosi nrubeisi na-aga nke ọma (dị ka URL nwere \"/ ihe ịga nke ọma\" ma ọ bụ ederede ahụ na-ekwu \"Daalụ maka itinye\"). Ọ na-edebanye naanị ngwa ahụ na onye na-ahụ maka gị ka ọ chọpụtachara nrubeisi n'ezie.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Enwere m ike ịchekwa ọtụtụ mkpụrụedemede mkpuchi?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ee! Ihuenyo profaịlụ nwere ngalaba \"Cover Letter Vault\" ebe ị nwere ike chekwaa mkpụrụedemede mkpuchi na-akparaghị ókè ahaziri maka ọrụ ma ọ bụ ụlọ ọrụ dị iche iche. Mgbe ị na-ejuputa akpaaka, ApplyFlow ga-eji leta mkpuchi kachasị ọhụrụ ma ọ bụ nke kacha dabara adaba.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Kedu otu m ga-esi bupu data ngwa m?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Gaa na Akaụntụ & Mmekọrịta → pịgharịa gaa na ala → pịa \"Ndabere mbupụ (JSON)\". Nke a na-ebudata profaịlụ gị yana data ngwa dị ka faịlụ JSON maka nchekwa.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow ọ na-arụ ọrụ na Demo Mode?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Usoro ngosi bụ ntọala ntọala ejiri mee nnwale. Agbanyụrụ ya ugbu a site na ndabara. Atụmatụ niile dị ndụ ma na-arụ ọrụ na igodo Gemini API arụnyere n'ime ya.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Kedu otu m ga-esi kọọ ahụhụ ma ọ bụ rịọ atụmatụ?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Biko mepee esemokwu na ebe nchekwa GitHub anyị (ejikọta ya na ngalaba ihe gbasara) ma ọ bụ zitere anyị email na support@applyflow.in. Anyị na-azakarị n'ime awa 48.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Mepee mpụta nke ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Chọgharịa ibe dị ugbu a maka mpaghara ụdị",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Kpalite Smart Autofill na ibe dị ugbu a",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Kpochapụ ndepụta ọrụ ugbu a na tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Mepee Tracker na taabụ ọhụrụ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Hazie ụzọ mkpirisi na Chrome na",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Mara:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Iwu ndọtị Chrome chọrọ ọrụ aka na njikwa ụzọ mkpirisi Chrome. Gaa na $1$ iji kee igodo ndị edepụtara n'elu.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Tụgharịa chrome ndọtị - Amụma nzuzo**\nEmelitere ikpeazụ: June 2026\n\n--_NL_3__\n**1. Okwu mmalite**\n\nApplyFlow (\"anyị\", \"anyị\", \"The Extension\") bụ ihe nchọgharị Chrome na-enyere ndị ọrụ aka mejupụta fọm ngwa ọrụ, soro ngwa ha, ma jikwaa profaịlụ ọkachamara ha. Amụma nzuzo a na-akọwa otu anyị si anakọta, jiri, chekwaa, ma chekwaa ozi gị.\n\nSite na ịwụnye na iji ApplyFlow, ị kwenyere na omume ndị akọwara na amụma a.\nNL_10__---\nNL_12__*2. Data anyị na-anakọta**\nNL_14__Anyị na-anakọta naanị ozi ị wetara onwe gị iji mee ka atụmatụ ndọtị ahụ nwee ike:\n\n• ** Ozi profaịlụ**: Aha gị, email, akara ekwentị, kọleji, ogo, nka, akụkọ ọrụ, oru ngo, na njikọ ọkachamara (LinkedIn, GitHub, Pọtụfoliyo) . (Nhọrọ) ***: okike, ọkwa nkwarụ, ọkwa agha agha, yana mmasị ọrụ - enyere naanị ma ọ bụrụ na ịhọrọ imeju mpaghara ndị a. A na-eji data a naanị iji mejupụta akwụkwọ ajụjụ EEO nhọrọ na ngwa ọrụ.\n• ** Data Tracking Application **: Aha ọrụ, ụlọ ọrụ, URL ngwa, ọkwa, na ndetu maka ọnọdụ ị na-eso site na iji ndọtị. Ọ bụrụ na ịhọrọ ịbanye na Google, anyị na-echekwa aha ngosi Google gị, adreesị ozi-e, na URL foto profaịlụ gị iji hazie ahụmịhe gị wee mee ka mmekọrịta igwe ojii nwee ike. data sitere na ibe mgbe ndọtị ahụ anaghị akpalite nke ọma\n\n--\n\n**3. Otu esi echekwa data gị**\nNL_32__**3.1 Nchekwa mpaghara (Ndabere)**\nA na-echekwa data niile na chrome.storage.local API. Data a dị naanị na ngwaọrụ gị, a naghị ebufe ya na ihe nkesa ọ bụla na-enweghị ọrụ doro anya gị.\n\n**3.2 Cloud Sync (Nhọrọ)**\nỌ bụrụ na ịhọrọ ịbanye na Google wee mee ka atụmatụ \"Supabase Sync\", profaịlụ gị na data ngwa ga-ejikọta ya na nchekwa data Supabase. Ị na-ejigide data a zuru oke. Ị nwere ike ihichapụ ya n'oge ọ bụla site na Akaụntụ & Mmekọrịta ngalaba.\n\n**3.3 Gemini AI Arịrịọ **\nMgbe ejiri njirimara AI (dịka, ọgbọ edemede, nyocha ọrụ), akụkụ nke profaịlụ gị (nkà, ogo, nchịkọta) na nkọwa nkọwa ọrụ ka ezigara Google's Gemini. API iji mepụta Gemini API. A na-ahazi nke a n'okpuru ụkpụrụ ọrụ API ọkọlọtọ Google na amụma nzuzo. Anyị na-akwado ka ịghara ịgụnye ihe nhụbaanya nkeonwe na ọdịnaya AI-enyere gị aka.\n\n--\n\n**4. Ịkekọrịta data **\nNL_45__Anyị anaghị ere, ahia, mgbazinye, ma ọ bụ kesaa ozi gbasara gị n'aka ndị ọzọ ọ bụla maka ahịa ma ọ bụ mgbasa ozi. (https://policies.google.com/privacy)\n• **Google OAuth**: Maka njirimara akaụntụ (https://policies.google.com/privacy)\n• **Supabase**: Maka nchekwa igwe ojii nhọrọ (https://supabase.com/privacy) - naanị ma ọ bụrụ na ị nyere gị aka mekọrịta\n\n---\n\n**5. Ikike & Njikwa Gị**\n\nI nwere ikike:\n• **Nweta** niile data ApplyFlow echekwabara gbasara gị (site na mbupụ ndabere na ntọala)\n• *Dezie** ozi gị n'oge ọ bụla na profaịlụ profaịlụ\n• iji hichapụ profaịlụ niile na mpaghara gị*** settings\n• **Wepụ nkwenye** n'oge ọ bụla site na iwepu ndọtị\n• ** Gbanyụọ mmekọrịta igwe ojii ** site na ịgbanyụ ya na ntọala Akaụntụ & mmekọrịta \n\n**GDPR (Ndị ọrụ EU)**: Ọ bụrụ na ị bụ onye bi na EU, ị nwere ikike imezigharị data n'okpuru ọdụ ụgbọ mmiri. Iwu nchekwa data izugbe.\n\n**India — DPDP Act 2023 ***: N'ikwekọ na iwu nchekwa data nkeonwe dijitalụ nke India 2023, anyị na-ahazi data nkeonwe naanị maka ebumnuche inye ọrụ enyemaka ngwa ọrụ. Ị nwere ike ịwepụ nkwenye wee rịọ ka ihichapụ data gị n'oge ọ bụla site na ịkpọtụrụ anyị.\n\n**California - CCPA**: Ndị bi na California nwere ikike ịma ihe anakọtara ozi nkeonwe, ikike ihichapụ, yana ikike ịpụ arịre (anyị anaghị ere). data).\n\n---\n\n**6. Ndokwa data**\nNL_73__A na-edobe data mpaghara ruo mgbe i jiri aka kpochapụ ya. A na-edobe data emekọrịtara n'igwe ojii ruo mgbe ihichapụ akaụntụ gị ma ọ bụ rịọ ka ihichapụ ya. Anyị anaghị ehichapụ data ozugbo.\n\n---\n\n**7. Nchekwa **\nNL_79__Anyị na-ewere usoro teknụzụ ezi uche dị na ya iji chebe data gị:\n• Nkwukọrịta igwe ojii niile na-eji HTTPS/TLS encryption\n• Supabase Row-Level Security (RLS) na-eme ka ndị ọrụ nwee ike ịnweta data nke ha naanị\n• ndọtị anaghị arịọ ikike karịa ihe achọrọ ya. ọrụ\n\n---\n\n**8. Ebubeghi nzuzo ụmụaka**\n\nApplyFlow abụghị maka ndị ọrụ na-erubeghị afọ 13. Anyị anaghị ama ụma na-anakọta data n'aka ụmụaka. Ọ bụrụ na ị kwenyere na nwatakịrị enyela anyị ozi nkeonwe, biko kpọtụrụ anyị ozugbo.\n\n--\n\n**9. Mgbanwe na amụma a**\n\nAnyị nwere ike imelite amụma nzuzo a site n'oge ruo n'oge. A ga-ezitere mgbanwe ndị dị mkpa site na ibe Nhọrọ ndọtị. Iji ndọtị a na-aga n'ihu ka emechara mgbanwe bụ nnabata nke iwu emelitere.\n\n--\n\n**10. Kpọtụrụ anyị**\nNL_100__Maka ajụjụ ọ bụla metụtara nzuzo, arịrịọ ihichapụ data, ma ọ bụ nchegbu:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/siteL https://applyflow.in\n\nAnyị bu n'obi ịza arịrịọ niile n'ime ụbọchị 30.",
+    "description": "Privacy policy document markdown text"
+  }
+}

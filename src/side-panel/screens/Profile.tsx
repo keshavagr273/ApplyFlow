@@ -3,6 +3,7 @@ import { useStore } from '../../shared/store';
 import { UserProfile, Project, WorkExperience } from '../../shared/types';
 import { ResumeUploader } from '../../popup/components/profile/ResumeUploader';
 import { FileText, User as UserIcon, MapPin, GraduationCap, Zap, Briefcase, Lock, MessageSquare, FolderGit2, History, Trash2, Calendar } from 'lucide-react';
+import { t } from '../../shared/i18n';
 
 // ─── Accordion Section ────────────────────────────────────────────────────────
 
@@ -76,9 +77,9 @@ export default function Profile() {
     setIsSaving(true);
     try {
       await updateProfile(localProfile);
-      showToast('Profile saved!', 'success');
+      showToast(t('profile_saved'), 'success');
     } catch {
-      showToast('Failed to save profile.', 'error');
+      showToast(t('failed_save'), 'error');
     } finally {
       setIsSaving(false);
     }
@@ -97,9 +98,9 @@ export default function Profile() {
       {/* Header */}
       <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-white/6">
         <div>
-          <h1 className="text-base font-bold text-white">My Profile</h1>
+          <h1 className="text-base font-bold text-white">{t('my_profile')}</h1>
           <p className="text-xs text-gray-500 mt-0.5">
-            {p.name ? `${p.name} · ${p.college || 'No college set'}` : 'Set up your profile to enable autofill'}
+            {p.name ? `${p.name} · ${p.college || t('no_college_set')}` : t('setup_profile_desc')}
           </p>
         </div>
         <button
@@ -107,15 +108,15 @@ export default function Profile() {
           disabled={isSaving}
           className="bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold px-3.5 py-2 rounded-xl disabled:opacity-60 transition-all"
         >
-          {isSaving ? 'Saving...' : 'Save All'}
+          {isSaving ? t('saving') : t('save_all')}
         </button>
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 py-4 flex flex-col gap-2.5">
 
         {/* Resume Upload */}
-        <AccordionSection id="resume" icon={FileText} title="Resume"
-          badge={p.resumeText ? '✓ Uploaded' : 'Upload to auto-fill profile'}
+        <AccordionSection id="resume" icon={FileText} title={t('resume_title')}
+          badge={p.resumeText ? t('uploaded_badge') : t('upload_resume_badge')}
           isOpen={openSection === 'resume'} onToggle={() => toggle('resume')}
         >
           <ResumeUploader
@@ -130,55 +131,55 @@ export default function Profile() {
         </AccordionSection>
 
         {/* Personal Info */}
-        <AccordionSection id="personal" icon={UserIcon} title="Personal Info"
-          badge={p.name ? `${p.name}` : 'Incomplete'}
+        <AccordionSection id="personal" icon={UserIcon} title={t('personal_info_title')}
+          badge={p.name ? `${p.name}` : t('incomplete_badge')}
           isOpen={openSection === 'personal'} onToggle={() => toggle('personal')}
         >
           <div className="grid grid-cols-2 gap-3 mt-2">
-            <FieldRow label="Full Name" value={p.name || ''} onChange={v => update('name', v)} placeholder="Kesha Vagrawal" />
-            <FieldRow label="Email" value={p.email || ''} onChange={v => update('email', v)} placeholder="you@email.com" type="email" />
-            <FieldRow label="Phone" value={p.phone || ''} onChange={v => update('phone', v)} placeholder="+91 9876543210" />
-            <FieldRow label="Alternate Phone" value={p.alternatePhone || ''} onChange={v => update('alternatePhone', v)} placeholder="Optional" />
-            <FieldRow label="LinkedIn URL" value={p.linkedinUrl || ''} onChange={v => update('linkedinUrl', v)} placeholder="linkedin.com/in/..." />
-            <FieldRow label="Portfolio URL" value={p.portfolioUrl || ''} onChange={v => update('portfolioUrl', v)} placeholder="yoursite.com" />
-            <FieldRow label="GitHub URL" value={p.githubUrl || ''} onChange={v => update('githubUrl', v)} placeholder="github.com/..." />
-            <FieldRow label="Resume Link" value={p.resumeLink || ''} onChange={v => update('resumeLink', v)} placeholder="Drive/Notion link" />
+            <FieldRow label={t('full_name')} value={p.name || ''} onChange={v => update('name', v)} placeholder="Kesha Vagrawal" />
+            <FieldRow label={t('email')} value={p.email || ''} onChange={v => update('email', v)} placeholder="you@email.com" type="email" />
+            <FieldRow label={t('phone')} value={p.phone || ''} onChange={v => update('phone', v)} placeholder="+91 9876543210" />
+            <FieldRow label={t('alternate_phone')} value={p.alternatePhone || ''} onChange={v => update('alternatePhone', v)} placeholder="Optional" />
+            <FieldRow label={t('linkedin_url_label')} value={p.linkedinUrl || ''} onChange={v => update('linkedinUrl', v)} placeholder="linkedin.com/in/..." />
+            <FieldRow label={t('portfolio_url_label')} value={p.portfolioUrl || ''} onChange={v => update('portfolioUrl', v)} placeholder="yoursite.com" />
+            <FieldRow label={t('github_url_label')} value={p.githubUrl || ''} onChange={v => update('githubUrl', v)} placeholder="github.com/..." />
+            <FieldRow label={t('resume_link_label')} value={p.resumeLink || ''} onChange={v => update('resumeLink', v)} placeholder="Drive/Notion link" />
           </div>
         </AccordionSection>
 
         {/* Location */}
-        <AccordionSection id="location" icon={MapPin} title="Location"
-          badge={p.currentCity || 'Not set'}
+        <AccordionSection id="location" icon={MapPin} title={t('location_title')}
+          badge={p.currentCity || t('not_set')}
           isOpen={openSection === 'location'} onToggle={() => toggle('location')}
         >
           <div className="grid grid-cols-2 gap-3 mt-2">
-            <FieldRow label="City" value={p.currentCity || ''} onChange={v => update('currentCity', v)} placeholder="Mumbai" />
-            <FieldRow label="State" value={p.currentState || ''} onChange={v => update('currentState', v)} placeholder="Maharashtra" />
-            <FieldRow label="Country" value={p.currentCountry || ''} onChange={v => update('currentCountry', v)} placeholder="India" />
-            <FieldRow label="Postal Code" value={p.postalCode || ''} onChange={v => update('postalCode', v)} placeholder="400001" />
-            <FieldRow label="Address" value={p.address || ''} onChange={v => update('address', v)} placeholder="Street address" />
-            <FieldRow label="Nationality" value={p.nationality || ''} onChange={v => update('nationality', v)} placeholder="Indian" />
+            <FieldRow label={t('city')} value={p.currentCity || ''} onChange={v => update('currentCity', v)} placeholder="Mumbai" />
+            <FieldRow label={t('state')} value={p.currentState || ''} onChange={v => update('currentState', v)} placeholder="Maharashtra" />
+            <FieldRow label={t('country')} value={p.currentCountry || ''} onChange={v => update('currentCountry', v)} placeholder="India" />
+            <FieldRow label={t('postal_code')} value={p.postalCode || ''} onChange={v => update('postalCode', v)} placeholder="400001" />
+            <FieldRow label={t('address')} value={p.address || ''} onChange={v => update('address', v)} placeholder="Street address" />
+            <FieldRow label={t('nationality')} value={p.nationality || ''} onChange={v => update('nationality', v)} placeholder="Indian" />
           </div>
         </AccordionSection>
 
         {/* Education */}
-        <AccordionSection id="education" icon={GraduationCap} title="Education"
-          badge={p.college || (eduCount > 0 ? `${eduCount} entries` : 'Not set')}
+        <AccordionSection id="education" icon={GraduationCap} title={t('education_title')}
+          badge={p.college || (eduCount > 0 ? t('entries_count', String(eduCount)) : t('not_set'))}
           isOpen={openSection === 'education'} onToggle={() => toggle('education')}
         >
           <div className="grid grid-cols-2 gap-3 mt-2">
-            <FieldRow label="College / University" value={p.college || ''} onChange={v => update('college', v)} placeholder="IIT Bombay" />
-            <FieldRow label="Degree" value={p.degree || ''} onChange={v => update('degree', v)} placeholder="B.Tech CS" />
-            <FieldRow label="Graduation Year" value={p.graduationYear || ''} onChange={v => update('graduationYear', v)} placeholder="2026" />
-            <FieldRow label="CGPA / Grade" value={p.cgpa || ''} onChange={v => update('cgpa', v)} placeholder="8.5" />
-            <FieldRow label="10th %" value={p.tenthPercent || ''} onChange={v => update('tenthPercent', v)} placeholder="95%" />
-            <FieldRow label="12th %" value={p.twelfthPercent || ''} onChange={v => update('twelfthPercent', v)} placeholder="92%" />
+            <FieldRow label={t('college_label')} value={p.college || ''} onChange={v => update('college', v)} placeholder="IIT Bombay" />
+            <FieldRow label={t('degree_label')} value={p.degree || ''} onChange={v => update('degree', v)} placeholder="B.Tech CS" />
+            <FieldRow label={t('grad_year_label')} value={p.graduationYear || ''} onChange={v => update('graduationYear', v)} placeholder="2026" />
+            <FieldRow label={t('cgpa_label')} value={p.cgpa || ''} onChange={v => update('cgpa', v)} placeholder="8.5" />
+            <FieldRow label={t('tenth_percent_label')} value={p.tenthPercent || ''} onChange={v => update('tenthPercent', v)} placeholder="95%" />
+            <FieldRow label={t('twelfth_percent_label')} value={p.twelfthPercent || ''} onChange={v => update('twelfthPercent', v)} placeholder="92%" />
           </div>
         </AccordionSection>
 
         {/* Skills */}
-        <AccordionSection id="skills" icon={Zap} title="Skills"
-          badge={`${skillsCount} skills`}
+        <AccordionSection id="skills" icon={Zap} title={t('skills_title')}
+          badge={t('skills_count', String(skillsCount))}
           isOpen={openSection === 'skills'} onToggle={() => toggle('skills')}
         >
           <div className="mt-2">
@@ -187,8 +188,8 @@ export default function Profile() {
         </AccordionSection>
 
         {/* Work Experience */}
-        <AccordionSection id="experience" icon={Briefcase} title="Work Experience"
-          badge={`${expCount} entries`}
+        <AccordionSection id="experience" icon={Briefcase} title={t('experience_title')}
+          badge={t('entries_count', String(expCount))}
           isOpen={openSection === 'experience'} onToggle={() => toggle('experience')}
         >
           <div className="mt-2">
@@ -197,8 +198,8 @@ export default function Profile() {
         </AccordionSection>
 
         {/* Projects */}
-        <AccordionSection id="projects" icon={FolderGit2} title="Projects"
-          badge={`${projCount} projects`}
+        <AccordionSection id="projects" icon={FolderGit2} title={t('projects_title')}
+          badge={t('projects_count', String(projCount))}
           isOpen={openSection === 'projects'} onToggle={() => toggle('projects')}
         >
           <div className="mt-2">
@@ -207,27 +208,27 @@ export default function Profile() {
         </AccordionSection>
 
         {/* Work Preferences */}
-        <AccordionSection id="prefs" icon={Briefcase} title="Work Preferences"
-          badge={p.noticePeriod || 'Not set'}
+        <AccordionSection id="prefs" icon={Briefcase} title={t('prefs_title')}
+          badge={p.noticePeriod || t('not_set')}
           isOpen={openSection === 'prefs'} onToggle={() => toggle('prefs')}
         >
           <div className="grid grid-cols-2 gap-3 mt-2">
-            <FieldRow label="Notice Period" value={p.noticePeriod || ''} onChange={v => update('noticePeriod', v)} placeholder="Immediate / 1 month" />
-            <FieldRow label="Expected Salary" value={p.expectedSalary || ''} onChange={v => update('expectedSalary', v)} placeholder="5-8 LPA" />
-            <FieldRow label="Preferred Role" value={p.preferredRole || ''} onChange={v => update('preferredRole', v)} placeholder="SWE / PM" />
-            <FieldRow label="Years of Experience" value={p.yearsOfExperience || ''} onChange={v => update('yearsOfExperience', v)} placeholder="1 / Fresher" />
+            <FieldRow label={t('notice_period_label')} value={p.noticePeriod || ''} onChange={v => update('noticePeriod', v)} placeholder="Immediate / 1 month" />
+            <FieldRow label={t('expected_salary_label')} value={p.expectedSalary || ''} onChange={v => update('expectedSalary', v)} placeholder="5-8 LPA" />
+            <FieldRow label={t('preferred_role_label')} value={p.preferredRole || ''} onChange={v => update('preferredRole', v)} placeholder="SWE / PM" />
+            <FieldRow label={t('years_exp_label')} value={p.yearsOfExperience || ''} onChange={v => update('yearsOfExperience', v)} placeholder="1 / Fresher" />
           </div>
         </AccordionSection>
 
         {/* Work Authorization (EEO) */}
-        <AccordionSection id="workauth" icon={Lock} title="Work Authorization"
-          badge={p.workAuthorized !== undefined ? (p.workAuthorized ? 'Authorized' : 'Not authorized') : 'Not set'}
+        <AccordionSection id="workauth" icon={Lock} title={t('workauth_title')}
+          badge={p.workAuthorized !== undefined ? (p.workAuthorized ? t('authorized') : t('not_authorized')) : t('not_set')}
           isOpen={openSection === 'workauth'} onToggle={() => toggle('workauth')}
         >
           <div className="flex flex-col gap-3 mt-2">
             {[
-              { label: 'Authorized to work without visa sponsorship', field: 'workAuthorized' as const },
-              { label: 'Requires visa sponsorship', field: 'requiresSponsorship' as const },
+              { label: t('visa_sponsor_checkbox'), field: 'workAuthorized' as const },
+              { label: t('requires_sponsor_checkbox'), field: 'requiresSponsorship' as const },
             ].map(({ label, field }) => (
               <label key={field} className="flex items-center gap-3 cursor-pointer">
                 <div className={`relative w-9 h-5 rounded-full transition-all ${(p as any)[field] ? 'bg-brand-600' : 'bg-white/10'}`}
@@ -239,23 +240,23 @@ export default function Profile() {
             ))}
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider block mb-1">Gender</label>
+                <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider block mb-1">{t('gender_label')}</label>
                 <select value={p.gender || ''} onChange={e => update('gender', e.target.value)}
                   className="input-field-dark text-xs">
-                  <option value="">Prefer not to say</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="non-binary">Non-binary</option>
+                  <option value="">{t('prefer_not_to_say')}</option>
+                  <option value="male">{t('male')}</option>
+                  <option value="female">{t('female')}</option>
+                  <option value="non-binary">{t('non_binary')}</option>
                 </select>
               </div>
               <div>
-                <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider block mb-1">Disability</label>
+                <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider block mb-1">{t('disability_label')}</label>
                 <select value={p.disability || ''} onChange={e => update('disability', e.target.value)}
                   className="input-field-dark text-xs">
-                  <option value="">Not specified</option>
-                  <option value="yes">Yes</option>
-                  <option value="no">No</option>
-                  <option value="prefer-not-to-say">Prefer not to say</option>
+                  <option value="">{t('not_specified')}</option>
+                  <option value="yes">{t('yes')}</option>
+                  <option value="no">{t('no')}</option>
+                  <option value="prefer-not-to-say">{t('prefer_not_to_say')}</option>
                 </select>
               </div>
             </div>
@@ -263,8 +264,8 @@ export default function Profile() {
         </AccordionSection>
 
         {/* Custom Answers */}
-        <AccordionSection id="answers" icon={MessageSquare} title="Custom Answers"
-          badge={`${answersCount} answers`}
+        <AccordionSection id="answers" icon={MessageSquare} title={t('custom_answers_title')}
+          badge={t('answers_count', String(answersCount))}
           isOpen={openSection === 'answers'} onToggle={() => toggle('answers')}
         >
           <div className="mt-2">
@@ -295,14 +296,14 @@ function SkillsEditor({ skills, onChange }: { skills: string[]; onChange: (s: st
             <button onClick={() => onChange(skills.filter(x => x !== s))} className="text-brand-400 hover:text-red-400 transition-colors font-bold leading-none">×</button>
           </span>
         ))}
-        {skills.length === 0 && <span className="text-xs text-gray-600">No skills added yet</span>}
+        {skills.length === 0 && <span className="text-xs text-gray-600">{t('no_skills_yet')}</span>}
       </div>
       <div className="flex gap-2">
         <input
           value={draft}
           onChange={e => setDraft(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && (e.preventDefault(), add())}
-          placeholder="Add skill (Enter to add)"
+          placeholder={t('add_skill_placeholder')}
           className="input-field-dark flex-1 text-xs"
         />
         <button onClick={add} className="gradient-premium text-white text-xs font-bold px-3 py-2 rounded-xl hover:opacity-90 transition-all">+</button>
@@ -324,17 +325,17 @@ function CustomAnswersEditor({ answers, onChange }: { answers: Array<{ id: strin
       {answers.map(a => (
         <div key={a.id} className="bg-white/5 border border-white/8 rounded-xl p-3 flex flex-col gap-2">
           <input value={a.trigger} onChange={e => update(a.id, 'trigger', e.target.value)}
-            placeholder="Trigger phrase (e.g. Why should we hire you)"
+            placeholder={t('trigger_phrase_placeholder')}
             className="input-field-dark text-xs" />
           <textarea value={a.answer} onChange={e => update(a.id, 'answer', e.target.value)}
-            placeholder="Your answer..."
+            placeholder={t('your_answer_placeholder')}
             rows={3}
             className="input-field-dark text-xs resize-none" />
-          <button onClick={() => remove(a.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">Remove</button>
+          <button onClick={() => remove(a.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">{t('remove')}</button>
         </div>
       ))}
       <button onClick={add} className="border border-dashed border-white/20 rounded-xl py-2.5 text-xs text-gray-500 hover:border-brand-500/40 hover:text-brand-400 transition-all font-semibold">
-        + Add Custom Answer
+        {t('add_custom_answer')}
       </button>
     </div>
   );
@@ -358,10 +359,10 @@ function ExperienceEditor({ experience, onChange }: {
       {experience.map(exp => (
         <div key={exp.id} className="bg-white/5 border border-white/8 rounded-xl p-3 flex flex-col gap-3">
           <div className="grid grid-cols-2 gap-3">
-            <FieldRow label="Company" value={exp.company} onChange={v => update(exp.id, 'company', v)} placeholder="e.g. Google" />
-            <FieldRow label="Role / Title" value={exp.role} onChange={v => update(exp.id, 'role', v)} placeholder="e.g. Software Engineer" />
-            <FieldRow label="Start Date" value={exp.startDate} onChange={v => update(exp.id, 'startDate', v)} placeholder="e.g. Jan 2024" />
-            <FieldRow label="End Date" value={exp.isCurrentRole ? 'Present' : exp.endDate} onChange={v => update(exp.id, 'endDate', v)} placeholder="e.g. Dec 2024" type="text" disabled={exp.isCurrentRole} />
+            <FieldRow label={t('company_label')} value={exp.company} onChange={v => update(exp.id, 'company', v)} placeholder="e.g. Google" />
+            <FieldRow label={t('role_title_label')} value={exp.role} onChange={v => update(exp.id, 'role', v)} placeholder="e.g. Software Engineer" />
+            <FieldRow label={t('start_date_label')} value={exp.startDate} onChange={v => update(exp.id, 'startDate', v)} placeholder="e.g. Jan 2024" />
+            <FieldRow label={t('end_date_label')} value={exp.isCurrentRole ? t('present') : exp.endDate} onChange={v => update(exp.id, 'endDate', v)} placeholder="e.g. Dec 2024" type="text" disabled={exp.isCurrentRole} />
           </div>
           
           <label className="flex items-center gap-3 cursor-pointer">
@@ -369,25 +370,25 @@ function ExperienceEditor({ experience, onChange }: {
               onClick={() => update(exp.id, 'isCurrentRole', !exp.isCurrentRole)}>
               <div className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-all ${exp.isCurrentRole ? 'left-4' : 'left-0.5'}`} />
             </div>
-            <span className="text-xs text-gray-300 font-medium">I am currently working in this role</span>
+            <span className="text-xs text-gray-300 font-medium">{t('currently_working_checkbox')}</span>
           </label>
 
           <div className="flex flex-col gap-1">
-            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Description</label>
+            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">{t('description_label')}</label>
             <textarea 
               value={exp.description} 
               onChange={e => update(exp.id, 'description', e.target.value)}
-              placeholder="Describe your responsibilities, key achievements, technologies used..."
+              placeholder={t('experience_desc_placeholder')}
               rows={6}
               className="input-field-dark text-xs min-h-[100px] resize-y" 
             />
           </div>
           
-          <button onClick={() => remove(exp.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">Remove</button>
+          <button onClick={() => remove(exp.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">{t('remove')}</button>
         </div>
       ))}
       <button onClick={add} className="border border-dashed border-white/20 rounded-xl py-2.5 text-xs text-gray-500 hover:border-brand-500/40 hover:text-brand-400 transition-all font-semibold">
-        + Add Work Experience
+        {t('add_experience')}
       </button>
     </div>
   );
@@ -411,28 +412,28 @@ function ProjectsEditor({ projects, onChange }: {
       {projects.map(proj => (
         <div key={proj.id} className="bg-white/5 border border-white/8 rounded-xl p-3 flex flex-col gap-3">
           <div className="grid grid-cols-2 gap-3">
-            <FieldRow label="Project Title" value={proj.title} onChange={v => update(proj.id, 'title', v)} placeholder="e.g. E-Commerce Platform" />
-            <FieldRow label="Tech Stack" value={proj.techStack || ''} onChange={v => update(proj.id, 'techStack', v)} placeholder="e.g. React, Node.js, MongoDB" />
-            <FieldRow label="GitHub URL" value={proj.githubUrl} onChange={v => update(proj.id, 'githubUrl', v)} placeholder="github.com/..." />
-            <FieldRow label="Deployment URL" value={proj.deploymentUrl} onChange={v => update(proj.id, 'deploymentUrl', v)} placeholder="e.g. myproject.vercel.app" />
+            <FieldRow label={t('project_title_label')} value={proj.title} onChange={v => update(proj.id, 'title', v)} placeholder="e.g. E-Commerce Platform" />
+            <FieldRow label={t('tech_stack_label')} value={proj.techStack || ''} onChange={v => update(proj.id, 'techStack', v)} placeholder="e.g. React, Node.js, MongoDB" />
+            <FieldRow label={t('github_url_label')} value={proj.githubUrl} onChange={v => update(proj.id, 'githubUrl', v)} placeholder="github.com/..." />
+            <FieldRow label={t('deployment_url_label')} value={proj.deploymentUrl} onChange={v => update(proj.id, 'deploymentUrl', v)} placeholder="e.g. myproject.vercel.app" />
           </div>
 
           <div className="flex flex-col gap-1">
-            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Description</label>
+            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">{t('description_label')}</label>
             <textarea 
               value={proj.description} 
               onChange={e => update(proj.id, 'description', e.target.value)}
-              placeholder="Describe what you built, what problem it solved, and the key features..."
+              placeholder={t('project_desc_placeholder')}
               rows={6}
               className="input-field-dark text-xs min-h-[100px] resize-y" 
             />
           </div>
           
-          <button onClick={() => remove(proj.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">Remove</button>
+          <button onClick={() => remove(proj.id)} className="text-[10px] text-red-500 hover:text-red-400 transition-colors self-end font-semibold">{t('remove')}</button>
         </div>
       ))}
       <button onClick={add} className="border border-dashed border-white/20 rounded-xl py-2.5 text-xs text-gray-500 hover:border-brand-500/40 hover:text-brand-400 transition-all font-semibold">
-        + Add Project
+        {t('add_project')}
       </button>
     </div>
   );
@@ -448,12 +449,12 @@ function ResumeHistoryList({ setFormData }: ResumeHistoryListProps) {
   const { resumeHistory, deleteResumeFromHistory, showToast } = useStore();
 
   const handleApply = (resume: any) => {
-    if (confirm(`Load profile details from "${resume.filename}"? This will replace your current edits with this resume's parsed structure.`)) {
+    if (confirm(t('restore_confirm', resume.filename))) {
       setFormData(prev => ({
         ...prev,
         ...resume.profileData
       }));
-      showToast(`Restored details from ${resume.filename}`, 'success');
+      showToast(t('restored_msg', resume.filename), 'success');
     }
   };
 
@@ -463,7 +464,7 @@ function ResumeHistoryList({ setFormData }: ResumeHistoryListProps) {
     <div className="mt-4 border-t border-white/6 pt-4">
       <div className="flex items-center gap-1.5 mb-2.5">
         <History size={13} className="text-brand-400" />
-        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Resume History</span>
+        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">{t('resume_history_title')}</span>
       </div>
       <div className="space-y-2 max-h-[220px] overflow-y-auto pr-1">
         {resumeHistory.map((res: any) => {
@@ -484,7 +485,7 @@ function ResumeHistoryList({ setFormData }: ResumeHistoryListProps) {
                 </div>
                 <div className="flex items-center gap-1 text-[9px] text-gray-500 font-semibold mt-0.5">
                   <Calendar size={10} />
-                  <span>Parsed on {formattedDate}</span>
+                  <span>{t('parsed_on', formattedDate)}</span>
                 </div>
               </div>
               <div className="flex items-center gap-1.5 shrink-0">
@@ -492,12 +493,12 @@ function ResumeHistoryList({ setFormData }: ResumeHistoryListProps) {
                   onClick={() => handleApply(res)}
                   className="bg-brand-600/20 border border-brand-500/30 text-brand-400 hover:bg-brand-600 hover:text-white font-bold px-2 py-1 rounded-lg text-[9px] transition-all"
                 >
-                  Use This
+                  {t('use_this')}
                 </button>
                 <button
                   onClick={() => deleteResumeFromHistory(res.id)}
                   className="text-gray-500 hover:text-red-500 p-1.5 rounded-lg hover:bg-white/5 transition-all"
-                  title="Delete from history"
+                  title={t('remove')}
                 >
                   <Trash2 size={12} />
                 </button>

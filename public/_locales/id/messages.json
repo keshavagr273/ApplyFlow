@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: IsiOtomatis Pekerjaan AI & Pelacak Lamaran",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Isi otomatis lamaran pekerjaan dan daftar lacak secara otomatis menggunakan AI di LinkedIn, Workday, Greenhouse & lainnya.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "TerapkanFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktif",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Diterapkan",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Wawancara",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Penawaran",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Disimpan",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Jumlah",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "IsiOtomatis",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Mengisi...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "IsiOtomatis Cepat",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analisa Ayub",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Buka Bilah Sisi",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Pengaturan",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Harap masuk dengan Google terlebih dahulu untuk menggunakan IsiOtomatis Cepat!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Silakan atur profil Anda terlebih dahulu di Panel Samping/halaman Opsi!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Terdeteksi",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Tidak ada halaman pekerjaan yang terdeteksi",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Kunjungi daftar pekerjaan untuk membuka fitur AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Selamat pagi",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Selamat siang",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Selamat malam",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ lamaran dilacak · $2$ wawancara",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Mulailah melamar untuk melacak kemajuan Anda",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Surat Pengantar",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Bantuan Tanya Jawab",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Siap membantu",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navigasikan ke daftar pekerjaan di LinkedIn, Workday, Greenhouse, atau papan pekerjaan apa pun untuk memulai.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Minggu ini",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Aktivitas Terkini",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Lihat semua →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Mulailah perburuan pekerjaan Anda!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Kunjungi papan pekerjaan dan gunakan ApplyFlow untuk mengisi otomatis dan melacak lamaran Anda secara otomatis.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profil Saya",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Menyimpan...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Simpan Semua",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil disimpan!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Gagal menyimpan profil.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Lanjutkan",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Unggah ke profil isi otomatis",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Diunggah",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Info Pribadi",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Tidak lengkap",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Lokasi",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Pendidikan",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Keterampilan",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Pengalaman Kerja",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Proyek",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Preferensi Kerja",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Otorisasi Pekerjaan",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Lanjutkan Sejarah",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Gunakan Ini",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Diurai pada $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Muat detail profil dari \"$1$\"? Ini akan menggantikan hasil edit Anda saat ini dengan struktur ringkasan resume ini.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Detail yang dipulihkan dari $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Skor Pertandingan",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Cocok",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ lagi",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplikasi diisi otomatis dan dicatat! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Diisi otomatis melalui Panel Samping ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "di sana",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Tidak ada kampus yang ditetapkan",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Siapkan profil Anda untuk mengaktifkan pengisian otomatis",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Tidak disetel",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ entri",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ keterampilan",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ proyek",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ jawaban",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Resmi",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Tidak diizinkan",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Nama Lengkap",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Surel",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telepon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Telepon Alternatif",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL Portofolio",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Tautan Lanjutkan",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Kota",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Negara",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Negara",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Kode Pos",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Alamat",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Kebangsaan",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Perguruan Tinggi / Universitas",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Gelar",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Tahun Kelulusan",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Kelas",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Periode Pemberitahuan",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Gaji yang Diharapkan",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Peran Pilihan",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Pengalaman Bertahun-tahun",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Berwenang untuk bekerja tanpa sponsor visa",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Membutuhkan sponsor visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Jenis Kelamin",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Disabilitas",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Memilih untuk tidak mengatakannya",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Tidak ditentukan",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Laki-laki",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Perempuan",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Non-biner",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ya",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Tidak",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Belum ada keterampilan yang ditambahkan",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Tambah keahlian (Masuk untuk menambah)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Frasa pemicu (misalnya Mengapa kami harus mempekerjakan Anda)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Jawabanmu...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Hapus",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Tambahkan Jawaban Khusus",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Perusahaan",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Peran / Judul",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Tanggal Mulai",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Tanggal Berakhir",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Hadir",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Saat ini saya sedang mengerjakan peran ini",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Deskripsi",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Jelaskan tanggung jawab Anda, pencapaian utama, teknologi yang digunakan...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Tambahkan Pengalaman Kerja",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Judul Proyek",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tumpukan Teknologi",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL Penerapan",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Jelaskan apa yang Anda buat, masalah apa yang dipecahkannya, dan fitur-fitur utamanya...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Tambahkan Proyek",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Pelacak",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Disimpan",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Diterapkan",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Penilaian",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Wawancara",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Penawaran",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Ditolak",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Ditarik",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Hapus aplikasi ini?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplikasi diperbarui!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplikasi dihapus.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Peron",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Diterapkan",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Buka Postingan Pekerjaan",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Gaji / Gaji",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Pengingat Tindak Lanjut",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Catatan",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Tambahkan catatan, info kontak, detail wawancara...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Deskripsi Pekerjaan (kutipan)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Hapus",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Batalkan",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Simpan",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplikasi",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplikasi",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filter menurut perusahaan...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Filter Status",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Gulir ke kanan untuk mengetahui lebih lanjut →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Semua",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Tidak ada aplikasi yang ditemukan",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Coba atur ulang filter atau simpan pekerjaan untuk menambahkan entri pelacak baru",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analisis",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ jumlah lamaran",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Belum ada datanya",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Mulailah melamar pekerjaan dan analisis Anda akan muncul di sini.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Tingkat Konversi",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Diterapkan",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Tingkat Wawancara",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tingkat Penawaran",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Aplikasi Minggu Ini",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Corong Aplikasi",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Platform Teratas",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Perincian Status",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "Kopilot AI",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Konteks: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Kopilot karier Anda",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Obrolan Baru ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Harap siapkan profil Anda terlebih dahulu agar AI dapat mempersonalisasi respons.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Obrolan dihapus! Apa yang bisa saya bantu?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Tanyakan apa pun tentang pekerjaan ini...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Siapkan profil Anda untuk memulai",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Tekan Enter untuk mengirim",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Lanjutkan Skor Kompatibilitas",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Keterampilan yang Kuat",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Keterampilan Hilang",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Ini surat lamaran pribadi Anda:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Disalin!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Salin",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Unduh",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Berikut adalah $1$ kemungkinan pertanyaan wawancara:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Skor pengoptimalan resume: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Lanjutkan Saran Pertandingan",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs deskripsi pekerjaan ini",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Ada yang tidak beres. Silakan coba lagi.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hai! Saya dapat melihat Anda sedang melihat peran **$1$** di **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hai! Saya dapat melihat Anda sedang mencari peran **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hai! Saya kopilot karier AI Anda. Navigasikan ke daftar pekerjaan dan saya akan menganalisisnya secara otomatis, atau menanyakan apa pun kepada saya!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Silakan atur profil Anda terlebih dahulu di tab Profil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Silakan buka halaman daftar pekerjaan di browser Anda terlebih dahulu untuk menggunakan fitur ini!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Buka kunci ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Masuk dengan Google untuk mengakses dasbor Anda, menyinkronkan pekerjaan, mengelola profil resume Anda, dan mengisi otomatis lamaran pekerjaan secara instan.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "IsiOtomatis AI & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Pindai dan isi otomatis aplikasi dengan satu klik.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Sinkronisasi & Pencadangan Cloud",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Sinkronkan semua detail pelacakan pekerjaan Anda ke Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Resume & Profil",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Unggah resume Anda dan sesuaikan jawaban lamaran.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Menghubungkan ke Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Masuk dengan Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Dengan masuk, Anda setuju untuk menyinkronkan data profil Anda dengan aman ke ruang kerja aktif Anda.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Apakah Anda yakin ingin keluar?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Berhasil keluar.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Masuk sebagai $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Keluar",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Masuk",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Menghubungkan...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Buka ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Pencocokan ApplyFlow",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Keterampilan Mencocokkan yang Kuat",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Keterampilan yang Hilang",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Halaman IsiOtomatis Cerdas",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Formulir Pengisian Otomatis...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Tidak ada bidang aplikasi yang dapat diisi ditemukan di halaman.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Berhasil Diisi!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "IsiOtomatis gagal karena kerumitan halaman.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Disimpan otomatis ke pelacak log setelah diisi.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Resume Anda **$1$% kompatibel** dengan peran ini.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Selamat datang kembali, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Gagal mengambil info profil pengguna Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Gagal Masuk OAuth: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Gagal mengambil token akses dari pengalihan.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Gagal mengurai pengalihan autentikasi.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Otentikasi tidak didukung pada platform ini.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Pekerjaan disimpan ke pelacak!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Tamu",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Pengaturan Umum",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Tampilkan di Halaman Pekerjaan LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Menampilkan skor pencocokan cerdas dan tombol isi otomatis sekali klik saat Anda melihat postingan pekerjaan di LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Tampilkan Tombol 'Simpan Pekerjaan'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Menampilkan tombol 'Simpan Pekerjaan 📌' yang mengambang di situs pekerjaan sehingga Anda dapat dengan cepat menyimpan detail pekerjaan ke pelacak Anda sebelum melamar.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Hanya Masuk Setelah Sebenarnya Melamar",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Tunggu hingga Anda melihat layar 'Terima Kasih' atau 'Sukses' sebelum menambahkan pekerjaan ke pelacak Anda. Jaga agar pelacak Anda tetap rapi dengan mencegah formulir yang terisi setengah disimpan sebagai 'Diterapkan'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Kredit AI & Analisis Penggunaan",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kredit Tersisa",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Sisa Kredit",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Jumlah Kredit",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "IsiOtomatis Sepanjang Masa",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Status Paket",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premi 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Kiat Pro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Operasi IsiOtomatis Cerdas menggunakan 0 kredit dan 100% tidak terbatas! Hanya fitur AI tingkat lanjut seperti Surat Pengantar (5 sks) dan Esai khusus (3 sks) yang menghabiskan saldo kredit Anda.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Akun Google & Sinkronisasi Cloud",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Sinkronisasi Google Cloud Aktif",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Sinkronisasi Cloud Terkunci (Khusus Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Sinkronisasi Awan",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Dorong ke Awan",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Tarik dari Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinkronisasi berhasil!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinkronisasi gagal. Periksa koneksi Anda.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Sinkronisasi Cloud Aman",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Masuk dengan Google untuk mencadangkan aplikasi dan profil Anda ke Supabase. Sinkronisasi adalah fitur Premium yang menjaga log Anda tetap aman di seluruh perangkat.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Sinkronisasi Cloud Supabase adalah Fitur Premium. Harap tingkatkan versi di tab Tingkatkan untuk mengaktifkan sinkronisasi!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Manajemen Data",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Ekspor Cadangan (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Hapus Semua Data Lokal",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Menghapus data lokal hanya akan menghapus profil dan aplikasi Anda dari perangkat ini. Data cloud tidak terpengaruh.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Pusat Kendali",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Beranda & Tentang",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Pengaturan Umum",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Tingkatkan ke Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Paket Premium 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Akun & Sinkronisasi",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Kebijakan Privasi",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Pertanyaan Umum",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Pintasan Papan Ketik",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Selamat datang di ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow adalah ekstensi Chrome bertenaga AI yang dibuat untuk pelajar dan pencari kerja yang ingin melamar lebih cepat dan cerdas. Ini secara otomatis mendeteksi dan mengisi formulir lamaran kerja di 15+ platform, melacak saluran Anda, dan membantu Anda melakukan lebih banyak wawancara.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "IsiOtomatis Cerdas",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ platform ATS dengan penyeleksi yang presisi",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Pemotong Web",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Simpan daftar pekerjaan apa pun dengan sekali klik",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Pelacak Kanban",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Tarik & letakkan alur aplikasi Anda",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "IsiOtomatis EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Mengisi otomatis pertanyaan demografi & visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Esai AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Penulisan jawaban khusus yang didukung Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Sinkronisasi Aman",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Cadangan cloud Supabase opsional",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Cara Memulai",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Bangun Profil Anda",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Buka popup → tab Profil → unggah PDF resume Anda. AI akan mengekstraksi semua detail Anda secara otomatis termasuk keterampilan, pengalaman, pendidikan, dan proyek.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Tetapkan Preferensi EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Gulir ke bagian EEO di Profil Anda dan atur izin kerja, kebutuhan sponsor visa, dan preferensi demografis Anda. Ini digunakan untuk mengisi kuesioner EEO secara otomatis.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Telusuri Daftar Pekerjaan",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigasikan ke daftar pekerjaan mana pun. Anda akan melihat tombol 📌 \"Simpan Pekerjaan\" muncul. Klik untuk langsung menyimpan posisi ke pelacak Anda.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Buka Formulir Aplikasi",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Arahkan ke formulir aplikasi. Klik popup ApplyFlow → tekan \"Scan Page\" → lalu \"⚡ Smart Autofill\". Semua bidang termasuk tombol radio dan dropdown terisi secara instan.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Lacak Saluran Pipa Anda",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Buka tab Pelacak untuk melihat semua aplikasi Anda. Beralih ke tampilan Papan Kanban dan seret kartu antar kolom saat status Anda diperbarui.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Diperlukan Masuk",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Masuk untuk Menyesuaikan Pengaturan",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Pengaturan Umum hanya tersedia untuk pengguna yang masuk. Masuk dengan Google untuk mengonfigurasi preferensi Anda, perilaku pengisian otomatis, dan banyak lagi.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Buka Akun & Sinkronisasi",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "TerapkanFlow Pro Aktif",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Kunci lisensi: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Nonaktifkan Lisensi",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivasi Kunci Lisensi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Jika Anda telah membeli langganan atau menerima kode akses, masukkan kunci lisensi Anda di bawah untuk membuka kunci ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktifkan",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Mengaktifkan...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tip: Anda dapat mengaktifkan Premium menggunakan kunci APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium Diaktifkan!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Terima kasih telah mendukung ApplyFlow. Semua fitur premium sekarang tidak terkunci.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Paket Peningkatan Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Buka kunci ekspor karier Anda & fitur AI tingkat lanjut.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Dapatkan kredit AI premium untuk surat lamaran, jawaban esai khusus, pengoptimalan resume, dan persiapan wawancara tiruan. Operasi pengisian otomatis pada platform yang didukung sepenuhnya tidak terbatas dan gratis untuk semua pengguna premium!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Penawaran Pengguna Awal:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Kenaikan harga berikutnya pada 500 pengguna Premium. Kunci tarif ini seumur hidup!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Pro Bulanan",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Bagus untuk pencarian jangka pendek",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ bulan",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Hanya ₹13 / hari)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 Kredit AI per bulan|||Isi otomatis tak terbatas (Semua Portal)|||Cloud Sync & Google Backup|||Tema Premium|||Pengalaman bebas iklan",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Berlangganan Bulanan",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Pro Triwulanan",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Nilai terbaik bagi sebagian besar pencari kerja",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 bulan",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Hanya ₹11 / hari)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 Kredit AI per kuartal|||Pengisian otomatis tanpa batas (Semua Portal)|||Surat Pengantar & Esai yang Disesuaikan|||Sinkronisasi Cloud & Google Backup|||Saran Pencocokan Lanjutkan",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Berlangganan Triwulanan",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Paling Populer",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ultimate Tahunan",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Nilai terbaik bagi pengguna listrik",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2.999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ tahun",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Setara dengan ₹249 / bulan)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 Kredit AI per tahun|||Pengisian otomatis harian tanpa batas|||Surat Pengantar & Esai yang Disesuaikan|||Cloud Sync & Google Backup|||Saran Pencocokan Lanjutkan|||Dukungan Email Prioritas",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Berlangganan Tahunan",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Nilai Terbaik - Hemat 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Mendukung Pengembangan ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow dibangun dan dikelola oleh pengembang independen. Jika Anda merasa ekstensi ini bermanfaat, pertimbangkan untuk berdonasi di Ko-fi agar tetap aktif, bebas iklan, dan diperbarui untuk papan pekerjaan baru.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Belikan aku kopi di Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ Peringkat 5.0|||🔒 Pembayaran Aman|||✓ Batalkan Kapan Saja",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Kunci lisensi tidak valid. Petunjuk: Coba gunakan kunci demo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Lisensi Berhasil Diaktifkan! Selamat datang di ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Apakah Anda yakin ingin menonaktifkan lisensi premium Anda? Ini akan mengembalikan Anda ke Paket Gratis.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Lisensi premium dinonaktifkan. Anda sekarang menggunakan Paket Gratis.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Ini akan menghapus secara permanen SEMUA profil lokal dan data aplikasi. Apa kamu yakin?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Kebijakan Privasi",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Pertanyaan yang Sering Diajukan",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Apa itu ApplyFlow dan bagaimana cara kerjanya?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow adalah ekstensi Chrome bertenaga AI yang secara otomatis mendeteksi dan mengisi formulir lamaran pekerjaan di 15+ platform termasuk LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, dan banyak lagi. Itu membaca profil Anda yang disimpan dan menggunakan pencocokan cerdas untuk mengisi bidang teks, dropdown, tombol radio, dan kotak centang — termasuk pertanyaan EEO/demografis.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Apakah data pribadi saya aman dengan ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ya. Data Anda disimpan secara lokal di chrome.storage.local browser Anda secara default. Itu tidak pernah dikirim ke server pihak ketiga mana pun selain database Supabase opsional Anda sendiri (yang Anda kendalikan). ApplyFlow tidak pernah menjual, membagikan, atau memonetisasi informasi pribadi Anda.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Platform pekerjaan manakah yang didukung oleh ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow mendukung 15+ platform yang siap digunakan: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, dan situs lainnya melalui pencocokan fallback generik cerdas kami.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Apa itu Pemotong Web?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper adalah tombol mengambang \"Simpan Pekerjaan\" (📌) yang muncul secara otomatis saat Anda mengunjungi halaman daftar pekerjaan mana pun. Mengkliknya akan mengekstrak jabatan, perusahaan, gaji, dan deskripsi, lalu menyimpannya ke pelacak ApplyFlow Anda sebagai aplikasi \"Tersimpan\" — sehingga Anda dapat melacak pekerjaan sebelum melamar.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Bagaimana cara memperbarui profil saya?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Buka popup ApplyFlow, klik tab \"Profil\", dan unggah PDF resume Anda. AI akan mengisi semua bidang Anda secara otomatis. Anda juga dapat mengedit bidang apa pun secara manual termasuk preferensi EEO, izin kerja, dan surat lamaran Anda.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Apa itu bidang EEO dan mengapa saya memerlukannya?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Bidang EEO (Equal Employment Opportunity) adalah pertanyaan yang banyak ditanyakan oleh pengusaha di AS dan global tentang gender, status disabilitas, status veteran, dan izin kerja. ApplyFlow menyimpan jawaban pilihan Anda dan secara otomatis mengisi grup tombol radio ini sehingga Anda tidak perlu menjawabnya secara manual setiap saat.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Apakah ApplyFlow memerlukan kunci atau konfigurasi API apa pun?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "TIDAK! ApplyFlow menangani semua deteksi formulir, pencocokan cerdas, pembuatan surat lamaran, dan penilaian kompatibilitas secara otomatis. Anda tidak perlu mendapatkan atau mengonfigurasi kunci API apa pun.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Apa itu sinkronisasi Supabase dan apakah saya memerlukannya?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Sinkronisasi Supabase adalah fitur pencadangan cloud opsional. Saat Anda masuk dengan Google dan mengaktifkannya, profil dan pelacak aplikasi Anda disinkronkan ke database cloud pribadi sehingga data Anda dicadangkan dan dapat diakses dari beberapa perangkat. Ini sepenuhnya opsional — ekstensi berfungsi sepenuhnya offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Mengapa ApplyFlow memerlukan akses ke semua situs web?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow meminta akses ke semua situs web sehingga dapat memasukkan mesin pengisian otomatis pada formulir lamaran pekerjaan apa pun, dan menampilkan tombol clipper \"Simpan Pekerjaan\" pada daftar pekerjaan mana pun. Izin ini diperlukan untuk dukungan platform luas. Kami hanya menyuntikkan skrip pada halaman yang jelas-jelas berhubungan dengan pekerjaan.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Apa itu Dewan Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Papan Kanban adalah tampilan pelacakan pekerjaan visual di tab Pelacak. Ini menunjukkan lamaran Anda disusun dalam kolom: Tersimpan → Diterapkan → Penilaian → Wawancara → Penawaran. Anda dapat menarik dan melepas kartu antar kolom untuk memperbarui status aplikasi apa pun.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Bagaimana cara kerja deteksi pengiriman?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Saat Anda mengaktifkan \"Log hanya setelah pengiriman\" di pengaturan, ApplyFlow mengawasi perubahan halaman yang menunjukkan pengiriman berhasil (seperti URL yang berisi \"/success\" atau teks isi yang mengatakan \"Terima kasih telah melamar\"). Ini hanya mencatat aplikasi ke pelacak Anda setelah mendeteksi pengiriman yang sebenarnya.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Bisakah saya menyimpan banyak surat pengantar?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ya! Layar Profil memiliki bagian \"Gudang Surat Lamaran\" tempat Anda dapat menyimpan surat lamaran tanpa batas yang disesuaikan dengan peran atau perusahaan yang berbeda. Saat mengisi otomatis, ApplyFlow akan menggunakan surat lamaran Anda yang terbaru atau paling relevan.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Bagaimana cara mengekspor data aplikasi saya?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Buka Akun & Sinkronisasi → gulir ke bawah → klik \"Ekspor Cadangan (JSON)\". Ini mengunduh semua profil dan data aplikasi Anda sebagai file JSON untuk diamankan.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Apakah ApplyFlow berfungsi dalam Mode Demo?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Mode Demo adalah pengaturan lama yang digunakan untuk pengujian. Sekarang dinonaktifkan secara default. Semua fitur aktif dan berfungsi dengan kunci API Gemini bawaan.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Bagaimana cara melaporkan bug atau meminta fitur?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Silakan buka terbitan di repositori GitHub kami (tertaut di bagian Tentang) atau kirim email kepada kami di support@applyflow.in. Kami biasanya merespons dalam waktu 48 jam.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Buka pop-up ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Pindai halaman saat ini untuk bidang formulir",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Memicu IsiOtomatis Cerdas di halaman saat ini",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Klip daftar pekerjaan saat ini ke pelacak",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Buka Pelacak di tab baru",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Konfigurasikan pintasan di Chrome di",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Catatan:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Perintah ekstensi Chrome memerlukan penetapan manual di pengelola pintasan Chrome. Buka $1$ untuk mengikat kunci yang tercantum di atas.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Ekstensi Chrome ApplyFlow — Kebijakan Privasi**\nTerakhir Diperbarui: Juni 2026\n\n---\n\n**1. Pendahuluan**\n\nApplyFlow (\"kami\", \"milik kami\", \"Ekstensi\") adalah ekstensi browser Chrome yang membantu pengguna mengisi otomatis formulir lamaran pekerjaan, melacak lamaran mereka, dan mengelola profil profesional mereka. Kebijakan Privasi ini menjelaskan cara kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi Anda.\n\nDengan menginstal dan menggunakan ApplyFlow, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.\n\n---\n\n**2. Data yang Kami Kumpulkan**\n\nKami hanya mengumpulkan informasi yang Anda berikan secara sukarela untuk mengaktifkan fitur ekstensi:\n\n• **Informasi Profil**: Nama, email, nomor telepon, perguruan tinggi, gelar, keterampilan, riwayat kerja, proyek, dan tautan profesional Anda (LinkedIn, GitHub, Portofolio).\n• **Informasi EEO/Demografis (Opsional)**: Gender, status disabilitas, veteran status, dan preferensi izin kerja — hanya diberikan jika Anda memilih untuk mengisi kolom ini. Data ini digunakan secara eksklusif untuk mengisi otomatis kuesioner EEO opsional pada lamaran pekerjaan.\n• **Data Pelacakan Lamaran**: Jabatan, perusahaan, URL lamaran, status, dan catatan untuk posisi yang Anda lacak menggunakan ekstensi.\n• **Statistik Penggunaan**: Jumlah operasi pengisian otomatis yang dilakukan (disimpan secara lokal untuk menerapkan batasan harian).\n• **Data Otentikasi**: Jika Anda memilih untuk masuk dengan Google, kami menyimpan nama tampilan Google, alamat email, dan URL gambar profil untuk mempersonalisasi pengalaman Anda dan mengaktifkan sinkronisasi cloud.\n\nKami **tidak** mengumpulkan:\n• Informasi pembayaran atau keuangan\n• Riwayat browser atau aktivitas penjelajahan umum\n• Informasi apa pun dari halaman yang tidak terkait dengan lamaran pekerjaan\n• Data apa pun dari halaman saat ekstensi tidak aktif dipicu\n\n---\n\n**3. Cara Kami Menyimpan Data Anda**\n\n**3.1 Penyimpanan Lokal (Default)**\nSemua data terutama disimpan di API chrome.storage.local browser Anda. Data ini hanya ada di perangkat Anda dan tidak pernah dikirim ke server mana pun tanpa tindakan eksplisit Anda.\n\n**3.2 Cloud Sync (Opsional)**\nJika Anda memilih untuk masuk dengan Google dan mengaktifkan fitur \"Sinkronisasi Supabase\", profil dan data aplikasi Anda juga akan disinkronkan ke database Supabase. Anda memegang kepemilikan penuh atas data ini. Anda dapat menghapusnya kapan saja dari bagian Akun & Sinkronisasi.\n\n**3.3 Permintaan AI Gemini**\nSaat fitur AI digunakan (misalnya, pembuatan esai, analisis pekerjaan), bagian dari profil Anda (keterampilan, gelar, ringkasan) dan teks deskripsi pekerjaan dikirim ke API Gemini Google untuk menghasilkan respons. Ini diproses berdasarkan Persyaratan Layanan dan Kebijakan Privasi API standar Google. Kami menyarankan untuk tidak menyertakan pengenal pribadi yang sensitif dalam konten Anda yang dibantu AI.\n\n---\n\n**4. Berbagi Data**\n\nKami **tidak** menjual, memperdagangkan, menyewakan, atau membagikan informasi pribadi Anda dengan pihak ketiga mana pun untuk tujuan pemasaran atau periklanan.\n\nData Anda dapat diproses oleh layanan tepercaya berikut:\n• **Google Gemini API**: Untuk pengisian dan analisis formulir yang didukung AI (https://policies.google.com/privacy)\n• **Google OAuth**: Untuk autentikasi akun (https://policies.google.com/privacy)\n• **Supabase**: Untuk penyimpanan cloud opsional (https://supabase.com/privacy) — hanya jika Anda mengaktifkan sinkronisasi\n\n---\n\n**5. Hak & Kontrol Anda**\n\nAnda berhak untuk:\n• **Mengakses** semua data yang disimpan ApplyFlow tentang Anda (melalui Ekspor Cadangan di pengaturan)\n• **Perbaiki** informasi Anda kapan saja di tab Profil\n• **Hapus** semua data Anda secara lokal menggunakan \"Hapus Semua Data Profil\" di pengaturan\n• **Batalkan persetujuan** kapan saja dengan mencopot pemasangan extension\n• **Nonaktifkan sinkronisasi cloud** dengan menonaktifkannya di setelan Akun & Sinkronisasi\n\n**GDPR (Pengguna UE)**: Jika Anda penduduk UE, Anda berhak mengakses, memperbaiki, menghapus, membatasi pemrosesan, dan portabilitas data berdasarkan Peraturan Perlindungan Data Umum.\n\n**India — Undang-Undang DPDP 2023**: Sesuai dengan Perlindungan Data Pribadi Digital India Undang-undang 2023, kami memproses data pribadi hanya untuk tujuan penyediaan layanan bantuan lamaran kerja. Anda dapat menarik persetujuan dan meminta penghapusan data Anda kapan saja dengan menghubungi kami.\n\n**California — CCPA**: Penduduk California berhak mengetahui informasi pribadi apa yang dikumpulkan, hak untuk menghapus, dan hak untuk tidak ikut serta dalam penjualan (kami tidak menjual data).\n\n---\n\n**6. Retensi Data**\n\nData lokal disimpan hingga Anda menghapusnya secara manual. Data yang disinkronkan dengan cloud akan disimpan hingga Anda menghapus akun atau meminta penghapusan. Kami tidak secara otomatis menghapus data.\n\n---\n\n**7. Keamanan**\n\nKami mengambil tindakan teknis yang wajar untuk melindungi data Anda:\n• Semua komunikasi cloud menggunakan enkripsi HTTPS/TLS\n• Keamanan Tingkat Baris Supabase (RLS) memastikan pengguna hanya dapat mengakses data mereka sendiri\n• Ekstensi tidak meminta izin melebihi apa yang diperlukan untuk intinya fungsi\n\n---\n\n**8. Privasi Anak**\nNL_88__ApplyFlow tidak ditujukan untuk pengguna di bawah usia 13 tahun. Kami tidak dengan sengaja mengumpulkan data dari anak-anak. Jika Anda yakin ada anak yang memberikan informasi pribadi kepada kami, harap segera hubungi kami.\n\n---\n\n**9. Perubahan pada Kebijakan Ini**\n\nKami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan signifikan akan dikomunikasikan melalui halaman Opsi ekstensi. Penggunaan ekstensi yang berkelanjutan setelah perubahan merupakan penerimaan kebijakan yang diperbarui.\n\n---\n\n**10. Hubungi Kami**\n\nUntuk pertanyaan terkait privasi, permintaan penghapusan data, atau masalah:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nSitus Web: https://applyflow.in\n\nKami bertujuan untuk menanggapi semua permintaan dalam waktu 30 hari.",
+    "description": "Privacy policy document markdown text"
+  }
+}

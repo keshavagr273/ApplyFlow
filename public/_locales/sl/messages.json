@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: samodejno izpolnjevanje opravil z umetno inteligenco in sledilnik aplikacij",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Samodejno izpolnite prošnje za zaposlitev in sezname sledi samodejno z uporabo umetne inteligence na LinkedIn, Workday, Greenhouse & več.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktiven",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Uporabljeno",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Intervju",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Ponudba",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Shranjeno",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Skupaj",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Samodejno izpolnjevanje",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Polnjenje ...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Hitro samodejno izpolnjevanje",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analizirajte delo",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Odpri stransko vrstico",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "nastavitve",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Če želite uporabljati hitro samodejno izpolnjevanje, se najprej prijavite z Googlom!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Najprej nastavite svoj profil na stranski plošči/strani z možnostmi!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Zaznano",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Zaznana ni nobena stran za delo",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Obiščite seznam delovnih mest, da odklenete funkcije AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "dobro jutro",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "dober dan",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "dober večer",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ sledenih prijav · $2$ intervjujev",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Začnite se prijavljati, da spremljate svoj napredek",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Spremno pismo",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Vprašanja in odgovori Pomoč",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Pripravljen pomagati",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Pomaknite se do seznama delovnih mest na LinkedIn, Workday, Greenhouse ali kateri koli oglasni deski, da začnete.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Ta teden",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Nedavna dejavnost",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Prikaži vse →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Začnite loviti službo!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Obiščite oglasno desko in uporabite ApplyFlow za samodejno izpolnjevanje in samodejno sledenje vašim prijavam.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Moj profil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Shranjevanje ...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Shrani vse",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil shranjen!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Profila ni bilo mogoče shraniti.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Nadaljevanje",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Naloži v profil za samodejno izpolnjevanje",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Naloženo",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Osebni podatki",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Nepopolna",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Lokacija",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "izobraževanje",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Spretnosti",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Delovne izkušnje",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projekti",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Delovne nastavitve",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Pooblastilo za delo",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Zgodovina nadaljevanja",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Uporabite to",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Razčlenjeno dne $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Naložiti podrobnosti profila iz »$1$«? To bo nadomestilo vaše trenutne popravke z razčlenjeno strukturo tega življenjepisa.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Obnovljene podrobnosti iz $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Rezultat tekme",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+ še $1$",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplikacija je samodejno izpolnjena in zabeležena! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Samodejno izpolnjeno prek stranske plošče ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "tam",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Brez fakultete",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Nastavite svoj profil, da omogočite samodejno izpolnjevanje",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ni nastavljeno",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ vnosov",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ spretnosti",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projektov",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ odgovori",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Pooblaščeno",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ni dovoljeno",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Polno ime",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-pošta",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Nadomestni telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL portfelja",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Povezava za nadaljevanje",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Mesto",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Država",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Država",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Poštna številka",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Naslov",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Narodnost",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Fakulteta / univerza",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "stopnja",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Leto diplome",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / razred",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10. %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12. %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Odpovedni rok",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Pričakovana plača",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Prednostna vloga",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Leta izkušenj",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Pooblaščeno za delo brez vizumskega sponzorstva",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Zahteva vizumsko sponzorstvo",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Spol",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Invalidnost",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Raje ne povej",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ni določeno",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "moški",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ženska",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Nebinarni",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ja",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "št",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ni še dodanih veščin",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Dodajte veščino (vnesite za dodajanje)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Sprožilni stavek (npr. zakaj bi morali najeti vas)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Vaš odgovor ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Odstrani",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Dodaj odgovor po meri",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Podjetje",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Vloga / naziv",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Začetni datum",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Končni datum",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Prisoten",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Trenutno delam v tej vlogi",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Opis",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Opišite svoje odgovornosti, ključne dosežke, uporabljene tehnologije ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Dodajte delovne izkušnje",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Naslov projekta",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tehnični sklad",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL za uvajanje",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Opišite, kaj ste zgradili, kakšno težavo je rešilo in ključne lastnosti ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Dodaj projekt",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Sledilnik",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Shranjeno",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Uporabljeno",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Ocenjevanje",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Intervju",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Ponudba",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Zavrnjeno",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "umaknjen",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Želite izbrisati to aplikacijo?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplikacija posodobljena!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplikacija izbrisana.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Stanje",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Uporabljeno",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Odprite objavo delovnega mesta",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Plača / štipendija",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Nadaljnji opomnik",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Opombe",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Dodajte opombe, kontaktne podatke, podrobnosti intervjuja ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Opis delovnega mesta (izvleček)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Izbriši",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Prekliči",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Shrani",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplikacija",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplikacij",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtriraj po podjetju ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Statusni filtri",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Pomaknite se desno za več →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Vse",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Ni najdenih aplikacij",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Poskusite ponastaviti filtre ali shranite opravilo, da dodate nov vnos v sledilnik",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "analitika",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ skupaj prijav",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Podatkov še ni",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Začnite se prijavljati na delovna mesta in vaša analitika se bo pojavila tukaj.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Pretvorbene stopnje",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Uporabljeno",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Stopnja intervjuja",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Stopnja ponudbe",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Prijave ta teden",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Lijak aplikacije",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Vrhunske platforme",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Razčlenitev stanja",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI kopilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontekst: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Vaš karierni kopilot",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Nov klepet ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Najprej nastavite svoj profil, da bo AI lahko prilagodil odgovore.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Klepet izbrisan! S čim ti lahko pomagam?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Vprašajte karkoli o tej službi...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Za začetek nastavite svoj profil",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Pritisnite Enter za pošiljanje",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Ocena združljivosti nadaljevanja",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Močne spretnosti",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Manjkajoče veščine",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Tukaj je vaše prilagojeno spremno pismo:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kopirano!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopiraj",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Prenos",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Tukaj je $1$ verjetnih vprašanj za razgovor:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Nadaljujte z oceno optimizacije: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Nadaljujte s predlogi za ujemanje",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "v primerjavi s tem opisom delovnega mesta",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Nekaj je šlo narobe. prosim poskusite ponovno",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "zdravo Vidim, da si ogledujete vlogo **$1$** na **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "zdravo Vidim, da si ogledujete vlogo **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "zdravo Sem vaš karierni kopilot AI. Pomaknite se do seznama delovnih mest in samodejno ga bom analiziral ali pa me karkoli vprašajte!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Najprej nastavite svoj profil v zavihku Profil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Če želite uporabiti to funkcijo, najprej odprite stran s seznamom delovnih mest v brskalniku!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Odklenite ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Prijavite se z Googlom za dostop do nadzorne plošče, sinhronizacijo delovnih mest, upravljanje profila življenjepisa in takojšnje samodejno izpolnjevanje prošenj za zaposlitev.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "Samodejno izpolnjevanje in striženje AI",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skenirajte in samodejno izpolnite aplikacije z enim klikom.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Sinhronizacija in varnostno kopiranje v oblak",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Sinhronizirajte vse podrobnosti o sledenju opravilom s Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Življenjepis in profili",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Naložite svoj življenjepis in prilagodite odgovore na prijavo.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Povezovanje z Googlom ...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Prijavite se z Googlom",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "S prijavo se strinjate z varno sinhronizacijo podatkov vašega profila z aktivnim delovnim prostorom.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Ste prepričani, da se želite odjaviti?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Uspešno odjavljen.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Prijavljen kot $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Odjava",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Prijavite se",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Povezovanje ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Odprite ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Močne sposobnosti ujemanja",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Manjkajoče spretnosti",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Stran s pametnim samodejnim izpolnjevanjem",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Samodejno izpolnjevanje obrazca ...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Na strani ni mogoče najti polj za prijavo, ki bi jih bilo mogoče izpolniti.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Uspešno izpolnjeno!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Samodejno izpolnjevanje ni uspelo zaradi zapletenosti strani.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Ob izpolnjevanju se samodejno shrani v sledilnik dnevnika.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Vaš življenjepis je **$1$ % kompatibilen** s to vlogo.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Dobrodošli nazaj, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Podatkov o Googlovem uporabniškem profilu ni bilo mogoče pridobiti.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Prijava OAuth ni uspela: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Pridobivanje žetona za dostop iz preusmeritve ni uspelo.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Preusmeritve preverjanja pristnosti ni bilo mogoče razčleniti.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Preverjanje pristnosti na tej platformi ni podprto.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Posel shranjen v sledilnik!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Gost",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Splošne nastavitve",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Prikaži na LinkedIn Job Pages",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Ko si ogledujete objave delovnih mest na LinkedInu, prikaže rezultat pametnega ujemanja in gumb za samodejno izpolnjevanje z enim klikom.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Prikaži gumb »Shrani opravilo«.",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Prikazuje plavajoči gumb »Shrani delo 📌« na zaposlitvenih mestih, tako da lahko hitro shranite podrobnosti o delu v svoj sledilnik, preden se prijavite.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Prijavite se šele po dejanski prijavi",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Počakajte, da se prikaže zaslon »Hvala« ali »Uspeh«, preden dodate opravilo v svoj sledilnik. Ohranja vaš sledilnik urejen tako, da prepreči shranjevanje napol izpolnjenih obrazcev kot »Uporabljeno«.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Dobroimetje AI in analiza uporabe",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Preostali krediti",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Preostali krediti",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Skupni krediti",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Samodejna izpolnjevanja vseh časov",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Status načrta",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Brezplačno 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Profesionalni nasvet:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Operacije pametnega samodejnega izpolnjevanja porabijo 0 kreditov in so 100 % neomejene! Samo napredne funkcije umetne inteligence, kot so spremna pisma (5 kreditov) in eseji po meri (3 krediti), porabijo vaše dobroimetje.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Račun in sinhronizacija v oblaku",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync je aktiven",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Sinhronizacija v oblaku zaklenjena (samo Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Sinhronizacija v oblaku",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Potisni v oblak",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Potegnite iz oblaka",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinhronizacija uspela!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinhronizacija ni uspela. Preverite povezavo.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Varna sinhronizacija v oblaku",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Prijavite se z Googlom, da varnostno kopirate svoje aplikacije in profil v Supabase. Sinhronizacija je funkcija Premium, ki vaše dnevnike varuje v vseh napravah.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync je vrhunska funkcija. Nadgradite na zavihku Nadgradnja, da omogočite sinhronizacijo!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Upravljanje podatkov",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Izvoz varnostne kopije (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Počisti vse lokalne podatke",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Z brisanjem lokalnih podatkov odstranite svoj profil in aplikacije samo iz te naprave. Podatki v oblaku niso prizadeti.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Nadzorni center",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Domov & O",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Splošne nastavitve",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Nadgradite na Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium paket 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Račun in sinhronizacija",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Politika zasebnosti",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "pogosta vprašanja",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Bližnjice na tipkovnici",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Dobrodošli v ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow je razširitev za Chrome, ki temelji na umetni inteligenci, ustvarjena za študente in iskalce zaposlitve, ki se želijo prijaviti hitreje in pametneje. Samodejno zazna in izpolni obrazce za prijavo na delo na več kot 15 platformah, sledi vašemu načrtu in vam pomaga pridobiti več intervjujev.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Pametno samodejno izpolnjevanje",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS platform z natančnimi selektorji",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Z enim klikom shranite kateri koli seznam delovnih mest",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban sledilnik",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Povlecite in spustite cevovod aplikacij",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Samodejno izpolnjevanje EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Samodejno izpolni demografska in vizumska vprašanja",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Eseji o AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Pisanje odgovorov po meri, ki ga poganja Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Varna sinhronizacija",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Izbirna varnostna kopija v oblaku Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Kako začeti",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Zgradite svoj profil",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Odprite pojavno okno → zavihek Profil → naložite svoj življenjepis PDF. AI bo samodejno izluščil vse vaše podrobnosti, vključno z znanji, izkušnjami, izobrazbo in projekti.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Nastavite nastavitve EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Pomaknite se do razdelka EEO v svojem profilu in nastavite dovoljenje za delo, potrebe po sponzorstvu za vizum in demografske nastavitve. Uporabljajo se za samodejno izpolnjevanje vprašalnikov EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Prebrskajte seznam delovnih mest",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Pomaknite se do katerega koli seznama delovnih mest. Videli boste, da se prikaže gumb 📌 »Shrani delo«. Kliknite, da takoj shranite položaj v svoj sledilnik.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Odprite obrazec za prijavo",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Pomaknite se do obrazca za prijavo. Kliknite pojavno okno ApplyFlow → kliknite »Skeniraj stran« → nato »⚡ Pametno samodejno izpolnjevanje«. Vsa polja, vključno z izbirnimi gumbi in spustnimi meniji, se takoj izpolnijo.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Sledite svojemu cevovodu",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Odprite zavihek Tracker, da vidite vse svoje aplikacije. Preklopite na pogled Kanban Board in povlecite kartice med stolpci, ko se vaše stanje posodobi.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Zahtevana je prijava",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Prijavite se za prilagoditev nastavitev",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Splošne nastavitve so na voljo samo prijavljenim uporabnikom. Prijavite se z Googlom, da konfigurirate svoje nastavitve, vedenje samodejnega izpolnjevanja in drugo.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Pojdite na Račun in sinhronizacija",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licenčni ključ: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Deaktiviraj licenco",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivacija licenčnega ključa",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Če ste kupili naročnino ali prejeli kodo za dostop, spodaj vnesite licenčni ključ, da odklenete ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktiviraj",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktiviranje ...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Nasvet: Premium lahko aktivirate s ključem APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktiviran!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Hvala za podporo ApplyFlow. Vse premium funkcije so zdaj odklenjene.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Načrt nadgradnje Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Odklenite svoje karierne izvoze in napredne funkcije AI.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Pridobite vrhunske kredite AI za spremna pisma, odgovore na eseje po meri, optimizacijo življenjepisa in lažne priprave na intervju. Operacije samodejnega izpolnjevanja na podprtih platformah so popolnoma neomejene in brezplačne za vse premium uporabnike!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Ponudba za zgodnje uporabnike:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Naslednje zvišanje cene pri 500 Premium uporabnikih. Zaklenite to stopnjo za vse življenje!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Mesečni Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Dobro za kratkoročno iskanje",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ mesec",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Samo ₹13/dan)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 kreditov AI na mesec|||Neomejeno samodejno izpolnjevanje (vsi portali)|||Sinhronizacija v oblaku in Google Varnostno kopiranje|||Teme Premium|||Izkušnja brez oglasov",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Naročite se mesečno",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Četrtletni Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Najboljša vrednost za večino iskalcev zaposlitve",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 mesece",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Samo ₹11/dan)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 kreditov AI na četrtletje|||Neomejeno samodejno izpolnjevanje (vsi portali)|||Prilagojena spremna pisma in eseji|||Sinhronizacija v oblaku in Google Varnostno kopiranje|||Predlogi za ujemanje nadaljevanja",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Naročite se četrtletno",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Najbolj priljubljena",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Letni Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Najboljša vrednost za napredne uporabnike",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ leto",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Enakovredno ₹249 / mesec)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 kreditov AI na leto|||Neomejeno dnevno samodejno izpolnjevanje|||Prilagojena spremna pisma in eseji|||Sinhronizacija v oblaku in Google Varnostno kopiranje|||Predlogi za ujemanje nadaljevanja|||Prednostna podpora po e-pošti",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Naročite se letno",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Najboljša vrednost - prihranite 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Podprite razvoj ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow gradijo in vzdržujejo neodvisni razvijalci. Če se vam zdi razširitev koristna, razmislite o donaciji na Ko-fi, da bo ostal aktiven, brez oglasov in posodobljen za nove oglasne deske.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Kupi mi kavo na Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ Ocena 5,0|||🔒 Varna plačila|||✓ Prekliči kadar koli",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Neveljaven licenčni ključ. Namig: poskusite uporabiti demo ključ 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licenca je bila uspešno aktivirana! Dobrodošli v ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ali ste prepričani, da želite deaktivirati svojo premium licenco? S tem se boste vrnili na brezplačen načrt.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium licenca deaktivirana. Zdaj ste na brezplačnem načrtu.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "S tem boste trajno izbrisali VSE podatke lokalnega profila in aplikacije. Ste prepričani?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Politika zasebnosti",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Pogosta vprašanja",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Kaj je ApplyFlow in kako deluje?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow je razširitev za Chrome, ki temelji na umetni inteligenci in samodejno zazna in izpolni prijavne obrazce na več kot 15 platformah, vključno z LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever in drugimi. Prebere vaš shranjeni profil in uporablja inteligentno ujemanje za zapolnjevanje besedilnih polj, spustnih menijev, izbirnih gumbov in potrditvenih polj – vključno z EEO/demografskimi vprašanji.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Ali so moji osebni podatki varni z ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ja Vaši podatki so privzeto shranjeni lokalno v brskalniku chrome.storage.local. Nikoli se ne pošlje nobenemu strežniku tretje osebe, razen vaši lastni izbirni bazi podatkov Supabase (ki jo nadzirate). ApplyFlow nikoli ne prodaja, deli ali monetizira vaših osebnih podatkov.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Katere delovne platforme podpira ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow že takoj podpira 15+ platform: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList in katero koli drugo spletno mesto prek našega inteligentnega generičnega nadomestnega ujemalnika.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Kaj je Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper je lebdeči gumb »Shrani delo« (📌), ki se samodejno prikaže, ko obiščete katero koli stran s seznamom delovnih mest. Če ga kliknete, izvlečete naziv delovnega mesta, podjetje, plačo in opis, nato pa jih shranite v sledilnik ApplyFlow kot »shranjeno« aplikacijo — tako da lahko sledite delovnim mestom, preden se prijavite.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Kako posodobim svoj profil?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Odprite pojavno okno ApplyFlow, kliknite zavihek »Profil« in naložite svoj življenjepis PDF. AI bo samodejno izpolnil vsa vaša polja. Prav tako lahko ročno uredite katero koli polje, vključno z vašimi nastavitvami EEO, pooblastilom za delo in spremnimi pismi.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Kaj so EEO polja in zakaj jih potrebujem?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Polja EEO (Enake zaposlitvene možnosti) so vprašanja, ki si jih mnogi ameriški in svetovni delodajalci zastavljajo o spolu, statusu invalidnosti, statusu veterana in dovoljenju za delo. ApplyFlow shrani vaše želene odgovore in samodejno zapolni te skupine izbirnih gumbov, tako da vam ni treba vsakič odgovoriti ročno.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Ali ApplyFlow zahteva kakršne koli ključe API ali konfiguracijo?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "ne! ApplyFlow samodejno obravnava vsa zaznavanja obrazcev, pametno ujemanje, ustvarjanje spremnih pisem in točkovanje združljivosti. Ni vam treba pridobiti ali konfigurirati nobenih ključev API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Kaj je Supabase sync in ali ga potrebujem?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Sinhronizacija Supabase je izbirna funkcija varnostnega kopiranja v oblaku. Ko se prijavite z Googlom in ga omogočite, se vaš profil in sledilnik aplikacij sinhronizirata z zasebno bazo podatkov v oblaku, tako da so vaši podatki varnostno kopirani in dostopni iz več naprav. To je popolnoma izbirno - razširitev deluje popolnoma brez povezave.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Zakaj ApplyFlow potrebuje dostop do vseh spletnih mest?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow zahteva dostop do vseh spletnih mest, tako da lahko vstavi mehanizem za samodejno izpolnjevanje v kateri koli obrazec za prijavo na delo in prikaže gumb za striženje »Shrani delo« na katerem koli seznamu delovnih mest. To dovoljenje je potrebno za široko podporo platforme. Skripte vstavimo samo na strani, ki so jasno povezane z delom.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kaj je tabla Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Tabla Kanban je vizualni pogled za sledenje opravil na zavihku Sledilnik. Prikazuje vaše prijave, razvrščene v stolpce: Shranjeno → Prijavljeno → Ocenjevanje → Intervju → Ponudba. Kartice lahko povlečete in spustite med stolpci, da posodobite stanje katere koli aplikacije.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Kako deluje zaznavanje oddaje?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Ko v nastavitvah omogočite »Zabeleži samo po oddaji«, ApplyFlow opazuje spremembe strani, ki kažejo na uspešno oddajo (na primer URL, ki vsebuje »/uspeh« ali telo besedila, ki pravi »Hvala za prijavo«). Aplikacijo prijavi v vaš sledilnik šele potem, ko zazna pravo predložitev.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Ali lahko shranim več spremnih pisem?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ja! Zaslon profila ima razdelek »Skladišče spremnih pisem«, kjer lahko shranite neomejeno število spremnih pisem, prilagojenih različnim vlogam ali podjetjem. Pri samodejnem izpolnjevanju bo ApplyFlow uporabil vaše najnovejše ali najbolj relevantno spremno pismo.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Kako izvozim podatke svoje aplikacije?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Pojdite na Račun in sinhronizacija → pomaknite se na dno → kliknite »Izvozi varnostno kopijo (JSON)«. S tem prenesete vse podatke o vašem profilu in aplikaciji kot datoteko JSON za varno hrambo.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Ali ApplyFlow deluje v predstavitvenem načinu?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo način je bila stara nastavitev, uporabljena za testiranje. Zdaj je privzeto onemogočen. Vse funkcije so aktivne in delujoče z vgrajenim ključem Gemini API.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Kako prijavim napako ali zahtevam funkcijo?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Odprite težavo v našem repozitoriju GitHub (povezava je v razdelku O tem) ali nam pošljite e-pošto na support@applyflow.in. Običajno odgovorimo v 48 urah.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Odprite pojavno okno ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Preglejte trenutno stran za polja obrazca",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Sproži pametno samodejno izpolnjevanje na trenutni strani",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Izrez trenutnega seznama delovnih mest v sledilnik",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Odprite Tracker v novem zavihku",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Konfigurirajte bližnjice v Chromu na",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Opomba:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Ukazi razširitev za Chrome zahtevajo ročno dodelitev v Chromovem upravitelju bližnjic. Pojdite na $1$, da povežete zgoraj navedene ključe.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Razširitev ApplyFlow za Chrome — Pravilnik o zasebnosti**\nNazadnje posodobljeno: junij 2026\n\n---\n\n**1. Uvod**\n\nApplyFlow (»mi«, »naš«, »razširitev«) je razširitev brskalnika Chrome, ki uporabnikom pomaga pri samodejnem izpolnjevanju prijavnih obrazcev za zaposlitev, sledenju njihovim prijavam in upravljanju njihovega poklicnega profila. Ta pravilnik o zasebnosti pojasnjuje, kako zbiramo, uporabljamo, shranjujemo in varujemo vaše podatke.\n\nZ namestitvijo in uporabo ApplyFlow se strinjate s praksami, opisanimi v tem pravilniku.\n\n---\n\n**2. Podatki, ki jih zbiramo**\n\nZbiramo samo podatke, ki jih prostovoljno posredujete za omogočanje funkcij razširitve:\n\n• **Podatki o profilu**: vaše ime, e-pošta, telefonska številka, fakulteta, diploma, spretnosti, delovna zgodovina, projekti in poklicne povezave (LinkedIn, GitHub, Portfelj).\n• **EEO/demografski podatki (neobvezno)**: Spol, status invalidnosti, status veterana in nastavitve pooblastila za delo — na voljo samo, če se odločite izpolniti ta polja. Ti podatki se uporabljajo izključno za samodejno izpolnjevanje izbirnih vprašalnikov EEO v prošnjah za zaposlitev.\n• **Podatki o sledenju aplikaciji**: naziv delovnega mesta, podjetje, URL prijave, status in opombe za delovna mesta, ki jim sledite z uporabo razširitve.\n• **Statistika uporabe**: število izvedenih operacij samodejnega izpolnjevanja (shranjeno lokalno za uveljavljanje dnevnih omejitev).\n• **Podatki za preverjanje pristnosti**: Če se odločite za prijavo z Googlom, shranimo vaše Googlovo prikazano ime, e-poštni naslov in URL slike profila, da prilagodimo vašo izkušnjo in omogočimo sinhronizacijo v oblaku.\n\nMi **ne** zbiramo:\n• plačilnih ali finančnih podatkov\n• zgodovine brskalnika ali splošne dejavnosti brskanja\n• vseh informacij s strani, ki niso povezane s prijavo za delo\n• Vsi podatki s strani, ko razširitev ni aktivno sprožena\n\n---\n\n**3. Kako shranjujemo vaše podatke**\n\n**3.1 Lokalna shramba (privzeto)**\nVsi podatki so primarno shranjeni v API-ju chrome.storage.local vašega brskalnika. Ti podatki so shranjeni samo v vaši napravi in ​​se nikoli ne prenesejo na noben strežnik brez vašega izrecnega dejanja.\n\n**3.2 Sinhronizacija v oblaku (izbirno)**\nČe se odločite za prijavo z Googlom in omogočite funkcijo »Sinhronizacija Supabase«, bodo podatki vašega profila in aplikacije prav tako sinhronizirani z zbirko podatkov Supabase. Vi obdržite polno lastništvo teh podatkov. Kadar koli ga lahko izbrišete v razdelku Račun in sinhronizacija.\n\n**3.3 Zahteve Gemini AI**\nKo se uporabljajo funkcije AI (npr. ustvarjanje eseja, analiza delovnega mesta), se deli vašega profila (spretnosti, diploma, povzetek) in besedilo opisa delovnega mesta pošljejo Googlovemu API-ju Gemini za ustvarjanje odgovora. To se obdeluje v skladu z Googlovimi standardnimi pogoji storitve API in pravilnikom o zasebnosti. Priporočamo, da v svojo vsebino, podprto z umetno inteligenco, ne vključite občutljivih osebnih identifikatorjev.\n\n---\n\n**4. Skupna raba podatkov**\n\nVaših osebnih podatkov **ne** ne prodajamo, ne trgujemo, ne dajemo v najem ali delimo vaših osebnih podatkov s tretjimi osebami za namene trženja ali oglaševanja.\n\nVaše podatke lahko obdelujejo naslednje zaupanja vredne storitve:\n• **Google Gemini API**: za izpolnjevanje in analizo obrazcev, ki jih poganja AI (https://policies.google.com/privacy)\n• **Google OAuth**: Za preverjanje pristnosti računa (https://policies.google.com/privacy)\n• **Supabase**: Za izbirno shranjevanje v oblaku (https://supabase.com/privacy) — samo, če omogočite sinhronizacija\n\n---\n\n**5. Vaše pravice in nadzor**\n\nImate pravico do:\n• **Dostopa** do vseh podatkov, ki jih je ApplyFlow shranil o vas (prek Izvozi varnostno kopijo v nastavitvah)\n• **Popravite** svoje podatke kadar koli na zavihku Profil\n• **Izbrišete** vse svoje podatke lokalno z »Počisti vse podatke profila« v nastavitvah\n• **Umaknite soglasje** kadar koli tako, da odstranite razširitev\n• **Onemogočite sinhronizacijo v oblaku** tako, da jo izklopite v nastavitvah računa in sinhronizacije\n\n**GDPR (EU uporabniki)**: Če ste prebivalec EU, imate pravice do dostopa, popravi, izbriše, omeji obdelavo in prenosljivost podatkov v skladu s Splošno uredbo o varstvu podatkov.\n\n**Indija — DPDP Act 2023**: V skladu z indijskim Zakonom o varstvu digitalnih osebnih podatkov iz leta 2023 obdelujemo osebne podatke samo za namen zagotavljanja storitve pomoči pri prijavi na delovno mesto. Soglasje lahko kadar koli prekličete in zahtevate izbris svojih podatkov, tako da stopite v stik z nami.\n\n**Kalifornija — CCPA**: Prebivalci Kalifornije imajo pravico vedeti, kateri osebni podatki se zbirajo, pravico do izbrisa in pravico do zavrnitve prodaje (ne prodajamo podatki).\n\n---\n\n**6. Hramba podatkov**\n\nLokalni podatki se hranijo, dokler jih ročno ne počistite. Podatki, sinhronizirani z oblakom, se hranijo, dokler ne izbrišete računa ali zahtevate izbris. Podatkov ne brišemo samodejno.\n\n---\n\n**7. Varnost**\n\nSprejemamo razumne tehnične ukrepe za zaščito vaših podatkov:\n• Vse komunikacije v oblaku uporabljajo šifriranje HTTPS/TLS\n• Supabase Row-Level Security (RLS) zagotavlja, da lahko uporabniki dostopajo le do svojih podatkov\n• Razširitev ne zahteva dovoljenj, ki presegajo tisto, kar je potrebno za njeno jedro funkcija\n\n---\n\n**8. Zasebnost otrok**\n\nApplyFlow ni namenjen uporabnikom, mlajšim od 13 let. Podatkov otrok ne zbiramo namerno. Če menite, da nam je otrok posredoval osebne podatke, nas nemudoma kontaktirajte.\n\n---\n\n**9. Spremembe tega pravilnika**\n\nTa pravilnik o zasebnosti lahko občasno posodobimo. Pomembne spremembe bodo sporočene prek strani z možnostmi razširitve. Nadaljnja uporaba razširitve po spremembah pomeni sprejemanje posodobljenega pravilnika.\n\n---\n\n**10. Pišite nam**\n\nZa vsa vprašanja v zvezi z zasebnostjo, zahteve za izbris podatkov ali pomisleke:\n\nE-pošta: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nSpletno mesto: https://applyflow.in\n\nNa vse zahteve želimo odgovoriti v 30 dneh.",
+    "description": "Privacy policy document markdown text"
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI automatinis darbų užpildymas ir programų stebėjimo priemonė",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatiškai užpildykite darbo paraiškas ir takelių sąrašus automatiškai naudodami AI sistemoje „LinkedIn“, „Workday“, „Greenhouse“ ir kt.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktyvus",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Taikoma",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Interviu",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Pasiūlyti",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Išsaugota",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Iš viso",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Automatinis pildymas",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Pildomas...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Greitas automatinis pildymas",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Išanalizuokite darbą",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Atidarykite šoninę juostą",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Nustatymai",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Pirmiausia prisijunkite naudodami „Google“, kad galėtumėte naudoti greitąjį automatinį pildymą!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Pirmiausia nustatykite savo profilį šoniniame skydelyje / parinktyse!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Aptikta",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Jokio darbo puslapio neaptikta",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Apsilankykite darbo sąraše ir atrakinkite dirbtinio intelekto funkcijas",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Labas rytas",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Laba diena",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Labas vakaras",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ stebimos paraiškos · $2$ interviu",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Pradėkite teikti paraiškas, kad galėtumėte stebėti savo pažangą",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Motyvacinis laiškas",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Klausimų ir atsakymų pagalba",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Pasiruošę padėti",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Norėdami pradėti, eikite į darbo vietų sąrašą „LinkedIn“, „Workday“, „Greenhouse“ ar bet kurioje darbo biržoje.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Šią savaitę",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Naujausia veikla",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Žiūrėti viską →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Pradėkite savo darbo paiešką!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Apsilankykite darbo biržoje ir naudokite „ApplyFlow“, kad automatiškai užpildytumėte ir stebėtumėte savo paraiškas.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Mano profilis",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Išsaugoma...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Išsaugoti viską",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profilis išsaugotas!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Nepavyko išsaugoti profilio.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Tęsti",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Įkelti į automatinio pildymo profilį",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Įkelta",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Asmeninė informacija",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Nebaigta",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Vieta",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Išsilavinimas",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Įgūdžiai",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Darbo patirtis",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projektai",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Darbo nuostatos",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Darbo leidimas",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Tęsti istoriją",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Naudokite tai",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Išnagrinėta $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Įkelti profilio informaciją iš „$1$“? Tai pakeis dabartinius pakeitimus šio gyvenimo aprašymo išanalizuota struktūra.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Atkurta informacija iš $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Rungtynių rezultatas",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Tinka",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ daugiau",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Paraiška automatiškai užpildyta ir užregistruota! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Automatiškai užpildyta per ApplyFlow šoninį skydelį",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ten",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Nėra koledžo rinkinio",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Nustatykite savo profilį, kad įgalintumėte automatinį pildymą",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Nenustatyta",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ įrašų",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ įgūdžius",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projektai",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ atsakymai",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Įgaliotas",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Neįgaliotas",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Pilnas vardas",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "El. paštas",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefonas",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternatyvus telefonas",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfelio URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "„GitHub“ URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Tęsti nuorodą",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Miestas",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "valstybė",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Šalis",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Pašto kodas",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adresas",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Tautybė",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Kolegija / Universitetas",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Laipsnis",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Studijų metai",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Įvertinimas",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10 %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Įspėjimo laikotarpis",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Numatomas atlyginimas",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Pageidaujamas vaidmuo",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Metų patirtis",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Leidžiama dirbti be vizos rėmimo",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Reikalingas vizos rėmimas",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Lytis",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "negalia",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Geriau nesakyti",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Nenurodyta",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Vyriška",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Moteris",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Ne dvejetainis",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Taip",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nr",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Dar nėra pridėtų įgūdžių",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Pridėti įgūdžius (įveskite, kad pridėtumėte)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Suaktyvinimo frazė (pvz., kodėl turėtume jus samdyti)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Jūsų atsakymas...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Pašalinti",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Pridėti pasirinktinį atsakymą",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Įmonė",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Vaidmuo / Pavadinimas",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Pradžios data",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Pabaigos data",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Pateikti",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Šiuo metu dirbu šį vaidmenį",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Aprašymas",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Aprašykite savo pareigas, pagrindinius pasiekimus, naudojamas technologijas...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Pridėti darbo patirtį",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Projekto pavadinimas",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Diegimo URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Aprašykite, ką sukūrėte, kokią problemą išsprendėte ir pagrindines funkcijas...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Pridėti projektą",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Išsaugota",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Taikoma",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Įvertinimas",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Interviu",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Pasiūlyti",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Atmesta",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Atšauktas",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Ištrinti šią programą?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Programa atnaujinta!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Programa ištrinta.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Būsena",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Taikoma",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Atidarykite darbo skelbimą",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Atlyginimas / Stipendija",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Tolesnis priminimas",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Pastabos",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Pridėkite pastabų, kontaktinę informaciją, interviu detales...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Darbo aprašymas (ištrauka)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Ištrinti",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Atšaukti",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Išsaugoti",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 paraiška",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ programos",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtruoti pagal įmonę...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Būsenos filtrai",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Norėdami daugiau sužinoti, slinkite dešinėn →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Visi",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Programų nerasta",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Pabandykite iš naujo nustatyti filtrus arba išsaugokite užduotį, kad pridėtumėte naują stebėjimo priemonės įrašą",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analizė",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ iš viso paraiškų",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Dar nėra duomenų",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Pradėkite teikti paraiškas dėl darbo ir jūsų analizė bus rodoma čia.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Konversijos kursai",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Taikoma",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Interviu norma",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Pasiūlymo norma",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Paraiškos šią savaitę",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Taikymo kanalas",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Populiariausios platformos",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Būsenos suskirstymas",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontekstas: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Jūsų karjeros antrasis pilotas",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Naujas pokalbis ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Pirmiausia susikurkite savo profilį, kad AI galėtų suasmeninti atsakymus.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Pokalbis išvalytas! Kuo galiu tau padėti?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Klauskite bet ko apie šį darbą...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Norėdami pradėti, nustatykite savo profilį",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Norėdami išsiųsti, paspauskite Enter",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Tęsti suderinamumo balą",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Stiprūs įgūdžiai",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Trūksta įgūdžių",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Čia yra jūsų asmeninis motyvacinis laiškas:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Nukopijuota!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopijuoti",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Atsisiųskite",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Čia yra $1$ galimi interviu klausimai:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Tęsti optimizavimo balą: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Tęsti atitikties pasiūlymus",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "prieš šį darbo aprašymą",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Kažkas nutiko. Bandykite dar kartą.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Sveiki! Matau, kad žiūrite į **$1$** vaidmenį **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Sveiki! Matau, kad žiūrite į **$1$** vaidmenį.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Sveiki! Aš esu jūsų dirbtinio intelekto karjeros antrasis pilotas. Eikite į darbo sąrašą ir aš automatiškai jį išanalizuosiu arba paklausiu bet ko!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Pirmiausia nustatykite savo profilį skirtuke Profilis!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Norėdami pasinaudoti šia funkcija, pirmiausia atidarykite darbo sąrašo puslapį savo naršyklėje!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Atrakinkite „ApplyFlow“.",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Prisijunkite naudodami „Google“, kad pasiektumėte savo prietaisų skydelį, sinchronizuotumėte užduotis, tvarkytumėte savo gyvenimo aprašymo profilį ir akimirksniu automatiškai užpildytumėte darbo paraiškas.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI automatinis užpildymas ir kirpimo priemonė",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Nuskaitykite ir automatiškai užpildykite programas vienu paspaudimu.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Debesų sinchronizavimas ir atsarginis kopijavimas",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Sinchronizuokite visą darbo stebėjimo informaciją su „Supabase“.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV ir profiliai",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Įkelkite savo gyvenimo aprašymą ir tinkinkite paraiškos atsakymus.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Jungiamasi prie Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Prisijunkite naudodami „Google“.",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Prisijungdami sutinkate saugiai sinchronizuoti savo profilio duomenis su aktyvia darbo vieta.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Ar tikrai norite atsijungti?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Sėkmingai atsijungta.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Prisijungęs kaip $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Atsijungti",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Prisijungti",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Jungiamasi...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Atidarykite ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Stiprūs derinimo įgūdžiai",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Trūksta įgūdžių",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Išmanusis automatinio pildymo puslapis",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Automatinio užpildymo forma...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Puslapyje nerasta užpildytų paraiškos laukų.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Sėkmingai užpildyta!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Automatinis pildymas nepavyko dėl puslapio sudėtingumo.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Užpildžius automatiškai išsaugomas žurnalo stebėjimo priemonėje.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Jūsų gyvenimo aprašymas **$1$% suderinamas** su šiuo vaidmeniu.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Sveiki sugrįžę, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Nepavyko gauti „Google“ naudotojo profilio informacijos.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Nepavyko prisijungti prie „OAuth“: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Nepavyko gauti prieigos prieigos rakto iš peradresavimo.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Nepavyko išanalizuoti autentifikavimo peradresavimo.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Autentifikavimas šioje platformoje nepalaikomas.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Darbas išsaugotas sekimo priemonėje!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Svečias",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Bendrieji nustatymai",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Rodyti „LinkedIn“ darbo puslapiuose",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Rodomas protingas atitikimo balas ir automatinio pildymo mygtukas vienu spustelėjimu, kai peržiūrite darbo skelbimus „LinkedIn“.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Rodyti mygtuką „Išsaugoti darbą“.",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Darbo svetainėse rodomas slankusis mygtukas „Išsaugoti darbą 📌“, kad galėtumėte greitai išsaugoti darbo informaciją savo sekimo priemonėje prieš pateikdami paraišką.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Prisijunkite tik pateikę paraišką",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Prieš įtraukdami užduotį prie stebėjimo priemonės, palaukite, kol pamatysite ekraną „Ačiū“ arba „Sėkmė“. Išlaiko jūsų stebėjimo priemonę tvarkingą, nes neleidžia pusiau užpildytoms formoms išsaugoti kaip „Taikoma“.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI kreditai ir naudojimo analizė",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Liko kreditai",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Likę kreditai",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Iš viso kreditų",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Visų laikų automatinis pildymas",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Plano būsena",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Nemokamai 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro patarimas:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Išmaniojo automatinio pildymo operacijos sunaudoja 0 kreditų ir yra 100% neribotos! Tik pažangios AI funkcijos, pvz., Motyvaciniai laiškai (5 kreditai) ir pasirinktiniai rašiniai (3 kreditai), naudoja jūsų kredito likutį.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 „Google“ paskyra ir sinchronizavimas debesyje",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "„Google Cloud Sync“ aktyvus",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Sinchronizavimas debesyje užrakintas (tik „Premium“)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Debesų sinchronizavimas",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Stumkite į debesį",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Trauk iš debesies",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinchronizavimas sėkmingas!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinchronizuoti nepavyko. Patikrinkite ryšį.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Saugus debesies sinchronizavimas",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Prisijunkite naudodami „Google“, kad sukurtumėte atsarginę programų ir profilio kopiją „Supabase“. Sinchronizavimas yra aukščiausios kokybės funkcija, kuri užtikrina jūsų žurnalų saugumą visuose įrenginiuose.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "„Supabase Cloud Sync“ yra aukščiausios kokybės funkcija. Atnaujinkite skirtuke Atnaujinti, kad įgalintumėte sinchronizavimą!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Duomenų valdymas",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Eksportuoti atsarginę kopiją (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Išvalyti visus vietinius duomenis",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Išvalius vietinius duomenis profilis ir programos pašalinamos tik iš šio įrenginio. Debesų duomenims tai neturi įtakos.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Valdymo centras",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Pagrindinis puslapis & Apie",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Bendrieji nustatymai",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Atnaujinkite į Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium planas 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Paskyra ir sinchronizavimas",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Privatumo politika",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "DUK",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Spartieji klavišai",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Sveiki atvykę į ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "„ApplyFlow“ yra dirbtinio intelekto veikiantis „Chrome“ plėtinys, skirtas studentams ir ieškantiems darbo, kurie nori pateikti paraišką greičiau ir išmaniau. Jis automatiškai aptinka ir užpildo darbo paraiškų formas daugiau nei 15 platformų, seka jūsų srautą ir padeda gauti daugiau pokalbių.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Išmanusis automatinis pildymas",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS platformų su tiksliais selektoriais",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Vienu paspaudimu išsaugokite bet kokį darbo sąrašą",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Nuvilkite programos dujotiekį",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO automatinis pildymas",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Automatiškai užpildo demografinius ir vizų klausimus",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI esė",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Dvynių varomų pasirinktinių atsakymų rašymas",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Saugus sinchronizavimas",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Pasirenkama Supabase debesies atsarginė kopija",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Kaip pradėti",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Sukurkite savo profilį",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Atidarykite iššokantįjį langą → Profilis → įkelkite savo gyvenimo aprašymą PDF. AI automatiškai išskirs visą jūsų informaciją, įskaitant įgūdžius, patirtį, išsilavinimą ir projektus.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Nustatykite EEO nuostatas",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Slinkite į EEO skiltį savo profilyje ir nustatykite darbo leidimą, vizų rėmimo poreikius ir demografines nuostatas. Jie naudojami automatiškai užpildyti EEO klausimynus.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Naršykite darbo sąrašą",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Eikite į bet kurį darbo sąrašą. Pamatysite mygtuką 📌 „Išsaugoti darbą“. Spustelėkite jį, kad akimirksniu išsaugotumėte poziciją savo sekimo priemonėje.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Atidarykite paraiškos formą",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Eikite į paraiškos formą. Spustelėkite ApplyFlow iššokantįjį langą → paspauskite \"Nuskaityti puslapį\" → tada \"⚡ Smart Autofill\". Visi laukai, įskaitant radijo mygtukus ir išskleidžiamuosius meniu, užpildomi akimirksniu.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Stebėkite savo vamzdyną",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Atidarykite skirtuką Tracker, kad pamatytumėte visas programas. Perjunkite į „Kanban“ lentos rodinį ir vilkite korteles tarp stulpelių, kai atnaujinate būseną.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Reikalingas prisijungimas",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Prisijunkite, kad tinkintumėte nustatymus",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Bendrieji nustatymai pasiekiami tik prisijungusiems vartotojams. Prisijunkite naudodami „Google“, kad sukonfigūruotumėte nuostatas, automatinio pildymo veiksmus ir kt.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Eikite į Paskyra ir sinchronizavimas",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licencijos raktas: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Išjungti licenciją",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Licencijos rakto aktyvinimas",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Jei įsigijote prenumeratą arba gavote prieigos kodą, toliau įveskite licencijos raktą, kad atrakintumėte „ApplyFlow Premium“.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Suaktyvinti",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktyvinama...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Patarimas: „Premium“ galite suaktyvinti naudodami raktą APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktyvuota!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Dėkojame, kad palaikote „ApplyFlow“. Visos aukščiausios kokybės funkcijos dabar atrakintos.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium atnaujinimo planas",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Atrakinkite savo karjeros eksportą ir išplėstines AI funkcijas.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Gaukite aukščiausios kokybės dirbtinio intelekto kreditų už motyvacinius laiškus, pasirinktinius esė atsakymus, optimizavimą ir pasirengimą interviu. Automatinio pildymo operacijos palaikomose platformose yra visiškai neribotos ir nemokamos visiems aukščiausios kokybės vartotojams!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Ankstyvojo įvaikintojo pasiūlymas:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Kitas kainos padidinimas – 500 Premium vartotojų. Užfiksuokite šį tarifą visam gyvenimui!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Mėnesio Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Tinka trumpalaikei paieškai",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 rupijų",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ mėn",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Tik 13 rupijų per dieną)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI kreditų per mėnesį|||Neribotas automatinis pildymas (visi portalai)|||Sinchronizavimas iš debesies ir \"Google\" atsarginė kopija|||Premium temos|||Patirtis be skelbimų",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Prenumeruoti kas mėnesį",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Ketvirčio Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Geriausia vertė daugeliui darbo ieškančių asmenų",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 rupijų",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 mėn",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Tik 11 rupijų per dieną)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI kreditų per ketvirtį|||Neribotas automatinis pildymas (visi portalai)|||Pritaikyti motyvaciniai laiškai ir esė|||Sinchronizavimas iš debesies ir \"Google\" atsarginė kopija|||Atnaujinti atitikimo pasiūlymus",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Prenumeruokite kas ketvirtį",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Populiariausias",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Metinis galutinis",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Geriausia vertė patyrusiems vartotojams",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2 999 rupijų",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ metai",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Atitinka 249 rupijų per mėnesį)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2 500 AI kreditų per metus|||Neribotas automatinis kasdienis pildymas|||Pritaikyti motyvaciniai laiškai ir esė|||Sinchronizavimas iš debesies ir \"Google\" atsarginė kopija|||Atnaujinti atitiktį pasiūlymai|||Prioritetinis palaikymas el. paštu",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Prenumeruoti kasmet",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Geriausia vertė – sutaupykite 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Palaikykite „ApplyFlow“ kūrimą",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "„ApplyFlow“ kuria ir prižiūri nepriklausomi kūrėjai. Jei manote, kad plėtinys buvo naudingas, apsvarstykite galimybę paaukoti Ko-fi, kad jis būtų aktyvus, be skelbimų ir būtų atnaujintas naujiems darbo skelbimams.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Nupirk man kavos Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 įvertinimas|||🔒 Saugūs mokėjimai|||✓ Atšaukti bet kada",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Neteisingas licencijos raktas. Patarimas: pabandykite naudoti demonstracinį raktą „APPLYFLOW-PRO-2026“!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licencija sėkmingai suaktyvinta! Sveiki atvykę į „ApplyFlow Premium“. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ar tikrai norite deaktyvuoti aukščiausios kokybės licenciją? Taip grįšite į nemokamą planą.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium licencija išjungta. Dabar naudojate nemokamą planą.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Tai visam laikui ištrins VISI vietinio profilio ir programos duomenys. Ar esi tikras?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Privatumo politika",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Dažnai užduodami klausimai",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Kas yra ApplyFlow ir kaip jis veikia?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "„ApplyFlow“ yra dirbtinio intelekto veikiantis „Chrome“ plėtinys, kuris automatiškai aptinka ir užpildo darbo paraiškų formas 15 ir daugiau platformų, įskaitant „LinkedIn“, „Internshala“, „Unstop“, „Workday“, „Greenhouse“, „Lever“ ir kt. Jis nuskaito jūsų išsaugotą profilį ir naudoja išmaniąją atitiktį, kad užpildytų teksto laukus, išskleidžiamuosius meniu, radijo mygtukus ir žymimuosius laukelius, įskaitant EEO / demografinius klausimus.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Ar mano asmeniniai duomenys yra saugūs naudojant ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Taip. Pagal numatytuosius nustatymus jūsų duomenys saugomi lokaliai naršyklės chrome.storage.local. Jis niekada nesiunčiamas į jokį trečiosios šalies serverį, išskyrus jūsų pasirenkamą Supabase duomenų bazę (kurią valdote jūs). „ApplyFlow“ niekada neparduoda, nedalina jūsų asmeninės informacijos ir negauna pajamų.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Kokias darbo platformas palaiko „ApplyFlow“?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "„ApplyFlow“ palaiko 15 ir daugiau platformų: „LinkedIn Easy Apply“, „Internshala“, „Unstop“, „Workday“, „Greenhouse“, „Lever“, „iCIMS“, „SmartRecruiters“, „BambooHR“, „Jobvite“, „Taleo“, „Naukri“, „Indeed“, „Wellfound“ / „AngelList“ ir bet kurią kitą svetainę per mūsų išmaniąją bendrąją atsarginę programą.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Kas yra „Web Clipper“?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "„Web Clipper“ yra slankusis mygtukas „Išsaugoti darbą“ (📌), kuris automatiškai pasirodo, kai lankotės bet kuriame darbo sąrašo puslapyje. Spustelėjus jį, ištraukiamas darbo pavadinimas, įmonė, atlyginimas ir aprašymas, tada išsaugomas ApplyFlow sekimo priemonėje kaip „Išsaugota“ programa, kad galėtumėte sekti darbus prieš pateikdami paraišką.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Kaip atnaujinti savo profilį?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Atidarykite ApplyFlow iššokantįjį langą, spustelėkite skirtuką „Profilis“ ir įkelkite savo gyvenimo aprašymą PDF. AI automatiškai užpildys visus jūsų laukus. Taip pat galite rankiniu būdu redaguoti bet kurį lauką, įskaitant EEO nuostatas, darbo leidimą ir motyvacinius laiškus.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Kas yra EEO laukai ir kam jie reikalingi?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Equal Employment Opportunity) laukai yra klausimai, kuriuos daugelis JAV ir pasaulio darbdavių užduoda apie lytį, neįgalumo statusą, veterano statusą ir darbo leidimą. „ApplyFlow“ išsaugo pageidaujamus atsakymus ir automatiškai užpildo šias radijo mygtukų grupes, todėl jums nereikės kiekvieną kartą į juos atsakyti rankiniu būdu.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Ar „ApplyFlow“ reikia API raktų ar konfigūracijos?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Ne! „ApplyFlow“ automatiškai tvarko visų formų aptikimą, išmanųjį atitikimą, motyvacinio laiško generavimą ir suderinamumo įvertinimą. Jums nereikia gauti ar konfigūruoti jokių API raktų.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Kas yra Supabase sinchronizavimas ir ar man jo reikia?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sinchronizavimas yra pasirenkama debesies atsarginės kopijos funkcija. Kai prisijungiate naudodami „Google“ ir ją įgalinate, jūsų profilis ir programų stebėjimo priemonė yra sinchronizuojami su privačia debesų duomenų baze, todėl sukuriama atsarginė duomenų kopija ir pasiekiama iš kelių įrenginių. Tai visiškai neprivaloma – plėtinys veikia visiškai neprisijungus.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Kodėl „ApplyFlow“ reikia prieigos prie visų svetainių?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "„ApplyFlow“ prašo prieigos prie visų svetainių, kad galėtų įterpti automatinio pildymo variklį bet kurioje darbo paraiškos formoje ir bet kuriame darbo sąraše rodyti kirpimo mygtuką „Išsaugoti darbą“. Šis leidimas reikalingas plačiam platformos palaikymui. Scenarijus įvedame tik puslapiuose, kurie aiškiai susiję su darbu.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kas yra Kanban lenta?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "„Kanban“ lenta yra vizualinis darbų stebėjimo rodinys skirtuke „Sekimo priemonė“. Jame rodomos jūsų paraiškos suskirstytos į stulpelius: Išsaugota → Taikoma → Įvertinimas → Interviu → Pasiūlymas. Galite vilkti ir mesti korteles tarp stulpelių, kad atnaujintumėte bet kurios programos būseną.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Kaip veikia pateikimo aptikimas?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Kai nustatymuose įgalinate parinktį „Prisijungti tik po pateikimo“, „ApplyFlow“ stebi puslapio pakeitimus, kurie rodo sėkmingą pateikimą (pvz., URL su „/success“ arba pagrindinį tekstą „Dėkojame, kad pateikėte paraišką“). Jis registruoja programą tik jūsų stebėjimo priemonėje po to, kai aptinka tikrą pateikimą.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Ar galiu saugoti kelis motyvacinius laiškus?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Taip! Profilio ekrane yra skyrius „Motyvacinio laiško saugykla“, kuriame galite saugoti neribotą skaičių motyvacinių laiškų, pritaikytų skirtingiems vaidmenims ar įmonėms. Automatiškai pildydama „ApplyFlow“ naudos jūsų naujausią arba tinkamiausią motyvacinį laišką.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Kaip eksportuoti programos duomenis?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Eikite į „Paskyra ir sinchronizavimas“ → slinkite į apačią → spustelėkite „Eksportuoti atsarginę kopiją (JSON)“. Visi jūsų profilio ir programos duomenys atsisiunčiami kaip JSON failas, kad juos būtų galima saugoti.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Ar „ApplyFlow“ veikia demonstraciniu režimu?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demonstracinis režimas buvo senas nustatymas, naudojamas bandymams. Dabar pagal numatytuosius nustatymus jis išjungtas. Visos funkcijos veikia ir veikia su integruotu Gemini API raktu.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Kaip pranešti apie klaidą arba paprašyti funkcijos?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Atidarykite problemą mūsų „GitHub“ saugykloje (nuoroda skiltyje „Apie“) arba atsiųskite mums el. laišką adresu support@applyflow.in. Paprastai atsakome per 48 valandas.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Atidarykite ApplyFlow iššokantįjį langą",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Nuskaitykite dabartinį puslapį formos laukams",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Suaktyvinkite išmanųjį automatinį pildymą dabartiniame puslapyje",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Iškirpkite dabartinį darbo sąrašą į stebėjimo priemonę",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Atidarykite Tracker naujame skirtuke",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Konfigūruokite sparčiuosius klavišus naršyklėje „Chrome“ adresu",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Pastaba:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "„Chrome“ plėtinių komandoms reikia rankiniu būdu priskirti „Chrome“ sparčiųjų klavišų tvarkytuvę. Eikite į $1$, kad susietumėte aukščiau išvardytus raktus.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**„ApplyFlow Chrome“ plėtinys – privatumo politika**\nPaskutinį kartą atnaujinta: 2026 m. birželio mėn.\n\n---\n\n**1. Įvadas**\n\nApplyFlow („mes“, „mūsų“, „Plėtinys“) yra „Chrome“ naršyklės plėtinys, padedantis naudotojams automatiškai užpildyti darbo prašymų formas, stebėti jų paraiškas ir tvarkyti savo profesinį profilį. Šioje privatumo politikoje paaiškinama, kaip renkame, naudojame, saugome ir saugome jūsų informaciją.\n\nĮdiegdami ir naudodami „ApplyFlow“ sutinkate su šioje politikoje aprašyta praktika.\n\n---\n__NL_12_**2. Mes renkame duomenis**\n\nRenkame tik informaciją, kurią savanoriškai pateikiate, kad įgalintumėte plėtinio funkcijas:\n\n• **Profilio informacija**: jūsų vardas, el. pašto adresas, telefono numeris, kolegija, laipsnis, įgūdžiai, darbo istorija, projektai ir profesionalios nuorodos, GitH Portfelis).\n• **EEO / demografinė informacija (neprivaloma)**: lytis, neįgalumo būsena, veterano būsena ir darbo leidimo nuostatos – pateikiamos tik tuo atveju, jei pasirenkate užpildyti šiuos laukus. Šie duomenys naudojami tik norint automatiškai užpildyti pasirenkamas EEO klausimynas dėl darbo paraiškų.\n• **Paraiškos stebėjimo duomenys**: pareigų pavadinimas, įmonė, paraiškos URL, būsena ir pastabos apie pareigas, kurias stebite naudodami plėtinį.\n• **Naudojimo statistika**: automatinio pildymo operacijų skaičius, atliktas (saugoma_ kasdien _ _ 0 _ vietiškai). **Autentifikavimo duomenys**: jei pasirinksite prisijungti naudodami „Google“, išsaugome jūsų „Google“ rodomą vardą, el. pašto adresą ir profilio nuotraukos URL, kad suasmenintume jūsų patirtį ir įgalintume sinchronizavimą debesyje.\n\n**Nerenkame**:\n• Mokėjimų arba finansinės informacijos______ arba bendrosios eilučių informacijos\n• N iš puslapių, kurie nėra susiję su darbo paraiška\n• Bet kokie duomenys iš puslapių, kai plėtinys nėra aktyviai suaktyvintas\n\n---\n\n**3. Kaip saugome jūsų duomenis**\n\n**3.1 Vietinė saugykla (numatytasis)**\nVisi duomenys pirmiausia saugomi jūsų naršyklės chrome.storage.local API. Šie duomenys yra tik jūsų įrenginyje ir niekada nepersiunčiami į jokį serverį be jūsų aiškaus veiksmo.\n\n**3.2 Sinchronizavimas debesyje (pasirenkamas)**\nJei pasirinksite prisijungti naudodami „Google“ ir įgalinsite funkciją „Supabase Sync“, jūsų profilis ir programos duomenys taip pat bus sinchronizuojami duomenų bazėje. Jūs išlaikote visišką šių duomenų nuosavybės teisę. Jį galite bet kada ištrinti paskyros ir sinchronizavimo skiltyje.\n\n**3.3 Gemini AI užklausos**\nKai naudojamos dirbtinio intelekto funkcijos (pvz., rašinių generavimas, darbo analizė), jūsų profilio dalys (įgūdžiai, laipsnis, santrauka) siunčiami API, o atsakymo į „Google“ generavimas yra Dvyniai. Tai apdorojama pagal standartines „Google“ API paslaugų teikimo sąlygas ir privatumo politiką. Rekomenduojame į AI padedamą turinį neįtraukti jautrių asmens identifikatorių.\n\n---\n\n**4. Dalijimasis duomenimis**\n\nMes **ne** neparduodame, neprekiaujame, neišnuomojame ir nesidaliname jūsų asmeninės informacijos su jokiomis trečiosiomis šalimis rinkodaros ar reklamos tikslais.\n\nJūsų duomenys gali būti tvarkomi naudojant šias patikimas paslaugas:\n• * Forma, skirta „Google AI-Analytics“ (https://policies.google.com/privacy)\n• **Google OAuth**: paskyros autentifikavimui (https://policies.google.com/privacy)\n• **Supabase**: pasirenkamai saugyklai debesyje (https://supabase.com/privacy) – tik jei įgalinate sinchronizavimas\n\n---\n\n**5. Jūsų teisės ir kontrolė**\n\nTurite teisę:\n• **Prieiti** prie visų „ApplyFlow“ saugomų duomenų apie jus (nustatymuose naudodama Eksportuoti atsarginę kopiją)\n• **Pataisyti** bet kuriuo metu savo informaciją profilio skirtuke** _ L ** • vietiškai ištrinti visus_ N duomenis _59_ „Išvalyti visus profilio duomenis“ nustatymuose\n• **Atšaukti sutikimą** bet kuriuo metu pašalinus plėtinį\n• **Išjungti sinchronizavimą debesyje** išjungus jį Paskyros ir sinchronizavimo nustatymuose\n\n****Pakartotinai patvirtinti ES teisę: Jei esate ES naudotojai, turite teisę į BDAR. ištrinti, apriboti duomenų apdorojimą ir perkeliamumą pagal Bendrąjį duomenų apsaugos reglamentą.\n\n**Indija – 2023 m. DPDP įstatymas**: laikydamiesi 2023 m. Indijos skaitmeninių asmens duomenų apsaugos akto, asmens duomenis tvarkome tik siekdami teikti pagalbos paraiškų teikimo į darbą paslaugą. Galite bet kada atšaukti sutikimą ir prašyti ištrinti savo duomenis susisiekę su mumis.\n\n**Kalifornija – CCPA**: Kalifornijos gyventojai turi teisę žinoti, kokia asmeninė informacija renkama, teisę ištrinti ir atsisakyti pardavimo (mes neparduodame). duomenys).\n\n---\n\n**6. Duomenų saugojimas**\n\nVietiniai duomenys saugomi tol, kol juos išvalysite rankiniu būdu. Debesyje sinchronizuoti duomenys saugomi tol, kol ištrinate paskyrą arba nepateikiate prašymo ištrinti. Duomenų automatiškai neištriname.\n\n---\n\n**7. Sauga**\n\nMes imamės pagrįstų techninių priemonių, kad apsaugotume jūsų duomenis:\n• Visuose debesies ryšiuose naudojamas HTTPS/TLS šifravimas\n• Supabase Row-Level Security (RLS) užtikrina, kad vartotojai gali pasiekti tik savo duomenis už jos ribų__NL_82_ funkcija\n\n---\n\n**8. Vaikų privatumas**\n\nApplyFlow nėra skirta jaunesniems nei 13 metų vartotojams. Sąmoningai nerenkame duomenų iš vaikų. Jei manote, kad vaikas mums pateikė asmeninės informacijos, nedelsdami susisiekite su mumis.\n\n---\n\n**9. Šios politikos pakeitimai**\n\nKartkartėmis galime atnaujinti šią privatumo politiką. Apie reikšmingus pakeitimus bus pranešta plėtinio puslapyje Parinktys. Toliau naudojant plėtinį po pakeitimų sutinkama su atnaujinta politika.\n\n---\n\n**10. Susisiekite su mumis**\n\nJei turite klausimų, susijusių su privatumu, duomenų ištrynimo užklausų ar rūpesčių:\n\nEl. paštas: privacy@applyflow.in\nGitHub: https://github_flow/Lb10:apply_Web_ https://applyflow.in\n\nSiekiame atsakyti į visas užklausas per 30 dienų.",
+    "description": "Privacy policy document markdown text"
+  }
+}

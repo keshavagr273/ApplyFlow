@@ -3,6 +3,7 @@ import { Section } from './Shared';
 import { LogOut, CloudLightning, RefreshCw, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { useStore } from '../../shared/store';
 import { AIServiceSettings } from '../../../src/shared/types';
+import { t } from '../../shared/i18n';
 
 export function SyncSettings({
   settings,
@@ -23,7 +24,7 @@ export function SyncSettings({
 }) {
   const showToast = useStore(state => state.showToast);
   return (
-    <Section title="👤 Google Account & Cloud Sync">
+    <Section title={t('google_account_sync_title')}>
       {settings.userEmail ? (
         <div className="flex flex-col gap-4">
           <div className="border border-slate-200 rounded-2xl p-5 flex items-center justify-between bg-slate-50/50">
@@ -37,11 +38,11 @@ export function SyncSettings({
                 <p className="text-sm text-slate-500 font-semibold mt-0.5">{settings.userEmail}</p>
                 {settings.isPremium ? (
                   <div className="inline-flex items-center gap-1 text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded border border-green-200 mt-2">
-                    <CheckCircle2 size={10} /> Google Cloud Sync Active
+                    <CheckCircle2 size={10} /> {t('google_sync_active')}
                   </div>
                 ) : (
                   <div className="inline-flex items-center gap-1 text-[10px] text-slate-500 font-bold bg-slate-100 px-2 py-0.5 rounded border border-slate-200 mt-2">
-                    🔒 Cloud Sync Locked (Premium Only)
+                    {t('google_sync_locked')}
                   </div>
                 )}
               </div>
@@ -49,44 +50,44 @@ export function SyncSettings({
             <button onClick={handleGoogleLogout}
               className="border border-red-200 text-red-600 hover:bg-red-50 rounded-xl px-4 py-2 text-xs font-bold transition-all flex items-center gap-1.5 bg-white"
             >
-              <LogOut size={14} /> Sign Out
+              <LogOut size={14} /> {t('sign_out_btn')}
             </button>
           </div>
 
           <div className="flex flex-col gap-3 border border-slate-200/60 rounded-2xl p-5">
-            <h3 className="font-bold text-slate-700">Cloud Sync</h3>
+            <h3 className="font-bold text-slate-700">{t('cloud_sync_header')}</h3>
             <div className="flex gap-3">
               <button onClick={() => {
                 if (!settings.isPremium) {
-                  showToast("Supabase Cloud Sync is a Premium Feature. Please upgrade in the Upgrade tab to enable sync!", "warning");
+                  showToast(t('premium_sync_warning'), "warning");
                   return;
                 }
                 handleSync('push');
               }} disabled={isSyncing}
                 className="flex-1 bg-brand-600 text-white rounded-xl py-2.5 text-sm font-bold flex items-center justify-center gap-2 hover:bg-brand-800 transition disabled:opacity-50"
               >
-                <CloudLightning size={14} className={isSyncing ? 'animate-bounce' : ''} /> Push to Cloud
+                <CloudLightning size={14} className={isSyncing ? 'animate-bounce' : ''} /> {t('push_to_cloud_btn')}
               </button>
               <button onClick={() => {
                 if (!settings.isPremium) {
-                  showToast("Supabase Cloud Sync is a Premium Feature. Please upgrade in the Upgrade tab to enable sync!", "warning");
+                  showToast(t('premium_sync_warning'), "warning");
                   return;
                 }
                 handleSync('pull');
               }} disabled={isSyncing}
                 className="flex-1 border border-slate-200 text-slate-700 rounded-xl py-2.5 text-sm font-bold flex items-center justify-center gap-2 hover:bg-slate-50 transition disabled:opacity-50"
               >
-                <RefreshCw size={14} className={isSyncing ? 'animate-spin' : ''} /> Pull from Cloud
+                <RefreshCw size={14} className={isSyncing ? 'animate-spin' : ''} /> {t('pull_from_cloud_btn')}
               </button>
             </div>
             {syncStatus === 'success' && (
               <div className="text-xs text-green-600 font-bold flex items-center gap-1 bg-green-50 rounded-xl px-3 py-2 border border-green-100">
-                <CheckCircle2 size={12} /> Sync successful!
+                <CheckCircle2 size={12} /> {t('sync_success')}
               </div>
             )}
             {syncStatus === 'error' && (
               <div className="text-xs text-red-600 font-bold flex items-center gap-1 bg-red-50 rounded-xl px-3 py-2 border border-red-100">
-                <AlertTriangle size={12} /> Sync failed. Check your connection.
+                <AlertTriangle size={12} /> {t('sync_failed')}
               </div>
             )}
           </div>
@@ -95,9 +96,9 @@ export function SyncSettings({
         <div className="text-center py-10 flex flex-col items-center gap-4 border border-dashed border-slate-200 rounded-2xl bg-slate-50/20">
           <div className="w-14 h-14 rounded-full bg-brand-50 text-brand-600 flex items-center justify-center text-2xl">🔑</div>
           <div>
-            <h3 className="font-bold text-slate-800">Secure Cloud Sync</h3>
+            <h3 className="font-bold text-slate-800">{t('secure_cloud_sync_title')}</h3>
             <p className="text-sm text-slate-400 font-medium max-w-sm mx-auto mt-1 leading-normal">
-              Sign in with Google to backup your applications and profile to Supabase. Syncing is a Premium feature that keeps your logs safe across devices.
+              {t('secure_cloud_sync_desc')}
             </p>
           </div>
           <button onClick={handleGoogleLogin} disabled={isLoggingIn}
@@ -111,7 +112,7 @@ export function SyncSettings({
                 <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
               </svg>
             )}
-            {isLoggingIn ? 'Connecting...' : 'Sign in with Google'}
+            {isLoggingIn ? t('connecting_btn') : t('sign_in_google')}
           </button>
         </div>
       )}

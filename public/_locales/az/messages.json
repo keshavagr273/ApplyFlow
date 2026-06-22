@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI İş Avtomatik Doldurma və Tətbiq İzləyicisi",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn, Workday, Greenhouse və s.-də süni intellektdən istifadə edərək iş ərizələrini avtomatik doldurun və siyahıları avtomatik izləyin.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "Tətbiq axını",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktiv",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Tətbiq olunub",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Müsahibə",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Təklif",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Saxlandı",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Cəmi",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Avtomatik doldurma",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Doldurulur...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Sürətli avtomatik doldurma",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "İşi təhlil edin",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Kenar panelini açın",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Parametrlər",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Sürətli Avtomatik Doldurmadan istifadə etmək üçün əvvəlcə Google ilə daxil olun!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Zəhmət olmasa, ilk olaraq Yan Panel/Seçimlər səhifəsində profilinizi quraşdırın!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Aşkarlandı",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Heç bir iş səhifəsi aşkarlanmadı",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI xüsusiyyətlərini açmaq üçün iş siyahısına daxil olun",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Sabahiniz xeyir",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Günortanız xeyir",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Axşamınız xeyir",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ tətbiqlər izlənildi · $2$ müsahibələr",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Tərəqqinizi izləmək üçün müraciət etməyə başlayın",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Qapaq məktubu",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Sual-Cavab Yardımı",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Kömək etməyə hazırdır",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Başlamaq üçün LinkedIn, Workday, Greenhouse və ya hər hansı iş lövhəsində iş siyahısına keçin.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Bu Həftə",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Son Fəaliyyət",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Hamısına bax →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "İş axtarışınıza başlayın!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "İş lövhəsinə baş çəkin və tətbiqlərinizi avtomatik doldurmaq və izləmək üçün ApplyFlow istifadə edin.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profilim",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Yadda saxlanılır...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Hamısını Saxla",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil yadda saxlandı!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Profili saxlamaq alınmadı.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "CV",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Avtomatik doldurma profilinə yükləyin",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Yükləndi",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Şəxsi məlumat",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Natamam",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Məkan",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Təhsil",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Bacarıqlar",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "İş təcrübəsi",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Layihələr",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "İş üstünlükləri",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "İş icazəsi",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Tarixi davam etdirin",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Bunu istifadə edin",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ tarixində təhlil edildi",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Profil detalları \"$1$\" ünvanından yüklənsin? Bu, cari redaktələrinizi bu CV-nin təhlil edilmiş strukturu ilə əvəz edəcək.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$-dan bərpa edilmiş detallar",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Matç Hesabı",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Uyğun",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ daha çox",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Tətbiq avtomatik dolduruldu və daxil edildi! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow Side Panel vasitəsilə avtomatik doldurulur",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "orada",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Kollec dəsti yoxdur",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Avtomatik doldurmanı aktivləşdirmək üçün profilinizi qurun",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Qurulmayıb",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ qeydlər",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ bacarıqları",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ layihələri",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ cavab verir",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Səlahiyyətli",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Səlahiyyətli deyil",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Tam adı",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-poçt",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternativ Telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfolio URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Resume Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Şəhər",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "dövlət",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "ölkə",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Poçt kodu",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Ünvan",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Milliyyət",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Kollec / Universitet",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Dərəcə",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Məzun ili",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Qiymət",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Xəbərdarlıq müddəti",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Gözlənilən Əmək haqqı",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Üstünlük Verilən Rol",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "İllərin Təcrübəsi",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Viza sponsorluğu olmadan işləməyə icazə verilir",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Viza sponsorluğu tələb olunur",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Cins",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Əlillik",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Deməməyə üstünlük verin",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Müəyyən edilməyib",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Kişi",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Qadın",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Qeyri-ikili",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Bəli",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "yox",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Hələ heç bir bacarıq əlavə edilməyib",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Bacarıq əlavə edin (əlavə etmək üçün daxil edin)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Tətik ifadəsi (məsələn, niyə sizi işə götürməliyik)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Cavabınız...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Sil",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Xüsusi Cavab əlavə edin",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Şirkət",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rol / Başlıq",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Başlama tarixi",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Bitmə tarixi",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "təqdim",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Hazırda bu rolda işləyirəm",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Təsvir",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Məsuliyyətlərinizi, əsas nailiyyətlərinizi, istifadə etdiyiniz texnologiyaları təsvir edin...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ İş Təcrübəsi əlavə edin",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Layihənin adı",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Yerləşdirmə URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Nə tikdiyinizi, hansı problemi həll etdiyini və əsas xüsusiyyətlərini təsvir edin...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Layihə əlavə edin",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "İzləyici",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Saxlandı",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Tətbiq olunub",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Qiymətləndirmə",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Müsahibə",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Təklif",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Rədd edildi",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Geri çəkildi",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Bu proqram silinsin?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Tətbiq yeniləndi!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Tətbiq silindi.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Vəziyyət",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Tətbiq olunub",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "İş elanını açın",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Əmək haqqı / Təqaüd",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "İzləmə Xatırlatma",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Qeydlər",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Qeydlər, əlaqə məlumatları, müsahibə təfərrüatları əlavə edin...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "İş təsviri (çıxarış)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Sil",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Ləğv et",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Saxla",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 tətbiq",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ proqramlar",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Şirkətə görə filtrləyin...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Status Filtrləri",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Daha çoxu üçün sağa sürüşdürün →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Hamısı",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Heç bir tətbiq tapılmadı",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Filtrləri sıfırlamağa və ya yeni izləyici girişi əlavə etmək üçün işi yadda saxlamağa cəhd edin",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analitika",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ cəmi müraciətlər",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Hələ məlumat yoxdur",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "İşlərə müraciət etməyə başlayın və analitikləriniz burada görünəcək.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Dönüşüm dərəcələri",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Tətbiq olunub",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Müsahibə dərəcəsi",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Təklif dərəcəsi",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Bu həftə tətbiqlər",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Tətbiq hunisi",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Ən yaxşı platformalar",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Statusun Dağılımı",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Kopilotu",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontekst: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Karyera kopilotunuz",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Yeni Söhbət ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Zəhmət olmasa əvvəlcə profilinizi qurun ki, AI cavabları fərdiləşdirə bilsin.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Söhbət təmizləndi! Mən sizə nə ilə kömək edə bilərəm?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Bu iş haqqında nə soruşsanız...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Başlamaq üçün profilinizi qurun",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Göndərmək üçün Enter düyməsini basın",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Uyğunluq Hesabını davam etdirin",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅Güclü Bacarıqlar",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ İtkin Bacarıqlar",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Budur sizin fərdi əhatə məktubunuz:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kopyalandı!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopyalayın",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Yüklə",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Budur $1$ ehtimal olunan müsahibə sualları:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Optimallaşdırma balı: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Uyğunluq Təkliflərini davam etdirin",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "bu iş təsvirinə qarşı",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Nəsə xəta baş verdi. Yenidən cəhd edin.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "salam! **$2$**-da **$1$** roluna baxdığınızı görürəm.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "salam! **$1$** roluna baxdığınızı görürəm.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "salam! Mən sizin AI karyeranızda köməkçi pilotam. İş siyahısına keçin və mən onu avtomatik təhlil edəcəyəm və ya məndən nəsə soruşacağam!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Lütfən, əvvəlcə Profil sekmesinde profilinizi qurun!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Zəhmət olmasa, bu funksiyadan istifadə etmək üçün əvvəlcə brauzerinizdə iş elanı səhifəsini açın!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow kilidini açın",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "İdarə panelinizə daxil olmaq, işləri sinxronizasiya etmək, CV profilinizi idarə etmək və dərhal iş proqramlarını avtomatik doldurmaq üçün Google ilə daxil olun.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Avtomatik Doldurma və Kəsmə",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Tətbiqləri bir kliklə skan edin və avtomatik doldurun.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Bulud Sinxronizasiyası və Yedəkləmə",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Bütün iş izləmə təfərrüatlarınızı Supabase ilə sinxronlaşdırın.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV və Profillər",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "CV-nizi yükləyin və ərizə cavablarını fərdiləşdirin.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google-a qoşulur...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google ilə daxil olun",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Daxil olmaqla, siz profil məlumatlarınızı aktiv iş yerinizlə təhlükəsiz sinxronizasiya etməyə razılaşırsınız.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Hesabdan çıxmaq istədiyinizə əminsiniz?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Hesabdan uğurla çıxdı.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ kimi daxil oldum",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Çıxın",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Daxil ol",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Qoşulur...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow-u açın",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Flow Match tətbiq edin",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Güclü Uyğunlaşma Bacarıqları",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "İtkin Bacarıqlar",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Ağıllı Avtomatik Doldurma Səhifəsi",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Formanın avtomatik doldurulması...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Səhifədə doldurula bilən tətbiq sahələri tapılmadı.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Uğurla Dolduruldu!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Səhifə mürəkkəbliyinə görə avtomatik doldurma alınmadı.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Doldurduqdan sonra izləyicini qeyd etmək üçün avtomatik saxlandı.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "CV-niz bu rola **$1$% uyğundur**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Yenidən xoş gəlmisiniz, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google istifadəçi profili məlumatını əldə etmək alınmadı.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth Giriş uğursuz oldu: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Yönləndirmədən giriş nişanını əldə etmək alınmadı.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Doğrulama yönləndirməsini təhlil etmək alınmadı.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Doğrulama bu platformada dəstəklənmir.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "İş izləyicidə saxlandı!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Qonaq",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Ümumi Parametrlər",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn İş Səhifələrində göstərin",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "LinkedIn-də iş elanlarına baxdığınız zaman ağıllı uyğunluq hesabını və bir kliklə avtomatik doldurma düyməsini göstərir.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'İşi yadda saxla' düyməsini göstərin",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "İş saytlarında üzən \"İşi Saxla 📌\" düyməsini göstərir ki, siz müraciət etməzdən əvvəl iş təfərrüatlarını izləyicinizdə cəld yadda saxlaya biləsiniz.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Yalnız Faktiki Tətbiq etdikdən Sonra Daxil Olun",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "İşi izləyicinizə əlavə etməzdən əvvəl \"Təşəkkür edirəm\" və ya \"Uğur\" ekranını görənə qədər gözləyin. Yarım doldurulmuş formaların \"Tətbiq edilmiş\" kimi saxlanmasının qarşısını alaraq izləyicinizi səliqəli saxlayır.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI Kreditləri və İstifadə Analitikası",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kredit qalıb",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Kreditlər Qalan",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Ümumi kreditlər",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Bütün zamanların avtomatik doldurmaları",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Plan Vəziyyəti",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Pulsuz 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro İpucu:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Ağıllı Avtomatik doldurma əməliyyatları 0 kredit sərf edir və 100% limitsizdir! Yalnız Qapaq Məktubları (5 kredit) və fərdi Essaylar (3 kredit) kimi təkmil AI xüsusiyyətləri kredit balansınızı istehlak edir.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Hesabı və Bulud Sinxronizasiyası",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Bulud Sinxronizasiyası Aktivdir",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Bulud Sinxronizasiyası Kilidi (Yalnız Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Bulud Sinxronizasiyası",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Buluda itələyin",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Buluddan çəkin",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinxronizasiya uğurludur!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinxronizasiya alınmadı. Bağlantınızı yoxlayın.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Təhlükəsiz Bulud Sinxronizasiyası",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Tətbiqlərinizi və profilinizi Supabase-ə yedəkləmək üçün Google ilə daxil olun. Sinxronizasiya qeydlərinizi cihazlar arasında təhlükəsiz saxlayan Premium xüsusiyyətdir.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync Premium Xüsusiyyətdir. Sinxronizasiyanı aktivləşdirmək üçün Təkmilləşdirmə tabında təkmilləşdirin!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Məlumatların İdarə Edilməsi",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Yedəkləməni İxrac Et (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Bütün Yerli Məlumatları Sil",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Yerli məlumatların təmizlənməsi profilinizi və tətbiqlərinizi yalnız bu cihazdan silir. Bulud məlumatlarına təsir edilmir.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "İdarəetmə Mərkəzi",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Ev & Haqqında",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Ümumi Parametrlər",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro-ya təkmilləşdirin 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium Plan 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Hesab və Sinxronizasiya",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Məxfilik Siyasəti",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Tez-tez verilən suallar",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Klaviatura Qısayolları",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow-a xoş gəlmisiniz",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow, daha sürətli və daha ağıllı müraciət etmək istəyən tələbələr və iş axtaranlar üçün qurulmuş süni intellektlə işləyən Chrome genişləndirilməsidir. O, 15-dən çox platformada iş müraciəti formalarını avtomatik aşkarlayır və doldurur, boru kəmərinizi izləyir və sizə daha çox müsahibə götürməyə kömək edir.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Ağıllı avtomatik doldurma",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Dəqiq seçiciləri olan 15+ ATS platforması",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Veb Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "İstənilən iş siyahısını bir kliklə yadda saxlayın",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban İzləyicisi",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Tətbiq boru kəmərinizi sürükləyin və buraxın",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Avtomatik Doldurma",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Demoqrafik və viza suallarını avtomatik doldurur",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI Esseləri",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Əkizlər bürcü ilə işləyən fərdi cavab yazısı",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Təhlükəsiz Sinxronizasiya",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Könüllü Supabase bulud ehtiyat nüsxəsi",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Necə Başlamaq olar",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Profilinizi qurun",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Açılan pəncərəni açın → Profil tab → CV-nizi PDF yükləyin. Süni intellekt, bacarıqlar, təcrübə, təhsil və layihələr daxil olmaqla, bütün məlumatlarınızı avtomatik çıxaracaq.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO Tercihlərini təyin edin",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Profilinizdə EEO bölməsinə keçin və iş icazənizi, viza sponsorluq ehtiyaclarınızı və demoqrafik seçimlərinizi təyin edin. Bunlar EEO anketlərini avtomatik doldurmaq üçün istifadə olunur.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "İş Siyahısını nəzərdən keçirin",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "İstənilən iş siyahısına keçin. 📌 \"İşi Saxla\" düyməsinin göründüyünü görəcəksiniz. Mövqeyi izləyicinizdə dərhal saxlamaq üçün üzərinə klikləyin.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Ərizə Formasını açın",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Ərizə formasına keçin. ApplyFlow popup üzərinə klikləyin → \"Scan Səhifə\" → sonra \"⚡ Smart Autodoldurma\" düyməsini basın. Radio düymələri və açılan menyular daxil olmaqla bütün sahələr dərhal doldurulur.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Boru Kəmərinizi İzləyin",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Bütün tətbiqlərinizi görmək üçün Tracker sekmesini açın. Kanban Board görünüşünə keçin və status yeniləmələri kimi kartları sütunlar arasında sürükləyin.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Daxil olmaq tələb olunur",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Parametrləri fərdiləşdirmək üçün daxil olun",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Ümumi Parametrlər yalnız daxil olan istifadəçilər üçün əlçatandır. Tercihlərinizi, avtomatik doldurma davranışlarınızı və s. konfiqurasiya etmək üçün Google ilə daxil olun.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Hesab və Sinxronizasiya bölməsinə keçin",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Lisenziya açarı: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Lisenziyanı deaktiv edin",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Lisenziya Açarının Aktivləşdirilməsi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Abunəlik almısınızsa və ya giriş kodu almısınızsa, ApplyFlow Premium-un kilidini açmaq üçün aşağıda lisenziya açarınızı daxil edin.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktivləşdirin",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktivləşdirilir...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 İpucu: APPLYFLOW-PRO-2026 açarından istifadə edərək Premiumu aktivləşdirə bilərsiniz.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium Aktivləşdirildi!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow-u dəstəklədiyiniz üçün təşəkkür edirik. Bütün premium funksiyalar indi kiliddən çıxarılıb.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium Təkmilləşdirmə Planı",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Karyera ixracatınızı və qabaqcıl AI xüsusiyyətlərini açın.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Qapaq məktubları, fərdi esse cavabları, rezyume optimallaşdırması və saxta müsahibə hazırlığı üçün yüksək keyfiyyətli AI kreditləri əldə edin. Dəstəklənən platformalarda avtomatik doldurma əməliyyatları bütün premium istifadəçilər üçün tam məhdudiyyətsiz və pulsuzdur!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Erkən Adopter Təklifi:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 Premium istifadəçisində növbəti qiymət artımı. Ömür boyu bu nisbəti kilidləyin!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Aylıq Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Qısamüddətli axtarış üçün yaxşıdır",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹ 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ay",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Cəmi ₹13/gün)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "Ayda 150 AI krediti|||Limitsiz avtomatik doldurma (Bütün portallar)|||Cloud Sync və Google Yedəkləmə|||Premium Mövzular|||Reklamsız Təcrübə",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Aylıq abunə olun",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Rüblük Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Əksər iş axtaranlar üçün ən yaxşı dəyər",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹ 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ay",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Cəmi ₹ 11 / gün)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "Rübdə 500 AI krediti|||Limitsiz avtodoldurma (Bütün Portallar)|||Xüsusi Qapaq Məktubları və Essaylar|||Bulud Sinxronizasiyası və Google Yedəkləməsi|||Uyğunluq Təkliflərini davam etdirin",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Rüblük abunə olun",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Ən Populyar",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "İllik Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Güc istifadəçiləri üçün ən yaxşı dəyər",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ il",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Ayda ₹249-a ekvivalent)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "İldə 2,500 AI krediti|||Limitsiz gündəlik avtomatik doldurma|||Xüsusi Qapaq Məktubları və Esselər|||Bulud Sinxronizasiyası və Google Yedəkləməsi|||Uyğunlaşma təkliflərini davam etdirin|||Prioritet E-poçt Dəstəyi",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "İllik abunə olun",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Ən yaxşı dəyər - 40% qənaət edin",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow İnkişafını dəstəkləyin",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow müstəqil tərtibatçılar tərəfindən qurulur və saxlanılır. Artırmanı faydalı hesab edirsinizsə, Ko-fi-da onun aktiv, reklamsız və yeni iş lövhələri üçün yenilənməsinə kömək etmək üçün ianə etməyi düşünün.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Mənə Ko-fi-də qəhvə al",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Reytinq|||🔒 Təhlükəsiz Ödənişlər|||✓ İstənilən vaxt Ləğv et",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Yanlış lisenziya açarı. İpucu: 'APPLYFLOW-PRO-2026' demo açarından istifadə etməyə cəhd edin!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Lisenziya Uğurla Aktivləşdirildi! ApplyFlow Premium-a xoş gəlmisiniz. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Premium lisenziyanızı deaktiv etmək istədiyinizə əminsiniz? Bu, sizi Pulsuz Plana qaytaracaq.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium lisenziya deaktiv edilib. İndi Pulsuz Plandasınız.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Bu, BÜTÜN yerli profil və proqram datasını həmişəlik siləcək. əminsən?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Məxfilik Siyasəti",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Tez-tez verilən suallar",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow nədir və necə işləyir?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow, LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever və daha çox daxil olmaqla 15+ platformada iş ərizəsi formalarını avtomatik aşkarlayan və dolduran süni intellektlə işləyən Chrome genişləndirilməsidir. O, yadda saxladığınız profilinizi oxuyur və EEO/demoqrafik suallar daxil olmaqla mətn sahələrini, açılan menyuları, radio düymələri və qeyd xanalarını doldurmaq üçün ağıllı uyğunluqdan istifadə edir.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Şəxsi məlumatlarım ApplyFlow ilə təhlükəsizdirmi?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Bəli. Datanız defolt olaraq brauzerinizin chrome.storage.local ünvanında lokal olaraq saxlanılır. O, heç vaxt öz əlavə Supabase verilənlər bazanızdan (nəzarət etdiyiniz) başqa heç bir üçüncü tərəf serverinə göndərilmir. ApplyFlow heç vaxt şəxsi məlumatlarınızı satmır, paylaşmır və ya pul qazanmır.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow hansı iş platformalarını dəstəkləyir?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow qutudan kənar 15+ platformanı dəstəkləyir: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList və bizim intelligent generic matcher vasitəsilə istənilən digər sayt.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper nədir?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper üzən \"İşi Saxla\" düyməsidir (📌), hər hansı bir iş elanı səhifəsinə daxil olduğunuz zaman avtomatik olaraq görünür. Bunun üzərinə klikləməklə işin adı, şirkəti, əmək haqqı və təsviri çıxarır, sonra onu ApplyFlow izləyicinizdə \"Saxlanılmış\" proqram kimi saxlayır - beləliklə, müraciət etməzdən əvvəl işləri izləyə bilərsiniz.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Profilimi necə yeniləyə bilərəm?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow popup pəncərəsini açın, \"Profil\" sekmesini vurun və CV-nizi PDF yükləyin. Süni intellekt bütün sahələrinizi avtomatik dolduracaq. Siz həmçinin EEO seçimləriniz, iş icazəniz və örtük məktublarınız daxil olmaqla istənilən sahəni əl ilə redaktə edə bilərsiniz.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO sahələri nədir və onlara nə üçün ehtiyacım var?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Bərabər Məşğulluq İmkanı) sahələri bir çox ABŞ və qlobal işəgötürənlərin cinsiyyət, əlillik statusu, veteran statusu və iş icazəsi ilə bağlı verdiyi suallardır. ApplyFlow seçdiyiniz cavabları saxlayır və avtomatik olaraq bu radio düymə qruplarını doldurur ki, siz onlara hər dəfə əl ilə cavab vermək məcburiyyətində qalmayasınız.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow hər hansı API açarı və ya konfiqurasiya tələb edirmi?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Xeyr! ApplyFlow avtomatik olaraq bütün formaların aşkar edilməsini, ağıllı uyğunlaşdırmanı, əhatə məktubunun yaradılmasını və uyğunluq hesabını idarə edir. Heç bir API açarı əldə etmək və ya konfiqurasiya etmək lazım deyil.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase sync nədir və buna ehtiyacım varmı?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sinxronizasiyası isteğe bağlı bulud ehtiyat nüsxəsidir. Google ilə daxil olduqda və onu aktivləşdirdiyiniz zaman profiliniz və proqram izləyiciniz şəxsi bulud verilənlər bazasına sinxronlaşdırılır ki, məlumatlarınız ehtiyat nüsxəsini çıxarsın və bir çox cihazdan əlçatan olsun. Bu, tamamilə isteğe bağlıdır - genişləndirmə tam oflayn işləyir.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Niyə ApplyFlow bütün vebsaytlara daxil olmalıdır?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow bütün vebsaytlara giriş tələb edir ki, o, istənilən iş ərizəsi formasına avtomatik doldurma mühərrikini yeritsin və istənilən iş elanında \"İşi Saxla\" qayçı düyməsini göstərsin. Bu icazə geniş platforma dəstəyi üçün tələb olunur. Biz skriptləri yalnız işlə bağlı olan səhifələrə yeridirik.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kanban Şurası nədir?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board, İzləyici nişanında vizual iş izləmə görünüşüdür. O, tətbiqlərinizi sütunlarda təşkil edir: Saxlanılan → Tətbiq olunan → Qiymətləndirmə → Müsahibə → Təklif. İstənilən tətbiqin statusunu yeniləmək üçün kartları sütunlar arasında sürükləyib buraxa bilərsiniz.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Təqdimatın aşkarlanması necə işləyir?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Parametrlərdə \"Yalnız təqdim etdikdən sonra daxil ol\" funksiyasını aktivləşdirdiyiniz zaman ApplyFlow uğurlu təqdimetməni göstərən səhifə dəyişikliklərinə baxır (məsələn, \"/uğur\" olan URL və ya \"Müraciət etdiyiniz üçün təşəkkür edirik\" deyən əsas mətn). O, yalnız real təqdimat aşkar etdikdən sonra tətbiqi izləyicinizə daxil edir.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Bir neçə örtük məktubu saxlaya bilərəmmi?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Bəli! Profil ekranında müxtəlif rollara və ya şirkətlərə uyğunlaşdırılmış qeyri-məhdud əhatə məktublarını saxlaya biləcəyiniz \"Cover Letter Vault\" bölməsi var. Avtomatik doldurma zamanı ApplyFlow ən son və ya ən uyğun örtük məktubunuzdan istifadə edəcək.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Tətbiq məlumatımı necə ixrac edə bilərəm?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Hesab və Sinxronizasiya bölməsinə keçin → aşağı diyirləyin → \"Yedəkləməni İxrac Et (JSON)\" üzərinə klikləyin. Bu, qorunmaq üçün bütün profil və proqram məlumatlarınızı JSON faylı kimi endirir.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow Demo rejimində işləyirmi?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo rejimi sınaq üçün istifadə edilən köhnə parametr idi. İndi standart olaraq qeyri-aktivdir. Bütün xüsusiyyətlər daxili Gemini API açarı ilə canlı və funksionaldır.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Baq haqqında necə məlumat verə bilərəm və ya funksiya tələb edə bilərəm?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Lütfən, problemi GitHub repozitorumuzda açın (haqqında bölmədə əlaqələndirilir) və ya support@applyflow.in ünvanına e-poçt göndərin. Biz adətən 48 saat ərzində cavab veririk.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow popup-nu açın",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Forma sahələri üçün cari səhifəni skan edin",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Cari səhifədə Ağıllı Avtomatik Doldurmağı işə salın",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Cari iş siyahısını izləyiciyə kəsin",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Tracker-i yeni tabda açın",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome-da qısayolları konfiqurasiya edin",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Qeyd:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome genişləndirilməsi əmrləri Chrome'un qısayol menecerində əl ilə təyin edilməsini tələb edir. Yuxarıda sadalanan düymələri birləşdirmək üçün $1$-a keçin.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Genişlənməsi — Məxfilik Siyasəti**\nSon yenilənmə: İyun 2026\n\n---\n\n**1. Giriş**\n\nApplyFlow (\"biz\", \"bizim\", \"Genişləndirmə\") istifadəçilərə iş ərizəsi formalarını avtomatik doldurmağa, ərizələrini izləməyə və peşəkar profillərini idarə etməyə kömək edən Chrome brauzerinin genişləndirilməsidir. Bu Məxfilik Siyasəti məlumatlarınızı necə topladığımızı, istifadə etdiyimizi, saxladığımızı və qoruduğumuzu izah edir.\n\nApplyFlow-u quraşdırmaq və istifadə etməklə siz bu siyasətdə təsvir olunan təcrübələrlə razılaşırsınız.\nNL_10__---\n\n**2. Topladığımız Məlumat**\n\nBiz genişləndirmənin xüsusiyyətlərini aktivləşdirmək üçün yalnız könüllü olaraq təqdim etdiyiniz məlumatları toplayırıq:\n\n• **Profil Məlumatı**: Adınız, e-poçtunuz, telefon nömrəniz, kolleciniz, dərəcəniz, bacarıqlarınız, iş tarixçəniz, layihələriniz və peşəkar linklər (Linked,GitH7N•__In Portfolio). **EEO/Demoqrafik Məlumat (İstəyə görə)**: Cins, əlillik statusu, veteran statusu və iş icazəsi seçimləri — yalnız bu sahələri doldurmağı seçdiyiniz halda təqdim olunur. Bu məlumat yalnız iş müraciətlərində isteğe bağlı EEO sorğu vərəqlərini avtomatik doldurmaq üçün istifadə olunur.\n• **Müraciət İzləmə Məlumatı**: İş adı, şirkət, ərizə URL-si, status və genişləndirmədən istifadə edərək izlədiyiniz vəzifələr üçün qeydlər.\n• **İstifadə Statistikası**: Gündəlik olaraq yerinə yetirilən avtomatik doldurulan əməliyyatların sayı məhdudiyyətlər).\n• **Autentifikasiya Datası**: Google ilə daxil olmağı seçsəniz, təcrübənizi fərdiləşdirmək və bulud sinxronizasiyasını aktivləşdirmək üçün biz Google displey adınızı, e-poçt ünvanınızı və profil şəklinizin URL-ni saxlayırıq.\n\nBiz **toplamırıq**:\n• Ödəniş və ya maliyyə tarixçəsi B__NL224 fəaliyyət\n• İş müraciəti ilə əlaqəli olmayan səhifələrdən alınan hər hansı məlumat\n• Artırma aktiv şəkildə işə salınmayan səhifələrdən alınan istənilən məlumat\nNL_28__---\n\n**3. Məlumatlarınızı Necə Saxlayırıq**\n\n**3.1 Yerli Yaddaş (Defolt)**\nBütün məlumatlar əsasən brauzerinizin chrome.storage.local API-də saxlanılır. Bu məlumat yalnız cihazınızda yerləşir və sizin açıq hərəkətiniz olmadan heç vaxt heç bir serverə ötürülmür.\n\n**3.2 Cloud Sync (İstəyə Bağlı)**\nGoogle ilə daxil olmağı və \"Supabase Sync\" funksiyasını aktivləşdirməyi seçsəniz, profiliniz və proqram verilənlər bazanız da sinxronlaşdırılacaq. Bu məlumatın tam sahibliyini saxlayırsınız. Siz onu istənilən vaxt Hesab və Sinxronizasiya bölməsindən silə bilərsiniz.\n\n**3.3 Əkizlər AI sorğuları**\nSüni intellekt xüsusiyyətlərindən istifadə edildikdə (məsələn, esse yaratmaq, işin təhlili), profilinizin hissələri (bacarıqlar, dərəcə, xülasə) və Google iş təsvirinin cavab mətni Gemini-yə göndərilir. Bu, Google'un standart API Xidmət Şərtləri və Məxfilik Siyasəti əsasında işlənir. Süni intellektlə dəstəklənən məzmununuza həssas şəxsi identifikatorları daxil etməməyi tövsiyə edirik.\n\n---\n\n**4. Məlumat Paylaşımı**\n\nBiz şəxsi məlumatlarınızı marketinq və ya reklam məqsədləri üçün üçüncü tərəflərlə **satmırıq, alqı-satqısı, icarəsi və ya paylaşmırıq.\n\nMəlumatlarınız aşağıdakı etibarlı xidmətlər tərəfindən emal oluna bilər:\n• **Filing AI- API və formalı Google Gemini üçün güclənir. (https://policies.google.com/privacy)\n• **Google OAuth**: Hesabın autentifikasiyası üçün (https://policies.google.com/privacy)\n• **Supabase**: Əlavə bulud yaddaşı üçün (yalnız https://supabase.com/privacy imkan verirsə) — sync\n\n---\n\n**5. Hüquqlarınız və Nəzarətləriniz**\n\nSizin hüququnuz var:\n• **ApplyFlow-un sizin haqqınızda saxladığı bütün dataya daxil olmaq** (parametrlərdə İxrac Yedəkləmə vasitəsilə)\n• **İstənilən vaxt Profil cədvəlində məlumatlarınızı düzəltmək****Bütün yerli məlumatlarınızdan istifadə etməklə**_Detallı 59__NL• Parametrlərdə \"Bütün Profil Məlumatlarını Silin\"\n• **Razılığı geri götür**** genişləndirməni silməklə istənilən vaxt\n• **Hesab və Sinxronizasiya parametrlərində onu deaktiv etməklə bulud sinxronizasiyasını deaktiv edin**\n\n**GDPR (AB-də rezident hüquqlarınız varsa, siz EU-ya giriş hüququnuz varsa) Ümumi Məlumatların Mühafizəsi Qaydasına əsasən düzəliş, silmə, emal və məlumatların daşınmasını məhdudlaşdırın.\n\n**Hindistan — DPDP Aktı 2023**: Hindistanın Rəqəmsal Fərdi Məlumatların Mühafizəsi Aktı 2023-ə uyğun olaraq, biz şəxsi məlumatları yalnız iş müraciətinə yardım xidməti göstərmək məqsədilə emal edirik. İstənilən vaxt bizimlə əlaqə saxlayaraq razılığınızı geri götürə və məlumatlarınızın silinməsini tələb edə bilərsiniz.\n\n**Kaliforniya — CCPA**: Kaliforniya sakinlərinin hansı şəxsi məlumatların toplandığını bilmək, silmək hüququ və satışdan imtina etmək hüququ var (biz satmırıq. data).\n\n---\n\n**6. Məlumatın saxlanması**\n\nYerli məlumatlar siz onu əl ilə silənə qədər saxlanılır. Buludla sinxronlaşdırılmış data siz hesabınızı silənə və ya silinmə sorğusuna qədər saxlanılır. Biz məlumatları avtomatik silmirik.\n\n---\n\n**7. Təhlükəsizlik**\n\nBiz məlumatlarınızı qorumaq üçün ağlabatan texniki tədbirlər görürük:\n• Bütün bulud kommunikasiyaları HTTPS/TLS şifrələməsindən istifadə edir\n• Supabase Sıra Səviyyəli Təhlükəsizlik (RLS) istifadəçilərin yalnız öz məlumatlarına daxil ola bilməsini təmin edir\n onun tələbi üçün icazə tələb olunmur. funksiya\n\n---\n\n**8. Uşaqların Məxfiliyi**\n\nApplyFlow 13 yaşından kiçik istifadəçilər üçün nəzərdə tutulmayıb. Biz uşaqlardan bilərəkdən məlumat toplamırıq. Əgər uşağın bizə şəxsi məlumat verdiyinə inanırsınızsa, dərhal bizimlə əlaqə saxlayın.\n\n---\n\n**9. Bu Siyasətdə Dəyişikliklər**\n\nBiz bu Məxfilik Siyasətini vaxtaşırı yeniləyə bilərik. Əhəmiyyətli dəyişikliklər genişləndirmənin Seçimlər səhifəsi vasitəsilə bildiriləcək. Dəyişikliklərdən sonra genişlənmənin davam etdirilməsi yenilənmiş siyasətin qəbul edilməsini təşkil edir.\n\n---\n\n**10. Bizimlə əlaqə saxlayın**\n\nMəxfiliklə bağlı suallar, məlumatların silinməsi sorğuları və ya narahatlıqlar üçün:\n\nE-poçt: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nVebsayt: https://applyflow.in\n\nBiz 30 gün ərzində bütün sorğulara cavab verməyi planlaşdırırıq.",
+    "description": "Privacy policy document markdown text"
+  }
+}

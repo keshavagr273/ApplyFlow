@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "አፕሊኬሽን ፍሰት፡ AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "በLinkedIn፣ Workday፣ Greenhouse እና ሌሎች ላይ AIን በመጠቀም የስራ መተግበሪያዎችን በራስ ሰር ሙላ እና ዝርዝሮችን ይከታተሉ።",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "አግብር ፍሰት",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "ንቁ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "ተተግብሯል።",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "ቃለ መጠይቅ",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "አቅርቡ",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "ተቀምጧል",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "ጠቅላላ",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "ራስ-ሙላ",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "በመሙላት ላይ...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ፈጣን ራስ-ሙላ",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "ኢዮብን ተንትን",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "የጎን አሞሌን ይክፈቱ",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ቅንብሮች",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "ፈጣን ራስ-ሙላ ለመጠቀም መጀመሪያ በGoogle ይግቡ።",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "እባክዎ በመጀመሪያ የጎን ፓነል/አማራጮች ገጽ ላይ መገለጫዎን ያዘጋጁ!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "_P_0__ ተገኝቷል",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "ምንም የስራ ገጽ አልተገኘም።",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "የ AI ባህሪያትን ለመክፈት የስራ ዝርዝርን ይጎብኙ",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "እንደምን አደሩ",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ደህና ከሰአት",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "መልካም ምሽት",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "_P_0__ ማመልከቻዎች ተከታትለዋል · $2$ ቃለ መጠይቆች",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "ሂደትዎን ለመከታተል ማመልከት ይጀምሩ",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "የሽፋን ደብዳቤ",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "የጥያቄ እና መልስ እገዛ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "ለመርዳት ዝግጁ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "ለመጀመር በLinkedIn, Workday, ግሪንሃውስ ወይም ማንኛውም የስራ ሰሌዳ ላይ ወደሚገኝ የስራ ዝርዝር ይሂዱ.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "በዚህ ሳምንት",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "የቅርብ ጊዜ እንቅስቃሴ",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "ሁሉንም ይመልከቱ →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "የስራ ፍለጋዎን ይጀምሩ!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "የስራ ሰሌዳን ይጎብኙ እና መተግበሪያዎችዎን በራስ-ሰር ለመሙላት እና ለመከታተል ApplyFlowን ይጠቀሙ።",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "የእኔ መገለጫ",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "በማስቀመጥ ላይ...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "ሁሉንም አስቀምጥ",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "መገለጫ ተቀምጧል!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "መገለጫን ማስቀመጥ አልተሳካም።",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "ከቆመበት ቀጥል",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "ወደ ራስ-ሙላ መገለጫ ስቀል",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ ተጭኗል",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "የግል መረጃ",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "ያልተሟላ",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "አካባቢ",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "ትምህርት",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "ችሎታዎች",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "የስራ ልምድ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "ፕሮጀክቶች",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "የሥራ ምርጫዎች",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "የሥራ ፈቃድ",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ታሪክን ከቆመበት ቀጥል",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ይህንን ተጠቀም",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "በ$1$ ላይ ተተነተነ",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "የመገለጫ ዝርዝሮችን ከ\"$1$\" ይጫኑ? ይህ የአሁኑን አርትዖቶችዎን በዚህ ከቆመበት ቀጥል በተተነተነ መዋቅር ይተካዋል።",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "ከ$1$ የተመለሱ ዝርዝሮች",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "የማመሳሰል ውጤት",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "_P_0__ ተስማሚ",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ ተጨማሪ",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "መተግበሪያ በራስ ተሞልቶ ገብቷል! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "በApplyFlow Side Panel በኩል በራስ-የተሞላ",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "እዚያ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "የኮሌጅ ስብስብ የለም።",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ራስ-ሙላ ለማንቃት መገለጫዎን ያዋቅሩ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "አልተዘጋጀም።",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "_P_0__ ግቤቶች",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "_P_0__ ችሎታ",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "_P_0__ ፕሮጀክቶች",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "_P_0__ መልሶች",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "የተፈቀደ",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "አልተፈቀደም።",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "ሙሉ ስም",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ኢሜይል",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ስልክ",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "ተለዋጭ ስልክ",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "ፖርትፎሊዮ URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "ማገናኛን ከቆመበት ቀጥል",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "ከተማ",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "ግዛት",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "ሀገር",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "የፖስታ ኮድ",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "አድራሻ",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ዜግነት",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "ኮሌጅ / ዩኒቨርሲቲ",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ዲግሪ",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "የምረቃ ዓመት",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ደረጃ",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10ኛ%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12ኛ%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "የማስታወቂያ ጊዜ",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "የሚጠበቀው ደመወዝ",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "ተመራጭ ሚና",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "የዓመታት ልምድ",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ያለ ቪዛ ስፖንሰርሺፕ ለመስራት ፍቃድ ተሰጥቶታል።",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "የቪዛ ስፖንሰርሺፕ ያስፈልገዋል",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ጾታ",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "አካል ጉዳተኝነት",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "ላለመናገር እመርጣለሁ።",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "አልተገለጸም።",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ወንድ",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ሴት",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ሁለትዮሽ ያልሆነ",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "አዎ",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "አይ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "እስካሁን ምንም ችሎታዎች አልተጨመሩም።",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "ችሎታ ጨምር (ለመጨመር ግባ)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ቀስቅሴ ሀረግ (ለምሳሌ ለምን እንቀጥርሃለን)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "መልስህ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "አስወግድ",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ ብጁ መልስ ያክሉ",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "ኩባንያ",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "ሚና / ርዕስ",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "የመጀመሪያ ቀን",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "የመጨረሻ ቀን",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "አቅርቡ",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "በአሁኑ ጊዜ በዚህ ሚና ውስጥ እየሰራሁ ነው",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "መግለጫ",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "የእርስዎን ሀላፊነቶች፣ ቁልፍ ስኬቶች፣ ጥቅም ላይ የዋሉ ቴክኖሎጂዎችን ይግለጹ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ የስራ ልምድ ጨምር",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "የፕሮጀክት ርዕስ",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "የቴክ ቁልል",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "የማሰማራት URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "የገነቡትን፣ የፈታውን ችግር እና ቁልፍ ባህሪያቱን ያብራሩ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ ፕሮጀክት አክል",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "መከታተያ",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "ተቀምጧል",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "ተተግብሯል።",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "ግምገማ",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "ቃለ መጠይቅ",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "አቅርቡ",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "ውድቅ ተደርጓል",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "የተወሰደ",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "ይህ መተግበሪያ ይሰረዝ?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "መተግበሪያ ተዘምኗል!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "መተግበሪያ ተሰርዟል።",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "ሁኔታ",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "መድረክ",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "ተተግብሯል።",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "የስራ መለጠፍን ክፈት",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "ደመወዝ / ክፍያ",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "የክትትል አስታዋሽ",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "ማስታወሻዎች",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "ማስታወሻዎችን፣ የእውቂያ መረጃን፣ የቃለ መጠይቅ ዝርዝሮችን ያክሉ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "የሥራ ዝርዝር መግለጫ (ቅንጭብ)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ሰርዝ",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "ሰርዝ",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "አስቀምጥ",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 መተግበሪያ",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "_P_0__ መተግበሪያዎች",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "በኩባንያ አጣራ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "የሁኔታ ማጣሪያዎች",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "ለተጨማሪ → ወደ ቀኝ ያሸብልሉ።",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "ሁሉም",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "ምንም መተግበሪያዎች አልተገኙም።",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "አዲስ መከታተያ ለማስገባት ማጣሪያዎችን ዳግም ለማስጀመር ይሞክሩ ወይም ስራ ይቆጥቡ",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "ትንታኔ",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "_P_0__ ጠቅላላ መተግበሪያዎች",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "እስካሁን ምንም ውሂብ የለም።",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "ለስራዎች ማመልከት ይጀምሩ እና የእርስዎ ትንታኔ እዚህ ይታያል።",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "የልወጣ ተመኖች",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "ተተግብሯል።",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "የቃለ መጠይቅ መጠን",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "የአቅርቦት መጠን",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "በዚህ ሳምንት መተግበሪያዎች",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "የመተግበሪያ Funnel",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "ከፍተኛ መድረኮች",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "የሁኔታ መከፋፈል",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI ፓይለት",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "አውድ፡ _P_0__",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "የእርስዎ የስራ ረዳት አብራሪ",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "አዲስ ውይይት ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "እባክዎን AI ምላሾችን ለግል ማበጀት እንዲችል መጀመሪያ መገለጫዎን ያዘጋጁ።",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "ውይይት ጸድቷል! በምን ልረዳህ እችላለሁ?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "ስለዚህ ሥራ ማንኛውንም ነገር ይጠይቁ ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "ለመጀመር መገለጫዎን ያዘጋጁ",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "ለመላክ አስገባን ይጫኑ",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "የተኳኋኝነት ነጥብ ከቆመበት ቀጥል",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ጠንካራ ችሎታዎች",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ የጎደሉ ችሎታዎች",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "ለግል የተበጀው የሽፋን ደብዳቤህ ይኸውልህ፡-",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ ተገልብጧል!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 ቅዳ",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ አውርድ",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "_P_0__ ሊሆኑ የሚችሉ የቃለ መጠይቅ ጥያቄዎች እነኚሁና፡",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ከቆመበት ቀጥል የማመቻቻ ነጥብ፡ _P_0__%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "የማመሳሰል ጥቆማዎችን ከቆመበት ቀጥል",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "ከዚህ የሥራ መግለጫ ጋር ሲነጻጸር",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "ሃይ! በ **$2$** ላይ ያለውን የ **$1$* ሚና እየተመለከቱ እንዳሉ አይቻለሁ።",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "ሃይ! የ **$1$** ሚና እየተመለከቱ እንደሆነ አይቻለሁ።",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "ሃይ! እኔ የእርስዎ AI የሙያ ረዳት ነኝ። ወደ ሥራ ዝርዝር ሂድ እና በራስ-ሰር እተነተነው ወይም ማንኛውንም ነገር ጠይቀኝ!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "እባክዎ በመጀመሪያ መገለጫዎን በመገለጫ ትር ውስጥ ያዘጋጁ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "እባክዎ ይህን ባህሪ ለመጠቀም በመጀመሪያ በአሳሽዎ ውስጥ የስራ ዝርዝር ገጽ ይክፈቱ!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlowን ይክፈቱ",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "ዳሽቦርድዎን ለመድረስ፣ ስራዎችን ለማመሳሰል፣የስራ መዝገብዎን ለማስተዳደር እና የስራ መተግበሪያዎችን በራስ-ሰር ለመሙላት በGoogle ይግቡ።",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ራስ-ሙላ እና ክሊፐር",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "በአንድ ጠቅታ መተግበሪያዎችን ይቃኙ እና በራስ-ሙላ።",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "የደመና ማመሳሰል እና ምትኬ",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ሁሉንም የስራ መከታተያ ዝርዝሮችዎን ከSupabase ጋር ያመሳስሉ።",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ከቆመበት ቀጥል እና መገለጫዎች",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "የስራ ልምድዎን ይስቀሉ እና የመተግበሪያ መልሶችን ያብጁ።",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "ከGoogle ጋር በመገናኘት ላይ...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "በGoogle ይግቡ",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "በመለያ በመግባት የመገለጫ ውሂብዎን ደህንነቱ በተጠበቀ ሁኔታ ከገቢር የስራ ቦታዎ ጋር ለማመሳሰል ተስማምተዋል።",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "እርግጠኛ ነህ ዘግተህ መውጣት ትፈልጋለህ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "በተሳካ ሁኔታ ዘግተው ወጥተዋል።",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "እንደ _P_0__ ገብቷል",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "ዘግተህ ውጣ",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "ይግቡ",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "በመገናኘት ላይ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlowን ይክፈቱ",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ተግብር ፍሰት ተዛማጅ",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ጠንካራ የማዛመድ ችሎታዎች",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "የጠፉ ችሎታዎች",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "ብልጥ ራስ-ሙላ ገጽ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "ራስ-ሙላ ቅጽ...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "በገጹ ላይ ምንም ሊሞሉ የሚችሉ የመተግበሪያ መስኮች አልተገኙም።",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "በተሳካ ሁኔታ ተሞልቷል!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "በገጽ ውስብስብነት ምክንያት ራስ-ሙላ አልተሳካም።",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "ሲሞሉ ወደ ሎግ መከታተያ በራስ-ሰር የተቀመጠ።",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "የስራ ሒሳብዎ **$1$% ከዚህ ሚና ጋር ተኳሃኝ ነው**።",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "እንኳን ደህና መጣህ _P_0__!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "የGoogle ተጠቃሚ መገለጫ መረጃ ማምጣት አልተሳካም።",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "የOAuth መግባት አልተሳካም፦ _P_0__",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "የመዳረሻ ማስመሰያ ከማዘዋወር ማምጣት አልተሳካም።",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "የማረጋገጫ አቅጣጫን መተንተን አልተሳካም።",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ማረጋገጫ በዚህ መድረክ ላይ አይደገፍም።",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ሥራ ወደ መከታተያ ተቀምጧል!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "እንግዳ",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ አጠቃላይ ቅንብሮች",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "በLinkedIn Job Pages ላይ አሳይ",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "በLinkedIn ላይ የስራ ማስታወቂያዎችን ሲመለከቱ ብልጥ ተዛማጅ ነጥብ እና አንድ ጠቅታ ራስ-ሙላ አዝራር ያሳያል።",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'ስራ አስቀምጥ' የሚለውን ቁልፍ አሳይ",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "ከማመልከትዎ በፊት የስራ ዝርዝሮችን በፍጥነት ወደ መከታተያዎ ማስቀመጥ እንዲችሉ ተንሳፋፊ 'ስራ አስቀምጥ 📌' የሚለውን ቁልፍ በስራ ቦታዎች ላይ ያሳያል።",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "በትክክል ካመለከቱ በኋላ ብቻ ይመዝገቡ",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "ስራውን ወደ መከታተያዎ ከማከልዎ በፊት የ'አመሰግናለሁ' ወይም 'ስኬት' ማያ ገጹን እስኪያዩ ድረስ ይጠብቁ። በግማሽ የተሞሉ ቅጾች እንደ 'ተተገበሩ' እንዳይቀመጡ በመከላከል መከታተያዎን ንፁህ ያደርገዋል።",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI ክሬዲት እና የአጠቃቀም ትንታኔ",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ክሬዲቶች ቀርተዋል።",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ክሬዲቶች ይቀራሉ",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "ጠቅላላ ክሬዲቶች",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "የሁሉም ጊዜ ራስ-ሙላዎች",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "የእቅድ ሁኔታ",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "ፕሪሚየም 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "ነፃ 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "ጠቃሚ ምክር፡",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "ብልጥ ራስ-ሙላ ስራዎች 0 ክሬዲቶችን ይበላሉ እና 100% ያልተገደቡ ናቸው! እንደ የሽፋን ደብዳቤዎች (5 ክሬዲቶች) እና ብጁ ድርሰቶች (3 ክሬዲቶች) ያሉ የላቁ የኤአይአይ ባህሪያት የክሬዲት ቀሪ ሒሳቦን ይበላሉ።",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 ጎግል መለያ እና ክላውድ ማመሳሰል",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "ጉግል ክላውድ ማመሳሰል ገቢር ነው።",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "የክላውድ ማመሳሰል ተቆልፏል (ፕሪሚየም ብቻ)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "የደመና ማመሳሰል",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "ወደ ደመና ግፋ",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "ከደመና ይሳቡ",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "ማመሳሰል ተሳክቷል!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "ማመሳሰል አልተሳካም። ግንኙነትዎን ያረጋግጡ።",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "ደህንነቱ የተጠበቀ የደመና ማመሳሰል",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "አፕሊኬሽኖችህን እና መገለጫህን በSupabase ምትኬ ለማስቀመጥ በGoogle ግባ። ማመሳሰል የእርስዎን ምዝግብ ማስታወሻዎች በመላ መሳሪያዎች ላይ የሚጠብቅ የፕሪሚየም ባህሪ ነው።",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase ክላውድ ማመሳሰል የፕሪሚየም ባህሪ ነው። እባክዎ ማመሳሰልን ለማንቃት በማሻሻያ ትር ውስጥ ያሻሽሉ!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 የውሂብ አስተዳደር",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "ምትኬን ወደ ውጪ ላክ (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "ሁሉንም የአካባቢ ውሂብ አጽዳ",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "የአካባቢ ውሂብን ማጽዳት የእርስዎን መገለጫ እና መተግበሪያዎችን ከዚህ መሳሪያ ብቻ ያስወግዳል። የደመና ውሂብ አልተነካም።",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "የመቆጣጠሪያ ማዕከል",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "ቤት እና ስለ",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "አጠቃላይ ቅንብሮች",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "ወደ ፕሮ 👑 አሻሽል።",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "ፕሪሚየም እቅድ 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "መለያ እና ማመሳሰል",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "የግላዊነት ፖሊሲ",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "የሚጠየቁ ጥያቄዎች",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "የቁልፍ ሰሌዳ አቋራጮች",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 እንኳን ወደ ApplyFlow በደህና መጡ",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "አፕሊፍሎው ፈጣን እና ብልህ በሆነ መልኩ ማመልከት ለሚፈልጉ ተማሪዎች እና ስራ ፈላጊዎች በ AI የሚጎለብት የChrome ቅጥያ ነው። በ15+ መድረኮች ላይ የስራ ማመልከቻ ቅጾችን በራስ ሰር ፈልጎ ይሞላል፣ የቧንቧ መስመርዎን ይከታተላል እና ተጨማሪ ቃለመጠይቆችን እንዲያገኙ ያግዝዎታል።",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ብልጥ ራስ-ሙላ",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS መድረኮች ከትክክለኛ መራጮች ጋር",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "የድር Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "አንድ-ጠቅታ ማንኛውንም የስራ ዝርዝር ያስቀምጡ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "የመተግበሪያዎን ቧንቧ ይጎትቱ እና ይጣሉት።",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO ራስ-ሙላ",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "የስነሕዝብ እና የቪዛ ጥያቄዎችን በራስ ሰር ይሞላል",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI ድርሰቶች",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "በጌሚኒ የተጎላበተ ብጁ መልስ መጻፍ",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "ደህንነቱ የተጠበቀ ማመሳሰል",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "አማራጭ የ Supabase ደመና ምትኬ",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 እንዴት እንደሚጀመር",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "የእርስዎን መገለጫ ይገንቡ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "ብቅ ባይ → የመገለጫ ትርን ይክፈቱ → ከቆመበት ቀጥል ፒዲኤፍ ይስቀሉ። ችሎታ፣ ልምድ፣ ትምህርት እና ፕሮጀክቶችን ጨምሮ AI ሁሉንም ዝርዝሮችዎን በራስ-ሰር ያወጣል።",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO ምርጫዎችን ያቀናብሩ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "በመገለጫዎ ውስጥ ወዳለው የ EEO ክፍል ይሸብልሉ እና የስራ ፈቃድዎን፣ የቪዛ ስፖንሰርሺፕ ፍላጎቶችን እና የስነ ሕዝብ አወቃቀር ምርጫዎችን ያዘጋጁ። እነዚህ የ EEO መጠይቆችን በራስ-ሰር ለመሙላት ያገለግላሉ።",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "የስራ ዝርዝርን ያስሱ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "ወደ ማንኛውም የሥራ ዝርዝር ይሂዱ። 📌 \"ስራ አስቀምጥ\" የሚለው ቁልፍ ሲመጣ ያያሉ። ቦታውን ወደ መከታተያዎ ወዲያውኑ ለማስቀመጥ እሱን ጠቅ ያድርጉ።",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "የማመልከቻ ቅጽ ይክፈቱ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "ወደ ማመልከቻው ቅጽ ይሂዱ። የApplyFlow ብቅ ባይ → \"Scan Page\" → በመቀጠል \"⚡ Smart Autofill\" የሚለውን ይጫኑ። የሬዲዮ ቁልፎችን እና ተቆልቋይዎችን ጨምሮ ሁሉም መስኮች ወዲያውኑ ይሞላሉ።",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "የቧንቧ መስመርዎን ይከታተሉ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "ሁሉንም መተግበሪያዎችዎን ለማየት የመከታተያ ትሩን ይክፈቱ። ሁኔታዎ ሲዘምን ወደ የካንባን ቦርድ እይታ ይቀይሩ እና ካርዶችን በአምዶች መካከል ይጎትቱ።",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 መግባት ያስፈልጋል",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ቅንብሮችን ለማበጀት ይግቡ",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "አጠቃላይ ቅንብሮች የሚገኙት በመለያ ለገቡ ተጠቃሚዎች ብቻ ነው። ምርጫዎችዎን ለማዋቀር በGoogle ይግቡ፣ ባህሪዎችን እና ሌሎችም።",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "ወደ መለያ እና ማመሳሰል ይሂዱ",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro ንቁ",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "የፍቃድ ቁልፍ፡ _P_0__",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "ፍቃድ አቦዝን",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 የፍቃድ ቁልፍ ማግበር",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "የደንበኝነት ምዝገባ ከገዙ ወይም የመዳረሻ ኮድ ከተቀበሉ ApplyFlow Premiumን ለመክፈት የፍቃድ ቁልፍዎን ከዚህ በታች ያስገቡ።",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "አግብር",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "በማግበር ላይ...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 ጠቃሚ ምክር፡ APPLYFLOW-PRO-2026 የሚለውን ቁልፍ በመጠቀም ፕሪሚየምን ማግበር ይችላሉ።",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "ፕሪሚየም ነቅቷል!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlowን ስለደገፉ እናመሰግናለን። ሁሉም ፕሪሚየም ባህሪያት አሁን ተከፍተዋል።",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 የፕሪሚየም ማሻሻያ እቅድ",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "የእርስዎን የሙያ ወደ ውጭ የሚላኩ እና የላቀ AI ባህሪያትን ይክፈቱ።",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "ለሽፋን ደብዳቤዎች፣ ብጁ የፅሁፍ መልሶች፣ ከቆመበት ማመቻቸት እና ለቃለ መጠይቅ መሰናዶ ፕሪሚየም AI ክሬዲቶችን ያግኙ። በሚደገፉ የመሣሪያ ስርዓቶች ላይ የራስ-ሙላ ስራዎች ሙሉ በሙሉ ያልተገደቡ እና ለሁሉም ፕሪሚየም ተጠቃሚዎች ነፃ ናቸው!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 ቀደምት የማደጎ አቅርቦት፡-",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "የሚቀጥለው የዋጋ ጭማሪ በ500 የPremium ተጠቃሚዎች። ለሕይወት በዚህ መጠን ውስጥ ቆልፍ!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "ወርሃዊ ፕሮ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "ለአጭር ጊዜ ፍለጋ ጥሩ",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ወር",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(በቀን 13 ብር ብቻ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI ክሬዲቶች በወር|||ያልተገደበ ራስ ሙላዎች (ሁሉም ፖርታል)|||ክላውድ ማመሳሰል እና ጎግል ምትኬ|||ፕሪሚየም ገጽታዎች|||ከማስታወቂያ-ነጻ ልምድ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "በየወሩ ይመዝገቡ",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "የሩብ ዓመት ፕሮ",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "ለአብዛኛዎቹ ሥራ ፈላጊዎች ምርጥ ዋጋ",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ወር",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(በቀን 11 ብር ብቻ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI ክሬዲት በየሩብ|||ያልተገደበ ራስ ሙላ (ሁሉም ፖርታል)|||የተበጁ የሽፋን ደብዳቤዎች እና ድርሰቶች|||Cloud ማመሳሰል እና ጎግል ምትኬ|||የተዛማጅ ጥቆማዎችን ከቆመበት ቀጥል",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "በየሩብ ዓመቱ ይመዝገቡ",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "በጣም ታዋቂ",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "ዓመታዊ የመጨረሻ",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "ለኃይል ተጠቃሚዎች ምርጥ ዋጋ",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2,999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ አመት",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(ከ 249 ብር በወር)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI ክሬዲቶች በዓመት|||ያልተገደበ ዕለታዊ ራስ-ሙላ|||የተበጁ የሽፋን ደብዳቤዎች እና ድርሰቶች|||ክላውድ ማመሳሰል እና ጎግል ምትኬ|||የግጥሚያ ጥቆማዎችን ከቆመበት ቀጥል|||ቀዳሚ የኢሜይል ድጋፍ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "በየአመቱ ይመዝገቡ",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "ምርጥ ዋጋ - 40% ይቆጥቡ",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "የApplyFlow ልማትን ይደግፉ",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow በገለልተኛ ገንቢዎች ነው የተሰራው እና የሚንከባከበው። ቅጥያው አጋዥ ሆኖ ካገኙት፣ ንቁ፣ ከማስታወቂያ ነጻ እና ለአዲስ የስራ ሰሌዳዎች እንዲዘመን ለማገዝ በKo-fi ላይ መለገስ ያስቡበት።",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Ko-fi ላይ ቡና ግዛልኝ",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 ደረጃ አሰጣጥ|||🔒 ደህንነታቸው የተጠበቀ ክፍያዎች|||✓ በማንኛውም ጊዜ ይሰርዙ",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "ልክ ያልሆነ የፍቃድ ቁልፍ ፍንጭ፡ ማሳያ ቁልፉን 'APPLYFLOW-PRO-2026' ለመጠቀም ይሞክሩ!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "ፍቃድ በተሳካ ሁኔታ ነቅቷል! እንኳን ወደ ApplyFlow Premium በደህና መጡ። 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "እርግጠኛ ነህ የፕሪሚየም ፍቃድህን ማቦዘን ትፈልጋለህ? ይህ ወደ ነፃ ዕቅድ ይመልሰዎታል።",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "የፕሪሚየም ፍቃድ ቦዝኗል። አሁን በነጻ እቅድ ላይ ነዎት።",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "ይህ ሁሉንም የአካባቢያዊ መገለጫ እና የመተግበሪያ ውሂብ እስከመጨረሻው ይሰርዛል። ኧረ",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 የግላዊነት ፖሊሲ",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ ተደጋግሞ የሚጠየቁ ጥያቄዎች",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow ምንድን ነው እና እንዴት ነው የሚሰራው?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow በኤአይ የሚጎለብት የChrome ቅጥያ ሲሆን በ15+ መድረኮች ላይ LinkedIn፣ Internshala፣ Unstop፣ Workday፣ Greenhouse፣ Lever፣ እና ሌሎችንም ጨምሮ የስራ ማመልከቻ ቅጾችን በራስ ሰር የሚያገኝ ነው። የእርስዎን የተቀመጠ መገለጫ ያነባል እና የጽሑፍ መስኮችን፣ ተቆልቋይዎችን፣ የሬዲዮ አዝራሮችን እና አመልካች ሳጥኖችን ለመሙላት ብልህ ማዛመድን ይጠቀማል - የ EEO/የስነሕዝብ ጥያቄዎችን ጨምሮ።",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "የእኔ የግል መረጃ በApplyFlow ደህንነቱ የተጠበቀ ነው?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "አዎ። የእርስዎ ውሂብ በነባሪ በአሳሽዎ chrome.storage.local ውስጥ በአካባቢው ተከማችቷል። ከራስዎ አማራጭ የሱፓቤዝ ዳታቤዝ (እርስዎ የሚቆጣጠሩት) ወደ ሌላ የሶስተኛ ወገን አገልጋይ በፍጹም አይላክም። ApplyFlow የእርስዎን የግል መረጃ በጭራሽ አይሸጥም፣ አያጋራም ወይም ገቢ አይፈጥርም።",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow የሚደግፈው የትኞቹን የሥራ መድረኮች ነው?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow ከሳጥኑ ውስጥ 15+ መድረኮችን ይደግፋል፡ LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, እና ማንኛውም ሌላ ጣቢያ በእኛ የማሰብ ችሎታ ያለው አጠቃላይ የውድቀት ተመላሽ።",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "የድር ክሊፕ ምንድን ነው?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "ዌብ ክሊፐር ማንኛውንም የስራ ዝርዝር ገጽ ሲጎበኙ በራስ ሰር የሚታይ ተንሳፋፊ \"ስራ አስቀምጥ\" ቁልፍ ነው (📌)። እሱን ጠቅ ማድረግ የሥራውን ማዕረግ፣ ኩባንያ፣ ደሞዝ እና መግለጫ ያወጣል፣ ከዚያም ወደ የእርስዎ ApplyFlow መከታተያ እንደ «የተቀመጠ» መተግበሪያ ያስቀምጠዋል - ከማመልከትዎ በፊት ስራዎችን መከታተል ይችላሉ።",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "መገለጫዬን እንዴት ማዘመን እችላለሁ?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "የApplyFlow ብቅ ባይን ይክፈቱ፣ \"መገለጫ\" የሚለውን ትር ይጫኑ እና የስራ ልምድዎን ፒዲኤፍ ይስቀሉ። AI ሁሉንም መስኮችዎን በራስ-ሰር ይሞላል። እንዲሁም የእርስዎን EEO ምርጫዎች፣ የስራ ፍቃድ እና የሽፋን ደብዳቤዎችን ጨምሮ ማንኛውንም መስክ እራስዎ ማርትዕ ይችላሉ።",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "የ EEO መስኮች ምንድን ናቸው እና ለምን እፈልጋለሁ?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Equal Employment Opportunity) መስኮች ብዙ ዩኤስ እና አለምአቀፍ ቀጣሪዎች ስለ ጾታ፣ የአካል ጉዳት ሁኔታ፣ የውትድርና ሁኔታ እና የስራ ፍቃድ የሚጠይቋቸው ጥያቄዎች ናቸው። አፕሊፍሎው የሚመርጧቸውን መልሶች ያከማቻል እና እነዚህን የሬዲዮ ቁልፍ ቡድኖች በራስ-ሰር ይሞላቸዋል ስለዚህም ሁልጊዜ መልስ እንዳይሰጡዋቸው።",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow ማንኛውንም የኤፒአይ ቁልፎች ወይም ውቅረት ይፈልጋል?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "አይ! አፕሊፍሎው ሁሉንም ቅጾች ማወቅን፣ ስማርት ማዛመድን፣ የሽፋን ደብዳቤ ማመንጨትን እና የተኳኋኝነት ነጥብን በራስ ሰር ይቆጣጠራል። ምንም የኤፒአይ ቁልፎችን ማግኘት ወይም ማዋቀር አያስፈልግዎትም።",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase ማመሳሰል ምንድን ነው እና ያስፈልገኛል?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase ማመሳሰል አማራጭ የደመና ምትኬ ባህሪ ነው። በGoogle ገብተው ሲያነቁት የእርስዎ መገለጫ እና አፕሊኬሽን መከታተያ ከግል ደመና ዳታቤዝ ጋር ይመሳሰላሉ ስለዚህም የእርስዎ ውሂብ ከበርካታ መሳሪያዎች መጠባበቂያ እና ተደራሽ ይሆናል። ይህ ሙሉ በሙሉ አማራጭ ነው - ቅጥያው ከመስመር ውጭ ሙሉ በሙሉ ይሰራል።",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ለምን ApplyFlow የሁሉም ድር ጣቢያዎች መዳረሻ ያስፈልገዋል?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "አፕሊፍሎው የሁሉም ድረ-ገጾች መዳረሻ ስለሚጠይቅ በማንኛውም የሥራ ማመልከቻ ቅጽ ላይ የራስ-ሙላ ሞተሩን እንዲወጋ እና በማንኛውም የሥራ ዝርዝር ላይ የ\"ስራ አድን\" ቁልፍን ያሳያል። ይህ ፈቃድ ለሰፊ የመሳሪያ ስርዓት ድጋፍ ያስፈልጋል። በግልጽ ከሥራ ጋር በተያያዙ ገጾች ላይ ስክሪፕቶችን ብቻ እናስገባለን።",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "የካንባን ቦርድ ምንድን ነው?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "የካንባን ቦርድ በክትትል ትር ውስጥ የእይታ ሥራ መከታተያ እይታ ነው። በአምዶች የተደራጁ የእርስዎን መተግበሪያዎች ያሳያል፡ ተቀምጧል → ተግባራዊ → ግምገማ → ቃለ መጠይቅ → ቅናሽ። የማንኛውንም መተግበሪያ ሁኔታ ለማዘመን ካርዶችን በአምዶች መካከል ጎትተው መጣል ይችላሉ።",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "ማስረከብ እንዴት ነው የሚሰራው?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "በቅንብሮች ውስጥ \"ከማስረከብ በኋላ ብቻ ይግቡ\" ን ሲያነቁ ApplyFlow የተሳካ ማስረከብን የሚያመለክቱ የገጽ ለውጦችን ይመለከታል (እንደ \"/ስኬት\" የያዘ ዩአርኤል ወይም \"ስለተመለከቱ እናመሰግናለን\" የሚል የሰውነት ጽሑፍ)። እውነተኛ ግቤት ካገኘ በኋላ መተግበሪያውን ወደ መከታተያዎ ይመዘግባል።",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "ብዙ የሽፋን ደብዳቤዎችን ማከማቸት እችላለሁ?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "አዎ! የመገለጫ ስክሪኑ ለተለያዩ ሚናዎች ወይም ኩባንያዎች የተበጁ የሽፋን ደብዳቤዎችን የሚያከማችበት \"የሽፋን ደብዳቤ ቮልት\" ክፍል አለው። በራስ-ሰር በሚሞሉበት ጊዜ አፕሊኬሽን በጣም የቅርብ ጊዜውን ወይም በጣም አስፈላጊ የሆነውን የሽፋን ደብዳቤዎን ይጠቀማል።",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "የመተግበሪያዬን ውሂብ እንዴት ወደ ውጭ መላክ እችላለሁ?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "ወደ መለያ እና ማመሳሰል ይሂዱ → ወደ ታች ይሸብልሉ → \"ምትኬን ወደ ውጪ ላክ (JSON)\" ን ጠቅ ያድርጉ። ይህ ሁሉንም የእርስዎን መገለጫ እና የመተግበሪያ ውሂብ ለደህንነት ለመጠበቅ እንደ JSON ፋይል ያወርዳል።",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow በማሳያ ሁነታ ላይ ይሰራል?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "የማሳያ ሁነታ ለሙከራ የሚያገለግል የቆየ ቅንብር ነበር። አሁን በነባሪነት ተሰናክሏል። ሁሉም ባህሪያት አብሮ በተሰራው የጌሚኒ ኤፒአይ ቁልፍ ቀጥታ እና የሚሰሩ ናቸው።",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "ስህተትን እንዴት ሪፖርት አደርጋለሁ ወይም ባህሪን እጠይቃለሁ?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "እባክዎን በ GitHub ማከማቻችን ላይ ችግር ይክፈቱ (በስለ ክፍል ውስጥ የተገናኘ) ወይም በ support@applyflow.in ኢሜይል ያድርጉልን። በተለምዶ በ 48 ሰዓታት ውስጥ ምላሽ እንሰጣለን.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow ብቅ ባይን ይክፈቱ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ለቅጽ መስኮች የአሁኑን ገጽ ይቃኙ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "በአሁኑ ገጽ ላይ ብልጥ ራስ-ሙላ አስነሳ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "የአሁኑን የሥራ ዝርዝር ወደ መከታተያ ይቁረጡ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "መከታተያ በአዲስ ትር ክፈት",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "በ Chrome ውስጥ አቋራጮችን ያዋቅሩ",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "ማስታወሻ፡-",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "የChrome ቅጥያ ትዕዛዞች በChrome አቋራጭ አስተዳዳሪ ውስጥ በእጅ መመደብ ያስፈልጋቸዋል። ከላይ የተዘረዘሩትን ቁልፎች ለማሰር ወደ _P_0__ ይሂዱ።",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Flow Chrome ቅጥያ ተግብር — የግላዊነት መመሪያ**\nመጨረሻ የዘመነው፡ ሰኔ 2026\n\n--_NL_3__\n**1። መግቢያ**\n\nApplyFlow (\"እኛ\"የእኛ\"ኤክስቴንሽን\") ተጠቃሚዎች የስራ ማመልከቻ ቅጾችን በራስ-ሰር እንዲሞሉ፣ መተግበሪያዎቻቸውን እንዲከታተሉ እና ፕሮፌሽናል ፕሮፋይላቸውን እንዲያስተዳድሩ የሚያግዝ የChrome አሳሽ ቅጥያ ነው። ይህ የግላዊነት ፖሊሲ የእርስዎን መረጃ እንዴት እንደምንሰበስብ፣ እንደምንጠቀም፣ እንደምናከማች እና እንደምንጠብቅ ያብራራል።\n\nApplyFlowን በመጫን እና በመጠቀም በዚህ መመሪያ ውስጥ በተገለጹት ልምዶች ተስማምተዋል። የምንሰበስበው ውሂብ**\n\nየቅጥያውን ባህሪያት ለማስቻል በፈቃደኝነት ያቀረቡትን መረጃ ብቻ እንሰበስባለን፡\n\n• **የመገለጫ መረጃ**፡ የእርስዎ ስም፣ ኢሜል፣ ስልክ ቁጥር፣ ኮሌጅ፣ ዲግሪ፣ ችሎታ፣ የስራ ታሪክ፣ ፕሮጀክቶች እና ፕሮፌሽናል ማገናኛዎች (LinkedIn, GitHub, Portfo_NELO)። (አማራጭ)**፡ ፆታ፣ የአካል ጉዳት ሁኔታ፣ የውትድርና ሁኔታ እና የስራ ፈቃድ ምርጫዎች — እነዚህን መስኮች ለመሙላት ከመረጡ ብቻ የቀረበ። ይህ ዳታ በስራ አፕሊኬሽኖች ላይ የአማራጭ EEO መጠይቆችን በራስ ሰር ለመሙላት ብቻ የሚያገለግል ነው።\n• **የመተግበሪያ መከታተያ መረጃ**፡የስራ ስም፣የድርጅት፣የመተግበሪያ ዩአርኤል፣ሁኔታ እና ማስታዎሻ ቅጥያውን ተጠቅመው ለሚከታተሉት የስራ መደቦች። በGoogle ለመግባት ከመረጡ፣ የእርስዎን ተሞክሮ ለግል ለማበጀት እና የደመና ማመሳሰልን ለማስቻል የእርስዎን የጎግል ማሳያ ስም፣ ኢሜል አድራሻ እና የመገለጫ ስእል ዩአርኤል እናከማቻለን ። ቅጥያው በንቃት ካልተቀሰቀሰ ከገጾች የተገኘ ውሂብ\n\n--\n\n**3። ዳታህን እንዴት እንደምናከማች**\n\n**3.1 የአካባቢ ማከማቻ (ነባሪ)**\nሁሉም መረጃዎች በዋነኝነት የሚቀመጡት በአሳሽህ chrome.storage.local API ነው። ይህ ውሂብ በመሳሪያዎ ላይ ብቻ ነው የሚኖረው እና ያለግልጽ እርምጃዎ ወደማንኛውም አገልጋይ በጭራሽ አይተላለፍም።\n\n**3.2 Cloud Sync (አማራጭ)**\nከGoogle ጋር ለመግባት ከመረጡ እና የ\"Supabase Sync\" ባህሪን ካነቁ የእርስዎ መገለጫ እና መተግበሪያ ዳታቤዝ ከሱፓቤዝ ጋር ይመሳሰላሉ። የዚህን ውሂብ ሙሉ ባለቤትነት ያቆያሉ። በማንኛውም ጊዜ ከመለያ እና ማመሳሰል ክፍል ላይ መሰረዝ ይችላሉ። ይሄ በGoogle መደበኛ የኤፒአይ የአገልግሎት ውል እና የግላዊነት መመሪያ ስር ነው የሚሰራው። ሚስጥራዊነት ያላቸው የግል መለያዎችን በ AI በሚደገፍ ይዘትህ ውስጥ እንዳታካትት እንመክራለን።\n\n--\n\n**4። ዳታ መጋራት**\n\nአንሸጥም፣ አንገበያይም፣ አንከራይም፣ ወይም የግል መረጃዎን ለገበያ ወይም ለማስታወቂያ ዓላማ ከማንኛውም ሶስተኛ አካል ጋር አናጋራም። (https://policies.google.com/privacy)\n• **Google OAuth**፡ ለመለያ ማረጋገጥ (https://policies.google.com/privacy)\n• **Supabase**፡ ለአማራጭ የደመና ማከማቻ (https://supabase.com/privacy) — ካነቁ ብቻ አመሳስል\n\n---\n\n**5. የእርስዎ መብቶች እና መቆጣጠሪያዎች**\n\nመብት አልዎት፡\n• **መዳረስ** ስለእርስዎ ያከማቻል ሁሉንም ዳታ ApplyFlow (በቅንጅቶች ወደ ውጪ መላክ)\n• መረጃዎን በማንኛውም ጊዜ በመገለጫ ትሩ ውስጥ ያርሙ\n• ሁሉንም በአከባቢዎ ውስጥ ያለውን መረጃ ያጥፉ። መቼቶች\n• **ፍቃድ አንሳ** በማንኛውም ጊዜ ቅጥያውን በማራገፍ\n• **የደመና ማመሳሰልን አሰናክል** በመለያ እና ማመሳሰል ቅንብሮች ውስጥ በማጥፋት\n\n**GDPR (የአውሮፓ ህብረት ተጠቃሚዎች)**: የአውሮፓ ህብረት ነዋሪ ከሆኑ ፣መረጃውን የማስተካከል ፣የመገናኘት ፣የመገናኘት እና የመወሰን መብት አሎት። አጠቃላይ የዳታ ጥበቃ ደንብ.\n\n**ህንድ — ዲፒዲፒ ህግ 2023**፡ የህንድ ዲጂታል የግል መረጃ ጥበቃ ህግ 2023ን በማክበር የግል መረጃዎችን የምናስኬደው ለስራ ማመልከቻ እርዳታ አገልግሎት ለመስጠት ብቻ ነው። እኛን በማነጋገር በማንኛውም ጊዜ የስምምነትዎን መሰረዝ እና የውሂብዎን ስረዛ መጠየቅ ይችላሉ።\n\n**ካሊፎርኒያ — CCPA**፡ የካሊፎርኒያ ነዋሪዎች ምን የግል መረጃ እንደሚሰበሰብ፣ የመሰረዝ መብት እና ከሽያጭ የመውጣት መብት እንዳላቸው የማወቅ መብት አላቸው (እኛ አንሸጥም) ዳታ).\n\n---\n\n**6. የውሂብ ማቆየት**\n\nእራስዎ እስኪያጸዱ ድረስ የአካባቢያዊ መረጃ ተጠብቆ ይቆያል። መለያህን እስክትሰርዝ ወይም ስረዛን እስክትጠይቅ ድረስ ከደመና ጋር የተመሳሰለ ውሂብ ተጠብቆ ይቆያል። በራስ ሰር ውሂብ አንሰርዝም።_NL_74__\n---\n\n**7። ደህንነት**\nNL_79__መረጃዎን ለመጠበቅ ምክንያታዊ ቴክኒካል እርምጃዎችን እንወስዳለን፡\n• ሁሉም የደመና ግንኙነቶች HTTPS/TLS ምስጠራን ይጠቀማሉ\n• ሱፓቤዝ የረድፍ ደረጃ ደህንነት (RLS) ተጠቃሚዎች የራሳቸውን ውሂብ ብቻ ማግኘት እንደሚችሉ ያረጋግጣል\n• ቅጥያው ከሚያስፈልገው በላይ ፍቃድ አይጠይቅም ተግባር\n\n---\n\n**8። የልጆች ግላዊነት**_NL_87__\nApplyFlow ከ13 ዓመት በታች ለሆኑ ተጠቃሚዎች የታሰበ አይደለም። እያወቅን ከልጆች መረጃ አንሰበስብም። አንድ ልጅ የግል መረጃ ሰጥቶናል ብለው ካመኑ፣ እባክዎን ወዲያውኑ ያግኙን።\n\n--\n\n**9። በዚህ መመሪያ ላይ የተደረጉ ለውጦች *** ይህንን የግላዊነት መመሪያ ከጊዜ ወደ ጊዜ ማዘመን እንችላለን። ጉልህ ለውጦች በቅጥያው አማራጮች ገጽ በኩል ይላካሉ። ከለውጦች በኋላ የቅጥያውን መቀጠል የተሻሻለውን ፖሊሲ መቀበልን ያካትታል።\n\n--\n\n**10። ያግኙን**\n\nለማንኛውም ከግላዊነት ጋር ለተያያዙ ጥያቄዎች፣የውሂብ ስረዛ ጥያቄዎች ወይም ስጋቶች፡\n\nኢሜል፡ privacy@applyflow.in\nGitHub፡ https://github.com/applyflow/extension https://applyflow.in\n\nለሁሉም ጥያቄዎች በ30 ቀናት ውስጥ ምላሽ የመስጠት አላማ አለን።",
+    "description": "Privacy policy document markdown text"
+  }
+}

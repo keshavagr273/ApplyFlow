@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Storage } from '../shared/storage';
 import { Application, AIServiceSettings } from '../shared/types';
 import { isJobPage } from '../shared/platformUtils';
+import { t } from '../shared/i18n';
 
 // ─── Platform detection util ──────────────────────────────────────────────────
 
@@ -104,7 +105,7 @@ export default function MiniPopup() {
     setIsAutofilling(true);
 
     if (!settings?.userEmail) {
-      alert('Please sign in with Google first to use Quick Autofill!');
+      alert(t('signin_warning'));
       setIsAutofilling(false);
       return;
     }
@@ -113,7 +114,7 @@ export default function MiniPopup() {
     console.log('[ApplyFlow Popup] Profile retrieved:', profile);
     if (!profile) {
       console.warn('[ApplyFlow Popup] Profile not found. Informing user.');
-      alert('Please set up your profile first in the Side Panel/Options page!');
+      alert(t('profile_warning'));
       setIsAutofilling(false);
       return;
     }
@@ -133,7 +134,7 @@ export default function MiniPopup() {
         platform: 'company_site' as const,
         status: 'applied' as const,
         appliedAt: Date.now(),
-        notes: 'Quick-filled via ApplyFlow Popup'
+        notes: t('quick_fill_notes')
       };
 
       console.log('[ApplyFlow Popup] Sending ATS_FILL message for tab:', tab.id, pendingApp);
@@ -173,28 +174,28 @@ export default function MiniPopup() {
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="text-sm font-bold text-slate-800">ApplyFlow</span>
+              <span className="text-sm font-bold text-slate-800">{t('brandName')}</span>
               {settings?.isPremium ? (
-                <span className="text-[9px] font-black bg-gradient-to-r from-brand-600 to-accent-500 text-white px-1.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm">Pro</span>
+                <span className="text-[9px] font-black bg-gradient-to-r from-brand-600 to-accent-500 text-white px-1.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm">{t('pro')}</span>
               ) : (
-                <span className="text-[9px] font-bold text-slate-500 border border-slate-200 px-1.5 py-0.5 rounded-full uppercase tracking-wider">Free</span>
+                <span className="text-[9px] font-bold text-slate-500 border border-slate-200 px-1.5 py-0.5 rounded-full uppercase tracking-wider">{t('free')}</span>
               )}
             </div>
-            <p className="text-[10px] text-slate-400 font-medium">Career Copilot</p>
+            <p className="text-[10px] text-slate-400 font-medium">{t('copilot_sub')}</p>
           </div>
         </div>
         <div className="flex items-center gap-1.5">
-          <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" title="Active"></div>
-          <span className="text-[10px] text-slate-500 font-medium">Active</span>
+          <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" title={t('active')}></div>
+          <span className="text-[10px] text-slate-500 font-medium">{t('active')}</span>
         </div>
       </div>
 
       {/* ── Stats Row ────────────────────────────────────────── */}
       <div className="mx-4 mt-4 mb-3 grid grid-cols-3 gap-2">
         {[
-          { label: 'Applied', value: stats.applied, bg: 'bg-blue-50/50 border-blue-100/70', color: 'text-blue-600', labelColor: 'text-blue-500' },
-          { label: 'Interview', value: stats.interview, bg: 'bg-purple-50/50 border-purple-100/70', color: 'text-purple-600', labelColor: 'text-purple-500' },
-          { label: 'Offer', value: stats.offer, bg: 'bg-emerald-50/50 border-emerald-100/70', color: 'text-emerald-600', labelColor: 'text-emerald-500' },
+          { label: t('applied'), value: stats.applied, bg: 'bg-blue-50/50 border-blue-100/70', color: 'text-blue-600', labelColor: 'text-blue-500' },
+          { label: t('interview'), value: stats.interview, bg: 'bg-purple-50/50 border-purple-100/70', color: 'text-purple-600', labelColor: 'text-purple-500' },
+          { label: t('offer'), value: stats.offer, bg: 'bg-emerald-50/50 border-emerald-100/70', color: 'text-emerald-600', labelColor: 'text-emerald-500' },
         ].map(stat => (
           <div key={stat.label} className={`${stat.bg} border rounded-xl p-2.5 text-center shadow-sm hover:scale-[1.02] transition-transform duration-200`}>
             <div className={`text-xl font-extrabold ${stat.color}`}>{stat.value}</div>
@@ -216,7 +217,7 @@ export default function MiniPopup() {
               </div>
               <div className="overflow-hidden flex-1">
                 <div className="text-[10px] font-bold uppercase tracking-wider" style={{ color: platformInfo.color }}>
-                  {platformInfo.name} Detected
+                  {t('job_detected', platformInfo.name)}
                 </div>
                 <div className="text-xs text-slate-700 font-semibold truncate mt-0.5">{activeTab.title}</div>
               </div>
@@ -226,8 +227,8 @@ export default function MiniPopup() {
             <div className="bg-slate-100/50 border border-slate-200/40 rounded-xl p-3 flex items-center gap-3 opacity-90">
               <div className="w-8 h-8 rounded-lg bg-slate-200/50 flex items-center justify-center text-base shrink-0">🌐</div>
               <div className="overflow-hidden flex-1">
-                <div className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">No job page detected</div>
-                <div className="text-[10px] text-slate-500 truncate mt-0.5">Visit a job listing to unlock AI features</div>
+                <div className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">{t('no_job_detected')}</div>
+                <div className="text-[10px] text-slate-500 truncate mt-0.5">{t('visit_job_listing')}</div>
               </div>
             </div>
           )}
@@ -242,7 +243,7 @@ export default function MiniPopup() {
           className="w-full gradient-premium text-white font-bold rounded-xl py-2.5 text-sm flex items-center justify-center gap-2 transition-all disabled:opacity-40 disabled:cursor-not-allowed hover:opacity-95 active:scale-95 shadow-md shadow-brand-500/20"
         >
           <span className={isAutofilling ? 'animate-spin' : ''}>⚡</span>
-          {isAutofilling ? 'Autofilling...' : 'Quick Autofill'}
+          {isAutofilling ? t('filling') : t('quick_autofill')}
         </button>
 
         <button
@@ -250,7 +251,7 @@ export default function MiniPopup() {
           disabled={!onJobPage}
           className="w-full bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl py-2.5 text-sm flex items-center justify-center gap-2 hover:bg-slate-50 transition-all disabled:opacity-40 disabled:cursor-not-allowed active:scale-95 shadow-sm"
         >
-          <span>🔍</span> Analyze Job
+          <span>🔍</span> {t('analyze_job')}
         </button>
       </div>
 
@@ -260,18 +261,18 @@ export default function MiniPopup() {
           onClick={openSidePanel}
           className="w-full bg-brand-50 border border-brand-200/60 text-brand-600 font-bold rounded-xl py-2.5 text-sm flex items-center justify-center gap-2 hover:bg-brand-100/60 transition-all active:scale-[0.98] shadow-sm"
         >
-          <span>📋</span> Open Sidebar
+          <span>📋</span> {t('open_sidebar')}
         </button>
       </div>
 
       {/* ── Footer ───────────────────────────────────────────── */}
       <div className="border-t border-slate-200/60 bg-white px-4 py-2.5 flex items-center justify-between">
-        <span className="text-[10px] text-slate-400 font-semibold">{stats.total} applications tracked</span>
+        <span className="text-[10px] text-slate-400 font-semibold">{t('applications_tracked_short', String(stats.total))}</span>
         <button
           onClick={() => chrome.runtime.sendMessage({ type: 'OPEN_OPTIONS' })}
           className="text-[10px] text-slate-500 hover:text-brand-600 font-bold transition-colors"
         >
-          Settings ⚙️
+          {t('settings')} ⚙️
         </button>
       </div>
     </div>

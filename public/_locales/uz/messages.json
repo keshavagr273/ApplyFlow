@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI ishini avtomatik to'ldirish va ilovalarni kuzatish",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn, Workday, Greenhouse va boshqalarda sun'iy intellektdan foydalangan holda avtomatik ravishda ish arizalarini to'ldiring va ro'yxatlarni avtomatik ravishda kuzatib boring.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Faol",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Qo'llaniladi",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Intervyu",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Taklif",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Saqlangan",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Jami",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Avtomatik toʻldirish",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Toʻldirilmoqda...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Tez avtomatik toʻldirish",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Ishni tahlil qilish",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Yon panelni oching",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Sozlamalar",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Tez avtomatik toʻldirishdan foydalanish uchun avval Google hisobingizga kiring!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Iltimos, avval yon panel/Options sahifasida profilingizni sozlang!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Aniqlandi",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Hech qanday ish sahifasi aniqlanmadi",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI xususiyatlarini ochish uchun ish roʻyxatiga tashrif buyuring",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Xayrli tong",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Xayrli kun",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Xayrli kech",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ ilovalar kuzatildi · $2$ intervyular",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Taraqqiyotingizni kuzatish uchun ariza berishni boshlang",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Muqova maktubi",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Savol-javob yordami",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Yordam berishga tayyor",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Ishni boshlash uchun LinkedIn, Workday, Greenhouse yoki istalgan ish taxtasidagi ish roʻyxatiga oʻting.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Bu hafta",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Oxirgi faoliyat",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Hammasini ko‘rish →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Ish qidirishingizni boshlang!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Ishlar kengashiga tashrif buyuring va ilovalarni avtomatik to'ldirish va avtomatik ravishda kuzatish uchun ApplyFlow-dan foydalaning.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Mening profilim",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Saqlanmoqda...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Hammasini saqlash",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil saqlandi!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Profilni saqlab bo‘lmadi.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Davom etish",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Avtomatik to'ldirish profiliga yuklang",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Yuklangan",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Shaxsiy ma'lumotlar",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Tugallanmagan",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Joylashuv",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Ta'lim",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Ko'nikmalar",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Ish tajribasi",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Loyihalar",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Ish afzalliklari",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Ishga ruxsat berish",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Tarixni davom ettirish",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Buni ishlating",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ da tahlil qilingan",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Profil tafsilotlari “$1$” dan yuklansinmi? Bu sizning joriy tahrirlaringizni ushbu rezyumening tahlil qilingan tuzilishi bilan almashtiradi.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ dan tiklangan tafsilotlar",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "O'yin bahosi",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "yana +$1$",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Ilova avtomatik to'ldiriladi va tizimga kirdi! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow yon paneli orqali avtomatik to'ldiriladi",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "u yerda",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Kollej to'plami yo'q",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Avtomatik to'ldirishni yoqish uchun profilingizni sozlang",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Belgilanmagan",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ yozuvlar",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ ko'nikmalar",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ loyihalari",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ javoblar",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Vakolatli",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ruxsat berilmagan",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "To'liq ism",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Elektron pochta",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Muqobil telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfel URL manzili",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Davom etish havolasi",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Shahar",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Davlat",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Mamlakat",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Pochta indeksi",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Manzil",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Millati",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Kollej / Universitet",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Daraja",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Bitiruv yili",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Baho",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Xabar berish davri",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Kutilayotgan ish haqi",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Afzal rol",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Yillik Tajriba",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Viza homiyligisiz ishlashga ruxsat berilgan",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Viza homiyligini talab qiladi",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Jins",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Nogironlik",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Aytmaslikni afzal ko'ring",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Belgilanmagan",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Erkak",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Ayol",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Ikkilik bo'lmagan",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ha",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Yo'q",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Hali ko'nikmalar qo'shilmagan",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Qobiliyat qo'shing (qo'shish uchun kiriting)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Trigger ibora (masalan, nega sizni ishga olishimiz kerak)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Sizning javobingiz ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "O'chirish",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Maxsus javob qo'shing",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Kompaniya",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rol / Sarlavha",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Boshlanish sanasi",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Tugash sanasi",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Hozirgi",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Hozirda shu rolda ishlayapman",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Tavsif",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Mas'uliyatlaringizni, asosiy yutuqlaringizni, qo'llanilgan texnologiyalarni tasvirlab bering...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Ish tajribasini qo'shing",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Loyiha nomi",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Joylashtirish URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Nima qurganingizni, qanday muammoni hal qilganingizni va asosiy xususiyatlarni tasvirlab bering...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Loyiha qo'shish",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Kuzatuvchi",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Saqlangan",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Qo'llaniladi",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Baholash",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Intervyu",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Taklif",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Rad etilgan",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Olib tashlangan",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Bu ilova oʻchirilsinmi?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Ilova yangilandi!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Ilova oʻchirildi.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Qo'llaniladi",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Ish e'lonini oching",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Ish haqi / stipendiya",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Kuzatuv eslatmasi",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Eslatmalar",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Eslatmalar, aloqa ma'lumotlari, intervyu tafsilotlarini qo'shing...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Ish tavsifi (ko'chirma)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Oʻchirish",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Bekor qilish",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Saqlash",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ta ilova",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ ilovalar",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Kompaniya boʻyicha filtrlash...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Holat filtrlari",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Batafsil → o‘ngga aylantiring",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Hammasi",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Hech qanday ilova topilmadi",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Filtrlarni qayta o'rnatishga harakat qiling yoki yangi kuzatuvchi yozuvini qo'shish uchun ishni saqlang",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analitika",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ jami arizalar",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Hozircha maʼlumot yoʻq",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Ishlarga ariza berishni boshlang va sizning tahlillaringiz shu yerda paydo bo'ladi.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Konvertatsiya stavkalari",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Qo'llaniladi",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Suhbat darajasi",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Taklif stavkasi",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Bu hafta ilovalar",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Ilova huni",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Eng yaxshi platformalar",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Holatni taqsimlash",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Kopiloti",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontekst: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Sizning martaba kopilotingiz",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Yangi chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Iltimos, AI javoblarni shaxsiylashtirishi uchun avval profilingizni sozlang.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat tozalandi! Sizga nima bilan yordam bera olaman?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Bu ish haqida biror narsa so'rang ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Boshlash uchun profilingizni sozlang",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Yuborish uchun Enter tugmasini bosing",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Muvofiqlik reytingini davom ettirish",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Kuchli mahorat",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ etishmayotgan ko'nikmalar",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Mana sizning shaxsiy qopqoq xatingiz:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Nusxa olindi!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Nusxa olish",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Yuklab olish",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Mana $1$ ehtimoliy intervyu savollari:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Davom etishni optimallashtirish balli: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Mos takliflarni davom ettirish",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "bu ish tavsifiga qarshi",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Nimadir xato ketdi. Iltimos, qayta urinib koʻring.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Salom! **$2$** da **$1$** rolini ko‘rayotganingizni ko‘ryapman.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Salom! Ko'ryapmanki, siz **$1$** roliga qarayapsiz.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Salom! Men sizning AI martabangizning yordamchi uchuvchisiman. Ish roʻyxatiga oʻting va men uni avtomatik ravishda tahlil qilaman yoki mendan biror narsa soʻrayman!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Iltimos, avval profil sahifasida profilingizni sozlang!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Iltimos, ushbu xususiyatdan foydalanish uchun avval brauzeringizda ish o‘rinlari sahifasini oching!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow qulfini oching",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Boshqaruv paneliga kirish, ishlarni sinxronlashtirish, rezyume profilingizni boshqarish va ish ilovalarini bir zumda avtomatik to‘ldirish uchun Google bilan tizimga kiring.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI avtomatik toʻldirish va kesish",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Bir marta bosish bilan ilovalarni skanerlash va avtomatik to'ldirish.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Bulutli sinxronlash va zaxiralash",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Ishingizni kuzatish haqidagi barcha tafsilotlarni Supabase bilan sinxronlang.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Rezyume va profillar",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Rezyumeni yuklang va ariza javoblarini moslashtiring.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Googlega ulanmoqda...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google bilan kiring",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Tizimga kirish orqali siz profil maʼlumotlaringizni faol ish joyingizga xavfsiz sinxronlashtirishga rozilik bildirasiz.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Haqiqatan ham tizimdan chiqmoqchimisiz?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Hisobdan muvaffaqiyatli chiqdi.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ sifatida tizimga kirgan",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Chiqish",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Kirish",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Ulanmoqda...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow-ni oching",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Flow Matchni qo'llash",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Kuchli moslashish qobiliyatlari",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Yo'qolgan ko'nikmalar",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart avtomatik to'ldirish sahifasi",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Shaklni avtomatik toʻldirish...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Sahifada to'ldiriladigan ilova maydonlari topilmadi.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Muvaffaqiyatli to'ldirildi!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Sahifalar murakkabligi tufayli avtomatik to‘ldirish amalga oshmadi.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "To'ldirgandan so'ng jurnal kuzatuvchisi uchun avtomatik saqlangan.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Sizning rezyumeingiz ushbu rolga **$1$% mos**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Xush kelibsiz, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google foydalanuvchi profili maʼlumotlarini olib boʻlmadi.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth login amalga oshmadi: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Qayta yo‘naltirishdan kirish tokenini olib bo‘lmadi.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Autentifikatsiyani qayta yo‘naltirishni tahlil qilib bo‘lmadi.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Bu platformada autentifikatsiya qo‘llab-quvvatlanmaydi.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Ish kuzatuvchiga saqlandi!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Mehmon",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Umumiy sozlamalar",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "LinkedIn ish sahifalarida ko'rsatish",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "LinkedIn’da ish e’lonlarini ko‘rganingizda aqlli mos ball va bir marta bosish bilan avtomatik to‘ldirish tugmasini ko‘rsatadi.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "\"Ishni saqlash\" tugmasini ko'rsating",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Ish saytlarida suzuvchi “Ishni saqlash 📌” tugmachasini ko‘rsatadi, shuning uchun ariza topshirishdan oldin ish tafsilotlarini tezda trekeringizga saqlashingiz mumkin.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Faqat amalda qo'llashdan keyin tizimga kiring",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Ishni trekeringizga qo'shishdan oldin \"Rahmat\" yoki \"Muvaffaqiyat\" ekrani paydo bo'lguncha kuting. Yarim toʻldirilgan shakllarning “Ilovalangan” sifatida saqlanishiga yoʻl qoʻymaslik orqali kuzatuvchingizni toza tutadi.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI kreditlari va foydalanish tahlillari",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kreditlar qoldi",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Qolgan kreditlar",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Jami kreditlar",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Har doim avtomatik toʻldirish",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Reja holati",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Bepul 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Professional maslahat:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Smart Autofill operatsiyalari 0 ta kreditni sarflaydi va 100% cheksizdir! Faqat qo'shimcha xatlar (5 kredit) va maxsus insholar (3 kredit) kabi ilg'or AI xususiyatlari kredit balansingizni iste'mol qiladi.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google hisobi va bulutli sinxronlash",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync faol",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync qulflangan (faqat premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Bulutga bosing",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Bulutdan torting",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinxronizatsiya muvaffaqiyatli!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinxronlash amalga oshmadi. Ulanishingizni tekshiring.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Xavfsiz bulutli sinxronlash",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Ilovalaringiz va profilingizni Supabase-ga zaxiralash uchun Google bilan tizimga kiring. Sinxronlash - bu barcha qurilmalarda jurnallaringizni xavfsiz saqlaydigan Premium xususiyatdir.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync Premium xususiyatdir. Iltimos, sinxronlashni yoqish uchun “Yangilash” yorlig‘ida yangilang!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Ma'lumotlarni boshqarish",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Zaxira nusxasini eksport qilish (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Barcha mahalliy ma'lumotlarni o'chirish",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Mahalliy maʼlumotlarni oʻchirish profil va ilovalarni faqat ushbu qurilmadan oʻchirib tashlaydi. Bulutli ma'lumotlarga ta'sir qilmaydi.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Boshqaruv markazi",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Uy va haqida",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Umumiy sozlamalar",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro 👑 ga yangilang",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium tarif rejasi 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Hisob va sinxronlash",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Maxfiylik siyosati",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Tez-tez so'raladigan savollar",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Klaviatura yorliqlari",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow ga xush kelibsiz",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow - bu tezroq va aqlliroq hujjat topshirmoqchi bo'lgan talabalar va ish izlovchilar uchun yaratilgan sun'iy intellektga asoslangan Chrome kengaytmasi. U 15 dan ortiq platformalar bo'ylab ishga ariza shakllarini avtomatik ravishda aniqlaydi va to'ldiradi, kanalingizni kuzatib boradi va sizga ko'proq intervyu olishga yordam beradi.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart avtomatik to'ldirish",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Aniq selektorli 15+ ATS platformalari",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Har qanday ish ro'yxatini bir marta bosish bilan saqlang",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban kuzatuvchisi",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Ilova quvur liniyasini sudrab olib tashlang",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO avtomatik to'ldirish",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Demografik va viza savollarini avtomatik to'ldiradi",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI insholari",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-quvvatlangan maxsus javob yozish",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Xavfsiz sinxronlash",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Ixtiyoriy Supabase bulutli zahira",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Qanday boshlash kerak",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Profilingizni yarating",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Qalqib chiquvchi oynani oching → Profil → rezyumeni PDF yuklang. AI barcha ma'lumotlarni, jumladan, ko'nikmalar, tajriba, ta'lim va loyihalarni avtomatik ravishda chiqaradi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO afzalliklarini o'rnating",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Profilingizdagi EEO boʻlimiga oʻting va ish ruxsatnomangizni, vizaga homiylik ehtiyojlarini va demografik imtiyozlarni oʻrnating. Ular EEO anketalarini avtomatik to'ldirish uchun ishlatiladi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Ishlar ro'yxatini ko'rib chiqing",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Har qanday ish ro'yxatiga o'ting. Siz 📌 \"Ishni saqlash\" tugmasi paydo bo'lishini ko'rasiz. Joyni darhol kuzatuvchingizga saqlash uchun uni bosing.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Ariza shaklini oching",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Ariza shakliga o'ting. ApplyFlow qalqib chiquvchi oynasini bosing → \"Sahifani skanerlash\" → so'ng \"⚡ Smart avtomatik to'ldirish\" ni bosing. Barcha maydonlar, shu jumladan radio tugmalari va ochiladigan menyular bir zumda to'ldiriladi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Quvuringizni kuzatib boring",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Barcha ilovalaringizni ko'rish uchun Tracker yorlig'ini oching. Kanban taxtasi koʻrinishiga oʻting va holatingiz yangilanganda kartalarni ustunlar orasiga torting.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Tizimga kirish shart",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Sozlamalarni sozlash uchun tizimga kiring",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Umumiy sozlamalar faqat tizimga kirgan foydalanuvchilar uchun mavjud. Afzalliklaringizni, avtomatik toʻldirish xatti-harakatlarini va boshqalarni sozlash uchun Google hisobingizga kiring.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Hisob va sinxronlashtirishga o'ting",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Litsenziya kaliti: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Litsenziyani o'chirish",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Litsenziya kalitini faollashtirish",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Agar obuna sotib olgan bo'lsangiz yoki kirish kodini olgan bo'lsangiz, ApplyFlow Premium qulfini ochish uchun quyida litsenziya kalitingizni kiriting.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Faollashtirish",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Faollashtirilmoqda...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Maslahat: Premiumni APPLYFLOW-PRO-2026 kaliti yordamida faollashtirishingiz mumkin.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium faollashtirilgan!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow-ni qo'llab-quvvatlaganingiz uchun tashakkur. Endi barcha premium funksiyalar qulfdan chiqarilgan.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium yangilash rejasi",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Karyera eksporti va ilg‘or AI xususiyatlarini oching.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Muqobil maktublar, shaxsiy insho javoblari, rezyumeni optimallashtirish va soxta intervyuga tayyorgarlik uchun yuqori darajadagi AI kreditlarini oling. Qo'llab-quvvatlanadigan platformalarda avtomatik to'ldirish operatsiyalari barcha premium foydalanuvchilar uchun to'liq cheksiz va bepul!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Erta qabul qilish taklifi:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 Premium foydalanuvchisida keyingi narx oshishi. Hayot uchun bu stavkani qulflang!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Oylik Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Qisqa muddatli qidiruv uchun yaxshi",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ oy",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Kuniga atigi ₹13)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "Oyiga 150 ta AI krediti|||Cheksiz avtomatik toʻldirish (barcha portallar)|||Cloud Sync va Google Backup|||Premium mavzular|||Reklamasiz tajriba",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Oylik obuna",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Har choraklik Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Aksariyat ish izlovchilar uchun eng yaxshi qiymat",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹ 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 oy",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Kuniga atigi ₹11)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "Har chorakda 500 ta AI krediti|||Cheksiz avtomatik toʻldirishlar (barcha portallar)|||Moslashtirilgan muqovali xatlar va insholar|||Cloud Sync & Google Backup|||Match takliflarini davom ettirish",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Har chorakda obuna bo'ling",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Eng mashhur",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Yillik yakuniy",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Quvvatli foydalanuvchilar uchun eng yaxshi qiymat",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ yil",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Oyiga ₹249 ekvivalenti)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "Yiliga 2500 sunʼiy intellekt krediti|||Cheksiz kunlik avtomatik toʻldirishlar|||Moslashtirilgan muqovali xatlar va insholar|||Cloud Sync va Google zaxira nusxasi|||Muvofiqlikni davom ettirish boʻyicha takliflar|||Ustuvor elektron pochta yordami",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Yillik obuna",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Eng yaxshi qiymat - 40% tejang",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow dasturini qo'llab-quvvatlash",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow mustaqil ishlab chiquvchilar tomonidan qurilgan va qo'llab-quvvatlanadi. Agar siz kengaytmani foydali deb bilsangiz, Ko-fi-ni faol, reklamasiz va yangi ish joylari uchun yangilab turishga yordam berish uchun xayriya qiling.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Menga Ko-fida kofe xarid qiling",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Reyting|||🔒 Xavfsiz toʻlovlar|||✓ Istalgan vaqtda bekor qilish",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Litsenziya kaliti yaroqsiz. Maslahat: “APPLYFLOW-PRO-2026” demo kalitidan foydalanib ko‘ring!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Litsenziya muvaffaqiyatli faollashtirildi! ApplyFlow Premium-ga xush kelibsiz. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Haqiqatan ham premium litsenziyangizni faolsizlantirmoqchimisiz? Bu sizni Bepul rejaga qaytaradi.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium litsenziyasi o'chirildi. Siz hozir bepul tarif rejasidasiz.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Bu BARCHA mahalliy profil va ilova maʼlumotlarini butunlay oʻchirib tashlaydi. Ishonchingiz komilmi?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Maxfiylik siyosati",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Tez-tez so'raladigan savollar",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow nima va u qanday ishlaydi?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow - bu LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever va boshqalarni o'z ichiga olgan 15 dan ortiq platformalarda ishga ariza shakllarini avtomatik ravishda aniqlaydigan va to'ldiradigan sun'iy intellektga asoslangan Chrome kengaytmasi. U saqlangan profilingizni oʻqiydi va matn maydonlari, ochiladigan menyular, radio tugmalar va belgilash katakchalarini, jumladan EEO/demografik savollarni toʻldirish uchun aqlli moslashuvdan foydalanadi.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Mening shaxsiy ma'lumotlarim ApplyFlow bilan xavfsizmi?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ha. Maʼlumotlaringiz sukut boʻyicha brauzeringizning chrome.storage.localʼida mahalliy sifatida saqlanadi. U hech qachon o'zingizning ixtiyoriy Supabase ma'lumotlar bazasidan (siz nazorat qiladigan) boshqa uchinchi tomon serverlariga yuborilmaydi. ApplyFlow hech qachon shaxsiy ma'lumotlaringizni sotmaydi, baham ko'rmaydi yoki monetizatsiya qilmaydi.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow qaysi ish platformalarini qo'llab-quvvatlaydi?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow 15 dan ortiq platformalarni qo'llab-quvvatlaydi: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList va boshqa har qanday sayt bizning intelligent generic matcher orqali.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper nima?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper - bu har qanday ish ro'yxati sahifasiga kirganingizda avtomatik ravishda paydo bo'ladigan suzuvchi \"Ishni saqlash\" tugmasi (📌). Unga bosish orqali ish nomi, kompaniya, ish haqi va tavsif chiqariladi, so‘ngra uni ApplyFlow trekeringizga “Saqlangan” ilova sifatida saqlaydi — ariza topshirishdan oldin ishlarni kuzatishingiz mumkin.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Profilimni qanday yangilashim mumkin?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow qalqib chiquvchi oynasini oching, \"Profil\" yorlig'ini bosing va rezyumeni PDF formatida yuklang. AI barcha maydonlaringizni avtomatik ravishda to'ldiradi. Shuningdek, siz istalgan maydonni, jumladan, EEO afzalliklari, ish ruxsati va muqovali xatlarni qo'lda tahrirlashingiz mumkin.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO maydonlari nima va ular menga nima uchun kerak?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Teng Bandlik Imkoniyati) sohalari ko'plab AQSh va global ish beruvchilar jins, nogironlik maqomi, faxriy maqomi va ishlash ruxsati haqida so'raladigan savollardir. ApplyFlow siz tanlagan javoblaringizni saqlaydi va ushbu radio tugmalar guruhlarini avtomatik ravishda to'ldiradi, shuning uchun ularga har safar qo'lda javob berishingiz shart emas.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow har qanday API kalitlari yoki konfiguratsiyasini talab qiladimi?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Yo'q! ApplyFlow barcha shakllarni aniqlash, aqlli moslashtirish, muqovali xatni yaratish va muvofiqlik reytingini avtomatik tarzda boshqaradi. Hech qanday API kalitlarini olishingiz yoki sozlashingiz shart emas.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase sync nima va u menga kerakmi?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sinxronlash ixtiyoriy bulutli zahiraviy xususiyatdir. Google bilan tizimga kirganingizda va uni yoqsangiz, profilingiz va ilova izdoshingiz shaxsiy bulut maʼlumotlar bazasiga sinxronlanadi, shunda maʼlumotlaringiz zaxiralanadi va bir nechta qurilmalardan foydalanish mumkin boʻladi. Bu butunlay ixtiyoriy - kengaytma to'liq oflayn rejimda ishlaydi.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Nima uchun ApplyFlow barcha veb-saytlarga kirishi kerak?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow barcha veb-saytlarga kirishni so'raydi, shuning uchun u har qanday ishga ariza shakliga avtomatik to'ldirish mexanizmini kiritishi va istalgan ish ro'yxatida \"Ishni saqlash\" tugmachasini ko'rsatishi mumkin. Ushbu ruxsat keng platformani qo'llab-quvvatlash uchun talab qilinadi. Biz faqat ish bilan bog'liqligi aniq bo'lgan sahifalarga skriptlarni kiritamiz.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kanban kengashi nima?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban kengashi - bu Tracker ilovasidagi ishni kuzatishning vizual ko'rinishi. U ilovalaringizni ustunlar bo‘yicha tartiblangan holda ko‘rsatadi: Saqlangan → Amaliy → Baholash → Intervyu → Taklif. Har qanday ilovaning holatini yangilash uchun kartalarni ustunlar orasiga sudrab olib tashlashingiz mumkin.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Taqdimotni aniqlash qanday ishlaydi?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Sozlamalarda “Faqat jo‘natilgandan keyin kirish” funksiyasini yoqsangiz, ApplyFlow muvaffaqiyatli topshirilganligini ko‘rsatadigan sahifa o‘zgarishlarini (masalan, “/muvaffaqiyatli” URL manzili yoki “Murojaat qilganingiz uchun tashakkur” degan asosiy matn) kuzatadi. Haqiqiy topshiriqni aniqlagandan keyingina u ilovani kuzatuvchingizga kiritadi.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Bir nechta muqova harflarini saqlashim mumkinmi?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ha! Profil ekranida turli rollar yoki kompaniyalar uchun moslashtirilgan cheksiz muqovali xatlarni saqlashingiz mumkin bo'lgan \"Muqova maktublari ombori\" bo'limi mavjud. Avtomatik to'ldirishda ApplyFlow sizning eng so'nggi yoki eng tegishli muqova maktubingizdan foydalanadi.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Ilova maʼlumotlarimni qanday eksport qilaman?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Hisob qaydnomasi va sinxronlash → pastga aylantiring → \"Zaxirani eksport qilish (JSON)\" tugmasini bosing. Bu sizning barcha profilingiz va ilova maʼlumotlaringizni saqlash uchun JSON fayli sifatida yuklab oladi.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow demo rejimida ishlaydimi?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo rejimi sinov uchun ishlatiladigan eski sozlama edi. Endi u sukut bo'yicha o'chirilgan. Barcha xususiyatlar o'rnatilgan Gemini API kaliti bilan jonli va ishlaydi.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Xato haqida qanday xabar berishim yoki xususiyatni so'rashim mumkin?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Iltimos, muammoni GitHub omborimizda oching (Haqida bo'limida bog'langan) yoki support@applyflow.in manziliga elektron pochta orqali xabar yuboring. Biz odatda 48 soat ichida javob beramiz.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow qalqib chiquvchi oynasini oching",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Joriy sahifani forma maydonlari uchun skanerlang",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Joriy sahifada Smart avtomatik to‘ldirishni ishga tushiring",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Joriy ish roʻyxatini trekerga kesib oling",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Tracker-ni yangi tabda oching",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome brauzerida yorliqlarni sozlang",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Eslatma:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome kengaytmalari buyruqlari Chrome yorliqlari menejerida qo‘lda tayinlashni talab qiladi. Yuqorida sanab o'tilgan kalitlarni bog'lash uchun $1$ ga o'ting.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome kengaytmasi — Maxfiylik siyosati**\nOxirgi yangilangan: 2026 yil iyun \n\n---\n\n**1. Kirish**\n\nApplyFlow (\"biz\", \"bizning\", \"kengaytma\") bu Chrome brauzeri kengaytmasi boʻlib, foydalanuvchilarga ishga ariza shakllarini avtomatik toʻldirish, arizalarini kuzatish va professional profilini boshqarishda yordam beradi. Ushbu Maxfiylik siyosati maʼlumotlaringizni qanday yigʻishimiz, foydalanishimiz, saqlashimiz va himoya qilishimizni tushuntiradi.\n\nApplyFlow-ni oʻrnatish va undan foydalanish orqali siz ushbu siyosatda tasvirlangan amaliyotlarga rozilik bildirasiz.\nNL_10__---\n\n**2. Biz to'playdigan ma'lumotlar**\n\nKengaytma funksiyalarini yoqish uchun faqat siz ixtiyoriy ravishda taqdim etgan ma'lumotlarni yig'amiz:\n\n• **Profil haqida ma'lumot**: Ismingiz, elektron pochta manzilingiz, telefon raqamingiz, kollej, daraja, malaka, ish tarixi, loyihalar va professional havolalar (Linkub, GitH7L•In__In). **EEO/Demografik ma'lumot (ixtiyoriy)**: Jins, nogironlik maqomi, faxriy maqomi va ishlashga ruxsat berish imtiyozlari - faqat ushbu maydonlarni to'ldirishni tanlaganingizda taqdim etiladi. Bu maʼlumotlar faqat ishga soʻrovlar boʻyicha ixtiyoriy EEO soʻrovnomalarini avtomatik toʻldirish uchun ishlatiladi.\n• **Ilovalarni kuzatish maʼlumotlari**: lavozim nomi, kompaniya, arizaning URL manzili, holat va kengaytma yordamida kuzatib boradigan lavozimlarga oid eslatmalar.\n• **Foydalanish statistikasi**: avtomatik toʻldirish uchun har kuni amalga oshiriladigan operatsiyalar soni chegaralar).\n• **Autentifikatsiya maʼlumotlari**: Agar siz Google bilan tizimga kirishni tanlasangiz, tajribangizni shaxsiylashtirish va bulutli sinxronlashni yoqish uchun biz Google koʻrsatiladigan ismingiz, e-pochta manzilingiz va profil rasmingiz URL manzilini saqlaymiz.\n\nBiz **toʻplamaymiz**: \n• Toʻlov yoki moliyaviy maʼlumotlarning umumiy tarixi• B__22 faoliyat\n• Ishga ariza bilan bogʻliq boʻlmagan sahifalardagi har qanday maʼlumotlar\n• Kengaytma faol ishga tushirilmagan sahifalardagi har qanday maʼlumotlar\nNL_28__---\n\n**3. Maʼlumotlaringizni qanday saqlaymiz**\n\n**3.1 Mahalliy saqlash (standart)**\nBarcha maʼlumotlar asosan brauzeringizning chrome.storage.local APIʼsida saqlanadi. Bu maʼlumotlar faqat qurilmangizda boʻladi va sizning aniq harakatingizsiz hech qachon serverga uzatilmaydi.\n\n**3.2 Cloud Sync (ixtiyoriy)**\nAgar siz Google bilan tizimga kirishni va “Supabase Sync” funksiyasini yoqishni tanlasangiz, profilingiz va ilova maʼlumotlaringiz ham Supase uchun sinxronlashtiriladi. Siz ushbu maʼlumotlarga toʻliq egalik huquqini saqlab qolasiz. Siz uni istalgan vaqtda Hisob va sinxronlash boʻlimidan oʻchirib tashlashingiz mumkin.\n\n**3.3 Gemini AI soʻrovlari**\nAI xususiyatlaridan foydalanilganda (masalan, insho yaratish, ish tahlili), profilingizning qismlari (koʻnikma, daraja, xulosa) va Google ish tavsifi javob matni Gemini Gemini yaratish uchun yuboriladi. Bu Google standart API Foydalanish shartlari va Maxfiylik siyosati asosida qayta ishlanadi. Sun’iy intellekt yordamidagi kontentingizga shaxsiy shaxsiy identifikatorlarni kiritmaslikni tavsiya qilamiz.\n\n---\n\n**4. Maʼlumot almashish**\n\nBiz shaxsiy maʼlumotlaringizni marketing yoki reklama maqsadlari uchun **sotilmaydi, sotmaymiz, ijaraga bermaymiz yoki uchinchi shaxslarga baham koʻrmaymiz.\n\nMaʼlumotlaringiz quyidagi ishonchli xizmatlar tomonidan qayta ishlanishi mumkin:\n• **Google Gemini-ni tahlil qilish va toʻldirish API-si uchun quvvatlanadi. (https://policies.google.com/privacy)\n• **Google OAuth**: Hisobni autentifikatsiya qilish uchun (https://policies.google.com/privacy)\n• **Supabase**: ixtiyoriy bulutli saqlash uchun (https://supabase.com/privacy faqat yoqsangiz) — sync\n\n---\n\n**5. Huquqlaringiz va boshqaruvlaringiz**\n\nSiz quyidagi huquqlarga egasiz:\n• **Kirish** ApplyFlow siz haqingizda saqlagan barcha maʼlumotlarga (sozlamalardagi Zaxirani eksport qilish orqali) \n• **Maʼlumotlaringizni istalgan vaqtda profil sahifasidagi barcha maʼlumotlarni toʻgʻrilash****Mahalliy maʼlumotlaringizdan foydalangan holda **__NL_59_NL• Sozlamalarda “Barcha profil maʼlumotlarini oʻchirish” \n• **Istalgan vaqtda kengaytmani oʻchirish orqali **Rozilikni bekor qiling**** \n• **Bulutli sinxronlashni oʻchirib qoʻying**, uni Hisob va Sinxronizatsiya sozlamalarida oʻchirib qoʻying\n\n**GDPR (Agar siz EIda rezident boʻlsangiz, siz EUga kirish huquqiga egasiz): Umumiy maʼlumotlarni himoya qilish toʻgʻrisidagi nizomga muvofiq toʻgʻrilash, oʻchirish, qayta ishlash va maʼlumotlarni koʻchirish imkoniyatini cheklash.\n\n**Hindiston — DPDP Act 2023**: Hindistonning 2023-yil raqamli shaxsiy maʼlumotlarni himoya qilish toʻgʻrisidagi qonuniga muvofiq, biz shaxsiy maʼlumotlarni faqat ishga murojaat qilishda yordam xizmati koʻrsatish maqsadida qayta ishlaymiz. Istalgan vaqtda biz bilan bog'lanish orqali roziligingizni qaytarib olishingiz va ma'lumotlaringizni o'chirishni so'rashingiz mumkin.\n\n**Kaliforniya — CCPA**: Kaliforniya aholisi qanday shaxsiy ma'lumotlar to'planganligini bilish, o'chirish huquqi va sotishdan voz kechish huquqiga ega (biz sotmaymiz) ma'lumotlar).\n\n---\n\n**6. Maʼlumotlarni saqlash**\n\nMahalliy maʼlumotlar qoʻlda tozalanmaguningizcha saqlanadi. Bulutli sinxronlangan maʼlumotlar hisobingizni oʻchirmaguningizcha yoki oʻchirishni soʻraguningizcha saqlanadi. Biz maʼlumotlarni avtomatik oʻchirib tashlamaymiz.\n\n---\n\n**7. Xavfsizlik**\n\nBiz maʼlumotlaringizni himoya qilish uchun tegishli texnik choralarni koʻramiz:\n• Barcha bulutli aloqalar HTTPS/TLS shifrlashdan foydalanadi\n• Supabase Row-Level Security (RLS) foydalanuvchilarga faqat oʻz maʼlumotlariga kirishini taʼminlaydi \n • Kengaytma talab qilinmaydi funksiya\n\n---\n\n**8. Bolalar Maxfiyligi**\n\nApplyFlow 13 yoshdan kichik foydalanuvchilar uchun moʻljallanmagan. Biz bolalardan ataylab maʼlumot yigʻmaymiz. Agar bola bizga shaxsiy maʼlumot bergan deb hisoblasangiz, biz bilan darhol bogʻlaning.\n\n---\n\n**9. Ushbu Siyosatga kiritilgan o'zgartirishlar**\n\nBiz bu Maxfiylik siyosatini vaqti-vaqti bilan yangilashimiz mumkin. Muhim o'zgarishlar kengaytmaning \"Options\" sahifasi orqali xabar qilinadi. O'zgarishlardan so'ng kengaytmadan foydalanishni davom ettirish yangilangan siyosatni qabul qilishni anglatadi.\n\n---\n\n**10. Biz bilan bogʻlaning**\n\nMaxfiylikka oid savollar, maʼlumotlarni oʻchirish soʻrovlari yoki xavotirlar uchun:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nVeb-sayt: https://applyflow.in\n\nBiz barcha soʻrovlarga 30 kun ichida javob berishni maqsad qilganmiz.",
+    "description": "Privacy policy document markdown text"
+  }
+}

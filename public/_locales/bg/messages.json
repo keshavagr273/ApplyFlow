@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Автоматично попълване на заявления за работа и списъци с песни с помощта на AI в LinkedIn, Workday, Greenhouse и др.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Активен",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Приложено",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Интервю",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Оферта",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Запазено",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Общо",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Автоматично попълване",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Пълнене...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Бързо автоматично попълване",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Анализирайте работата",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Отворете страничната лента",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Настройки",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Моля, първо влезте с Google, за да използвате бързо автоматично попълване!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Моля, първо настройте своя профил в страницата Страничен панел/Опции!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Открит",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Не е открита страница за работа",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Посетете обява за работа, за да отключите AI функции",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "добро утро",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "добър ден",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Добър вечер",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ проследени приложения · $2$ интервюта",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Започнете да кандидатствате, за да проследите напредъка си",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Мотивационно писмо",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Въпроси и отговори Помощ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Готов да помогне",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Отидете до списък с работни места в LinkedIn, Workday, Greenhouse или който и да е борд за работа, за да започнете.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Тази седмица",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Скорошна активност",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Вижте всички →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Започнете търсенето на работа!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Посетете борда за работа и използвайте ApplyFlow за автоматично попълване и проследяване на вашите приложения автоматично.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Моят профил",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Запазва се...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Запазване на всички",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Профилът е запазен!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Неуспешно запазване на профила.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Резюме",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Качване в профил за автоматично попълване",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Качен",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Лична информация",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Непълен",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Местоположение",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "образование",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Умения",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Трудов опит",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "проекти",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Работни предпочитания",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Разрешение за работа",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Възобновяване на историята",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Използвайте това",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Анализирано на $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Да се заредят подробности за профила от „$1$“? Това ще замени текущите ви редакции с анализираната структура на тази автобиография.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Възстановени подробности от $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Резултат от мача",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Подходящ",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ още",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Приложението е автоматично попълнено и регистрирано! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Попълва се автоматично чрез страничния панел на ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "там",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Без набор от колеж",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Настройте своя профил, за да активирате автоматичното попълване",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Не е зададено",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ записи",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ умения",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ проекти",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ отговори",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Упълномощен",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Не е разрешено",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Пълно име",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Имейл",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Телефон",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Алтернативен телефон",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL адрес на портфолио",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL адрес на GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Връзка за възобновяване",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "град",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "състояние",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "държава",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Пощенски код",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Адрес",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Националност",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Колеж / университет",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Степен",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Година на завършване",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / степен",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10-ти %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12-ти %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Срок на предизвестие",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Очаквана заплата",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Предпочитана роля",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Години опит",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Упълномощен за работа без визово спонсорство",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Изисква спонсорство за виза",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Пол",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Инвалидност",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Предпочитам да не казвам",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Не е посочено",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "мъжки",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "женски",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Недвоичен",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "да",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "не",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Все още няма добавени умения",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Добавете умение (Въведете за добавяне)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Задействаща фраза (напр. Защо трябва да ви наемем)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Вашият отговор...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Премахнете",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Добавяне на персонализиран отговор",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Компания",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Роля / Заглавие",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Начална дата",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Крайна дата",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Настояще",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "В момента работя в тази роля",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Описание",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Опишете вашите отговорности, ключови постижения, използвани технологии...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Добавете трудов стаж",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Заглавие на проекта",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Технически стек",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL адрес за внедряване",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Опишете какво сте създали, какъв проблем е решило и основните характеристики...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Добавяне на проект",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Тракер",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Запазено",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Приложено",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "оценка",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Интервю",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Оферта",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Отхвърлено",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Изтеглено",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Изтриване на това приложение?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Приложението е актуализирано!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Приложението е изтрито.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Статус",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Платформа",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Приложено",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Отворете Обява за работа",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Заплата / стипендия",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Напомняне за последващи действия",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Бележки",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Добавете бележки, информация за контакт, подробности за интервю...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Описание на длъжността (откъс)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Изтриване",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Отказ",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Запазване",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 приложение",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ приложения",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Филтриране по фирма...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Филтри за състояние",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Превъртете надясно за още →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Всички",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Няма намерени приложения",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Опитайте да нулирате филтрите или запазете работа, за да добавите нов запис за проследяване",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Анализ",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ общо приложения",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Все още няма данни",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Започнете да кандидатствате за работни места и вашите анализи ще се появят тук.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Коефициенти на преобразуване",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Приложено",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Интервю процент",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Оферта",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Приложения тази седмица",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Фуния за приложение",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Топ платформи",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Разбивка на състоянието",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Втори пилот",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Контекст: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Вашият кариерен втори пилот",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Нов чат ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Моля, първо настройте своя профил, за да може AI да персонализира отговорите.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Чатът е изчистен! с какво мога да ти помогна",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Питайте нещо за тази работа...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Настройте своя профил, за да започнете",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Натиснете Enter за изпращане",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Възобновете резултата за съвместимост",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Силни умения",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Липсващи умения",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Ето вашето персонализирано мотивационно писмо:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Копирано!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Копие",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Изтегляне",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Ето $1$ вероятни въпроси за интервю:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Възобновете резултата за оптимизация: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Възобновяване на предложенията за съвпадение",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "срещу тази длъжностна характеристика",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Нещо се обърка. Моля, опитайте отново.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "здрасти Виждам, че търсите **$1$** роля на **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "здрасти Виждам, че гледаш на **$1$** роля.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "здрасти Аз съм вашият AI кариерен втори пилот. Отидете до обява за работа и аз автоматично ще я анализирам или ще ме попитате каквото и да било!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Моля, първо настройте своя профил в раздела Профил!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Моля, първо отворете страница с обяви за работа в браузъра си, за да използвате тази функция!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Отключете ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Влезте с Google, за да получите достъп до таблото си за управление, да синхронизирате работни места, да управлявате профила си с автобиография и незабавно да попълвате автоматично приложения за работа.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Сканиране и автоматично попълване на приложения с едно кликване.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Синхронизиране и архивиране в облак",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Синхронизирайте всичките си подробности за проследяване на работа със Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Резюме и профили",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Качете автобиографията си и персонализирайте отговорите за кандидатстване.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Свързване с Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Влезте с Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Влизайки, вие се съгласявате да синхронизирате данните на вашия профил сигурно с вашето активно работно пространство.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Сигурни ли сте, че искате да излезете?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Излязохте успешно.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Влезли сте като $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Излезте",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Вход",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Свързване...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Отворете ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Силни умения за намиране на съответствие",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Липсващи умения",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Страница за интелигентно автоматично попълване",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Формуляр за автоматично попълване...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "На страницата не са намерени полета за кандидатстване, които могат да се попълват.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Успешно попълнено!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Автоматичното попълване не бе успешно поради сложността на страницата.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Автоматично се запазва в инструмента за проследяване на регистрационни файлове при попълване.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Вашата автобиография е **$1$% съвместима** с тази длъжност.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Добре дошъл отново, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Неуспешно извличане на информация за потребителския профил в Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Неуспешно влизане в OAuth: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Неуспешно извличане на маркер за достъп от пренасочване.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Неуспешно анализиране на пренасочване за удостоверяване.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Удостоверяването не се поддържа на тази платформа.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Работата е запазена в тракера!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Гост",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Общи настройки",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Показване на страниците за работа в LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Показва резултат за интелигентно съответствие и бутон за автоматично попълване с едно щракване, когато преглеждате обяви за работа в LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Показване на бутона „Запазване на задание“.",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Показва плаващ бутон „Запазване на работа 📌“ на сайтове за работа, така че можете бързо да запазите подробности за работата във вашия инструмент за проследяване, преди да кандидатствате.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Влезте само след действително кандидатстване",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Изчакайте, докато видите екрана „Благодаря“ или „Успех“, преди да добавите заданието към вашия тракер. Поддържа вашия тракер чист, като предотвратява записването на наполовина попълнени формуляри като „Приложени“.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI кредити и анализ на използването",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Остават кредити",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Оставащи кредити",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Общо кредити",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Автоматични попълвания за всички времена",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Състояние на плана",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Премиум 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Безплатно 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Професионален съвет:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Операциите за интелигентно автоматично попълване консумират 0 кредита и са 100% неограничени! Само усъвършенствани AI функции като мотивационни писма (5 кредита) и персонализирани есета (3 кредита) консумират кредитния ви баланс.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google акаунт и облачно синхронизиране",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync е активен",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Синхронизирането в облак е заключено (само Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Облачно синхронизиране",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Натискане към облак",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Изтеглете от Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Синхронизирането е успешно!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Синхронизирането е неуспешно. Проверете връзката си.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Сигурно облачно синхронизиране",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Влезте с Google, за да архивирате вашите приложения и профил в Supabase. Синхронизирането е функция Premium, която пази вашите регистрационни файлове в безопасност на всички устройства.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync е първокласна функция. Моля, надстройте в раздела Надстройка, за да активирате синхронизирането!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Управление на данни",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Експортиране на резервно копие (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Изчистване на всички локални данни",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Изчистването на локалните данни премахва вашия профил и приложения само от това устройство. Облачните данни не са засегнати.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Център за управление",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Начало и информация",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Общи настройки",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Надстройте до Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Премиум план 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Акаунт и синхронизиране",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Политика за поверителност",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "ЧЗВ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Клавишни комбинации",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Добре дошли в ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow е базирано на AI разширение за Chrome, създадено за студенти и търсещи работа, които искат да кандидатстват по-бързо и по-интелигентно. Той автоматично открива и попълва формуляри за кандидатстване за работа в над 15 платформи, проследява вашия процес и ви помага да получите повече интервюта.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Интелигентно автоматично попълване",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS платформи с прецизни селектори",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Запазете с едно щракване всяка обява за работа",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Канбан тракер",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Плъзнете и пуснете конвейера на вашите приложения",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Автоматично попълване на EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Автоматично попълва демографски и визови въпроси",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI Есета",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Персонализирано писане на отговори, задвижвано от Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Сигурно синхронизиране",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Опционално архивиране в облака на Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Как да започнете",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Създайте своя профил",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Отворете изскачащия прозорец → раздела Профил → качете автобиографията си в PDF. AI автоматично ще извлече всички ваши подробности, включително умения, опит, образование и проекти.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Задайте EEO предпочитания",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Превъртете до секцията EEO във вашия профил и задайте вашето разрешение за работа, нужди от визово спонсорство и демографски предпочитания. Те се използват за автоматично попълване на EEO въпросници.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Преглед на обява за работа",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Отидете до всеки списък с работни места. Ще видите да се появява бутон 📌 „Запазване на работа“. Щракнете върху него, за да запазите моментално позицията във вашия тракер.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Отворете формуляр за кандидатстване",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Отидете до формуляра за кандидатстване. Щракнете върху изскачащия прозорец ApplyFlow → натиснете „Сканиране на страница“ → след това „⚡ Smart Autofill“. Всички полета, включително радио бутони и падащи менюта, се попълват моментално.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Проследете своя тръбопровод",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Отворете раздела Tracker, за да видите всичките си приложения. Превключете към изглед Kanban Board и плъзгайте карти между колоните, докато състоянието ви се актуализира.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Изисква се влизане",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Влезте, за да персонализирате настройките",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Общите настройки са достъпни само за влезли потребители. Влезте с Google, за да конфигурирате вашите предпочитания, поведение на автоматично попълване и др.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Отидете на Акаунт и синхронизиране",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Лицензионен ключ: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Деактивиране на лиценза",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Активиране на лицензен ключ",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Ако сте закупили абонамент или сте получили код за достъп, въведете вашия лицензен ключ по-долу, за да отключите ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Активирайте",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Активира се...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Съвет: Можете да активирате Premium с помощта на ключа APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium активиран!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Благодарим ви, че подкрепяте ApplyFlow. Всички премиум функции вече са отключени.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Премиум план за надграждане",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Отключете вашите кариерни експорти и разширени AI функции.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Вземете първокласни AI кредити за мотивационни писма, персонализирани отговори на есета, оптимизиране на автобиография и подготовка за макетно интервю. Операциите за автоматично попълване на поддържаните платформи са напълно неограничени и безплатни за всички първокласни потребители!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Оферта за ранно приемане:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Следващото увеличение на цената при 500 Premium потребители. Заключете тази ставка за цял живот!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Месечен Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Добър за краткосрочно търсене",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 индийски рупии",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ месец",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Само ₹13 / ден)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI кредита на месец|||Неограничено автоматично попълване (Всички портали)|||Cloud Sync & Google Backup|||Премиум теми|||Изживяване без реклами",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Абонирайте се месечно",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Тримесечен Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Най-добра стойност за повечето търсещи работа",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 индийски рупии",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 месеца",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Само ₹11 / ден)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI кредита на тримесечие|||Неограничено автоматично попълване (всички портали)|||Персонализирани мотивационни писма и есета|||Cloud Sync & Google Backup|||Предложения за съвпадение на резюме",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Абонирайте се на тримесечие",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Най-популярни",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Годишен Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Най-добра стойност за опитни потребители",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2999 индийски рупии",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ година",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Еквивалентно на ₹249 / месец)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 AI кредита на година|||Неограничени ежедневни автоматични попълвания|||Персонализирани мотивационни писма и есета|||Синхронизиране в облака и архивиране в Google|||Предложения за съвпадение на резюме|||Приоритетна поддръжка по имейл",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Абонирайте се годишно",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Най-добра стойност - Спестете 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Подкрепете разработката на ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow е изграден и поддържан от независими разработчици. Ако намирате разширението за полезно, помислете за дарение на Ko-fi, за да го поддържате активен, без реклами и актуализиран за нови табла за работа.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Купи ми кафе на Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Оценка|||🔒 Сигурни плащания|||✓ Отказ по всяко време",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Невалиден лицензен ключ. Съвет: Опитайте да използвате демо ключа „APPLYFLOW-PRO-2026“!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Лицензът е активиран успешно! Добре дошли в ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Сигурни ли сте, че искате да деактивирате премиум лиценза си? Това ще ви върне към безплатния план.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Премиум лицензът е деактивиран. Вече сте на безплатния план.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Това ще изтрие за постоянно ВСИЧКИ данни за локален профил и приложение. сигурен ли си",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Политика за поверителност",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Често задавани въпроси",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Какво е ApplyFlow и как работи?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow е базирано на AI разширение за Chrome, което автоматично открива и попълва формуляри за кандидатстване за работа в над 15 платформи, включително LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever и др. Той чете запазения ви профил и използва интелигентно съпоставяне, за да попълни текстови полета, падащи менюта, радио бутони и квадратчета за отметка - включително EEO/демографски въпроси.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Безопасни ли са моите лични данни с ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "да Вашите данни се съхраняват локално в chrome.storage.local на вашия браузър по подразбиране. Той никога не се изпраща до сървър на трета страна, различен от вашата собствена незадължителна база данни Supabase (която контролирате). ApplyFlow никога не продава, споделя или монетизира вашата лична информация.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Кои платформи за работа поддържа ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow поддържа 15+ платформи веднага: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList и всеки друг сайт чрез нашия интелигентен общ резервен съпоставител.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Какво представлява Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper е плаващ бутон „Запазване на работа“ (📌), който се появява автоматично, когато посетите страница със списък на работа. Щракването върху него извлича заглавието на длъжността, компанията, заплатата и описанието, след което ги записва във вашия инструмент за проследяване ApplyFlow като „Запазено“ приложение — така че можете да проследявате работни места, преди да кандидатствате.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Как да актуализирам профила си?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Отворете изскачащия прозорец ApplyFlow, щракнете върху раздела „Профил“ и качете своята автобиография PDF. AI ще попълни автоматично всички ваши полета. Можете също така ръчно да редактирате всяко поле, включително вашите EEO предпочитания, разрешение за работа и мотивационни писма.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Какво представляват EEO полетата и защо са ми необходими?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Полетата EEO (Равни възможности за заетост) са въпроси, които много работодатели в САЩ и по света задават относно пола, статуса на увреждане, статуса на ветеран и разрешението за работа. ApplyFlow съхранява вашите предпочитани отговори и автоматично попълва тези групи бутони за избор, така че да не се налага да им отговаряте ръчно всеки път.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow изисква ли API ключове или конфигурация?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "не! ApplyFlow управлява автоматично откриването на формуляри, интелигентното съвпадение, генерирането на мотивационни писма и точкуването за съвместимост. Не е необходимо да получавате или конфигурирате API ключове.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Какво е Supabase sync и имам ли нужда от него?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Синхронизирането на Supabase е незадължителна функция за архивиране в облак. Когато влезете с Google и го активирате, вашият профил и инструмент за проследяване на приложения се синхронизират с частна облачна база данни, така че данните ви да се архивират и да са достъпни от множество устройства. Това е напълно незадължително — разширението работи напълно офлайн.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Защо ApplyFlow се нуждае от достъп до всички уебсайтове?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow иска достъп до всички уебсайтове, за да може да инжектира системата за автоматично попълване във всеки формуляр за кандидатстване за работа и да показва бутона за подстригване „Запазване на работа“ във всеки списък с работни места. Това разрешение е необходимо за поддръжка на широка платформа. Ние инжектираме скриптове само на страници, които са ясно свързани с работата.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Какво представлява Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board е визуален изглед за проследяване на работа в раздела Tracker. Той показва вашите приложения, организирани в колони: Запазени → Приложени → Оценка → Интервю → Оферта. Можете да плъзгате и пускате карти между колоните, за да актуализирате състоянието на всяко приложение.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Как работи откриването на подаване?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Когато активирате „Регистриране само след изпращане“ в настройките, ApplyFlow следи за промени в страницата, които показват успешно изпращане (като URL, съдържащ „/успех“ или основен текст, казващ „Благодарим ви за кандидатстването“). Той само регистрира приложението във вашия тракер, след като открие истинско подаване.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Мога ли да съхранявам няколко мотивационни писма?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "да Екранът на профила има раздел „Хранилище за мотивационни писма“, където можете да съхранявате неограничен брой мотивационни писма, пригодени за различни роли или компании. При автоматично попълване ApplyFlow ще използва вашето най-ново или най-подходящо мотивационно писмо.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Как да експортирам данните от приложението си?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Отидете на Акаунт и синхронизиране → превъртете до дъното → щракнете върху „Експортиране на резервно копие (JSON)“. Това изтегля всичките ви данни от профила и приложението като JSON файл за съхранение.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow работи ли в демо режим?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Демонстрационният режим беше наследена настройка, използвана за тестване. Сега е деактивиран по подразбиране. Всички функции са активни и функционални с вградения API ключ Gemini.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Как да съобщя за грешка или да поискам функция?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Моля, отворете проблем в нашето хранилище на GitHub (връзка в секцията Информация) или ни изпратете имейл на support@applyflow.in. Обикновено отговаряме в рамките на 48 часа.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Отворете изскачащия прозорец ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Сканирайте текущата страница за полета на формуляра",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Задействайте интелигентно автоматично попълване на текущата страница",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Изрежете текущия списък с работни места към тракера",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Отворете Tracker в нов раздел",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Конфигурирайте преки пътища в Chrome на",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Забележка:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Командите за разширение на Chrome изискват ръчно присвояване в диспечера за бързи клавиши на Chrome. Отидете на $1$, за да свържете ключовете, изброени по-горе.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Разширение ApplyFlow за Chrome — Декларация за поверителност**\nПоследна актуализация: юни 2026\n\n---\n\n**1. Въведение**\n\nApplyFlow („ние“, „наше“, „разширението“) е разширение за браузър Chrome, което помага на потребителите да попълват автоматично формуляри за кандидатстване за работа, да проследяват своите кандидатури и да управляват своя професионален профил. Тази Политика за поверителност обяснява как събираме, използваме, съхраняваме и защитаваме вашата информация.\n\nС инсталирането и използването на ApplyFlow вие се съгласявате с практиките, описани в тази политика.\n\n---\n\n**2. Данни, които събираме**\n\nСъбираме само информацията, която предоставяте доброволно, за да активирате функциите на разширението:\n\n• **Профилна информация**: Вашето име, имейл, телефонен номер, колеж, степен, умения, трудова история, проекти и професионални връзки (LinkedIn, GitHub, Портфолио).\n• **EEO/Демографска информация (по избор)**: Пол, статут на увреждане, статут на ветеран и предпочитания за разрешение за работа — предоставя се само ако изберете да попълните тези полета. Тези данни се използват изключително за автоматично попълване на незадължителни EEO въпросници за кандидатури за работа.\n• **Данни за проследяване на кандидатури**: Длъжност, компания, URL адрес на кандидатурата, статус и бележки за позиции, които проследявате с помощта на разширението.\n• **Статистика на използването**: Брой извършени операции за автоматично попълване (съхранява се локално за налагане на дневни ограничения).\n• **Данни за удостоверяване**: Ако изберете да влезете с Google, ние съхраняваме вашето показвано име в Google, имейл адрес и URL адрес на профилна снимка, за да персонализираме вашето изживяване и да активираме синхронизиране в облака.\n\nНие **не** събираме:\n• Плащателна или финансова информация\n• История на браузъра или обща активност при сърфиране\n• Всякаква информация от страници, които не са свързани с кандидатстване за работа\n• Всички данни от страници, когато разширението не е активно задействано\n\n---\n\n**3. Как съхраняваме вашите данни**\n\n**3.1 Локално съхранение (по подразбиране)**\nВсички данни се съхраняват основно в chrome.storage.local API на вашия браузър. Тези данни се намират само на вашето устройство и никога не се предават на който и да е сървър без изричното ви действие.\n\n**3.2 Облачно синхронизиране (по избор)**\nАко изберете да влезете с Google и активирате функцията „Supabase Sync“, данните за вашия профил и приложение също ще бъдат синхронизирани с база данни на Supabase. Вие запазвате пълната собственост върху тези данни. Можете да го изтриете по всяко време от секцията Акаунт и синхронизиране.\n\n**3.3 Gemini AI Requests**\nКогато се използват AI функции (напр. генериране на есе, анализ на работа), части от вашия профил (умения, степен, резюме) и текстът на описанието на длъжността се изпращат до Gemini API на Google за генериране на отговора. Това се обработва съгласно стандартните условия на API на Google и Декларацията за поверителност. Препоръчваме да не включвате чувствителни лични идентификатори във вашето съдържание, подпомагано от AI.\n\n---\n\n**4. Споделяне на данни**\n\nНие **не** продаваме, търгуваме, отдаваме под наем или споделяме вашата лична информация с трети страни за маркетингови или рекламни цели.\n\nВашите данни може да бъдат обработени от следните доверени услуги:\n• **Google Gemini API**: За попълване и анализ на формуляри, базирани на AI (https://policies.google.com/privacy)\n• **Google OAuth**: За удостоверяване на акаунт (https://policies.google.com/privacy)\n• **Supabase**: За опционално облачно съхранение (https://supabase.com/privacy) — само ако активирате синхронизиране\n\n---\n\n**5. Вашите права и контрол**\n\nИмате право на:\n• **Достъп** до всички данни, съхранени от ApplyFlow за вас (чрез Експортиране на резервно копие в настройките)\n• **Коригиране** на информацията ви по всяко време в раздела Профил\n• **Изтриване** на всички ваши данни локално чрез „Изчистване на всички профилни данни“ в настройките\n• **Оттеглете съгласието** по всяко време, като деинсталирате разширението\n• **Деактивирайте облачната синхронизация**, като я изключите в настройките на акаунта и синхронизирането\n\n**GDPR (Потребители в ЕС)**: Ако сте жител на ЕС, имате права на достъп, коригиране, изтриване, ограничаване на обработката и преносимост на данните съгласно Общия регламент за защита на данните.\n\n**Индия — DPDP Act 2023**: В съответствие с индийския Закон за защита на цифровите лични данни от 2023 г. ние обработваме лични данни само за целите на предоставяне на услугата за помощ при кандидатстване за работа. Можете да оттеглите съгласието си и да поискате изтриване на вашите данни по всяко време, като се свържете с нас.\n\n**Калифорния — CCPA**: Жителите на Калифорния имат право да знаят каква лична информация се събира, право на изтриване и право на отказ от продажба (ние не продаваме данни).\n\n---\n\n**6. Запазване на данни**\n\nЛокалните данни се запазват, докато не ги изчистите ръчно. Синхронизираните в облак данни се запазват, докато не изтриете акаунта си или не поискате изтриване. Ние не изтриваме автоматично данни.\n\n---\n\n**7. Сигурност**\n\nНие вземаме разумни технически мерки, за да защитим вашите данни:\n• Всички облачни комуникации използват HTTPS/TLS криптиране\n• Supabase Row-Level Security (RLS) гарантира, че потребителите могат да имат достъп само до собствените си данни\n• Разширението не изисква разрешения извън това, което е необходимо за неговото ядро функция\n\n---\n\n**8. Поверителност на децата**\n\nApplyFlow не е предназначен за потребители под 13 години. Ние не събираме съзнателно данни от деца. Ако смятате, че дете ни е предоставило лична информация, моля, свържете се незабавно с нас.\n\n---\n\n**9. Промени в тази Политика**\n\n Може да актуализираме тази Политика за поверителност от време на време. Значителни промени ще бъдат съобщени чрез страницата с опции на разширението. Продължаващото използване на разширението след промени представлява приемане на актуализираната политика.\n\n---\n\n**10. Свържете се с нас**\n\nЗа всякакви въпроси, свързани с поверителността, искания за изтриване на данни или притеснения:\n\nИмейл: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nУебсайт: https://applyflow.in\n\nИмаме за цел да отговорим на всички заявки в рамките на 30 дни.",
+    "description": "Privacy policy document markdown text"
+  }
+}

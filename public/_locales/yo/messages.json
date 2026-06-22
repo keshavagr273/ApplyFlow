@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "Ohun elo: AI Job Autofill & Olutọpa ohun elo",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Ṣafikun awọn ohun elo iṣẹ laifọwọyi ati awọn atokọ orin ni lilo AI lori LinkedIn, Ọjọ Iṣẹ, Eefin & diẹ sii.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Ti nṣiṣe lọwọ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Ti a lo",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Ifọrọwanilẹnuwo",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Ìfilọ",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Ti fipamọ",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Lapapọ",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Fi laifọwọyi kun",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Nkún...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Ni kiakia Autofill",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Ṣe itupalẹ Job",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Ṣii Pẹpẹ ẹgbẹ",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Eto",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Jọwọ wọle pẹlu Google akọkọ lati lo Yiyara Autofill!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Jọwọ ṣeto profaili rẹ ni akọkọ ni oju-iwe ẹgbẹ Panel/Aṣayan!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "_P_0__ Awari",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Ko si oju-iwe iṣẹ ti a rii",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Ṣabẹwo atokọ iṣẹ kan lati ṣii awọn ẹya AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "E ku ojumo",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Ti o dara Friday",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "O dara aṣalẹ",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "Awọn ohun elo _P_0__ tọpinpin · $2$ ifọrọwanilẹnuwo",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Bẹrẹ ohun elo lati tọpa ilọsiwaju rẹ",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Iwe Ideri",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Q&A Iranlọwọ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Ṣetan lati ṣe iranlọwọ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Lilọ kiri si atokọ iṣẹ lori LinkedIn, Ọjọ iṣẹ, Eefin, tabi eyikeyi igbimọ iṣẹ lati bẹrẹ.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Ose yi",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "to šẹšẹ aṣayan iṣẹ-ṣiṣe",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Wo gbogbo →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Bẹrẹ ọdẹ iṣẹ rẹ!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Ṣabẹwo igbimọ iṣẹ kan ki o lo ApplyFlow lati ṣe adaṣe ati tọpa awọn ohun elo rẹ laifọwọyi.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profaili Mi",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Nfipamọ...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Fi Gbogbo wa pamọ",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Ti fipamọ profaili!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Kuna lati fi profaili pamọ.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Tun bẹrẹ",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Ṣe agbejade si profaili kikun-laifọwọyi",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Ti kojọpọ",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Alaye ti ara ẹni",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Ti ko pe",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Ipo",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Ẹkọ",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Awọn ogbon",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Iriri Iṣẹ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Awọn iṣẹ akanṣe",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Awọn ayanfẹ Iṣẹ",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Aṣẹ iṣẹ",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Tun bẹrẹ Itan",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Lo Eyi",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Ti ṣe itupalẹ ni _P_0__",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Ṣe kojọpọ awọn alaye profaili lati \"$1$\"? Eyi yoo rọpo awọn atunṣe lọwọlọwọ rẹ pẹlu ilana atuntu ti bẹrẹ pada.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Awọn alaye pada lati _P_0__",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Ibamu Dimegilio",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "_P_0__ Dada",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ diẹ sii",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Ohun elo autofilled ati ibuwolu wọle! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Laifọwọyi-kun nipasẹ ApplyFlow Ẹgbẹ Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "nibẹ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Ko si kọlẹji ṣeto",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Ṣeto profaili rẹ lati mu adaṣe ṣiṣẹ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ko ṣeto",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "_P_0__ awọn titẹ sii",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "_P_0__ ogbon",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "_P_0__ ise agbese",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ idahun",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Ti fun ni aṣẹ",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ko fun ni aṣẹ",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Ekunrere Oruko",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Imeeli",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Foonu",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Foonu miiran",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL portfolio",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Pada Ọna asopọ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Ilu",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Ìpínlẹ̀",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Orilẹ-ede",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "koodu ifiweranse",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adirẹsi",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Orilẹ-ede",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Ile-iwe giga / Ile-ẹkọ giga",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Ìyí",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Odun ayẹyẹ ipari ẹkọ",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Iwọn",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12th%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Akoko akiyesi",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Ti o ti ṣe yẹ Ekunwo",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Ayanfẹ Ipa",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Awọn ọdun ti Iriri",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Ti fun ni aṣẹ lati ṣiṣẹ laisi igbowo iwe iwọlu",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Nbeere onigbowo fisa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "abo",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Àìlera",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "O fẹ lati ma sọ",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ko pato",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Okunrin",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Obirin",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Kii-alakomeji",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Bẹẹni",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Rara",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ko si ogbon kun sibẹsibẹ",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Ṣafikun ọgbọn (Tẹ sii lati ṣafikun)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Awọn gbolohun ọrọ okunfa (fun apẹẹrẹ Kini idi ti a fi gba ọ bẹwẹ)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Idahun rẹ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Yọ kuro",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Ṣafikun Idahun Aṣa",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Ile-iṣẹ",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Ipa / Akọle",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Ọjọ Ibẹrẹ",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Ọjọ Ipari",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Lọwọlọwọ",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Mo n ṣiṣẹ lọwọlọwọ ni ipa yii",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Apejuwe",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Ṣe apejuwe awọn ojuse rẹ, awọn aṣeyọri bọtini, awọn imọ-ẹrọ ti a lo…",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Ṣafikun Iriri Iṣẹ",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Akọle Project",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL imuṣiṣẹ",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Ṣe apejuwe ohun ti o kọ, iṣoro wo ni o yanju, ati awọn ẹya bọtini…",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Fi Project",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Olutọpa",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Ti fipamọ",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Ti a lo",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Igbelewọn",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Ifọrọwanilẹnuwo",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Ìfilọ",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Ti kọ",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Yiyọ kuro",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Pa ohun elo yii rẹ bi?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Ohun elo imudojuiwọn!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Ohun elo ti paarẹ.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Ipo",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Ti a lo",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Ṣii Ifiweranṣẹ Iṣẹ",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Owo osu / isanwo",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Olurannileti atẹle",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Awọn akọsilẹ",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Ṣafikun awọn akọsilẹ, alaye olubasọrọ, awọn alaye ifọrọwanilẹnuwo…",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Apejuwe iṣẹ (apejuwe)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Paarẹ",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Fagilee",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Fipamọ",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ohun elo",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "_P_0__ elo",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Àlẹmọ nipasẹ ile-iṣẹ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Awọn Ajọ ipo",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Yi lọ si ọtun fun diẹ sii →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Gbogbo",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Ko si awọn ohun elo ti a rii",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Gbiyanju atunto awọn asẹ tabi ṣafipamọ iṣẹ kan lati ṣafikun titẹsi olutọpa tuntun kan",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Atupale",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "_P_0__ lapapọ awọn ohun elo",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Ko si data sibẹsibẹ",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Bẹrẹ lilo si awọn iṣẹ ati awọn atupale rẹ yoo han nibi.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Awọn Oṣuwọn Iyipada",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Ti a lo",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Ifọrọwanilẹnuwo Oṣuwọn",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Oṣuwọn Ifunni",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Awọn ohun elo Osu yii",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Ohun elo Funnel",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Top Awọn iru ẹrọ",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Idinku ipo",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Alakoso",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Ọrọ: _P_0__",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Pilot iṣẹ rẹ",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Iwiregbe Tuntun ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Jọwọ ṣeto profaili rẹ ni akọkọ ki AI le ṣe awọn idahun ti ara ẹni.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Iwiregbe nso! Kini MO le ṣe iranlọwọ fun ọ?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Beere ohunkohun nipa iṣẹ yii ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Ṣeto profaili rẹ lati bẹrẹ",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Tẹ Tẹ lati firanṣẹ",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Pada Ibamu Dimegilio",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Awọn ọgbọn ti o lagbara",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Awọn ọgbọn ti o padanu",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Eyi ni lẹta ideri ti ara ẹni:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Ti daakọ!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Daakọ",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Gbigba lati ayelujara",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Eyi ni awọn ibeere ifọrọwanilẹnuwo _P_0__:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Pada Dimegilio iṣapeye: _P_0__%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Tun bẹrẹ Baramu Awọn didaba",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs yi ise apejuwe",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Nkankan ti ko tọ. Jọwọ gbiyanju lẹẹkansi.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hi! Mo le rii pe o n wo ipa **$1$* kan ni **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hi! Mo le rii pe o n wo ipa **$1$* kan.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hi! Emi ni atukọ iṣẹ AI rẹ. Lilọ kiri si atokọ iṣẹ kan Emi yoo ṣe itupalẹ rẹ laifọwọyi, tabi beere lọwọ mi ohunkohun!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Jọwọ ṣeto profaili rẹ ni akọkọ ni taabu Profaili!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Jọwọ ṣii oju-iwe atokọ iṣẹ ni ẹrọ aṣawakiri rẹ akọkọ lati lo ẹya yii!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Ṣii silẹ ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Wọlé pẹlu Google lati wọle si dasibodu rẹ, awọn iṣẹ amuṣiṣẹpọ, ṣakoso profaili ibẹrẹ rẹ, ati awọn ohun elo iṣẹ adaṣe adaṣe lẹsẹkẹsẹ.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Akojọpọ",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Ṣe ọlọjẹ ati ki o fọwọsi awọn ohun elo pẹlu titẹ ọkan.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Awọsanma Sync & Afẹyinti",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Mu gbogbo awọn alaye ipasẹ iṣẹ rẹ ṣiṣẹpọ si Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Bẹrẹ & Awọn profaili",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Po si ibere rẹ ki o ṣe akanṣe awọn idahun ohun elo.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Nsopọ si Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Wọle pẹlu Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Nipa wíwọlé wọle, o gba lati mu data profaili rẹ ṣiṣẹpọ ni aabo si aaye iṣẹ ṣiṣe rẹ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Ṣe o da ọ loju pe o fẹ jade bi?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Ti forukọsilẹ ni aṣeyọri.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Wọle bi _P_0__",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Wọlé Jade",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Wọle",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Nsopọ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Ṣii ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Baramu",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Awọn ogbon Ibamu ti o lagbara",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Awọn ogbon ti o padanu",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart Autofill Page",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Fọọmu kikun laifọwọyi...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Ko si awọn aaye ohun elo kikun ti a rii lori oju-iwe naa.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Ni aṣeyọri ti Kun!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Aifọwọyi kuna nitori idiju oju-iwe.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Ti fipamọ laifọwọyi si olutọpa wọle lori kikun.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ibẹrẹ rẹ jẹ **$1$% ibaramu** pẹlu ipa yii.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Kaabo pada, _P_0__!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "O kuna lati mu alaye profaili olumulo Google wa.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Iwọle OAuth Kuna: _P_0__",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "O kuna lati mu àmi wiwọle lati àtúnjúwe.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "O kuna lati ṣe atundari ìfàṣẹsí.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Ijeri ko ni atilẹyin lori iru ẹrọ yii.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Ti fipamọ iṣẹ si olutọpa!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Alejo",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Eto gbogbogbo",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Ṣe afihan lori Awọn oju-iwe Job LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Ṣe afihan Dimegilio ibaramu ti o gbọn ati bọtini titẹ-ẹyọkan autofill nigbati o wo awọn ifiweranṣẹ iṣẹ lori LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Fi bọtini 'Fi Job pamọ' han",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Ṣe afihan bọtini lilefoofo 'Fi Job 📌' pamọ sori awọn aaye iṣẹ ki o le yara fi awọn alaye iṣẹ pamọ si olutọpa rẹ ṣaaju lilo.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Wọle Nikan Lẹhin Ohun elo Nitootọ",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Duro titi iwọ o fi ri iboju 'O ṣeun' tabi 'Aseyori' ṣaaju fifi iṣẹ naa kun si olutọpa rẹ. Ṣe itọju olutọpa rẹ ni afinju nipa idilọwọ awọn fọọmu ti o kun idaji lati wa ni fipamọ bi 'Fifi'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Awọn Kirẹditi AI & Awọn atupale Lilo",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Awọn kirediti Osi",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Awọn kirediti ti o ku",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Lapapọ kirediti",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Gbogbo-akoko Autofills",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Eto Ipo",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Ere 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Ọfẹ 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Imọran Pro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Awọn iṣẹ Smart Autofill jẹ awọn kirediti 0 ati pe o jẹ ailopin 100%! Awọn ẹya AI ti ilọsiwaju nikan bii Awọn lẹta Ideri (awọn kirẹditi 5) ati Awọn arosọ aṣa (awọn kirẹditi 3) jẹ iwọntunwọnsi kirẹditi rẹ.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Account & Amuṣiṣẹpọ Awọsanma",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync Ti nṣiṣe lọwọ",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Titiipa imuṣiṣẹpọ awọsanma (Ere nikan)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Awọsanma Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Titari si Awọsanma",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Fa lati Awọsanma",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Ṣiṣẹpọ aṣeyọri!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Amuṣiṣẹpọ kuna. Ṣayẹwo asopọ rẹ.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Ni aabo awọsanma Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Wọle pẹlu Google lati ṣe afẹyinti awọn ohun elo rẹ ati profaili si Supabase. Amuṣiṣẹpọ jẹ ẹya Ere ti o tọju awọn akọọlẹ rẹ lailewu kọja awọn ẹrọ.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Amuṣiṣẹpọ awọsanma Supabase jẹ Ẹya Ere kan. Jọwọ igbesoke ni Igbesoke taabu lati jeki ìsiṣẹpọ!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Iṣakoso data",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Afẹyinti okeere (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Ko Gbogbo Data Agbegbe kuro",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Pipasilẹ data agbegbe yoo yọ profaili rẹ ati awọn ohun elo kuro ni ẹrọ yii nikan. Data awọsanma ko ni ipa.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Iṣakoso ile-iṣẹ",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Ile & Nipa",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Gbogbogbo Eto",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Igbesoke si Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Eto Ere 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Account & Amuṣiṣẹpọ",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Asiri Afihan",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Awọn ọna abuja Keyboard",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Kaabọ si ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow jẹ itẹsiwaju Chrome ti o ni agbara AI ti a ṣe fun awọn ọmọ ile-iwe ati awọn ti n wa iṣẹ ti o fẹ lati lo yiyara ati ijafafa. O ṣe iwari laifọwọyi ati kun awọn fọọmu ohun elo iṣẹ kọja awọn iru ẹrọ 15+, tọpa opo gigun ti epo rẹ, ati ṣe iranlọwọ fun ọ lati de awọn ifọrọwanilẹnuwo diẹ sii.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart Autofill",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Awọn iru ẹrọ 15+ ATS pẹlu awọn yiyan kongẹ",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Agekuru wẹẹbu",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Ọkan-tẹ fi eyikeyi ise akojọ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Fa ati ju opo gigun ti epo ohun elo rẹ silẹ",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofill",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Laifọwọyi kun agbegbe eniyan & awọn ibeere visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI aroko ti",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-agbara kikọ idahun aṣa",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Amuṣiṣẹpọ to ni aabo",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Iyan Supabase awọsanma afẹyinti",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Bi o ṣe le Bẹrẹ",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Kọ Profaili rẹ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Ṣii igarun → Profaili taabu → gbejade PDF ti o bẹrẹ. AI yoo yọkuro gbogbo awọn alaye rẹ laifọwọyi pẹlu awọn ọgbọn, iriri, eto-ẹkọ, ati awọn iṣẹ akanṣe.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Ṣeto Awọn ayanfẹ EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Yi lọ si apakan EEO ninu Profaili rẹ ki o ṣeto aṣẹ iṣẹ rẹ, awọn iwulo igbowo iwe iwọlu, ati awọn ayanfẹ eniyan. Awọn wọnyi ni a lo lati fọwọsi awọn iwe ibeere EEO laifọwọyi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Ṣawakiri Akojọ Iṣẹ kan",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Lilọ kiri si atokọ iṣẹ eyikeyi. Iwọ yoo rii bọtini 📌 “Fi Job pamọ” yoo han. Tẹ o lati fi ipo naa pamọ lesekese si olutọpa rẹ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Ṣii Fọọmu Ohun elo kan",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Lilö kiri si fọọmu ohun elo. Tẹ Agbejade ApplyFlow → lu “Oju-iwe ọlọjẹ” → lẹhinna “⚡ Smart Autofill”. Gbogbo awọn aaye pẹlu awọn bọtini redio ati awọn jabọ silẹ ti kun lẹsẹkẹsẹ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Tọpa Pipeline Rẹ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Ṣii Olutọpa taabu lati wo gbogbo awọn ohun elo rẹ. Yipada si wiwo Board Kanban ati fa awọn kaadi laarin awọn ọwọn bi awọn imudojuiwọn ipo rẹ.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Wọle Ti beere fun",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Wọle lati Ṣe akanṣe Eto",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Eto Gbogbogbo wa fun awọn olumulo ti o wọle nikan. Wọle pẹlu Google lati tunto awọn ayanfẹ rẹ, awọn ihuwasi adaṣe, ati diẹ sii.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Lọ si Account & Amuṣiṣẹpọ",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Iroyin",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Bọtini iwe-aṣẹ: _P_0__",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Muu iwe-aṣẹ ṣiṣẹ",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Muu ṣiṣẹ bọtini iwe-aṣẹ",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Ti o ba ti ra ṣiṣe alabapin tabi gba koodu iwọle kan, tẹ bọtini iwe-aṣẹ rẹ sii ni isalẹ lati ṣii ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Mu ṣiṣẹ",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Nṣiṣẹ...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Imọran: O le mu Ere ṣiṣẹ ni lilo bọtini APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Ere Mu ṣiṣẹ!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "O ṣeun fun atilẹyin ApplyFlow. Gbogbo awọn ẹya Ere ti wa ni ṣiṣi silẹ bayi.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Eto Igbesoke Ere",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Ṣii awọn okeere okeere iṣẹ rẹ & awọn ẹya AI ilọsiwaju.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Gba awọn kirẹditi AI Ere fun awọn lẹta ideri, awọn idahun arosọ aṣa, iṣapeye bẹrẹ, ati igbaradi ifọrọwanilẹnuwo ẹlẹgàn. Awọn iṣẹ ṣiṣe kikun laifọwọyi lori awọn iru ẹrọ atilẹyin jẹ ailopin ni kikun ati ọfẹ fun gbogbo awọn olumulo Ere!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Ifunni Oludamọran Tete:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Ilọsiwaju idiyele atẹle ni awọn olumulo Ere 500. Titiipa ni oṣuwọn yii fun igbesi aye!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Oṣooṣu Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "O dara fun wiwa igba kukuru",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ osù",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(O kan ₹ 13 / ọjọ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "Awọn Kirẹditi AI 150 fun oṣu kan|||Afọwọṣe ailopin (Gbogbo Awọn ọna abawọle)|||Amuṣiṣẹpọ Awọsanma & Afẹyinti Google||| Awọn akori Ere|||Iriri-ọfẹ-ipolongo",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Alabapin oṣooṣu",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Idamẹrin Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Iye ti o dara julọ fun ọpọlọpọ awọn oluwadi iṣẹ",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 osu",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(O kan ₹ 11 fun ọjọ kan)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "Awọn Kirẹditi AI 500 fun idamẹrin|||Afọwọṣe ailopin (Gbogbo Awọn ọna abawọle)||| Awọn lẹta Ideri Ideri ati aroko",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Alabapin ti idamẹrin",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Gbajumo julọ",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Odun Gbẹhin",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Iye ti o dara julọ fun awọn olumulo agbara",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2,999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ odun",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Dogba si ₹249 fun oṣu kan)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI Kirediti fun odun|||Ailopin ojoojumọ autofills|||Tí Telo Ideri Awọn lẹta & Awọn aroko ti|||Awọsanma Sync & Google Afẹyinti|||Padà Baramu Awọn didaba|||Atilẹyin Imeeli pataki pataki",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Alabapin Ọdọọdun",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Iye to dara julọ - Fipamọ 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Ṣe atilẹyin ApplyFlow Development",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow jẹ itumọ ati itọju nipasẹ awọn olupilẹṣẹ ominira. Ti o ba rii pe ifaagun naa ṣe iranlọwọ, ronu ṣiṣetọrẹ lori Ko-fi lati ṣe iranlọwọ lati jẹ ki o ṣiṣẹ, laisi ipolowo, ati imudojuiwọn fun awọn igbimọ iṣẹ tuntun.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Ra kofi kan fun mi lori Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rating|||🔒 Awọn sisanwo to ni aabo|||✓ Fagilee Nigbakugba",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Bọtini iwe-aṣẹ ti ko tọ. Imọran: Gbiyanju lilo bọtini demo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Ti mu iwe-aṣẹ ṣiṣẹ ni aṣeyọri! Kaabo si ApplyFlow Ere. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ṣe o da ọ loju pe o fẹ mu maṣiṣẹ iwe-aṣẹ Ere rẹ bi? Eyi yoo da ọ pada si Eto Ọfẹ.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Ere iwe-ašẹ danu. O wa bayi lori Eto Ọfẹ.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Eyi yoo paarẹ GBOGBO profaili agbegbe ati data ohun elo rẹ patapata. Ṣe o da ọ loju?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Ilana Asiri",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Awọn ibeere Nigbagbogbo",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Kini ApplyFlow ati bawo ni o ṣe n ṣiṣẹ?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow jẹ itẹsiwaju Chrome ti o ni agbara AI ti o ṣe awari laifọwọyi ati kun awọn fọọmu ohun elo iṣẹ kọja awọn iru ẹrọ 15+ pẹlu LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, ati diẹ sii. O ka profaili ti o fipamọ ati pe o nlo ibaramu oye lati kun awọn aaye ọrọ, awọn silẹ, awọn bọtini redio, ati awọn apoti ayẹwo - pẹlu EEO/awọn ibeere agbegbe.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Njẹ data ti ara ẹni mi jẹ ailewu pẹlu ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Bẹẹni. Awọn data rẹ ti wa ni ipamọ ni agbegbe ni chrome.storage.local aṣàwákiri rẹ nipasẹ aiyipada. A ko fi ranṣẹ si olupin ẹnikẹta eyikeyi miiran ju aaye data Supabase yiyan tirẹ (eyiti o ṣakoso). ApplyFlow ko ta, pin, tabi monetizes alaye ti ara ẹni rẹ.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Awọn iru ẹrọ iṣẹ wo ni ApplyFlow ṣe atilẹyin?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow ṣe atilẹyin awọn iru ẹrọ 15+ jade kuro ninu apoti: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Nitootọ, Wellfound/AngelList, ati eyikeyi aaye miiran nipasẹ wa ni oye jeneriki fallback matcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Kini Agekuru Ayelujara?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Agekuru Wẹẹbu naa jẹ bọtini lilefoofo “Fi Job pamọ” (📌) ti o han laifọwọyi nigbati o ṣabẹwo si oju-iwe atokọ iṣẹ eyikeyi. Titẹ rẹ yọ akọle iṣẹ jade, ile-iṣẹ, owo osu, ati apejuwe, lẹhinna fi pamọ si olutọpa ApplyFlow rẹ bi ohun elo “Fipamọ” - nitorinaa o le tọpa awọn iṣẹ ṣaaju lilo.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Bawo ni MO ṣe ṣe imudojuiwọn profaili mi?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Ṣii Agbejade ApplyFlow, tẹ taabu \"Profaili\", ki o si gbejade PDF rẹ pada. AI yoo ṣe agbejade gbogbo awọn aaye rẹ laifọwọyi. O tun le pẹlu ọwọ satunkọ eyikeyi aaye pẹlu awọn ayanfẹ EEO rẹ, aṣẹ iṣẹ, ati awọn lẹta ideri.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Kini awọn aaye EEO ati kilode ti MO nilo wọn?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Awọn aaye EEO (Anfani Iṣe deede) jẹ awọn ibeere ti ọpọlọpọ AMẸRIKA ati awọn agbanisiṣẹ agbaye beere nipa akọ-abo, ipo ailera, ipo oniwosan, ati aṣẹ iṣẹ. ApplyFlow tọju awọn idahun ti o fẹ ati ki o kun awọn ẹgbẹ bọtini redio laifọwọyi ki o ko ni lati dahun wọn pẹlu ọwọ ni gbogbo igba.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Ṣe ApplyFlow nilo eyikeyi awọn bọtini API tabi iṣeto bi?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Rara! ApplyFlow ṣe itọju gbogbo wiwa fọọmu, ibaamu smart, iran lẹta ideri, ati igbelewọn ibaramu laifọwọyi. O ko nilo lati gba tabi tunto eyikeyi awọn bọtini API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Kini amuṣiṣẹpọ Supabase ati ṣe Mo nilo rẹ?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Amuṣiṣẹpọ Supabase jẹ ẹya afẹyinti awọsanma iyan. Nigbati o ba wọle pẹlu Google ti o si muu ṣiṣẹ, profaili rẹ ati olutọpa ohun elo jẹ mimuuṣiṣẹpọ si ibi ipamọ data awọsanma ikọkọ ki data rẹ ṣe afẹyinti ati wiwọle lati awọn ẹrọ lọpọlọpọ. Eyi jẹ iyan patapata - itẹsiwaju ṣiṣẹ ni kikun offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Kini idi ti ApplyFlow nilo iraye si gbogbo awọn oju opo wẹẹbu?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow n beere iraye si gbogbo awọn oju opo wẹẹbu ki o le fi ẹrọ apilẹṣẹ silẹ lori fọọmu ohun elo iṣẹ eyikeyi, ati ṣafihan bọtini “Fipamọ Job” agekuru lori atokọ iṣẹ eyikeyi. A nilo igbanilaaye fun atilẹyin iru ẹrọ gbooro. A nikan abẹrẹ awọn iwe afọwọkọ lori awọn oju-iwe ti o ni ibatan si iṣẹ kedere.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Kini Igbimọ Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Igbimọ Kanban jẹ wiwo ipasẹ iṣẹ wiwo ni taabu Olutọpa. O ṣe afihan awọn ohun elo rẹ ti a ṣeto ni awọn ọwọn: Ti fipamọ → Aṣeṣe → Ayẹwo → Ifọrọwanilẹnuwo → Ifunni. O le fa ati ju awọn kaadi silẹ laarin awọn ọwọn lati mu ipo ohun elo eyikeyi dojuiwọn.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Bawo ni wiwa ifisilẹ ṣiṣẹ?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Nigbati o ba mu \"Wọle nikan lẹhin ifakalẹ\" ni awọn eto, ApplyFlow wo fun awọn iyipada oju-iwe ti o tọkasi ifisilẹ aṣeyọri (gẹgẹbi URL ti o ni \"/ aṣeyọri\" tabi ọrọ ara ti o sọ pe \"O ṣeun fun lilo\"). O ṣe igbasilẹ ohun elo nikan si olutọpa rẹ lẹhin ti o rii ifakalẹ gidi kan.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Ṣe Mo le fipamọ awọn lẹta ideri pupọ bi?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Bẹẹni! Iboju Profaili naa ni apakan “Idanu Iwe Ifipamọ” nibi ti o ti le fipamọ awọn lẹta ideri ailopin ti o baamu si awọn ipa oriṣiriṣi tabi awọn ile-iṣẹ. Nigbati adaṣe adaṣe, ApplyFlow yoo lo aipẹ julọ tabi lẹta ideri ti o wulo julọ.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Bawo ni MO ṣe ṣe okeere data ohun elo mi?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Lọ si Account & Amuṣiṣẹpọ → yi lọ si isalẹ → tẹ \"Afẹyinti Si ilẹ okeere (JSON)\". Eyi ṣe igbasilẹ gbogbo profaili rẹ ati data ohun elo bi faili JSON fun fifipamọ.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Ṣe ApplyFlow ṣiṣẹ ni Ipo Ririnkiri?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Ipo Ririnkiri jẹ eto ti ogún ti a lo fun idanwo. O ti wa ni alaabo bayi nipasẹ aiyipada. Gbogbo awọn ẹya wa laaye ati iṣẹ pẹlu bọtini Gemini API ti a ṣe sinu.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Bawo ni MO ṣe jabo kokoro kan tabi beere ẹya kan?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Jọwọ ṣii ọrọ kan lori ibi ipamọ GitHub wa (ti o ni asopọ ni apakan Nipa) tabi imeeli wa ni support@applyflow.in. Nigbagbogbo a dahun laarin awọn wakati 48.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Ṣii ApplyFlow igarun",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Ṣayẹwo oju-iwe lọwọlọwọ fun awọn aaye fọọmu",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Nfa Smart Autofill lori oju-iwe lọwọlọwọ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Ge akojọ iṣẹ lọwọlọwọ si olutọpa",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Ṣii Olutọpa ni taabu titun kan",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Tunto awọn ọna abuja ni Chrome ni",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Akiyesi:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Awọn pipaṣẹ itẹsiwaju Chrome nilo iṣẹ afọwọṣe ni oluṣakoso ọna abuja Chrome. Lọ si $1$ lati di awọn bọtini ti a ṣe akojọ loke.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "** Waye Flow Chrome Itẹsiwaju - Ilana Aṣiri *** \nImudojuiwọn to kẹhin: Oṣu Kẹfa 2026\n\n--_NL_3__\n**1. Iṣafihan**\n\nApplyFlow (\"we\", \"our\", \"The Extension\") jẹ itẹsiwaju aṣawakiri Chrome kan ti o ṣe iranlọwọ fun awọn olumulo lati kun awọn fọọmu ohun elo iṣẹ adaṣe, tọpa awọn ohun elo wọn, ati ṣakoso profaili ọjọgbọn wọn. Ilana Aṣiri yii ṣe alaye bi a ṣe n gba, lo, fipamọ, ati aabo alaye rẹ.\n\nNipa fifi sori ẹrọ ati lilo ApplyFlow, o gba si awọn iṣe ti a ṣalaye ninu eto imulo yii. Data A gba**\nNL_14__A gba nikan alaye ti o pese atinuwa lati jeki awọn ẹya ara ẹrọ itẹsiwaju naa:\n\n• ** Alaye Profaili **: Orukọ rẹ, imeeli, nọmba foonu, kọlẹji, oye, ogbon, itan iṣẹ, awọn iṣẹ akanṣe, ati awọn ọna asopọ ọjọgbọn (LinkedIn, GitHub, Portfoografik)**. (Eyi je eyi ko je) ***: akọ-abo, ipo ailera, ipo ogbogun, ati awọn ayanfẹ aṣẹ iṣẹ - pese nikan ti o ba yan lati kun awọn aaye wọnyi. A lo data yii ni iyasọtọ lati ṣaṣeyọri awọn iwe ibeere EEO yiyan lori awọn ohun elo iṣẹ.\n• ** Data Itọpa Ohun elo **: Akọle iṣẹ, ile-iṣẹ, URL ohun elo, ipo, ati awọn akọsilẹ fun awọn ipo ti o tọpinpin nipa lilo itẹsiwaju. Ti o ba yan lati buwolu wọle pẹlu Google, a tọju orukọ ifihan Google rẹ, adirẹsi imeeli, ati URL aworan profaili rẹ lati sọ iriri rẹ di ti ara ẹni ati muuṣiṣẹpọ awọsanma ṣiṣẹ. data lati awọn oju-iwe nigbati itẹsiwaju ko ba ṣiṣẹ ni agbara\n\n--\n\n**3. Bawo ni A Ṣe Tọju Data Rẹ**\n\n**3.1 Ibi ipamọ Agbegbe (Iyipada)**\nGbogbo data wa ni akọkọ ti o fipamọ sinu chrome.storage.local API. Data yii wa lori ẹrọ rẹ nikan ko si gbejade rara si olupin eyikeyi laisi igbese ti o han kedere.\n\n**3.2 Cloud Sync (Aṣayan)**\nTi o ba yan lati wọle pẹlu Google ati mu ẹya “Supabase Sync” ṣiṣẹ, profaili rẹ ati data ohun elo yoo tun muṣiṣẹpọ si Supabase database. O ṣe idaduro nini kikun ti data yii. O le parẹ nigbakugba lati apakan Account & Amuṣiṣẹpọ.\n\n**3.3 Gemini AI Awọn ibeere**\nNigbati a ba lo awọn ẹya AI (fun apẹẹrẹ, iran arosọ, itupalẹ iṣẹ), awọn apakan ti profaili rẹ (awọn ọgbọn, iwọn, akopọ) ati ọrọ asọye iṣẹ ni a firanṣẹ lati ṣe ipilẹṣẹ Gemini API lati ṣe agbejade Google's Gemini. Eyi ti ni ilọsiwaju labẹ Awọn ofin API boṣewa Google ati Ilana Aṣiri. A ṣeduro pe ki o ma ṣe pẹlu awọn idamọ ara ẹni ti o ni imọlara ninu akoonu iranlọwọ AI rẹ. Pipin data **\nNL_45__A ko **ta, taja, yalo, tabi pin alaye ti ara ẹni pẹlu awọn ẹgbẹ kẹta fun titaja tabi awọn idi ipolowo. (https://policies.google.com/privacy)\n• **Google OAuth**: Fun ijẹrisi akọọlẹ (https://policies.google.com/privacy)\n• **Supabase**: Fun ibi ipamọ awọsanma iyan (https://supabase.com/privacy) - nikan ti o ba mu ṣiṣẹ amuṣiṣẹpọ\n\n---\n\n**5. Awọn ẹtọ rẹ & Awọn iṣakoso **_NL_55__\nO ni ẹtọ lati:\n• Wiwọle** gbogbo data ApplyFlow ti fipamọ nipa rẹ (nipasẹ Afẹyinti Export ni awọn eto)\n• Atunse** alaye rẹ nigbakugba ninu Profaili taabu\n• Paarẹ gbogbo data ni agbegbe rẹ. Eto\n• **Yọ ifohunsi** nigbakugba nipa yiyo itẹsiwaju\n• **Pa amuṣiṣẹpọ awọsanma ṣiṣẹ** nipa yiyi kuro ni Akọọlẹ & Eto Amuṣiṣẹpọ\nNL_63__**GDPR (Awọn olumulo EU)**: Ti o ba jẹ olugbe EU, o ni ẹtọ lati ni isunmọ sisẹ, o ni ẹtọ lati ni isunmọ sisẹ, ati ṣiṣe data labẹ aṣẹ. Ilana Idaabobo Data Gbogbogbo.\n\n**India — Ofin DPDP 2023 ***: Ni ibamu pẹlu Ofin Idaabobo Data Ti ara ẹni Digital ti India 2023, a ṣe ilana data ti ara ẹni nikan fun idi ti ipese iṣẹ iranlọwọ ohun elo iṣẹ. O le yọ aṣẹ kuro ki o beere piparẹ data rẹ nigbakugba nipa kikan si wa.\n\n**California — CCPA**: Awọn olugbe California ni ẹtọ lati mọ iru alaye ti ara ẹni ti a gba, ẹtọ lati paarẹ, ati ẹtọ lati jade kuro ni tita (a ko ta data).\n\n---\n\n**6. Idaduro data**\nNL_73__Data agbegbe ti wa ni idaduro titi ti o fi pa a pẹlu ọwọ. Awọn data imuṣiṣẹpọ awọsanma wa ni idaduro titi ti o fi pa akọọlẹ rẹ rẹ tabi beere piparẹ. A ko ni paarẹ data laifọwọyi.\n\n---\n\n**7. Aabo **\nNL_79__A gba awọn igbese imọ-ẹrọ ti o ni oye lati daabobo data rẹ:\n• Gbogbo awọn ibaraẹnisọrọ awọsanma lo HTTPS/TLS fifi ẹnọ kọ nkan\n• Supabase Row-Level Security (RLS) ṣe idaniloju pe awọn olumulo le wọle si data tiwọn nikan\n• Ifaagun naa ko beere fun awọn igbanilaaye ju ohun ti o nilo lọ. iṣẹ\n\n---\n\n**8. Aṣiri ọmọde ***NL_87\nApplyFlow kii ṣe ipinnu fun awọn olumulo ti o wa labẹ ọdun 13. A ko mọọmọ gba data lati ọdọ awọn ọmọde. Ti o ba gbagbọ pe ọmọ kan ti pese alaye ti ara ẹni, jọwọ kan si wa lẹsẹkẹsẹ.\n\n--\n\n**9. Awọn iyipada si Ilana yii **\n\nA le ṣe imudojuiwọn Ilana Aṣiri yii lati igba de igba. Awọn ayipada pataki yoo jẹ ibaraẹnisọrọ nipasẹ oju-iwe Awọn aṣayan itẹsiwaju. Lilo itẹsiwaju lẹhin awọn ayipada jẹ gbigba eto imulo imudojuiwọn.\n\n--\n\n**10. Kan si Wa**\n\nFun eyikeyi awọn ibeere ti o ni ibatan ikọkọ, awọn ibeere piparẹ data, tabi awọn ifiyesi:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension https://applyflow.in\n\nA ni ifọkansi lati dahun si gbogbo awọn ibeere laarin 30 ọjọ.",
+    "description": "Privacy policy document markdown text"
+  }
+}

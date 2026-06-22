@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "I-ApplyFlow: Ukugcwalisa Okuzenzakalelayo Kwemisebenzi ye-AI kanye ne-Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Gcwalisa ngokuzenzakalelayo izinhlelo zokusebenza futhi ulandelele uhlu ngokuzenzakalela usebenzisa i-AI ku-LinkedIn, Usuku Lokusebenza, I-Greenhouse nokuningi.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "Faka iFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Iyasebenza",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Kusetshenzisiwe",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Ingxoxo",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Nikeza",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Kulondoloziwe",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Ingqikithi",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Gcwalisa ngokuzenzakalelayo",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Iyagcwalisa...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Ukugcwalisa Okuzenzakalelayo Okusheshayo",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Hlaziya uJobe",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Vula Ibha eseceleni",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Izilungiselelo",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Sicela ungene ngemvume nge-Google kuqala ukuze usebenzise Ukugcwalisa Okuzenzakalelayo Okusheshayo!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Sicela usethe iphrofayili yakho kuqala ekhasini Lephaneli Eseceleni/Izinketho!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Kutholiwe",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Alikho ikhasi lomsebenzi elitholiwe",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Vakashela uhlu lwemisebenzi ukuze uvule izici ze-AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Sawubona",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Sawubona",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Sawubona",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ izicelo zilandelelwa · $2$ izingxoxo",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Qala ukufaka isicelo ukuze ulandelele ukuqhubeka kwakho",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Incwadi Yekhava",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Usizo lwe-Q&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Ulungele ukusiza",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Zulazulela ohlwini lwemisebenzi ku-LinkedIn, Usuku Lokusebenza, I-Greenhouse, nanoma yiliphi ibhodi lemisebenzi ukuze uqalise.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Kuleli sonto",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Umsebenzi Wakamuva",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Buka konke →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Qala ukuzingela kwakho umsebenzi!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Vakashela ibhodi lemisebenzi futhi usebenzise i-ApplyFlow ukuze ugcwalise ngokuzenzakalelayo futhi ulandelele izinhlelo zakho zokusebenza ngokuzenzakalelayo.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Iphrofayela Yami",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Iyalondoloza...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Londoloza Konke",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Iphrofayela ilondoloziwe!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Yehlulekile ukulondoloza iphrofayela.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Qalisa kabusha",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Layisha ukuze ugcwalise ngokuzenzakalelayo iphrofayela",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Kulayishiwe",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Ulwazi lomuntu siqu",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Akuphelele",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Indawo",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Imfundo",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Amakhono",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Isipiliyoni somsebenzi",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Amaphrojekthi",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Izintandokazi Zomsebenzi",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Ukugunyazwa komsebenzi",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Qalisa kabusha Umlando",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Sebenzisa Lokhu",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Kuhlaziywe ngo-$1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Layisha imininingwane yephrofayela kusuka ku-\"$1$\"? Lokhu kuzomiselela ukuhlela kwakho kwamanje ngesakhiwo esincozululiwe salokhu kuqhuba.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Imininingwane ebuyiselwe evela ku-$1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Isilinganiso Sokufanisa",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ okuningi",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Uhlelo lokusebenza lugcwaliswe ngokuzenzakalelayo futhi lungeniwe! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Igcwaliswa ngokuzenzakalelayo nge-ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "lapho",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Alikho isethi yasekolishi",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Setha iphrofayela yakho ukuze unike amandla ukugcwalisa okuzenzakalelayo",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Akusethiwe",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ okufakiwe",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ amakhono",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "_P_0__ amaphrojekthi",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "_P_0__ izimpendulo",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Igunyaziwe",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Akugunyaziwe",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Igama Eligcwele",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "I-imeyili",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Ucingo",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Enye Ucingo",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "I-URL ye-LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "I-URL yephothifoliyo",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "I-URL ye-GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Qalisa kabusha Isixhumanisi",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Idolobha",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Izwe",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Izwe",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Ikhodi Yeposi",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Ikheli",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Ubuzwe",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Ikolishi / Inyuvesi",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Iziqu",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Unyaka Wokuthweswa Iziqu",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Ibanga",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10th %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Inkathi Yesaziso",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Iholo Elilindelwe",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Indima Ekhethwayo",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Iminyaka Yesipiliyoni",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Ugunyazwe ukusebenza ngaphandle koxhaso lwe-visa",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Idinga uxhaso lwe-visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Ubulili",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Ukukhubazeka",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Khetha ukungasho",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Akucacisiwe",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Owesilisa",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Owesifazane",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Okungeyona kanambambili",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Yebo",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Cha",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Awekho amakhono angeziwe okwamanje",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Engeza ikhono (Faka ukuze wengeze)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Qalisa umusho (isb. Kungani kufanele sikuqashe)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Impendulo yakho...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Susa",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Engeza impendulo yangokwezifiso",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Inkampani",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Indima / Isihloko",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Idethi Yokuqala",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Idethi Yokuphela",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Phrezenta",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Njengamanje ngisebenza kule ndima",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Incazelo",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Chaza izibopho zakho, izimpumelelo ezibalulekile, ubuchwepheshe obusetshenzisiwe...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Engeza Umuzwa Womsebenzi",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Isihloko Sephrojekthi",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Isitaki Sobuchwepheshe",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "I-URL yokusebenzisa",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Chaza ukuthi yini oyakhile, iyiphi inkinga eyixazululile, nezici ezibalulekile...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Engeza Iphrojekthi",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "I-Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Kulondoloziwe",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Kusetshenzisiwe",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Ukuhlola",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Ingxoxo",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Nikeza",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Kwaliwe",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Kuhoxisiwe",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Susa lolu hlelo lokusebenza?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Uhlelo lokusebenza lubuyekeziwe!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Uhlelo lokusebenza lususiwe.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Isimo",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Inkundla",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Kusetshenzisiwe",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Vula Ukuthumela Umsebenzi",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Iholo / Imali Yesibonelelo",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Isikhumbuzi Sokulandelela",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Amanothi",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Engeza amanothi, imininingwane yokuxhumana, imininingwane yenhlolokhono...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Incazelo yomsebenzi (ingcaphuno)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Susa",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Khansela",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Londoloza",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 isicelo",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ izinhlelo zokusebenza",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Hlunga ngenkampani...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Izihlungi Zesimo",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Skrolela kwesokudla ukuze uthole okwengeziwe →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Konke",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Azikho izinhlelo zokusebenza ezitholiwe",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Zama ukusetha kabusha izihlungi noma ulondoloze umsebenzi ukuze wengeze ukufakwa kwe-tracker entsha",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Izibalo",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ inani lezicelo",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Ayikho idatha okwamanje",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Qala ukufaka izicelo zemisebenzi futhi izibalo zakho zizovela lapha.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Amazinga Okuguqulwa",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Kusetshenzisiwe",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Izinga Lengxoxo",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Nikeza Inani",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Izinhlelo zokusebenza kuleli sonto",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Ifaneli yohlelo lokusebenza",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Amapulatifomu aphezulu",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Ukuhlukaniswa Kwesimo",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "I-AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Umongo: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "I-career copilot yakho",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Ingxoxo Entsha ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Sicela usethe iphrofayili yakho kuqala ukuze i-AI yenze izimpendulo eziqondene nawe.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Ingxoxo isuliwe! Ngingakusiza ngani?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Buza noma yini ngalo msebenzi...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Setha iphrofayela yakho ukuze uqale",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Cindezela u-Enter ukuze uthumele",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Qalisa kabusha Isikolo Esivumelanayo",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Amakhono Aqinile",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Amakhono Alahlekile",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Nansi incwadi yakho yekhava yomuntu siqu:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Ikopishiwe!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopisha",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Landa",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Nansi imibuzo $1$ okungenzeka ibe yinhlolokhono:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Qalisa kabusha isikolo sokuthuthukisa: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Qalisa kabusha Iziphakamiso Zokufanisa",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs le ncazelo yomsebenzi",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Kukhona okungahambanga kahle. Sicela uzame futhi.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Sawubona! Ngiyabona ukuthi ubheka indima **$1$** kokuthi **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Sawubona! Ngiyabona ukuthi ubheke indima **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Sawubona! Ngingumsizi wakho we-AI. Zulazulela ohlwini lwemisebenzi futhi ngizoluhlaziya ngokuzenzekelayo, noma ngibuze noma yini!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Sicela usethe iphrofayela yakho kuqala kuthebhu Yephrofayela!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Sicela uvule ikhasi lohlu lwemisebenzi esipheqululini sakho kuqala ukuze usebenzise lesi sici!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Vula i-ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Ngena ngemvume nge-Google ukuze ufinyelele ideshibhodi yakho, uvumelanise imisebenzi, uphathe iphrofayela yakho yokuqhuba, futhi ugcwalise ngokuzenzakalelayo izicelo zomsebenzi ngokushesha.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "I-AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skena futhi ugcwalise ngokuzenzakalelayo izinhlelo zokusebenza ngokuchofoza okukodwa.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "I-Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Vumelanisa yonke imininingwane yakho yokulandelela umsebenzi ku-Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Qalisa kabusha namaphrofayili",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Layisha i-resume yakho futhi wenze ngendlela oyifisayo izimpendulo zohlelo lokusebenza.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Ixhumeka ku-Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Ngena ngemvume nge-Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Ngokungena ngemvume, uyavuma ukuvumelanisa idatha yephrofayela yakho ngokuphephile endaweni yakho yokusebenza esebenzayo.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Uqinisekile ukuthi ufuna ukuphuma ngemvume?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Uphume ngempumelelo.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Ungene njengo-$1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Phuma",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Ngena ngemvume",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Iyaxhuma...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Vula i-ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Faka iFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Amakhono Okufanisa Aqinile",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Amakhono Angekho",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Ikhasi Lokugcwalisa Okuzenzakalelayo Okuhlakaniphile",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Ukugcwalisa ngokuzenzakalelayo Ifomu...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Azikho izinkambu zohlelo lokusebenza ezigcwalisekayo ezitholakala ekhasini.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Kugcwaliswe Ngempumelelo!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Ukugcwalisa okuzenzakalelayo kwehlulekile ngenxa yobunkimbinkimbi bekhasi.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Kulondolozwe ngokuzenzakalela ukuze ungene ku-tracker uma usugcwalisiwe.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ukuqhubeka kwakho **$1$% kuyahambisana** nale ndima.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Siyakwamukela futhi, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Yehlulekile ukulanda imininingwane yephrofayela yomsebenzisi we-Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Ukungena ngemvume kwe-OAuth kuhlulekile: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Yehlulekile ukulanda ithokheni yokufinyelela ekuqondisweni kabusha.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Yehlulekile ukuncozulula ukuqondisa kabusha kokuqinisekisa.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Ukuqinisekisa akusekelwa kule nkundla.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Umsebenzi ulondolozwe ku-tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Isivakashi",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Izilungiselelo Ezijwayelekile",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Bonisa ku-LinkedIn Job Pages",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Ibonisa amaphuzu ahlakaniphile afanayo kanye nenkinobho yokuchofoza okukodwa kokugcwalisa ngokuzenzakalelayo lapho ubuka okuthunyelwe kwemisebenzi ku-LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Bonisa Inkinobho 'Yokulondoloza Umsebenzi'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Ibonisa inkinobho entantayo ethi 'Londoloza Umsebenzi 📌' kumasayithi omsebenzi ukuze ukwazi ukulondoloza ngokushesha imininingwane yomsebenzi kusilandeleli sakho ngaphambi kokufaka isicelo.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Ngena Kuphela Ngemva Kokufaka Isicelo",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Linda uze ubone isikrini 'Siyabonga' noma 'Impumelelo' ngaphambi kokwengeza umsebenzi kusilandeleli sakho. Igcina i-tracker yakho icocekile ngokuvimbela amafomu agcwaliswe uhhafu ukuthi alondolozwe njengokuthi 'Asetshenzisiwe'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Izikweletu ze-AI Nezibalo Zokusetshenziswa",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Amakhredithi Asele",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Amakhredithi Asele",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Isamba Sezikweletu",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Ukugcwalisa Okuzenzakalelayo Kwaso sonke isikhathi",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Hlela Isimo",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "I-Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Mahhala 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Ithiphu yePro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Ukusebenza kokugcwalisa okuzenzakalelayo okuhlakaniphile kudla amakhredithi angu-0 futhi akunamkhawulo ngo-100%! Izici ezithuthukisiwe ze-AI kuphela njenge-Cover Letters (amakhredithi angu-5) kanye Nezindatshana zangokwezifiso (amakhredithi ama-3) ezisebenzisa ibhalansi yakho yesikweletu.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 I-akhawunti ye-Google Nokuvumelanisa Kwamafu",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "I-Google Cloud Sync Iyasebenza",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Ukuvumelanisa Kwamafu Kukhiyiwe (I-Premium Kuphela)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Ukuvumelanisa Kwamafu",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Phushela ku-Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Donsa kusukela ku-Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Ukuvumelanisa kuphumelele!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Ukuvumelanisa kuhlulekile. Hlola uxhumano lwakho.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Vikela Ukuvumelanisa Kwamafu",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Ngena ngemvume nge-Google ukuze wenze isipele izinhlelo zakho zokusebenza nephrofayela ku-Supabase. Ukuvumelanisa kuyisici se-Premium esigcina amalogi akho ephephile kuwo wonke amadivayisi.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "I-Supabase Cloud Sync iyisici se-Premium. Sicela uthuthukise kuthebhu ethi Thuthukisa ukuze unike amandla ukuvumelanisa!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Ukuphathwa Kwedatha",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Khipha Isipele (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Sula Yonke Idatha Yasendaweni",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Ukususa idatha yendawo kususa iphrofayela yakho nezinhlelo zokusebenza kule divayisi kuphela. Idatha yamafu ayithinteki.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Isikhungo Sokulawula",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Ikhaya & Mayelana",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Izilungiselelo Ezijwayelekile",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Thuthukela ku-Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Uhlelo Oluphambili 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "I-akhawunti & Vumelanisa",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Inqubomgomo Yobumfihlo",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Izinqamuleli zekhibhodi",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Siyakwamukela ku-ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "I-ApplyFlow iyisandiso se-Chrome esinikwe amandla nge-AI esakhelwe izitshudeni nabafuna umsebenzi abafuna ukufaka isicelo ngokushesha nangokukhaliphile. Izitholela futhi igcwalise amafomu okufaka isicelo somsebenzi kuzo zonke izinkundla ezingu-15+, ilandelele umzila wakho, futhi ikusize wenze inhlolokhono eyengeziwe.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Ukugcwalisa Okuzenzakalelayo Okuhlakaniphile",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ amapulatifomu e-ATS anezikhethi ezinembile",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "I-Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Ngokuchofoza okukodwa londoloza noma yikuphi ukufakwa kuhlu kwemisebenzi",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "I-Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Hudula bese udedela ipayipi lakho lesicelo",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "I-EEO Autofill",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Igcwalisa ngokuzenzakalelayo imibuzo yabantu kanye ne-visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "I-AI Essays",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Ukubhalwa kwempendulo yangokwezifiso ye-Gemini-powered",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Ukuvumelanisa Okuvikelekile",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Ikhophi yasenqolobaneni yefu ye-Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Ungaqala Kanjani",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Yakha iphrofayela yakho",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Vula i-popup → ithebhu yephrofayela → layisha kabusha i-PDF yakho. I-AI izokhipha ngokuzenzakalelayo yonke imininingwane yakho okuhlanganisa amakhono, ulwazi, imfundo, namaphrojekthi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Setha Izintandokazi ze-EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Skrolela esigabeni se-EEO kuPhrofayela yakho bese usetha ukugunyazwa komsebenzi wakho, izidingo zoxhaso lwe-visa, kanye nezintandokazi zezibalo zabantu. Lezi zisetshenziselwa ukugcwalisa ngokuzenzakalelayo uhlu lwemibuzo lwe-EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Phequlula Uhlu Lwemisebenzi",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Zulazulela kunoma yiluphi uhlu lwemisebenzi. Uzobona inkinobho ethi 📌 \"Londoloza Umsebenzi\" ivela. Yichofoze ukuze ulondoloze ngokushesha indawo ku-tracker yakho.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Vula Ifomu Lokufaka Isicelo",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Zulazulela efomini lesicelo. Chofoza i-ApplyFlow popup → shaya \"Skena Ikhasi\" → bese \"⚡ Ukugcwalisa Okuzenzakalelayo Okuhlakaniphile\". Zonke izinkambu ezifaka izinkinobho zerediyo nokwehliswayo zigcwaliswa ngaso leso sikhathi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Landelela ipayipi lakho",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Vula ithebhu ye-Tracker ukuze ubone zonke izinhlelo zakho zokusebenza. Shintshela ekubukeni kwebhodi le-Kanban bese uhudula amakhadi phakathi kwamakholomu njengezibuyekezo zesimo sakho.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Ukungena ngemvume Kudingeka",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Ngena ngemvume ukuze wenze ngokwezifiso izilungiselelo",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Izilungiselelo Ezivamile zitholakala kuphela kubasebenzisi abangene ngemvume. Ngena ngemvume nge-Google ukuze ulungiselele okuncamelayo, ukuziphatha kokugcwalisa ngokuzenzakalela, nokuningi.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Iya kokuthi I-akhawunti Nokuvumelanisa",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "I-ApplyFlow Pro Iyasebenza",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Ukhiye welayisensi: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Vala ilayisensi",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Ukuqalisa Ukhiye Welayisensi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Uma uthenge ukubhalisa noma uthole ikhodi yokufinyelela, faka ukhiye wakho welayisense ngezansi ukuze uvule i-ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Yenza kusebenze",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Yenza kusebenze...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Ithiphu: Ungakwazi ukwenza i-Premium isebenze usebenzisa ukhiye othi APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "I-Premium iyasebenza!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Siyabonga ngokusekela i-ApplyFlow. Zonke izici ze-premium manje sezivuliwe.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Uhlelo Lokuthuthukisa I-Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Vula ukuthunyelwa kwemisebenzi yakho kanye nezici ze-AI ezithuthukisiwe.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Thola amakhredithi e-AI e-premium ezinhlamvu zekhava, izimpendulo zendatshana yangokwezifiso, ukuqalisa ukusebenza kahle, kanye nokulungiselelwa kwenhlolokhono mbumbulu. Ukugcwalisa ngokuzenzakalelayo ezisekelweni ezisekelwayo akunamkhawulo ngokuphelele futhi kumahhala kubo bonke abasebenzisi be-premium!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Umtitilizo we-Early Addopter:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Intengo elandelayo ikhuphuka kubasebenzisi abangu-500 be-Premium. Khiya kuleli zinga impilo yonke!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "I-Pro Monthly",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Kuhle kusesho lwesikhashana",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "R399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ngenyanga",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Ngaphandle kuka-R13 / ngosuku)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "Amakhredithi e-AI angu-150 ngenyanga|||Ukugcwalisa okuzenzakalelayo okungenamkhawulo (Wonke Amaphothali)|||Vumelanisa Amafu ne-Google Backup|||Izindikimba eziyinhloko|||Ukuzizwisa okungenazikhangiso",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Bhalisa Nyanga zonke",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "I-Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Inani elingcono kakhulu labaningi abafuna umsebenzi",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 izinyanga",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Ngaphandle kuka-R11 / ngosuku)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "Amakhredithi e-AI angu-500 ngekota|||Ukugcwalisa okuzenzakalelayo okungenamkhawulo (Wonke Amaphothali)|||Izinhlamvu Zekhava Efanelana Nezindatshana ||Vumelanisa Amafu Nesipele Se-Google|||Qalisa Kabusha Iziphakamiso Zokufanisa",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Bhalisa Ngekota",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Okudume kakhulu",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "I-Ultimate Yonyaka",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Inani elingcono kakhulu labasebenzisi bamandla",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ ngonyaka",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Ilingana no-R249 / ngenyanga)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI Credits ngonyaka|||Ukugcwalisa okuzenzakalelayo kwansuku zonke okungenamkhawulo|||Izinhlamvu Zekhava Ehlanganisiwe Nezindatshana|||Ukuvumelanisa Kwamafu Nesipele Se-Google|||Qalisa Kabusha Iziphakamiso Zokumesha|||Usekelo Lwe-imeyili Ebalulekile",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Bhalisa minyaka yonke",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Inani Elingcono Kakhulu - Yonga u-40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Sekela i-ApplyFlow Development",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "I-ApplyFlow yakhiwe futhi inakekelwa onjiniyela abazimele. Uma uthola isandiso siwusizo, cabanga ukunikela nge-Ko-fi ukuze usigcine sisebenza, kungenazikhangiso, futhi sithuthukela amabhodi emisebenzi amasha.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Ngithengele ikhofi ku-Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Isilinganiso|||🔒 Vikela Izinkokhelo|||✓ Khansela Noma Nini",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Ukhiye welayisense ongavumelekile. Ithiphu: Zama ukusebenzisa ukhiye wedemo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Ilayisensi Isebenze Ngempumelelo! Siyakwamukela ku-ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ingabe uqinisekile ukuthi ufuna ukuvala ilayisensi yakho ye-premium? Lokhu kuzokubuyisela Ohlelweni Lwamahhala.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Ilayisensi ye-Premium ivaliwe. Manje usoHlelweni Lwamahhala.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Lokhu kuzosusa unomphela YONKE iphrofayela yendawo kanye nedatha yohlelo lokusebenza. Uqinisekile?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Inqubomgomo Yemfihlo",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Imibuzo Evame Ukubuzwa",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Iyini i-ApplyFlow futhi isebenza kanjani?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "I-ApplyFlow iyisandiso se-Chrome esinamandla e-AI esizitholela futhi sigcwalise amafomu okufaka isicelo somsebenzi kuzo zonke izinkundla ezingu-15+ ezihlanganisa i-LinkedIn, i-Internshala, i-Unstop, i-Workday, i-Greenhouse, i-Lever, nokuningi. Ifunda iphrofayela yakho elondoloziwe futhi isebenzisa ukufanisa okuhlakaniphile ukuze igcwalise izinkambu zombhalo, okwehliswayo, izinkinobho zomsakazo, namabhokisi okuhlola — okuhlanganisa imibuzo ye-EEO/demographic.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Ingabe idatha yami yomuntu siqu iphephile nge-ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Yebo. Idatha yakho igcinwa endaweni ku-chrome.storage.local yesiphequluli sakho ngokuzenzakalelayo. Ayikaze ithunyelwe kunoma iyiphi iseva yomuntu wesithathu ngaphandle kwesizindalwazi sakho se-Supabase ozikhethela sona (osilawulayo). I-ApplyFlow ayidayisi, yabelane, noma yenze imali ngolwazi lwakho lomuntu siqu.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Yiziphi izinkundla zomsebenzi ezisekelwa yi-ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "I-ApplyFlow isekela amapulatifomu angu-15+ aphuma ebhokisini: I-LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Ngempela, Wellfound/AngelList, kanye nanoma iyiphi enye isayithi ngokusebenzisa i-generic fallback matcher yethu ehlakaniphile.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Iyini i-Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "I-Web Clipper iyinkinobho entantayo ethi \"Londoloza Umsebenzi\" (📌) evela ngokuzenzakalelayo lapho uvakashela noma yiliphi ikhasi lohlu lwemisebenzi. Ukuyichofoza kukhipha isihloko somsebenzi, inkampani, iholo, kanye nencazelo, bese kuyilondoloza kusilandeleli sakho se-ApplyFlow njengohlelo lokusebenza \"Elulondoloziwe\" — ukuze ukwazi ukulandelela imisebenzi ngaphambi kokufaka isicelo.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Ngiyibuyekeza kanjani iphrofayela yami?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Vula i-popup ye-ApplyFlow, chofoza ithebhu ethi \"Iphrofayela\", bese ulayisha i-PDF yakho yokuqalisa kabusha. I-AI izogcwalisa ngokuzenzakalelayo zonke izinkambu zakho. Ungakwazi futhi ukuhlela mathupha noma iyiphi inkambu okuhlanganisa okuncamelayo kwe-EEO, ukugunyazwa komsebenzi, nezinhlamvu zekhava.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Yiziphi izinkambu ze-EEO futhi kungani ngizidinga?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Izinkambu ze-EEO (Equal Employment Opportunity) ziyimibuzo abaqashi abaningi base-US nabasemhlabeni jikelele abayibuzayo mayelana nobulili, isimo sokukhubazeka, isimo sokuba umakadebona, nokugunyazwa komsebenzi. I-ApplyFlow igcina izimpendulo ozincamelayo futhi igcwalisa ngokuzenzakalela la maqembu wezinkinobho zomsakazo ukuze ungawaphenduli mathupha njalo.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Ingabe i-ApplyFlow idinga okhiye be-API noma ukulungiswa?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Cha! I-ApplyFlow iphatha konke ukutholwa kwefomu, ukufaniswa okuhlakaniphile, ukukhiqizwa kwezinhlamvu zekhava, kanye namagoli okusebenzisana ngokuzenzakalelayo. Awudingi ukuthola noma ukulungisa noma yibaphi okhiye be-API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Kuyini ukuvumelanisa kwe-Supabase futhi ngiyakudinga?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Ukuvumelanisa kwe-Supabase kuyisici esingakhethwa sokulondoloza ifu. Uma ungena nge-Google futhi uyivula, iphrofayili yakho nesilandeleli sohlelo lokusebenza kuvumelaniswa kusizindalwazi samafu esiyimfihlo ukuze idatha yakho yenziwe isipele futhi ifinyeleleke kumadivayisi amaningi. Lokhu kungokuzithandela ngokuphelele - isandiso sisebenza ungaxhunyiwe ku-inthanethi ngokugcwele.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Kungani i-ApplyFlow idinga ukufinyelela kuwo wonke amawebhusayithi?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "I-ApplyFlow icela ukufinyelela kuwo wonke amawebhusayithi ukuze ikwazi ukufaka injini yokugcwalisa ngokuzenzakalela kunoma yiliphi ifomu lesicelo somsebenzi, futhi ibonise inkinobho yokunamathisela ethi \"Londoloza Umsebenzi\" kunoma yiluphi uhlu lwemisebenzi. Le mvume iyadingeka ukuze kusekelwe inkundla ebanzi. Sijova kuphela imibhalo emakhasini ahlobene ngokusobala nomsebenzi.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Liyini Ibhodi le-Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Ibhodi le-Kanban liwukubuka kokulandela umkhondo komsebenzi kuthebhu ye-Tracker. Ibonisa izinhlelo zakho zokusebenza ezihlelwe ngamakholomu: Kulondoloziwe → Kusetshenzisiwe → Ukuhlola → Ingxoxo → Okunikezwayo. Ungahudula bese uphonsa amakhadi phakathi kwamakholomu ukuze ubuyekeze isimo sanoma yiluphi uhlelo lokusebenza.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Kusebenza kanjani ukutholwa kokuthunyelwe?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Uma unika amandla okuthi \"Ngena kuphela ngemva kokuhambisa\" kuzilungiselelo, i-ApplyFlow ibukela izinguquko zekhasi ezibonisa ukuthunyelwa ngempumelelo (njenge-URL equkethe \"/impumelelo\" noma umbhalo womzimba othi \"Siyabonga ngokufaka isicelo\"). Ifaka kuphela uhlelo lokusebenza ku-tracker yakho ngemuva kokuthola ukuthunyelwa kwangempela.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Ngingakwazi ukugcina izincwadi eziningi zekhava?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Yebo! Isikrini Sephrofayela sinesigaba esithi \"I-Cover Letter Vault\" lapho ungagcina khona izinhlamvu zekhava ezingenamkhawulo eziklanyelwe izindima noma izinkampani ezahlukene. Uma ugcwalisa ngokuzenzakalelayo, i-ApplyFlow izosebenzisa incwadi yakho yekhava yakamuva noma efaneleke kakhulu.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Ngiyithekelisa kanjani idatha yami yohlelo lokusebenza?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Iya kokuthi I-Akhawunti Nokuvumelanisa → skrola uye phansi → chofoza okuthi \"Khipha Isipele (JSON)\". Lokhu kulanda yonke iphrofayela yakho nedatha yohlelo lokusebenza njengefayela le-JSON ukuze ligcinwe.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Ingabe i-ApplyFlow isebenza kumodi yedemo?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Imodi yedemo bekuyisilungiselelo sefa esisetshenziselwa ukuhlola. Manje ikhutshaziwe ngokuzenzakalela. Zonke izici zibukhoma futhi ziyasebenza ngokhiye owakhelwe ngaphakathi we-Gemini API.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Ngisibika kanjani isiphazamisi noma ngicele isici?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Sicela uvule inkinga endaweni yethu yokugcina ye-GitHub (exhunywe esigabeni esithi Mayelana) noma usithumele i-imeyili kokuthi support@applyflow.in. Ngokuvamile siphendula phakathi namahora angu-48.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Vula i-popup ye-ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Skena ikhasi lamanje ukuze uthole izinkambu zefomu",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Qalisa Ukugcwalisa Okuzenzakalelayo Okuhlakaniphile ekhasini lamanje",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Sika uhlu lwemisebenzi yamanje kusilandeleli",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Vula i-Tracker kuthebhu entsha",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Lungiselela izinqamuleli ku-Chrome ku-",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Qaphela:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Imiyalo yesandiso se-Chrome idinga umsebenzi owenziwa ngesandla kusiphathi sesinqamuleli se-Chrome. Hamba ku-$1$ ukuze ubophe okhiye abasohlwini olungenhla.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**I-ApplyFlow Chrome Extension — Inqubomgomo Yobumfihlo**\nIgcine ukubuyekezwa: Juni 2026\nNL_2__---\nNL_4__**1. Isingeniso**\nNL_6__I-ApplyFlow (\"thina\", \"yethu\", \"Isandiso\") isandiso sesiphequluli se-Chrome esiza abasebenzisi ukuthi bagcwalise ngokuzenzakalelayo amafomu ezicelo zomsebenzi, balandelele izinhlelo zabo zokusebenza, futhi baphathe amaphrofayela abo ochwepheshe. Le Nqubomgomo Yobumfihlo ichaza ukuthi siluqoqa, silusebenzisa, silugcina kanjani futhi sivikela kanjani ulwazi lwakho.\nNL_8__Ngokufaka nokusebenzisa i-ApplyFlow, uyavumelana nezinqubo ezichazwe kule nqubomgomo.\nNL_10__--_\nNL_12__**2. Idatha Esiyiqoqayo**\nNL_14__Siqoqa kuphela ulwazi olunikeza ngokuzithandela ukuze unike amandla izici zesandiso:\nNL_16__• **Ulwazi Lwephrofayela**: Igama lakho, i-imeyili, inombolo yocingo, ikolishi, iziqu, amakhono, umlando womsebenzi, amaphrojekthi, nezixhumanisi zobungcweti (Hunked_7_) **I-EEO/Ulwazi Lokubalwa Kwendawo (Ongakukhetha)**: Ubulili, isimo sokukhubazeka, isimo somakadebona, nokuncanyelwayo kokugunyazwa komsebenzi — kunikezwa kuphela uma ukhetha ukugcwalisa lezi zindawo. Le datha isetshenziswa ngokukhethekile ukugcwalisa ngokuzenzakalelayo uhlu lwemibuzo lwe-EEO ezicelweni zomsebenzi.\n• **Idatha Yokulandelela Isicelo**: Isihloko somsebenzi, inkampani, i-URL yohlelo lokusebenza, isimo, namanothi ezikhundla ozilandelelayo usebenzisa isandiso.\n• **Izibalo Zokusetshenziswa**: Inombolo yemisebenzi yansuku zonke yokugcwalisa ngokuzenzakalelayo ukuze kwenziwe imikhawulo).\n• **Idatha Yokuqinisekisa**: Uma ukhetha ukungena ngemvume nge-Google, sigcina igama lakho lesibonisi le-Google, ikheli le-imeyili, ne-URL yesithombe sephrofayela ukuze senze okuhlangenwe nakho kwakho kube ngokwakho futhi unike amandla ukuvumelanisa kwamafu.\nNL_22__***asiqoqi:\n_Umlando wokukhokha noma weN_2 wezezimali ovamile •_2Iphequlula_2 umsebenzi\n• Noma yiluphi ulwazi oluvela emakhasini angahlobene nesicelo somsebenzi\n• Noma iyiphi idatha evela emakhasini uma isandiso singacushiwe\n\n---\nNL_30__**3. Siyigcina Kanjani Idatha Yakho**\nNL_32__**3.1 Isitoreji Sendawo (Okuzenzakalelayo)**\nYonke idatha igcinwa ngokuyinhloko ku-Chrome.storage.local API yesiphequluli sakho. Le datha ihlala kudivayisi yakho kuphela futhi ayilokothi idluliselwe kunoma iyiphi iseva ngaphandle kwesenzo sakho esisobala.\n\n**3.2 Ukuvumelanisa Kwamafu (Ngokuzithandela)**\nUma ukhetha ukungena ngemvume nge-Google futhi unike amandla isici se-\"Supabase Sync\", iphrofayela yakho nedatha yohlelo lokusebenza izophinde ihambisane ne-Supabase. Ugcina ubunikazi obugcwele bale datha. Ungayisusa noma nini esigabeni se-Akhawunti Nokuvumelanisa.\nNL_38__**3.3 Izicelo ze-Gemini AI**\nLapho kusetshenziswa izici ze-AI (isb., ukukhiqizwa kwe-eseyi, ukuhlaziya umsebenzi), izingxenye zephrofayela yakho (amakhono, iziqu, isifinyezo) kanye nombhalo wencazelo yomsebenzi i-Gemini ithunyelwa ku-Google API. Lokhu kucutshungulwa ngaphansi Kwemigomo Yesevisi ye-API ejwayelekile ye-Google kanye Nenqubomgomo Yobumfihlo. Sincoma ukuthi ungafaki izihlonzi zomuntu siqu ezibucayi kokuqukethwe kwakho okusizwa yi-AI.\nNL_41__---\nNL_43__**4. Ukwabelana Ngedatha**\nNL_45__**asithengisi, asidayisi, siqashisa, noma sabelane ngemininingwane yakho siqu nanoma yiziphi izinkampani zangaphandle ngenjongo yokuthengisa noma yokukhangisa.\nNL_47__Idatha yakho ingase icutshungulwe yilezi zinsizakalo ezithenjiwe ezilandelayo:\n• Ifomu lokuhlaziya le-Google: Ukuhlaziywa kwe-Google (https://policies.google.com/privacy)\n• **Google OAuth**: Ukuqinisekisa i-akhawunti (https://policies.google.com/privacy)\n• **Supabase**: Ngesitoreji samafu ozikhethela (https://supabase.com/privacy) — kuphela uma unika amandla vumelanisa\nNL_52__---\nNL_54__**5. Amalungelo Akho Nokulawula**\nNL_56__Unelungelo:\n• **Ukufinyelela** yonke idatha egcinwe yi-ApplyFlow emayelana nawe (nge-Export Backup kuzilungiselelo)\n• **Lungisa** imininingwane yakho nganoma isiphi isikhathi kuthebhu Yephrofayela___•Susa yonke imininingwane yasendaweni**Susa yonke imininingwane yakho* Idatha\" kuzilungiselelo\n• **Hoxisa imvume** nganoma isiphi isikhathi ngokukhipha isandiso\n• **Khubaza ukuvumelanisa kwamafu** ngokuyicisha kokuthi Izilungiselelo ze-Akhawunti Nokuvumelanisa\nNL_63__**GDPR (Abasebenzisi be-EU)**: Uma unamalungelo okufinyelela e-EU, nciphisa ukufinyelela kwe-EU ukucubungula, nokuphatheka kwedatha ngaphansi kwe-General Data Protection Regulation.\nNL_65__**India — DPDP Act 2023**: Ngokuthobelana Nomthetho Wokuvikelwa Kwedatha Yabantu Yedijithali wase-India 2023, sicubungula idatha yomuntu siqu kuphela ngenjongo yokuhlinzeka ngesevisi yosizo lwesicelo somsebenzi. Ungahoxisa imvume futhi ucele ukususwa kwedatha yakho noma nini ngokusithinta.\nNL_67__**California — CCPA**: Izakhamuzi zaseCalifornia zinelungelo lokwazi ukuthi yiluphi ulwazi lomuntu siqu oluqoqiwe, ilungelo lokususa, kanye nelungelo lokuphuma ekudayiseni (asithengisi idatha).\nNL_69__---\nNL_71__**6. Ukugcinwa Kwedatha**\n\nIdatha yasendaweni iyagcinwa uze uyisule mathupha. Idatha evunyelaniswe ngamafu iyagcinwa uze usule i-akhawunti yakho noma ucele ukususwa. Asiyisusi idatha ngokuzenzakalelayo.\nNL_75__---\nNL_77__**7. Ukuvikeleka**\nNL_79__Sithatha izinyathelo zobuchwepheshe eziphusile ukuze sivikele idatha yakho:\n• Konke ukuxhumana kwamafu kusebenzisa ukubethela kwe-HTTPS/TLS\n• I-Supabase Row-Level Security (RLS) iqinisekisa ukuthi abasebenzisi bangakwazi ukufinyelela kuphela idatha yabo siqu engadingeki ngaphandle kwedatha yabo siqu\n• umsebenzi\nNL_84__---\nNL_86__**8. Ubumfihlo Bezingane**\n\nI-ApplyFlow ayihloselwe abasebenzisi abangaphansi kweminyaka engu-13. Asiqoqi ngamabomu idatha ezinganeni. Uma ukholelwa ukuthi ingane isinikeze ulwazi lomuntu siqu, sicela usithinte ngokushesha.\nNL_90__---\nNL_92__**9. Izinguquko Kule Nqubomgomo**\n\nSingase sibuyekeze le Nqubomgomo Yobumfihlo ngezikhathi ezithile. Izinguquko ezinkulu zizokwaziswa ngekhasi lezinketho lesandiso. Ukusetshenziswa okuqhubekayo kwesandiso ngemva kwezinguquko kuhlanganisa ukwamukela inqubomgomo ebuyekeziwe.\nNL_96__---_\nNL_98__**10. Xhumana nathi**\nNL_100__Nganoma yimiphi imibuzo ehlobene nobumfihlo, izicelo zokususwa kwedatha, noma izinto ezikukhathazayo:\nNL_102__I-imeyili: privacy@applyflow.in\nGitHub: https://github.com_site_site0_L/applyNL/ https://applyflow.in\nNL_106__Sihlose ukuphendula zonke izicelo zingakapheli izinsuku ezingu-30.",
+    "description": "Privacy policy document markdown text"
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Täytä työhakemukset ja kappaleluettelot automaattisesti käyttämällä tekoälyä LinkedInissä, Workdayssa, Greenhousessa ja muissa palveluissa.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktiivinen",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Sovellettu",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Haastattelu",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Tarjoa",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Tallennettu",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Yhteensä",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Automaattinen täyttö",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Täytetään...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Nopea automaattinen täyttö",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analysoi Job",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Avaa sivupalkki",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Asetukset",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Kirjaudu ensin sisään Googlella, jotta voit käyttää nopeaa automaattista täyttöä!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Määritä profiilisi ensin Sivupaneeli/Asetukset-sivulla!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Havaittu",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Työsivua ei havaittu",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Avaa tekoälyominaisuudet vierailemalla työpaikkailmoituksella",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Hyvää huomenta",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Hyvää iltapäivää",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Hyvää iltaa",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ sovelluksia seurattu · $2$ haastattelua",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Aloita hakeminen seurataksesi edistymistäsi",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Saatekirje",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Q&A-ohje",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Valmiina auttamaan",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Aloita siirtymällä työpaikkaluetteloon LinkedInissä, Workdayssa, Greenhousessa tai missä tahansa työpaikkataulukossa.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Tällä viikolla",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Viimeaikainen toiminta",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Näytä kaikki →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Aloita työnhaku!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Vieraile työpaikkataulukossa ja käytä ApplyFlow'ta hakemusten automaattiseen täyttöön ja seurantaan.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Oma profiili",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Tallennetaan...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Tallenna kaikki",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profiili tallennettu!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Profiilin tallennus epäonnistui.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Jatka",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Lataa automaattisen täytön profiiliin",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Ladattu",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Henkilökohtaiset tiedot",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Epätäydellinen",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Sijainti",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "koulutus",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Taidot",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Työkokemus",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projektit",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Työasetukset",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Työlupa",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Jatka historiaa",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Käytä tätä",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Jäsennetty $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Ladataanko profiilin tiedot kohteesta \"$1$\"? Tämä korvaa nykyiset muokkauksesi tämän ansioluettelon jäsennetyllä rakenteella.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Palautetut tiedot kohteesta $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Ottelun pisteet",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Sopiva",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ lisää",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Hakemus täytetty ja kirjattu automaattisesti! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Täytetään automaattisesti ApplyFlow-sivupaneelin kautta",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "siellä",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Ei korkeakoulupakettia",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Ota automaattinen täyttö käyttöön määrittämällä profiilisi",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ei asetettu",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ merkintöjä",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ taidot",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projekteja",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ vastaa",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Valtuutettu",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ei valtuutettu",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Koko nimi",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Sähköposti",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Puhelin",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Vaihtoehtoinen puhelin",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfolion URL-osoite",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHubin URL-osoite",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Jatka linkki",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Kaupunki",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "osavaltio",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Maa",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Postinumero",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Osoite",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Kansallisuus",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Yliopisto/yliopisto",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Tutkinto",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Valmistumisvuosi",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / arvosana",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10 %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Ilmoitusaika",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Odotettu palkka",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Ensisijainen rooli",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Vuosien kokemus",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Lupa työskennellä ilman viisumisponsorointia",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Vaatii viisumin sponsoroinnin",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Sukupuoli",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Vammaisuus",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Mieluummin olla sanomatta",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ei määritelty",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Mies",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Nainen",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Ei-binäärinen",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Kyllä",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Ei",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Taitoja ei ole vielä lisätty",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Lisää taito (lisää Enter)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Laukaisulause (esim. miksi meidän pitäisi palkata sinut)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Sinun vastauksesi...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Poista",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Lisää mukautettu vastaus",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Yritys",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rooli/titteli",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Aloituspäivämäärä",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Päättymispäivämäärä",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "läsnä",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Työskentelen tällä hetkellä tässä roolissa",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Kuvaus",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Kuvaile vastuutasi, keskeisiä saavutuksiasi, käytettyjä tekniikoita...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Lisää työkokemusta",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Projektin nimi",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Käyttöönoton URL-osoite",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Kuvaile mitä rakensit, minkä ongelman se ratkaisi ja tärkeimmät ominaisuudet...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Lisää projekti",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Tallennettu",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Sovellettu",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Arviointi",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Haastattelu",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Tarjoa",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Hylätty",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Peruutettu",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Poistetaanko tämä sovellus?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Sovellus päivitetty!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Sovellus poistettu.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Tila",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Alusta",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Sovellettu",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Avaa Työpaikkailmoitus",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Palkka / stipendi",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Jatkotoimien muistutus",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Huomautuksia",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Lisää muistiinpanoja, yhteystietoja, haastattelutietoja...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Työkuvaus (ote)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Poista",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Peruuta",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Tallenna",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 hakemus",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ sovelluksia",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Suodata yrityksen mukaan...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Tilasuodattimet",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Vieritä oikealle saadaksesi lisää →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Kaikki",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Sovelluksia ei löytynyt",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Kokeile nollata suodattimet tai tallenna työ lisätäksesi uuden seurantamerkinnän",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ sovelluksia yhteensä",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Ei vielä dataa",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Aloita työpaikkojen hakeminen, niin analytiikkasi näkyvät täällä.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Muuntokurssit",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Sovellettu",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Haastatteluprosentti",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tarjoushinta",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Hakemukset tällä viikolla",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Sovellussuppilo",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Parhaat alustat",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Tilan erittely",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Konteksti: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Sinun urasi perämies",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Uusi chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Määritä ensin profiilisi, jotta tekoäly voi mukauttaa vastauksia.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat tyhjennetty! Missä voin auttaa sinua?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Kysy mitä tahansa tästä työstä...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Aloita määrittämällä profiilisi",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Lähetä painamalla Enter",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Jatka yhteensopivuuspisteet",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Vahvat taidot",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Puuttuvat taidot",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Tässä on henkilökohtainen saatekirjeesi:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kopioitu!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopioi",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Lataa",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Tässä $1$ todennäköisiä haastattelukysymyksiä:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Jatka optimointipisteet: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Jatka otteluehdotuksia",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs tämä työnkuvaus",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Jotain meni pieleen. Yritä uudelleen.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hei! Näen, että etsit **$1$**-roolia osoitteessa **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hei! Näen, että katsot **$1$**-roolia.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hei! Olen tekoäly-urasi perämies. Siirry työpaikkailmoitukseen, niin analysoin sen automaattisesti tai kysy minulta mitä tahansa!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Määritä profiilisi ensin Profiili-välilehdellä!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Avaa ensin työpaikkasivu selaimessasi käyttääksesi tätä ominaisuutta!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Avaa ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Kirjaudu sisään Googlella, niin voit käyttää hallintapaneelia, synkronoida työt, hallita ansioluettelosi profiilia ja täyttää työhakemukset automaattisesti.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI automaattinen täyttö ja leikkuri",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skannaa ja täytä sovelluksia automaattisesti yhdellä napsautuksella.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Pilven synkronointi ja varmuuskopiointi",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Synkronoi kaikki työnseurantatietosi Supabaseen.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Ansioluettelo ja profiilit",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Lataa ansioluettelosi ja mukauta hakemuksen vastauksia.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Yhdistetään Googleen...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Kirjaudu sisään Googlella",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Kirjautumalla sisään hyväksyt profiilitietosi turvallisen synkronoinnin aktiiviseen työtilaan.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Haluatko varmasti kirjautua ulos?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Uloskirjautuminen onnistui.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Kirjautunut sisään nimellä $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Kirjaudu ulos",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Kirjaudu sisään",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Yhdistetään...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Avaa ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Vahvat sovitustaidot",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Puuttuvat taidot",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Älykäs automaattinen täyttösivu",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Lomakkeen automaattinen täyttö...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Sivulta ei löytynyt täytettäviä hakukenttiä.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Onnistuneesti täytetty!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Automaattinen täyttö epäonnistui sivun monimutkaisuuden vuoksi.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Automaattinen tallennus lokirajaan täytön yhteydessä.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ansioluettelosi on **$1$% yhteensopiva** tämän roolin kanssa.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Tervetuloa takaisin, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google-käyttäjäprofiilitietojen nouto epäonnistui.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth-kirjautuminen epäonnistui: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Käyttötunnuksen nouto uudelleenohjauksesta epäonnistui.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Todennuksen uudelleenohjauksen jäsentäminen epäonnistui.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Todennusta ei tueta tällä alustalla.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Työ tallennettu seurantaan!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Vieras",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Yleiset asetukset",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Näytä LinkedInin työsivuilla",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Näyttää älykkään hakupisteen ja yhden napsautuksen automaattisen täyttöpainikkeen, kun tarkastelet työpaikkailmoituksia LinkedInissä.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Näytä Tallenna työ -painike",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Näyttää kelluvan \"Tallenna työ 📌\" -painikkeen työpaikoilla, jotta voit nopeasti tallentaa työn tiedot seurantalaitteeseen ennen hakemista.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Kirjaudu vasta todellisen hakemuksen jälkeen",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Odota, kunnes näet \"Kiitos\"- tai \"Onnistui\"-näytön, ennen kuin lisäät työn seurantalaitteeseen. Pitää seurantasi siistinä estämällä puoliksi täytettyjen lomakkeiden tallentamisen \"Käytettyinä\".",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI-hyvitykset ja käyttöanalyysit",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Krediittejä jäljellä",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Krediittejä jäljellä",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Krediittejä yhteensä",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Kaikkien aikojen automaattiset täytöt",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Suunnitelman tila",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Ilmainen 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Provinkki:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Älykkäät automaattisen täytön toiminnot kuluttavat 0 krediittiä ja ovat 100% rajattomia! Vain edistyneet tekoälyominaisuudet, kuten saatekirjeet (5 op) ja mukautetut esseet (3 opintopistettä), kuluttavat saldosi.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google-tili ja Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync aktiivinen",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync lukittu (vain Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Työnnä pilveen",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Vedä pilvestä",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Synkronointi onnistui!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Synkronointi epäonnistui. Tarkista yhteys.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Suojattu pilvisynkronointi",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Kirjaudu sisään Googlella varmuuskopioidaksesi sovelluksesi ja profiilisi Supabaseen. Synkronointi on Premium-ominaisuus, joka pitää lokit turvassa eri laitteissa.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync on ensiluokkainen ominaisuus. Päivitä Päivitä-välilehdellä ottaaksesi synkronoinnin käyttöön!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Tiedonhallinta",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Vie varmuuskopio (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Tyhjennä kaikki paikalliset tiedot",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Paikallisten tietojen tyhjentäminen poistaa profiilisi ja sovelluksesi vain tältä laitteelta. Pilvitietoihin ei vaikuta.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Ohjauskeskus",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Etusivu & Tietoja",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Yleiset asetukset",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Päivitä Proksi 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium-paketti 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Tili ja synkronointi",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Tietosuojakäytäntö",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Pikanäppäimet",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Tervetuloa ApplyFlow'hun",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow on tekoälyllä toimiva Chrome-laajennus, joka on suunniteltu opiskelijoille ja työnhakijoille, jotka haluavat hakea nopeammin ja älykkäämmin. Se tunnistaa ja täyttää automaattisesti työhakemuslomakkeet yli 15 alustalla, seuraa prosessiasi ja auttaa sinua pääsemään lisää haastatteluihin.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Älykäs automaattinen täyttö",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Yli 15 ATS-alustaa tarkoilla valitsimilla",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Tallenna työpaikkatiedot yhdellä napsautuksella",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Vedä ja pudota sovellusputki",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO:n automaattinen täyttö",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Täyttää automaattisesti väestötietoja ja viisumikysymyksiä",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI esseitä",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-voimalla mukautettu vastaus kirjoitus",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Suojattu synkronointi",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Valinnainen Supabase-pilvivarmuuskopiointi",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Näin pääset alkuun",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Rakenna profiilisi",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Avaa ponnahdusikkuna → Profiili-välilehti → lataa ansioluettelosi PDF. Tekoäly poimii automaattisesti kaikki tietosi, mukaan lukien taidot, kokemus, koulutus ja projektit.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Aseta EEO-asetukset",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Vieritä profiilisi EEO-osioon ja määritä työlupa, viisumisponsorointitarpeesi ja demografiset asetukset. Näitä käytetään EEO-kyselylomakkeiden automaattiseen täyttöön.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Selaa työpaikkailmoitusta",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Siirry mihin tahansa työpaikkailmoitukseen. Näet 📌 \"Tallenna työ\" -painikkeen. Napsauta sitä tallentaaksesi sijainnin välittömästi seurantalaitteeseen.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Avaa hakulomake",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Siirry hakemuslomakkeeseen. Napsauta ApplyFlow-ponnahdusikkunaa → paina \"Skannaa sivu\" → sitten \"⚡ Smart Autofill\". Kaikki kentät, mukaan lukien valintanapit ja avattavat valikot, täytetään välittömästi.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Seuraa putkistoasi",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Avaa Tracker-välilehti nähdäksesi kaikki sovelluksesi. Vaihda Kanban Board -näkymään ja vedä kortteja sarakkeiden välillä tilapäivityksissäsi.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Kirjautuminen vaaditaan",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Kirjaudu sisään muokataksesi asetuksia",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Yleiset asetukset ovat vain kirjautuneiden käyttäjien käytettävissä. Kirjaudu sisään Googlella määrittääksesi asetukset, automaattisen täytön toimintatavat ja paljon muuta.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Siirry kohtaan Tili ja synkronointi",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Lisenssiavain: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Poista lisenssi käytöstä",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Lisenssiavaimen aktivointi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Jos olet ostanut tilauksen tai saanut pääsykoodin, avaa ApplyFlow Premiumin lukitus antamalla lisenssiavaimesi alle.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktivoi",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktivoidaan...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Vinkki: Voit aktivoida Premiumin painikkeella APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktivoitu!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Kiitos ApplyFlow'n tukemisesta. Kaikki premium-ominaisuudet on nyt avattu.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium-päivityspaketti",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Avaa urasi vienti ja edistyneet tekoälyominaisuudet.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Hanki ensiluokkaisia ​​tekoälyhyvityksiä saatekirjeistä, mukautettuja esseevastauksia, ansioluettelon optimointia ja valehaastatteluvalmisteluja. Automaattiset täyttötoiminnot tuetuilla alustoilla ovat täysin rajoittamattomia ja ilmaisia ​​kaikille premium-käyttäjille!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Early Adopter -tarjous:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Seuraava hinnankorotus 500 Premium-käyttäjälle. Lukitse tämä hinta koko elämäksi!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Monthly Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Hyvä lyhytaikaiseen etsintään",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ kuukausi",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Vain 13 ₹ / päivä)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI-saldoa kuukaudessa|||Rajaton automaattinen täyttö (kaikki portaalit)|||Cloud Sync ja Google Backup|||Premium-teemat|||Mainokseton kokemus",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Tilaa kuukausittain",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Paras hinta-laatusuhde useimmille työnhakijoille",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 kuukautta",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Vain 11 ₹ / päivä)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 tekoälykrediittiä neljännesvuosittain|||Rajaton automaattinen täyttö (kaikki portaalit)|||Räätälöidyt saatekirjeet ja esseet|||Cloud Sync & Google Backup|||Jatka hakuehdotuksia",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Tilaa neljännesvuosittain",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Suosituin",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Vuosittainen Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Paras hinta-laatusuhde tehokäyttäjille",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2 999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ vuosi",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Vastaa 249 ₹/kk)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2 500 tekoälykrediittiä vuodessa|||Rajaton päivittäinen automaattinen täyttö|||Räätälöidyt saatekirjeet ja esseet|||Cloud Sync & Google Backup|||Jatka hakuehdotuksia|||Ensisijainen sähköpostituki",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Tilaa vuosittain",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Paras hinta-laatusuhde – säästä 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Tukea ApplyFlow-kehitystä",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow on riippumattomien kehittäjien rakentama ja ylläpitämä. Jos laajennus on mielestäsi hyödyllinen, harkitse lahjoittamista Ko-fi-sivustolle, jotta se pysyy aktiivisena, ilman mainoksia ja päivitetään uusille työpaikkailmoituksille.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Osta minulle kahvi Ko-fista",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 luokitus|||🔒 Secure Payments|||✓ Peru milloin tahansa",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Virheellinen lisenssiavain. Vihje: Kokeile demo-avainta APPLYFLOW-PRO-2026!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Lisenssi aktivoitu onnistuneesti! Tervetuloa ApplyFlow Premiumiin. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Haluatko varmasti poistaa premium-lisenssin käytöstä? Tämä palauttaa sinut ilmaiseen suunnitelmaan.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium-lisenssi deaktivoitu. Olet nyt ilmaisessa paketissa.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Tämä poistaa pysyvästi KAIKKI paikalliset profiili- ja sovellustiedot. Oletko varma?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Tietosuojakäytäntö",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Usein kysytyt kysymykset",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Mikä ApplyFlow on ja miten se toimii?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow on tekoälyllä toimiva Chrome-laajennus, joka tunnistaa ja täyttää automaattisesti työhakemuslomakkeet yli 15 alustalla, mukaan lukien LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever ja monet muut. Se lukee tallennetun profiilisi ja käyttää älykästä hakua tekstikenttien, avattavien valikoiden, valintanappien ja valintaruutujen täyttämiseen – mukaan lukien EEO/demografiset kysymykset.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Ovatko henkilökohtaiset tietoni turvassa ApplyFlow'n avulla?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Kyllä. Tietosi tallennetaan oletusarvoisesti paikallisesti selaimesi osoitteeseen chrome.storage.local. Sitä ei koskaan lähetetä millekään muulle kolmannen osapuolen palvelimelle kuin omaan valinnaiseen Supabase-tietokantaasi (jota hallitset). ApplyFlow ei koskaan myy, jaa tai kaupallista henkilötietojasi.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Mitä työympäristöjä ApplyFlow tukee?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow tukee yli 15 alustaa valmiina: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList ja mikä tahansa muu älykäs varmistussivustomme kautta.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Mikä on Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper on kelluva \"Tallenna työ\" -painike (📌), joka tulee automaattisesti näkyviin, kun käyt millä tahansa työpaikkasivulla. Napsauttamalla sitä poimii työn nimen, yrityksen, palkan ja kuvauksen ja tallentaa sen sitten ApplyFlow-seurantalaitteeseen \"tallennettuna\" sovelluksena, jotta voit seurata työpaikkoja ennen hakemista.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Kuinka päivitän profiilini?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Avaa ApplyFlow-ponnahdusikkuna, napsauta \"Profiili\"-välilehteä ja lähetä ansioluettelosi PDF-tiedosto. Tekoäly täyttää automaattisesti kaikki kentäsi. Voit myös muokata manuaalisesti mitä tahansa kenttää, mukaan lukien EEO-asetukset, työlupa ja saatekirjeet.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Mitä EEO-kentät ovat ja miksi tarvitsen niitä?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (Equal Employment Opportunity) -kentät ovat kysymyksiä, joita monet yhdysvaltalaiset ja maailmanlaajuiset työnantajat kysyvät sukupuolesta, vammaisuudesta, veteraanistatuksesta ja työluvasta. ApplyFlow tallentaa haluamasi vastaukset ja täyttää nämä valintanappiryhmät automaattisesti, joten sinun ei tarvitse vastata niihin manuaalisesti joka kerta.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Vaatiiko ApplyFlow API-avaimia tai määrityksiä?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Ei! ApplyFlow hoitaa kaiken lomakkeiden tunnistuksen, älykkään vastaavuuden, saatekirjeiden luomisen ja yhteensopivuuspisteytyksen automaattisesti. Sinun ei tarvitse hankkia tai määrittää API-avaimia.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Mikä on Supabase sync ja tarvitsenko sitä?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase synkronointi on valinnainen pilvivarmuuskopiointiominaisuus. Kun kirjaudut sisään Googlella ja otat sen käyttöön, profiilisi ja sovellusseurantasi synkronoidaan yksityiseen pilvitietokantaan, joten tietosi varmuuskopioidaan ja ovat käytettävissä useilta laitteilta. Tämä on täysin valinnaista – laajennus toimii täysin offline-tilassa.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Miksi ApplyFlow tarvitsee pääsyn kaikille verkkosivustoille?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow pyytää pääsyä kaikille verkkosivustoille, jotta se voi lisätä automaattisen täyttömoottorin mihin tahansa työhakemuslomakkeeseen ja näyttää \"Tallenna työ\" -painikkeen missä tahansa työpaikkailmoituksessa. Tämä lupa tarvitaan laajaan alustatukeen. Lisäämme skriptejä vain sivuille, jotka liittyvät selvästi työhön.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Mikä on Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board on visuaalinen työnseurantanäkymä Tracker-välilehdellä. Se näyttää hakemuksesi järjestettynä sarakkeisiin: Tallennettu → Sovellettu → Arviointi → Haastattelu → Tarjous. Voit päivittää minkä tahansa sovelluksen tilan vetämällä ja pudottamalla kortteja sarakkeiden välillä.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Miten lähetyksen tunnistus toimii?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Kun otat \"Kirjaudu vain lähetyksen jälkeen\" käyttöön asetuksissa, ApplyFlow tarkkailee sivun muutoksia, jotka osoittavat onnistuneen lähetyksen (kuten URL-osoitteen, joka sisältää \"/success\" tai leipätekstin, jossa lukee \"Kiitos hakemisesta\"). Se kirjaa sovelluksen seurantalaitteeseen vasta sen jälkeen, kun se havaitsee todellisen lähetyksen.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Voinko tallentaa useita saatekirjeitä?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Kyllä! Profiilinäytössä on \"Cover Letter Vault\" -osio, johon voit tallentaa rajattomasti eri rooleille tai yrityksille räätälöityjä saatekirjeitä. Automaattisen täytön yhteydessä ApplyFlow käyttää viimeisintä tai asianmukaisinta saatekirjettäsi.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Kuinka voin viedä sovellustiedot?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Siirry kohtaan Tili ja synkronointi → vieritä alas → napsauta \"Vie varmuuskopio (JSON)\". Tämä lataa kaikki profiilisi ja sovellustietosi JSON-tiedostona säilytystä varten.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Toimiiko ApplyFlow esittelytilassa?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demotila oli testaukseen käytetty vanha asetus. Se on nyt oletuksena poistettu käytöstä. Kaikki ominaisuudet ovat käytössä ja toimivat sisäänrakennetun Gemini API -avaimen avulla.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Kuinka voin ilmoittaa virheestä tai pyytää ominaisuutta?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Avaa ongelma GitHub-tietovarastossamme (linkki Tietoja-osiossa) tai lähetä meille sähköpostia osoitteeseen support@applyflow.in. Vastaamme yleensä 48 tunnin kuluessa.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Avaa ApplyFlow-ponnahdusikkuna",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Etsi nykyiseltä sivulta lomakekentät",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Käynnistä älykäs automaattinen täyttö nykyisellä sivulla",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Leikkaa nykyinen työpaikkalistaus seurantaan",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Avaa Tracker uudessa välilehdessä",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Määritä pikakuvakkeet Chromessa osoitteessa",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Huomautus:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chromen laajennuskomennot edellyttävät manuaalista määritystä Chromen pikakuvakkeiden hallinnassa. Siirry kohtaan $1$ sitoaksesi yllä luetellut avaimet.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome -laajennus – Tietosuojakäytäntö**\nViimeksi päivitetty: kesäkuussa 2026\n\n---\n\n**1. Esittely**\n\nApplyFlow (\"me\", \"meidän\", \"laajennus\") on Chrome-selainlaajennus, jonka avulla käyttäjät voivat täyttää automaattisesti työhakemuslomakkeita, seurata hakemuksia ja hallita ammattiprofiiliaan. Tämä tietosuojakäytäntö selittää, kuinka keräämme, käytämme, tallennamme ja suojaamme tietojasi.\n\nAsentamalla ApplyFlow'n ja käyttämällä sitä hyväksyt tässä käytännössä kuvatut käytännöt.\n\n---\n__NL_12_**2. Keräämämme tiedot**\n\nKeräämme vain vapaaehtoisesti antamasi tiedot laajennuksen ominaisuuksien mahdollistamiseksi:\n\n• **Profiilin tiedot**: Nimesi, sähköpostiosoitteesi, puhelinnumerosi, korkeakoulu, tutkinto, taidot, työhistoria, projektit ja ammatilliset linkit, GitH Portfolio).\n• **EEO/Demographic Information (Valinnainen)**: Sukupuoli, vammaisuus, veteraanistatus ja työlupaasetukset – tarjotaan vain, jos päätät täyttää nämä kentät. Näitä tietoja käytetään yksinomaan valinnaisten EEO-kyselylomakkeiden automaattiseen täyttöön työhakemuksissa.\n• **Hakemuksen seurantatiedot**: Työnimike, yritys, hakemuksen URL-osoite, tila ja huomautukset työpaikoista, joita seuraat laajennuksen avulla.\n• **Käyttötilastot**: Automaattisen täytön toimintojen määrä en_force_n _2 to en_force_n _2. **Todennustiedot**: Jos päätät kirjautua sisään Googlella, tallennamme Google-näyttönimesi, sähköpostiosoitteesi ja profiilikuvasi URL-osoitteesi personoimaan käyttökokemustasi ja mahdollistamaan pilvisynkronoinnin.\n\nEmme** kerää:\n• Maksu- tai taloustietoja___ L-tietoja\n• B• Browsering__ -Browsering_2 sivuilta, jotka eivät liity työhakemukseen\n• Kaikki tiedot sivuilta, joilla laajennusta ei käynnistetä aktiivisesti\n\n---\n\n**3. Kuinka tallennamme tietosi**\n\n**3.1 Paikallinen tallennus (oletus)**\nKaikki tiedot tallennetaan ensisijaisesti selaimesi chrome.storage.local API:hen. Nämä tiedot ovat vain laitteessasi, eikä niitä koskaan lähetetä millekään palvelimelle ilman nimenomaista toimintoasi.\n\n**3.2 Cloud Sync (valinnainen)**\nJos päätät kirjautua sisään Googlella ja ottaa käyttöön \"Supabase Sync\" -ominaisuuden, myös profiilisi ja sovellustietosi synkronoidaan tietokantaan. Säilytät näiden tietojen täyden omistusoikeuden. Voit poistaa sen milloin tahansa Tili & synkronointi -osiossa.\n\n**3.3 Gemini AI -pyynnöt**\nKun tekoälyominaisuuksia käytetään (esim. esseiden luominen, työn analyysi), profiilisi osa (taidot, tutkinto, yhteenveto) lähetetään sovellusliittymään ja työnkuvausteksti lähetetään Gemini-vastaukselle. Tämä käsitellään Googlen standardisovellusliittymän käyttöehtojen ja tietosuojakäytännön mukaisesti. Suosittelemme, että et sisällytä arkaluonteisia henkilökohtaisia ​​tunnisteita tekoälyavusteiseen sisältöösi.\n\n---\n\n**4. Tietojen jakaminen**\n\nEmme **emme** myy, vaihda, vuokraa tai jaa henkilökohtaisia tietojasi kolmansille osapuolille markkinointi- tai mainontatarkoituksiin.\n\nTietojasi voidaan käsitellä seuraavissa luotetuissa palveluissa:\n• **Täytä lomake AI- ja API:lle. (https://policies.google.com/privacy)\n• **Google OAuth**: Tilin todennus (https://policies.google.com/privacy)\n• **Supabase**: valinnainen pilvitallennustila (https://supabase.com/privacy) – vain, jos otat käyttöön synkronointi\n\n---\n\n**5. Oikeutesi ja hallintaoikeutesi**\n\nSinulla on oikeus:\n• **Pääsy** kaikkiin ApplyFlow'n sinusta tallentamiin tietoihin (asetuksissa Export Backup -toiminnolla)\n• **Korjaa** tietosi milloin tahansa Profiili-välilehdellä**•_L-välilehdellä **•_L_59_ \"Poista kaikki profiilitiedot\" asetuksissa\n• **Peruuta suostumus** milloin tahansa poistamalla laajennuksen asennuksen\n• **Poista pilvisynkronointi käytöstä** kytkemällä se pois päältä Tilin ja synkronoinnin asetuksissa\n\n**** Vahvista EU:n GDPR:n käyttöoikeudet (EU-käyttäjät) poistaa, rajoittaa käsittelyä ja tietojen siirrettävyyttä yleisen tietosuoja-asetuksen mukaisesti.\n\n**Intia – DPDP Act 2023**: Intian Digital Personal Data Protection Act 2023 -lain mukaisesti käsittelemme henkilötietoja vain työnhakuapupalvelun tarjoamiseksi. Voit peruuttaa suostumuksesi ja pyytää tietojesi poistamista milloin tahansa ottamalla meihin yhteyttä.\n\n**Kalifornia – CCPA**: Kalifornian asukkailla on oikeus tietää, mitä henkilötietoja kerätään, oikeus poistaa ja oikeus kieltäytyä myynnistä (emme myy tiedot).\n\n---\n\n**6. Tietojen säilyttäminen**\n\nPaikallisia tietoja säilytetään, kunnes tyhjennät ne manuaalisesti. Pilviin synkronoidut tiedot säilytetään, kunnes poistat tilisi tai pyydät poistamista. Emme poista tietoja automaattisesti.\n\n---\n\n**7. Tietoturva**\n\nRyhdymme kohtuullisiin teknisiin toimenpiteisiin tietojesi suojaamiseksi:\n• Kaikessa pilviviestinnässä käytetään HTTPS/TLS-salausta\n• Supabase Row-Level Security (RLS) varmistaa, että käyttäjät voivat käyttää vain omia tietojaan sen ulkopuolella.__NL_82_ function\n\n---\n\n**8. Lasten tietosuoja**\n\nApplyFlow ei ole tarkoitettu alle 13-vuotiaille käyttäjille. Emme tietoisesti kerää tietoja lapsilta. Jos uskot, että lapsi on antanut meille henkilökohtaisia ​​tietoja, ota meihin välittömästi yhteyttä.\n\n---\n\n**9. Muutokset tähän käytäntöön**\n\nSaamme päivittää tätä tietosuojakäytäntöä ajoittain. Merkittävät muutokset ilmoitetaan laajennuksen Asetukset-sivulla. Laajennuksen käytön jatkaminen muutosten jälkeen merkitsee päivitetyn käytännön hyväksymistä.\n\n---\n\n**10. Ota meihin yhteyttä**\n\nKaikissa tietosuojaan liittyvissä kysymyksissä, tietojen poistopyynnöissä tai huolenaiheissa:\n\nSähköposti: privacy@applyflow.in\nGitHub: https://github_flow/ex_b04:apply_flow/ex_b0. https://applyflow.in\n\nPyrimme vastaamaan kaikkiin pyyntöihin 30 päivän kuluessa.",
+    "description": "Privacy policy document markdown text"
+  }
+}

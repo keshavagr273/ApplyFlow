@@ -36,3 +36,7 @@ I18N_MASTER_PROMPT.md
 I8N_MASTER_PROMPT.md
 i18n_master_prompt.md
 
+# Generated translation/packaging outputs
+cws_auto_filler.js
+*.zip
+

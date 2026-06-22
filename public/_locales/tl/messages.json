@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill at Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Awtomatikong i-autofill ang mga application ng trabaho at subaybayan ang mga listahan gamit ang AI sa LinkedIn, Araw ng Trabaho, Greenhouse at higit pa.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktibo",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Inilapat",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Panayam",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Alok",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Nai-save",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Kabuuan",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Autofill",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Pinuno...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Mabilis na Autofill",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Suriin ang Job",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Buksan ang Sidebar",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Mga setting",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Mangyaring mag-sign in muna sa Google upang magamit ang Quick Autofill!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Paki-set up muna ang iyong profile sa Side Panel/Options page!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Natukoy",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Walang nakitang pahina ng trabaho",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Bisitahin ang isang listahan ng trabaho upang i-unlock ang mga feature ng AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Magandang umaga po",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Magandang hapon po",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Magandang gabi po",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ application na sinusubaybayan · $2$ mga panayam",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Magsimulang mag-apply upang subaybayan ang iyong pag-unlad",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Cover Letter",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Tulong sa Q&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Handang tumulong",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Mag-navigate sa isang listahan ng trabaho sa LinkedIn, Araw ng Trabaho, Greenhouse, o anumang job board upang makapagsimula.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Ngayong Linggo",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Kamakailang Aktibidad",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Tingnan lahat →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Simulan ang iyong paghahanap ng trabaho!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Bisitahin ang isang job board at gamitin ang ApplyFlow upang awtomatikong punan at subaybayan ang iyong mga aplikasyon.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Aking Profile",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Nagse-save...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "I-save ang Lahat",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Na-save ang profile!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Nabigong i-save ang profile.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Ipagpatuloy",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Mag-upload sa auto-fill profile",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Na-upload",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Personal na Impormasyon",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Hindi kumpleto",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Lokasyon",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Edukasyon",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Mga kasanayan",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Karanasan sa Trabaho",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Mga proyekto",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Mga Kagustuhan sa Trabaho",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Awtorisasyon sa Trabaho",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Ipagpatuloy ang Kasaysayan",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Gamitin Ito",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Na-parse sa $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "I-load ang mga detalye ng profile mula sa \"$1$\"? Papalitan nito ang iyong kasalukuyang mga pag-edit ng na-parse na istraktura ng resume na ito.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Ibinalik ang mga detalye mula kay $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Iskor ng Tugma",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ pa",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Na-autofill at naka-log ang application! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Auto-filled sa pamamagitan ng ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "doon",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Walang college set",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "I-set up ang iyong profile upang paganahin ang autofill",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Hindi nakatakda",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ entry",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ kasanayan",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ mga proyekto",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ sagot",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Awtorisado",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Hindi awtorisado",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Buong Pangalan",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telepono",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Kahaliling Telepono",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL ng LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portfolio URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL ng GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Ipagpatuloy ang Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "lungsod",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Estado",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Bansa",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Postal Code",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Address",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nasyonalidad",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Kolehiyo / Unibersidad",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Degree",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Taon ng Pagtatapos",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Marka",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "ika-10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "ika-12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Panahon ng Paunawa",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Inaasahang suweldo",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Ginustong Papel",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Mga Taon ng Karanasan",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Awtorisadong magtrabaho nang walang visa sponsorship",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Nangangailangan ng visa sponsorship",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Kasarian",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Kapansanan",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Mas piniling hindi sabihin",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Hindi tinukoy",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Lalaki",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Babae",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Hindi binary",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Oo",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Hindi",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Wala pang mga kasanayang naidagdag",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Magdagdag ng kasanayan (Ipasok upang idagdag)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Trigger na parirala (hal. Bakit ka namin dapat kunin)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Ang sagot mo...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Alisin",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Magdagdag ng Custom na Sagot",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "kumpanya",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Tungkulin / Pamagat",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Petsa ng Pagsisimula",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Petsa ng Pagtatapos",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Present",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Kasalukuyan akong nagtatrabaho sa papel na ito",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Paglalarawan",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Ilarawan ang iyong mga responsibilidad, mga pangunahing tagumpay, mga teknolohiyang ginamit...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Magdagdag ng Karanasan sa Trabaho",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Pamagat ng Proyekto",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Deployment URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Ilarawan kung ano ang iyong binuo, anong problema ang nalutas nito, at ang mga pangunahing tampok...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Magdagdag ng Proyekto",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tagasubaybay",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Nai-save",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Inilapat",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Pagtatasa",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Panayam",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Alok",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Tinanggihan",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Binawi",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Tanggalin ang application na ito?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Na-update ang application!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Na-delete ang application.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Katayuan",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Plataporma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Inilapat",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Buksan ang Pag-post ng Trabaho",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Sahod / Stipend",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Follow-up na Paalala",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Mga Tala",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Magdagdag ng mga tala, impormasyon sa pakikipag-ugnayan, mga detalye ng panayam...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Paglalarawan ng Trabaho (sipi)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Tanggalin",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Kanselahin",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "I-save",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplikasyon",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ na mga aplikasyon",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "I-filter ayon sa kumpanya...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Mga Filter ng Katayuan",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Mag-scroll pakanan para sa higit pa →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Lahat",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Walang nakitang mga application",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Subukang i-reset ang mga filter o mag-save ng trabaho para magdagdag ng bagong tracker entry",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ kabuuang mga aplikasyon",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Wala pang data",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Magsimulang mag-apply sa mga trabaho at lalabas dito ang iyong analytics.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Mga Rate ng Conversion",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Inilapat",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Rate ng Panayam",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Rate ng Alok",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Mga Aplikasyon Ngayong Linggo",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Funnel ng Application",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Mga Nangungunang Platform",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Status Breakdown",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Konteksto: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Ang iyong career copilot",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Bagong Chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Paki-set up muna ang iyong profile para mai-personalize ng AI ang mga tugon.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Na-clear ang chat! Ano ang maitutulong ko sa iyo?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Magtanong ng kahit ano tungkol sa trabahong ito...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "I-set up ang iyong profile para magsimula",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Pindutin ang Enter para ipadala",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Ipagpatuloy ang Marka ng Compatibility",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Malakas na Kasanayan",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Nawawalang Kasanayan",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Narito ang iyong personalized na cover letter:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kinopya!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopyahin",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ I-download",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Narito ang $1$ malamang na mga tanong sa panayam:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Ipagpatuloy ang marka ng pag-optimize: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Ipagpatuloy ang Mga Suhestiyon sa Pagtutugma",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "kumpara sa paglalarawan ng trabaho na ito",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Nagkaproblema. Pakisubukang muli.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hi! Nakikita kong nakatingin ka sa isang **$1$** na tungkulin sa **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hi! Nakikita kong nakatingin ka sa isang **$1$** na papel.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hi! Ako ang iyong AI career copilot. Mag-navigate sa isang listahan ng trabaho at awtomatiko kong susuriin ito, o magtanong sa akin ng kahit ano!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Mangyaring i-set up muna ang iyong profile sa tab na Profile!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Mangyaring magbukas muna ng page ng listahan ng trabaho sa iyong browser para magamit ang feature na ito!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "I-unlock ang ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Mag-sign in sa Google upang ma-access ang iyong dashboard, mag-sync ng mga trabaho, pamahalaan ang iyong resume profile, at mag-autofill kaagad ng mga application ng trabaho.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill at Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "I-scan at i-autofill ang mga application sa isang click.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync at Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "I-sync ang lahat ng iyong mga detalye sa pagsubaybay sa trabaho sa Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Ipagpatuloy at Mga Profile",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "I-upload ang iyong resume at i-customize ang mga sagot sa application.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Kumokonekta sa Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Mag-sign in gamit ang Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Sa pamamagitan ng pag-sign in, sumasang-ayon kang i-sync ang data ng iyong profile nang secure sa iyong aktibong workspace.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Sigurado ka bang gusto mong mag-sign out?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Matagumpay na naka-sign out.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Naka-log in bilang $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Mag-sign Out",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Mag-sign In",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Kumokonekta...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Buksan ang ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Malakas na Kasanayan sa Pagtutugma",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Nawawalang Kasanayan",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Pahina ng Smart Autofill",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Autofilling Form...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Walang makikitang fillable na field ng application sa page.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Matagumpay na Napuno!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Nabigo ang autofill dahil sa pagiging kumplikado ng page.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Awtomatikong nai-save upang mag-log tracker sa pagpuno.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ang iyong resume ay **$1$% compatible** sa tungkuling ito.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Maligayang pagbabalik, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Nabigong makuha ang impormasyon ng profile ng user ng Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Nabigo ang OAuth Login: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Nabigong makuha ang token ng pag-access mula sa pag-redirect.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Nabigong i-parse ang pag-redirect ng pagpapatotoo.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Hindi sinusuportahan ang pagpapatotoo sa platform na ito.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Na-save ang trabaho sa tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "panauhin",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Mga Pangkalahatang Setting",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Ipakita sa Mga Pahina ng Trabaho sa LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Nagpapakita ng matalinong pagtutugma ng marka at isang one-click na autofill na button kapag tiningnan mo ang mga pag-post ng trabaho sa LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Ipakita ang 'Save Job' Button",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Nagpapakita ng lumulutang na button na 'I-save ang Trabaho 📌' sa mga site ng trabaho upang mabilis mong mai-save ang mga detalye ng trabaho sa iyong tracker bago mag-apply.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Mag-log Lamang Pagkatapos Talagang Mag-apply",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Maghintay hanggang makita mo ang screen na 'Salamat' o 'Tagumpay' bago idagdag ang trabaho sa iyong tracker. Pinapanatiling maayos ang iyong tracker sa pamamagitan ng pagpigil sa mga kalahating punong form na ma-save bilang 'Inilapat'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI Credits & Usage Analytics",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Credits Natitira",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Mga Natitirang Credit",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Kabuuang Mga Kredito",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Mga All-time na Autofill",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Katayuan ng Plano",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Libre 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro Tip:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Kumokonsumo ng 0 credit ang mga operasyon ng Smart Autofill at 100% walang limitasyon! Tanging ang mga advanced na feature ng AI tulad ng Cover Letters (5 credits) at custom Essays (3 credits) ang kumokonsumo ng iyong credit balance.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Account at Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Aktibo ang Google Cloud Sync",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Naka-lock ang Cloud Sync (Premium Lang)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Itulak sa Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Hilahin mula kay Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Matagumpay ang pag-sync!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Nabigo ang pag-sync. Suriin ang iyong koneksyon.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Secure na Cloud Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Mag-sign in sa Google upang i-backup ang iyong mga application at profile sa Supabase. Ang pag-sync ay isang Premium na feature na nagpapanatiling ligtas sa iyong mga log sa lahat ng device.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Ang Supabase Cloud Sync ay isang Premium na Tampok. Mangyaring mag-upgrade sa tab na Mag-upgrade upang paganahin ang pag-sync!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Pamamahala ng Data",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "I-export ang Backup (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "I-clear ang Lahat ng Lokal na Data",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Ang pag-clear ng lokal na data ay nag-aalis ng iyong profile at mga application mula sa device na ito lamang. Hindi maaapektuhan ang cloud data.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Control Center",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Home at Tungkol sa",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Mga Pangkalahatang Setting",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Mag-upgrade sa Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium na Plano 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Account at Sync",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Patakaran sa Privacy",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Mga Keyboard Shortcut",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Maligayang pagdating sa ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "Ang ApplyFlow ay isang extension ng Chrome na pinapagana ng AI na binuo para sa mga mag-aaral at naghahanap ng trabaho na gustong mag-apply nang mas mabilis at mas matalino. Awtomatiko nitong nakikita at pinupunan ang mga form ng aplikasyon sa trabaho sa 15+ platform, sinusubaybayan ang iyong pipeline, at tinutulungan kang makakuha ng higit pang mga panayam.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart Autofill",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ platform ng ATS na may tumpak na mga tagapili",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Isang-click na i-save ang anumang listahan ng trabaho",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "I-drag at i-drop ang pipeline ng iyong application",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofill",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Awtomatikong pinupunan ang mga tanong sa demograpiko at visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI Essays",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Pagsusulat ng custom na sagot na pinapagana ng Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Secure Sync",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Opsyonal na Supabase cloud backup",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Paano Magsimula",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Buuin ang iyong Profile",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Buksan ang popup → tab na Profile → i-upload ang iyong resume PDF. Awtomatikong i-extract ng AI ang lahat ng iyong mga detalye kabilang ang mga kasanayan, karanasan, edukasyon, at mga proyekto.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Itakda ang Mga Kagustuhan sa EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Mag-scroll sa seksyong EEO sa iyong Profile at itakda ang iyong awtorisasyon sa trabaho, mga pangangailangan sa pag-sponsor ng visa, at mga kagustuhan sa demograpiko. Ginagamit ang mga ito upang i-autofill ang mga EEO questionnaire.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Mag-browse ng Listahan ng Trabaho",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Mag-navigate sa anumang listahan ng trabaho. Makakakita ka ng 📌 \"Save Job\" button na lalabas. I-click ito upang agad na i-save ang posisyon sa iyong tracker.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Magbukas ng Application Form",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Mag-navigate sa application form. I-click ang popup na ApplyFlow → pindutin ang \"I-scan ang Pahina\" → pagkatapos ay \"⚡ Smart Autofill\". Ang lahat ng mga patlang kabilang ang mga radio button at dropdown ay napupunan kaagad.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Subaybayan ang Iyong Pipeline",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Buksan ang tab na Tagasubaybay upang makita ang lahat ng iyong mga application. Lumipat sa Kanban Board view at i-drag ang mga card sa pagitan ng mga column habang nag-a-update ang iyong status.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Kinakailangan ang Pag-sign In",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Mag-sign In para I-customize ang Mga Setting",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Available lang ang Mga Pangkalahatang Setting sa mga naka-sign in na user. Mag-sign in sa Google upang i-configure ang iyong mga kagustuhan, mga gawi sa autofill, at higit pa.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Pumunta sa Account at Sync",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "License key: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "I-deactivate ang Lisensya",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 License Key Activation",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Kung bumili ka ng subscription o nakatanggap ng access code, ilagay ang iyong license key sa ibaba para i-unlock ang ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "I-activate",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Ina-activate...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tip: Maaari mong i-activate ang Premium gamit ang key na APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium Activated!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Salamat sa pagsuporta sa ApplyFlow. Ang lahat ng mga premium na tampok ay naka-unlock na ngayon.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium Upgrade Plan",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "I-unlock ang iyong mga pag-export sa karera at mga advanced na feature ng AI.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Makakuha ng mga premium na AI credit para sa mga cover letter, custom na sagot sa sanaysay, resume optimization, at mock interview prep. Ang mga pagpapatakbo ng autofill sa mga sinusuportahang platform ay ganap na walang limitasyon at libre para sa lahat ng premium na user!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Alok ng Maagang Nag-aampon:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Susunod na pagtaas ng presyo sa 500 Premium user. I-lock ang rate na ito habang buhay!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Buwanang Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Mabuti para sa panandaliang paghahanap",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ buwan",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(₹13 lang / araw)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI Credits bawat buwan|||Unlimited autofills (Lahat ng Portal)|||Cloud Sync at Google Backup|||Premium Theme|||Ad-free na Karanasan",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Mag-subscribe Buwan-buwan",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Pinakamahusay na halaga para sa karamihan ng mga naghahanap ng trabaho",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 buwan",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(₹11 lang / araw)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI Credits bawat quarter|||Unlimited autofills (Lahat ng Portal)|||Tailored Cover Letters & Essays|||Cloud Sync at Google Backup|||Ipagpatuloy ang Mga Suhestiyon sa Pagtutugma",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Mag-subscribe sa quarterly",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Pinakasikat",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Taunang Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Pinakamahusay na halaga para sa mga power user",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ taon",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Katumbas ng ₹249 / buwan)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI Credits bawat taon|||Walang limitasyong pang-araw-araw na autofill|||Mga Iniangkop na Cover Letters at Essay|||Cloud Sync at Google Backup|||Ipagpatuloy ang Mga Suhestiyon sa Pagtutugma|||Priyoridad na Suporta sa Email",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Mag-subscribe Taun-taon",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Pinakamahusay na Halaga - Makatipid ng 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Suportahan ang ApplyFlow Development",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "Ang ApplyFlow ay binuo at pinananatili ng mga independiyenteng developer. Kung sa tingin mo ay kapaki-pakinabang ang extension, isaalang-alang ang pagbibigay ng donasyon sa Ko-fi upang makatulong na panatilihin itong aktibo, walang ad, at updated para sa mga bagong job board.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Bilhan mo ako ng kape sa Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rating|||🔒 Mga Secure na Pagbabayad|||✓ Kanselahin Anumang Oras",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Di-wastong susi ng lisensya. Hint: Subukang gamitin ang demo key na 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Matagumpay na Na-activate ang Lisensya! Maligayang pagdating sa ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Sigurado ka bang gusto mong i-deactivate ang iyong premium na lisensya? Ibabalik ka nito sa Libreng Plano.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Na-deactivate ang premium na lisensya. Nasa Libreng Plano ka na ngayon.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Permanente nitong tatanggalin ang LAHAT ng lokal na profile at data ng application. Sigurado ka ba?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Patakaran sa Privacy",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Mga Madalas Itanong",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Ano ang ApplyFlow at paano ito gumagana?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "Ang ApplyFlow ay isang extension ng Chrome na pinapagana ng AI na awtomatikong nakikita at pinupunan ang mga form ng aplikasyon sa trabaho sa 15+ platform kabilang ang LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, at higit pa. Binabasa nito ang iyong naka-save na profile at gumagamit ng matalinong pagtutugma upang punan ang mga field ng text, dropdown, radio button, at checkbox — kabilang ang mga EEO/demographic na tanong.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Ligtas ba ang aking personal na data sa ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Oo. Ang iyong data ay lokal na nakaimbak sa chrome.storage.local ng iyong browser bilang default. Hindi ito ipapadala sa anumang third-party na server maliban sa iyong sariling opsyonal na database ng Supabase (na iyong kinokontrol). Hindi kailanman ibebenta, ibinabahagi, o pinagkakakitaan ng ApplyFlow ang iyong personal na impormasyon.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Aling mga platform ng trabaho ang sinusuportahan ng ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "Sinusuportahan ng ApplyFlow ang 15+ platform out of the box: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, at anumang iba pang site sa pamamagitan ng aming matalinong generic fallback matcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Ano ang Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Ang Web Clipper ay isang lumulutang na \"Save Job\" na button (📌) na awtomatikong lalabas kapag binisita mo ang anumang page ng listahan ng trabaho. Ang pag-click dito ay kinukuha ang titulo ng trabaho, kumpanya, suweldo, at paglalarawan, pagkatapos ay ise-save ito sa iyong ApplyFlow tracker bilang isang \"Na-save\" na application — para masubaybayan mo ang mga trabaho bago mag-apply.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Paano ko ia-update ang aking profile?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Buksan ang popup ng ApplyFlow, i-click ang tab na \"Profile\", at i-upload ang iyong resume na PDF. Awtomatikong ipo-populate ng AI ang lahat ng iyong field. Maaari mo ring manu-manong i-edit ang anumang field kasama ang iyong mga kagustuhan sa EEO, awtorisasyon sa trabaho, at mga cover letter.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Ano ang mga field ng EEO at bakit ko kailangan ang mga ito?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Ang mga field ng EEO (Equal Employment Opportunity) ay mga tanong na itinatanong ng maraming US at global employer tungkol sa kasarian, kapansanan, status ng beterano, at awtorisasyon sa trabaho. Iniimbak ng ApplyFlow ang iyong mga gustong sagot at awtomatikong pinupunan ang mga radio button group na ito para hindi mo na kailangang manu-manong sagutin ang mga ito sa bawat pagkakataon.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Nangangailangan ba ang ApplyFlow ng anumang mga API key o configuration?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Hindi! Awtomatikong pinangangasiwaan ng ApplyFlow ang lahat ng form detection, smart matching, cover letter generation, at compatibility scoring. Hindi mo kailangang kumuha o mag-configure ng anumang mga API key.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Ano ang Supabase sync at kailangan ko ba ito?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Ang pag-sync ng Supabase ay isang opsyonal na feature ng cloud backup. Kapag nag-sign in ka sa Google at pinagana ito, ang iyong profile at application tracker ay naka-sync sa isang pribadong cloud database upang ang iyong data ay na-back up at naa-access mula sa maraming device. Ito ay ganap na opsyonal — ang extension ay ganap na gumagana offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Bakit kailangan ng ApplyFlow ng access sa lahat ng website?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "Humihiling ang ApplyFlow ng access sa lahat ng website upang mai-inject nito ang autofill engine sa anumang form ng aplikasyon sa trabaho, at ipakita ang button na \"I-save ang Trabaho\" sa anumang listahan ng trabaho. Ang pahintulot na ito ay kinakailangan para sa malawak na suporta sa platform. Nag-iinject lang kami ng mga script sa mga page na malinaw na nauugnay sa trabaho.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Ano ang Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Ang Kanban Board ay isang visual na view ng pagsubaybay sa trabaho sa tab na Tagasubaybay. Ipinapakita nito ang iyong mga aplikasyon na nakaayos sa mga column: Nai-save → Inilapat → Pagsusuri → Panayam → Alok. Maaari mong i-drag at i-drop ang mga card sa pagitan ng mga column upang i-update ang status ng anumang application.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Paano gumagana ang pagtukoy ng pagsusumite?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Kapag pinagana mo ang \"Mag-log lamang pagkatapos ng pagsusumite\" sa mga setting, ang ApplyFlow ay nanonood ng mga pagbabago sa page na nagsasaad ng matagumpay na pagsusumite (tulad ng isang URL na naglalaman ng \"/success\" o body text na nagsasabing \"Salamat sa pag-apply\"). Nila-log lang nito ang application sa iyong tracker pagkatapos nitong makakita ng tunay na pagsusumite.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Maaari ba akong mag-imbak ng maraming cover letter?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Oo! Ang screen ng Profile ay may seksyong \"Cover Letter Vault\" kung saan maaari kang mag-imbak ng walang limitasyong mga cover letter na iniayon sa iba't ibang tungkulin o kumpanya. Kapag nag-autofill, gagamitin ng ApplyFlow ang iyong pinakabago o pinakanauugnay na cover letter.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Paano ko ie-export ang data ng aking aplikasyon?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Pumunta sa Account at Sync → mag-scroll sa ibaba → i-click ang \"I-export ang Backup (JSON)\". Dina-download nito ang lahat ng data ng iyong profile at application bilang JSON file para sa pag-iingat.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Gumagana ba ang ApplyFlow sa Demo Mode?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Ang Demo Mode ay isang legacy na setting na ginamit para sa pagsubok. Ito ngayon ay hindi pinagana bilang default. Live at functional ang lahat ng feature gamit ang built-in na Gemini API key.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Paano ako mag-uulat ng bug o humiling ng feature?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Mangyaring magbukas ng isyu sa aming GitHub repository (naka-link sa seksyong Tungkol sa) o mag-email sa amin sa support@applyflow.in. Karaniwan kaming tumutugon sa loob ng 48 oras.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Buksan ang popup ng ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "I-scan ang kasalukuyang pahina para sa mga field ng form",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "I-trigger ang Smart Autofill sa kasalukuyang page",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "I-clip ang kasalukuyang listahan ng trabaho sa tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Buksan ang Tracker sa isang bagong tab",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "I-configure ang mga shortcut sa Chrome sa",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Tandaan:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Ang mga utos ng extension ng Chrome ay nangangailangan ng manu-manong pagtatalaga sa shortcut manager ng Chrome. Pumunta sa $1$ upang itali ang mga susi na nakalista sa itaas.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — Patakaran sa Privacy**\nHuling Na-update: Hunyo 2026\n\n---\n\n**1. Panimula**\n\nApplyFlow (\"kami\", \"namin\", \"ang Extension\") ay isang extension ng Chrome browser na tumutulong sa mga user na i-autofill ang mga form ng aplikasyon sa trabaho, subaybayan ang kanilang mga aplikasyon, at pamahalaan ang kanilang propesyonal na profile. Ipinapaliwanag ng Patakaran sa Privacy na ito kung paano namin kinokolekta, ginagamit, iniimbak, at pinoprotektahan ang iyong impormasyon.\n\nSa pamamagitan ng pag-install at paggamit ng ApplyFlow, sumasang-ayon ka sa mga kasanayang inilalarawan sa patakarang ito.\n\n---\n\n**2. Data na Kinokolekta Namin**\n\nKinakolekta lang namin ang impormasyong boluntaryo mong ibinibigay para paganahin ang mga feature ng extension:\n\n• **Impormasyon ng Profile**: Ang iyong pangalan, email, numero ng telepono, kolehiyo, degree, kasanayan, kasaysayan ng trabaho, proyekto, at propesyonal na link (NL_Information, GitHub, GitHub, **L_O17). (Opsyonal)**: Kasarian, katayuan ng kapansanan, katayuang beterano, at mga kagustuhan sa awtorisasyon sa trabaho — ibinigay lang kung pipiliin mong punan ang mga field na ito. Eksklusibong ginagamit ang data na ito para i-autofill ang opsyonal na mga questionnaire sa EEO sa mga aplikasyon sa trabaho.\n• **Data ng Pagsubaybay sa Application**: Titulo ng trabaho, kumpanya, URL ng aplikasyon, status, at mga tala para sa mga posisyong sinusubaybayan mo gamit ang extension.\n• **Mga Istatistika ng Paggamit**: Bilang ng mga pagpapatakbo ng autofill na isinagawa (naka-imbak nang lokal **__NL.2. piliin na mag-sign in sa Google, iniimbak namin ang iyong Google display name, email address, at URL ng larawan sa profile para i-personalize ang iyong karanasan at paganahin ang cloud sync.\n\nKami **hindi** nangongolekta:\n• Impormasyon sa pagbabayad o pampinansyal\n• History ng browser o pangkalahatang aktibidad sa pagba-browse\n• Anumang impormasyon mula sa A__L_25__• Anumang impormasyon mula sa mga page-application sa trabaho mga pahina kapag ang extension ay hindi aktibong na-trigger\n\n---\n\n**3. Paano Namin Iniimbak ang Iyong Data**\n\n**3.1 Lokal na Imbakan (Default)**\nAng lahat ng data ay pangunahing nakaimbak sa chrome.storage.local API ng iyong browser. Ang data na ito ay nasa iyong device lamang at hindi kailanman ipinapadala sa anumang server nang wala ang iyong tahasang pagkilos.\n\n**3.2 Cloud Sync (Opsyonal)**\nKung pipiliin mong mag-sign in sa Google at paganahin ang feature na \"Supabase Sync,\" masi-synchronize din ang iyong data ng profile at application sa isang database ng Supabase. Pananatilihin mo ang buong pagmamay-ari ng data na ito. Maaari mo itong tanggalin anumang oras mula sa seksyong Account at Pag-sync.\n\n**3.3 Mga Kahilingan sa Gemini AI**\nKapag ginamit ang mga feature ng AI (hal., pagbuo ng sanaysay, pagsusuri sa trabaho), mga bahagi ng iyong profile (mga kasanayan, degree, buod) at ang teksto ng paglalarawan ng trabaho ay ipinadala sa Gemini API ng Google upang mabuo ang tugon. Pinoproseso ito sa ilalim ng karaniwang Mga Tuntunin ng Serbisyo ng API at Patakaran sa Privacy ng Google. Inirerekomenda naming huwag isama ang mga sensitibong personal na pagkakakilanlan sa iyong nilalamang tinulungan ng AI.\n\n---\n\n**4. Pagbabahagi ng Data**\n\nKami ay **hindi** nagbebenta, nangangalakal, nagrenta, o nagbabahagi ng iyong personal na impormasyon sa anumang mga third party para sa mga layunin ng marketing o advertising.\n\nAng iyong data ay maaaring iproseso ng mga sumusunod na pinagkakatiwalaang serbisyo:\n• **Google Gemini API**: Para sa pagpuno ng form na pinapagana ng AI at pag-aaral (https://policies.google.com/privacy)\n• **Google OAuth**: Para sa pagpapatunay ng account (https://policies.google.com/privacy)\n• **Supabase**: Para sa opsyonal na cloud storage (https://supabase.com/privacy) — kung pinagana mo lang sync\n\n---\n\n**5. Ang Iyong Mga Karapatan at Kontrol**\n\nMayroon kang karapatan na:\n• **I-access** ang lahat ng data na inimbak ng ApplyFlow tungkol sa iyo (sa pamamagitan ng Export Backup sa mga setting)\n• **Itama** ang iyong impormasyon anumang oras sa tab na Profile\n• **Tanggalin ang lahat** ng iyong Data sa lokal na \"C\" settings\n• **Bawiin ang pahintulot** anumang oras sa pamamagitan ng pag-uninstall sa extension\n• **Huwag paganahin ang cloud sync** sa pamamagitan ng pag-togg nito sa mga setting ng Account at Pag-sync\n\n**GDPR (EU Users)**: Kung ikaw ay residente ng EU, mayroon kang mga karapatang mag-access, mag-transport ng data, at mag-restrict ng data. Regulasyon.\n\n**India — DPDP Act 2023**: Bilang pagsunod sa Digital Personal Data Protection Act 2023 ng India, pinoproseso namin ang personal na data para lamang sa layunin ng pagbibigay ng serbisyo sa tulong sa pag-apply sa trabaho. Maaari mong bawiin ang pahintulot at humiling ng pagtanggal ng iyong data anumang oras sa pamamagitan ng pakikipag-ugnayan sa amin.\n\n**California — CCPA**: Ang mga residente ng California ay may karapatang malaman kung anong personal na impormasyon ang kinokolekta, ang karapatang magtanggal, at ang karapatang mag-opt out sa pagbebenta (hindi kami nagbebenta data).\n\n---\n\n**6. Pagpapanatili ng Data**\n\nPinapanatili ang lokal na data hanggang sa manu-mano mo itong i-clear. Pinapanatili ang data na naka-sync sa cloud hanggang sa tanggalin mo ang iyong account o humiling ng pagtanggal. Hindi namin awtomatikong tinatanggal ang data.\n\n---\n\n**7. Seguridad**\n\nNagsasagawa kami ng mga makatwirang teknikal na hakbang para protektahan ang iyong data:\n• Gumagamit ang lahat ng komunikasyon sa cloud ng HTTPS/TLS encryption\n• Tinitiyak ng Supabase Row-Level Security (RLS) na maa-access lang ng mga user ang kanilang sariling data\n• Ang extension ay hindi humihiling ng mga pahintulot na higit pa sa kinakailangan nito function\n\n---\n\n**8. Privacy ng mga Bata**\n\nApplyFlow ay hindi inilaan para sa mga user na wala pang 13 taong gulang. Hindi namin sinasadyang nangongolekta ng data mula sa mga bata. Kung naniniwala kang binigyan kami ng isang bata ng personal na impormasyon, mangyaring makipag-ugnayan sa amin kaagad.\n\n---\n\n**9. Mga Pagbabago sa Patakarang Ito**\n\nMaaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Ang mga makabuluhang pagbabago ay ipapaalam sa pamamagitan ng pahina ng Mga Opsyon ng extension. Ang patuloy na paggamit ng extension pagkatapos ng mga pagbabago ay bumubuo ng pagtanggap sa na-update na patakaran.\n\n---\n\n**10. Makipag-ugnayan sa Amin**\n\nPara sa anumang mga tanong na may kaugnayan sa privacy, kahilingan sa pagtanggal ng data, o alalahanin:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite https://applyflow.in\n\nLayunin naming tumugon sa lahat ng kahilingan sa loob ng 30 araw.",
+    "description": "Privacy policy document markdown text"
+  }
+}

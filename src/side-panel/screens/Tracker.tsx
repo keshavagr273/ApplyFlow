@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useStore } from '../../shared/store';
 import { Application, ApplicationStatus } from '../../shared/types';
 import { Pin, Mail, ClipboardList, Calendar, Award, XCircle, ArrowLeft, Search } from 'lucide-react';
+import { t } from '../../shared/i18n';
 
 // ─── Column & Status config ──────────────────────────────────────────────────
 
@@ -56,7 +57,7 @@ function TrackerCard({ app, onClick }: { app: Application; onClick: () => void }
             </span>
           )}
           <span className="text-[10px] text-gray-400 bg-white/5 px-2 py-0.5 rounded-full border border-white/5 capitalize font-medium">
-            {app.status}
+            {t(app.status + '_status')}
           </span>
           {app.remindAt && app.remindAt > Date.now() && (
             <span className="text-[10px] text-amber-400 font-semibold bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 flex items-center gap-1">
@@ -93,15 +94,15 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
       updates.remindAt = undefined;
     }
     await updateApplication(app.id, updates);
-    showToast('Application updated!', 'success');
+    showToast(t('app_updated'), 'success');
     setIsSaving(false);
     onClose();
   };
 
   const handleDelete = async () => {
-    if (!confirm('Delete this application?')) return;
+    if (!confirm(t('delete_confirm'))) return;
     await deleteApplication(app.id);
-    showToast('Application deleted.', 'info');
+    showToast(t('app_deleted'), 'info');
     onClose();
   };
 
@@ -121,7 +122,7 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
         <div className="flex-1 px-5 py-4 flex flex-col gap-4">
           {/* Status Selector */}
           <div>
-            <div className="section-label mb-2">Status</div>
+            <div className="section-label mb-2">{t('status_label')}</div>
             <div className="grid grid-cols-2 gap-1.5">
               {COLUMNS.map(c => (
                 <button
@@ -130,7 +131,7 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
                   className={`flex items-center gap-1.5 px-2.5 py-2 rounded-xl text-xs font-semibold transition-all ${status === c.id ? 'text-white' : 'text-gray-500 bg-white/5 hover:bg-white/8'}`}
                   style={status === c.id ? { background: `${c.color}30`, border: `1px solid ${c.color}60`, color: c.color } : {}}
                 >
-                  <c.icon size={13} className="shrink-0" /> {c.label}
+                  <c.icon size={13} className="shrink-0" /> {t(c.id + '_status')}
                 </button>
               ))}
             </div>
@@ -139,11 +140,11 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
           {/* Platform + Date */}
           <div className="grid grid-cols-2 gap-3 text-xs">
             <div>
-              <div className="section-label mb-1">Platform</div>
+              <div className="section-label mb-1">{t('platform_label')}</div>
               <div className="text-gray-300 font-medium capitalize">{app.platform?.replace('_', ' ')}</div>
             </div>
             <div>
-              <div className="section-label mb-1">Applied</div>
+              <div className="section-label mb-1">{t('applied_label')}</div>
               <div className="text-gray-300 font-medium">
                 {new Date(app.appliedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
               </div>
@@ -154,32 +155,32 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
           {app.url && (
             <a href={app.url} target="_blank" rel="noopener noreferrer"
               className="text-xs text-brand-400 hover:text-brand-300 underline truncate transition-colors">
-              Open Job Posting
+              {t('open_job_posting')}
             </a>
           )}
 
           {/* Salary */}
           {app.salary && (
             <div>
-              <div className="section-label mb-1">Salary / Stipend</div>
+              <div className="section-label mb-1">{t('salary_stipend')}</div>
               <div className="text-sm text-emerald-400 font-semibold">{app.salary}</div>
             </div>
           )}
 
           {/* Reminder */}
           <div>
-            <div className="section-label mb-1.5">⏰ Follow-up Reminder</div>
+            <div className="section-label mb-1.5">{t('followup_reminder')}</div>
             <input type="datetime-local" value={reminderDate} onChange={e => setReminderDate(e.target.value)}
               className="input-field-dark text-xs w-full" />
           </div>
 
           {/* Notes */}
           <div className="flex-1">
-            <div className="section-label mb-1.5">Notes</div>
+            <div className="section-label mb-1.5">{t('notes_label')}</div>
             <textarea
               value={notes}
               onChange={e => setNotes(e.target.value)}
-              placeholder="Add notes, contact info, interview details..."
+              placeholder={t('notes_placeholder')}
               rows={5}
               className="input-field-dark text-xs resize-none w-full"
             />
@@ -188,7 +189,7 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
           {/* Job Description */}
           {app.jobDescription && (
             <div>
-              <div className="section-label mb-1.5">Job Description (excerpt)</div>
+              <div className="section-label mb-1.5">{t('job_desc_excerpt')}</div>
               <div className="bg-white/5 rounded-xl p-3 text-xs text-gray-500 leading-relaxed max-h-24 overflow-y-auto">
                 {app.jobDescription.substring(0, 400)}...
               </div>
@@ -198,12 +199,12 @@ function AppDetailSheet({ app, onClose }: { app: Application; onClose: () => voi
 
         {/* Footer */}
         <div className="px-5 pb-5 flex gap-2 border-t border-white/6 pt-4">
-          <button onClick={handleDelete} className="text-xs text-red-500 hover:text-red-400 font-semibold transition-colors px-2">Delete</button>
+          <button onClick={handleDelete} className="text-xs text-red-500 hover:text-red-400 font-semibold transition-colors px-2">{t('delete_btn')}</button>
           <div className="flex-1" />
-          <button onClick={onClose} className="text-xs text-gray-500 hover:text-gray-400 font-semibold transition-colors px-3 py-2">Cancel</button>
+          <button onClick={onClose} className="text-xs text-gray-500 hover:text-gray-400 font-semibold transition-colors px-3 py-2">{t('cancel_btn')}</button>
           <button onClick={handleSave} disabled={isSaving}
             className="gradient-premium text-white text-xs font-bold px-4 py-2 rounded-xl disabled:opacity-60 hover:opacity-90 transition-all">
-            {isSaving ? 'Saving...' : 'Save'}
+            {isSaving ? t('saving') : t('save_btn')}
           </button>
         </div>
       </div>
@@ -247,16 +248,18 @@ export default function Tracker() {
       {/* Header */}
       <div className="flex items-center gap-3 px-5 pt-5 pb-4 border-b border-white/6 shrink-0">
         <div className="flex-none">
-          <h1 className="text-base font-bold text-white">Tracker</h1>
+          <h1 className="text-base font-bold text-white">{t('tracker_title')}</h1>
           <p className="text-xs text-gray-500 mt-0.5">
-            {applications.length === 1 ? '1 application' : `${applications.length} applications`}
+            {applications.length === 1
+              ? t('applications_count_singular')
+              : t('applications_count_plural', String(applications.length))}
           </p>
         </div>
         <div className="flex-1 max-w-[180px] ml-auto relative">
           <input
             value={filterText}
             onChange={e => setFilterText(e.target.value)}
-            placeholder="Filter by company..."
+            placeholder={t('filter_company_placeholder')}
             className="input-field-dark text-xs w-full pl-8"
           />
           <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-500" />
@@ -265,8 +268,8 @@ export default function Tracker() {
 
       {/* Horizontal Status Chips Bar */}
       <div className="px-5 pt-3.5 flex items-center justify-between shrink-0">
-        <span className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Status Filters</span>
-        <span className="text-[9px] text-gray-500 font-medium animate-pulse">Scroll right for more →</span>
+        <span className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">{t('status_filters')}</span>
+        <span className="text-[9px] text-gray-500 font-medium animate-pulse">{t('scroll_right_hint')}</span>
       </div>
       <div
         className="flex gap-2 overflow-x-auto px-5 pb-3 pt-1.5 shrink-0 [&::-webkit-scrollbar]:hidden"
@@ -281,7 +284,7 @@ export default function Tracker() {
               : 'bg-white/5 text-gray-400 border border-white/6 hover:bg-white/10 hover:text-white'
           }`}
         >
-          <span>All</span>
+          <span>{t('all_chip')}</span>
           <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${activeStatus === 'all' ? 'bg-white/20 text-white' : 'bg-white/5 text-gray-500'}`}>
             {counts['all']}
           </span>
@@ -303,7 +306,7 @@ export default function Tracker() {
               style={isActive ? { backgroundColor: `${col.color}25`, borderColor: `${col.color}50`, color: col.color } : {}}
             >
               <Icon size={12} className="shrink-0" />
-              <span>{col.label}</span>
+              <span>{t(col.id + '_status')}</span>
               <span
                 className="text-[10px] px-1.5 py-0.2 rounded-full font-bold"
                 style={isActive ? { backgroundColor: `${col.color}20`, color: col.color } : { backgroundColor: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.4)' }}
@@ -323,8 +326,8 @@ export default function Tracker() {
         {filteredList.length === 0 && (
           <div className="flex flex-col items-center justify-center py-16 text-center">
             <span className="text-2xl mb-2">💼</span>
-            <p className="text-xs text-gray-400 font-semibold">No applications found</p>
-            <p className="text-[10px] text-gray-600 mt-1 max-w-[200px]">Try resetting filters or save a job to add a new tracker entry</p>
+            <p className="text-xs text-gray-400 font-semibold">{t('no_apps_found')}</p>
+            <p className="text-[10px] text-gray-600 mt-1 max-w-[200px]">{t('reset_filters_tip')}</p>
           </div>
         )}
       </div>

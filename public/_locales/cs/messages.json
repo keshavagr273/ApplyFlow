@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatické vyplňování žádostí o zaměstnání a sledování záznamů automaticky pomocí AI na LinkedIn, Workday, Greenhouse a dalších.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktivní",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Aplikováno",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Rozhovor",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Nabídka",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Uloženo",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Celkem",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Automatické vyplňování",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Plnění...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Rychlé automatické vyplňování",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analyzujte práci",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Otevřete postranní panel",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Nastavení",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Chcete-li používat Rychlé automatické vyplňování, nejprve se přihlaste pomocí účtu Google!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Nejprve si prosím nastavte svůj profil na stránce Boční panel/Možnosti!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Zjištěno",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Nebyla zjištěna žádná stránka úlohy",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Navštivte nabídku práce a odemkněte funkce umělé inteligence",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Dobré ráno",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Dobré odpoledne",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Dobrý večer",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ sledovaných aplikací · $2$ rozhovory",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Začněte podávat žádosti, abyste mohli sledovat svůj pokrok",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Průvodní dopis",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Nápověda pro otázky a odpovědi",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Připraveni pomoci",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Chcete-li začít, přejděte na nabídku práce na LinkedIn, Workday, Greenhouse nebo na jakékoli pracovní desce.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Tento týden",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Nedávná aktivita",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Zobrazit vše →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Začněte s hledáním práce!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Navštivte pracovní desku a použijte ApplyFlow k automatickému vyplňování a sledování vašich žádostí.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Můj profil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Ukládání...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Uložit vše",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil uložen!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Profil se nepodařilo uložit.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Pokračovat",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Nahrajte do profilu automatického vyplňování",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Nahráno",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Osobní informace",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Nekompletní",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Umístění",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Vzdělávání",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Dovednosti",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Pracovní zkušenosti",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projekty",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Pracovní preference",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Pracovní oprávnění",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Obnovit historii",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Použijte toto",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Analyzováno na $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Načíst podrobnosti profilu z „$1$“? To nahradí vaše aktuální úpravy analyzovanou strukturou tohoto životopisu.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Obnovené podrobnosti z $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Skóre zápasu",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ další",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplikace automaticky vyplněna a přihlášena! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Automaticky vyplněno prostřednictvím bočního panelu ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "tam",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Žádná vysokoškolská sada",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Nastavte si svůj profil tak, abyste povolili automatické vyplňování",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Nenastaveno",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ záznamů",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ dovednosti",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projektů",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ odpovídá",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Autorizovaný",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Neoprávněný",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Celé jméno",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternativní telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Adresa URL portfolia",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "Adresa URL GitHubu",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Obnovit odkaz",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "město",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "stát",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "země",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "PSČ",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adresa",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Státní příslušnost",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Vysoká škola / univerzita",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Stupeň",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Maturitní ročník",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Stupeň",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10. %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12. %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Výpovědní lhůta",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Očekávaný plat",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Preferovaná role",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Léta zkušeností",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Oprávnění pracovat bez vízového sponzorství",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Vyžaduje sponzorství víz",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Pohlaví",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Postižení",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Raději neříkat",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Neuvedeno",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Mužské",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Žena",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Nebinární",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ano",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Ne",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Zatím nebyly přidány žádné dovednosti",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Přidat dovednost (zadejte pro přidání)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Spouštěcí fráze (např. Proč bychom vás měli najmout)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Vaše odpověď...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Odebrat",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Přidat vlastní odpověď",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Společnost",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Role / Název",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Datum zahájení",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Datum ukončení",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Přítomný",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "V současné době pracuji v této roli",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Popis",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Popište své odpovědnosti, klíčové úspěchy, používané technologie...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Přidat pracovní zkušenosti",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Název projektu",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Adresa URL implementace",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Popište, co jste postavili, jaký problém to vyřešilo a klíčové funkce...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Přidat projekt",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Uloženo",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Aplikováno",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Hodnocení",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Rozhovor",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Nabídka",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Odmítnuto",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Staženo",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Smazat tuto aplikaci?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplikace aktualizována!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplikace smazána.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Stav",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platforma",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Aplikováno",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Otevřete nabídku práce",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Plat / Stipendium",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Následné připomenutí",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Poznámky",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Přidejte poznámky, kontaktní údaje, podrobnosti pohovoru...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Popis práce (úryvek)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Smazat",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Zrušit",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Uložit",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplikace",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplikací",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtrovat podle společnosti...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Stavové filtry",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Přejděte doprava pro více →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "všechny",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Nebyly nalezeny žádné aplikace",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Zkuste resetovat filtry nebo uložit úlohu a přidat nový záznam sledování",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ celkem aplikací",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Zatím žádná data",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Začněte se ucházet o pracovní místa a vaše analýzy se zobrazí zde.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Konverzní kurzy",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Aplikováno",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Míra rozhovoru",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Nabídka Sazba",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Aplikace Tento týden",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Aplikační trychtýř",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Nejlepší platformy",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Rozdělení stavu",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI kopilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontext: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Váš kariérní kopilot",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Nový chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Nejprve si prosím nastavte svůj profil, aby AI mohla personalizovat odpovědi.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat vymazán! S čím vám mohu pomoci?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Zeptejte se na cokoliv ohledně této práce...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Chcete-li začít, nastavte si profil",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Odešlete stisknutím klávesy Enter",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Obnovit skóre kompatibility",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Silné dovednosti",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Chybějící dovednosti",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Zde je váš osobní průvodní dopis:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Zkopírováno!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopírovat",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Stáhnout",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Zde jsou $1$ pravděpodobné otázky k rozhovoru:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Obnovit skóre optimalizace: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Obnovit návrhy zápasů",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs tento popis práce",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Něco se pokazilo. Zkuste to prosím znovu.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Ahoj! Vidím, že se díváte na **$1$** roli v **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Ahoj! Vidím, že se díváš na **$1$** roli.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Ahoj! Jsem váš druhý pilot v AI. Přejděte na nabídku práce a já ji automaticky analyzuji nebo se mě na cokoli zeptejte!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Nejprve si prosím nastavte svůj profil na kartě Profil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Chcete-li použít tuto funkci, nejprve otevřete stránku se seznamem práce ve svém prohlížeči!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Odemkněte ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Přihlaste se k účtu Google a získejte okamžitý přístup k hlavnímu panelu, synchronizaci úloh, správě profilu životopisu a automatickému vyplňování žádostí o zaměstnání.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skenování a automatické vyplňování aplikací jedním kliknutím.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloudová synchronizace a zálohování",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Synchronizujte všechny podrobnosti o sledování úloh se Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Pokračovat a profily",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Nahrajte svůj životopis a přizpůsobte odpovědi na aplikace.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Připojování ke Googlu...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Přihlaste se pomocí Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Přihlášením souhlasíte s bezpečnou synchronizací dat vašeho profilu s vaším aktivním pracovním prostorem.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Opravdu se chcete odhlásit?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Úspěšně jste odhlášeni.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Přihlášen jako $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Odhlásit se",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Přihlaste se",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Připojování...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Otevřete ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Silné párovací dovednosti",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Chybějící dovednosti",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Inteligentní stránka automatického vyplňování",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Automatické vyplňování formuláře...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Na stránce nebyla nalezena žádná vyplnitelná pole aplikace.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Úspěšně vyplněno!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Automatické vyplňování se nezdařilo kvůli složitosti stránky.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Automaticky uloženo do log trackeru po vyplnění.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Váš životopis je **$1$% kompatibilní** s touto rolí.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Vítejte zpět, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Informace o uživatelském profilu Google se nepodařilo načíst.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Přihlášení OAuth se nezdařilo: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Nepodařilo se načíst přístupový token z přesměrování.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Nepodařilo se analyzovat přesměrování ověřování.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Na této platformě není podporováno ověřování.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Úloha byla uložena do trackeru!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Host",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Obecná nastavení",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Zobrazit na LinkedIn Job Pages",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Zobrazuje skóre chytré shody a tlačítko automatického vyplňování na jedno kliknutí, když si prohlížíte nabídky práce na LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Zobrazit tlačítko 'Uložit úlohu'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Zobrazuje plovoucí tlačítko „Uložit úlohu 📌“ na pracovních stránkách, takže si můžete rychle uložit podrobnosti o úkolu do svého trackeru, než se přihlásíte.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Přihlásit se až po skutečném použití",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Před přidáním úkolu do svého trackeru počkejte, dokud se nezobrazí obrazovka „Děkuji“ nebo „Úspěch“. Udržuje váš tracker čistý tím, že zabraňuje ukládání zpola vyplněných formulářů jako „Použito“.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Kredity a analýza využití AI",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Zbývající kredity",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Zbývající kredity",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Celkový počet kreditů",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Nepřetržité automatické vyplňování",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Stav plánu",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Prémiové 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Zdarma 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Tip pro profesionály:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Operace Smart Autofill spotřebují 0 kreditů a jsou 100% neomezené! Zůstatek vašeho kreditu spotřebovávají pouze pokročilé funkce umělé inteligence, jako jsou průvodní dopisy (5 kreditů) a vlastní eseje (3 kredity).",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Účet Google a synchronizace cloudu",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync je aktivní",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloudová synchronizace uzamčena (pouze Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloudová synchronizace",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Push to Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Vytáhněte z Cloudu",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Synchronizace proběhla úspěšně!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Synchronizace se nezdařila. Zkontrolujte připojení.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Bezpečná cloudová synchronizace",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Přihlaste se k účtu Google a zálohujte své aplikace a profil do Supabase. Synchronizace je prémiová funkce, která udržuje vaše protokoly v bezpečí napříč zařízeními.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync je prémiová funkce. Chcete-li povolit synchronizaci, proveďte upgrade na kartě Upgrade!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Správa dat",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Exportovat zálohu (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Vymazat všechna místní data",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Vymazáním místních dat odstraníte svůj profil a aplikace pouze z tohoto zařízení. Cloudová data nejsou ovlivněna.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Řídicí centrum",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Home & About",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Obecná nastavení",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Upgradujte na Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Prémiový tarif 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Účet a synchronizace",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Zásady ochrany osobních údajů",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Klávesové zkratky",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Vítejte v aplikaci ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow je rozšíření Chrome s umělou inteligencí vytvořené pro studenty a uchazeče o zaměstnání, kteří se chtějí ucházet rychleji a chytřeji. Automaticky detekuje a vyplňuje formuláře žádostí o zaměstnání na více než 15 platformách, sleduje váš kanál a pomáhá vám získat více pohovorů.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Inteligentní automatické vyplňování",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ platforem ATS s přesnými voliči",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Jedním kliknutím uložte jakýkoli záznam práce",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Přetáhněte kanál aplikací",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Automatické vyplňování EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Automaticky vyplňuje demografické a vízové otázky",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI eseje",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Vlastní psaní odpovědí poháněné Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Zabezpečená synchronizace",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Volitelné cloudové zálohování Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Jak začít",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Vytvořte si svůj profil",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Otevřete vyskakovací okno → karta Profil → nahrajte svůj životopis ve formátu PDF. Umělá inteligence automaticky extrahuje všechny vaše podrobnosti včetně dovedností, zkušeností, vzdělání a projektů.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Nastavte předvolby EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Přejděte do sekce EEO ve svém profilu a nastavte své pracovní oprávnění, potřeby sponzorství víz a demografické preference. Ty se používají k automatickému vyplňování EEO dotazníků.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Prohlédněte si nabídku práce",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Přejděte na libovolnou nabídku práce. Zobrazí se tlačítko 📌 „Uložit úlohu“. Kliknutím na něj okamžitě uložíte pozici do svého trackeru.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Otevřete formulář žádosti",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Přejděte na formulář žádosti. Klikněte na vyskakovací okno ApplyFlow → klikněte na „Scan Page“ → poté na „⚡ Smart Autofill“. Všechna pole včetně přepínačů a rozevíracích seznamů jsou okamžitě vyplněna.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Sledujte své potrubí",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Otevřete kartu Sledování a zobrazte všechny své aplikace. Přepněte do zobrazení Kanban Board a přetahujte karty mezi sloupci při aktualizaci stavu.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Je vyžadováno přihlášení",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Přihlaste se k přizpůsobení nastavení",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Obecná nastavení jsou dostupná pouze přihlášeným uživatelům. Přihlaste se k účtu Google a nakonfigurujte své předvolby, chování automatického vyplňování a další.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Přejděte na Účet a synchronizace",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licenční klíč: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Deaktivovat licenci",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivace licenčního klíče",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Pokud jste si zakoupili předplatné nebo jste obdrželi přístupový kód, zadejte níže svůj licenční klíč a odemkněte ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktivovat",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktivace...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tip: Premium můžete aktivovat pomocí klíče APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktivováno!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Děkujeme za podporu ApplyFlow. Všechny prémiové funkce jsou nyní odemčeny.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Prémiový plán upgradu",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Odemkněte exporty své kariéry a pokročilé funkce AI.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Získejte prémiové kredity AI za průvodní dopisy, vlastní odpovědi na eseje, optimalizaci životopisu a falešnou přípravu na pohovor. Operace automatického vyplňování na podporovaných platformách jsou plně neomezené a zdarma pro všechny prémiové uživatele!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Nabídka pro včasné přijetí:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Další zvýšení ceny na 500 prémiových uživatelů. Zajistěte si toto tempo na celý život!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Měsíční Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Dobré pro krátkodobé vyhledávání",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 ₹",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ měsíc",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Jen 13 ₹ / den)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 kreditů AI za měsíc|||Neomezené automatické vyplňování (všechny portály)|||Synchronizace cloudu a zálohování Google|||Prémiové motivy|||Zážitek bez reklam",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Odebírat měsíčně",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Čtvrtletní Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Nejlepší hodnota pro většinu uchazečů o zaměstnání",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 měsíce",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Jen 11 ₹ / den)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 kreditů AI za čtvrtletí|||Neomezené automatické vyplňování (všechny portály)|||Přizpůsobené průvodní dopisy a eseje|||Synchronizace cloudu a zálohování Google|||Návrhy k obnovení shody",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Přihlásit se čtvrtletně",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Nejoblíbenější",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Roční Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Nejlepší hodnota pro náročné uživatele",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2 999 ₹",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ rok",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Ekvivalent ₹ 249 / měsíc)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2 500 kreditů AI ročně|||Neomezené denní automatické vyplňování|||Přizpůsobené průvodní dopisy a eseje|||Synchronizace do cloudu a zálohování Google|||Návrhy k obnovení shody|||Prioritní e-mailová podpora",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Odebírat ročně",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Nejlepší hodnota – ušetřete 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Podpora vývoje ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow je vytvořen a spravován nezávislými vývojáři. Pokud považujete rozšíření za užitečné, zvažte darování na Ko-fi, aby bylo aktivní, bez reklam a aktualizované pro nové pracovní desky.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Kupte mi kávu na Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ Hodnocení 5,0|||🔒 Bezpečné platby|||✓ Zrušit kdykoli",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Neplatný licenční klíč. Tip: Zkuste použít demo klíč 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licence byla úspěšně aktivována! Vítejte v aplikaci ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Opravdu chcete deaktivovat prémiovou licenci? Tím se vrátíte do bezplatného plánu.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Prémiová licence deaktivována. Nyní jste na bezplatném plánu.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Tím trvale odstraníte VŠECHNY místní profily a data aplikací. jsi si jistý?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Zásady ochrany osobních údajů",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Často kladené otázky",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Co je ApplyFlow a jak funguje?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow je rozšíření Chrome založené na umělé inteligenci, které automaticky detekuje a vyplňuje formuláře žádostí o zaměstnání na více než 15 platformách včetně LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever a dalších. Přečte váš uložený profil a pomocí inteligentního párování vyplní textová pole, rozevírací seznamy, přepínače a zaškrtávací políčka – včetně EEO/demografických otázek.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Jsou moje osobní údaje s ApplyFlow v bezpečí?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ano. Vaše data jsou ve výchozím nastavení uložena místně v prohlížeči chrome.storage.local. Nikdy se neodesílá na žádný server třetí strany kromě vaší vlastní volitelné databáze Supabase (kterou ovládáte). ApplyFlow nikdy neprodává, nesdílí ani nezpeněžuje vaše osobní údaje.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Které pracovní platformy podporuje ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow po vybalení podporuje více než 15 platforem: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList a jakýkoli jiný web prostřednictvím našeho inteligentního generického záložního dohazovače.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Co je Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper je plovoucí tlačítko „Uložit úlohu“ (📌), které se automaticky zobrazí, když navštívíte jakoukoli stránku se seznamem práce. Kliknutím na něj získáte název pracovní pozice, společnost, plat a popis a poté je uložíte do vašeho nástroje pro sledování aplikace ApplyFlow jako „Uloženou“ aplikaci – takže můžete úlohy sledovat ještě před podáním žádosti.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Jak mohu aktualizovat svůj profil?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Otevřete vyskakovací okno ApplyFlow, klikněte na kartu „Profil“ a nahrajte svůj životopis ve formátu PDF. AI automaticky vyplní všechna vaše pole. Můžete také ručně upravit libovolné pole, včetně předvoleb EEO, pracovního oprávnění a průvodních dopisů.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Co jsou pole EEO a proč je potřebuji?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Pole EEO (Equal Employment Opportunity) jsou otázky, které si klade mnoho amerických i globálních zaměstnavatelů ohledně pohlaví, zdravotního postižení, statusu veterána a pracovního oprávnění. ApplyFlow ukládá vaše preferované odpovědi a automaticky vyplní tyto skupiny přepínačů, takže na ně nemusíte pokaždé odpovídat ručně.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Vyžaduje ApplyFlow nějaké klíče API nebo konfiguraci?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Žádný! ApplyFlow automaticky zpracovává veškerou detekci formulářů, inteligentní párování, generování průvodních dopisů a hodnocení kompatibility. Nemusíte získávat ani konfigurovat žádné klíče API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Co je synchronizace Supabase a potřebuji ji?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase synchronizace je volitelná funkce cloudového zálohování. Když se přihlásíte pomocí Google a povolíte jej, váš profil a sledovač aplikací se synchronizují se soukromou cloudovou databází, takže vaše data jsou zálohována a přístupná z více zařízení. Toto je zcela volitelné — rozšíření funguje plně offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Proč potřebuje ApplyFlow přístup ke všem webovým stránkám?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow požaduje přístup ke všem webovým stránkám, aby mohl vložit modul automatického vyplňování do jakéhokoli formuláře žádosti o zaměstnání a zobrazit tlačítko „Uložit úlohu“ na libovolném seznamu pracovních míst. Toto oprávnění je vyžadováno pro širokou podporu platformy. Skripty vkládáme pouze na stránky, které jasně souvisejí s prací.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Co je Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board je vizuální zobrazení sledování úloh na kartě Sledování. Zobrazuje vaše aplikace uspořádané ve sloupcích: Uloženo → Použito → Hodnocení → Rozhovor → Nabídka. Přetažením karet mezi sloupci můžete aktualizovat stav libovolné aplikace.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Jak funguje detekce podání?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Když v nastavení povolíte „Přihlásit se až po odeslání“, ApplyFlow bude sledovat změny stránky, které indikují úspěšné odeslání (např. adresa URL obsahující „/úspěch“ nebo text „Děkujeme za přihlášení“). Přihlásí aplikaci do vašeho sledovače až poté, co detekuje skutečné odeslání.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Mohu uložit více průvodních dopisů?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ano! Obrazovka Profil má sekci \"Cover Letter Trezor\", kde si můžete uložit neomezené množství průvodních dopisů přizpůsobených různým rolím nebo společnostem. Při automatickém vyplňování použije ApplyFlow váš nejnovější nebo nejrelevantnější průvodní dopis.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Jak exportuji data své aplikace?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Přejděte na Účet a synchronizace → přejděte dolů → klikněte na „Exportovat zálohu (JSON)“. Tím se stáhne všechna data vašeho profilu a aplikace jako soubor JSON pro bezpečné uložení.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Funguje ApplyFlow v demo režimu?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demo Mode bylo starší nastavení používané pro testování. Nyní je ve výchozím nastavení zakázána. Všechny funkce jsou živé a funkční s vestavěným klíčem Gemini API.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Jak mohu nahlásit chybu nebo požádat o funkci?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Otevřete prosím problém v našem úložišti GitHub (odkaz v sekci Informace) nebo nám napište na adresu support@applyflow.in. Obvykle odpovídáme do 48 hodin.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Otevřete vyskakovací okno ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Naskenujte aktuální stránku pro pole formuláře",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Spustit chytré automatické vyplňování na aktuální stránce",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Vystřihněte aktuální záznam úlohy do trackeru",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Otevřete Tracker na nové kartě",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Nakonfigurujte zkratky v Chrome na",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Poznámka:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Příkazy rozšíření pro Chrome vyžadují ruční přiřazení ve správci zástupců Chrome. Přejděte na $1$ a svažte výše uvedené klíče.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Rozšíření ApplyFlow pro Chrome — Zásady ochrany soukromí**\nPoslední aktualizace: červen 2026\n\n---\n\n**1. Úvod**\n\nApplyFlow („my“, „naše“, „rozšíření“) je rozšíření prohlížeče Chrome, které uživatelům pomáhá automaticky vyplňovat formuláře žádostí o zaměstnání, sledovat jejich žádosti a spravovat jejich profesní profil. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, ukládáme a chráníme vaše informace.\n\nInstalací a používáním aplikace ApplyFlow souhlasíte s postupy popsanými v těchto zásadách.\n\n---\n\n**2. Data, která shromažďujeme**\n\nShromažďujeme pouze informace, které dobrovolně poskytnete, abychom aktivovali funkce rozšíření:\n\n• **Informace o profilu**: Vaše jméno, e-mail, telefonní číslo, vysoká škola, titul, dovednosti, pracovní historie, projekty a profesní odkazy (LinkedIn, Git_L) **EEO/demografické informace (volitelné)**: Pohlaví, zdravotní postižení, status veterána a preference pracovního oprávnění – jsou poskytovány pouze v případě, že se rozhodnete vyplnit tato pole. Tato data se používají výhradně k automatickému vyplňování volitelných EEO dotazníků u žádostí o zaměstnání.\n• **Údaje o sledování aplikací**: Název pozice, společnost, adresa URL aplikace, stav a poznámky k pozicím, které sledujete pomocí rozšíření.\n• **Statistiky využití**: Počet provedených operací automatického vyplňování (uložených místně za účelem vynucení **L_2 denních limitů If_0**)._:• rozhodnete se přihlásit pomocí Google, uložíme vaše zobrazované jméno Google, e-mailovou adresu a adresu URL profilového obrázku, abychom vám přizpůsobili prostředí a umožnili synchronizaci s cloudem.\n\n**Neshromažďujeme**:\n• Platební nebo finanční údaje\n• Historie prohlížeče nebo obecné informace o aktivitách procházení__N job-application-related\n• Jakákoli data ze stránek, kdy rozšíření není aktivně spuštěno\n\n---\n\n**3. Jak ukládáme vaše data**\n\n**3.1 Místní úložiště (výchozí)**\nVšechna data jsou primárně uložena v rozhraní chrome.storage.local API vašeho prohlížeče. Tato data jsou uložena pouze ve vašem zařízení a nikdy nejsou přenášena na žádný server bez vaší explicitní akce.\n\n**3.2 Cloud Sync (volitelné)**\nPokud se rozhodnete přihlásit pomocí Google a povolit funkci „Supabase Sync“, váš profil a data aplikací budou také synchronizována do databáze Supabase. Ponecháváte si plné vlastnictví těchto dat. Můžete jej kdykoli smazat ze sekce Účet a synchronizace.\n\n**3.3 Požadavky AI Gemini**\nKdyž jsou použity funkce AI (např. generování eseje, analýza práce), části vašeho profilu (dovednosti, titul, shrnutí) a text popisu úlohy se odesílají do rozhraní API pro Gemini. To je zpracováno podle standardních smluvních podmínek a zásad ochrany osobních údajů API společnosti Google. Doporučujeme nezahrnovat citlivé osobní identifikátory do obsahu podporovaného umělou inteligencí.\n\n---\n\n**4. Sdílení údajů**\n\nVaše osobní údaje **ne** prodáváme, neobchodujeme, nepronajímáme ani je nesdílíme s žádnými třetími stranami pro marketingové nebo reklamní účely.\n\nVaše údaje mohou být zpracovány následujícími důvěryhodnými službami:\n• **Pro vyplňování formuláře AI-API-API (https://policies.google.com/privacy)\n• **Google OAuth**: Pro ověření účtu (https://policies.google.com/privacy)\n• **Supabase**: Pro volitelné cloudové úložiště (https://supabase.com/privacy) – pouze pokud povolíte synchronizace\n\n---\n\n**5. Vaše práva a ovládací prvky**\n\nMáte právo:\n• **Přístup ke** všem datům, která o vás aplikace ApplyFlow uložila (prostřednictvím Exportovat zálohu v nastavení)\n• **Opravit** vaše informace kdykoli na kartě Profile_** „Vymazat všechna vaše data v místním profilu_**_Near_5 Data\" v nastavení\n• **Odvolání souhlasu** kdykoli odinstalováním rozšíření\n• **Zakažte synchronizaci v cloudu** jejím vypnutím v nastavení účtu a synchronizace\n\n**GDPR (práva uživatelů z EU), omezte, omezte, pokud máte přístup k EU, znovu zjistěte**: Pokud jste EU a přenositelnost údajů podle obecného nařízení o ochraně osobních údajů.\n\n**Indie — DPDP Act 2023**: V souladu s indickým zákonem o ochraně osobních údajů z roku 2023 zpracováváme osobní údaje pouze za účelem poskytování asistenční služby při žádosti o zaměstnání. Souhlas můžete odvolat a kdykoli požádat o vymazání svých údajů tím, že nás kontaktujete.\n\n**Kalifornie — CCPA**: Obyvatelé Kalifornie mají právo vědět, jaké osobní údaje jsou shromažďovány, právo na výmaz a právo odmítnout prodej (neprodáváme údaje).\n\n---\n\n**6. Uchovávání dat**\n\nMístní data jsou uchována, dokud je ručně nevymažete. Data synchronizovaná s cloudem jsou uchována, dokud svůj účet nesmažete nebo nepožádáte o smazání. Data automaticky nemažeme.\n\n---\n\n**7. Zabezpečení**\n\nPřijímáme přiměřená technická opatření k ochraně vašich dat:\n• Veškerá cloudová komunikace používá šifrování HTTPS/TLS\n• Supabase Row-Level Security (RLS) zajišťuje uživatelům přístup pouze ke svým vlastním datům nad rámec potřebných oprávnění\n• Rozšíření funkce\n\n---\n\n**8. Soukromí dětí**\n\nApplyFlow není určeno pro uživatele mladší 13 let. Vědomě neshromažďujeme data od dětí. Pokud se domníváte, že nám nějaké dítě poskytlo osobní údaje, okamžitě nás prosím kontaktujte.\n\n---\n\n**9. Změny těchto zásad**\n\nTyto zásady ochrany osobních údajů můžeme čas od času aktualizovat. Významné změny budou oznámeny prostřednictvím stránky Možnosti rozšíření. Pokračování v používání rozšíření po změnách představuje přijetí aktualizovaných zásad.\n\n---\n\n**10. Kontaktujte nás**\n\nV případě jakýchkoli otázek týkajících se ochrany osobních údajů, žádostí o vymazání dat nebo obav:\n\nE-mail: privacy@applyflow.in\nGitHub: https://github.com/applyflow_4Website: https://applyflow.in\n\nNaším cílem je odpovědět na všechny žádosti do 30 dnů.",
+    "description": "Privacy policy document markdown text"
+  }
+}

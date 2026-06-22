@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: Tự động điền công việc và theo dõi ứng dụng AI",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Tự động điền đơn xin việc và theo dõi danh sách tự động bằng AI trên LinkedIn, Workday, Greenhouse, v.v.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "Áp dụngFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Đang hoạt động",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Đã áp dụng",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Phỏng vấn",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ưu đãi",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Đã lưu",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Tổng cộng",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Tự động điền",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Làm đầy...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Tự động điền nhanh",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Phân tích công việc",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Mở thanh bên",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Cài đặt",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Vui lòng đăng nhập bằng Google trước để sử dụng Tự động điền nhanh!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Vui lòng thiết lập hồ sơ của bạn trước trong trang Bảng điều khiển bên/Tùy chọn!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Đã phát hiện",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Không tìm thấy trang việc làm",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Truy cập danh sách công việc để mở khóa các tính năng AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Chào buổi sáng",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Chào buổi chiều",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Chào buổi tối",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ đơn đăng ký được theo dõi · $2$ phỏng vấn",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Bắt đầu đăng ký để theo dõi tiến trình của bạn",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Thư xin việc",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Trợ giúp Hỏi đáp",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Sẵn sàng giúp đỡ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Điều hướng đến danh sách việc làm trên LinkedIn, Workday, Greenhouse hoặc bất kỳ trang tuyển dụng nào để bắt đầu.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Tuần này",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Hoạt động gần đây",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Xem tất cả →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Bắt đầu cuộc săn tìm việc làm của bạn!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Truy cập bảng việc làm và sử dụng ApplyFlow để tự động điền và theo dõi đơn đăng ký của bạn.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Hồ sơ của tôi",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Đang lưu...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Lưu tất cả",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Đã lưu hồ sơ!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Không lưu được hồ sơ.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Tiếp tục",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Tải lên hồ sơ tự động điền",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Đã tải lên",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Thông tin cá nhân",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Chưa hoàn thành",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Vị trí",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "giáo dục",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Kỹ năng",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Kinh nghiệm làm việc",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Dự án",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Sở thích công việc",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Ủy quyền làm việc",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Tiếp tục lịch sử",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Sử dụng cái này",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Được phân tích cú pháp trên $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Tải chi tiết hồ sơ từ \"$1$\"? Điều này sẽ thay thế các chỉnh sửa hiện tại của bạn bằng cấu trúc được phân tích cú pháp của sơ yếu lý lịch này.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Đã khôi phục chi tiết từ $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Tỷ số trận đấu",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Vừa vặn",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ thêm",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Ứng dụng tự động điền và đăng nhập! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Tự động điền thông qua Bảng điều khiển bên ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ở đó",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Không có trường đại học",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Thiết lập hồ sơ của bạn để bật tính năng tự động điền",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Chưa đặt",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ mục nhập",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ kỹ năng",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ dự án",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ câu trả lời",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Được ủy quyền",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Không được ủy quyền",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Tên đầy đủ",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Điện thoại",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Điện thoại thay thế",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL danh mục đầu tư",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Tiếp tục liên kết",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Thành phố",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "tiểu bang",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Quốc gia",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Mã bưu chính",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Địa chỉ",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Quốc tịch",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Cao đẳng / Đại học",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Bằng cấp",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Năm tốt nghiệp",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Lớp",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Thời gian thông báo",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Mức lương mong đợi",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Vai trò ưa thích",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Số năm kinh nghiệm",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Được phép làm việc mà không cần tài trợ visa",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Yêu cầu tài trợ visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Giới tính",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Khuyết tật",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Không muốn nói",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Không được chỉ định",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Nam",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Nữ",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "phi nhị phân",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Có",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Không",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Chưa có kỹ năng nào được thêm vào",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Thêm kỹ năng (Nhập để thêm)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Cụm từ kích hoạt (ví dụ: Tại sao chúng tôi nên thuê bạn)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Câu trả lời của bạn...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Xóa",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Thêm câu trả lời tùy chỉnh",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Công ty",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Vai trò/Chức danh",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Ngày bắt đầu",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Ngày kết thúc",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "hiện tại",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Tôi hiện đang làm việc với vai trò này",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Mô tả",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Mô tả trách nhiệm của bạn, những thành tựu chính, công nghệ được sử dụng...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Thêm kinh nghiệm làm việc",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Tên dự án",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "ngăn xếp công nghệ",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL triển khai",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Mô tả những gì bạn đã xây dựng, những vấn đề mà nó đã giải quyết và các tính năng chính...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Thêm dự án",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Trình theo dõi",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Đã lưu",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Đã áp dụng",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Đánh giá",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Phỏng vấn",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ưu đãi",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Bị từ chối",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Đã rút",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Xóa ứng dụng này?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Ứng dụng được cập nhật!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Ứng dụng đã bị xóa.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Trạng thái",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Nền tảng",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Đã áp dụng",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Mở bài đăng việc làm",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Lương/Tiền trợ cấp",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Nhắc nhở theo dõi",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Ghi chú",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Thêm ghi chú, thông tin liên hệ, chi tiết phỏng vấn...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Mô tả công việc (trích)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Xóa",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Hủy bỏ",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Lưu",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ứng dụng",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ ứng dụng",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Lọc theo công ty...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Bộ lọc trạng thái",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Di chuyển sang phải để biết thêm →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Tất cả",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Không tìm thấy ứng dụng nào",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Hãy thử đặt lại bộ lọc hoặc lưu công việc để thêm mục theo dõi mới",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Phân tích",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ tổng số đơn đăng ký",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Chưa có dữ liệu",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Bắt đầu nộp đơn xin việc và phân tích của bạn sẽ xuất hiện ở đây.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Tỷ lệ chuyển đổi",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Đã áp dụng",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Tỷ lệ phỏng vấn",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tỷ lệ ưu đãi",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Đơn đăng ký trong tuần này",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Kênh ứng dụng",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Nền tảng hàng đầu",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Phân tích trạng thái",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "Phi công phụ AI",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Bối cảnh: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Phi công phụ trong sự nghiệp của bạn",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Cuộc trò chuyện mới ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Vui lòng thiết lập hồ sơ của bạn trước để AI có thể cá nhân hóa các câu trả lời.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Đã xóa cuộc trò chuyện! Tôi có thể giúp gì cho bạn?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Hãy hỏi bất cứ điều gì về công việc này...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Thiết lập hồ sơ của bạn để bắt đầu",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Nhấn Enter để gửi",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Tiếp tục Điểm tương thích",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Kỹ năng mạnh mẽ",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Thiếu kỹ năng",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Đây là thư xin việc được cá nhân hóa của bạn:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Sao chép!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Sao chép",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Tải xuống",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Dưới đây là $1$ câu hỏi phỏng vấn có thể xảy ra:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Điểm tối ưu hóa tiếp tục: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Tiếp tục đề xuất trận đấu",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "so với mô tả công việc này",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "CHÀO! Tôi có thể thấy bạn đang xem vai trò **$1$** tại **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "CHÀO! Tôi có thể thấy bạn đang xem một vai trò **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "CHÀO! Tôi là phi công phụ trong sự nghiệp AI của bạn. Điều hướng đến danh sách công việc và tôi sẽ tự động phân tích nó hoặc hỏi tôi bất cứ điều gì!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Vui lòng thiết lập hồ sơ của bạn trước trong tab Hồ sơ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Vui lòng mở trang danh sách công việc trong trình duyệt của bạn trước để sử dụng tính năng này!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Mở khóa ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Đăng nhập bằng Google để truy cập trang tổng quan của bạn, đồng bộ hóa công việc, quản lý hồ sơ sơ yếu lý lịch của bạn và tự động điền đơn xin việc ngay lập tức.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "Tự động điền & cắt AI",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Quét và tự động điền ứng dụng chỉ bằng một cú nhấp chuột.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Đồng bộ hóa và sao lưu đám mây",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Đồng bộ hóa tất cả chi tiết theo dõi công việc của bạn với Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Sơ yếu lý lịch & Hồ sơ",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Tải lên sơ yếu lý lịch của bạn và tùy chỉnh câu trả lời ứng dụng.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Đang kết nối với Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Đăng nhập bằng Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Bằng cách đăng nhập, bạn đồng ý đồng bộ hóa dữ liệu hồ sơ của mình một cách an toàn với không gian làm việc đang hoạt động của mình.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Bạn có chắc chắn muốn đăng xuất không?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Đăng xuất thành công.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Đăng nhập với tên $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Đăng xuất",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Đăng nhập",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Đang kết nối...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Mở Áp dụngFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "Áp dụng đối sánh luồng",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Kỹ năng kết hợp mạnh mẽ",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Thiếu kỹ năng",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Trang tự động điền thông minh",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Tự động điền biểu mẫu...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Không tìm thấy trường ứng dụng có thể điền nào trên trang.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Đã điền thành công!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Tự động điền không thành công do độ phức tạp của trang.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Tự động lưu vào trình theo dõi nhật ký khi điền.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Sơ yếu lý lịch của bạn **$1$%** tương thích** với vai trò này.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Chào mừng trở lại, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Không tìm nạp được thông tin hồ sơ người dùng Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Đăng nhập OAuth không thành công: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Không tìm nạp được mã thông báo truy cập từ chuyển hướng.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Không thể phân tích cú pháp chuyển hướng xác thực.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Xác thực không được hỗ trợ trên nền tảng này.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Công việc đã được lưu vào trình theo dõi!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "khách",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Cài đặt chung",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Hiển thị trên trang việc làm LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Hiển thị điểm phù hợp thông minh và nút tự động điền bằng một cú nhấp chuột khi bạn xem các tin tuyển dụng trên LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Hiển thị nút 'Lưu công việc'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Hiển thị nút 'Lưu việc làm **' nổi trên các trang web việc làm để bạn có thể nhanh chóng lưu chi tiết công việc vào trình theo dõi của mình trước khi nộp đơn.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Chỉ đăng nhập sau khi thực sự đăng ký",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Đợi cho đến khi bạn nhìn thấy màn hình 'Cảm ơn' hoặc 'Thành công' trước khi thêm công việc vào trình theo dõi của bạn. Giữ cho trình theo dõi của bạn gọn gàng bằng cách ngăn việc lưu các biểu mẫu điền một nửa dưới dạng 'Đã áp dụng'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Phân tích tín dụng và sử dụng AI",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Tín dụng còn lại",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Tín dụng còn lại",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Tổng số tín chỉ",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Tự động điền mọi lúc",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Trạng thái kế hoạch",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Cao cấp 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Miễn phí 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Mẹo chuyên nghiệp:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Hoạt động Tự động điền thông minh tiêu tốn 0 tín dụng và không giới hạn 100%! Chỉ các tính năng AI nâng cao như Thư xin việc (5 tín chỉ) và Bài luận tùy chỉnh (3 tín chỉ) mới tiêu tốn số dư tín dụng của bạn.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Tài khoản Google & Đồng bộ hóa đám mây",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Đồng bộ hóa đám mây của Google đang hoạt động",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Đã khóa đồng bộ hóa đám mây (Chỉ cao cấp)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Đồng bộ đám mây",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Đẩy lên đám mây",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Kéo từ đám mây",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Đồng bộ thành công!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Đồng bộ hóa không thành công. Kiểm tra kết nối của bạn.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Đồng bộ hóa đám mây an toàn",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Đăng nhập bằng Google để sao lưu ứng dụng và hồ sơ của bạn vào Supabase. Đồng bộ hóa là tính năng Cao cấp giúp giữ nhật ký của bạn an toàn trên các thiết bị.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync là một tính năng cao cấp. Vui lòng nâng cấp trong tab Nâng cấp để bật đồng bộ hóa!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Quản lý dữ liệu",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Xuất bản sao lưu (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Xóa tất cả dữ liệu cục bộ",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Việc xóa dữ liệu cục bộ sẽ chỉ xóa hồ sơ và ứng dụng của bạn khỏi thiết bị này. Dữ liệu đám mây không bị ảnh hưởng.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Trung tâm điều khiển",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Trang chủ & Giới thiệu",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Cài đặt chung",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Nâng cấp lên Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Gói cao cấp 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Tài khoản & Đồng bộ hóa",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Chính sách bảo mật",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "Câu hỏi thường gặp",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Phím tắt",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Chào mừng bạn đến với ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow là tiện ích mở rộng Chrome được hỗ trợ bởi AI được xây dựng dành cho sinh viên và người tìm việc muốn nộp đơn nhanh hơn và thông minh hơn. Nó tự động phát hiện và điền vào các mẫu đơn xin việc trên hơn 15 nền tảng, theo dõi quy trình của bạn và giúp bạn có được nhiều cuộc phỏng vấn hơn.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Tự động điền thông minh",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "Hơn 15 nền tảng ATS với bộ chọn chính xác",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Cắt Web",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Một cú nhấp chuột lưu bất kỳ danh sách công việc",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Trình theo dõi Kanban",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Kéo và thả đường dẫn ứng dụng của bạn",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Tự động điền EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Tự động điền các câu hỏi về nhân khẩu học và thị thực",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "Bài tiểu luận về AI",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Viết câu trả lời tùy chỉnh do Gemini cung cấp",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Đồng bộ hóa an toàn",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Sao lưu đám mây Supabase tùy chọn",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Cách bắt đầu",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Xây dựng hồ sơ của bạn",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Mở cửa sổ bật lên → tab Hồ sơ → tải lên bản PDF sơ yếu lý lịch của bạn. AI sẽ tự động trích xuất tất cả thông tin chi tiết của bạn bao gồm kỹ năng, kinh nghiệm, trình độ học vấn và dự án.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Đặt tùy chọn EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Cuộn đến phần EEO trong Hồ sơ của bạn và đặt giấy phép làm việc, nhu cầu tài trợ thị thực và tùy chọn nhân khẩu học của bạn. Chúng được sử dụng để tự động điền vào bảng câu hỏi EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Duyệt qua danh sách việc làm",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Điều hướng đến bất kỳ danh sách công việc. Bạn sẽ thấy nút “Lưu công việc” xuất hiện. Nhấp vào nó để lưu ngay vị trí vào trình theo dõi của bạn.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Mở một mẫu đơn đăng ký",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Điều hướng đến mẫu đơn. Nhấp vào cửa sổ bật lên ApplyFlow → nhấn \"Quét trang\" → sau đó \"⚡ Tự động điền thông minh\". Tất cả các trường bao gồm nút radio và danh sách thả xuống đều được điền ngay lập tức.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Theo dõi đường ống của bạn",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Mở tab Trình theo dõi để xem tất cả các ứng dụng của bạn. Chuyển sang chế độ xem Bảng Kanban và kéo thẻ giữa các cột khi cập nhật trạng thái của bạn.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Yêu cầu đăng nhập",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Đăng nhập để tùy chỉnh cài đặt",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Cài đặt chung chỉ khả dụng cho người dùng đã đăng nhập. Đăng nhập bằng Google để định cấu hình tùy chọn, hành vi tự động điền của bạn và hơn thế nữa.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Đi tới Tài khoản & Đồng bộ hóa",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "Áp dụngFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Mã bản quyền: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Vô hiệu hóa giấy phép",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Kích hoạt khóa cấp phép",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Nếu bạn đã mua đăng ký hoặc nhận được mã truy cập, hãy nhập mã cấp phép của bạn bên dưới để mở khóa ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Kích hoạt",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Đang kích hoạt...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Mẹo: Bạn có thể kích hoạt Premium bằng key APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Đã kích hoạt cao cấp!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Cảm ơn bạn đã ủng hộ ApplyFlow. Tất cả các tính năng cao cấp hiện đã được mở khóa.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Gói nâng cấp cao cấp",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Mở khóa xuất khẩu nghề nghiệp của bạn và các tính năng AI nâng cao.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Nhận tín dụng AI cao cấp cho thư xin việc, câu trả lời bài luận tùy chỉnh, tối ưu hóa sơ yếu lý lịch và chuẩn bị phỏng vấn thử. Hoạt động tự động điền trên nền tảng được hỗ trợ hoàn toàn không giới hạn và miễn phí cho tất cả người dùng cao cấp!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Ưu đãi dành cho người áp dụng sớm:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Lần tăng giá tiếp theo cho 500 người dùng Premium. Giữ tỷ lệ này suốt đời!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Chuyên nghiệp hàng tháng",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Tốt cho tìm kiếm ngắn hạn",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ tháng",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Chỉ ₹13 / ngày)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 Tín dụng AI mỗi tháng|||Tự động điền không giới hạn (Tất cả các cổng)|||Cloud Sync & Google Backup|||Chủ đề cao cấp|||Trải nghiệm không có quảng cáo",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Đăng ký hàng tháng",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Chuyên nghiệp hàng quý",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Giá trị tốt nhất cho hầu hết người tìm việc",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 tháng",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Chỉ ₹11 / ngày)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 Tín dụng AI mỗi quý|||Tự động điền không giới hạn (Tất cả các cổng)|||Thư xin việc và bài luận phù hợp|||Cloud Sync & Google Backup|||Tiếp tục đề xuất đối sánh",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Đăng ký hàng quý",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Phổ biến nhất",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Cuối cùng hàng năm",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Giá trị tốt nhất cho người dùng thành thạo",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ năm",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Tương đương ₹249 / tháng)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 Tín dụng AI mỗi năm|||Tự động điền hàng ngày không giới hạn|||Thư xin việc và bài luận phù hợp|||Cloud Sync & Google Backup|||Tiếp tục đề xuất phù hợp|||Hỗ trợ qua email ưu tiên",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Đăng ký hàng năm",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Giá trị tốt nhất - Tiết kiệm 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Hỗ trợ phát triển ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow được xây dựng và duy trì bởi các nhà phát triển độc lập. Nếu bạn thấy tiện ích mở rộng này hữu ích, hãy cân nhắc quyên góp trên Ko-fi để giúp tiện ích này luôn hoạt động, không có quảng cáo và cập nhật các bảng việc làm mới.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Mua cho tôi một ly cà phê trên Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Xếp hạng|||🔒 Thanh toán an toàn||| ✓ Hủy bất cứ lúc nào",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Khóa cấp phép không hợp lệ. Gợi ý: Hãy thử sử dụng khóa demo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Giấy phép được kích hoạt thành công! Chào mừng bạn đến với ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Bạn có chắc chắn muốn hủy kích hoạt giấy phép cao cấp của mình không? Điều này sẽ đưa bạn trở lại Gói miễn phí.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Giấy phép cao cấp đã bị vô hiệu hóa. Bạn hiện đang sử dụng Gói miễn phí.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Điều này sẽ xóa vĩnh viễn TẤT CẢ dữ liệu ứng dụng và hồ sơ cục bộ. Bạn có chắc không?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Chính sách quyền riêng tư",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Câu hỏi thường gặp",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow là gì và nó hoạt động như thế nào?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow là một tiện ích mở rộng của Chrome được hỗ trợ bởi AI, tự động phát hiện và điền vào các mẫu đơn xin việc trên hơn 15 nền tảng bao gồm LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, v.v. Nó đọc hồ sơ đã lưu của bạn và sử dụng tính năng khớp thông minh để điền vào các trường văn bản, danh sách thả xuống, nút radio và hộp kiểm — bao gồm các câu hỏi về EEO/nhân khẩu học.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Dữ liệu cá nhân của tôi có an toàn với ApplyFlow không?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Đúng. Theo mặc định, dữ liệu của bạn được lưu trữ cục bộ trong chrome.storage.local của trình duyệt. Nó không bao giờ được gửi đến bất kỳ máy chủ bên thứ ba nào ngoài cơ sở dữ liệu Supabase tùy chọn của riêng bạn (mà bạn kiểm soát). ApplyFlow không bao giờ bán, chia sẻ hoặc kiếm tiền từ thông tin cá nhân của bạn.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow hỗ trợ những nền tảng công việc nào?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow hỗ trợ hơn 15 nền tảng ngay lập tức: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList và bất kỳ trang web nào khác thông qua công cụ so khớp dự phòng chung thông minh của chúng tôi.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Web Clipper là gì?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper là nút \"Lưu việc làm\" nổi tự động xuất hiện khi bạn truy cập bất kỳ trang danh sách việc làm nào. Nhấp vào nó sẽ trích xuất chức danh công việc, công ty, mức lương và mô tả, sau đó lưu nó vào trình theo dõi ApplyFlow của bạn dưới dạng đơn đăng ký \"Đã lưu\" - để bạn có thể theo dõi công việc trước khi nộp đơn.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Làm cách nào để cập nhật hồ sơ của tôi?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Mở cửa sổ bật lên ApplyFlow, nhấp vào tab \"Hồ sơ\" và tải lên bản PDF sơ yếu lý lịch của bạn. AI sẽ tự động điền vào tất cả các trường của bạn. Bạn cũng có thể chỉnh sửa thủ công bất kỳ trường nào bao gồm tùy chọn EEO, giấy phép làm việc và thư xin việc.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Các trường EEO là gì và tại sao tôi cần chúng?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Các trường EEO (Cơ hội việc làm bình đẳng) là những câu hỏi mà nhiều nhà tuyển dụng ở Hoa Kỳ và toàn cầu hỏi về giới tính, tình trạng khuyết tật, tình trạng cựu chiến binh và giấy phép làm việc. ApplyFlow lưu trữ các câu trả lời ưa thích của bạn và tự động điền vào các nhóm nút radio này để bạn không phải trả lời thủ công mỗi lần.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow có yêu cầu bất kỳ khóa API hoặc cấu hình nào không?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "KHÔNG! ApplyFlow tự động xử lý tất cả các hoạt động phát hiện biểu mẫu, đối sánh thông minh, tạo thư xin việc và chấm điểm khả năng tương thích. Bạn không cần lấy hoặc định cấu hình bất kỳ khóa API nào.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Đồng bộ hóa Supabase là gì và tôi có cần nó không?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Đồng bộ hóa Supabase là một tính năng sao lưu đám mây tùy chọn. Khi bạn đăng nhập bằng Google và bật tính năng này, hồ sơ và trình theo dõi ứng dụng của bạn sẽ được đồng bộ hóa với cơ sở dữ liệu đám mây riêng để dữ liệu của bạn được sao lưu và có thể truy cập được từ nhiều thiết bị. Điều này hoàn toàn không bắt buộc — tiện ích mở rộng hoạt động hoàn toàn ngoại tuyến.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Tại sao ApplyFlow cần quyền truy cập vào tất cả các trang web?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow yêu cầu quyền truy cập vào tất cả các trang web để có thể đưa công cụ tự động điền vào bất kỳ mẫu đơn xin việc nào và hiển thị nút cắt \"Lưu công việc\" trên bất kỳ danh sách công việc nào. Sự cho phép này là cần thiết để hỗ trợ nền tảng rộng rãi. Chúng tôi chỉ đưa đoạn mã vào các trang có liên quan rõ ràng đến công việc.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Bảng Kanban là gì?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Bảng Kanban là chế độ xem theo dõi công việc trực quan trong tab Theo dõi. Nó hiển thị các đơn đăng ký của bạn được sắp xếp theo cột: Đã lưu → Đã áp dụng → Đánh giá → Phỏng vấn → Ưu đãi. Bạn có thể kéo và thả thẻ giữa các cột để cập nhật trạng thái của bất kỳ ứng dụng nào.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Tính năng phát hiện nội dung gửi hoạt động như thế nào?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Khi bạn bật \"Chỉ đăng nhập sau khi gửi\" trong cài đặt, ApplyFlow sẽ theo dõi các thay đổi trên trang cho biết quá trình gửi thành công (chẳng hạn như URL chứa \"/success\" hoặc nội dung có nội dung \"Cảm ơn bạn đã đăng ký\"). Nó chỉ ghi nhật ký ứng dụng vào trình theo dõi của bạn sau khi phát hiện thấy một lần gửi thực sự.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Tôi có thể lưu trữ nhiều thư xin việc không?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Đúng! Màn hình Hồ sơ có phần \"Kho thư xin việc\", nơi bạn có thể lưu trữ không giới hạn các thư xin việc phù hợp với các vai trò hoặc công ty khác nhau. Khi tự động điền, ApplyFlow sẽ sử dụng thư xin việc gần đây nhất hoặc phù hợp nhất của bạn.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Làm cách nào để xuất dữ liệu ứng dụng của tôi?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Đi tới Tài khoản & Đồng bộ hóa → cuộn xuống cuối → nhấp vào \"Xuất bản sao lưu (JSON)\". Thao tác này sẽ tải xuống tất cả dữ liệu hồ sơ và ứng dụng của bạn dưới dạng tệp JSON để lưu giữ an toàn.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow có hoạt động ở Chế độ Demo không?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Chế độ demo là cài đặt cũ được sử dụng để thử nghiệm. Bây giờ nó bị tắt theo mặc định. Tất cả các tính năng đều hoạt động và hoạt động với khóa API Gemini tích hợp.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Làm cách nào để báo cáo lỗi hoặc yêu cầu một tính năng?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Vui lòng mở một vấn đề trên kho lưu trữ GitHub của chúng tôi (được liên kết trong phần Giới thiệu) hoặc gửi email cho chúng tôi theo địa chỉ support@applyflow.in. Chúng tôi thường trả lời trong vòng 48 giờ.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Mở cửa sổ bật lên ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Quét trang hiện tại để tìm các trường biểu mẫu",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Kích hoạt tính năng Tự động điền thông minh trên trang hiện tại",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Kẹp danh sách công việc hiện tại vào trình theo dõi",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Mở Trình theo dõi trong tab mới",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Cấu hình phím tắt trong Chrome tại",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Lưu ý:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Các lệnh mở rộng của Chrome yêu cầu gán thủ công trong trình quản lý phím tắt của Chrome. Đi tới $1$ để liên kết các khóa được liệt kê ở trên.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Tiện ích mở rộng ApplyFlow của Chrome — Chính sách quyền riêng tư**\nCập nhật lần cuối: Tháng 6 năm 2026\n_\n---\nNL_4__**1. Giới thiệu**\n_NL_6__ApplyFlow (\"chúng tôi\", \"của chúng tôi\", \"Tiện ích mở rộng\") là một tiện ích mở rộng của trình duyệt Chrome giúp người dùng tự động điền vào các mẫu đơn xin việc, theo dõi đơn xin việc và quản lý hồ sơ nghề nghiệp của họ. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ thông tin của bạn.\n\nBằng cách cài đặt và sử dụng ApplyFlow, bạn đồng ý với các thông lệ được mô tả trong chính sách này.\n_\n---\n_NL_12__**2. Dữ liệu chúng tôi thu thập**\n\nChúng tôi chỉ thu thập thông tin mà bạn tự nguyện cung cấp để kích hoạt các tính năng của tiện ích mở rộng:\n\n **Thông tin hồ sơ**: Tên, email, số điện thoại, trường đại học, bằng cấp, kỹ năng, lịch sử công việc, dự án và liên kết nghề nghiệp (LinkedIn, GitHub, Portfolio).\n **Thông tin EEO/Thông tin nhân khẩu học (Tùy chọn)**: Giới tính, tình trạng khuyết tật, tình trạng cựu chiến binh và tùy chọn ủy quyền làm việc — chỉ được cung cấp nếu bạn chọn điền vào các trường này. Dữ liệu này được sử dụng riêng để tự động điền các bảng câu hỏi EEO tùy chọn trong đơn xin việc.\n **Dữ liệu theo dõi đơn xin việc**: Chức vụ, công ty, URL ứng tuyển, trạng thái và ghi chú cho các vị trí bạn theo dõi bằng tiện ích mở rộng.\n **Thống kê sử dụng**: Số lượng thao tác tự động điền được thực hiện (được lưu trữ cục bộ để thực thi các giới hạn hàng ngày).\n **Dữ liệu xác thực**: Nếu bạn chọn đăng nhập bằng Google, chúng tôi sẽ lưu trữ tên hiển thị, địa chỉ email và URL ảnh hồ sơ Google của bạn để cá nhân hóa trải nghiệm của bạn và bật đồng bộ hóa trên đám mây.\n\nChúng tôi **không** thu thập:\n Thông tin thanh toán hoặc tài chính\n Lịch sử trình duyệt hoặc hoạt động duyệt web chung\n Bất kỳ thông tin nào từ các trang không liên quan đến đơn xin việc\n Bất kỳ dữ liệu nào từ các trang khi tiện ích mở rộng không được kích hoạt chủ động\n\n---\n\n**3. Cách chúng tôi lưu trữ dữ liệu của bạn**\n_NL_32__**3.1 Bộ nhớ cục bộ (Mặc định)**\nTất cả dữ liệu chủ yếu được lưu trữ trong API chrome.storage.local của trình duyệt của bạn. Dữ liệu này chỉ tồn tại trên thiết bị của bạn và không bao giờ được truyền đến bất kỳ máy chủ nào mà không có hành động rõ ràng của bạn.\n\n**3.2 Cloud Sync (Tùy chọn)**\nNếu bạn chọn đăng nhập bằng Google và bật tính năng \"Supabase Sync\", hồ sơ và dữ liệu ứng dụng của bạn cũng sẽ được đồng bộ hóa với cơ sở dữ liệu Supabase. Bạn giữ toàn quyền sở hữu dữ liệu này. Bạn có thể xóa nó bất kỳ lúc nào từ phần Tài khoản & Đồng bộ hóa.\n\n**3.3 Yêu cầu AI của Gemini**\nKhi các tính năng AI được sử dụng (ví dụ: tạo bài luận, phân tích công việc), các phần trong hồ sơ của bạn (kỹ năng, bằng cấp, tóm tắt) và văn bản mô tả công việc sẽ được gửi tới API Gemini của Google để tạo phản hồi. Việc này được xử lý theo Điều khoản dịch vụ và Chính sách quyền riêng tư API tiêu chuẩn của Google. Chúng tôi khuyên bạn không nên đưa thông tin nhận dạng cá nhân nhạy cảm vào nội dung được AI hỗ trợ.\n\n---\n_NL_43__**4. Chia sẻ dữ liệu**\n\nChúng tôi **không** bán, trao đổi, thuê hoặc chia sẻ thông tin cá nhân của bạn với bất kỳ bên thứ ba nào vì mục đích tiếp thị hoặc quảng cáo.\n\nDữ liệu của bạn có thể được xử lý bởi các dịch vụ đáng tin cậy sau:\n **Google Gemini API**: Để điền và phân tích biểu mẫu do AI cung cấp (https://policies.google.com/privacy)\n **Google OAuth**: Để xác thực tài khoản (https://policies.google.com/privacy)\n **Supabase**: Dành cho bộ nhớ đám mây tùy chọn (https://supabase.com/privacy) — chỉ khi bạn bật đồng bộ hóa\nNL_52__---\nNL_54__**5. Quyền và quyền kiểm soát của bạn**\n_NL_56__Bạn có quyền:\n **Truy cập** tất cả dữ liệu ApplyFlow đã lưu trữ về bạn (thông qua Xuất bản sao lưu trong cài đặt)\n **Chỉnh sửa** thông tin của bạn bất kỳ lúc nào trong tab Hồ sơ\n **Xóa** tất cả dữ liệu cục bộ của bạn bằng cách sử dụng \"Xóa tất cả dữ liệu hồ sơ\" trong cài đặt\n **Rút lại sự đồng ý** bất cứ lúc nào bằng cách gỡ cài đặt tiện ích mở rộng\n **Tắt đồng bộ hóa đám mây** bằng cách tắt tính năng này trong cài đặt Tài khoản & Đồng bộ hóa\n\n**GDPR (Người dùng ở Liên minh Châu Âu)**: Nếu là cư dân Liên minh Châu Âu, bạn có quyền truy cập, chỉnh sửa, xóa, hạn chế xử lý và di chuyển dữ liệu theo Quy định chung về bảo vệ dữ liệu.\n\n**Ấn Độ — Đạo luật DPDP 2023**: Tuân thủ Đạo luật bảo vệ dữ liệu cá nhân kỹ thuật số của Ấn Độ Kể từ năm 2023, chúng tôi chỉ xử lý dữ liệu cá nhân cho mục đích cung cấp dịch vụ hỗ trợ nộp đơn xin việc. Bạn có thể rút lại sự đồng ý và yêu cầu xóa dữ liệu của mình bất kỳ lúc nào bằng cách liên hệ với chúng tôi.\n\n**California - CCPA**: Cư dân California có quyền biết thông tin cá nhân nào được thu thập, quyền xóa và quyền chọn không bán dữ liệu (chúng tôi không bán dữ liệu).\n_NL_69__---\n\n**6. Lưu giữ dữ liệu**\n\nDữ liệu cục bộ được giữ lại cho đến khi bạn xóa thủ công. Dữ liệu được đồng bộ hóa trên đám mây được giữ lại cho đến khi bạn xóa tài khoản của mình hoặc yêu cầu xóa. Chúng tôi không tự động xóa dữ liệu.\n_\n---\n_NL_77__**7. Bảo mật**\n\nChúng tôi thực hiện các biện pháp kỹ thuật hợp lý để bảo vệ dữ liệu của bạn:\n Tất cả thông tin liên lạc trên đám mây đều sử dụng mã hóa HTTPS/TLS\n Bảo mật cấp hàng Supabase (RLS) đảm bảo người dùng chỉ có thể truy cập dữ liệu của riêng họ\n Tiện ích mở rộng không yêu cầu các quyền vượt quá những quyền cần thiết cho chức năng cốt lõi của nó\n\n---\nNL_86__**8. Quyền riêng tư của trẻ em**\n\nApplyFlow không dành cho người dùng dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu từ trẻ em. Nếu bạn cho rằng một đứa trẻ đã cung cấp thông tin cá nhân cho chúng tôi, vui lòng liên hệ với chúng tôi ngay lập tức.\n\n---\n_NL_92__**9. Những thay đổi đối với Chính sách này**_\n\nChúng tôi có thể cập nhật Chính sách quyền riêng tư này bất cứ lúc nào. Những thay đổi quan trọng sẽ được thông báo qua trang Tùy chọn của tiện ích mở rộng. Việc tiếp tục sử dụng tiện ích mở rộng sau khi thay đổi đồng nghĩa với việc chấp nhận chính sách đã cập nhật.\n\n---\n_NL_98__**10. Liên hệ với chúng tôi**\n\nĐối với bất kỳ câu hỏi, yêu cầu hoặc mối quan ngại nào liên quan đến quyền riêng tư:\nNL_102__Email: Privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nTrang web: https://applyflow.in\n\nChúng tôi mong muốn đáp ứng tất cả các yêu cầu trong vòng 30 ngày.",
+    "description": "Privacy policy document markdown text"
+  }
+}

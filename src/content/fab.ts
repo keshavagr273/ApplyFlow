@@ -1,3 +1,5 @@
+import { t } from '../shared/i18n';
+
 // ─── ApplyFlow FAB (Floating Action Button) ────────────────────────────────────
 // Injects a round button on every page that opens the Side Panel when clicked.
 // On supported job pages, it uses a smaller pill style.
@@ -60,7 +62,7 @@
 
   // Tooltip
   const tooltip = document.createElement('div');
-  tooltip.textContent = isJobPage ? 'Open ApplyFlow' : 'Open ApplyFlow';
+  tooltip.textContent = t('open_applyflow');
   Object.assign(tooltip.style, {
     position: 'absolute',
     right: '56px',

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "Aiwatar da Aiwatarwa: AI Ayuba Autofill & Aikace-aikacen Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Cika aikace-aikacen aiki ta atomatik da jerin waƙoƙi ta atomatik ta amfani da AI akan LinkedIn, Ranar Aiki, Greenhouse & ƙari.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Mai aiki",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Aiwatar",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Hira",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Bayar",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Ajiye",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Jimlar",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Cika kai tsaye",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Cika...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Saurin Cika Kai tsaye",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Yi nazarin Ayuba",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Bude mashigar gefe",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Saituna",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Da fatan za a fara shiga tare da Google don amfani da sauri Autofill!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Da fatan za a fara saita bayanin martabarku a cikin Rukunin Gefe/Shafin Zaɓuɓɓuka!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "_P_0__ An Gano",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Ba a gano shafin aiki ba",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Ziyarci jerin ayyuka don buɗe fasalin AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "Barka da safiya",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "Barka da rana",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "Barka da yamma",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "_P_0__ aikace-aikacen da aka bi su · $2$ tambayoyin",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Fara nema don bin diddigin ci gaban ku",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Wasikar Rufe",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Taimakon Tambaya&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Shirye don taimakawa",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Kewaya zuwa jerin ayyuka akan LinkedIn, Ranar Aiki, Greenhouse, ko kowane allon aiki don farawa.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Wannan Makon",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Ayyukan kwanan nan",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Duba duka →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Fara farautar aikinku!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Ziyarci allon aiki kuma yi amfani da ApplyFlow don cikawa da bin diddigin aikace-aikacenku ta atomatik.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Bayanan Bayani na",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Ana ajiyewa...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Ajiye Duka",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "An adana bayanan martaba!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "An kasa ajiye bayanin martaba.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Ci gaba",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Loda zuwa bayanin martaba ta atomatik",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ An ɗora",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Bayanan sirri",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Bai cika ba",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Wuri",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Ilimi",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Ƙwarewa",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Kwarewar Aiki",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Ayyuka",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Zaɓuɓɓukan Aiki",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Izinin Aiki",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Ci gaba da Tarihi",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Yi amfani da Wannan",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "An yi nazari akan _P_0__",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Load da bayanan martaba daga \"$1$\"? Wannan zai maye gurbin gyare-gyarenku na yanzu tare da wannan tsarin sake fasalin fasalin.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "An dawo da bayanai daga _P_0__",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Makin Match",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "_P_0__ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ ƙari",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "An cika aikace-aikacen ta atomatik kuma an shiga! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Cika ta atomatik ta hanyar ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "can",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Babu saitin koleji",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Saita bayanin martaba don kunna cikawa ta atomatik",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ba a saita ba",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "_P_0__ shigarwar",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "_P_0__ basira",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "_P_0__ ayyuka",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "_P_0__ amsoshi",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Izini",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ba a ba da izini ba",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Cikakken Suna",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Imel",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Waya",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Madadin Waya",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL fayil",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Ci gaba Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Garin",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Jiha",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Ƙasa",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Lambar gidan waya",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adireshi",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Dan kasa",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Kwalejin / Jami'a",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Digiri",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Shekarar kammala karatun digiri",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "Babban darajar CGPA",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Lokacin Sanarwa",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Albashin da ake tsammani",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Matsayin da akafi so",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Shekarun Kwarewa",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "An ba da izinin yin aiki ba tare da tallafin visa ba",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Yana buƙatar tallafin visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Jinsi",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Nakasa",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Fi son kar a ce",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ba a ƙayyade ba",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Namiji",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Mace",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Ba binary",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ee",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "A'a",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ba a ƙara ƙwarewa ba tukuna",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Ƙara fasaha (Shigar don ƙarawa)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Kalmomin da ke jawo hankali (misali Me ya sa za mu ɗauke ku aiki)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Amsar ku...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Cire",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Ƙara Amsa na Musamman",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Kamfanin",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Matsayi / Take",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Ranar farawa",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Kwanan Ƙarshen",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Yanzu",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "A halin yanzu ina aiki a wannan aikin",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Bayani",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Bayyana alhakinku, manyan nasarori, fasahar da aka yi amfani da su...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Ƙara Ƙwarewar Aiki",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Taken Aikin",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL ɗin turawa",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Bayyana abin da kuka gina, wace matsala ce ta warware, da mahimman fasalulluka...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Ƙara Project",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Ajiye",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Aiwatar",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Kimantawa",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Hira",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Bayar",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "An ƙi",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Janye",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Share wannan aikace-aikacen?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "An sabunta aikace-aikacen!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "An goge aikace-aikacen.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Matsayi",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Dandalin",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Aiwatar",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Bude Ayyukan Aiki",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Albashi/ Kudi",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Tunatarwa ta biyo baya",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Bayanan kula",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Ƙara bayanin kula, bayanin tuntuɓar juna, cikakkun bayanan hira...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Bayanin Aiki (yanke)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Share",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Soke",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Ajiye",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aikace-aikace",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "_P_0__ aikace-aikace",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Tace da kamfani...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Matattarar matsayi",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Gungura dama don ƙarin →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Duka",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Babu aikace-aikace da aka samu",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Gwada sake saita tacewa ko ajiye aiki don ƙara sabon shigarwar tracker",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Bincike",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "_P_0__ jimlar aikace-aikace",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Babu bayanai tukuna",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Fara neman ayyuka kuma bincikenku zai bayyana a nan.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Matsakaicin Juyin Juya",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Aiwatar",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Yawan Tambayoyi",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Darajar tayi",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Aikace-aikace Wannan Makon",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Aikace-aikacen Funnel",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Manyan Dandali",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Rushewar Matsayi",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Magana: _P_0__",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Mawallafin aikin ku",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Sabuwar Taɗi ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Da fatan za a fara saita bayanin martabarku ta farko don AI ta iya keɓance martani.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "An share taɗi! Me zan iya taimaka muku da shi?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Tambayi wani abu game da wannan aikin...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Saita bayanin martaba don farawa",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Latsa Shigar don aikawa",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Ci gaba da Makin Daidaitawa",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Ƙarfin Ƙarfi",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Rashin Kwarewa",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Ga keɓaɓɓen wasiƙar murfin ku:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kwafi!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kwafi",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Zazzagewa",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Anan akwai yuwuwar tambayoyin tambayoyin _P_0__:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Ci gaba da ƙimar ingantawa: _P_0__%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Ci gaba da Shawarwari Match",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs wannan bayanin aikin",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Wani abu ya faru. Da fatan za a sake gwadawa.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Sannu! Ina iya ganin kuna kallon wani rawa a **$1$** a **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Sannu! Ina iya ganin kuna kallon rawar **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Sannu! Ni ne matukin jirgin ku na AI. Kewaya zuwa jerin ayyuka kuma zan bincika ta atomatik, ko tambaye ni wani abu!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Da fatan za a fara saita bayanin martabarku a farkon shafin Profile!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Da fatan za a buɗe shafin jerin ayyuka a cikin burauzar ku don fara amfani da wannan fasalin!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Buɗe ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Shiga tare da Google don samun damar dashboard ɗinku, daidaita ayyukan daidaitawa, sarrafa bayanin martabar ku, da kuma cika aikace-aikacen aiki kai tsaye.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Duba kuma cika aikace-aikace ta atomatik tare da dannawa ɗaya.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Ajiyayyen",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Daidaita duk bayanan bin diddigin aikin ku zuwa Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Ci gaba & Bayanan Bayani",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Loda aikinka na ci gaba kuma ka tsara amsoshin aikace-aikacen.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Ana haɗi zuwa Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Shiga tare da Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Ta shiga, kun yarda da daidaita bayanan bayanan ku amintacce zuwa wurin aiki mai aiki.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Kun tabbata kuna son fita?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "An fita cikin nasara.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Shiga kamar _P_0__",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Fita",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Shiga",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Ana haɗawa...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Bude ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Ƙarfafan Ƙwararrun Daidaitawa",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Bace Ƙwarewa",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart Autofill Page",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Fom ɗin cikawa ta atomatik...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Ba a sami filayen aikace-aikacen da za a iya cikawa a shafin ba.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "An Cika Cikin Nasara!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Cika ta atomatik ya gaza saboda sarkar shafi.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Ajiye ta atomatik zuwa mai sa ido akan cikawa.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ci gaba naku ya dace **$1$%** tare da wannan rawar.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Barka da dawowa, _P_0__!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "An kasa fitar da bayanan bayanan mai amfani na Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Ba a yi nasarar Shiga OAuth ba: _P_0__",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "An kasa fitar da alamar shiga daga turawa.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Ba a yi nasara ba don tantance juzu'i na tantancewa.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Ba a tallafawa tabbatarwa akan wannan dandali.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "An ajiye aikin zuwa mai sa ido!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Bako",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Gabaɗaya Saituna",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Nuna akan Shafukan Ayyuka na LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Yana nuna mahimmin ma'auni mai wayo da maɓalli na atomatik danna sau ɗaya lokacin da kake duban ayyukan aiki akan LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Nuna Maɓallin 'Ajiye Ayuba'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Yana nuna maballin 'Ajiye Ayuba 📌' mai iyo a kan wuraren aiki don haka zaku iya adana bayanan aiki da sauri zuwa ga mai binciken ku kafin nema.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Shiga Kawai Bayan Aiwatar Da Gaskiya",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Jira har sai kun ga allon 'Na gode' ko 'Nasara' kafin ƙara aikin zuwa mai binciken ku. Yana sa mai bin sawun ku da kyau ta hanyar hana cike fom da aka cika rabin su ajiye azaman 'Aikace-aikace'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Ƙididdigar AI & Binciken Amfani",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kiredito Hagu",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Kiredito Ragowa",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Jimlar Kiredit",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Duk-lokaci Autofills",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Matsayin Tsari",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Kyauta 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro Tukwici:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Ayyukan Smart Autofill suna cinye kiredit 0 kuma ba su da iyaka 100%! Fasalolin AI kawai na ci gaba kamar Rubutun Haruffa (ƙididdigar ƙididdigewa 5) da Essays na al'ada (ƙididdigar ƙididdigewa 3) suna cinye ma'aunin kuɗin ku.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google Account & Cloud Sync",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync Active",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync Locked (Premium Only)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Tura zuwa Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Ja daga Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Daidaito yayi nasara!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "An gaza daidaitawa. Duba haɗin ku.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Amintaccen Cloud Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Shiga tare da Google don madadin aikace-aikacenku da bayanin martaba zuwa Supabase. Aiki tare babban fasali ne wanda ke kiyaye rajistan ayyukan ku a cikin na'urori.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync shine babban fasali. Da fatan za a haɓaka a cikin Haɓaka shafin don kunna aiki tare!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Gudanar da Bayanai",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Ajiyayyen fitarwa (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Share Duk Bayanan Gida",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Share bayanan gida yana cire bayanan martaba da aikace-aikace daga wannan na'urar kawai. Bayanan Cloud ba su da tasiri.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Cibiyar Kulawa",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Gida & Game da",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Gabaɗaya Saituna",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Haɓaka zuwa Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium Plan 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Asusu & Daidaitawa",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Manufar Keɓantawa",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Gajerun hanyoyin Allon madannai",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Barka da zuwa ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow haɓakawa ne mai ƙarfin AI mai ƙarfi da aka gina don ɗalibai da masu neman aiki waɗanda ke son yin aiki da sauri da wayo. Yana ganowa ta atomatik kuma yana cika fom ɗin neman aiki a cikin dandamali sama da 15, yana bin bututun ku, kuma yana taimaka muku samun ƙarin tambayoyi.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart Autofill",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS dandamali tare da madaidaitan zaɓaɓɓu",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Yanar Gizo Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Danna sau ɗaya ajiye kowane jerin ayyuka",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Jawo & sauke bututun aikace-aikacen ku",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofill",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Cika kai tsaye na alƙaluma & tambayoyin visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI Essays",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Rubutun amsa al'ada mai ƙarfin Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Amintaccen Daidaitawa",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Ajiyayyen girgije na zaɓi na Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Yadda Ake Farawa",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Gina Bayanan ku",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Bude popup → Profile shafin → loda ci gaba na PDF. AI za ta cire duk bayananku kai tsaye da suka haɗa da ƙwarewa, ƙwarewa, ilimi, da ayyuka.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Saita Zaɓuɓɓukan EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Gungura zuwa sashin EEO a cikin Bayanan martaba kuma saita izinin aikin ku, buƙatun tallafin biza, da zaɓin alƙaluma. Ana amfani da waɗannan don cika tambayoyin EEO ta atomatik.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Bincika Lissafin Ayyuka",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Kewaya zuwa kowane jerin ayyuka. Za ku ga 📌 maɓallin \"Ajiye Ayuba\" ya bayyana. Danna shi don ajiye matsayin nan take zuwa mai sa ido naka.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Bude Fom na Aikace-aikace",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Kewaya zuwa fom ɗin aikace-aikacen. Danna popup na ApplyFlow → buga \"Scan Page\" → sannan \"⚡ Smart Autofill\". Duk filayen da suka haɗa da maɓallan rediyo da wuraren saukarwa ana cika su nan take.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Bibiyar Bututun ku",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Bude shafin Tracker don ganin duk aikace-aikacen ku. Canja zuwa duba Board Kanban kuma ja katunan tsakanin ginshiƙai kamar yadda ake sabunta halin ku.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Ana Bukatar Shiga",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Shiga don Keɓance Saituna",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Gabaɗaya Saituna suna samuwa ga masu amfani da suka shiga kawai. Shiga tare da Google don daidaita abubuwan da kuke so, halayen cikawa ta atomatik, da ƙari.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Je zuwa Asusu & Aiki tare",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Makullin lasisi: _P_0__",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Kashe lasisi",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Kunna Maɓallin Lasisi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Idan kun sayi biyan kuɗi ko karɓi lambar shiga, shigar da maɓallin lasisinku a ƙasa don buɗe PremiumFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Kunna",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Ana kunnawa...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tukwici: Kuna iya kunna Premium ta amfani da maɓallin APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "An Kunna Premium!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Na gode don tallafawa ApplyFlow. Duk fasalulluka masu ƙima yanzu an buɗe su.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Tsarin Haɓakawa na Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Buɗe fitar da sana'ar ku & ci-gaban fasalin AI.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Sami ƙididdige ƙimar AI don haruffan murfi, amsoshi na muqala na al'ada, haɓaka haɓakawa, da shirye-shiryen yin hira. Ayyukan cikawa ta atomatik akan dandamali masu tallafi ba su da iyaka kuma kyauta ga duk masu amfani da ƙima!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Tayar da Mai karɓar Farko:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Farashin na gaba yana ƙaruwa akan masu amfani da Premium 500. Kulle a cikin wannan ƙimar don rayuwa!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Pro. na wata-wata",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Yayi kyau don bincike na ɗan gajeren lokaci",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹ 399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ wata",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Kawai ₹ 13 / rana)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI Credits kowane wata|||Unlimited autofills (Duk Portals)|||Cloud Sync & Google Ajiyayyen|||Premium Jigogi|||Kwarewa mara-adde",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Biyan kuɗi kowane wata",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Kwata-kwata Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Mafi kyawun ƙima ga yawancin masu neman aiki",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ Watanni 3",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Kawai ₹ 11 / rana)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI Credits a kowace kwata|||Unlimited autofills (Duk Portals)|||Haruffa Cover & Essays||| Cloud Sync & Google Ajiyayyen||| Ci gaba da Shawarwari Match",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Biyan kuɗi na Kwata-kwata",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Mafi shahara",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ƙarshen Shekara",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Mafi kyawun ƙima ga masu amfani da wutar lantarki",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ shekara",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(daidai da ₹249 / wata)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2,500 AI Credits a shekara",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Biyan kuɗi kowace shekara",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Mafi kyawun Ƙimar - Ajiye 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Taimakawa Ci gaban ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow an gina shi da kiyaye shi ta masu haɓaka masu zaman kansu. Idan ka sami ƙarin ƙarin taimako, yi la'akari da bayar da gudummawa akan Ko-fi don taimakawa ci gaba da aiki, kyauta, da sabuntawa don sabbin allunan ayyuka.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Saya min kofi akan Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rating|||🔒 Tabbataccen Biyan Kuɗi|||✓ Soke kowane lokaci",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Maɓallin lasisi mara inganci. Shawara: Gwada amfani da maɓallin demo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "An Kunna Lasisi Cikin Nasara! Barka da zuwa ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Shin kun tabbata kuna son kashe lasisin kuɗin ku? Wannan zai dawo da ku zuwa Tsarin Kyauta.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "An kashe lasisin ƙima. Yanzu kuna kan Shirin Kyauta.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Wannan zai share duk bayanan gida da bayanan aikace-aikace har abada. Ka tabbata?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Manufar Sirri",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Tambayoyin da ake yawan yi",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Menene ApplyFlow kuma ta yaya yake aiki?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow wani tsawo ne na Chrome mai ƙarfin AI wanda ke ganowa da kuma cike fom ɗin aikace-aikacen aiki a cikin dandamali 15+ da suka haɗa da LinkedIn, Internshala, Unstop, Ranar Aiki, Greenhouse, Lever, da ƙari. Yana karanta bayanan martaba da aka adana kuma yana amfani da madaidaicin madaidaici don cike filayen rubutu, zazzagewa, maɓallin rediyo, da akwatunan rajistan shiga - gami da EEO/tambayoyin alƙaluma.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Shin bayanan sirri na yana lafiya tare da ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ee. Ana adana bayanan ku a gida a cikin chrome.storage.local na burauzar ku ta tsohuwa. Ba a taɓa aikawa zuwa kowane uwar garken ɓangare na uku ba in ban da bayanan Supabase na zaɓi na zaɓi (wanda kuke sarrafawa). ApplyFlow baya siyarwa, rabawa, ko yin monetize bayanan keɓaɓɓen ku.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Wadanne hanyoyin aiki ne ApplyFlow ke tallafawa?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow yana goyan bayan dandamali 15+ daga cikin akwatin: LinkedIn Easy Aiwatar, Internshala, Unstop, Ranar Aiki, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Hakika, Wellfound/AngelList, da kowane rukunin yanar gizon mu ta hanyar mashigin faɗuwar gabaɗaya.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Menene Maɓallin Yanar Gizo?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Maɓallin Yanar Gizon maɓalli ne mai iyo \"Ajiye Ayuba\" (📌) wanda ke bayyana kai tsaye lokacin da kuka ziyarci kowane shafi na jerin ayyuka. Danna shi yana fitar da taken aiki, kamfani, albashi, da kwatancin, sannan adana shi zuwa mai bin sawun ku na ApplyFlow azaman aikace-aikacen \"Ajiye\" - don haka zaku iya bin ayyukan yi kafin amfani.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Ta yaya zan sabunta bayanin martaba na?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Bude popup na ApplyFlow, danna maballin \"Profile\", sannan loda ci gaba na PDF. AI za ta cika dukkan filayen ku ta atomatik. Hakanan zaka iya shirya kowane filin da hannu gami da abubuwan da kake so na EEO, izinin aiki, da haruffan murfi.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Menene filayen EEO kuma me yasa nake buƙatar su?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Filin EEO (Damar Aiki Daidaita Daidai) tambayoyi ne da yawancin Amurkawa da ma'aikata na duniya suke tambaya game da jinsi, matsayin nakasa, matsayin tsohon soja, da izinin aiki. ApplyFlow yana adana amsoshin da kuka fi so kuma ta cika waɗannan rukunin maɓallin rediyo ta atomatik don kada ku amsa su da hannu kowane lokaci.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Shin ApplyFlow yana buƙatar kowane maɓallan API ko tsari?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "A'a! ApplyFlow yana sarrafa duk gano nau'i, daidaitawa mai wayo, ƙirƙirar haruffa, da ƙima mai dacewa ta atomatik. Ba kwa buƙatar samun ko saita kowane maɓallan API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Menene Supabase sync kuma ina bukatan shi?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sync shine fasalin madadin girgije na zaɓi. Lokacin da ka shiga tare da Google kuma ka kunna shi, bayanan martaba da mai sa ido na aikace-aikacen ana daidaita su zuwa bayanan girgije mai zaman kansa don haka bayananka suna samun tallafi da samun dama daga na'urori da yawa. Wannan cikakken zaɓi ne - tsawo yana aiki gabaɗaya a layi.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Me yasa ApplyFlow ke buƙatar samun dama ga duk gidajen yanar gizo?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow yana buƙatar samun dama ga duk gidajen yanar gizo don ta iya yin allurar injin cikawa ta atomatik akan kowane fom ɗin aikace-aikacen aiki, kuma ya nuna maɓallin \"Ajiye Ayuba\" akan kowane jerin ayyuka. Ana buƙatar wannan izini don tallafin dandamali mai faɗi. Mu kawai allurar rubutun akan shafukan da ke da alaƙa da aiki a sarari.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Menene Hukumar Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Hukumar Kanban kallon aikin gani ne a cikin shafin Tracker. Yana nuna aikace-aikacen ku da aka tsara a cikin ginshiƙai: Ajiye → Aiwatar da → Kima → Hira → Bayar. Kuna iya ja da sauke katunan tsakanin ginshiƙai don sabunta matsayin kowane aikace-aikacen.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Yaya gano ƙaddamarwa ke aiki?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Lokacin da kuka kunna \"Log kawai bayan ƙaddamarwa\" a cikin saitunan, ApplyFlow yana kallon canje-canjen shafi wanda ke nuna nasarar ƙaddamarwa (kamar URL mai ɗauke da \"/ nasara\" ko rubutun jiki yana cewa \"Na gode da nema\"). Yana shigar da aikace-aikacen zuwa mai sa ido kawai bayan ya gano ainihin ƙaddamarwa.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Zan iya adana haruffan murfi da yawa?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ee! Allon bayanin martaba yana da sashin \"Cover Letter Vault\" inda zaku iya adana haruffan murfin mara iyaka waɗanda aka keɓance da ayyuka ko kamfanoni daban-daban. Lokacin cikawa ta atomatik, ApplyFlow zai yi amfani da wasiƙar murfin ku na baya-bayan nan ko mafi dacewa.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Ta yaya zan fitar da bayanan aikace-aikace na?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Je zuwa Account & Daidaitawa → gungura zuwa ƙasa → danna \"Ajiyayyen Ajiye (JSON)\". Wannan yana zazzage duk bayanan martaba da aikace-aikacenku azaman fayil ɗin JSON don kiyayewa.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Shin ApplyFlow yana aiki a Yanayin Demo?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Yanayin Demo wani saitin gado ne da aka yi amfani da shi don gwaji. Yanzu an kashe shi ta tsohuwa. Duk fasalulluka suna raye kuma suna aiki tare da ginanniyar maɓallin API na Gemini.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Ta yaya zan ba da rahoton bug ko neman fasali?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Da fatan za a buɗe batun akan ma'ajiyar mu ta GitHub (wanda ke da alaƙa a cikin Game da sashe) ko yi mana imel a support@applyflow.in. Mu yawanci muna amsawa cikin sa'o'i 48.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Buɗe buɗaɗɗen aikace-aikacen Flow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Duba shafin na yanzu don filayen tsari",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Haɓaka Smart Autofill akan shafin na yanzu",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Yanke jerin ayyuka na yanzu zuwa mai sa ido",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Buɗe Tracker a cikin sabon shafin",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Sanya gajerun hanyoyi a cikin Chrome a",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Lura:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Umarnin tsawaita Chrome yana buƙatar aikin hannu a cikin manajan gajeriyar hanyar Chrome. Je zuwa _P_0__ don ɗaure maɓallan da aka jera a sama.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "** Aiwatar da Tsawaita Tafiya Chrome - Manufar Keɓantawa ***\nAn sabunta ta ƙarshe: Yuni 2026\n\n--_NL_3__\n**1. Gabatarwa**\n\nApplyFlow (\"we\", \"namu\", \"The Extension\") tsawo ne na burauzar Chrome wanda ke taimaka wa masu amfani su cika fom ɗin aikace-aikacen kai tsaye, bin aikace-aikacen su, da sarrafa bayanan ƙwararrun su. Wannan Dokar Sirri tana bayanin yadda muke tattarawa, amfani, adana, da kare bayananku.\n\nTa hanyar shigar da amfani da ApplyFlow, kun yarda da ayyukan da aka bayyana a cikin wannan tsarin. Bayanan da Muka Tattara**\n\nMuna tattara bayanan da kuka bayar da son rai kawai don ba da damar fasalulluka na tsawaitawa:\n\n• **Bayanin Bayanan Bayanai**: Sunanku, imel, lambar waya, koleji, digiri, ƙwarewa, tarihin aiki, ayyukan, da hanyoyin haɗin gwiwar ƙwararru (LinkedIn, GitHub, Fayil ɗin Fayil **) . (Na zaɓi)**: Jinsi, matsayin nakasa, matsayin tsohon soja, da zaɓin izinin aiki - ana bayar da shi kawai idan kun zaɓi cika waɗannan filayen. Ana amfani da wannan bayanan ne kawai don cika takaddun tambayoyin EEO na zaɓi akan aikace-aikacen aiki.\n• ** Bayanan Bibiyar Aikace-aikacen**: Sunan aiki, kamfani, URL ɗin aikace-aikacen, matsayi, da bayanin kula don matsayi da kuke waƙa ta hanyar amfani da tsawo. Idan kun zaɓi shiga tare da Google, muna adana sunan Google nuni, adireshin imel, da URL ɗin hoton bayanin martaba don keɓance kwarewarku da ba da damar daidaitawa ga girgije. bayanai daga shafuka lokacin da ba a kunna tsawaita aiki ba\n\n--\n\n**3. Yadda Muke Ajiye Bayananku**\n\n**3.1 Ma'ajiyar Gida (Tsoffin)**\nDukkan bayanan ana adana su ne a cikin chrome.storage.local API. Wannan bayanan yana kan na'urar ku kawai kuma ba a taɓa watsa shi zuwa kowane sabar ba tare da takamaiman aikinku ba. Kuna riƙe cikakken ikon wannan bayanan. Kuna iya share shi a kowane lokaci daga sashin Asusu & Daidaitawa.\n\n**3.3 Gemini AI Buƙatun**\nLokacin da aka yi amfani da fasalulluka na AI (misali, tsara rubutun, nazarin aiki), sassan bayanin martaba (ƙwarewa, digiri, taƙaitawa) da kuma bayanin bayanin bayanin aikin ana aika zuwa Google's Gemini API. Ana sarrafa wannan a ƙarƙashin ƙa'idodin API na Google's Sharuɗɗan Sabis da Manufar Keɓantawa. Muna ba da shawarar kar a haɗa abubuwan gano sirri na sirri a cikin abun ciki na taimakon AI.\n\n--\n\n**4. Rarraba Data**\nNL_45__Bama** siyarwa, kasuwanci, haya, ko raba keɓaɓɓen bayaninka tare da kowane ɓangare na uku don tallace-tallace ko tallace-tallace. (https://policies.google.com/privacy)\n• **Google OAuth**: Don tabbatar da asusu (https://policies.google.com/privacy)\n• **Supabase**: Don ajiyar girgije na zaɓi (https://supabase.com/privacy) - kawai idan kun kunna daidaita_NL_51__\n---\n\n**5. Hakkokinku & Sarrafa ku**_NL_55__\nKuna da haƙƙin:\n• **Samarwa** duk bayanan ApplyFlow da aka adana game da ku (ta hanyar Ajiyayyen fitarwa a cikin saitunan)\n• **Gyara** bayananku a kowane lokaci a cikin Shafin Bayanan martaba\n• Share duk bayanan da ke cikin gida*** saituna\n• **Jare yarda** a kowane lokaci ta hanyar cire tsawaita\n• **Kashe daidaitawar gajimare** ta hanyar jujjuya shi a cikin saitunan Asusu & Aiki tare\nNL_63__**GDPR (Masu amfani da EU)**: Idan kai mazaunin EU ne, kuna da haƙƙin sarrafa bayanai, da ikon sarrafa bayanai a ƙarƙashinsa Dokokin Kariyar Gabaɗaya.\n\n**Indiya — Dokar DPDP 2023**: A yarda da Dokar Kariya ta Dijital ta Indiya ta 2023, muna aiwatar da bayanan sirri kawai don manufar samar da sabis na taimakon aikace-aikacen aiki. Kuna iya janye izini kuma ku nemi goge bayananku a kowane lokaci ta hanyar tuntuɓar mu.\n\n**California — CCPA**: Mazauna California suna da 'yancin sanin menene bayanan sirri da aka tattara, 'yancin sharewa, da haƙƙin ficewa daga siyarwa (bama siyarwa) data).\n\n---\n\n**6. Riƙe bayanai**\n\nAna riƙe bayanan gida har sai kun share su da hannu. Ana adana bayanan da aka daidaita tsakanin gajimare har sai kun share asusunku ko neman gogewa. Ba ma share bayanai ta atomatik._NL_74__\n---\n\n**7. Tsaro**\nNL_79__Muna daukar matakan fasaha masu ma'ana don kare bayanan ku:\n• Duk hanyoyin sadarwar girgije suna amfani da boye-boye HTTPS/TLS\n• Supabase Row-Level Security (RLS) yana tabbatar da masu amfani zasu iya samun damar bayanan kansu kawai\n• Tsawaita baya neman izini fiye da abin da ake buƙata. aiki\n\n---\n\n**8. Sirri na Yara**\n\nApplyFlow ba a yi niyya ga masu amfani da ƙasa da shekara 13 ba. Ba ma tattara bayanai da gangan daga yara. Idan kun yarda yaro ya ba mu bayanan sirri, da fatan za a tuntuɓe mu nan take.\n\n--_NL_91__\n**9. Canje-canje ga Wannan Manufofin**\n\nMuna iya sabunta wannan Dokar Keɓaɓɓun lokaci zuwa lokaci. Za a sanar da manyan canje-canje ta hanyar shafin Zabuka na tsawo. Ci gaba da amfani da tsawaita bayan canje-canje ya ƙunshi yarda da sabunta manufofin.\n\n--\n\n**10. Tuntuɓe mu**\nNL_100__Don kowane tambayoyi masu alaƙa da keɓantawa, buƙatun goge bayanai, ko damuwa:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension https://applyflow.in\n\nMuna nufin amsa duk buƙatun cikin kwanaki 30.",
+    "description": "Privacy policy document markdown text"
+  }
+}

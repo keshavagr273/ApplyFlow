@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Autofyll jobbansökningar och spåra listor automatiskt med AI på LinkedIn, Workday, Greenhouse och mer.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktiv",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Tillämpas",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Intervju",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Erbjudande",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Sparad",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Totalt",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Autofyll",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Fyller...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Snabb autofyllning",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analysera jobb",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Öppna sidofältet",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Inställningar",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Logga in med Google först för att använda snabb autofyll!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Vänligen ställ in din profil först på sidopanelen/alternativsidan!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Upptäckt",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Ingen jobbsida upptäckt",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Besök en jobbannons för att låsa upp AI-funktioner",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "God morgon",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "God eftermiddag",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "God kväll",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ ansökningar spårade · $2$ intervjuer",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Börja ansöka för att spåra dina framsteg",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Följebrev",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Frågor och svar Hjälp",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Redo att hjälpa",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navigera till en jobbannons på LinkedIn, Workday, Greenhouse eller någon jobbbräda för att komma igång.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Denna vecka",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Senaste aktivitet",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Visa alla →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Starta din jobbjakt!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Besök en jobbbräda och använd ApplyFlow för att autofylla och spåra dina ansökningar automatiskt.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Min profil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Sparar...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Spara alla",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profilen har sparats!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Det gick inte att spara profilen.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Återuppta",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Ladda upp till autofyll-profil",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Uppladdat",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Personlig information",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Ofullständig",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Plats",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Utbildning",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Färdigheter",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Arbetslivserfarenhet",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Projekt",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Arbetspreferenser",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Arbetstillstånd",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Återuppta historik",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Använd denna",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Parsed på $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Ladda profilinformation från \"$1$\"? Detta kommer att ersätta dina nuvarande redigeringar med detta CV:s analyserade struktur.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Återställda detaljer från $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Matchresultat",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Passform",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ till",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Ansökan autofylld och loggad! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Fylls i automatiskt via ApplyFlows sidopanel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "där",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Ingen högskoleuppsättning",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Ställ in din profil för att aktivera autofyll",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Inte inställt",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ poster",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ färdigheter",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ projekt",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ svarar",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Auktoriserad",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ej auktoriserad",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Fullständigt namn",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-post",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternativ telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portföljens URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Återuppta länk",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Stad",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "staten",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Land",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Postnummer",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adress",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nationalitet",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Högskola/universitet",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Grad",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Examensår",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Betyg",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10:e %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12:e %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Uppsägningstid",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Förväntad lön",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Önskad roll",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "År av erfarenhet",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Behörig att arbeta utan visumsponsring",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Kräver visumsponsring",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Kön",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Funktionshinder",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Föredrar att inte säga",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ej specificerat",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Hane",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Kvinna",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Icke-binär",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ja",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nej",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Inga färdigheter har lagts till ännu",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Lägg till färdighet (Enter för att lägga till)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Triggerfras (t.ex. Varför ska vi anställa dig)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Ditt svar...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Ta bort",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Lägg till anpassat svar",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Företag",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Roll/titel",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Startdatum",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Slutdatum",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Närvarande",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Jag arbetar för närvarande i den här rollen",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Beskrivning",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Beskriv dina ansvarsområden, nyckelprestationer, teknik som används...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Lägg till arbetslivserfarenhet",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Projekttitel",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Implementerings-URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Beskriv vad du byggde, vilket problem det löste och nyckelfunktionerna...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Lägg till projekt",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Spårare",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Sparad",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Tillämpas",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Bedömning",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Intervju",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Erbjudande",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Avvisad",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Indragen",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Ta bort denna applikation?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Ansökan uppdaterad!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Ansökan raderad.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Plattform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Tillämpas",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Öppna jobbannons",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Lön / Stipendium",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Uppföljningspåminnelse",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Anteckningar",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Lägg till anteckningar, kontaktinformation, intervjudetaljer...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Arbetsbeskrivning (utdrag)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Ta bort",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Avbryt",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Spara",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ansökan",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ applikationer",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtrera efter företag...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Statusfilter",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Bläddra åt höger för mer →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Alla",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Inga applikationer hittades",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Försök att återställa filter eller spara ett jobb för att lägga till en ny spårningspost",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ totalt antal ansökningar",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Inga uppgifter ännu",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Börja ansöka till jobb och din analys kommer att visas här.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Konverteringskurser",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Tillämpas",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Intervjufrekvens",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Erbjudandepris",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Ansökningar denna vecka",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Applikationstratt",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Toppplattformar",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Statusuppdelning",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Sammanhang: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Din andrapilot i karriären",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Ny chatt ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Vänligen ställ in din profil först så att AI kan anpassa svaren.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chatten rensad! Vad kan jag hjälpa dig med?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Fråga något om det här jobbet...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Ställ in din profil för att börja",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Tryck på Enter för att skicka",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Återuppta kompatibilitetspoäng",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Starka färdigheter",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Saknade färdigheter",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Här är ditt personliga följebrev:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kopierat!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopiera",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Ladda ner",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Här är $1$ troliga intervjufrågor:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Återuppta optimeringsresultat: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Återuppta matchningsförslag",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "kontra denna arbetsbeskrivning",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Något gick fel. Försök igen.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hej! Jag kan se att du tittar på en **$1$** roll på **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hej! Jag kan se att du tittar på en **$1$** roll.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hej! Jag är din AI-karriärcopilot. Navigera till en platsannons så analyserar jag den automatiskt, eller fråga mig vad som helst!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Vänligen skapa din profil först på profilfliken!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Öppna en jobbannonssida i din webbläsare först för att använda den här funktionen!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Lås upp ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Logga in med Google för att komma åt din instrumentpanel, synkronisera jobb, hantera din CV-profil och autofylla jobbansökningar direkt.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skanna och autofyll applikationer med ett klick.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Synkronisera alla dina jobbspårningsdetaljer till Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV och profiler",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Ladda upp ditt CV och anpassa ansökningssvaren.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Ansluter till Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Logga in med Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Genom att logga in samtycker du till att synkronisera dina profildata säkert till din aktiva arbetsyta.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Är du säker på att du vill logga ut?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Loggade ut.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Inloggad som $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Logga ut",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Logga in",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Ansluter...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Öppna ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Starka matchningsförmåga",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Saknade färdigheter",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart autofyllsida",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Autofyller formulär...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Inga ifyllbara ansökningsfält hittades på sidan.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Utfyllt framgångsrikt!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Autofyll misslyckades på grund av sidans komplexitet.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Sparas automatiskt till log tracker vid fyllning.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ditt CV är **$1$% kompatibelt** med den här rollen.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Välkommen tillbaka, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Det gick inte att hämta information om Googles användarprofil.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth-inloggning misslyckades: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Det gick inte att hämta åtkomsttoken från omdirigering.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Det gick inte att analysera autentiseringsomdirigering.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Autentisering stöds inte på den här plattformen.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Jobbet sparat till tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Gäst",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Allmänna inställningar",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Visa på LinkedIns jobbsidor",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Visar ett smart matchningsresultat och en autofyllknapp med ett klick när du visar jobbannonser på LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Visa knappen \"Spara jobb\".",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Visar en flytande \"Spara jobb 📌\"-knapp på jobbsajter så att du snabbt kan spara jobbinformation till din spårare innan du ansöker.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Logga bara efter att du faktiskt har ansökt",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Vänta tills du ser skärmen \"Tack\" eller \"Framgång\" innan du lägger till jobbet i din tracker. Håller din spårare snygg genom att förhindra att halvfyllda formulär sparas som \"Tillämpat\".",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI Credits & Usage Analytics",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Krediter kvar",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Återstående poäng",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Totala poäng",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Autofyllningar genom tiderna",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Planstatus",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Proffs tips:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Smart Autofill-operationer förbrukar 0 poäng och är 100 % obegränsade! Endast avancerade AI-funktioner som följebrev (5 poäng) och anpassade uppsatser (3 poäng) förbrukar ditt saldo.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google-konto och molnsynkronisering",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync aktiv",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync låst (endast Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Molnsynkronisering",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Tryck till molnet",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Dra från Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Synkroniseringen lyckades!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Synkronisering misslyckades. Kontrollera din anslutning.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Säker molnsynkronisering",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Logga in med Google för att säkerhetskopiera dina applikationer och profil till Supabase. Synkronisering är en premiumfunktion som håller dina loggar säkra på alla enheter.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync är en premiumfunktion. Uppgradera på fliken Uppgradera för att aktivera synkronisering!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Datahantering",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Exportera säkerhetskopia (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Rensa alla lokala data",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "När du rensar lokal data tas endast din profil och dina appar bort från den här enheten. Molndata påverkas inte.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Kontrollcenter",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Hem & Om",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Allmänna inställningar",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Uppgradera till Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premiumplan 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Konto & synkronisering",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Sekretesspolicy",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Kortkommandon",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Välkommen till ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow är ett AI-drivet Chrome-tillägg byggt för studenter och arbetssökande som vill ansöka snabbare och smartare. Den upptäcker och fyller automatiskt i ansökningsformulär på 15+ plattformar, spårar din pipeline och hjälper dig att få fler intervjuer.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart Autofyll",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS-plattformar med exakta väljare",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Spara alla jobbannonser med ett klick",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban spårare",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Dra och släpp din applikationspipeline",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofyll",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Fyller i demografiska frågor och visumfrågor automatiskt",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI-uppsatser",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-driven anpassad svarsskrivning",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Säker synkronisering",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Valfri Supabase molnsäkerhetskopiering",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Så kommer du igång",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Bygg din profil",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Öppna popup-fönstret → Profilfliken → ladda upp ditt CV-PDF. AI kommer att automatiskt extrahera alla dina detaljer inklusive färdigheter, erfarenhet, utbildning och projekt.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Ställ in EEO-inställningar",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Bläddra till EEO-sektionen i din profil och ställ in ditt arbetstillstånd, visumsponsringsbehov och demografiska preferenser. Dessa används för att autofylla EEO-enkäter.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Bläddra i en jobbannons",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigera till valfri platsannons. Du kommer att se en 📌 \"Spara jobb\"-knapp visas. Klicka på den för att omedelbart spara positionen till din tracker.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Öppna ett ansökningsformulär",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navigera till ansökningsformuläret. Klicka på popup-fönstret ApplyFlow → tryck på \"Skanna sida\" → sedan \"⚡ Smart Autofyll\". Alla fält inklusive radioknappar och rullgardinsmenyer fylls omedelbart.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Spåra din pipeline",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Öppna fliken Tracker för att se alla dina applikationer. Växla till Kanban Board-vyn och dra kort mellan kolumner när din status uppdateras.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Inloggning krävs",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Logga in för att anpassa inställningar",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Allmänna inställningar är endast tillgängliga för inloggade användare. Logga in med Google för att konfigurera dina inställningar, autofyllbeteenden och mer.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Gå till Konto & synkronisering",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Licensnyckel: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Inaktivera licens",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivering av licensnyckel",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Om du har köpt en prenumeration eller fått en åtkomstkod anger du din licensnyckel nedan för att låsa upp ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktivera",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktiverar...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tips: Du kan aktivera Premium med nyckeln APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktiverad!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Tack för att du stödjer ApplyFlow. Alla premiumfunktioner är nu upplåsta.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium uppgraderingsplan",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Lås upp din karriärexport och avancerade AI-funktioner.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Få premium AI-krediter för följebrev, anpassade essäsvar, CV-optimering och skenintervjuförberedelser. Autofyll-operationer på plattformar som stöds är helt obegränsade och gratis för alla premiumanvändare!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Early Adopter Erbjudande:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Nästa prishöjning vid 500 Premium-användare. Lås in denna kurs hela livet!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Monthly Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Bra för kortsiktiga sökningar",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 INR",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ månad",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Bara 13 INR/dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI-krediter per månad|||Obegränsade autofyllningar (alla portaler)|||Cloud Sync & Google Backup|||Premiumteman|||Annonsfri upplevelse",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Prenumerera varje månad",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Bästa priset för de flesta arbetssökande",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 INR",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 månader",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Bara 11 INR/dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI-krediter per kvartal|||Obegränsade autofyllningar (alla portaler)|||Skräddarsydda följebrev och uppsatser|||Cloud Sync och Google Backup|||Återuppta matchningsförslag",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Prenumerera kvartalsvis",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Mest populära",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Årlig Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Bästa värde för avancerade användare",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2 999 INR",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ år",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Motsvarar 249 INR/månad)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2 500 AI-krediter per år|||Obegränsade dagliga autofyllningar|||Skräddarsydda följebrev och uppsatser|||Cloud Sync och Google Backup|||Återuppta matchningsförslag|||Prioritetsstöd via e-post",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Prenumerera årligen",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Mest prisvärt - spara 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Stöd ApplyFlow-utveckling",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow byggs och underhålls av oberoende utvecklare. Om du tycker att tillägget är användbart kan du överväga att donera på Ko-fi för att hålla det aktivt, annonsfritt och uppdaterat för nya jobbbrädor.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Köp mig en kaffe på Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Betyg|||🔒 Säkra betalningar|||✓ Avbryt när som helst",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Ogiltig licensnyckel. Tips: Prova att använda demo-nyckeln 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Licensen har aktiverats framgångsrikt! Välkommen till ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Är du säker på att du vill inaktivera din premiumlicens? Detta kommer att återföra dig till gratisplanen.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium-licens inaktiverad. Du har nu gratisplanen.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Detta kommer att radera ALL lokal profil och applikationsdata permanent. Är du säker?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Sekretesspolicy",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Vanliga frågor",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Vad är ApplyFlow och hur fungerar det?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow är ett AI-drivet Chrome-tillägg som automatiskt upptäcker och fyller i ansökningsformulär på över 15 plattformar inklusive LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever och mer. Den läser din sparade profil och använder intelligent matchning för att fylla textfält, rullgardinsmenyer, alternativknappar och kryssrutor – inklusive EEO/demografiska frågor.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Är mina personuppgifter säkra med ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ja. Din data lagras lokalt i din webbläsares chrome.storage.local som standard. Den skickas aldrig till någon annan tredjepartsserver än din egen valfria Supabase-databas (som du kontrollerar). ApplyFlow säljer, delar eller tjänar aldrig på din personliga information.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Vilka jobbplattformar stöder ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow stöder 15+ plattformar direkt: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList och vilken annan webbplats som helst via vår intelligenta generiska reservmatchare.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Vad är Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper är en flytande \"Spara jobb\"-knapp (📌) som automatiskt visas när du besöker en jobbannonssida. Om du klickar på den extraheras jobbtiteln, företaget, lönen och beskrivningen och sparas sedan i din ApplyFlow-spårare som en \"Sparad\" applikation - så att du kan spåra jobb innan du ansöker.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Hur uppdaterar jag min profil?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Öppna popup-fönstret ApplyFlow, klicka på fliken \"Profil\" och ladda upp ditt CV-PDF. AI:n kommer att fylla i alla dina fält automatiskt. Du kan också manuellt redigera alla fält inklusive dina EEO-preferenser, arbetstillstånd och följebrev.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Vad är EEO-fält och varför behöver jag dem?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO-fält (Equal Employment Opportunity) är frågor som många amerikanska och globala arbetsgivare ställer om kön, funktionshinder, veteranstatus och arbetstillstånd. ApplyFlow lagrar dina föredragna svar och fyller automatiskt dessa alternativknappsgrupper så att du inte behöver svara manuellt varje gång.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Kräver ApplyFlow några API-nycklar eller konfiguration?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Inga! ApplyFlow hanterar all formdetektion, smart matchning, generering av personliga brev och kompatibilitetspoäng automatiskt. Du behöver inte skaffa eller konfigurera några API-nycklar.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Vad är Supabase sync och behöver jag det?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sync är en valfri funktion för molnsäkerhetskopiering. När du loggar in med Google och aktiverar det synkroniseras din profil och applikationsspårare till en privat molndatabas så att din data säkerhetskopieras och är tillgänglig från flera enheter. Detta är helt valfritt - tillägget fungerar helt offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Varför behöver ApplyFlow åtkomst till alla webbplatser?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow begär åtkomst till alla webbplatser så att den kan injicera autofyllmotorn på valfritt jobbansökningsformulär och visa klippknappen \"Spara jobb\" på alla jobbannonser. Denna behörighet krävs för bred plattformssupport. Vi injicerar endast skript på sidor som är tydligt jobbrelaterade.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Vad är Kanban Board?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board är en visuell jobbspårningsvy på fliken Tracker. Den visar dina ansökningar organiserade i kolumner: Sparad → Tillämpad → Bedömning → Intervju → Erbjudande. Du kan dra och släppa kort mellan kolumner för att uppdatera statusen för alla program.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Hur fungerar inlämningsdetektering?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "När du aktiverar \"Logga endast efter inlämning\" i inställningarna, bevakar ApplyFlow efter sidändringar som indikerar en lyckad inlämning (som en webbadress som innehåller \"/framgång\" eller brödtext som säger \"Tack för att du ansöker\"). Den loggar bara applikationen till din tracker efter att den har upptäckt en riktig inlämning.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Kan jag lagra flera följebrev?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ja! Profilskärmen har en sektion \"Förslagsbrevvalv\" där du kan lagra ett obegränsat antal personliga brev skräddarsydda för olika roller eller företag. Vid autofyllning kommer ApplyFlow att använda ditt senaste eller mest relevanta följebrev.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Hur exporterar jag min applikationsdata?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Gå till Konto & synkronisering → scrolla till botten → klicka på \"Exportera säkerhetskopia (JSON)\". Detta laddar ner all din profil och applikationsdata som en JSON-fil för förvaring.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Fungerar ApplyFlow i demoläge?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demoläge var en äldre inställning som användes för testning. Den är nu inaktiverad som standard. Alla funktioner är live och funktionella med den inbyggda Gemini API-nyckeln.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Hur rapporterar jag ett fel eller begär en funktion?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Öppna ett problem i vårt GitHub-förråd (länkat i avsnittet Om) eller maila oss på support@applyflow.in. Vi svarar vanligtvis inom 48 timmar.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Öppna ApplyFlow-popupen",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Skanna aktuell sida efter formulärfält",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Utlösa smart autofyll på aktuell sida",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Klipp aktuell jobblista till tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Öppna Tracker på en ny flik",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Konfigurera genvägar i Chrome på",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Obs:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome-tilläggskommandon kräver manuell tilldelning i Chromes genvägshanterare. Gå till $1$ för att binda nycklarna som anges ovan.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — Sekretesspolicy**\nSenast uppdaterad: juni 2026\n\n---\n\n**1. Introduktion**\n\nApplyFlow (\"vi\", \"vår\", \"tillägget\") är ett Chrome-webbläsartillägg som hjälper användare att autofylla ansökningsformulär, spåra sina ansökningar och hantera sin professionella profil. Denna integritetspolicy förklarar hur vi samlar in, använder, lagrar och skyddar din information.\n\nGenom att installera och använda ApplyFlow godkänner du praxis som beskrivs i denna policy.\n\n---\n\n**2. Data vi samlar in**\n\nVi samlar bara in informationen som du frivilligt tillhandahåller för att aktivera tilläggets funktioner:\n\n• **Profilinformation**: Ditt namn, e-post, telefonnummer, högskola, examen, kompetens, arbetshistoria, projekt och yrkeslänkar (LinkedIn, GitHub, Portfolio **_EE1__/Degraphic).•NL (Valfritt)**: Inställningar för kön, funktionshinder, veteranstatus och arbetstillstånd – tillhandahålls endast om du väljer att fylla i dessa fält. Denna data används uteslutande för att autofylla valfria EEO-enkäter om jobbansökningar.\n• **Ansökningsspårningsdata**: Arbetstitel, företag, ansökningsadress, status och anteckningar för befattningar som du spårar med tillägget.\n• **Användningsstatistik**: Antal utförda autofyllåtgärder (lagrade lokalt för att upprätthålla_20_dagliga gränser för dig).__•NLAuthentic. väljer att logga in med Google lagrar vi ditt Google-visningsnamn, din e-postadress och din profilbilds-URL för att anpassa din upplevelse och möjliggöra molnsynkronisering.\n\nVi samlar **inte** in:\n• Betalnings- eller finansiell information\n• Webbläsarhistorik eller allmän surfaktivitet\n• All information från sidor_6-ansökningar som inte är relaterade till sidorna_6-ansökningar från sidorna_6____NL. tillägget aktiveras inte aktivt\n\n---\n\n**3. Hur vi lagrar dina data**\n\n**3.1 Lokal lagring (standard)**\nAll data lagras i första hand i din webbläsares chrome.storage.local API. Dessa data finns endast på din enhet och överförs aldrig till någon server utan din uttryckliga åtgärd.\n\n**3.2 Cloud Sync (valfritt)**\nOm du väljer att logga in med Google och aktiverar funktionen \"Supabase Sync\", kommer din profil och applikationsdata också att synkroniseras till en Supabase-databas. Du behåller full äganderätt till denna data. Du kan ta bort den när som helst från avsnittet Konto och synkronisering.\n\n**3.3 Gemini AI-förfrågningar**\nNär AI-funktioner används (t.ex. uppsatsgenerering, jobbanalys), skickas delar av din profil (färdigheter, examen, sammanfattning) och jobbbeskrivningstexten till Googles response-API. Detta behandlas enligt Googles standard API-användarvillkor och sekretesspolicy. Vi rekommenderar att du inte inkluderar känsliga personliga identifierare i ditt AI-stödda innehåll.\n\n---\n\n**4. Datadelning**\n\nVi **inte** säljer, byter, hyr ut eller delar din personliga information med någon tredje part i marknadsförings- eller reklamsyfte.\n\nDin data kan behandlas av följande betrodda tjänster:\n• **Google Gemini API**: För AI-analys och ifyllning av formulär (https://policies.google.com/privacy)\n• **Google OAuth**: För kontoautentisering (https://policies.google.com/privacy)\n• **Supabase**: För valfri molnlagring (https://supabase.com/privacy) — endast om du aktiverar sync\n\n---\n\n**5. Dina rättigheter och kontroller**\n\nDu har rätt att:\n• **Åtgå** all data som ApplyFlow har lagrat om dig (via Exportera säkerhetskopia i inställningarna)\n• **Korrigera** din information när som helst på profilfliken\n• **Radera alla data med \"Rensa alla dina data i inställningarna lokalt\"•__NL med \"Rensa alla dina data\"_0 **Återkalla samtycke** när som helst genom att avinstallera tillägget\n• **Inaktivera molnsynkronisering** genom att stänga av det i konto- och synkroniseringsinställningar\n\n**GDPR (EU-användare)**: Om du är bosatt i EU har du rätt att komma åt, korrigera, radera, begränsa bearbetningen av data och dataportar Förordning.\n\n**Indien — DPDP Act 2023**: I enlighet med Indiens Digital Personal Data Protection Act 2023 behandlar vi personuppgifter endast i syfte att tillhandahålla hjälptjänsten för jobbansökningar. Du kan när som helst återkalla ditt samtycke och begära radering av dina uppgifter genom att kontakta oss.\n\n**Kalifornien — CCPA**: Invånare i Kalifornien har rätt att få veta vilken personlig information som samlas in, rätten att radera och rätten att välja bort försäljning (vi säljer inte data).\n__NL___NL_7-1__\n0. Datalagring**\n\nLokal data bevaras tills du rensar den manuellt. Molnsynkroniserad data sparas tills du tar bort ditt konto eller begär borttagning. Vi tar inte bort data automatiskt.\n\n---\n\n**7. Säkerhet**\n\nVi vidtar rimliga tekniska åtgärder för att skydda dina data:\n• All molnkommunikation använder HTTPS/TLS-kryptering\n• Supabase Row-Level Security (RLS) säkerställer att användare endast kan komma åt sin egen data\n• Tillägget begär inte behörigheter utöver vad som behövs för dess funktion\n\n---\n\n**8. Barns integritet**\n\nApplyFlow är inte avsedd för användare under 13 år. Vi samlar inte in data från barn medvetet. Om du tror att ett barn har försett oss med personlig information, vänligen kontakta oss omedelbart.\n\n---\n\n**9. Ändringar av denna policy**\n\nVi kan uppdatera denna sekretesspolicy då och då. Betydande ändringar kommer att meddelas via tilläggets alternativsida. Fortsatt användning av tillägget efter ändringar utgör godkännande av den uppdaterade policyn.\n\n---\n\n**10. Kontakta oss**\n\nFör alla integritetsrelaterade frågor, förfrågningar om dataradering eller problem:\n\nE-post: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n104__NL_0_website: https://__NL__NL_0. strävar efter att svara på alla förfrågningar inom 30 dagar.",
+    "description": "Privacy policy document markdown text"
+  }
+}

@@ -4,6 +4,7 @@ import { ChatMessage, ChatMessageType } from '../../shared/types';
 import { GroqAIService } from '../../shared/aiService';
 import PremiumGate from '../components/common/PremiumGate';
 import { Bot, AlertTriangle } from 'lucide-react';
+import { t } from '../../shared/i18n';
 
 // ─── Message Bubble ───────────────────────────────────────────────────────────
 
@@ -39,7 +40,7 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
               <div className="bg-white/5 rounded-xl p-3 flex items-center gap-3">
                 <div className="text-3xl font-black text-brand-400">{d.matchScore}%</div>
                 <div>
-                  <div className="text-xs font-bold text-gray-400">Match Score</div>
+                  <div className="text-xs font-bold text-gray-400">{t('ai_analysis_score_label')}</div>
                   <div className="w-24 h-1.5 bg-white/10 rounded-full mt-1 overflow-hidden">
                     <div className="h-full bg-brand-500 rounded-full transition-all" style={{ width: `${d.matchScore}%` }} />
                   </div>
@@ -48,13 +49,13 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
             )}
             {d.strongSkills?.length > 0 && (
               <div>
-                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">✅ Strong Skills</div>
+                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t('ai_analysis_strong_skills')}</div>
                 <div className="flex flex-wrap gap-1.5">{d.strongSkills.map((s: string) => <span key={s} className="chip-success">{s}</span>)}</div>
               </div>
             )}
             {d.missingSkills?.length > 0 && (
               <div>
-                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">⚠️ Missing Skills</div>
+                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t('ai_analysis_missing_skills')}</div>
                 <div className="flex flex-wrap gap-1.5">{d.missingSkills.map((s: string) => <span key={s} className="chip-warning">{s}</span>)}</div>
               </div>
             )}
@@ -65,13 +66,13 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
       case 'cover_letter': {
         return (
           <div className="flex flex-col gap-3">
-            <p className="text-sm text-gray-300">{msg.content ? msg.content.substring(0, 100) + '...' : 'Cover letter generated!'}</p>
+            <p className="text-sm text-gray-300">{msg.content}</p>
             <div className="bg-black/30 rounded-xl p-3 border border-white/10 max-h-52 overflow-y-auto">
               <pre className="text-xs text-gray-300 font-mono whitespace-pre-wrap leading-relaxed">{msg.data?.text}</pre>
             </div>
             <div className="flex gap-2">
               <button onClick={() => copy(msg.data?.text || '')} className="flex-1 bg-white/8 border border-white/12 text-gray-300 text-xs font-semibold rounded-lg py-2 flex items-center justify-center gap-1.5 hover:bg-white/12 transition-all">
-                {copied ? '✅ Copied!' : '📋 Copy'}
+                {copied ? t('ai_analysis_copied') : t('ai_analysis_copy')}
               </button>
               <button onClick={() => {
                 const a = document.createElement('a');
@@ -79,7 +80,7 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
                 a.download = 'Cover_Letter.txt';
                 a.click();
               }} className="flex-1 bg-white/8 border border-white/12 text-gray-300 text-xs font-semibold rounded-lg py-2 flex items-center justify-center gap-1.5 hover:bg-white/12 transition-all">
-                ⬇️ Download
+                {t('ai_analysis_download')}
               </button>
             </div>
           </div>
@@ -115,8 +116,8 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
             <div className="flex items-center gap-3 bg-white/5 rounded-xl p-3">
               <div className="text-3xl font-black text-brand-400">{d.score}%</div>
               <div>
-                <div className="text-xs font-bold text-gray-400">Resume Match Score</div>
-                <div className="text-[10px] text-gray-600">vs this job description</div>
+                <div className="text-xs font-bold text-gray-400">{t('ai_analysis_score_label')}</div>
+                <div className="text-[10px] text-gray-600">{t('ai_analysis_vs_desc')}</div>
               </div>
             </div>
             {d.suggestions && (
@@ -197,8 +198,10 @@ export default function AIAssistant() {
         role: 'assistant',
         type: 'text',
         content: tabContext?.isJobPage && tabContext.role
-          ? `Hi! I can see you're looking at a **${tabContext.role}** role${tabContext.company ? ` at **${tabContext.company}**` : ''}. What would you like help with?`
-          : `Hi! I'm your AI career copilot. Navigate to a job listing and I'll automatically analyze it, or ask me anything!`,
+          ? (tabContext.company
+              ? t('job_details_detected_intro', tabContext.role, tabContext.company)
+              : t('job_details_detected_no_company', tabContext.role))
+          : t('job_details_not_detected_intro'),
         createdAt: Date.now(),
       };
       addChatMessage(sess.id, greeting);
@@ -238,7 +241,7 @@ export default function AIAssistant() {
 
   const handleSpecialPrompt = useCallback(async (prompt: string) => {
     if (!profile) {
-      showToast('Please set up your profile first in the Profile tab!', 'error');
+      showToast(t('profile_warning_assistant'), 'error');
       return;
     }
 
@@ -251,7 +254,7 @@ export default function AIAssistant() {
                                 prompt.includes('Analyze this job');
 
     if (isJobSpecificPrompt && !tabContext?.isJobPage) {
-      showToast('Please open a job listing page in your browser first to use this feature!', 'warning');
+      showToast(t('job_page_warning_assistant'), 'warning');
       return;
     }
 
@@ -268,19 +271,19 @@ export default function AIAssistant() {
 
       if (prompt.includes('cover letter') && jd) {
         const cl = await GroqAIService.generateCoverLetter(company, role, profile, jd, apiKey, isDemo);
-        await addAiMsg('cover_letter', 'Here is your personalized cover letter:', { text: cl });
+        await addAiMsg('cover_letter', t('ai_analysis_cover_letter_intro'), { text: cl });
 
       } else if ((prompt.includes('analyze') || prompt.includes('match score')) && jd) {
         const res = await GroqAIService.analyzeJobDescription(profile.resumeText || '', jd, apiKey, isDemo);
-        await addAiMsg('job_analysis', `Your resume is **${res.matchScore}% compatible** with this role.`, res);
+        await addAiMsg('job_analysis', t('ai_analysis_compatible', String(res.matchScore)), res);
 
       } else if (prompt.includes('interview') && jd) {
         const prep = await GroqAIService.generateInterviewPrep(jd || 'General Software Engineering', apiKey, isDemo);
-        await addAiMsg('interview_prep', `Here are ${prep.length} likely interview questions:`, { questions: prep });
+        await addAiMsg('interview_prep', t('ai_analysis_questions_intro', String(prep.length)), { questions: prep });
 
       } else if ((prompt.includes('resume') || prompt.includes('optimize') || prompt.includes('tailor')) && jd) {
         const res = await GroqAIService.optimizeResume(profile, jd, apiKey, isDemo);
-        await addAiMsg('resume_score', `Resume optimization score: ${res.score}%`, res);
+        await addAiMsg('resume_score', t('ai_analysis_resume_score_intro', String(res.score)), res);
 
       } else if ((prompt.includes('answers') || prompt.includes('application questions')) && jd) {
         const answer = await GroqAIService.generateAnswer(prompt, profile, jd, apiKey, isDemo);
@@ -293,7 +296,7 @@ export default function AIAssistant() {
       }
     } catch (err: any) {
       console.error('[AIAssistant] Error in handleSpecialPrompt:', err);
-      await addAiMsg('error', 'Something went wrong. Please try again.');
+      await addAiMsg('error', t('ai_analysis_something_went_wrong'));
     } finally {
       setIsLoading(false);
     }
@@ -303,7 +306,7 @@ export default function AIAssistant() {
     const trimmed = input.trim();
     if (!trimmed || isLoading) return;
     if (!profile) {
-      showToast('Please set up your profile first in the Profile tab!', 'error');
+      showToast(t('profile_warning_assistant'), 'error');
       return;
     }
     setInput('');
@@ -324,7 +327,7 @@ export default function AIAssistant() {
     setSessionId(sess.id);
     const greeting: ChatMessage = {
       id: crypto.randomUUID(), role: 'assistant', type: 'text',
-      content: 'Chat cleared! What can I help you with?', createdAt: Date.now()
+      content: t('chat_cleared_msg'), createdAt: Date.now()
     };
     addChatMessage(sess.id, greeting);
   };
@@ -335,17 +338,17 @@ export default function AIAssistant() {
       <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-white/6">
         <div>
           <h1 className="text-base font-bold text-white flex items-center gap-2">
-            <Bot size={18} className="text-brand-400" /> AI Copilot
+            <Bot size={18} className="text-brand-400" /> {t('ai_copilot_title')}
             <span className="text-[9px] font-bold bg-brand-600/30 text-brand-400 border border-brand-500/30 px-2 py-0.5 rounded-full uppercase tracking-wider">
               Llama 3.3
             </span>
           </h1>
           <p className="text-xs text-gray-500 mt-0.5">
-            {tabContext?.isJobPage ? `Context: ${tabContext.company || tabContext.role || 'Job page'}` : 'Your career copilot'}
+            {tabContext?.isJobPage ? t('context_label', tabContext.company || tabContext.role || 'Job page') : t('general_copilot_subtitle')}
           </p>
         </div>
         <button onClick={handleClearSession} className="text-[10px] text-gray-600 hover:text-gray-400 transition-colors font-medium">
-          New Chat ↺
+          {t('new_chat')}
         </button>
       </div>
 
@@ -354,7 +357,7 @@ export default function AIAssistant() {
         {!profile && (
           <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl px-4 py-3 text-xs text-amber-300 font-medium flex items-center gap-2">
             <AlertTriangle size={14} className="shrink-0 text-amber-400" />
-            <span>Please set up your profile first so the AI can personalize responses.</span>
+            <span>{t('setup_profile_warning')}</span>
           </div>
         )}
 
@@ -384,16 +387,26 @@ export default function AIAssistant() {
       {/* Suggestion Chips */}
       {messages.length <= 1 && (
         <div className="px-4 pb-2 flex gap-1.5 flex-wrap">
-          {SUGGESTION_CHIPS.map(chip => (
-            <button
-              key={chip.label}
-              onClick={() => handleSpecialPrompt(chip.prompt)}
-              disabled={isLoading}
-              className="suggestion-chip text-[10px] font-semibold transition-all disabled:opacity-40"
-            >
-              {chip.label}
-            </button>
-          ))}
+          {SUGGESTION_CHIPS.map(chip => {
+            const getChipLabel = (label: string) => {
+              if (label === 'Cover Letter') return t('cover_letter');
+              if (label === 'Analyze Job') return t('analyze_job');
+              if (label === 'Custom Answers') return t('custom_answers_title');
+              if (label === 'Tailor Resume') return t('resume_title');
+              if (label === 'Interview Prep') return t('interview_status');
+              return label;
+            };
+            return (
+              <button
+                key={chip.label}
+                onClick={() => handleSpecialPrompt(chip.prompt)}
+                disabled={isLoading}
+                className="suggestion-chip text-[10px] font-semibold transition-all disabled:opacity-40"
+              >
+                {getChipLabel(chip.label)}
+              </button>
+            );
+          })}
         </div>
       )}
 
@@ -404,7 +417,7 @@ export default function AIAssistant() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={profile ? 'Ask anything about this job...' : 'Set up your profile to start'}
+            placeholder={profile ? t('ask_anything_placeholder') : t('setup_profile_placeholder')}
             disabled={isLoading}
             rows={1}
             className="chat-textarea flex-1 bg-transparent text-sm text-gray-200 resize-none focus:outline-none leading-relaxed disabled:opacity-40"
@@ -419,7 +432,7 @@ export default function AIAssistant() {
           </button>
         </div>
         <p className="chat-helper-text text-[9px] mt-1.5 text-center">
-          Press Enter to send
+          {t('press_enter_hint')}
         </p>
       </div>
     </div>

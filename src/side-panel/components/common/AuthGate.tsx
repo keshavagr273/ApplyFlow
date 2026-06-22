@@ -1,4 +1,5 @@
 import React from 'react';
+import { t } from '../../../shared/i18n';
 
 interface AuthGateProps {
   onLogin: () => void;
@@ -21,12 +22,12 @@ export default function AuthGate({ onLogin, isLoggingIn }: AuthGateProps) {
 
         {/* Title */}
         <h2 className="text-xl font-black text-slate-800 mb-2">
-          Unlock ApplyFlow
+          {t('unlock_title')}
         </h2>
         
         {/* Subtitle */}
         <p className="text-xs text-slate-500 leading-relaxed mb-6 px-2">
-          Sign in with Google to access your dashboard, sync jobs, manage your resume profile, and autofill job applications instantly.
+          {t('unlock_desc')}
         </p>
 
         {/* Feature List */}
@@ -34,22 +35,22 @@ export default function AuthGate({ onLogin, isLoggingIn }: AuthGateProps) {
           <div className="flex items-start gap-2.5">
             <span className="text-emerald-600 text-xs mt-0.5">✓</span>
             <div>
-              <div className="text-[11px] font-bold text-slate-800">AI Autofill & Clipper</div>
-              <div className="text-[10px] text-slate-500">Scan and autofill applications with one click.</div>
+              <div className="text-[11px] font-bold text-slate-800">{t('feature_ai_title')}</div>
+              <div className="text-[10px] text-slate-500">{t('feature_ai_desc')}</div>
             </div>
           </div>
           <div className="flex items-start gap-2.5">
             <span className="text-emerald-600 text-xs mt-0.5">✓</span>
             <div>
-              <div className="text-[11px] font-bold text-slate-800">Cloud Sync & Backup</div>
-              <div className="text-[10px] text-slate-500">Sync all your job tracking details to Supabase.</div>
+              <div className="text-[11px] font-bold text-slate-800">{t('feature_cloud_title')}</div>
+              <div className="text-[10px] text-slate-500">{t('feature_cloud_desc')}</div>
             </div>
           </div>
           <div className="flex items-start gap-2.5">
             <span className="text-emerald-600 text-xs mt-0.5">✓</span>
             <div>
-              <div className="text-[11px] font-bold text-slate-800">Resume & Profiles</div>
-              <div className="text-[10px] text-slate-500">Upload your resume and customize application answers.</div>
+              <div className="text-[11px] font-bold text-slate-800">{t('feature_resume_title')}</div>
+              <div className="text-[10px] text-slate-500">{t('feature_resume_desc')}</div>
             </div>
           </div>
         </div>
@@ -66,20 +67,20 @@ export default function AuthGate({ onLogin, isLoggingIn }: AuthGateProps) {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
               </svg>
-              <span>Connecting to Google...</span>
+              <span>{t('connecting_google')}</span>
             </>
           ) : (
             <>
               <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.24 10.285V13.4h6.887C18.2 15.614 15.645 18 12.24 18c-3.86 0-7-3.14-7-7s3.14-7 7-7c1.7 0 3.25.615 4.45 1.635l2.45-2.45C17.265 1.55 14.95 0 12.24 0 6.03 0 1 5.03 1 11s5.03 11 11.24 11c6.48 0 10.79-4.56 10.79-11 0-.74-.065-1.3-.18-1.715H12.24z" />
               </svg>
-              <span>Sign In with Google</span>
+              <span>{t('sign_in_google')}</span>
             </>
           )}
         </button>
 
         <p className="text-[10px] text-gray-500 mt-4 leading-normal">
-          By signing in, you agree to sync your profile data securely to your active workspace.
+          {t('agree_sync_footer')}
         </p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import {
   PieChart, Pie, Cell, FunnelChart, Funnel, LabelList
 } from 'recharts';
 import { useStore } from '../../shared/store';
+import { t } from '../../shared/i18n';
 
 const PLATFORM_COLORS: Record<string, string> = {
   linkedin: '#0077b5', internshala: '#00aaff', unstop: '#f59e0b',
@@ -84,9 +85,9 @@ export default function Analytics() {
     return (
       <div className="flex flex-col h-full items-center justify-center bg-surface-dark gap-4">
         <div className="text-5xl animate-float">📊</div>
-        <div className="text-sm font-bold text-gray-300">No data yet</div>
+        <div className="text-sm font-bold text-gray-300">{t('no_data_yet')}</div>
         <div className="text-xs text-gray-600 text-center max-w-[200px]">
-          Start applying to jobs and your analytics will appear here.
+          {t('start_applying_analytics_desc')}
         </div>
       </div>
     );
@@ -96,25 +97,25 @@ export default function Analytics() {
     <div className="flex flex-col h-full bg-surface-dark overflow-y-auto">
       {/* Header */}
       <div className="px-5 pt-5 pb-4 border-b border-white/6">
-        <h1 className="text-base font-bold text-white">Analytics</h1>
-        <p className="text-xs text-gray-500 mt-0.5">{applications.length} total applications</p>
+        <h1 className="text-base font-bold text-white">{t('analytics_title')}</h1>
+        <p className="text-xs text-gray-500 mt-0.5">{t('total_apps_subtitle', String(applications.length))}</p>
       </div>
 
       <div className="px-4 py-4 flex flex-col gap-6">
         {/* Conversion Rates */}
         <div>
-          <div className="section-label mb-3">Conversion Rates</div>
+          <div className="section-label mb-3">{t('conversion_rates')}</div>
           <div className="grid grid-cols-3 gap-3">
             <MetricCard
-              label="Applied" value={stats.applied} icon="✉️"
+              label={t('applied_metric')} value={stats.applied} icon="✉️"
               color="text-blue-400" bg="rgba(59,130,246,0.1)"
             />
             <MetricCard
-              label="Interview Rate" value={`${stats.interviewRate}%`} icon="🎤"
+              label={t('interview_rate_metric')} value={`${stats.interviewRate}%`} icon="🎤"
               color="text-purple-400" bg="rgba(139,92,246,0.1)"
             />
             <MetricCard
-              label="Offer Rate" value={`${stats.offerRate}%`} icon="🎉"
+              label={t('offer_rate_metric')} value={`${stats.offerRate}%`} icon="🎉"
               color="text-emerald-400" bg="rgba(16,185,129,0.1)"
             />
           </div>
@@ -122,7 +123,7 @@ export default function Analytics() {
 
         {/* Weekly Activity Chart */}
         <div>
-          <div className="section-label mb-3">Applications This Week</div>
+          <div className="section-label mb-3">{t('apps_this_week')}</div>
           <div className="bg-surface-dark50 border border-white/8 rounded-2xl p-4">
             <ResponsiveContainer width="100%" height={140}>
               <BarChart data={weeklyData} margin={{ top: 0, right: 0, left: -20, bottom: 0 }}>
@@ -138,7 +139,7 @@ export default function Analytics() {
         {/* Funnel */}
         {funnelData.length > 0 && (
           <div>
-            <div className="section-label mb-3">Application Funnel</div>
+            <div className="section-label mb-3">{t('app_funnel')}</div>
             <div className="bg-surface-dark50 border border-white/8 rounded-2xl p-4">
               <div className="flex flex-col gap-2">
                 {funnelData.map(d => (
@@ -165,7 +166,7 @@ export default function Analytics() {
         {/* Platform Breakdown */}
         {platformData.length > 0 && (
           <div>
-            <div className="section-label mb-3">Top Platforms</div>
+            <div className="section-label mb-3">{t('top_platforms')}</div>
             <div className="bg-surface-dark50 border border-white/8 rounded-2xl p-4">
               <div className="flex gap-4 items-center">
                 {/* Donut chart */}
@@ -204,7 +205,7 @@ export default function Analytics() {
 
         {/* Status breakdown */}
         <div>
-          <div className="section-label mb-3">Status Breakdown</div>
+          <div className="section-label mb-3">{t('status_breakdown')}</div>
           <div className="bg-surface-dark50 border border-white/8 rounded-2xl p-4">
             <div className="flex flex-col gap-2">
               {Object.entries(STATUS_COLORS).map(([status, color]) => {
@@ -213,7 +214,7 @@ export default function Analytics() {
                 return (
                   <div key={status} className="flex items-center gap-3">
                     <div className="w-2 h-2 rounded-full shrink-0" style={{ background: color }} />
-                    <span className="text-xs text-gray-400 capitalize flex-1">{status}</span>
+                    <span className="text-xs text-gray-400 capitalize flex-1">{t(status + '_status')}</span>
                     <div className="w-20 bg-white/5 rounded-full h-1.5 overflow-hidden">
                       <div className="h-full rounded-full" style={{ width: `${(count / applications.length) * 100}%`, background: color }} />
                     </div>

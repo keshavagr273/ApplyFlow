@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Autofyll jobbsøknader og spor oppføringer automatisk ved hjelp av AI på LinkedIn, Workday, Greenhouse og mer.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktiv",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Påført",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Intervju",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Tilbud",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Lagret",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Totalt",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Autofyll",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Fyller...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Rask autofyll",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Analyser jobb",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Åpne sidepanelet",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Innstillinger",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Logg på med Google først for å bruke Hurtig autofyll!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Sett opp profilen din først på sidepanelet/alternativer-siden!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Oppdaget",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Ingen jobbside oppdaget",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Besøk en stillingsannonse for å låse opp AI-funksjoner",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "God morgen",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "God ettermiddag",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "God kveld",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ søknader spores · $2$ intervjuer",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Begynn å søke for å spore fremgangen din",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Følgebrev",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Hjelp for spørsmål og svar",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Klar til å hjelpe",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Naviger til en stillingsannonse på LinkedIn, Workday, Greenhouse eller en hvilken som helst stillingstavle for å komme i gang.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Denne uken",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Nylig aktivitet",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Se alle →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Start jobbjakten!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Besøk en jobbtavle og bruk ApplyFlow til å autofylle og spore søknadene dine automatisk.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Min profil",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Lagrer...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Lagre alle",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profilen er lagret!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Kunne ikke lagre profilen.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Fortsett",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Last opp til autofyll-profil",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Lastet opp",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Personlig info",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Ufullstendig",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Beliggenhet",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Utdanning",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Ferdigheter",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Arbeidserfaring",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Prosjekter",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Arbeidspreferanser",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Arbeidsautorisasjon",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Fortsett historikk",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Bruk denne",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Analysert på $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Laste inn profildetaljer fra \"$1$\"? Dette vil erstatte dine nåværende redigeringer med denne CV-ens analyserte struktur.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Gjenopprettet detaljer fra $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Kampscore",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ til",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Søknad autofylt og logget! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Utfylles automatisk via ApplyFlow-sidepanelet",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "der",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Ingen høyskole satt",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Sett opp profilen din for å aktivere autofyll",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ikke satt",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ oppføringer",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ ferdigheter",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ prosjekter",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ svarer",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Autorisert",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ikke autorisert",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Fullt navn",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "E-post",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telefon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Alternativ telefon",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "Portefølje-URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Gjenoppta lenke",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "By",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "stat",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Land",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Postnummer",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Adresse",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Nasjonalitet",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "Høyskole / Universitet",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Grad",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Avgangsår",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / karakter",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10. %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12. %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Oppsigelsesfrist",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Forventet lønn",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Foretrukket rolle",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "År med erfaring",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Autorisert til å jobbe uten visumsponsing",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Krever visumsponsing",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Kjønn",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Funksjonshemming",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Foretrekker å ikke si",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ikke spesifisert",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Mann",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Kvinne",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Ikke-binær",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "Ja",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Nei",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ingen ferdigheter lagt til ennå",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Legg til ferdighet (Enter for å legge til)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Utløsende setning (f.eks. Hvorfor skal vi ansette deg)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Svaret ditt...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Fjern",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Legg til tilpasset svar",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Selskapet",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Rolle/tittel",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Startdato",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Sluttdato",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "Tilstede",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Jeg jobber for tiden i denne rollen",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Beskrivelse",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Beskriv ditt ansvar, viktige prestasjoner, teknologier som brukes...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Legg til arbeidserfaring",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Prosjekttittel",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Tech Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "Implementerings-URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Beskriv hva du bygde, hvilket problem det løste, og nøkkelfunksjonene...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Legg til prosjekt",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Lagret",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Påført",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Vurdering",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Intervju",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Tilbud",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Avvist",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Tilbaketrukket",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Vil du slette denne applikasjonen?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Søknaden er oppdatert!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Søknad slettet.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Plattform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Påført",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Åpne stillingsannonse",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Lønn / Stipend",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Oppfølgingspåminnelse",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Notater",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Legg til notater, kontaktinformasjon, intervjudetaljer...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Stillingsbeskrivelse (utdrag)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Slett",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Avbryt",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Lagre",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 søknad",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ applikasjoner",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filtrer etter selskap...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Statusfiltre",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Bla til høyre for mer →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Alle",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Ingen applikasjoner funnet",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Prøv å tilbakestille filtre eller lagre en jobb for å legge til en ny sporingsoppføring",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ totalt antall søknader",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Ingen data ennå",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Begynn å søke på jobber og analysene dine vises her.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Konverteringsrater",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Påført",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Intervjufrekvens",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tilbudspris",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Søknader denne uken",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Applikasjonstrakt",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Topp plattformer",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Statusoversikt",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Kontekst: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Din karriere-copilot",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Ny chat ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Sett opp profilen din først slik at AI kan tilpasse svarene.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat tømt! Hva kan jeg hjelpe deg med?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Spør noe om denne jobben...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Sett opp profilen din for å starte",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Trykk Enter for å sende",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Gjenoppta kompatibilitetspoeng",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Sterke ferdigheter",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Manglende ferdigheter",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Her er ditt personlige følgebrev:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Kopiert!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopier",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Last ned",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Her er $1$ sannsynlige intervjuspørsmål:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Fortsett optimaliseringspoeng: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Gjenoppta matchforslag",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "kontra denne stillingsbeskrivelsen",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Noe gikk galt. Vennligst prøv igjen.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hei! Jeg kan se at du ser på en **$1$** rolle på **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hei! Jeg kan se at du ser på en **$1$** rolle.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hei! Jeg er din AI-karriere-copilot. Naviger til en stillingsannonse, så analyserer jeg den automatisk, eller spør meg om hva som helst!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Sett opp profilen din først i Profil-fanen!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Åpne en stillingsannonseside i nettleseren din først for å bruke denne funksjonen!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Lås opp ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Logg på med Google for å få tilgang til dashbordet, synkronisere jobber, administrere CV-profilen din og autofyll jobbsøknader umiddelbart.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofyll og Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Skann og autofyll applikasjoner med ett klikk.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Backup",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Synkroniser alle jobbsporingsdetaljene dine til Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "CV og profiler",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Last opp CV-en din og tilpass søknadssvarene.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Kobler til Google ...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Logg på med Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Ved å logge på godtar du å synkronisere profildataene dine sikkert til det aktive arbeidsområdet ditt.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Er du sikker på at du vil logge av?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Logget av.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Logget på som $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Logg ut",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Logg på",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Kobler til...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Åpne ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Sterke matchingsferdigheter",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Manglende ferdigheter",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Smart Autofyll-side",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Autofyller skjema...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Finner ingen utfyllbare søknadsfelt på siden.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Vellykket fylt!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Autofyll mislyktes på grunn av sidens kompleksitet.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Automatisk lagret til loggsporing ved fylling.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "CV-en din er **$1$% kompatibel** med denne rollen.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Velkommen tilbake, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Kunne ikke hente informasjon om Google-brukerprofilen.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth-pålogging mislyktes: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Kunne ikke hente tilgangstoken fra viderekobling.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Kunne ikke analysere autentiseringsomdirigering.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Autentisering støttes ikke på denne plattformen.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Jobben lagret til tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Gjest",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Generelle innstillinger",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Vis på LinkedIn jobbsider",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Viser en smart matchende poengsum og en ett-klikks autofyll-knapp når du ser stillingsannonser på LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Vis 'Lagre jobb'-knappen",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Viser en flytende \"Lagre jobb 📌\"-knapp på jobbsider slik at du raskt kan lagre jobbdetaljer i sporingen din før du søker.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Logg kun etter faktisk bruk",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Vent til du ser \"Takk\"- eller \"Suksess\"-skjermen før du legger til jobben i sporingen din. Holder trackeren din ryddig ved å forhindre at halvfylte skjemaer lagres som «Anvendt».",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI-kreditter og bruksanalyse",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kreditter igjen",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Gjenværende studiepoeng",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Totale studiepoeng",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "All-time Autofyll",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Planstatus",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Pro tips:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Smart Autofill-operasjoner bruker 0 studiepoeng og er 100 % ubegrenset! Bare avanserte AI-funksjoner som følgebrev (5 studiepoeng) og tilpassede essays (3 studiepoeng) bruker kredittsaldoen din.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google-konto og skysynkronisering",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync aktiv",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync låst (kun Premium)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Push til Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Trekk fra Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Synkronisering vellykket!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Synkronisering mislyktes. Sjekk tilkoblingen din.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Sikker skysynkronisering",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Logg på med Google for å sikkerhetskopiere applikasjonene og profilen din til Supabase. Synkronisering er en Premium-funksjon som holder loggene dine trygge på tvers av enheter.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync er en premiumfunksjon. Vennligst oppgrader i Oppgrader-fanen for å aktivere synkronisering!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Databehandling",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Eksporter sikkerhetskopi (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Fjern alle lokale data",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Sletting av lokale data fjerner kun profilen din og appene fra denne enheten. Skydata er upåvirket.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Kontrollsenter",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Hjem & Om",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Generelle innstillinger",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Oppgrader til Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Premium-abonnement 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Konto og synkronisering",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Personvernerklæring",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Tastatursnarveier",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Velkommen til ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow er en AI-drevet Chrome-utvidelse laget for studenter og jobbsøkere som ønsker å søke raskere og smartere. Den oppdager og fyller ut jobbsøknadsskjemaer automatisk på tvers av 15+ plattformer, sporer rørledningen din og hjelper deg med å få flere intervjuer.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Smart autofyll",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ ATS-plattformer med presise velgere",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Lagre en stillingsannonse med ett klikk",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Dra og slipp applikasjonsrørledningen",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO Autofyll",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Fyller ut demografiske spørsmål og visumspørsmål automatisk",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI-essays",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Tvillingdrevet tilpasset svarskriving",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Sikker synkronisering",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Valgfri Supabase sky backup",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Slik kommer du i gang",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Bygg din profil",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Åpne popup-vinduet → Profil-fanen → last opp din CV-PDF. AI vil automatisk trekke ut alle detaljene dine, inkludert ferdigheter, erfaring, utdanning og prosjekter.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Angi EEO-preferanser",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Rull til EEO-delen i profilen din og angi arbeidstillatelse, behov for visumsponsing og demografiske preferanser. Disse brukes til å autofylle EEO-spørreskjemaer.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Bla gjennom en stillingsannonse",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Naviger til en hvilken som helst stillingsannonse. Du vil se en 📌 \"Lagre jobb\"-knapp vises. Klikk på den for å lagre posisjonen til sporingen din umiddelbart.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Åpne et søknadsskjema",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Naviger til søknadsskjemaet. Klikk på ApplyFlow-popup-vinduet → trykk \"Skann side\" → deretter \"⚡ Smart Autofyll\". Alle felt, inkludert alternativknapper og rullegardiner, fylles ut umiddelbart.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Spor rørledningen din",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Åpne Tracker-fanen for å se alle applikasjonene dine. Bytt til Kanban Board-visning og dra kort mellom kolonner etter hvert som statusoppdateringene dine.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Pålogging kreves",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Logg på for å tilpasse innstillinger",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Generelle innstillinger er bare tilgjengelige for påloggede brukere. Logg på med Google for å konfigurere innstillingene dine, autofyll-atferd og mer.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Gå til Konto og synkronisering",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Lisensnøkkel: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Deaktiver lisens",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivering av lisensnøkkel",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Hvis du har kjøpt et abonnement eller mottatt en tilgangskode, skriv inn lisensnøkkelen din nedenfor for å låse opp ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktiver",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Aktiverer...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tips: Du kan aktivere Premium ved å bruke nøkkelen APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium aktivert!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Takk for at du støtter ApplyFlow. Alle premiumfunksjoner er nå låst opp.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Premium oppgraderingsplan",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Lås opp karriereeksporten og avanserte AI-funksjoner.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Få førsteklasses AI-kreditter for følgebrev, tilpassede essaysvar, CV-optimalisering og illustrerte intervjuforberedelser. Autofyll-operasjoner på støttede plattformer er helt ubegrenset og gratis for alle premium-brukere!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Tilbud for tidlig bruk:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Neste prisøkning ved 500 Premium-brukere. Lås på denne prisen for livet!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Monthly Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Bra for kortsiktig søk",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 INR",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ måned",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Bare INR 13 per dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 AI-kreditter per måned|||Ubegrenset autofyll (alle portaler)|||Cloud Sync og Google Backup|||Premium-temaer|||Annonsefri opplevelse",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Abonner månedlig",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Quarterly Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Best verdi for de fleste jobbsøkere",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 måneder",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Bare INR 11 per dag)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 AI-kreditter per kvartal|||Ubegrenset autofyll (alle portaler)|||Skreddersydde følgebrev og essays|||Cloud Sync og Google Backup|||Forslag til gjenoppta match",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Abonner kvartalsvis",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Mest populær",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Årlig Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Best verdi for superbrukere",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ år",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Tilsvarende 249 INR per måned)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 AI-kreditter per år|||Ubegrenset daglig autofyll|||Skreddersydde følgebrev og essays|||Cloud Sync og Google Backup|||Forslag til gjenoppta match|||Støtte for prioritert e-post",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Abonner årlig",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Best verdi - spar 40 %",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Støtt ApplyFlow-utvikling",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow bygges og vedlikeholdes av uavhengige utviklere. Hvis du synes utvidelsen er nyttig, bør du vurdere å donere på Ko-fi for å holde den aktiv, annonsefri og oppdatert for nye jobbtavler.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Kjøp meg en kaffe på Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rangering|||🔒 Sikre betalinger|||✓ Avbryt når som helst",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Ugyldig lisensnøkkel. Hint: Prøv å bruke demo-nøkkelen 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Lisens aktivert vellykket! Velkommen til ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Er du sikker på at du vil deaktivere premiumlisensen din? Dette vil returnere deg til gratisplanen.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Premium-lisens deaktivert. Du er nå på gratisplanen.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Dette vil permanent slette ALLE lokale profil- og applikasjonsdata. Er du sikker?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Personvernerklæring",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Ofte stilte spørsmål",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Hva er ApplyFlow og hvordan fungerer det?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow er en AI-drevet Chrome-utvidelse som automatisk oppdager og fyller ut jobbsøknadsskjemaer på tvers av 15+ plattformer, inkludert LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever og mer. Den leser den lagrede profilen din og bruker intelligent matching for å fylle ut tekstfelt, rullegardiner, alternativknapper og avmerkingsbokser – inkludert EEO/demografiske spørsmål.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Er mine personlige data trygge med ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "Ja. Dataene dine lagres som standard lokalt i nettleserens chrome.storage.local. Den sendes aldri til noen tredjepartsserver annet enn din egen valgfrie Supabase-database (som du kontrollerer). ApplyFlow selger, deler eller tjener aldri penger på din personlige informasjon.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Hvilke jobbplattformer støtter ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow støtter 15+ plattformer rett ut av esken: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList og alle andre nettsteder via vår intelligente generiske reservematcher.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Hva er Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper er en flytende \"Lagre jobb\"-knapp (📌) som automatisk vises når du besøker en stillingsside. Ved å klikke på den trekker du ut stillingstittelen, firmaet, lønnen og beskrivelsen, og lagrer den i ApplyFlow-sporeren din som en \"Lagret\"-applikasjon – slik at du kan spore jobber før du søker.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Hvordan oppdaterer jeg profilen min?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Åpne ApplyFlow-popup-vinduet, klikk på \"Profil\"-fanen og last opp CV-en din. AI vil automatisk fylle ut alle feltene dine. Du kan også redigere alle felt manuelt, inkludert dine EEO-preferanser, arbeidsautorisasjon og følgebrev.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Hva er EEO-felt og hvorfor trenger jeg dem?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO-felt (Equal Employment Opportunity) er spørsmål som mange amerikanske og globale arbeidsgivere stiller om kjønn, funksjonshemmingsstatus, veteranstatus og arbeidsautorisasjon. ApplyFlow lagrer dine foretrukne svar og fyller automatisk disse alternativknappgruppene slik at du ikke trenger å svare manuelt hver gang.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Krever ApplyFlow noen API-nøkler eller konfigurasjon?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Ingen! ApplyFlow håndterer all formdeteksjon, smart matching, generering av følgebrev og kompatibilitetspoeng automatisk. Du trenger ikke å skaffe eller konfigurere noen API-nøkler.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Hva er Supabase sync og trenger jeg det?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase-synkronisering er en valgfri skysikkerhetskopieringsfunksjon. Når du logger på med Google og aktiverer det, synkroniseres profilen og applikasjonssporingen til en privat skydatabase slik at dataene dine sikkerhetskopieres og er tilgjengelige fra flere enheter. Dette er helt valgfritt - utvidelsen fungerer helt offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Hvorfor trenger ApplyFlow tilgang til alle nettsteder?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow ber om tilgang til alle nettsteder slik at den kan injisere autofyllmotoren på et hvilket som helst jobbsøknadsskjema, og vise \"Lagre jobb\"-klippeknappen på en hvilken som helst stillingsannonse. Denne tillatelsen kreves for bred plattformstøtte. Vi injiserer kun script på sider som er tydelig jobbrelaterte.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Hva er Kanban-styret?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Kanban Board er en visuell jobbsporingsvisning i Tracker-fanen. Den viser søknadene dine organisert i kolonner: Lagret → Brukt → Vurdering → Intervju → Tilbud. Du kan dra og slippe kort mellom kolonnene for å oppdatere statusen til et hvilket som helst program.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Hvordan fungerer innsendingsdeteksjon?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Når du aktiverer «Logg bare etter innsending» i innstillingene, ser ApplyFlow etter sideendringer som indikerer en vellykket innsending (som en URL som inneholder «/suksess» eller brødtekst som sier «Takk for søknaden»). Den logger bare applikasjonen til trackeren din etter at den oppdager en reell innsending.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Kan jeg lagre flere følgebrev?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "Ja! Profilskjermen har en \"Følgebrevhvelv\"-seksjon hvor du kan lagre ubegrensede følgebrev skreddersydd til forskjellige roller eller selskaper. Ved autofylling vil ApplyFlow bruke ditt nyeste eller mest relevante følgebrev.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Hvordan eksporterer jeg applikasjonsdataene mine?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Gå til Konto og synkronisering → bla til bunnen → klikk på \"Eksporter sikkerhetskopi (JSON)\". Dette laster ned alle profil- og applikasjonsdataene dine som en JSON-fil for oppbevaring.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Fungerer ApplyFlow i demomodus?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Demomodus var en eldre innstilling som ble brukt til testing. Den er nå deaktivert som standard. Alle funksjoner er live og funksjonelle med den innebygde Gemini API-nøkkelen.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Hvordan rapporterer jeg en feil eller ber om en funksjon?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Åpne et problem på GitHub-depotet vårt (lenket i Om-delen) eller send oss ​​en e-post på support@applyflow.in. Vi svarer vanligvis innen 48 timer.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Åpne ApplyFlow-popup",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Skann gjeldende side for skjemafelt",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Utløs Smart Autofyll på gjeldende side",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Klipp gjeldende stillingsoppføring til tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Åpne Tracker i en ny fane",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Konfigurer snarveier i Chrome på",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Merk:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome-utvidelseskommandoer krever manuell tilordning i Chromes snarveibehandling. Gå til $1$ for å binde nøklene som er oppført ovenfor.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — Personvernerklæring**\nSist oppdatert: juni 2026\n\n---\n\n**1. Introduksjon**\n\nApplyFlow (\"vi\", \"vår\", \"utvidelsen\") er en Chrome-nettleserutvidelse som hjelper brukere med å autofylle jobbsøknadsskjemaer, spore søknadene deres og administrere sin profesjonelle profil. Denne personvernerklæringen forklarer hvordan vi samler inn, bruker, lagrer og beskytter informasjonen din.\n\nVed å installere og bruke ApplyFlow godtar du fremgangsmåten beskrevet i denne policyen.\n\n---\n\n**2. Data vi samler inn**\n\nVi samler bare inn informasjonen du frivillig oppgir for å aktivere utvidelsens funksjoner:\n\n• **Profilinformasjon**: Ditt navn, e-post, telefonnummer, høyskole, grad, ferdigheter, arbeidshistorie, prosjekter og faglige lenker (LinkedIn, GitHub, Portfolio **_EE1__Degraphic).•NL (Valgfritt)**: Innstillinger for kjønn, funksjonshemming, veteranstatus og arbeidsautorisasjon – gitt kun hvis du velger å fylle ut disse feltene. Disse dataene brukes utelukkende til å autofylle valgfrie EEO-spørreskjemaer på jobbsøknader.\n• **Søknadssporingsdata**: Stillingstittel, firma, søknads-URL, status og merknader for stillinger du sporer ved hjelp av utvidelsen.\n• **Bruksstatistikk**: Antall autofylloperasjoner utført (lagret lokalt for å håndheve daglige grenser for deg).__•NLAuthentic:______. velger å logge på med Google, lagrer vi Google-visningsnavnet, e-postadressen og nettadressen til profilbildet ditt for å tilpasse opplevelsen din og aktivere skysynkronisering.\n\nVi samler **ikke** inn:\n• Betalings- eller finansiell informasjon\n• Nettleserhistorikk eller generell nettleseraktivitet\n• Eventuell informasjon fra sider som ikke er relatert til jobben_____NL fra siden_____NL________ utvidelsen er ikke aktivt utløst\n\n---\n\n**3. Hvordan vi lagrer dataene dine**\n\n**3.1 Lokal lagring (standard)**\nAlle data lagres primært i nettleserens chrome.storage.local API. Disse dataene ligger bare på enheten din og blir aldri overført til noen server uten din eksplisitte handling.\n\n**3.2 Cloud Sync (valgfritt)**\nHvis du velger å logge på med Google og aktiverer \"Supabase Sync\"-funksjonen, vil profil- og applikasjonsdataene dine også bli synkronisert til en Supabase-database. Du beholder fullt eierskap til disse dataene. Du kan slette den når som helst fra Konto og synkronisering-delen.\n\n**3.3 Gemini AI-forespørsler**\nNår AI-funksjoner brukes (f.eks. essaygenerering, jobbanalyse), sendes deler av profilen din (ferdigheter, grad, sammendrag) og jobbbeskrivelsesteksten til Googles response-API. Dette behandles under Googles standard API-vilkår for bruk og personvernregler. Vi anbefaler at du ikke inkluderer sensitive personlige identifikatorer i AI-assistert innhold.\n\n---\n\n**4. Datadeling**\n\nVi **ikke** selger, bytter, leier ut eller deler din personlige informasjon med noen tredjeparter for markedsførings- eller reklameformål.\n\nDataene dine kan behandles av følgende pålitelige tjenester:\n• **Google Gemini API**: For utfylling av AI-analyse og skjemautfylling (https://policies.google.com/privacy)\n• **Google OAuth**: For kontoautentisering (https://policies.google.com/privacy)\n• **Supabase**: For valgfri skylagring (https://supabase.com/privacy) - bare hvis du aktiverer sync\n\n---\n\n**5. Dine rettigheter og kontroller**\n\nDu har rett til å:\n• **Få tilgang til** alle data ApplyFlow har lagret om deg (via Eksporter sikkerhetskopi i innstillinger)\n• **Korrigere** informasjonen din når som helst i Profil-fanen\n• **Slett alle dataene dine ved å bruke \"Alle data**\"_0 i lokale innstillinger. **Trekk tilbake samtykke** når som helst ved å avinstallere utvidelsen\n• **Deaktiver skysynkronisering** ved å slå den av i konto- og synkroniseringsinnstillinger\n\n**GDPR (EU-brukere)**: Hvis du er bosatt i EU, har du rettigheter til å få tilgang til, korrigere, slette, begrense behandling av data og dataportering. Forordning.\n\n**India — DPDP Act 2023**: I samsvar med Indias Digital Personal Data Protection Act 2023 behandler vi personopplysninger kun med det formål å tilby jobbsøknadshjelpstjenesten. Du kan trekke tilbake samtykket og be om sletting av dataene dine når som helst ved å kontakte oss.\n\n**California — CCPA**: Innbyggere i California har rett til å vite hvilke personopplysninger som samles inn, rett til å slette og rett til å velge bort salg (vi selger ikke data).\n**-__NL___17.\n**-__NL___7. Datalagring**\n\nLokale data beholdes til du sletter dem manuelt. Skysynkroniserte data beholdes til du sletter kontoen din eller ber om sletting. Vi sletter ikke data automatisk.\n\n---\n\n**7. Sikkerhet**\n\nVi tar rimelige tekniske tiltak for å beskytte dataene dine:\n• All skykommunikasjon bruker HTTPS/TLS-kryptering\n• Supabase Row-Level Security (RLS) sikrer at brukere bare kan få tilgang til sine egne data\n• Utvidelsen ber ikke om tillatelser utover det som er nødvendig for sin sikkerhet funksjon\n\n---\n\n**8. Barns personvern**\n\nApplyFlow er ikke ment for brukere under 13 år. Vi samler ikke bevisst inn data fra barn. Hvis du tror et barn har gitt oss personlig informasjon, vennligst kontakt oss umiddelbart.\n\n---\n\n**9. Endringer i disse retningslinjene**\n\nVi kan oppdatere denne personvernerklæringen fra tid til annen. Vesentlige endringer vil bli kommunisert via utvidelsens Alternativer-side. Fortsatt bruk av utvidelsen etter endringer utgjør aksept av de oppdaterte retningslinjene.\n\n---\n\n**10. Kontakt oss**\n\nFor alle personvernrelaterte spørsmål, forespørsler om datasletting eller bekymringer:\n\nE-post: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\n104__NL_0.5__NL__NL_0. tar sikte på å svare på alle forespørsler innen 30 dager.",
+    "description": "Privacy policy document markdown text"
+  }
+}

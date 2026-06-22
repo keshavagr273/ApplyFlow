@@ -2,6 +2,7 @@ import React from 'react';
 import { Section, Toggle } from './Shared';
 import { CheckCircle2 } from 'lucide-react';
 import { AIServiceSettings, UsageStats } from '../../../src/shared/types';
+import { t } from '../../shared/i18n';
 
 function getUTCMidnightInLocal() {
   const d = new Date();
@@ -25,30 +26,30 @@ export function GeneralSettings({ settings, updateSettings, usage }: { settings:
 
   return (
     <>
-      <Section title="⚙️ General Settings">
+      <Section title={t('general_settings_title')}>
         <div className="flex flex-col gap-5">
           <Toggle
-            label="Show on LinkedIn Job Pages"
-            description="Shows a smart matching score and a one-click autofill button when you view job postings on LinkedIn."
+            label={t('setting_show_linkedin')}
+            description={t('setting_show_linkedin_desc')}
             checked={settings.enableOverlay}
             onChange={v => updateSettings({ enableOverlay: v })}
           />
           <Toggle
-            label="Show 'Save Job' Button"
-            description="Shows a floating 'Save Job 📌' button on job sites so you can quickly save job details to your tracker before applying."
+            label={t('setting_show_clipper')}
+            description={t('setting_show_clipper_desc')}
             checked={settings.showClipButton !== false}
             onChange={v => updateSettings({ showClipButton: v })}
           />
           <Toggle
-            label="Only Log After Actually Applying"
-            description="Wait until you see the 'Thank You' or 'Success' screen before adding the job to your tracker. Keeps your tracker neat by preventing half-filled forms from being saved as 'Applied'."
+            label={t('setting_log_after_apply')}
+            description={t('setting_log_after_apply_desc')}
             checked={settings.logOnlyAfterSubmission || false}
             onChange={v => updateSettings({ logOnlyAfterSubmission: v })}
           />
         </div>
       </Section>
 
-      <Section title="📊 AI Credits & Usage Analytics">
+      <Section title={t('settings_analytics_title')}>
         <div className="flex flex-col items-center gap-6">
           {/* Gauge */}
           <div className="relative w-44 h-44 flex items-center justify-center">
@@ -62,16 +63,16 @@ export function GeneralSettings({ settings, updateSettings, usage }: { settings:
             </svg>
             <div className="absolute text-center">
               <div className="text-3xl font-black text-slate-800">{remaining}</div>
-              <div className="text-[10px] text-slate-400 font-extrabold uppercase">Credits Left</div>
+              <div className="text-[10px] text-slate-400 font-extrabold uppercase">{t('credits_left')}</div>
             </div>
           </div>
 
           <div className="w-full max-w-sm grid grid-cols-2 gap-3">
             {[
-              { label: 'Credits Remaining', value: remaining },
-              { label: 'Total Credits', value: total },
-              { label: 'All-time Autofills', value: usage.totalFills || 0 },
-              { label: 'Plan Status', value: settings.isPremium ? 'Premium 👑' : 'Free 🔓' },
+              { label: t('credits_remaining'), value: remaining },
+              { label: t('total_credits'), value: total },
+              { label: t('all_time_autofills'), value: usage.totalFills || 0 },
+              { label: t('plan_status'), value: settings.isPremium ? t('plan_status_premium') : t('plan_status_free') },
             ].map((item, i) => (
               <div key={i} className="bg-slate-50 border border-slate-200/50 rounded-xl p-4 text-center">
                 <div className="text-lg font-black text-brand-600">{item.value}</div>
@@ -83,7 +84,7 @@ export function GeneralSettings({ settings, updateSettings, usage }: { settings:
           <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 text-xs font-bold px-5 py-3 rounded-xl border border-brand-200/60 max-w-md text-center leading-relaxed" style={{ justifyContent: 'center' }}>
             <span className="shrink-0">💡</span>
             <span className="text-left leading-normal">
-              <strong>Pro Tip:</strong> Smart Autofill operations consume <strong>0 credits</strong> and are 100% unlimited! Only advanced AI features like Cover Letters (5 credits) and custom Essays (3 credits) consume your credit balance.
+              <strong>{t('pro_tip_title')}</strong> {t('pro_tip_desc')}
             </span>
           </div>
         </div>

@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI ಜಾಬ್ ಸ್ವಯಂತುಂಬುವಿಕೆ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಟ್ರ್ಯಾಕರ್",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "ಲಿಂಕ್ಡ್‌ಇನ್, ಕೆಲಸದ ದಿನ, ಗ್ರೀನ್‌ಹೌಸ್ ಮತ್ತು ಹೆಚ್ಚಿನವುಗಳಲ್ಲಿ AI ಅನ್ನು ಬಳಸಿಕೊಂಡು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉದ್ಯೋಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಟ್ರ್ಯಾಕ್ ಪಟ್ಟಿಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಿ.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ಅಪ್ಲೈಫ್ಲೋ",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "ಸಕ್ರಿಯ",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "ಸಂದರ್ಶನ",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "ಆಫರ್",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "ಒಟ್ಟು",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "ಸ್ವಯಂತುಂಬುವಿಕೆ",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ತುಂಬುತ್ತಿದೆ...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "ತ್ವರಿತ ಸ್ವಯಂತುಂಬುವಿಕೆ",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "ಉದ್ಯೋಗವನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "ಸೈಡ್‌ಬಾರ್ ತೆರೆಯಿರಿ",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "ತ್ವರಿತ ಸ್ವಯಂಭರ್ತಿಯನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಮೊದಲು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "ದಯವಿಟ್ಟು ಸೈಡ್ ಪ್ಯಾನಲ್/ಆಯ್ಕೆಗಳ ಪುಟದಲ್ಲಿ ಮೊದಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೊಂದಿಸಿ!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ ಪತ್ತೆಹಚ್ಚಲಾಗಿದೆ",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "ಯಾವುದೇ ಉದ್ಯೋಗ ಪುಟ ಪತ್ತೆಯಾಗಿಲ್ಲ",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಉದ್ಯೋಗ ಪಟ್ಟಿಗೆ ಭೇಟಿ ನೀಡಿ",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "ಶುಭೋದಯ",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ಶುಭ ಮಧ್ಯಾಹ್ನ",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "ಶುಭ ಸಂಜೆ",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗಿದೆ · $2$ ಸಂದರ್ಶನಗಳು",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "ಕವರ್ ಲೆಟರ್",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "ಪ್ರಶ್ನೋತ್ತರ ಸಹಾಯ",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "ಸಹಾಯ ಮಾಡಲು ಸಿದ್ಧ",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "ಪ್ರಾರಂಭಿಸಲು ಲಿಂಕ್ಡ್‌ಇನ್, ವರ್ಕ್‌ಡೇ, ಗ್ರೀನ್‌ಹೌಸ್ ಅಥವಾ ಯಾವುದೇ ಜಾಬ್ ಬೋರ್ಡ್‌ನಲ್ಲಿ ಉದ್ಯೋಗ ಪಟ್ಟಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "ಈ ವಾರ",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "ಇತ್ತೀಚಿನ ಚಟುವಟಿಕೆ",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "ನಿಮ್ಮ ಕೆಲಸದ ಹುಡುಕಾಟವನ್ನು ಪ್ರಾರಂಭಿಸಿ!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "ಉದ್ಯೋಗ ಬೋರ್ಡ್‌ಗೆ ಭೇಟಿ ನೀಡಿ ಮತ್ತು ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ಮತ್ತು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ApplyFlow ಬಳಸಿ.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "ನನ್ನ ಪ್ರೊಫೈಲ್",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "ಉಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಉಳಿಸಿ",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "ಪ್ರೊಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "ಪ್ರೊಫೈಲ್ ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "ಪುನರಾರಂಭಿಸಿ",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "ಸ್ವಯಂ ಭರ್ತಿ ಪ್ರೊಫೈಲ್‌ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "ಅಪೂರ್ಣ",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "ಸ್ಥಳ",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "ಶಿಕ್ಷಣ",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "ಕೌಶಲ್ಯಗಳು",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "ಕೆಲಸದ ಅನುಭವ",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "ಯೋಜನೆಗಳು",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "ಕೆಲಸದ ಆದ್ಯತೆಗಳು",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "ಕೆಲಸದ ಅಧಿಕಾರ",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ಇತಿಹಾಸವನ್ನು ಪುನರಾರಂಭಿಸಿ",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "ಇದನ್ನು ಬಳಸಿ",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ ರಂದು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" ನಿಂದ ಪ್ರೊಫೈಲ್ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡುವುದೇ? ಇದು ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಸಂಪಾದನೆಗಳನ್ನು ಈ ಪುನರಾರಂಭದ ಪಾರ್ಸ್ ಮಾಡಿದ ರಚನೆಯೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ ನಿಂದ ವಿವರಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "ಪಂದ್ಯದ ಸ್ಕೋರ್",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ ಫಿಟ್",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ ಹೆಚ್ಚು",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಲಾಗ್ ಮಾಡಲಾಗಿದೆ! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow ಸೈಡ್ ಪ್ಯಾನೆಲ್ ಮೂಲಕ ಸ್ವಯಂ ತುಂಬಿದೆ",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ಅಲ್ಲಿ",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "ಕಾಲೇಜು ಸೆಟ್ ಇಲ್ಲ",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "ಸ್ವಯಂತುಂಬುವಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೊಂದಿಸಿ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "ಹೊಂದಿಸಿಲ್ಲ",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ನಮೂದುಗಳು",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ ಕೌಶಲ್ಯಗಳು",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ ಯೋಜನೆಗಳು",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ ಉತ್ತರಗಳು",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "ಅಧಿಕೃತಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "ಅಧಿಕೃತವಾಗಿಲ್ಲ",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "ಪೂರ್ಣ ಹೆಸರು",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ಇಮೇಲ್",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ಫೋನ್",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "ಪರ್ಯಾಯ ಫೋನ್",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "ಲಿಂಕ್ಡ್‌ಇನ್ URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "ಪೋರ್ಟ್ಫೋಲಿಯೋ URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "ಲಿಂಕ್ ಪುನರಾರಂಭಿಸಿ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "ನಗರ",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "ರಾಜ್ಯ",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "ದೇಶ",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "ಕೋಡ್",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "ವಿಳಾಸ",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ರಾಷ್ಟ್ರೀಯತೆ",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "ಕಾಲೇಜು / ವಿಶ್ವವಿದ್ಯಾಲಯ",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ಪದವಿ",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "ಪದವಿ ವರ್ಷ",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / ಗ್ರೇಡ್",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10 ನೇ %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12 ನೇ %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "ಸೂಚನೆಯ ಅವಧಿ",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "ನಿರೀಕ್ಷಿತ ಸಂಬಳ",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "ಆದ್ಯತೆಯ ಪಾತ್ರ",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "ವರ್ಷಗಳ ಅನುಭವ",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ವೀಸಾ ಪ್ರಾಯೋಜಕತ್ವವಿಲ್ಲದೆ ಕೆಲಸ ಮಾಡಲು ಅಧಿಕಾರ",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ವೀಸಾ ಪ್ರಾಯೋಜಕತ್ವದ ಅಗತ್ಯವಿದೆ",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "ಲಿಂಗ",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "ಅಂಗವೈಕಲ್ಯ",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "ಹೇಳದಿರಲು ಆದ್ಯತೆ",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "ಪುರುಷ",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ಹೆಣ್ಣು",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "ಬೈನರಿ ಅಲ್ಲದ",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ಹೌದು",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "ಸಂ",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಕೌಶಲ್ಯಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "ಕೌಶಲ್ಯವನ್ನು ಸೇರಿಸಿ (ಸೇರಿಸಲು ನಮೂದಿಸಿ)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ಟ್ರಿಗರ್ ನುಡಿಗಟ್ಟು (ಉದಾ. ನಾವು ನಿಮ್ಮನ್ನು ಏಕೆ ನೇಮಿಸಿಕೊಳ್ಳಬೇಕು)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "ನಿಮ್ಮ ಉತ್ತರ...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "ತೆಗೆದುಹಾಕಿ",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ ಕಸ್ಟಮ್ ಉತ್ತರವನ್ನು ಸೇರಿಸಿ",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "ಕಂಪನಿ",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "ಪಾತ್ರ / ಶೀರ್ಷಿಕೆ",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "ಅಂತಿಮ ದಿನಾಂಕ",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "ಪ್ರಸ್ತುತ",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "ಸದ್ಯ ಈ ಪಾತ್ರದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "ವಿವರಣೆ",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "ನಿಮ್ಮ ಜವಾಬ್ದಾರಿಗಳು, ಪ್ರಮುಖ ಸಾಧನೆಗಳು, ಬಳಸಿದ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ವಿವರಿಸಿ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ ಕೆಲಸದ ಅನುಭವವನ್ನು ಸೇರಿಸಿ",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "ಯೋಜನೆಯ ಶೀರ್ಷಿಕೆ",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "ಟೆಕ್ ಸ್ಟಾಕ್",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "ನಿಯೋಜನೆ URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "ನೀವು ಏನು ನಿರ್ಮಿಸಿದ್ದೀರಿ, ಅದು ಯಾವ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಿದೆ ಮತ್ತು ಪ್ರಮುಖ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿವರಿಸಿ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ ಪ್ರಾಜೆಕ್ಟ್ ಸೇರಿಸಿ",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ಟ್ರ್ಯಾಕರ್",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "ಮೌಲ್ಯಮಾಪನ",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "ಸಂದರ್ಶನ",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "ಆಫರ್",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ಹಿಂತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "ಈ ಅಪ್ಲಿಕೇಶನ್ ಅಳಿಸುವುದೇ?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "ಅಪ್ಲಿಕೇಶನ್ ನವೀಕರಿಸಲಾಗಿದೆ!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "ಅಪ್ಲಿಕೇಶನ್ ಅಳಿಸಲಾಗಿದೆ.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "ಸ್ಥಿತಿ",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "ವೇದಿಕೆ",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "ಉದ್ಯೋಗ ಪೋಸ್ಟಿಂಗ್ ತೆರೆಯಿರಿ",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "ಸಂಬಳ / ಸ್ಟೈಫಂಡ್",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "ಫಾಲೋ-ಅಪ್ ಜ್ಞಾಪನೆ",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "ಟಿಪ್ಪಣಿಗಳು",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "ಟಿಪ್ಪಣಿಗಳು, ಸಂಪರ್ಕ ಮಾಹಿತಿ, ಸಂದರ್ಶನದ ವಿವರಗಳನ್ನು ಸೇರಿಸಿ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "ಉದ್ಯೋಗ ವಿವರಣೆ (ಉದ್ಧರಣ)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ಅಳಿಸಿ",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "ಉಳಿಸಿ",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 ಅಪ್ಲಿಕೇಶನ್",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "ಕಂಪನಿಯ ಪ್ರಕಾರ ಫಿಲ್ಟರ್ ಮಾಡಿ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "ಸ್ಥಿತಿ ಶೋಧಕಗಳು",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "ಹೆಚ್ಚಿನದಕ್ಕಾಗಿ ಬಲಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "ಎಲ್ಲಾ",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಹೊಸ ಟ್ರ್ಯಾಕರ್ ಪ್ರವೇಶವನ್ನು ಸೇರಿಸಲು ಕೆಲಸವನ್ನು ಉಳಿಸಿ",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "ಅನಾಲಿಟಿಕ್ಸ್",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ ಒಟ್ಟು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಡೇಟಾ ಇಲ್ಲ",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "ಉದ್ಯೋಗಗಳಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ನಿಮ್ಮ ವಿಶ್ಲೇಷಣೆಗಳು ಇಲ್ಲಿ ಗೋಚರಿಸುತ್ತವೆ.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "ಪರಿವರ್ತನೆ ದರಗಳು",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "ಸಂದರ್ಶನ ದರ",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "ಆಫರ್ ದರ",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "ಈ ವಾರದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "ಅಪ್ಲಿಕೇಶನ್ ಫನಲ್",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "ಉನ್ನತ ವೇದಿಕೆಗಳು",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "ಸ್ಥಿತಿ ವಿಭಜನೆ",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI ಕಾಪಿಲಟ್",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "ಸಂದರ್ಭ: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "ನಿಮ್ಮ ವೃತ್ತಿಜೀವನದ ಸಹಪೈಲಟ್",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "ಹೊಸ ಚಾಟ್ ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "ದಯವಿಟ್ಟು ಮೊದಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೊಂದಿಸಿ ಇದರಿಂದ AI ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೈಯಕ್ತೀಕರಿಸಬಹುದು.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "ಚಾಟ್ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ! ನಾನು ನಿಮಗೆ ಏನು ಸಹಾಯ ಮಾಡಬಹುದು?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "ಈ ಕೆಲಸದ ಬಗ್ಗೆ ಏನಾದರೂ ಕೇಳಿ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೊಂದಿಸಿ",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "ಕಳುಹಿಸಲು ಎಂಟರ್ ಒತ್ತಿರಿ",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ ಸ್ಕೋರ್ ಅನ್ನು ಪುನರಾರಂಭಿಸಿ",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ ಬಲವಾದ ಕೌಶಲ್ಯಗಳು",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ ಕಾಣೆಯಾದ ಕೌಶಲ್ಯಗಳು",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "ನಿಮ್ಮ ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಕವರ್ ಲೆಟರ್ ಇಲ್ಲಿದೆ:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ ನಕಲು ಮಾಡಲಾಗಿದೆ!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 ನಕಲು",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "$1$ ಸಂದರ್ಶನದ ಪ್ರಶ್ನೆಗಳು ಇಲ್ಲಿವೆ:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "ಪುನರಾರಂಭದ ಆಪ್ಟಿಮೈಸೇಶನ್ ಸ್ಕೋರ್: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ ಸಲಹೆಗಳನ್ನು ಪುನರಾರಂಭಿಸಿ",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "ಈ ಉದ್ಯೋಗ ವಿವರಣೆ ವಿರುದ್ಧ",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "ನಮಸ್ತೆ! ನೀವು **$2$** ನಲ್ಲಿ **$1$** ಪಾತ್ರವನ್ನು ನೋಡುತ್ತಿರುವಿರಿ ಎಂದು ನಾನು ನೋಡುತ್ತೇನೆ.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "ನಮಸ್ತೆ! ನೀವು **$1$** ಪಾತ್ರವನ್ನು ನೋಡುತ್ತಿರುವಿರಿ ಎಂದು ನಾನು ನೋಡುತ್ತೇನೆ.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "ನಮಸ್ತೆ! ನಾನು ನಿಮ್ಮ AI ವೃತ್ತಿಜೀವನದ ಸಹಪೈಲಟ್. ಕೆಲಸದ ಪಟ್ಟಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ ಮತ್ತು ನಾನು ಅದನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವಿಶ್ಲೇಷಿಸುತ್ತೇನೆ, ಅಥವಾ ನನ್ನನ್ನು ಏನಾದರೂ ಕೇಳುತ್ತೇನೆ!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "ದಯವಿಟ್ಟು ಪ್ರೊಫೈಲ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಮೊದಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೊಂದಿಸಿ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಮೊದಲು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಉದ್ಯೋಗ ಪಟ್ಟಿಯ ಪುಟವನ್ನು ತೆರೆಯಿರಿ!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "ನಿಮ್ಮ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು, ಉದ್ಯೋಗಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಲು, ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಿರ್ವಹಿಸಲು ಮತ್ತು ಉದ್ಯೋಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ತಕ್ಷಣವೇ ಸ್ವಯಂತುಂಬಿಸಲು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI ಆಟೋಫಿಲ್ ಮತ್ತು ಕ್ಲಿಪ್ಪರ್",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "ಒಂದೇ ಕ್ಲಿಕ್‌ನಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಿ.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "ಮೇಘ ಸಿಂಕ್ ಮತ್ತು ಬ್ಯಾಕಪ್",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ನಿಮ್ಮ ಎಲ್ಲಾ ಉದ್ಯೋಗ ಟ್ರ್ಯಾಕಿಂಗ್ ವಿವರಗಳನ್ನು Supabase ಗೆ ಸಿಂಕ್ ಮಾಡಿ.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "ಪುನರಾರಂಭ ಮತ್ತು ಪ್ರೊಫೈಲ್‌ಗಳು",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಉತ್ತರಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "ಸೈನ್ ಇನ್ ಮಾಡುವ ಮೂಲಕ, ನಿಮ್ಮ ಸಕ್ರಿಯ ಕಾರ್ಯಸ್ಥಳಕ್ಕೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಡೇಟಾವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಿಂಕ್ ಮಾಡಲು ನೀವು ಒಪ್ಪುತ್ತೀರಿ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "ನೀವು ಸೈನ್ ಔಟ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "ಯಶಸ್ವಿಯಾಗಿ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ ಆಗಿ ಲಾಗ್ ಇನ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow ತೆರೆಯಿರಿ",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ಅಪ್ಲೈಫ್ಲೋ ಹೊಂದಾಣಿಕೆ",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "ಬಲವಾದ ಹೊಂದಾಣಿಕೆಯ ಕೌಶಲ್ಯಗಳು",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "ಮಿಸ್ಸಿಂಗ್ ಸ್ಕಿಲ್ಸ್",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಸ್ವಯಂತುಂಬುವಿಕೆ ಪುಟ",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "ಸ್ವಯಂ ತುಂಬುವಿಕೆ ಫಾರ್ಮ್...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "ಪುಟದಲ್ಲಿ ಭರ್ತಿ ಮಾಡಬಹುದಾದ ಅಪ್ಲಿಕೇಶನ್ ಕ್ಷೇತ್ರಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "ಯಶಸ್ವಿಯಾಗಿ ತುಂಬಿದೆ!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "ಪುಟದ ಸಂಕೀರ್ಣತೆಯಿಂದಾಗಿ ಸ್ವಯಂ ಭರ್ತಿ ವಿಫಲವಾಗಿದೆ.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "ಭರ್ತಿ ಮಾಡಿದ ನಂತರ ಲಾಗ್ ಟ್ರ್ಯಾಕರ್‌ಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉಳಿಸಲಾಗಿದೆ.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಈ ಪಾತ್ರದೊಂದಿಗೆ **$1$% ಹೊಂದಾಣಿಕೆಯಾಗಿದೆ**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "ಮರಳಿ ಸ್ವಾಗತ, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿಯನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "ಮರುನಿರ್ದೇಶನದಿಂದ ಪ್ರವೇಶ ಟೋಕನ್ ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "ದೃಢೀಕರಣ ಮರುನಿರ್ದೇಶನವನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿ ದೃಢೀಕರಣವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ಜಾಬ್ ಅನ್ನು ಟ್ರ್ಯಾಕರ್‌ಗೆ ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "ಅತಿಥಿ",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ ಸಾಮಾನ್ಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "ಲಿಂಕ್ಡ್‌ಇನ್ ಜಾಬ್ ಪುಟಗಳಲ್ಲಿ ತೋರಿಸಿ",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "ನೀವು ಲಿಂಕ್ಡ್‌ಇನ್‌ನಲ್ಲಿ ಉದ್ಯೋಗ ಪೋಸ್ಟಿಂಗ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿದಾಗ ಸ್ಮಾರ್ಟ್ ಮ್ಯಾಚಿಂಗ್ ಸ್ಕೋರ್ ಮತ್ತು ಒಂದು ಕ್ಲಿಕ್ ಸ್ವಯಂಭರ್ತಿ ಬಟನ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'ಉದ್ಯೋಗ ಉಳಿಸಿ' ಬಟನ್ ತೋರಿಸಿ",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "ಉದ್ಯೋಗ ಸೈಟ್‌ಗಳಲ್ಲಿ ತೇಲುವ 'ಉದ್ಯೋಗ ಉಳಿಸಿ 📌' ಬಟನ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ ಆದ್ದರಿಂದ ನೀವು ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಟ್ರ್ಯಾಕರ್‌ನಲ್ಲಿ ಉದ್ಯೋಗದ ವಿವರಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಉಳಿಸಬಹುದು.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "ವಾಸ್ತವವಾಗಿ ಅನ್ವಯಿಸಿದ ನಂತರ ಮಾತ್ರ ಲಾಗ್ ಮಾಡಿ",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "ನಿಮ್ಮ ಟ್ರ್ಯಾಕರ್‌ಗೆ ಕೆಲಸವನ್ನು ಸೇರಿಸುವ ಮೊದಲು ನೀವು 'ಧನ್ಯವಾದಗಳು' ಅಥವಾ 'ಯಶಸ್ಸು' ಪರದೆಯನ್ನು ನೋಡುವವರೆಗೆ ಕಾಯಿರಿ. ಅರ್ಧ ತುಂಬಿದ ಫಾರ್ಮ್‌ಗಳನ್ನು 'ಅನ್ವಯಿಸಲಾಗಿದೆ' ಎಂದು ಉಳಿಸುವುದನ್ನು ತಡೆಯುವ ಮೂಲಕ ನಿಮ್ಮ ಟ್ರ್ಯಾಕರ್ ಅನ್ನು ಅಚ್ಚುಕಟ್ಟಾಗಿ ಇರಿಸುತ್ತದೆ.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI ಕ್ರೆಡಿಟ್‌ಗಳು ಮತ್ತು ಬಳಕೆಯ ಅನಾಲಿಟಿಕ್ಸ್",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ಕ್ರೆಡಿಟ್‌ಗಳು ಉಳಿದಿವೆ",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ಕ್ರೆಡಿಟ್‌ಗಳು ಉಳಿದಿವೆ",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "ಒಟ್ಟು ಕ್ರೆಡಿಟ್‌ಗಳು",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "ಸಾರ್ವಕಾಲಿಕ ಸ್ವಯಂತುಂಬುವಿಕೆಗಳು",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "ಯೋಜನೆ ಸ್ಥಿತಿ",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "ಪ್ರೀಮಿಯಂ 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "ಉಚಿತ 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "ಪ್ರೊ ಸಲಹೆ:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಆಟೋಫಿಲ್ ಕಾರ್ಯಾಚರಣೆಗಳು 0 ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಬಳಸುತ್ತವೆ ಮತ್ತು 100% ಅನಿಯಮಿತವಾಗಿವೆ! ಕವರ್ ಲೆಟರ್‌ಗಳು (5 ಕ್ರೆಡಿಟ್‌ಗಳು) ಮತ್ತು ಕಸ್ಟಮ್ ಎಸ್ಸೇಸ್ (3 ಕ್ರೆಡಿಟ್‌ಗಳು) ನಂತಹ ಸುಧಾರಿತ AI ವೈಶಿಷ್ಟ್ಯಗಳು ಮಾತ್ರ ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ಬಳಸುತ್ತವೆ.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google ಖಾತೆ ಮತ್ತು ಕ್ಲೌಡ್ ಸಿಂಕ್",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google ಕ್ಲೌಡ್ ಸಿಂಕ್ ಸಕ್ರಿಯವಾಗಿದೆ",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "ಕ್ಲೌಡ್ ಸಿಂಕ್ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ (ಪ್ರೀಮಿಯಂ ಮಾತ್ರ)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "ಮೇಘ ಸಿಂಕ್",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "ಕ್ಲೌಡ್‌ಗೆ ತಳ್ಳಿರಿ",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "ಮೇಘದಿಂದ ಎಳೆಯಿರಿ",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "ಸಿಂಕ್ ಯಶಸ್ವಿಯಾಗಿದೆ!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "ಸಿಂಕ್ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "ಸುರಕ್ಷಿತ ಮೇಘ ಸಿಂಕ್",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು Supabase ಗೆ ಬ್ಯಾಕಪ್ ಮಾಡಲು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ. ಸಿಂಕ್ ಮಾಡುವುದು ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯವಾಗಿದ್ದು ಅದು ಸಾಧನಗಳಾದ್ಯಂತ ನಿಮ್ಮ ಲಾಗ್‌ಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸುತ್ತದೆ.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "ಸುಪಾಬೇಸ್ ಕ್ಲೌಡ್ ಸಿಂಕ್ ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯವಾಗಿದೆ. ಸಿಂಕ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಅಪ್‌ಗ್ರೇಡ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ಡೇಟಾ ನಿರ್ವಹಣೆ",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "ರಫ್ತು ಬ್ಯಾಕಪ್ (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "ಎಲ್ಲಾ ಸ್ಥಳೀಯ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "ಸ್ಥಳೀಯ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸುವುದು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಈ ಸಾಧನದಿಂದ ಮಾತ್ರ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಮೇಘ ಡೇಟಾವು ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "ನಿಯಂತ್ರಣ ಕೇಂದ್ರ",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "ಮನೆ ಮತ್ತು ಕುರಿತು",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "ಸಾಮಾನ್ಯ ಸೆಟ್ಟಿಂಗ್ಗಳು",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro ಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "ಪ್ರೀಮಿಯಂ ಯೋಜನೆ 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "ಖಾತೆ ಮತ್ತು ಸಿಂಕ್",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "ಗೌಪ್ಯತೆ ನೀತಿ",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow ಗೆ ಸುಸ್ವಾಗತ",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow ಎಂಬುದು AI-ಚಾಲಿತ Chrome ವಿಸ್ತರಣೆಯಾಗಿದ್ದು, ವಿದ್ಯಾರ್ಥಿಗಳು ಮತ್ತು ಉದ್ಯೋಗಾಕಾಂಕ್ಷಿಗಳಿಗಾಗಿ ವೇಗವಾಗಿ ಮತ್ತು ಚುರುಕಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಬಯಸುತ್ತಾರೆ. ಇದು 15+ ಪ್ಲ್ಯಾಟ್‌ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಅರ್ಜಿ ನಮೂನೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಭರ್ತಿ ಮಾಡುತ್ತದೆ, ನಿಮ್ಮ ಪೈಪ್‌ಲೈನ್ ಅನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಹೆಚ್ಚಿನ ಸಂದರ್ಶನಗಳನ್ನು ಪಡೆಯಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಸ್ವಯಂತುಂಬುವಿಕೆ",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "ನಿಖರವಾದ ಸೆಲೆಕ್ಟರ್‌ಗಳೊಂದಿಗೆ 15+ ATS ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳು",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "ವೆಬ್ ಕ್ಲಿಪ್ಪರ್",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "ಯಾವುದೇ ಉದ್ಯೋಗ ಪಟ್ಟಿಯನ್ನು ಉಳಿಸಲು ಒಂದು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "ಕಾನ್ಬನ್ ಟ್ರ್ಯಾಕರ್",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಪೈಪ್‌ಲೈನ್ ಅನ್ನು ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "ಇಇಒ ಸ್ವಯಂತುಂಬುವಿಕೆ",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "ಜನಸಂಖ್ಯಾ ಮತ್ತು ವೀಸಾ ಪ್ರಶ್ನೆಗಳನ್ನು ಸ್ವಯಂ ತುಂಬಿಸುತ್ತದೆ",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI ಪ್ರಬಂಧಗಳು",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "ಜೆಮಿನಿ-ಚಾಲಿತ ಕಸ್ಟಮ್ ಉತ್ತರ ಬರವಣಿಗೆ",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "ಸುರಕ್ಷಿತ ಸಿಂಕ್",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "ಐಚ್ಛಿಕ ಸುಪಾಬೇಸ್ ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 ಹೇಗೆ ಪ್ರಾರಂಭಿಸುವುದು",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಿರ್ಮಿಸಿ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "ಪಾಪ್‌ಅಪ್ → ಪ್ರೊಫೈಲ್ ಟ್ಯಾಬ್ ತೆರೆಯಿರಿ → ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ. ಕೌಶಲ್ಯಗಳು, ಅನುಭವ, ಶಿಕ್ಷಣ ಮತ್ತು ಯೋಜನೆಗಳು ಸೇರಿದಂತೆ ನಿಮ್ಮ ಎಲ್ಲಾ ವಿವರಗಳನ್ನು AI ಸ್ವಯಂ-ಹೊರತೆಗೆಯುತ್ತದೆ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "ಇಇಒ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್‌ನಲ್ಲಿ EEO ವಿಭಾಗಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಕೆಲಸದ ಅಧಿಕಾರ, ವೀಸಾ ಪ್ರಾಯೋಜಕತ್ವದ ಅಗತ್ಯತೆಗಳು ಮತ್ತು ಜನಸಂಖ್ಯಾ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ. ಇಇಒ ಪ್ರಶ್ನಾವಳಿಗಳನ್ನು ಸ್ವಯಂ ತುಂಬಲು ಇವುಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "ಉದ್ಯೋಗ ಪಟ್ಟಿಯನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "ಯಾವುದೇ ಉದ್ಯೋಗ ಪಟ್ಟಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ. ನೀವು 📌 \"ಉದ್ಯೋಗ ಉಳಿಸಿ\" ಬಟನ್ ಕಾಣಿಸಿಕೊಳ್ಳುವುದನ್ನು ನೋಡುತ್ತೀರಿ. ನಿಮ್ಮ ಟ್ರ್ಯಾಕರ್‌ಗೆ ಸ್ಥಾನವನ್ನು ತಕ್ಷಣವೇ ಉಳಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "ಅರ್ಜಿ ನಮೂನೆಯನ್ನು ತೆರೆಯಿರಿ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "ಅರ್ಜಿ ನಮೂನೆಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ. ApplyFlow ಪಾಪ್‌ಅಪ್ ಕ್ಲಿಕ್ ಮಾಡಿ → \"ಸ್ಕ್ಯಾನ್ ಪುಟ\" → ಒತ್ತಿ ನಂತರ \"⚡ Smart Autofill\". ರೇಡಿಯೋ ಬಟನ್‌ಗಳು ಮತ್ತು ಡ್ರಾಪ್‌ಡೌನ್‌ಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ತಕ್ಷಣವೇ ಭರ್ತಿ ಮಾಡಲಾಗುತ್ತದೆ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "ನಿಮ್ಮ ಪೈಪ್‌ಲೈನ್ ಅನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "ನಿಮ್ಮ ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನೋಡಲು ಟ್ರ್ಯಾಕರ್ ಟ್ಯಾಬ್ ತೆರೆಯಿರಿ. ಕಾನ್ಬನ್ ಬೋರ್ಡ್ ವೀಕ್ಷಣೆಗೆ ಬದಲಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಸ್ಥಿತಿ ನವೀಕರಣಗಳಂತೆ ಕಾಲಮ್‌ಗಳ ನಡುವೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಎಳೆಯಿರಿ.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 ಸೈನ್ ಇನ್ ಅಗತ್ಯವಿದೆ",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "ಸಾಮಾನ್ಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸೈನ್ ಇನ್ ಮಾಡಿದ ಬಳಕೆದಾರರಿಗೆ ಮಾತ್ರ ಲಭ್ಯವಿರುತ್ತವೆ. ನಿಮ್ಮ ಪ್ರಾಶಸ್ತ್ಯಗಳು, ಸ್ವಯಂತುಂಬುವಿಕೆ ನಡವಳಿಕೆಗಳು ಮತ್ತು ಹೆಚ್ಚಿನದನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "ಖಾತೆ ಮತ್ತು ಸಿಂಕ್‌ಗೆ ಹೋಗಿ",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro ಸಕ್ರಿಯವಾಗಿದೆ",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "ಪರವಾನಗಿ ಕೀ: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "ಪರವಾನಗಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 ಪರವಾನಗಿ ಕೀ ಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆ",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "ನೀವು ಚಂದಾದಾರಿಕೆಯನ್ನು ಖರೀದಿಸಿದ್ದರೆ ಅಥವಾ ಪ್ರವೇಶ ಕೋಡ್ ಅನ್ನು ಸ್ವೀಕರಿಸಿದ್ದರೆ, ApplyFlow ಪ್ರೀಮಿಯಂ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಪರವಾನಗಿ ಕೀಯನ್ನು ಕೆಳಗೆ ನಮೂದಿಸಿ.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 ಸಲಹೆ: APPLYFLOW-PRO-2026 ಕೀಯನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಪ್ರೀಮಿಯಂ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "ಪ್ರೀಮಿಯಂ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow ಅನ್ನು ಬೆಂಬಲಿಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು. ಎಲ್ಲಾ ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಈಗ ಅನ್‌ಲಾಕ್ ಮಾಡಲಾಗಿದೆ.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 ಪ್ರೀಮಿಯಂ ಅಪ್‌ಗ್ರೇಡ್ ಯೋಜನೆ",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "ನಿಮ್ಮ ವೃತ್ತಿಜೀವನದ ರಫ್ತುಗಳು ಮತ್ತು ಸುಧಾರಿತ AI ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "ಕವರ್ ಲೆಟರ್‌ಗಳು, ಕಸ್ಟಮ್ ಪ್ರಬಂಧ ಉತ್ತರಗಳು, ರೆಸ್ಯೂಮ್ ಆಪ್ಟಿಮೈಸೇಶನ್ ಮತ್ತು ಅಣಕು ಸಂದರ್ಶನದ ತಯಾರಿಗಾಗಿ ಪ್ರೀಮಿಯಂ AI ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಪಡೆಯಿರಿ. ಬೆಂಬಲಿತ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ಸ್ವಯಂ ಭರ್ತಿ ಕಾರ್ಯಾಚರಣೆಗಳು ಸಂಪೂರ್ಣವಾಗಿ ಅನಿಯಮಿತವಾಗಿರುತ್ತವೆ ಮತ್ತು ಎಲ್ಲಾ ಪ್ರೀಮಿಯಂ ಬಳಕೆದಾರರಿಗೆ ಉಚಿತವಾಗಿದೆ!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 ಆರಂಭಿಕ ಅಡಾಪ್ಟರ್ ಆಫರ್:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "500 ಪ್ರೀಮಿಯಂ ಬಳಕೆದಾರರಿಗೆ ಮುಂದಿನ ಬೆಲೆ ಏರಿಕೆ. ಜೀವನಕ್ಕಾಗಿ ಈ ದರವನ್ನು ಲಾಕ್ ಮಾಡಿ!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "ಮಾಸಿಕ ಪ್ರೊ",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "ಅಲ್ಪಾವಧಿಯ ಹುಡುಕಾಟಕ್ಕೆ ಒಳ್ಳೆಯದು",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ ತಿಂಗಳು",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(ಕೇವಲ ₹13 / ದಿನ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "ತಿಂಗಳಿಗೆ 150 AI ಕ್ರೆಡಿಟ್‌ಗಳು||ಅನಿಯಮಿತ ಸ್ವಯಂತುಂಬುವಿಕೆಗಳು (ಎಲ್ಲಾ ಪೋರ್ಟಲ್‌ಗಳು)|||ಕ್ಲೌಡ್ ಸಿಂಕ್ & ಗೂಗಲ್ ಬ್ಯಾಕಪ್|||ಪ್ರೀಮಿಯಂ ಥೀಮ್‌ಗಳು||ಜಾಹೀರಾತು-ಮುಕ್ತ ಅನುಭವ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "ಮಾಸಿಕ ಚಂದಾದಾರರಾಗಿ",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "ತ್ರೈಮಾಸಿಕ ಪ್ರೊ",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "ಹೆಚ್ಚಿನ ಉದ್ಯೋಗಾಕಾಂಕ್ಷಿಗಳಿಗೆ ಉತ್ತಮ ಮೌಲ್ಯ",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 ತಿಂಗಳು",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(ಕೇವಲ ₹11 / ದಿನ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "ಪ್ರತಿ ತ್ರೈಮಾಸಿಕಕ್ಕೆ 500 AI ಕ್ರೆಡಿಟ್‌ಗಳು||ಅನಿಯಮಿತ ಸ್ವಯಂತುಂಬುವಿಕೆಗಳು (ಎಲ್ಲಾ ಪೋರ್ಟಲ್‌ಗಳು)||ಅನುಗುಣವಾದ ಕವರ್ ಲೆಟರ್‌ಗಳು ಮತ್ತು ಪ್ರಬಂಧಗಳು||ಮೇಘ ಸಿಂಕ್ ಮತ್ತು ಗೂಗಲ್ ಬ್ಯಾಕಪ್|||ಪಂದ್ಯದ ಸಲಹೆಗಳನ್ನು ಪುನರಾರಂಭಿಸಿ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "ತ್ರೈಮಾಸಿಕ ಚಂದಾದಾರರಾಗಿ",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "ಅತ್ಯಂತ ಜನಪ್ರಿಯ",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "ವಾರ್ಷಿಕ ಅಲ್ಟಿಮೇಟ್",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಉತ್ತಮ ಮೌಲ್ಯ",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ ವರ್ಷ",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(ತಿಂಗಳಿಗೆ ₹249 ಗೆ ಸಮಾನ)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "ವರ್ಷಕ್ಕೆ 2,500 AI ಕ್ರೆಡಿಟ್‌ಗಳು||ಅನಿಯಮಿತ ದೈನಂದಿನ ಸ್ವಯಂತುಂಬುವಿಕೆಗಳು||ತಿರುಗಿಸಲಾದ ಕವರ್ ಲೆಟರ್‌ಗಳು ಮತ್ತು ಪ್ರಬಂಧಗಳು||ಮೇಘ ಸಿಂಕ್ & ಗೂಗಲ್ ಬ್ಯಾಕಪ್|||ಪಂದ್ಯದ ಸಲಹೆಗಳನ್ನು ಪುನರಾರಂಭಿಸಿ|||ಆದ್ಯತಾ ಇಮೇಲ್ ಬೆಂಬಲ",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "ವಾರ್ಷಿಕವಾಗಿ ಚಂದಾದಾರರಾಗಿ",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "ಉತ್ತಮ ಮೌಲ್ಯ - 40% ಉಳಿಸಿ",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow ಅಭಿವೃದ್ಧಿಗೆ ಬೆಂಬಲ",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow ಅನ್ನು ಸ್ವತಂತ್ರ ಡೆವಲಪರ್‌ಗಳು ನಿರ್ಮಿಸಿದ್ದಾರೆ ಮತ್ತು ನಿರ್ವಹಿಸುತ್ತಾರೆ. ವಿಸ್ತರಣೆಯು ಸಹಾಯಕವಾಗಿದೆಯೆಂದು ನೀವು ಕಂಡುಕೊಂಡರೆ, Ko-fi ಅನ್ನು ಸಕ್ರಿಯವಾಗಿ, ಜಾಹೀರಾತು-ಮುಕ್ತವಾಗಿ ಮತ್ತು ಹೊಸ ಉದ್ಯೋಗ ಬೋರ್ಡ್‌ಗಳಿಗಾಗಿ ನವೀಕರಿಸಲು ಸಹಾಯ ಮಾಡಲು ದೇಣಿಗೆಯನ್ನು ಪರಿಗಣಿಸಿ.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "ಕೋ-ಫೈನಲ್ಲಿ ನನಗೆ ಕಾಫಿ ಖರೀದಿಸಿ",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 ರೇಟಿಂಗ್||🔒 ಸುರಕ್ಷಿತ ಪಾವತಿಗಳು||✓ ಯಾವಾಗ ಬೇಕಾದರೂ ರದ್ದುಮಾಡಿ",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "ಅಮಾನ್ಯ ಪರವಾನಗಿ ಕೀ. ಸುಳಿವು: 'APPLYFLOW-PRO-2026' ಡೆಮೊ ಕೀ ಬಳಸಿ ಪ್ರಯತ್ನಿಸಿ!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "ಪರವಾನಗಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ! ApplyFlow Premium ಗೆ ಸುಸ್ವಾಗತ. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "ನಿಮ್ಮ ಪ್ರೀಮಿಯಂ ಪರವಾನಗಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದು ನಿಮ್ಮನ್ನು ಉಚಿತ ಯೋಜನೆಗೆ ಹಿಂತಿರುಗಿಸುತ್ತದೆ.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "ಪ್ರೀಮಿಯಂ ಪರವಾನಗಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ನೀವು ಈಗ ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿರುವಿರಿ.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "ಇದು ಎಲ್ಲಾ ಸ್ಥಳೀಯ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 ಗೌಪ್ಯತಾ ನೀತಿ",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow ಎಂದರೇನು ಮತ್ತು ಅದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow ಎಂಬುದು AI-ಚಾಲಿತ Chrome ವಿಸ್ತರಣೆಯಾಗಿದ್ದು, LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, ಮತ್ತು ಹೆಚ್ಚಿನವುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ 15+ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಅರ್ಜಿ ನಮೂನೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಭರ್ತಿ ಮಾಡುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಉಳಿಸಿದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಓದುತ್ತದೆ ಮತ್ತು ಪಠ್ಯ ಕ್ಷೇತ್ರಗಳು, ಡ್ರಾಪ್‌ಡೌನ್‌ಗಳು, ರೇಡಿಯೋ ಬಟನ್‌ಗಳು ಮತ್ತು ಚೆಕ್‌ಬಾಕ್ಸ್‌ಗಳನ್ನು ತುಂಬಲು ಬುದ್ಧಿವಂತ ಹೊಂದಾಣಿಕೆಯನ್ನು ಬಳಸುತ್ತದೆ - ಇಇಒ/ಜನಸಂಖ್ಯಾ ಪ್ರಶ್ನೆಗಳನ್ನು ಒಳಗೊಂಡಂತೆ.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ApplyFlow ಜೊತೆಗೆ ನನ್ನ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ಹೌದು. ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಡೀಫಾಲ್ಟ್ ಆಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನ chrome.storage.local ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಸ್ವಂತ ಐಚ್ಛಿಕ Supabase ಡೇಟಾಬೇಸ್ (ನೀವು ನಿಯಂತ್ರಿಸುವ) ಹೊರತುಪಡಿಸಿ ಯಾವುದೇ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಸರ್ವರ್‌ಗೆ ಇದನ್ನು ಎಂದಿಗೂ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. ApplyFlow ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಎಂದಿಗೂ ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ, ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ ಅಥವಾ ಹಣಗಳಿಸುವುದಿಲ್ಲ.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow ಯಾವ ಉದ್ಯೋಗ ವೇದಿಕೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow ಬಾಕ್ಸ್‌ನ ಹೊರಗೆ 15+ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ: ಲಿಂಕ್ಡ್‌ಇನ್ ಈಸಿ ಅಪ್ಲೈ, ಇಂಟರ್ನ್‌ಶಾಲಾ, ಅನ್‌ಸ್ಟಾಪ್, ವರ್ಕ್‌ಡೇ, ಗ್ರೀನ್‌ಹೌಸ್, ಲಿವರ್, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, ಮತ್ತು ನಮ್ಮ ಇಂಟೆಲಿಜೆಂಟ್ ಮ್ಯಾಚ್‌ಬ್ಯಾಕ್ ಮೂಲಕ ಇತರ ಯಾವುದೇ ಸೈಟ್.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "ವೆಬ್ ಕ್ಲಿಪ್ಪರ್ ಎಂದರೇನು?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "ವೆಬ್ ಕ್ಲಿಪ್ಪರ್ ಒಂದು ತೇಲುವ \"ಉದ್ಯೋಗ\" ಬಟನ್ (📌) ಆಗಿದ್ದು, ನೀವು ಯಾವುದೇ ಉದ್ಯೋಗ ಪಟ್ಟಿಯ ಪುಟಕ್ಕೆ ಭೇಟಿ ನೀಡಿದಾಗ ಅದು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗೋಚರಿಸುತ್ತದೆ. ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರಿಂದ ಕೆಲಸದ ಶೀರ್ಷಿಕೆ, ಕಂಪನಿ, ಸಂಬಳ ಮತ್ತು ವಿವರಣೆಯನ್ನು ಹೊರತೆಗೆಯುತ್ತದೆ, ನಂತರ ಅದನ್ನು ನಿಮ್ಮ ApplyFlow ಟ್ರ್ಯಾಕರ್‌ಗೆ \"ಉಳಿಸಿದ\" ಅಪ್ಲಿಕೇಶನ್‌ನಂತೆ ಉಳಿಸುತ್ತದೆ - ಆದ್ದರಿಂದ ನೀವು ಅನ್ವಯಿಸುವ ಮೊದಲು ಉದ್ಯೋಗಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಬಹುದು.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "ನನ್ನ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಾನು ಹೇಗೆ ನವೀಕರಿಸುವುದು?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow ಪಾಪ್ಅಪ್ ತೆರೆಯಿರಿ, \"ಪ್ರೊಫೈಲ್\" ಟ್ಯಾಬ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ PDF ಅನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಿ. AI ನಿಮ್ಮ ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಸ್ವಯಂ-ಜನಪ್ರಿಯಗೊಳಿಸುತ್ತದೆ. ನಿಮ್ಮ ಇಇಒ ಆದ್ಯತೆಗಳು, ಕೆಲಸದ ಅಧಿಕಾರ ಮತ್ತು ಕವರ್ ಲೆಟರ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನೀವು ಯಾವುದೇ ಕ್ಷೇತ್ರವನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸಂಪಾದಿಸಬಹುದು.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "ಇಇಒ ಕ್ಷೇತ್ರಗಳು ಯಾವುವು ಮತ್ತು ನನಗೆ ಅವು ಏಕೆ ಬೇಕು?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (ಸಮಾನ ಉದ್ಯೋಗ ಅವಕಾಶ) ಕ್ಷೇತ್ರಗಳು ಅನೇಕ US ಮತ್ತು ಜಾಗತಿಕ ಉದ್ಯೋಗದಾತರು ಲಿಂಗ, ಅಂಗವೈಕಲ್ಯ ಸ್ಥಿತಿ, ಅನುಭವಿ ಸ್ಥಿತಿ ಮತ್ತು ಕೆಲಸದ ಅಧಿಕಾರದ ಬಗ್ಗೆ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳಾಗಿವೆ. ApplyFlow ನಿಮ್ಮ ಆದ್ಯತೆಯ ಉತ್ತರಗಳನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ರೇಡಿಯೋ ಬಟನ್ ಗುಂಪುಗಳನ್ನು ತುಂಬುತ್ತದೆ ಆದ್ದರಿಂದ ನೀವು ಪ್ರತಿ ಬಾರಿಯೂ ಹಸ್ತಚಾಲಿತವಾಗಿ ಉತ್ತರಿಸಬೇಕಾಗಿಲ್ಲ.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow ಗೆ ಯಾವುದೇ API ಕೀಗಳು ಅಥವಾ ಕಾನ್ಫಿಗರೇಶನ್ ಅಗತ್ಯವಿದೆಯೇ?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "ಇಲ್ಲ! ApplyFlow ಎಲ್ಲಾ ಫಾರ್ಮ್ ಪತ್ತೆ, ಸ್ಮಾರ್ಟ್ ಹೊಂದಾಣಿಕೆ, ಕವರ್ ಲೆಟರ್ ಉತ್ಪಾದನೆ ಮತ್ತು ಹೊಂದಾಣಿಕೆಯ ಸ್ಕೋರಿಂಗ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ವಹಿಸುತ್ತದೆ. ನೀವು ಯಾವುದೇ API ಕೀಗಳನ್ನು ಪಡೆಯುವ ಅಥವಾ ಕಾನ್ಫಿಗರ್ ಮಾಡುವ ಅಗತ್ಯವಿಲ್ಲ.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "ಸುಪಾಬೇಸ್ ಸಿಂಕ್ ಎಂದರೇನು ಮತ್ತು ನನಗೆ ಇದು ಅಗತ್ಯವಿದೆಯೇ?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "ಸುಪಾಬೇಸ್ ಸಿಂಕ್ ಐಚ್ಛಿಕ ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್ ವೈಶಿಷ್ಟ್ಯವಾಗಿದೆ. ನೀವು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗ ಮತ್ತು ಅದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಟ್ರ್ಯಾಕರ್ ಅನ್ನು ಖಾಸಗಿ ಕ್ಲೌಡ್ ಡೇಟಾಬೇಸ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಲಾಗುತ್ತದೆ ಆದ್ದರಿಂದ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಬಹು ಸಾಧನಗಳಿಂದ ಪ್ರವೇಶಿಸಬಹುದು. ಇದು ಸಂಪೂರ್ಣವಾಗಿ ಐಚ್ಛಿಕವಾಗಿದೆ - ವಿಸ್ತರಣೆಯು ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ApplyFlow ಗೆ ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಏಕೆ ಪ್ರವೇಶ ಬೇಕು?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ವಿನಂತಿಸುತ್ತದೆ ಆದ್ದರಿಂದ ಅದು ಯಾವುದೇ ಉದ್ಯೋಗದ ಅರ್ಜಿ ನಮೂನೆಯಲ್ಲಿ ಸ್ವಯಂತುಂಬುವಿಕೆ ಎಂಜಿನ್ ಅನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಬಹುದು ಮತ್ತು ಯಾವುದೇ ಉದ್ಯೋಗ ಪಟ್ಟಿಯಲ್ಲಿ \"ಉಳಿಸು ಜಾಬ್\" ಕ್ಲಿಪ್ಪರ್ ಬಟನ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ. ವಿಶಾಲ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಬೆಂಬಲಕ್ಕಾಗಿ ಈ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ. ನಾವು ಸ್ಪಷ್ಟವಾಗಿ ಉದ್ಯೋಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಪುಟಗಳಲ್ಲಿ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳನ್ನು ಮಾತ್ರ ಸೇರಿಸುತ್ತೇವೆ.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "ಕಾನ್ಬನ್ ಬೋರ್ಡ್ ಎಂದರೇನು?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "ಕಾನ್ಬನ್ ಬೋರ್ಡ್ ಟ್ರ್ಯಾಕರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿನ ದೃಶ್ಯ ಜಾಬ್ ಟ್ರ್ಯಾಕಿಂಗ್ ವೀಕ್ಷಣೆಯಾಗಿದೆ. ಇದು ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಕಾಲಮ್‌ಗಳಲ್ಲಿ ಆಯೋಜಿಸಲಾಗಿದೆ ಎಂದು ತೋರಿಸುತ್ತದೆ: ಉಳಿಸಲಾಗಿದೆ → ಅನ್ವಯಿಸಲಾಗಿದೆ → ಮೌಲ್ಯಮಾಪನ → ಸಂದರ್ಶನ → ಆಫರ್. ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌ನ ಸ್ಥಿತಿಯನ್ನು ನವೀಕರಿಸಲು ನೀವು ಕಾಲಮ್‌ಗಳ ನಡುವೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಎಳೆಯಬಹುದು ಮತ್ತು ಬಿಡಬಹುದು.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "ಸಲ್ಲಿಕೆ ಪತ್ತೆ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ \"ಸಲ್ಲಿಕೆಯ ನಂತರ ಮಾತ್ರ ಲಾಗ್\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ಯಶಸ್ವಿ ಸಲ್ಲಿಕೆಯನ್ನು ಸೂಚಿಸುವ ಪುಟ ಬದಲಾವಣೆಗಳಿಗಾಗಿ ApplyFlow ವೀಕ್ಷಿಸುತ್ತದೆ (\"/success\" ಅನ್ನು ಒಳಗೊಂಡಿರುವ URL ಅಥವಾ \"ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು\" ಎಂದು ಹೇಳುವ ದೇಹ ಪಠ್ಯ). ಇದು ನಿಜವಾದ ಸಲ್ಲಿಕೆಯನ್ನು ಪತ್ತೆಹಚ್ಚಿದ ನಂತರ ಮಾತ್ರ ನಿಮ್ಮ ಟ್ರ್ಯಾಕರ್‌ಗೆ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಲಾಗ್ ಮಾಡುತ್ತದೆ.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "ನಾನು ಬಹು ಕವರ್ ಲೆಟರ್‌ಗಳನ್ನು ಸಂಗ್ರಹಿಸಬಹುದೇ?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ಹೌದು! ಪ್ರೊಫೈಲ್ ಪರದೆಯು \"ಕವರ್ ಲೆಟರ್ ವಾಲ್ಟ್\" ವಿಭಾಗವನ್ನು ಹೊಂದಿದೆ, ಅಲ್ಲಿ ನೀವು ವಿಭಿನ್ನ ಪಾತ್ರಗಳು ಅಥವಾ ಕಂಪನಿಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಅನಿಯಮಿತ ಕವರ್ ಲೆಟರ್‌ಗಳನ್ನು ಸಂಗ್ರಹಿಸಬಹುದು. ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡುವಾಗ, ApplyFlow ನಿಮ್ಮ ತೀರಾ ಇತ್ತೀಚಿನ ಅಥವಾ ಅತ್ಯಂತ ಸಂಬಂಧಿತ ಕವರ್ ಲೆಟರ್ ಅನ್ನು ಬಳಸುತ್ತದೆ.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "ನನ್ನ ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು ನಾನು ಹೇಗೆ ರಫ್ತು ಮಾಡುವುದು?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "ಖಾತೆ ಮತ್ತು ಸಿಂಕ್‌ಗೆ ಹೋಗಿ → ಕೆಳಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ → \"ರಫ್ತು ಬ್ಯಾಕಪ್ (JSON)\" ಕ್ಲಿಕ್ ಮಾಡಿ. ಇದು ನಿಮ್ಮ ಎಲ್ಲಾ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸಲು JSON ಫೈಲ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow ಡೆಮೊ ಮೋಡ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "ಡೆಮೊ ಮೋಡ್ ಅನ್ನು ಪರೀಕ್ಷೆಗಾಗಿ ಬಳಸಲಾಗುವ ಲೆಗಸಿ ಸೆಟ್ಟಿಂಗ್ ಆಗಿದೆ. ಇದನ್ನು ಈಗ ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ಅಂತರ್ನಿರ್ಮಿತ ಜೆಮಿನಿ API ಕೀಲಿಯೊಂದಿಗೆ ಎಲ್ಲಾ ವೈಶಿಷ್ಟ್ಯಗಳು ಲೈವ್ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕವಾಗಿರುತ್ತವೆ.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "ನಾನು ದೋಷವನ್ನು ಹೇಗೆ ವರದಿ ಮಾಡುವುದು ಅಥವಾ ವೈಶಿಷ್ಟ್ಯವನ್ನು ವಿನಂತಿಸುವುದು ಹೇಗೆ?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "ದಯವಿಟ್ಟು ನಮ್ಮ GitHub ರೆಪೊಸಿಟರಿಯಲ್ಲಿ (ಬಗ್ಗೆ ವಿಭಾಗದಲ್ಲಿ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ) ಸಮಸ್ಯೆಯನ್ನು ತೆರೆಯಿರಿ ಅಥವಾ support@applyflow.in ನಲ್ಲಿ ನಮಗೆ ಇಮೇಲ್ ಮಾಡಿ. ನಾವು ಸಾಮಾನ್ಯವಾಗಿ 48 ಗಂಟೆಗಳ ಒಳಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತೇವೆ.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow ಪಾಪ್ಅಪ್ ತೆರೆಯಿರಿ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ಫಾರ್ಮ್ ಕ್ಷೇತ್ರಗಳಿಗಾಗಿ ಪ್ರಸ್ತುತ ಪುಟವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟದಲ್ಲಿ ಸ್ಮಾರ್ಟ್ ಆಟೋಫಿಲ್ ಅನ್ನು ಟ್ರಿಗರ್ ಮಾಡಿ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "ಟ್ರ್ಯಾಕರ್‌ಗೆ ಪ್ರಸ್ತುತ ಉದ್ಯೋಗ ಪಟ್ಟಿಯನ್ನು ಕ್ಲಿಪ್ ಮಾಡಿ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಟ್ರ್ಯಾಕರ್ ತೆರೆಯಿರಿ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "ನಲ್ಲಿ Chrome ನಲ್ಲಿ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "ಗಮನಿಸಿ:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome ವಿಸ್ತರಣೆಯ ಆಜ್ಞೆಗಳಿಗೆ Chrome ನ ಶಾರ್ಟ್‌ಕಟ್ ನಿರ್ವಾಹಕದಲ್ಲಿ ಹಸ್ತಚಾಲಿತ ನಿಯೋಜನೆಯ ಅಗತ್ಯವಿದೆ. ಮೇಲೆ ಪಟ್ಟಿ ಮಾಡಲಾದ ಕೀಗಳನ್ನು ಬೈಂಡ್ ಮಾಡಲು $1$ ಗೆ ಹೋಗಿ.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ಅಪ್ಲೈಫ್ಲೋ ಕ್ರೋಮ್ ವಿಸ್ತರಣೆ — ಗೌಪ್ಯತಾ ನೀತಿ**\nಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಜೂನ್ 2026\n\n---_\n\n**1. ಪರಿಚಯ**\n\nApplyFlow (\"ನಾವು\", \"ನಮ್ಮ\", \"ವಿಸ್ತರಣೆ\") ಎಂಬುದು Chrome ಬ್ರೌಸರ್ ವಿಸ್ತರಣೆಯಾಗಿದ್ದು, ಇದು ಬಳಕೆದಾರರಿಗೆ ಉದ್ಯೋಗ ಅರ್ಜಿ ನಮೂನೆಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು, ಅವರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಮತ್ತು ಅವರ ವೃತ್ತಿಪರ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಈ ಗೌಪ್ಯತಾ ನೀತಿಯು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ, ಬಳಸುತ್ತೇವೆ, ಸಂಗ್ರಹಿಸುತ್ತೇವೆ ಮತ್ತು ರಕ್ಷಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ.\n\nApplyFlow ಅನ್ನು ಸ್ಥಾಪಿಸುವ ಮೂಲಕ ಮತ್ತು ಬಳಸುವ ಮೂಲಕ, ಈ ನೀತಿಯಲ್ಲಿ ವಿವರಿಸಿದ ಅಭ್ಯಾಸಗಳಿಗೆ ನೀವು ಸಮ್ಮತಿಸುತ್ತೀರಿ.\n\n_____\n\n**2. ನಾವು ಸಂಗ್ರಹಿಸುವ ಡೇಟಾ**\n\nವಿಸ್ತರಣೆಯ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನೀವು ಸ್ವಯಂಪ್ರೇರಣೆಯಿಂದ ಒದಗಿಸುವ ಮಾಹಿತಿಯನ್ನು ಮಾತ್ರ ನಾವು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ:\n\n• **ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿ**: ನಿಮ್ಮ ಹೆಸರು, ಇಮೇಲ್, ಫೋನ್ ಸಂಖ್ಯೆ, ಕಾಲೇಜು, ಪದವಿ, ಕೌಶಲ್ಯಗಳು, ಕೆಲಸದ ಇತಿಹಾಸ, ಯೋಜನೆಗಳು ಮತ್ತು ವೃತ್ತಿಪರ ಲಿಂಕ್‌ಗಳು, Gitink ಪೋರ್ಟ್‌ಫೋಲಿಯೋ).\n• **EEO/ಜನಸಂಖ್ಯಾ ಮಾಹಿತಿ (ಐಚ್ಛಿಕ)**: ಲಿಂಗ, ಅಂಗವೈಕಲ್ಯ ಸ್ಥಿತಿ, ಅನುಭವಿ ಸ್ಥಿತಿ ಮತ್ತು ಕೆಲಸದ ದೃಢೀಕರಣದ ಆದ್ಯತೆಗಳು — ನೀವು ಈ ಕ್ಷೇತ್ರಗಳನ್ನು ತುಂಬಲು ಆಯ್ಕೆ ಮಾಡಿದರೆ ಮಾತ್ರ ಒದಗಿಸಲಾಗುತ್ತದೆ. ಈ ಡೇಟಾವನ್ನು ಉದ್ಯೋಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಐಚ್ಛಿಕ EEO ಪ್ರಶ್ನಾವಳಿಗಳನ್ನು ಸ್ವಯಂ ತುಂಬಲು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.\n• **ಅಪ್ಲಿಕೇಶನ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಡೇಟಾ**: ವಿಸ್ತರಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಟ್ರ್ಯಾಕ್ ಮಾಡುವ ಹುದ್ದೆಗಳ ಶೀರ್ಷಿಕೆ, ಕಂಪನಿ, ಅಪ್ಲಿಕೇಶನ್ URL, ಸ್ಥಿತಿ ಮತ್ತು ಟಿಪ್ಪಣಿಗಳು ಮಿತಿಗಳು).\n• **ದೃಢೀಕರಣ ಡೇಟಾ**: ನೀವು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಆರಿಸಿದರೆ, ನಿಮ್ಮ ಅನುಭವವನ್ನು ವೈಯಕ್ತೀಕರಿಸಲು ಮತ್ತು ಕ್ಲೌಡ್ ಸಿಂಕ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನಿಮ್ಮ Google ಪ್ರದರ್ಶನದ ಹೆಸರು, ಇಮೇಲ್ ವಿಳಾಸ ಮತ್ತು ಪ್ರೊಫೈಲ್ ಚಿತ್ರ URL ಅನ್ನು ನಾವು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ.\n_NL_22__ನಾವು **ಅಲ್ಲ** ಸಂಗ್ರಹಿಸುತ್ತೇವೆ ಅಥವಾ ಸಾಮಾನ್ಯ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ. ಚಟುವಟಿಕೆ\n• ಉದ್ಯೋಗ-ಅಪ್ಲಿಕೇಶನ್-ಸಂಬಂಧಿತವಲ್ಲದ ಪುಟಗಳಿಂದ ಯಾವುದೇ ಮಾಹಿತಿ\n• ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯವಾಗಿ ಟ್ರಿಗರ್ ಮಾಡದಿದ್ದಾಗ ಪುಟಗಳಿಂದ ಯಾವುದೇ ಡೇಟಾ\n\n____\n\n**3. ನಿಮ್ಮ ಡೇಟಾವನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ**\n\n**3.1 ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ (ಡೀಫಾಲ್ಟ್)**\nಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಪ್ರಾಥಮಿಕವಾಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನ chrome.storage.local API ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಈ ಡೇಟಾವು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಸ್ಪಷ್ಟವಾದ ಕ್ರಿಯೆಯಿಲ್ಲದೆ ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಎಂದಿಗೂ ರವಾನೆಯಾಗುವುದಿಲ್ಲ.\n\n**3.2 Cloud Sync (ಐಚ್ಛಿಕ)**\nನೀವು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಮತ್ತು \"Supabase Sync\" ವೈಶಿಷ್ಟ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಆಯ್ಕೆಮಾಡಿದರೆ, ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾಗೆ Supabase ಸಿಂಕ್ರೊನ್ ಡೇಟಾ ಕೂಡ ಇರುತ್ತದೆ. ಈ ಡೇಟಾದ ಸಂಪೂರ್ಣ ಮಾಲೀಕತ್ವವನ್ನು ನೀವು ಉಳಿಸಿಕೊಳ್ಳುತ್ತೀರಿ. ನೀವು ಅದನ್ನು ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ವಿಭಾಗದಿಂದ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅಳಿಸಬಹುದು.\n\n**3.3 ಜೆಮಿನಿ AI ವಿನಂತಿಗಳು**\nAI ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸಿದಾಗ (ಉದಾ., ಪ್ರಬಂಧ ರಚನೆ, ಉದ್ಯೋಗ ವಿಶ್ಲೇಷಣೆ), ನಿಮ್ಮ ಪ್ರೊಫೈಲ್‌ನ ಭಾಗಗಳು (ಕೌಶಲ್ಯಗಳು, ಪದವಿ, ಸಾರಾಂಶ) ಮತ್ತು Google ಉದ್ಯೋಗ ವಿವರಣೆಗೆ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ರಚಿಸುವ ಜೆಮಿನಿ ಪಠ್ಯಕ್ಕೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು Google ನ ಪ್ರಮಾಣಿತ API ಸೇವಾ ನಿಯಮಗಳು ಮತ್ತು ಗೌಪ್ಯತೆ ನೀತಿಯ ಅಡಿಯಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ AI-ನೆರವಿನ ವಿಷಯದಲ್ಲಿ ಸೂಕ್ಷ್ಮವಾದ ವೈಯಕ್ತಿಕ ಗುರುತಿಸುವಿಕೆಗಳನ್ನು ಸೇರಿಸದಂತೆ ನಾವು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ.\n_NL_41_______\n\n**4. ಡೇಟಾ ಹಂಚಿಕೆ**\n\nನಾವು **** ಮಾರಾಟ, ವ್ಯಾಪಾರ, ಬಾಡಿಗೆ ಅಥವಾ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಯಾವುದೇ ಮೂರನೇ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ಮಾರ್ಕೆಟಿಂಗ್ ಅಥವಾ ಜಾಹೀರಾತು ಉದ್ದೇಶಗಳಿಗಾಗಿ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ.\n\nನಿಮ್ಮ ಡೇಟಾವನ್ನು ಈ ಕೆಳಗಿನ ವಿಶ್ವಾಸಾರ್ಹ ಸೇವೆಗಳಿಂದ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಬಹುದು:\n• **Google ಫಾರ್ಮ್ ತುಂಬಿದ ಜೆಮಿನಿ API ವಿಶ್ಲೇಷಣೆ (https://policies.google.com/privacy)\n• **Google OAuth**: ಖಾತೆಯ ದೃಢೀಕರಣಕ್ಕಾಗಿ (https://policies.google.com/privacy)\n• **Supabase**: ಐಚ್ಛಿಕ ಕ್ಲೌಡ್ ಸ್ಟೋರೇಜ್‌ಗಾಗಿ (https://supabase.com/privacy) — ನೀವು ಮೆಚ್ಚಿದರೆ ಮಾತ್ರ sync\n\n_____\n\n**5. ನಿಮ್ಮ ಹಕ್ಕುಗಳು ಮತ್ತು ನಿಯಂತ್ರಣಗಳು**\n\nನೀವು ಹಕ್ಕನ್ನು ಹೊಂದಿರುವಿರಿ:\n• **ಪ್ರವೇಶ** ApplyFlow ನಿಮ್ಮ ಬಗ್ಗೆ ಸಂಗ್ರಹಿಸಿರುವ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು (ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ರಫ್ತು ಬ್ಯಾಕಪ್ ಮೂಲಕ)\n• **ಸರಿಮಾಡಿ** ನಿಮ್ಮ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಪ್ರೊಫೈಲ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅಳಿಸಿ*•**ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸಿ. ಪ್ರೊಫೈಲ್ ಡೇಟಾ\" ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ\n• **ಸಮ್ಮತಿಯನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಿ** ವಿಸ್ತರಣೆಯನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವ ಮೂಲಕ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ\n• **ಕ್ಲೌಡ್ ಸಿಂಕ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ** ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅದನ್ನು ಟಾಗಲ್ ಆಫ್ ಮಾಡುವ ಮೂಲಕ\n\n**GDPR ಅನ್ನು ನೀವು ಬಳಸಿದರೆ, ನೀವು EU: ನಿವಾಸಿಗಳಾಗಿದ್ದರೆ ಸಾಮಾನ್ಯ ದತ್ತಾಂಶ ಸಂರಕ್ಷಣಾ ನಿಯಂತ್ರಣದ ಅಡಿಯಲ್ಲಿ ಸಂಸ್ಕರಣೆ ಮತ್ತು ಡೇಟಾ ಪೋರ್ಟಬಿಲಿಟಿಯನ್ನು ಸರಿಪಡಿಸಿ, ಅಳಿಸಿ, ನಿರ್ಬಂಧಿಸಿ.\n\n**ಭಾರತ — DPDP ಕಾಯಿದೆ 2023**: ಭಾರತದ ಡಿಜಿಟಲ್ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಸಂರಕ್ಷಣಾ ಕಾಯಿದೆ 2023 ರ ಅನುಸರಣೆಯಲ್ಲಿ, ನಾವು ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಉದ್ಯೋಗದ ಸಹಾಯವನ್ನು ಒದಗಿಸುವ ಉದ್ದೇಶಕ್ಕಾಗಿ ಮಾತ್ರ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತೇವೆ. ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುವ ಮೂಲಕ ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸಮ್ಮತಿಯನ್ನು ಹಿಂಪಡೆಯಬಹುದು ಮತ್ತು ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಅಳಿಸಲು ವಿನಂತಿಸಬಹುದು.\n\n**ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ — CCPA**: ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ ನಿವಾಸಿಗಳು ಯಾವ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ, ಅಳಿಸುವ ಹಕ್ಕು ಮತ್ತು ಮಾರಾಟದಿಂದ ಹೊರಗುಳಿಯುವ ಹಕ್ಕನ್ನು ತಿಳಿದುಕೊಳ್ಳುವ ಹಕ್ಕನ್ನು ಹೊಂದಿರುತ್ತಾರೆ (ನಾವು ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ ಡೇಟಾ).\n\n_____\n\n**6. ಡೇಟಾ ಧಾರಣ**\n\nನೀವು ಹಸ್ತಚಾಲಿತವಾಗಿ ತೆರವುಗೊಳಿಸುವವರೆಗೆ ಸ್ಥಳೀಯ ಡೇಟಾವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನೀವು ಅಳಿಸುವವರೆಗೆ ಅಥವಾ ಅಳಿಸುವಿಕೆಗೆ ವಿನಂತಿಸುವವರೆಗೆ ಕ್ಲೌಡ್-ಸಿಂಕ್ ಮಾಡಲಾದ ಡೇಟಾವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನಾವು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಡೇಟಾವನ್ನು ಅಳಿಸುವುದಿಲ್ಲ.\n\n_____\n\n**7. ಭದ್ರತೆ**\n\nನಿಮ್ಮ ಡೇಟಾವನ್ನು ರಕ್ಷಿಸಲು ನಾವು ಸಮಂಜಸವಾದ ತಾಂತ್ರಿಕ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೇವೆ:\n• ಎಲ್ಲಾ ಕ್ಲೌಡ್ ಸಂವಹನಗಳು HTTPS/TLS ಗೂಢಲಿಪೀಕರಣವನ್ನು ಬಳಸುತ್ತವೆ\n• ಸುಪಾಬೇಸ್ ರೋ-ಲೆವೆಲ್ ಸೆಕ್ಯುರಿಟಿ (RLS) ಬಳಕೆದಾರರು ತಮ್ಮ ಸ್ವಂತ ಡೇಟಾವನ್ನು ಮಾತ್ರ ಪ್ರವೇಶಿಸಬಹುದು ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ__NL_82_ವಿಸ್ತರಣೆಗಳ ವಿನಂತಿಯನ್ನು ಮೀರಿ ಕಾರ್ಯ\n\n_____\n\n**8. ಮಕ್ಕಳ ಗೌಪ್ಯತೆ**\n\nApplyFlow 13 ವರ್ಷಕ್ಕಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಬಳಕೆದಾರರಿಗೆ ಉದ್ದೇಶಿಸಿಲ್ಲ. ನಾವು ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಮಕ್ಕಳಿಂದ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ. ಮಗುವು ನಮಗೆ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿದೆ ಎಂದು ನೀವು ಭಾವಿಸಿದರೆ, ದಯವಿಟ್ಟು ತಕ್ಷಣ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.\n\n________\n\n**9. ಈ ನೀತಿಗೆ ಬದಲಾವಣೆಗಳು**\n\nನಾವು ಕಾಲಕಾಲಕ್ಕೆ ಈ ಗೌಪ್ಯತಾ ನೀತಿಯನ್ನು ನವೀಕರಿಸಬಹುದು. ಗಮನಾರ್ಹ ಬದಲಾವಣೆಗಳನ್ನು ವಿಸ್ತರಣೆಯ ಆಯ್ಕೆಗಳ ಪುಟದ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ. ಬದಲಾವಣೆಗಳ ನಂತರ ವಿಸ್ತರಣೆಯ ಮುಂದುವರಿದ ಬಳಕೆಯು ನವೀಕರಿಸಿದ ನೀತಿಯ ಅಂಗೀಕಾರವನ್ನು ರೂಪಿಸುತ್ತದೆ.\n\n_____\n\n**10. ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ**\n\nಯಾವುದೇ ಗೌಪ್ಯತೆ-ಸಂಬಂಧಿತ ಪ್ರಶ್ನೆಗಳು, ಡೇಟಾ ಅಳಿಸುವಿಕೆ ವಿನಂತಿಗಳು ಅಥವಾ ಕಾಳಜಿಗಳಿಗಾಗಿ:\n\nಇಮೇಲ್: privacy@applyflow.in\nGitHub: https://github.com/4__NL_extension https://applyflow.in\n\nನಾವು 30 ದಿನಗಳಲ್ಲಿ ಎಲ್ಲಾ ವಿನಂತಿಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುವ ಗುರಿಯನ್ನು ಹೊಂದಿದ್ದೇವೆ.",
+    "description": "Privacy policy document markdown text"
+  }
+}

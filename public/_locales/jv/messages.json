@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: AI Job Autofill & Application Tracker",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Isi otomatis aplikasi proyek lan dhaptar trek kanthi otomatis nggunakake AI ing LinkedIn, Workday, Greenhouse & liyane.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Aktif",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Ditrapake",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Wawancara",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "nawarake",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Disimpen",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Total",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Isi otomatis",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Ngisi...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Isi Otomatis Cepet",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Nganalisis Ayub",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Bukak Sidebar",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Setelan",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Mangga mlebu dhisik nganggo Google kanggo nggunakake Isi Otomatis Cepet!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Mangga nyiyapake profil sampeyan dhisik ing kaca Side Panel/Options!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Dideteksi",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Ora ana kaca proyek sing dideteksi",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Dolan maring dhaptar proyek kanggo mbukak kunci fitur AI",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "sugeng enjang",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "sugeng sonten",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "sugeng sonten",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ aplikasi dilacak · $2$ wawancara",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Mulai nglamar kanggo nglacak kemajuan sampeyan",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Layang Panutup",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Pitulung Q&A",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Siap mbantu",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Navigasi menyang dhaptar proyek ing LinkedIn, Workday, Greenhouse, utawa papan kerja kanggo miwiti.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Minggu iki",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Aktivitas Anyar",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Ndeleng kabeh →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Miwiti mburu proyek!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Dolan maring papan kerja lan gunakake ApplyFlow kanggo ngisi otomatis lan nglacak aplikasi sampeyan kanthi otomatis.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Profil Kula",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Ngirit...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Simpen Kabeh",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Profil disimpen!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Gagal nyimpen profil.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Resume",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Unggah menyang profil isi otomatis",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Diunggah",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Info pribadi",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "ora pepak",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "lokasi",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Pendidikan",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Katrampilan",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Pengalaman Kerja",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Proyek",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Preferensi Kerja",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Izin Kerja",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Riwayat Resume",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Gunakake Iki",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Diurai ing $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Muat rincian profil saka \"$1$\"? Iki bakal ngganti suntingan sampeyan saiki karo struktur parsed resume iki.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Rincian sing dibalekake saka $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Skor cocog",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ liyane",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Aplikasi diisi otomatis lan mlebu! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Isi otomatis liwat ApplyFlow Side Panel",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "ing kono",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Ora ana set kuliah",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Setel profil sampeyan kanggo ngaktifake isi otomatis",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Ora disetel",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ entri",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ katrampilan",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ proyek",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ wangsulan",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "sah",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Ora sah",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "Jeneng Lengkap",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Email",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Telpon",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Telpon alternatif",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "URL LinkedIn",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL portofolio",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Sambungake Link",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "kutha",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "negara",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "negara",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Kode Pos",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "alamat",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "kewarganegaraan",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "College / Universitas",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "gelar",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Taun Wisuda",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Grade",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "kaping 10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "kaping 12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Periode Kabar",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Gaji sing Dikarepake",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Peran sing disenengi",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Taun Pengalaman",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Diijini kerja tanpa sponsor visa",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Mbutuhake sponsor visa",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "jinis kelamin",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Cacat",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Luwih seneng ora ngomong",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Ora ditemtokake",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "lanang",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "wadon",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Non-biner",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "ya wis",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "Ora",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Ora ana katrampilan sing ditambahake",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Tambah skill (Ketik kanggo nambah)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Frasa pemicu (contone. Kenapa kita kudu nyewa sampeyan)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Jawabanmu...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "Mbusak",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Tambah Jawaban Custom",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Perusahaan",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Peran / Judhul",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Tanggal wiwitan",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Tanggal Pungkasan",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "saiki",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Aku saiki kerja ing peran iki",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "Katrangan",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Nerangake tanggung jawab, prestasi utama, teknologi sing digunakake ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Tambah Pengalaman Kerja",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Judul Proyek",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Teknik Stack",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL panyebaran",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Njlèntrèhaké apa sing dibangun, masalah apa sing ditanggulangi, lan fitur utama ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Tambah Proyek",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Tracker",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Disimpen",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Ditrapake",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Assesmen",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Wawancara",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "nawarake",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Ditolak",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Ditarik",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Mbusak aplikasi iki?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Aplikasi dianyari!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Aplikasi dibusak.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Status",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Platform",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Ditrapake",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Bukak Posting Lowongan",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Gaji / Stipend",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Pangeling-eling",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Cathetan",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Tambah cathetan, info kontak, rincian wawancara...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Job Description (kutipan)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Mbusak",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Batal",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "Simpen",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 aplikasi",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ aplikasi",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Filter miturut perusahaan ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Filter-filter Status",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Gulung nengen kanggo liyane →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "Kabeh",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Ora ana aplikasi sing ditemokake",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Coba setel ulang saringan utawa simpen proyek kanggo nambah entri tracker anyar",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Analytics",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ total aplikasi",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Durung ana data",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Mulai nglamar kerja lan analytics sampeyan bakal katon ing kene.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Tarif Konversi",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Ditrapake",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Interview Rate",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Tarif Penawaran",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Aplikasi Minggu Iki",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Corong Aplikasi",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Platform Top",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Pecah Status",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Konteks: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Copilot karir sampeyan",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Obrolan Anyar ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Nyiyapake profil sampeyan dhisik supaya AI bisa nggawe respon pribadi.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Chat dibusak! Apa sing bisa daktulungi?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Takon apa wae babagan proyek iki ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Nggawe profil kanggo miwiti",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Pencet Enter kanggo ngirim",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Resume Skor Kompatibilitas",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Skills kuwat",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Katrampilan ilang",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Iki surat lamaran pribadi sampeyan:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Disalin!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Kopine",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Unduh",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Iki $1$ pitakonan wawancara:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Resume skor optimasi: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Resume Saran Cocokake",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "vs deskripsi proyek iki",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Ana sing salah. Coba maneh.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "Hi! Aku bisa ndeleng sampeyan ndeleng peran **$1$** ing **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "Hi! Aku bisa ndeleng sampeyan lagi ndeleng peran **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "Hi! Aku kopilot karir AI sampeyan. Navigasi menyang dhaptar proyek lan aku bakal nganalisa kanthi otomatis, utawa takon apa wae!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Mangga atur profil sampeyan dhisik ing tab Profil!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Bukak kaca dhaptar proyek ing browser sampeyan kanggo nggunakake fitur iki!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Mbukak kunci ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Mlebu karo Google kanggo ngakses dasbor, nyelarasake proyek, ngatur profil resume, lan isi otomatis aplikasi proyek langsung.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Pindai lan isi otomatis aplikasi kanthi siji klik.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Cloud Sync & Gawe serep",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Nyelarasake kabeh rincian nelusuri proyek menyang Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Resume & Profile",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Upload resume lan ngatur jawaban aplikasi.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Nyambung menyang Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Mlebu karo Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Kanthi mlebu, sampeyan setuju kanggo nyelarasake data profil kanthi aman menyang ruang kerja sing aktif.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Apa sampeyan yakin arep metu?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Kasil metu.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Mlebet minangka $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Mlebu metu",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Mlebu",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Nyambung...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Bukak ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Skills Cocokake kuwat",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Ilang Skills",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Kaca Isi Otomatis Cerdas",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Formulir Isi Otomatis...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "Ora ana kolom aplikasi sing bisa diisi sing ditemokake ing kaca kasebut.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Kasil Isi!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Isi otomatis gagal amarga kerumitan kaca.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Disimpen kanthi otomatis kanggo log tracker nalika ngisi.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Resume sampeyan **$1$% kompatibel** karo peran iki.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "Sugeng rawuh, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Gagal njupuk informasi profil pangguna Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Login OAuth Gagal: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Gagal njupuk token akses saka pangalihan.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Gagal ngurai pangalihan otentikasi.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Otentikasi ora didhukung ing platform iki.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Proyek disimpen menyang tracker!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Tamu",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Setelan Umum",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Tampilake ing Kaca Proyek LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Nuduhake skor cocog sing cerdas lan tombol isi otomatis siji-klik nalika sampeyan ndeleng postingan proyek ing LinkedIn.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Tampilake tombol 'Simpen Proyek'",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Nuduhake tombol 'Simpen Proyek 📌' ngambang ing situs proyek supaya sampeyan bisa kanthi cepet nyimpen rincian proyek menyang tracker sadurunge nglamar.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Mung Log Sawise Bener Nglamar",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Enteni nganti sampeyan ndeleng layar 'Matur nuwun' utawa 'Sukses' sadurunge nambahake proyek menyang tracker sampeyan. Tansah tracker sampeyan kanthi rapi kanthi nyegah formulir sing diisi setengah ora disimpen minangka 'Terapan'.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Kredit AI & Analisis Panggunaan",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Kredit Sisa",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Sisa Kredit",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Total Kredit",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Isi otomatis kabeh wektu",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Status Plan",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Premium 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Gratis 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Tip Pro:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Operasi Isi Otomatis cerdas nganggo 0 kridit lan 100% tanpa watesan! Mung fitur AI sing canggih kaya Surat Sampul (5 kridit) lan Esai khusus (3 kridit) sing nggunakake imbangan kredit sampeyan.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Akun Google & Sink Cloud",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync Aktif",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Cloud Sync Dikunci (Premium Mung)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Cloud Sync",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Push menyang Cloud",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Narik saka Cloud",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Sinkronisasi sukses!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Sinkronisasi gagal. Priksa sambungan sampeyan.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Aman Cloud Sync",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Mlebu karo Google kanggo nggawe serep aplikasi lan profil sampeyan menyang Supabase. Sinkronisasi minangka fitur Premium sing njaga log sampeyan kanthi aman ing antarane piranti.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync minangka Fitur Premium. Mangga upgrade ing tab Nganyarke kanggo ngaktifake sinkronisasi!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Manajemen Data",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Ekspor Serep (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Busak Kabeh Data Lokal",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Mbusak data lokal mung mbusak profil lan aplikasi saka piranti iki. Data awan ora kena pengaruh.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Pusat Kontrol",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Ngarep & Babagan",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Setelan Umum",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Nganyarke menyang Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Paket Premium 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Akun & Sinkronisasi",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Kebijakan Privasi",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Trabasan Keyboard",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Sugeng rawuh ing ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow minangka ekstensi Chrome sing didhukung AI sing dibangun kanggo siswa lan wong sing golek kerja sing pengin nglamar luwih cepet lan luwih pinter. Kanthi otomatis ndeteksi lan ngisi formulir lamaran kerja ing 15+ platform, nglacak pipa sampeyan, lan mbantu sampeyan entuk wawancara liyane.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Isi otomatis cerdas",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ platform ATS kanthi pamilih sing tepat",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Siji-klik nyimpen dhaptar proyek apa wae",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Seret & selehake pipeline aplikasi sampeyan",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Isi otomatis EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Isi otomatis pitakonan demografi & visa",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI Essay",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Gemini-powered nulis jawaban khusus",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Sinkronisasi Aman",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Cadangan maya Supabase opsional",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Carane Miwiti",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Mbangun Profil Panjenengan",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Bukak popup → tab Profil → upload resume PDF sampeyan. AI bakal ngekstrak kabeh rincian sampeyan kanthi otomatis kalebu katrampilan, pengalaman, pendidikan, lan proyek.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Setel Preferensi EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Gulung menyang bagean EEO ing Profil sampeyan lan setel wewenang kerja, kabutuhan sponsor visa, lan preferensi demografi. Iki digunakake kanggo ngisi kuesioner EEO kanthi otomatis.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Telusuri Daftar Proyek",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Navigasi menyang dhaptar proyek apa wae. Sampeyan bakal weruh tombol 📌 \"Simpen Proyek\" katon. Klik kanggo nyimpen posisi menyang tracker sampeyan.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Bukak Formulir Aplikasi",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Navigasi menyang formulir aplikasi. Klik popup ApplyFlow → tekan \"Scan Page\" → banjur \"⚡ Smart Autofill\". Kabeh kolom kalebu tombol radio lan dropdown diisi kanthi cepet.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Lacak Pipa Panjenengan",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Bukak tab Tracker kanggo ndeleng kabeh aplikasi sampeyan. Ngalih menyang tampilan Papan Kanban lan seret kertu antarane kolom minangka nganyari status.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Mbutuhake mlebu",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Mlebu kanggo Ngatur Setelan",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Setelan Umum mung kasedhiya kanggo pangguna sing mlebu. Mlebu karo Google kanggo ngatur preferensi, prilaku isi otomatis, lan liya-liyane.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Pindhah menyang Akun & Sinkronisasi",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Kunci lisensi: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Nonaktifake Lisensi",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Aktivasi Kunci Lisensi",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Yen sampeyan wis tuku langganan utawa nampa kode akses, ketik kunci lisensi ing ngisor iki kanggo mbukak kunci ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "Aktifake",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Ngaktifake...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Tip: Sampeyan bisa ngaktifake Premium nggunakake tombol APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Premium Aktifake!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Matur nuwun kanggo ndhukung ApplyFlow. Kabeh fitur premium saiki ora dikunci.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Rencana Upgrade Premium",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Mbukak kunci ekspor karir & fitur AI canggih.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Entuk kridit AI premium kanggo surat lamaran, jawaban karangan khusus, optimisasi resume, lan persiapan wawancara mock. Operasi isi otomatis ing platform sing didhukung ora ana watesan lan gratis kanggo kabeh pangguna premium!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Penawaran Adopter Awal:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Tambah rega sabanjure ing 500 pangguna Premium. Kunci tarif iki kanggo urip!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Pro saben wulan",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Apik kanggo panelusuran jangka pendek",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹399",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ wulan",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Mung ₹13 / dina)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 Kredit AI saben sasi|||Isi otomatis tanpa wates (Kabeh Portal)|||Cloud Sync & Google Backup|||Tema Premium|||Pengalaman Bebas Iklan",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Langganan Saben wulan",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Triwulan Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Nilai paling apik kanggo paling golek proyek",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 wulan",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Mung ₹11 / dina)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 Kredit AI saben kuartal|||Isi otomatis tanpa wates (Kabeh Portal)|||Surat & Esai sing Disesuaikan|||Sinkronisasi Cloud & Serep Google|||Saran Pertandhingan Terusake",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Langganan Triwulanan",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Paling Popular",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Ultimate taunan",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Nilai paling apik kanggo pangguna daya",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹2.999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ taun",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Setara karo ₹249 / wulan)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2.500 kridit AI saben taun|||Isi otomatis saben dina tanpa wates|||Surat & Esai sing Disesuaikan|||Sinkronisasi Cloud & Serep Google|||Resume Saran Cocokake|||Dhukungan Email Prioritas",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Langganan Taunan",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Nilai paling apik - Ngirit 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Dhukungan ApplyFlow Development",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow dibangun lan dikelola dening pangembang independen. Yen sampeyan nemokake ekstensi kasebut migunani, coba nyumbang ing Ko-fi supaya tetep aktif, bebas iklan, lan dianyari kanggo papan kerja anyar.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Tuku aku kopi ing Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 Rating|||🔒 Pembayaran Aman|||✓ Batal kapan wae",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Kunci lisensi ora valid. Petunjuk: Coba gunakake tombol demo 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Lisensi diaktifake kanthi sukses! Sugeng rawuh ing ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Apa sampeyan yakin pengin mateni lisensi premium sampeyan? Iki bakal bali sampeyan menyang Free Plan.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Lisensi premium dipateni. Sampeyan saiki ana ing Rencana Gratis.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Iki bakal mbusak ALL profil lokal lan data aplikasi kanthi permanen. Apa sampeyan yakin?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Kebijakan Privasi",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Pitakonan sing Sering Ditakoni",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Apa ApplyFlow lan kepiye cara kerjane?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow minangka ekstensi Chrome sing didhukung AI sing kanthi otomatis ndeteksi lan ngisi formulir lamaran kerja ing 15+ platform kalebu LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever, lan liya-liyane. Iki maca profil sing disimpen lan nggunakake pencocokan cerdas kanggo ngisi kolom teks, dropdown, tombol radio, lan kothak centhang - kalebu pitakonan EEO/demografi.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Apa data pribadiku aman karo ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "ya wis. Data sampeyan disimpen sacara lokal ing browser chrome.storage.local minangka standar. Ora tau dikirim menyang server pihak katelu liyane saka database Supabase opsional dhewe (sing sampeyan kontrol). ApplyFlow ora tau adol, nuduhake, utawa monetisasi informasi pribadhi.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Platform proyek apa sing didhukung ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow ndhukung 15+ platform metu saka kothak: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, lan situs liyane liwat matcher fallback generik sing cerdas.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Apa Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper minangka tombol \"Simpen Proyek\" sing ngambang (📌) sing katon kanthi otomatis nalika sampeyan ngunjungi kaca dhaptar proyek. Ngeklik kasebut njupuk judhul proyek, perusahaan, gaji, lan katrangan, banjur simpen menyang tracker ApplyFlow minangka aplikasi \"Disimpen\" - supaya sampeyan bisa nglacak proyek sadurunge nglamar.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Kepiye carane nganyari profilku?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Bukak popup ApplyFlow, klik tab \"Profil\", lan unggah PDF resume sampeyan. AI bakal otomatis isi kabeh lapangan sampeyan. Sampeyan uga bisa ngowahi kanthi manual sembarang kolom kalebu preferensi EEO, wewenang kerja, lan surat lamaran.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Apa lapangan EEO lan kenapa aku butuh?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Bidang EEO (Equal Employment Opportunity) minangka pitakonan sing ditakoni para pengusaha AS lan global babagan jender, status cacat, status veteran, lan wewenang kerja. ApplyFlow nyimpen jawaban sing disenengi lan kanthi otomatis ngisi grup tombol radio iki supaya sampeyan ora kudu mangsuli kanthi manual saben wektu.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Apa ApplyFlow mbutuhake kunci utawa konfigurasi API?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "Ora! ApplyFlow nangani kabeh deteksi formulir, pencocokan cerdas, nggawe surat lamaran, lan skor kompatibilitas kanthi otomatis. Sampeyan ora perlu njupuk utawa ngatur tombol API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Apa sinkronisasi Supabase lan apa aku butuh?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Sinkronisasi Supabase minangka fitur serep maya opsional. Nalika sampeyan mlebu karo Google lan ngaktifake, profil lan tracker aplikasi bakal diselarasake menyang database maya pribadi supaya data digawe serep lan diakses saka macem-macem piranti. Iki pancen opsional - ekstensi bisa digunakake kanthi offline.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Napa ApplyFlow mbutuhake akses menyang kabeh situs web?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow njaluk akses menyang kabeh situs web supaya bisa nyuntikake mesin isi otomatis ing formulir lamaran kerja, lan nuduhake tombol clipper \"Simpen Proyek\" ing dhaptar proyek apa wae. Ijin iki dibutuhake kanggo dhukungan platform sing amba. Kita mung nyuntikake skrip ing kaca sing jelas ana hubungane karo proyek.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Apa Papan Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Papan Kanban minangka tampilan pelacakan proyek visual ing tab Tracker. Iku nuduhake aplikasi sampeyan diatur ing kolom: Disimpen → Diterapake → Assessment → Wawancara → Penawaran. Sampeyan bisa nyeret lan nyelehake kertu ing antarane kolom kanggo nganyari status aplikasi apa wae.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Kepiye cara deteksi kiriman?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Nalika sampeyan ngaktifake \"Log mung sawise pengajuan\" ing setelan, ApplyFlow nonton kanggo owah-owahan kaca sing nuduhake kiriman sukses (kaya URL ngemot \"/sukses\" utawa teks awak matur \"Matur nuwun kanggo nglamar\"). Iku mung log aplikasi kanggo tracker sawise ndeteksi pengajuan nyata.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Apa aku bisa nyimpen pirang-pirang surat lamaran?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "ya wis! Layar Profil duwe bagean \"Cover Letter Vault\" ing ngendi sampeyan bisa nyimpen surat lamaran tanpa watesan sing disesuaikan karo peran utawa perusahaan sing beda-beda. Nalika ngisi otomatis, ApplyFlow bakal nggunakake surat lamaran paling anyar utawa paling relevan.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Kepiye cara ngekspor data aplikasi?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Pindhah menyang Akun & Sinkronisasi → gulung menyang ngisor → klik \"Ekspor Serep (JSON)\". Iki ndownload kabeh data profil lan aplikasi sampeyan minangka file JSON kanggo disimpen.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Apa ApplyFlow bisa digunakake ing Mode Demo?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Mode Demo minangka setelan warisan sing digunakake kanggo nyoba. Saiki wis dipateni kanthi gawan. Kabeh fitur urip lan fungsional kanthi kunci API Gemini sing dibangun ing.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Kepiye cara nglaporake bug utawa njaluk fitur?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Mangga mbukak masalah ing repositori GitHub kita (disambungake ing bagean Babagan) utawa email kita ing support@applyflow.in. Kita biasane nanggapi sajrone 48 jam.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Bukak ApplyFlow popup",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Pindai kaca saiki kanggo kolom formulir",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Trigger Smart Autofill ing kaca saiki",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Klip dhaptar proyek saiki menyang tracker",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Bukak Tracker ing tab anyar",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Ngatur trabasan ing Chrome ing",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Cathetan:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Printah ekstensi Chrome mbutuhake tugas manual ing manajer trabasan Chrome. Pindhah menyang $1$ kanggo ngiket tombol ing ndhuwur.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**Ekstensi Chrome ApplyFlow — Kebijakan Privasi**\nTerakhir Dianyari: Juni 2026\n\n---\n\n**1. Pambuka**\n\nApplyFlow (\"kita\", \"kita\", \"Ekstensi\") minangka ekstensi browser Chrome sing mbantu pangguna ngisi formulir lamaran kerja, nglacak lamaran, lan ngatur profil profesional. Kabijakan Privasi iki nerangake carane kita ngumpulake, nggunakake, nyimpen, lan nglindhungi informasi sampeyan.\n\nKanthi nginstal lan nggunakake ApplyFlow, sampeyan setuju karo praktik sing diterangake ing kebijakan iki.\n\n---\n\n**2. Data sing Dikumpulake**\n\nKita mung nglumpukake informasi sing diwenehake kanthi sukarela kanggo ngaktifake fitur ekstensi:\n\n• **Informasi Profil**: Jeneng, email, nomer telpon, perguruan tinggi, gelar, katrampilan, riwayat kerja, proyek, lan tautan profesional (LinkedIn, GitHub, **L_O7Device). (Opsional)**: Jenis kelamin, status cacat, status veteran, lan preferensi wewenang kerja — mung kasedhiya yen sampeyan milih ngisi kolom kasebut. Data iki digunakake sacara eksklusif kanggo ngisi kuesioner EEO opsional kanthi otomatis ing lamaran kerja.\n• **Data Pelacakan Aplikasi**: Judhul proyek, perusahaan, URL aplikasi, status, lan cathetan kanggo posisi sing sampeyan lacak nggunakake ekstensi.\n• **Statistik Panggunaan**: Jumlah operasi isi otomatis sing ditindakake (disimpen sacara lokal: **NL_2**) milih mlebu karo Google, kita nyimpen jeneng tampilan Google, alamat email, lan URL gambar profil kanggo nggawe pribadi pengalaman sampeyan lan ngaktifake sinkronisasi awan.\n\nKita **ora** ngumpulake:\n• Informasi pembayaran utawa keuangan\n• Riwayat browser utawa aktivitas browsing umum\n• Informasi apa wae saka aplikasi-data proyek sing ora ana hubungane karo kaca \n• Ora ana informasi saka kaca sing ana gandhengane. kaca nalika ekstensi ora aktif dipicu\n\n---\n\n**3. Cara Nyimpen Data Panjenengan**\n\n**3.1 Panyimpenan Lokal (Default)**\nKabeh data utamane disimpen ing API chrome.storage.local browser sampeyan. Data iki mung ana ing piranti sampeyan lan ora tau dikirim menyang server apa wae tanpa tumindak sing jelas.\n\n**3.2 Cloud Sync (Opsional)**\nYen sampeyan milih mlebu karo Google lan ngaktifake fitur \"Supabase Sync\", data profil lan aplikasi sampeyan uga bakal disinkronake menyang database Supabase. Sampeyan nahan kepemilikan lengkap data iki. Sampeyan bisa mbusak kapan wae saka bagean Akun & Sinkronisasi.\n\n**3.3 Panjaluk Gemini AI**\nNalika fitur AI digunakake (contone, nggawe esai, analisis proyek), bagean profil sampeyan (katrampilan, gelar, ringkesan) lan teks deskripsi proyek dikirim menyang API Gemini Google kanggo ngasilake respon. Iki diproses miturut Katentuan Layanan lan Kebijakan Privasi API standar Google. Disaranake supaya ora kalebu pengenal pribadi sing sensitif ing konten sing dibantu AI.\n\n---\n\n**4. Nuduhake Data**\n\nKita ora ** adol, dagang, nyewa, utawa nuduhake informasi pribadhi karo pihak katelu kanggo tujuan marketing utawa pariwara.\n\nData sampeyan bisa uga diproses dening layanan sing dipercaya ing ngisor iki:\n• **Google Gemini API**: Kanggo ngisi formulir lan analisis sing didhukung AI (https://policies.google.com/privacy)\n• **Google OAuth**: Kanggo otentikasi akun (https://policies.google.com/privacy)\n• **Supabase**: Kanggo panyimpenan maya opsional (https://supabase.com/privacy) — mung yen sampeyan ngaktifake sync\n\n---\n\n**5. Hak & Kontrol Panjenengan**\n\nSampeyan duwe hak kanggo:\n• **Ngakses** kabeh data sing wis disimpen ApplyFlow babagan sampeyan (liwat Ekspor Serep ing setelan)\n• **Mbenerake** informasi sampeyan kapan wae ing tab Profil\n• **Mbusak kabeh** data Profil sampeyan\" settings\n• **Mbusak idin** sawayah-wayah kanthi mbusak ekstensi\n• **Pateni sinkronisasi awan** kanthi mateni ing setelan Akun & Sinkronisasi\n\n**GDPR (Panganggo EU)**: Yen sampeyan warga EU, sampeyan duwe hak, mbusak data, Ngilangi data, mbenerake hak, mbusak, lan mbenerake data. Peraturan.\n\n**India — Undhang-undhang DPDP 2023**: Selaras karo Undhang-undhang Perlindhungan Data Pribadi Digital India 2023, kita mung ngolah data pribadhi kanggo tujuan nyedhiyakake layanan pitulungan lamaran kerja. Sampeyan bisa mbatalake idin lan njaluk pambusakan data sawayah-wayah kanthi ngubungi kita.\n\n**California — CCPA**: Warga California duwe hak kanggo ngerti informasi pribadhi sing diklumpukake, hak mbusak, lan hak milih metu saka Advertisement (kita ora ngedol data).\n\n---\n\n**6. Penylametan Data**\n\nData lokal disimpen nganti sampeyan mbusak kanthi manual. Data sing disinkronake awan disimpen nganti sampeyan mbusak akun utawa njaluk pambusakan. Kita ora mbusak data kanthi otomatis.\n\n---\n\n**7. Keamanan**\n\nKita njupuk langkah teknis sing cukup kanggo nglindhungi data sampeyan:\n• Kabeh komunikasi maya nggunakake enkripsi HTTPS/TLS\n• Supabase Row-Level Security (RLS) mesthekake pangguna mung bisa ngakses data dhewe\n• Ekstensi kasebut ora mbutuhake ijin sing ngluwihi apa sing dibutuhake. function\n\n---\n\n**8. Privasi Anak**\n\nApplyFlow ora dimaksudake kanggo pangguna ing umur 13 taun. Kita ora sengaja ngumpulake data saka bocah-bocah. Yen sampeyan yakin ana bocah menehi informasi pribadhi, hubungi kita langsung.\n\n---\n\n**9. Owah-owahan ing Kebijakan Iki**\n\nKita bisa nganyari Kebijakan Privasi iki saka wektu kanggo wektu. Owah-owahan sing signifikan bakal dilaporake liwat kaca Pilihan ekstensi. Terus nggunakake extension sawise owah-owahan dadi acceptance saka privasi dianyari.\n\n---\n\n**10. Hubungi Kita**\n\nKanggo pitakonan sing gegandhengan karo privasi, panjalukan pambusakan data, utawa keprihatinan:\n\nEmail: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nWebsite https://applyflow.in\n\nKita ngarahake nanggapi kabeh panjaluk sajrone 30 dina.",
+    "description": "Privacy policy document markdown text"
+  }
+}

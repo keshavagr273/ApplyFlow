@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: এআই জব অটোফিল এবং অ্যাপ্লিকেশন ট্র্যাকার",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "LinkedIn, Workday, Greenhouse এবং আরও অনেক কিছুতে AI ব্যবহার করে স্বয়ংক্রিয়ভাবে চাকরির আবেদন এবং ট্র্যাক তালিকা স্বয়ংক্রিয়ভাবে পূরণ করুন।",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "সক্রিয়",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "প্রয়োগ করা হয়েছে",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "সাক্ষাৎকার",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "অফার",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "সংরক্ষিত",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "মোট",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "অটোফিল",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ভরাট হচ্ছে...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "দ্রুত অটোফিল",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "কাজ বিশ্লেষণ করুন",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "সাইডবার খুলুন",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "সেটিংস",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "দ্রুত অটোফিল ব্যবহার করতে অনুগ্রহ করে প্রথমে Google এর সাথে সাইন ইন করুন!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "সাইড প্যানেল/বিকল্প পৃষ্ঠায় প্রথমে আপনার প্রোফাইল সেট আপ করুন!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ সনাক্ত করা হয়েছে",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "কোন কাজের পৃষ্ঠা সনাক্ত করা যায়নি",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "AI বৈশিষ্ট্যগুলি আনলক করতে একটি কাজের তালিকা দেখুন৷",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "শুভ সকাল",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "শুভ বিকাল",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "শুভ সন্ধ্যা",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ অ্যাপ্লিকেশন ট্র্যাক করা হয়েছে · $2$ সাক্ষাৎকার",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "আপনার অগ্রগতি ট্র্যাক করতে আবেদন করা শুরু করুন",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "কভার লেটার",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "প্রশ্নোত্তর সাহায্য",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "সাহায্য করতে প্রস্তুত",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "শুরু করার জন্য LinkedIn, Workday, Greenhouse, বা যেকোনো চাকরির বোর্ডে চাকরির তালিকায় নেভিগেট করুন।",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "এই সপ্তাহে",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "সাম্প্রতিক কার্যকলাপ",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "সব দেখুন →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "আপনার কাজের সন্ধান শুরু করুন!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "একটি কাজের বোর্ডে যান এবং স্বয়ংক্রিয়ভাবে পূরণ করতে এবং স্বয়ংক্রিয়ভাবে আপনার অ্যাপ্লিকেশন ট্র্যাক করতে ApplyFlow ব্যবহার করুন।",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "আমার প্রোফাইল",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "সংরক্ষণ করা হচ্ছে...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "সব সংরক্ষণ করুন",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "প্রোফাইল সংরক্ষিত!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "প্রোফাইল সংরক্ষণ করতে ব্যর্থ হয়েছে.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "পুনরায় শুরু করুন",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "অটো-ফিল প্রোফাইলে আপলোড করুন",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ আপলোড করা হয়েছে",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "ব্যক্তিগত তথ্য",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "অসম্পূর্ণ",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "অবস্থান",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "শিক্ষা",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "দক্ষতা",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "কাজের অভিজ্ঞতা",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "প্রকল্প",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "কাজের পছন্দ",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "কাজের অনুমোদন",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "ইতিহাস পুনরায় শুরু করুন",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "এটি ব্যবহার করুন",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "$1$ এ পার্স করা হয়েছে",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "\"$1$\" থেকে প্রোফাইল বিশদ লোড করবেন? এটি আপনার বর্তমান সম্পাদনাগুলিকে এই জীবনবৃত্তান্তের পার্স করা কাঠামোর সাথে প্রতিস্থাপন করবে।",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "$1$ থেকে বিশদ পুনরুদ্ধার করা হয়েছে",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "ম্যাচ স্কোর",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ ফিট",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ আরো",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে পূরণ করা এবং লগ করা হয়েছে! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "ApplyFlow সাইড প্যানেলের মাধ্যমে স্বয়ংক্রিয়ভাবে পূর্ণ",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "সেখানে",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "কলেজ সেট নেই",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "অটোফিল সক্ষম করতে আপনার প্রোফাইল সেট আপ করুন৷",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "সেট করা হয়নি",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ এন্ট্রি",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ দক্ষতা",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ প্রকল্প",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ উত্তর",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "অনুমোদিত",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "অনুমোদিত নয়",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "পুরো নাম",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ইমেইল",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "ফোন",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "বিকল্প ফোন",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "লিঙ্কডইন ইউআরএল",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "পোর্টফোলিও URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "লিঙ্ক পুনরায় শুরু করুন",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "শহর",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "রাজ্য",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "দেশ",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "পোস্টাল কোড",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "ঠিকানা",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "জাতীয়তা",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "কলেজ/বিশ্ববিদ্যালয়",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "ডিগ্রী",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "স্নাতক বছর",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "সিজিপিএ/গ্রেড",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10তম %",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12তম %",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "নোটিশ পিরিয়ড",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "প্রত্যাশিত বেতন",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "পছন্দের ভূমিকা",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "অভিজ্ঞতার বছর",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "ভিসা স্পন্সরশিপ ছাড়া কাজ করার জন্য অনুমোদিত",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "ভিসা স্পনসরশিপ প্রয়োজন",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "লিঙ্গ",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "অক্ষমতা",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "না বলতে পছন্দ করেন",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "নির্দিষ্ট করা নেই",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "পুরুষ",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "মহিলা",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "নন-বাইনারী",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "হ্যাঁ",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "না",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "এখনও কোন দক্ষতা যোগ করা হয়নি",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "দক্ষতা যোগ করুন (যোগ করতে প্রবেশ করুন)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "ট্রিগার বাক্যাংশ (যেমন কেন আমরা আপনাকে নিয়োগ করব)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "তোমার উত্তর...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "সরান",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ কাস্টম উত্তর যোগ করুন",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "কোম্পানি",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "ভূমিকা / শিরোনাম",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "শুরুর তারিখ",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "শেষ তারিখ",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "বর্তমান",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "বর্তমানে এই চরিত্রে কাজ করছি",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "বর্ণনা",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "আপনার দায়িত্ব, মূল অর্জন, ব্যবহৃত প্রযুক্তিগুলি বর্ণনা করুন...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ কাজের অভিজ্ঞতা যোগ করুন",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "প্রকল্পের শিরোনাম",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "টেক স্ট্যাক",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "স্থাপনার URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "আপনি কী তৈরি করেছেন, কী সমস্যা সমাধান করেছেন এবং মূল বৈশিষ্ট্যগুলি বর্ণনা করুন...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ প্রকল্প যোগ করুন",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "ট্র্যাকার",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "সংরক্ষিত",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "প্রয়োগ করা হয়েছে",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "মূল্যায়ন",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "সাক্ষাৎকার",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "অফার",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "প্রত্যাখ্যাত",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "প্রত্যাহার করা হয়েছে",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "এই অ্যাপ্লিকেশন মুছে ফেলবেন?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "অ্যাপ্লিকেশন আপডেট করা হয়েছে!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "অ্যাপ্লিকেশন মুছে ফেলা হয়েছে।",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "স্ট্যাটাস",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "প্ল্যাটফর্ম",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "প্রয়োগ করা হয়েছে",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "চাকরির পোস্টিং খুলুন",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "বেতন/উপবৃত্তি",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "ফলো-আপ রিমাইন্ডার",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "নোট",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "নোট, যোগাযোগের তথ্য, সাক্ষাৎকারের বিবরণ যোগ করুন...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "কাজের বিবরণ (উদ্ধৃতি)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "মুছুন",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "বাতিল করুন",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "সংরক্ষণ করুন",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1টি আবেদন",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ অ্যাপ্লিকেশন",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "কোম্পানি অনুসারে ফিল্টার করুন...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "স্ট্যাটাস ফিল্টার",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "আরো জন্য ডানদিকে স্ক্রোল করুন →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "সব",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "কোন অ্যাপ্লিকেশন পাওয়া যায়নি",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "ফিল্টার রিসেট করার চেষ্টা করুন বা একটি নতুন ট্র্যাকার এন্ট্রি যোগ করতে একটি কাজ সংরক্ষণ করুন",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "বিশ্লেষণ",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ মোট আবেদন",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "এখনো কোনো তথ্য নেই",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "চাকরিতে আবেদন করা শুরু করুন এবং আপনার বিশ্লেষণ এখানে উপস্থিত হবে।",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "রূপান্তর হার",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "প্রয়োগ করা হয়েছে",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "ইন্টারভিউ রেট",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "অফার রেট",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "এই সপ্তাহে আবেদন",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "অ্যাপ্লিকেশন ফানেল",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "শীর্ষ প্ল্যাটফর্ম",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "স্ট্যাটাস ব্রেকডাউন",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "এআই কপাইলট",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "প্রসঙ্গ: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "আপনার কেরিয়ার সহ পাইলট",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "নতুন চ্যাট ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "অনুগ্রহ করে প্রথমে আপনার প্রোফাইল সেট আপ করুন যাতে AI প্রতিক্রিয়াগুলি ব্যক্তিগতকৃত করতে পারে৷",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "চ্যাট সাফ! আমি আপনাকে কি সাহায্য করতে পারি?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "এই কাজ সম্পর্কে কিছু জিজ্ঞাসা করুন ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "শুরু করতে আপনার প্রোফাইল সেট আপ করুন",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "পাঠাতে এন্টার টিপুন",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "সামঞ্জস্যপূর্ণ স্কোর পুনরায় শুরু করুন",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ শক্তিশালী দক্ষতা",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ অনুপস্থিত দক্ষতা",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "এখানে আপনার ব্যক্তিগতকৃত কভার লেটার আছে:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ কপি করা হয়েছে!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 কপি",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ ডাউনলোড করুন",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "এখানে __P__0__ সম্ভাব্য ইন্টারভিউ প্রশ্ন আছে:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "অপ্টিমাইজেশান স্কোর পুনরায় শুরু করুন: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "ম্যাচ সাজেশন পুনরায় শুরু করুন",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "বনাম এই কাজের বিবরণ",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "কিছু ভুল হয়েছে আবার চেষ্টা করুন.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "হাই! আমি দেখতে পাচ্ছি আপনি **$1$** ভূমিকার দিকে তাকিয়ে আছেন **$2$** এ।",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "হাই! আমি দেখতে পাচ্ছি আপনি একটি **$1$_** ভূমিকা দেখছেন৷",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "হাই! আমি আপনার এআই ক্যারিয়ার সহ পাইলট। একটি কাজের তালিকায় নেভিগেট করুন এবং আমি স্বয়ংক্রিয়ভাবে এটি বিশ্লেষণ করব বা আমাকে কিছু জিজ্ঞাসা করব!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "অনুগ্রহ করে প্রথমে প্রোফাইল ট্যাবে আপনার প্রোফাইল সেট আপ করুন!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "এই বৈশিষ্ট্যটি ব্যবহার করার জন্য প্রথমে আপনার ব্রাউজারে একটি কাজের তালিকা পৃষ্ঠা খুলুন!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow আনলক করুন",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "আপনার ড্যাশবোর্ড অ্যাক্সেস করতে, কাজগুলি সিঙ্ক করতে, আপনার জীবনবৃত্তান্ত প্রোফাইল পরিচালনা করতে এবং তাত্ক্ষণিকভাবে চাকরির আবেদনগুলি অটোফিল করতে Google এর সাথে সাইন ইন করুন৷",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "এআই অটোফিল এবং ক্লিপার",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "এক ক্লিকে অ্যাপ্লিকেশন স্ক্যান এবং স্বয়ংক্রিয়ভাবে পূরণ করুন।",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "ক্লাউড সিঙ্ক এবং ব্যাকআপ",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "আপনার সমস্ত কাজের ট্র্যাকিং বিশদ সুপাবেসে সিঙ্ক করুন।",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "জীবনবৃত্তান্ত এবং প্রোফাইল",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "আপনার জীবনবৃত্তান্ত আপলোড করুন এবং অ্যাপ্লিকেশন উত্তর কাস্টমাইজ করুন।",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Google এ সংযুক্ত হচ্ছে...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Google দিয়ে সাইন ইন করুন",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "সাইন ইন করার মাধ্যমে, আপনি আপনার সক্রিয় কর্মক্ষেত্রে নিরাপদে আপনার প্রোফাইল ডেটা সিঙ্ক করতে সম্মত হন৷",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "আপনি কি নিশ্চিত আপনি সাইন আউট করতে চান?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "সফলভাবে সাইন আউট হয়েছে৷",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "$1$ হিসাবে লগ ইন করেছেন",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "সাইন আউট",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "সাইন ইন করুন",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "সংযোগ করা হচ্ছে...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow খুলুন",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ফ্লো ম্যাচ প্রয়োগ করুন",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "শক্তিশালী ম্যাচিং দক্ষতা",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "অনুপস্থিত দক্ষতা",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "স্মার্ট অটোফিল পৃষ্ঠা",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "স্বতঃপূরণ ফর্ম...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "পৃষ্ঠায় কোন পূরণযোগ্য অ্যাপ্লিকেশন ক্ষেত্র পাওয়া যায়নি।",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "সফলভাবে পূর্ণ!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "পৃষ্ঠা জটিলতার কারণে স্বতঃপূরণ ব্যর্থ হয়েছে৷",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "পূরণ করার পরে লগ ট্র্যাকারে স্বয়ংক্রিয়ভাবে সংরক্ষিত।",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "আপনার জীবনবৃত্তান্ত এই ভূমিকার সাথে **$1$% সামঞ্জস্যপূর্ণ**।",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "আবার স্বাগতম, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Google ব্যবহারকারী প্রোফাইল তথ্য আনতে ব্যর্থ হয়েছে.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth লগইন ব্যর্থ হয়েছে: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "পুনঃনির্দেশ থেকে অ্যাক্সেস টোকেন আনতে ব্যর্থ হয়েছে৷",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "প্রমাণীকরণ পুনঃনির্দেশ পার্স করতে ব্যর্থ হয়েছে.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "এই প্ল্যাটফর্মে প্রমাণীকরণ সমর্থিত নয়।",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "ট্র্যাকারে চাকরি সংরক্ষিত!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "অতিথি",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ সাধারণ সেটিংস",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "লিঙ্কডইন জব পেজে দেখান",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "আপনি যখন LinkedIn-এ চাকরির পোস্টিং দেখেন তখন একটি স্মার্ট ম্যাচিং স্কোর এবং একটি এক-ক্লিক অটোফিল বোতাম দেখায়।",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "'সেভ জব' বোতাম দেখান",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "চাকরির সাইটগুলিতে একটি ভাসমান 'চাকরি সংরক্ষণ করুন 📌' বোতাম দেখায় যাতে আপনি আবেদন করার আগে দ্রুত আপনার ট্র্যাকারে কাজের বিবরণ সংরক্ষণ করতে পারেন।",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "প্রকৃতপক্ষে আবেদন করার পরে শুধুমাত্র লগ",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "আপনার ট্র্যাকারে কাজ যোগ করার আগে 'ধন্যবাদ' বা 'সাফল্য' স্ক্রীন না দেখা পর্যন্ত অপেক্ষা করুন। অর্ধ-ভরা ফর্মগুলিকে 'প্রয়োগ করা' হিসাবে সংরক্ষণ করা থেকে রোধ করে আপনার ট্র্যাকারকে ঝরঝরে রাখে।",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 এআই ক্রেডিট এবং ব্যবহার বিশ্লেষণ",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "ক্রেডিট বাম",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "ক্রেডিট অবশিষ্ট",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "মোট ক্রেডিট",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "সর্বকালের অটোফিল",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "পরিকল্পনা অবস্থা",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "প্রিমিয়াম 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "বিনামূল্যে 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "প্রো টিপ:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "স্মার্ট অটোফিল অপারেশন 0 ক্রেডিট খরচ করে এবং 100% সীমাহীন! শুধুমাত্র কভার লেটার (5 ক্রেডিট) এবং কাস্টম এসেস (3 ক্রেডিট) এর মতো উন্নত AI বৈশিষ্ট্যগুলি আপনার ক্রেডিট ব্যালেন্স ব্যবহার করে।",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Google অ্যাকাউন্ট এবং ক্লাউড সিঙ্ক",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "গুগল ক্লাউড সিঙ্ক সক্রিয়",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "ক্লাউড সিঙ্ক লক করা হয়েছে (শুধুমাত্র প্রিমিয়াম)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "ক্লাউড সিঙ্ক",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "পুশ টু ক্লাউড",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "মেঘ থেকে টান",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "সিঙ্ক সফল!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "সিঙ্ক ব্যর্থ হয়েছে৷ আপনার সংযোগ পরীক্ষা করুন.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "নিরাপদ ক্লাউড সিঙ্ক",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "সুপাবেসে আপনার অ্যাপ্লিকেশন এবং প্রোফাইল ব্যাকআপ করতে Google এর সাথে সাইন ইন করুন৷ সিঙ্ক করা হল একটি প্রিমিয়াম বৈশিষ্ট্য যা আপনার লগগুলিকে সমস্ত ডিভাইসে সুরক্ষিত রাখে৷",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "সুপাবেস ক্লাউড সিঙ্ক একটি প্রিমিয়াম বৈশিষ্ট্য। সিঙ্ক সক্ষম করতে আপগ্রেড ট্যাবে আপগ্রেড করুন!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 ডেটা ম্যানেজমেন্ট",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "রপ্তানি ব্যাকআপ (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "সমস্ত স্থানীয় ডেটা সাফ করুন",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "স্থানীয় ডেটা সাফ করা শুধুমাত্র এই ডিভাইস থেকে আপনার প্রোফাইল এবং অ্যাপ্লিকেশনগুলিকে সরিয়ে দেয়৷ ক্লাউড ডেটা প্রভাবিত হয় না।",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "নিয়ন্ত্রণ কেন্দ্র",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "বাড়ি এবং সম্পর্কে",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "সাধারণ সেটিংস",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Pro 👑 এ আপগ্রেড করুন",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "প্রিমিয়াম প্ল্যান 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "অ্যাকাউন্ট এবং সিঙ্ক",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "গোপনীয়তা নীতি",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "কীবোর্ড শর্টকাট",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow এ স্বাগতম",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow হল একটি এআই-চালিত ক্রোম এক্সটেনশন যা ছাত্রছাত্রী এবং চাকরিপ্রার্থীদের জন্য তৈরি করা হয়েছে যারা দ্রুত এবং স্মার্টভাবে আবেদন করতে চান। এটি স্বয়ংক্রিয়ভাবে 15+ প্ল্যাটফর্ম জুড়ে চাকরির আবেদনপত্র শনাক্ত করে এবং পূরণ করে, আপনার পাইপলাইন ট্র্যাক করে এবং আপনাকে আরও ইন্টারভিউ নিতে সাহায্য করে।",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "স্মার্ট অটোফিল",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "সুনির্দিষ্ট নির্বাচক সহ 15+ ATS প্ল্যাটফর্ম",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "ওয়েব ক্লিপার",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "যেকোন চাকরির তালিকা সংরক্ষণ করুন এক-ক্লিক করুন",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "কানবান ট্র্যাকার",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "আপনার অ্যাপ্লিকেশন পাইপলাইন টেনে আনুন এবং ফেলে দিন",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO অটোফিল",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "ডেমোগ্রাফিক এবং ভিসা প্রশ্ন স্বয়ংক্রিয়ভাবে পূরণ করে",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "এআই প্রবন্ধ",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "মিথুন-চালিত কাস্টম উত্তর লেখা",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "সুরক্ষিত সিঙ্ক",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "ঐচ্ছিক সুপাবেস ক্লাউড ব্যাকআপ",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 কিভাবে শুরু করবেন",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "আপনার প্রোফাইল তৈরি করুন",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "পপআপ → প্রোফাইল ট্যাব খুলুন → আপনার জীবনবৃত্তান্ত পিডিএফ আপলোড করুন। AI আপনার দক্ষতা, অভিজ্ঞতা, শিক্ষা এবং প্রকল্প সহ আপনার সমস্ত বিবরণ স্বয়ংক্রিয়ভাবে নিষ্কাশন করবে।",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "EEO পছন্দগুলি সেট করুন",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "আপনার প্রোফাইলের EEO বিভাগে স্ক্রোল করুন এবং আপনার কাজের অনুমোদন, ভিসা স্পনসরশিপ চাহিদা এবং জনসংখ্যাগত পছন্দগুলি সেট করুন। এগুলি EEO প্রশ্নাবলী স্বয়ংক্রিয়ভাবে পূরণ করতে ব্যবহৃত হয়।",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "একটি কাজের তালিকা ব্রাউজ করুন",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "যেকোনো কাজের তালিকায় নেভিগেট করুন। আপনি একটি 📌 \"চাকরি সংরক্ষণ করুন\" বোতাম দেখতে পাবেন। আপনার ট্র্যাকারে অবস্থানটি অবিলম্বে সংরক্ষণ করতে এটিতে ক্লিক করুন।",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "একটি আবেদনপত্র খুলুন",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "আবেদনপত্রে নেভিগেট করুন। ApplyFlow পপআপ ক্লিক করুন → \"স্ক্যান পৃষ্ঠা\" → তারপর \"⚡ স্মার্ট অটোফিল\" টিপুন। রেডিও বোতাম এবং ড্রপডাউন সহ সমস্ত ক্ষেত্র অবিলম্বে পূর্ণ হয়।",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "আপনার পাইপলাইন ট্র্যাক",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "আপনার সমস্ত অ্যাপ্লিকেশন দেখতে ট্র্যাকার ট্যাবটি খুলুন। কানবান বোর্ড ভিউতে স্যুইচ করুন এবং আপনার স্ট্যাটাস আপডেট হিসাবে কলামের মধ্যে কার্ড টেনে আনুন।",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 সাইন ইন আবশ্যক",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "সেটিংস কাস্টমাইজ করতে সাইন ইন করুন",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "সাধারণ সেটিংস শুধুমাত্র সাইন-ইন করা ব্যবহারকারীদের জন্য উপলব্ধ। আপনার পছন্দ, স্বতঃপূর্ণ আচরণ এবং আরও অনেক কিছু কনফিগার করতে Google এর সাথে সাইন ইন করুন৷",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Account & Sync এ যান",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "অ্যাপ্লাইফ্লো প্রো সক্রিয়",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "লাইসেন্স কী: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "লাইসেন্স নিষ্ক্রিয় করুন",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 লাইসেন্স কী অ্যাক্টিভেশন",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "আপনি যদি সাবস্ক্রিপশন কিনে থাকেন বা একটি অ্যাক্সেস কোড পেয়ে থাকেন, তাহলে ApplyFlow প্রিমিয়াম আনলক করতে নিচে আপনার লাইসেন্স কী লিখুন।",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "সক্রিয় করুন",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "সক্রিয় করা হচ্ছে...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 পরামর্শ: আপনি APPLYFLOW-PRO-2026 কী ব্যবহার করে প্রিমিয়াম সক্রিয় করতে পারেন।",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "প্রিমিয়াম সক্রিয়!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "ApplyFlow সমর্থন করার জন্য আপনাকে ধন্যবাদ. সমস্ত প্রিমিয়াম বৈশিষ্ট্য এখন আনলক করা হয়েছে৷",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 প্রিমিয়াম আপগ্রেড প্ল্যান",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "আপনার ক্যারিয়ার রপ্তানি এবং উন্নত এআই বৈশিষ্ট্যগুলি আনলক করুন।",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "কভার লেটার, কাস্টম প্রবন্ধের উত্তর, রিজিউম অপ্টিমাইজেশান এবং মক ইন্টারভিউ প্রস্তুতির জন্য প্রিমিয়াম AI ক্রেডিট পান। সমর্থিত প্ল্যাটফর্মগুলিতে অটোফিল অপারেশনগুলি সমস্ত প্রিমিয়াম ব্যবহারকারীদের জন্য সম্পূর্ণ সীমাহীন এবং বিনামূল্যে!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 প্রাথমিক গ্রহণকারী অফার:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "পরবর্তী মূল্য বৃদ্ধি 500 প্রিমিয়াম ব্যবহারকারীদের। আজীবন এই হারে লক!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "মাসিক প্রো",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "স্বল্পমেয়াদী অনুসন্ধানের জন্য ভাল",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "₹৩৯৯",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ মাস",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(মাত্র ₹13/দিন)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "প্রতি মাসে 150 AI ক্রেডিট",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "মাসিক সদস্যতা",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "ত্রৈমাসিক প্রো",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "বেশিরভাগ চাকরিপ্রার্থীদের জন্য সেরা মূল্য",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹৯৯৯",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 মাস",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(মাত্র ₹11/দিন)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "প্রতি ত্রৈমাসিকে 500 এআই ক্রেডিট|",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "ত্রৈমাসিক সদস্যতা",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "সর্বাধিক জনপ্রিয়",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "বার্ষিক চূড়ান্ত",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "পাওয়ার ব্যবহারকারীদের জন্য সেরা মান",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹২,৯৯৯",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ বছর",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(₹২৪৯/মাসের সমতুল্য)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "প্রতি বছর 2,500 AI ক্রেডিট",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "বার্ষিক সদস্যতা",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "সেরা মান - 40% সংরক্ষণ করুন",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "ApplyFlow উন্নয়ন সমর্থন",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow স্বাধীন ডেভেলপারদের দ্বারা নির্মিত এবং রক্ষণাবেক্ষণ করা হয়। আপনি যদি এক্সটেনশনটিকে সহায়ক মনে করেন, তাহলে এটিকে সক্রিয়, বিজ্ঞাপন-মুক্ত এবং নতুন চাকরির বোর্ডের জন্য আপডেট রাখতে Ko-fi-এ দান করার কথা বিবেচনা করুন।",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "কো-ফাইতে আমাকে একটি কফি কিনুন",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 রেটিং|||🔒 নিরাপদ পেমেন্ট|||✓ যেকোন সময় বাতিল করুন",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "অবৈধ লাইসেন্স কী। ইঙ্গিত: ডেমো কী 'APPLYFLOW-PRO-2026' ব্যবহার করে দেখুন!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "লাইসেন্স সফলভাবে সক্রিয় করা হয়েছে! ApplyFlow প্রিমিয়ামে স্বাগতম। 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "আপনি কি আপনার প্রিমিয়াম লাইসেন্স নিষ্ক্রিয় করার বিষয়ে নিশ্চিত? এটি আপনাকে ফ্রি প্ল্যানে ফিরিয়ে দেবে।",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "প্রিমিয়াম লাইসেন্স নিষ্ক্রিয় করা হয়েছে। আপনি এখন ফ্রি প্ল্যানে আছেন।",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "এটি স্থায়ীভাবে সমস্ত স্থানীয় প্রোফাইল এবং অ্যাপ্লিকেশন ডেটা মুছে ফেলবে৷ আপনি কি নিশ্চিত?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 গোপনীয়তা নীতি",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow কি এবং এটি কিভাবে কাজ করে?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow হল একটি AI-চালিত Chrome এক্সটেনশন যা LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever এবং আরও অনেক কিছু সহ 15+ প্ল্যাটফর্ম জুড়ে স্বয়ংক্রিয়ভাবে চাকরির আবেদনপত্র শনাক্ত করে এবং পূরণ করে। এটি আপনার সংরক্ষিত প্রোফাইল পড়ে এবং পাঠ্য ক্ষেত্র, ড্রপডাউন, রেডিও বোতাম এবং চেকবক্সগুলি পূরণ করতে বুদ্ধিমান ম্যাচিং ব্যবহার করে — EEO/ডেমোগ্রাফিক প্রশ্ন সহ।",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "আমার ব্যক্তিগত ডেটা কি ApplyFlow এর সাথে নিরাপদ?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "হ্যাঁ। আপনার ডেটা স্থানীয়ভাবে আপনার ব্রাউজারের chrome.storage.local এ ডিফল্টরূপে সংরক্ষণ করা হয়। এটি আপনার নিজস্ব ঐচ্ছিক সুপাবেস ডাটাবেস (যা আপনি নিয়ন্ত্রণ করেন) ছাড়া অন্য কোনো তৃতীয় পক্ষের সার্ভারে কখনই পাঠানো হয় না। ApplyFlow কখনোই আপনার ব্যক্তিগত তথ্য বিক্রি, শেয়ার বা নগদীকরণ করে না।",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "ApplyFlow কোন কাজের প্ল্যাটফর্ম সমর্থন করে?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow বাক্সের বাইরে 15টিরও বেশি প্ল্যাটফর্ম সমর্থন করে: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList, এবং অন্য যেকোনও আমাদের int-এর মাধ্যমে মিলিত ফলব্যাক সাইট।",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "ওয়েব ক্লিপার কি?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "ওয়েব ক্লিপার হল একটি ভাসমান \"চাকরি সংরক্ষণ করুন\" বোতাম (📌) যেটি স্বয়ংক্রিয়ভাবে প্রদর্শিত হয় যখন আপনি যেকোন কাজের তালিকা পৃষ্ঠায় যান। এটিতে ক্লিক করলে চাকরির শিরোনাম, কোম্পানি, বেতন এবং বিবরণ বের হয়, তারপর এটি আপনার ApplyFlow ট্র্যাকারে একটি \"সংরক্ষিত\" অ্যাপ্লিকেশন হিসাবে সংরক্ষণ করে — যাতে আপনি আবেদন করার আগে চাকরিগুলি ট্র্যাক করতে পারেন৷",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "আমি কিভাবে আমার প্রোফাইল আপডেট করব?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "ApplyFlow পপআপ খুলুন, \"প্রোফাইল\" ট্যাবে ক্লিক করুন এবং আপনার জীবনবৃত্তান্ত পিডিএফ আপলোড করুন। AI আপনার সমস্ত ক্ষেত্র স্বয়ংক্রিয়ভাবে জনবহুল করবে। এছাড়াও আপনি আপনার EEO পছন্দ, কাজের অনুমোদন, এবং কভার লেটার সহ যেকোনো ক্ষেত্র ম্যানুয়ালি সম্পাদনা করতে পারেন।",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "EEO ক্ষেত্রগুলি কী এবং কেন আমার সেগুলি দরকার?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (সমান কর্মসংস্থানের সুযোগ) ক্ষেত্রগুলি হল এমন প্রশ্ন যা অনেক মার্কিন এবং বৈশ্বিক নিয়োগকর্তারা লিঙ্গ, অক্ষমতার অবস্থা, অভিজ্ঞ অবস্থা এবং কাজের অনুমোদন সম্পর্কে জিজ্ঞাসা করে। ApplyFlow আপনার পছন্দের উত্তরগুলি সঞ্চয় করে এবং স্বয়ংক্রিয়ভাবে এই রেডিও বোতাম গোষ্ঠীগুলি পূরণ করে যাতে আপনাকে প্রতিবার ম্যানুয়ালি উত্তর দিতে হবে না৷",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ApplyFlow এর কি কোন API কী বা কনফিগারেশন প্রয়োজন?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "না! ApplyFlow সমস্ত ফর্ম সনাক্তকরণ, স্মার্ট ম্যাচিং, কভার লেটার জেনারেশন এবং সামঞ্জস্যপূর্ণ স্কোরিং স্বয়ংক্রিয়ভাবে পরিচালনা করে। আপনাকে কোনো API কী পেতে বা কনফিগার করতে হবে না।",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "সুপাবেস সিঙ্ক কি এবং আমার কি এটি দরকার?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "সুপাবেস সিঙ্ক একটি ঐচ্ছিক ক্লাউড ব্যাকআপ বৈশিষ্ট্য। আপনি যখন Google এর সাথে সাইন ইন করেন এবং এটি সক্ষম করেন, তখন আপনার প্রোফাইল এবং অ্যাপ্লিকেশন ট্র্যাকার একটি ব্যক্তিগত ক্লাউড ডাটাবেসের সাথে সিঙ্ক করা হয় যাতে আপনার ডেটা ব্যাক আপ করা হয় এবং একাধিক ডিভাইস থেকে অ্যাক্সেস করা যায়৷ এটি সম্পূর্ণ ঐচ্ছিক — এক্সটেনশনটি সম্পূর্ণ অফলাইনে কাজ করে৷",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "কেন ApplyFlow সব ওয়েবসাইটে অ্যাক্সেস প্রয়োজন?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow সমস্ত ওয়েবসাইটে অ্যাক্সেসের অনুরোধ করে যাতে এটি যেকোনো চাকরির আবেদনপত্রে অটোফিল ইঞ্জিন ইনজেক্ট করতে পারে এবং যেকোনো চাকরির তালিকায় \"সেভ জব\" ক্লিপার বোতামটি দেখাতে পারে। বিস্তৃত প্ল্যাটফর্ম সমর্থনের জন্য এই অনুমতি প্রয়োজন। আমরা শুধুমাত্র সেই পৃষ্ঠাগুলিতে স্ক্রিপ্ট ইনজেকশন করি যা স্পষ্টভাবে চাকরি-সম্পর্কিত।",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "কানবন বোর্ড কি?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "কানবান বোর্ড হল ট্র্যাকার ট্যাবে একটি ভিজ্যুয়াল জব ট্র্যাকিং ভিউ। এটি কলামে সংগঠিত আপনার অ্যাপ্লিকেশনগুলি দেখায়: সংরক্ষিত → প্রয়োগ করা → মূল্যায়ন → সাক্ষাত্কার → অফার। আপনি যেকোনো অ্যাপ্লিকেশনের স্থিতি আপডেট করতে কলামগুলির মধ্যে কার্ডগুলি টেনে আনতে এবং ফেলে দিতে পারেন৷",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "কিভাবে জমা সনাক্তকরণ কাজ করে?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "যখন আপনি সেটিংসে \"শুধুমাত্র জমা দেওয়ার পরে লগ করুন\" সক্ষম করেন, তখন ApplyFlow পৃষ্ঠার পরিবর্তনগুলি দেখে যা একটি সফল জমা দেওয়ার ইঙ্গিত দেয় (যেমন \"/success\" যুক্ত URL বা \"আবেদনের জন্য ধন্যবাদ\" বলে বডি টেক্সট)। এটি একটি বাস্তব জমা শনাক্ত করার পরে এটি শুধুমাত্র আপনার ট্র্যাকারে অ্যাপ্লিকেশনটি লগ করে।",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "আমি একাধিক কভার লেটার সংরক্ষণ করতে পারি?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "হ্যাঁ! প্রোফাইল স্ক্রিনে একটি \"কভার লেটার ভল্ট\" বিভাগ রয়েছে যেখানে আপনি বিভিন্ন ভূমিকা বা কোম্পানির জন্য তৈরি সীমাহীন কভার লেটার সংরক্ষণ করতে পারেন। অটোফিলিং করার সময়, ApplyFlow আপনার সবচেয়ে সাম্প্রতিক বা সবচেয়ে প্রাসঙ্গিক কভার লেটার ব্যবহার করবে।",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "আমি কিভাবে আমার অ্যাপ্লিকেশন ডেটা রপ্তানি করব?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Account & Sync এ যান → নিচে স্ক্রোল করুন → \"Export Backup (JSON)\" এ ক্লিক করুন। এটি নিরাপদ রাখার জন্য JSON ফাইল হিসাবে আপনার সমস্ত প্রোফাইল এবং অ্যাপ্লিকেশন ডেটা ডাউনলোড করে।",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ApplyFlow কি ডেমো মোডে কাজ করে?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "ডেমো মোড পরীক্ষার জন্য ব্যবহৃত একটি উত্তরাধিকার সেটিং ছিল। এটি এখন ডিফল্টরূপে নিষ্ক্রিয়। অন্তর্নির্মিত Gemini API কী সহ সমস্ত বৈশিষ্ট্য লাইভ এবং কার্যকরী।",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "আমি কিভাবে একটি বাগ রিপোর্ট করব বা একটি বৈশিষ্ট্যের অনুরোধ করব?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "অনুগ্রহ করে আমাদের GitHub সংগ্রহস্থলে একটি সমস্যা খুলুন (সম্বন্ধে বিভাগে লিঙ্ক করা হয়েছে) অথবা support@applyflow.in-এ আমাদের ইমেল করুন। আমরা সাধারণত 48 ঘন্টার মধ্যে প্রতিক্রিয়া জানাই।",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "ApplyFlow পপআপ খুলুন",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "ফর্ম ক্ষেত্রগুলির জন্য বর্তমান পৃষ্ঠা স্ক্যান করুন",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "বর্তমান পৃষ্ঠায় স্মার্ট অটোফিল ট্রিগার করুন",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "ট্র্যাকারে বর্তমান কাজের তালিকা ক্লিপ করুন",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "একটি নতুন ট্যাবে ট্র্যাকার খুলুন",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Chrome এ শর্টকাট কনফিগার করুন",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "দ্রষ্টব্য:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Chrome এক্সটেনশন কমান্ডের জন্য Chrome-এর শর্টকাট ম্যানেজারে ম্যানুয়াল অ্যাসাইনমেন্ট প্রয়োজন। উপরে তালিকাভুক্ত কীগুলি আবদ্ধ করতে $1$ এ যান৷",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**অ্যাপ্লাইফ্লো ক্রোম এক্সটেনশন — গোপনীয়তা নীতি**\nশেষ আপডেট করা হয়েছে: জুন 2026\n\n---_\n\n_**1। ভূমিকা**\n_\nApplyFlow (\"আমরা\", \"আমাদের\", \"এক্সটেনশন\") হল একটি Chrome ব্রাউজার এক্সটেনশন যা ব্যবহারকারীদের চাকরির আবেদন ফর্ম স্বয়ংক্রিয়ভাবে পূরণ করতে, তাদের আবেদনগুলি ট্র্যাক করতে এবং তাদের পেশাদার প্রোফাইল পরিচালনা করতে সহায়তা করে৷ এই গোপনীয়তা নীতি ব্যাখ্যা করে যে আমরা কীভাবে আপনার তথ্য সংগ্রহ করি, ব্যবহার করি, সঞ্চয় করি এবং সুরক্ষিত করি৷\n_NL_8__ApplyFlow ইনস্টল এবং ব্যবহার করে, আপনি এই নীতিতে বর্ণিত অনুশীলনের সাথে সম্মত হন৷ আমরা ডেটা সংগ্রহ করি**\n\nআমরা এক্সটেনশনের বৈশিষ্ট্যগুলি সক্ষম করার জন্য আপনি স্বেচ্ছায় যে তথ্যগুলি প্রদান করেন তা আমরা সংগ্রহ করি:\n\n• **প্রোফাইল তথ্য**: আপনার নাম, ইমেল, ফোন নম্বর, কলেজ, ডিগ্রি, দক্ষতা, কাজের ইতিহাস, প্রকল্প এবং পেশাদার লিঙ্কগুলি (লিঙ্ক করা হয়েছে __H7, পোর্টে। **EEO/ডেমোগ্রাফিক ইনফরমেশন (ঐচ্ছিক): লিঙ্গ, অক্ষমতার স্থিতি, অভিজ্ঞ অবস্থা, এবং কাজের অনুমোদনের পছন্দগুলি — শুধুমাত্র যদি আপনি এই ক্ষেত্রগুলি পূরণ করতে চান তবেই প্রদান করা হয়। চাকরির আবেদনে ঐচ্ছিক EEO প্রশ্নাবলী অটোফিল করার জন্য এই ডেটা একচেটিয়াভাবে ব্যবহার করা হয়।\n• **অ্যাপ্লিকেশন ট্র্যাকিং ডেটা**: চাকরির শিরোনাম, কোম্পানি, অ্যাপ্লিকেশন ইউআরএল, স্ট্যাটাস, এবং আপনি এক্সটেনশন ব্যবহার করে ট্র্যাক করেন এমন অবস্থানের জন্য নোট। সীমা।\n• **প্রমাণিকরণ ডেটা**: আপনি যদি Google এর সাথে সাইন ইন করতে চান, তাহলে আমরা আপনার অভিজ্ঞতাকে ব্যক্তিগতকৃত করতে এবং ক্লাউড সিঙ্ক সক্ষম করতে আপনার Google প্রদর্শন নাম, ইমেল ঠিকানা এবং প্রোফাইল ছবির URL সংরক্ষণ করি। কার্যকলাপ\n• পৃষ্ঠাগুলি থেকে কোনো তথ্য যা চাকরি-আবেদন-সম্পর্কিত নয়\n• পৃষ্ঠাগুলি থেকে কোনো ডেটা যখন এক্সটেনশন সক্রিয়ভাবে ট্রিগার করা হয় না\n\n---\n\n_**3। আমরা কীভাবে আপনার ডেটা সঞ্চয় করি**\n_NL_32___**3.1 স্থানীয় সঞ্চয়স্থান (ডিফল্ট)**\nসমস্ত ডেটা প্রাথমিকভাবে আপনার ব্রাউজারের chrome.storage.local API এ সংরক্ষণ করা হয়। এই ডেটাটি শুধুমাত্র আপনার ডিভাইসে থাকে এবং আপনার স্পষ্ট ক্রিয়া ছাড়া কখনই কোনও সার্ভারে প্রেরণ করা হয় না৷ \n\n**3.2 ক্লাউড সিঙ্ক (ঐচ্ছিক)**\n আপনি যদি Google এর সাথে সাইন ইন করতে এবং \"Supabase Sync\" বৈশিষ্ট্যটি সক্ষম করতে চান তবে আপনার প্রোফাইল এবং অ্যাপ্লিকেশন ডেটাও একটি সুসংবাদিত ডেটা সিঙ্ক হবে৷ আপনি এই ডেটার সম্পূর্ণ মালিকানা ধরে রেখেছেন। আপনি অ্যাকাউন্ট এবং সিঙ্ক বিভাগ থেকে যেকোনো সময় এটি মুছে ফেলতে পারেন।\n\n**3.3 জেমিনি AI অনুরোধ**\nযখন AI বৈশিষ্ট্যগুলি ব্যবহার করা হয় (যেমন, রচনা তৈরি, চাকরির বিশ্লেষণ), আপনার প্রোফাইলের অংশগুলি (দক্ষতা, ডিগ্রি, সারাংশ) এবং কাজের বিবরণীতে Google-এর মিনি টেক্সট এপিআই-এ পাঠানো হয়। এটি Google-এর মানক API পরিষেবার শর্তাবলী এবং গোপনীয়তা নীতির অধীনে প্রক্রিয়া করা হয়৷ আমরা আপনার AI-সহায়তা সামগ্রীতে সংবেদনশীল ব্যক্তিগত শনাক্তকারী অন্তর্ভুক্ত না করার পরামর্শ দিই। ডেটা শেয়ারিং**\n_\nআমরা মার্কেটিং বা বিজ্ঞাপনের উদ্দেশ্যে কোনো তৃতীয় পক্ষের সাথে আপনার ব্যক্তিগত তথ্য **বিক্রয়, বাণিজ্য, ভাড়া বা শেয়ার করি না। (https://policies.google.com/privacy)\n• **Google OAuth**: অ্যাকাউন্ট প্রমাণীকরণের জন্য (https://policies.google.com/privacy)\n• **Supabase**: ঐচ্ছিক ক্লাউড স্টোরেজের জন্য (https://supabase.com/privacy) — শুধুমাত্র যদি আপনি সক্ষম করেন সিঙ্ক\n_NL_52___---\n_**5. আপনার অধিকার এবং নিয়ন্ত্রণ**\n\nআপনার অধিকার আছে:\n• **অ্যাক্সেস** সমস্ত ডেটা ApplyFlow আপনার সম্পর্কে সঞ্চয় করেছে (সেটিংসে ব্যাকআপ রপ্তানির মাধ্যমে)\n• **প্রোফাইল ট্যাবে যেকোনো সময় আপনার তথ্য সঠিক করুন__NL_57 প্রোফাইল ডেটা\" সেটিংসে\n• **অনুমতি প্রত্যাহার করুন** যে কোনো সময় এক্সটেনশন আনইনস্টল করে\n• **ক্লাউড সিঙ্ক নিষ্ক্রিয় করুন** এটিকে অ্যাকাউন্ট এবং সিঙ্ক সেটিংসে টগল করে বন্ধ করুন\n\n**GDPR (EU ব্যবহারকারীরা)** যদি আপনার কাছে অধিকার থাকে, তাহলে আপনার কাছে পুনরায় প্রবেশাধিকার আছে জেনারেল ডেটা প্রোটেকশন রেগুলেশনের অধীনে মুছে ফেলা, প্রক্রিয়াকরণ এবং ডেটা বহনযোগ্যতা সীমাবদ্ধ করা।\n\n**ভারত — DPDP আইন 2023**: ভারতের ডিজিটাল ব্যক্তিগত ডেটা সুরক্ষা আইন 2023 মেনে, আমরা শুধুমাত্র চাকরির আবেদন সহায়তা পরিষেবা প্রদানের উদ্দেশ্যে ব্যক্তিগত ডেটা প্রক্রিয়া করি। আপনি আমাদের সাথে যোগাযোগ করে যেকোনো সময় সম্মতি প্রত্যাহার করতে পারেন এবং আপনার ডেটা মুছে ফেলার অনুরোধ করতে পারেন।\n\n**ক্যালিফোর্নিয়া — CCPA**: ক্যালিফোর্নিয়ার বাসিন্দাদের ব্যক্তিগত তথ্য সংগ্রহ করা, মুছে ফেলার অধিকার এবং বিক্রয় থেকে অপ্ট-আউট করার অধিকার রয়েছে (আমরা বিক্রি করি না) ডেটা)।\n_NL_69__---\n_**6. ডেটা ধারণ**\n_\nস্থানীয় ডেটা ধরে রাখা হয় যতক্ষণ না আপনি এটি ম্যানুয়ালি পরিষ্কার করেন। আপনি আপনার অ্যাকাউন্ট মুছে ফেলা বা মুছে ফেলার অনুরোধ না করা পর্যন্ত ক্লাউড-সিঙ্ক করা ডেটা রাখা হয়। আমরা স্বয়ংক্রিয়ভাবে ডেটা মুছে ফেলি না৷ নিরাপত্তা**\n\nআমরা আপনার ডেটা সুরক্ষিত করার জন্য যুক্তিসঙ্গত প্রযুক্তিগত ব্যবস্থা গ্রহণ করি:\n• সমস্ত ক্লাউড যোগাযোগ HTTPS/TLS এনক্রিপশন ব্যবহার করে\n• সুপাবেস রো-লেভেল সিকিউরিটি (RLS) নিশ্চিত করে যে ব্যবহারকারীরা শুধুমাত্র তাদের নিজস্ব ডেটা অ্যাক্সেস করতে পারবেন\n• এক্সটেনশনের প্রয়োজন নেই যা অনুরোধের জন্য প্রয়োজন। ফাংশন\n\n---\n_**8. শিশুদের গোপনীয়তা**\n_NL_88__ApplyFlow 13 বছরের কম বয়সী ব্যবহারকারীদের জন্য উদ্দিষ্ট নয়। আমরা জেনেশুনে শিশুদের কাছ থেকে ডেটা সংগ্রহ করি না। আপনি যদি বিশ্বাস করেন যে একটি শিশু আমাদের ব্যক্তিগত তথ্য প্রদান করেছে, অনুগ্রহ করে অবিলম্বে আমাদের সাথে যোগাযোগ করুন। এই নীতিতে পরিবর্তনগুলি**\n_NL_94__আমরা সময়ে সময়ে এই গোপনীয়তা নীতি আপডেট করতে পারি। উল্লেখযোগ্য পরিবর্তনগুলি এক্সটেনশনের বিকল্প পৃষ্ঠার মাধ্যমে জানানো হবে৷ পরিবর্তনের পর এক্সটেনশনের ক্রমাগত ব্যবহার আপডেট করা নীতির স্বীকৃতি গঠন করে। আমাদের সাথে যোগাযোগ করুন**\n\n যেকোন গোপনীয়তা-সম্পর্কিত প্রশ্ন, ডেটা মুছে ফেলার অনুরোধ বা উদ্বেগের জন্য:\n\nইমেল: privacy@applyflow.in\nGitHub: https://github.com/applyflow/Web10t: https://applyflow.in\n_NL_106__আমরা 30 দিনের মধ্যে সমস্ত অনুরোধের উত্তর দেওয়ার লক্ষ্য রাখি।",
+    "description": "Privacy policy document markdown text"
+  }
+}

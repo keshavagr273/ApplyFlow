@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: د AI دنده اتومات ډکول او د غوښتنلیک تعقیبونکی",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "د کار غوښتنلیکونه اتومات ډک کړئ او لیستونه په اتوماتيک ډول په LinkedIn، Workday، Greenhouse او نورو کې د AI په کارولو سره تعقیب کړئ.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "فعاله",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "تطبیق شوی",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "مرکه",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "وړاندیز",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "خوندي شوی",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "ټول",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "اتومات ډکول",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "ډکول...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "چټک اتومات ډکول",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "د کار تحلیل",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "سائډبار خلاص کړئ",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "ترتیبات",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "مهرباني وکړئ د چټک اتومات ډک کارولو لپاره لومړی د ګوګل سره لاسلیک وکړئ!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "مهرباني وکړئ لومړی خپل پروفایل د اړخ پینل/اختیارونو پاڼې کې تنظیم کړئ!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ کشف شو",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "د کار کومه پاڼه ونه موندل شوه",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "د AI ځانګړتیاو خلاصولو لپاره د دندې لیست څخه لیدنه وکړئ",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "سهار مو پخیر",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "ماسپښین ښه",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "ماښام مو پخیر",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ غوښتنلیکونه تعقیب شوي · $2$ مرکې",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "د خپل پرمختګ تعقیبولو لپاره غوښتنلیک پیل کړئ",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "د پوښ لیک",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "پوښتنه او ځواب مرسته",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "مرستې ته چمتو دی",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "د کار پیل کولو لپاره په LinkedIn، Workday، Greenhouse، یا کوم د کار بورډ کې د دندې لیست ته لاړ شئ.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "دا اونۍ",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "وروستي فعالیت",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "ټول وګورئ →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "د خپلې دندې لټون پیل کړئ!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "د کار بورډ څخه لیدنه وکړئ او د اپل فلو څخه کار واخلئ ترڅو خپل غوښتنلیکونه په اتوماتيک ډول ډک او تعقیب کړئ.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "زما پروفایل",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "خوندي کول...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "ټول خوندي کړئ",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "پروفایل خوندي شو!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "د پروفایل خوندي کولو کې پاتې راغلی.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "بیا پیل کړئ",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "د اتوماتیک ډک پروفایل ته اپلوډ کړئ",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ پورته شوی",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "شخصي معلومات",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "نیمګړی",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "ځای",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "زده کړه",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "مهارتونه",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "کاري تجربه",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "پروژې",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "د کار غوره توبونه",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "د کار جواز",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "تاریخ بیا پیل کړئ",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "دا وکاروئ",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "په $1$ کې تجزیه شوی",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "د \"$1$\" څخه د پروفایل توضیحات پورته کړئ؟ دا به ستاسو اوسني سمونونه د دې بیا پیل شوي تحلیل شوي جوړښت سره بدل کړي.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "د $1$ څخه توضیحات بحال شوي",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "د میچ سکور",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ فټ",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "+$1$ نور",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "غوښتنلیک په اتوماتيک ډول ډک شوی او لاګ شوی! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "د ApplyFlow اړخ پینل له لارې اتومات ډک شوی",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "هلته",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "د کالج تنظیم نشته",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "د اتوماتیک ډکولو فعالولو لپاره خپل پروفایل تنظیم کړئ",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "ټاکل شوی نه دی",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ ننوتل",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "__P__0__ مهارتونه",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "__P__0__ پروژې",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "__P__0__ ځوابونه",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "مجاز",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "مجاز نه دی",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "بشپړ نوم",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "ایمیل",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "تلیفون",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "بدیل تلیفون",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "د پورټ فولیو URL",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "د GitHub URL",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "لینک بیا پیل کړئ",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "ښار",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "ریاست",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "هیواد",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "پوستی کوډ",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "پته",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "ملیت",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "کالج / پوهنتون",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "درجې",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "د فراغت کال",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / درجه",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "۱۲ فیصده",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "د خبرتیا موده",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "متوقع معاش",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "غوره رول",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "د کلونو تجربې",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "د ویزې سپانسرشپ پرته د کار کولو اجازه",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "د ویزې سپانسرشپ ته اړتیا لري",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "جندر",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "معلولیت",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "نه ویل غوره کوي",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "نه دی مشخص شوی",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "نارینه",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "ښځینه",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "غیر بائنری",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "هو",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "نه",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "تراوسه هیڅ مهارتونه اضافه شوي ندي",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "مهارت اضافه کړئ (د اضافه کولو لپاره ننوتل)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "د محرک جمله (د مثال په توګه ولې موږ باید تاسو استخدام کړو)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "ستاسو ځواب...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "لرې کړئ",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ دودیز ځواب اضافه کړئ",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "شرکت",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "رول / عنوان",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "د پیل نیټه",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "د پای نیټه",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "حاضر",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "زه اوس په دې رول کې کار کوم",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "تفصیل",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "خپل مسؤلیتونه، کلیدي لاسته راوړنې، کارول شوي ټیکنالوژي بیان کړئ ...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ کاري تجربه اضافه کړئ",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "د پروژې سرلیک",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "ټیک سټیک",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "د ځای پرځای کولو URL",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "تشریح کړئ چې تاسو څه جوړ کړی، کومه ستونزه یې حل کړې، او کلیدي ځانګړتیاوې ...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ پروژه اضافه کړئ",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "تعقیبونکی",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "خوندي شوی",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "تطبیق شوی",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "ارزونه",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "مرکه",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "وړاندیز",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "رد کړل",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "ویستل",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "دا اپلیکیشن حذف کړئ؟",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "غوښتنلیک تازه شوی!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "غوښتنلیک ړنګ شوی.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "حالت",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "پلیټ فارم",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "تطبیق شوی",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "د کار پوسټ کول خلاص کړئ",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "معاش / وظیفه",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "د تعقیب یادونه",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "یادښتونه",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "یادښتونه، د اړیکو معلومات، د مرکې توضیحات اضافه کړئ ...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "د دندې توضیحات (اقتباس)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "ړنګول",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "لغوه کړئ",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "خوندي کړئ",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 غوښتنلیک",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "__P__0__ غوښتنلیکونه",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "د شرکت لخوا فلټر کړئ ...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "د وضعیت فلټرونه",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "د نورو لپاره ښي خوا ته سکرول کړئ →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "ټول",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "هیڅ غوښتنلیکونه ونه موندل شول",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "د فلټرونو بیا تنظیم کولو هڅه وکړئ یا د نوي ټریکر ننوتلو اضافه کولو لپاره دنده خوندي کړئ",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "تجزیات",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ ټول غوښتنلیکونه",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "تراوسه هیڅ معلومات نشته",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "د دندو لپاره غوښتنلیک پیل کړئ او ستاسو تحلیلونه به دلته څرګند شي.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "د تبادلې نرخونه",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "تطبیق شوی",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "د مرکې کچه",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "د وړاندیز نرخ",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "د دې اونۍ غوښتنلیکونه",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "د غوښتنلیک فینل",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "غوره پلیټ فارمونه",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "د وضعیت ماتول",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Copilot",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "متن: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "ستاسو د مسلک شریک پیلوټ",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "نوې چیٹ ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "مهرباني وکړئ لومړی خپل پروفایل تنظیم کړئ نو AI کولی شي ځوابونه شخصي کړي.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "چیټ پاک شو! زه تاسو سره څه مرسته کولی شم؟",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "د دې دندې په اړه څه پوښتنه وکړئ ...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "د پیل کولو لپاره خپل پروفایل تنظیم کړئ",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "د لیږلو لپاره Enter فشار ورکړئ",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "د مطابقت نمرې بیا پیل کړئ",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ قوي مهارتونه",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ ورک شوي مهارتونه",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "دلته ستاسو شخصي پوښ لیک دی:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ کاپي شوی!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 کاپي",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ ډاونلوډ کړئ",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "دلته د __P__0__ احتمالي مرکې پوښتنې دي:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "د اصلاح کولو نمرې بیا پیل کړئ: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "د میچ وړاندیزونه بیا پیل کړئ",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "د دې دندې توضیحات",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "یو څه غلط شو. مهرباني وکړئ بیا هڅه وکړئ.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "سلام! زه وینم چې تاسو په **$1$** رول کې ګورئ **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "سلام! زه وینم چې تاسو د **$1$_** رول ته ګورئ.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "سلام! زه ستاسو د AI مسلک شریک پیلوټ یم. د دندې لیست ته لاړشئ او زه به یې په اتوماتيک ډول تحلیل کړم، یا له ما څخه څه وپوښتئ!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "مهرباني وکړئ لومړی خپل پروفایل په پروفایل ټب کې تنظیم کړئ!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "مهرباني وکړئ د دې خصوصیت کارولو لپاره لومړی په خپل براوزر کې د کار لیست کولو پاڼه خلاص کړئ!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "ApplyFlow خلاص کړئ",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "خپل ډشبورډ ته د لاسرسي لپاره د ګوګل سره لاسلیک وکړئ، دندې همغږي کړئ، خپل د بیا پیلولو پروفایل اداره کړئ، او د کار غوښتنلیکونه سمدلاسه اتومات ډک کړئ.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI اتومات ډکول او کلیپر",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "په یو کلیک سره غوښتنلیکونه سکین او اتوماتیک ډک کړئ.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "د کلاوډ ترکیب او بیک اپ",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "ستاسو د دندې تعقیب ټول توضیحات سوپابیس سره همغږي کړئ.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "بیا پیل او پروفایلونه",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "خپل بیا پیل کړئ او د غوښتنلیک ځوابونه تنظیم کړئ.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "د ګوګل سره نښلول...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "د ګوګل سره لاسلیک کړئ",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "په لاسلیک کولو سره، تاسو موافق یاست چې ستاسو د پروفایل ډیټا په خوندي ډول ستاسو فعال کاري ځای سره همغږي کړئ.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "ایا تاسو ډاډه یاست چې تاسو لاسلیک کول غواړئ؟",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "په بریالیتوب سره لاسلیک شو.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "د $1$ په توګه ننوتل",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "لاسلیک کول",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "ننوتل",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "نښلول...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "ApplyFlow خلاص کړئ",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "اپل فلو میچ",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "د قوي میچ کولو مهارتونه",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "ورک شوي مهارتونه",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "د سمارټ اتومات ډک پاڼه",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "د فارم اتومات ډکول...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "په پاڼه کې د ډکولو وړ غوښتنلیک ساحې ونه موندل شوې.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "په بریالیتوب سره ډک شوی!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "د پاڼې پیچلتیا له امله د اتوماتیک ډکول ناکام شو.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "د ډکولو پر مهال د لاګ ټریکر لپاره اتوماتیک خوندي شوی.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "ستاسو بیا پیل د دې رول سره **$1$% مطابقت لري**.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "بیرته ښه راغلاست، $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "د ګوګل کارن پروفایل معلوماتو په ترلاسه کولو کې پاتې راغلی.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "OAuth ننوتنه ناکامه شوه: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "د ریډیریټ څخه د لاسرسي نښه ترلاسه کولو کې پاتې راغلی.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "د تصدیق کولو لارښود تجزیه کولو کې پاتې راغلی.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "په دې پلیټ فارم کې تصدیق نه ملاتړ کیږي.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "دنده تعقیبونکي ته خوندي شوه!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "مېلمه",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ عمومي ترتیبات",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "په LinkedIn دندې پاڼو کې ښکاره کړئ",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "کله چې تاسو په لینکډین کې د دندې پوسټونه ګورئ د سمارټ میچینګ نمرې او د یو کلیک آټوفیل تڼۍ ښیې.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "د 'دندو خوندي کولو' تڼۍ وښایاست",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "د کار په سایټونو کې د \"دندو خوندي کولو\" تڼۍ ښیي نو تاسو کولی شئ د درخواست کولو دمخه د دندې توضیحات ژر تر ژره خپل تعقیبونکي ته خوندي کړئ.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "یوازې په ریښتیا غوښتنه کولو وروسته ننوتل",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "انتظار وکړئ تر هغه چې تاسو خپل ټریکر ته د دندې اضافه کولو دمخه د 'مننه' یا 'بریالیتوب' سکرین وګورئ. ستاسو ټریکر پاک ساتي د نیم ډک شوي فارمونو مخه نیولو سره چې د 'تطبیق شوي' په توګه خوندي کیږي.",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 AI کریډیټ او د کارونې تحلیلونه",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "کریډیټ پاتې دي",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "پاتې کریډیټ",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "ټول کریډیټ",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "ټول وخت اتومات ډکول",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "د پلان حالت",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "پریمیم 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "وړيا 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "پرو لارښوونه:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "د سمارټ آټوفیل عملیات 0 کریډیټ مصرفوي او 100٪ لامحدود دي! یوازې پرمختللي AI ځانګړتیاوې لکه پوښ ​​لیکونه (5 کریډیټ) او دودیز مقالې (3 کریډیټ) ستاسو د کریډیټ بیلانس مصرفوي.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 د ګوګل حساب او کلاوډ ترکیب",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "د ګوګل کلاوډ سنک فعال",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "کلاوډ سنک لاک شوی (یوازې پریمیم)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "د کلاوډ ترکیب",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "بادل ته فشار ورکړئ",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "د بادل څخه راوباسئ",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "همغږي بریالۍ شوه!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "همغږي ناکامه شوه خپل پیوستون چیک کړئ.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "د خوندي کلاوډ ترکیب",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "سوپابیس ته د خپلو غوښتنلیکونو او پروفایل بیک اپ کولو لپاره د ګوګل سره لاسلیک وکړئ. همغږي کول یو پریمیم فیچر دی چې ستاسو لاګونه په وسیلو کې خوندي ساتي.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync یو پریمیم فیچر دی. مهرباني وکړئ د اپ گریڈ ټب کې اپ گریڈ کړئ ترڅو همغږي فعال کړئ!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 د معلوماتو مدیریت",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "صادرات بیک اپ (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "ټول محلي معلومات پاک کړئ",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "د محلي معلوماتو پاکول یوازې د دې وسیله څخه ستاسو پروفایل او غوښتنلیکونه لرې کوي. د کلاوډ ډاټا غیر اغیزمنه ده.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "د کنټرول مرکز",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "کور او په اړه",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "عمومي ترتیبات",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "پرو 👑 ته لوړ کړئ",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "پریمیم پلان 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "حساب او همغږي",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "د محرمیت پالیسي",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "د کیبورډ شارټ کټونه",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 ApplyFlow ته ښه راغلاست",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow د AI ځواکمن کروم توسیع دی چې د زده کونکو او کار غوښتونکو لپاره جوړ شوی چې غواړي ګړندي او هوښیار غوښتنه وکړي. دا په اتوماتيک ډول په 15+ پلیټ فارمونو کې د کار غوښتنلیک فارمونه کشف او ډکوي، ستاسو پایپ لاین تعقیبوي، او تاسو سره د نورو مرکو په ترسره کولو کې مرسته کوي.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "سمارټ اتومات ډکول",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "د دقیق انتخاب کونکو سره 15+ ATS پلیټ فارمونه",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "ویب کلیپر",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "یو کلیک د هرې دندې لیست خوندي کړئ",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "کانبان ټریکر",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "د خپل غوښتنلیک پایپ لاین ډریګ او ډراپ کړئ",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "EEO اتومات ډکول",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "د ډیموګرافیک او ویزې پوښتنې اتومات ډکوي",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "AI مقالې",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "د جیمني ځواک لخوا دودیز ځواب لیکل",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "خوندي همغږي",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "اختیاري سوپابیس کلاوډ بیک اپ",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 څنګه پیل کول",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "خپل پروفایل جوړ کړئ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "د پاپ اپ → پروفایل ټب خلاص کړئ → خپل بیا پیل PDF اپلوډ کړئ. AI به ستاسو ټول توضیحات په اوتومات ډول استخراج کړي پشمول مهارتونه ، تجربه ، تعلیم او پروژې.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "د EEO غوره توبونه تنظیم کړئ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "په خپل پروفایل کې د EEO برخې ته سکرول وکړئ او خپل د کار جواز، د ویزې سپانسرشپ اړتیاوې، او د ډیموګرافیک غوره توبونه تنظیم کړئ. دا د EEO پوښتنلیکونو اتومات ډکولو لپاره کارول کیږي.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "د کار لیست براوز کړئ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "د هرې دندې لیست ته لاړشئ. تاسو به د 📌 \"د کار خوندي کولو\" تڼۍ وګورئ. په سمدستي توګه خپل ټریکر ته موقعیت خوندي کولو لپاره دا کلیک وکړئ.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "د غوښتنلیک فورمه پرانیزئ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "د غوښتنلیک فورمې ته لاړ شئ. د ApplyFlow پاپ اپ کلیک وکړئ → \"Scan Page\" → بیا \"⚡ Smart Autofill\" ټک وکړئ. ټولې ساحې په شمول د راډیو بټونو او ډراپ ډاونونو سمدلاسه ډک شوي.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "خپل پایپ لاین تعقیب کړئ",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "د خپلو ټولو غوښتنلیکونو لیدلو لپاره د ټریکر ټب خلاص کړئ. د کنبان بورډ لید ته لاړشئ او د کالمونو ترمینځ کارتونه د خپل حالت تازه معلوماتو په توګه ډریګ کړئ.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 ننوتل اړین دي",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "د تنظیم کولو تنظیم کولو لپاره لاسلیک وکړئ",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "عمومي ترتیبات یوازې د لاسلیک شوي کاروونکو لپاره شتون لري. د ګوګل سره لاسلیک وکړئ ترڅو خپل غوره توبونه تنظیم کړئ، د اتوماتیک ډک چلند، او نور.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "حساب او همغږي ته لاړ شئ",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "اپل فلو پرو فعال",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "د جواز کلید: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "جواز غیر فعال کړئ",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 د جواز کلیدي فعالول",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "که تاسو ګډون اخیستی وي یا د لاسرسي کوډ ترلاسه کړی وي ، د ApplyFlow پریمیم خلاصولو لپاره لاندې خپل جواز کیلي دننه کړئ.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "فعالول",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "فعالول...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 لارښوونه: تاسو کولی شئ د APPLYFLOW-PRO-2026 کلیدي په کارولو سره پریمیم فعال کړئ.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "پریمیم فعال شوی!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "د ApplyFlow ملاتړ کولو لپاره مننه. ټول پریمیم ځانګړتیاوې اوس خلاصې دي.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 د پریمیم اپ گریڈ پلان",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "د خپل مسلک صادرات او پرمختللي AI ب featuresې خلاص کړئ.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "د پوښ لیکونو، دودیز مقالو ځوابونو، د اصلاح بیا پیلولو، او جعلي مرکې چمتو کولو لپاره پریمیم AI کریډیټ ترلاسه کړئ. په ملاتړ شوي پلیټ فارمونو کې د آټوفیل عملیات په بشپړ ډول لامحدود او د ټولو پریمیم کاروونکو لپاره وړیا دي!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 د پیل کونکي وړاندیز:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "بل قیمت په 500 پریمیم کاروونکو کې زیاتوالی. د ژوند لپاره دا نرخ بند کړئ!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "میاشتنی پرو",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "د لنډ مهاله لټون لپاره ښه",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "۳۹۹ روپۍ",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ میاشت",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(یوازې 13 روپۍ / ورځ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "په میاشت کې 150 AI کریډیټ |||غیر محدود اتومات ډکول (ټول پورټلونه)",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "میاشتنی ګډون وکړئ",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "درې میاشتنۍ پرو",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "د ډیری کار غوښتونکو لپاره غوره ارزښت",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "₹ 999",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 میاشتې",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(یوازې 11 روپۍ / ورځ)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "په هر ربع کې د 500 AI کریډیټ || غیر محدود اتومات ډکول (ټول پورټلونه) ||",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "په درې میاشتنۍ برخه کې ګډون وکړئ",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "ډیر مشهور",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "کلنۍ حتما",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "د بریښنا کاروونکو لپاره غوره ارزښت",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "₹ 2,999",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ کال",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(د ₹ 249 / میاشت سره مساوي)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "په کال کې 2,500 AI کریډیټ |||لامحدود ورځني اتوماتیک ډکول",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "په کال کې ګډون وکړئ",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "غوره ارزښت - 40٪ خوندي کړئ",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "د ApplyFlow پراختیا ملاتړ کوي",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow د خپلواک پراختیا کونکو لخوا جوړ او ساتل کیږي. که تاسو تمدید ګټور ومومئ، په Ko-fi کې د مرستې کولو په اړه فکر وکړئ ترڅو د نوي دندې بورډونو لپاره فعال، له اعلاناتو څخه پاک، او تازه ساتلو کې مرسته وکړي.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "ما ته په کوفي کې یو قهوه وپیرئ",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5.0 درجه بندي|||🔒 خوندي تادیات|||✓ هر وخت لغوه کړئ",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "ناسم جواز کیلي. اشاره: د ډیمو کیلي کارولو هڅه وکړئ 'APPLYFLOW-PRO-2026'!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "جواز په بریالیتوب سره فعال شو! ApplyFlow پریمیم ته ښه راغلاست. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "ایا تاسو ډاډه یاست چې تاسو غواړئ خپل پریمیم جواز غیر فعال کړئ؟ دا به تاسو وړیا پلان ته راستانه شي.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "د پریمیم جواز غیر فعال شو. تاسو اوس په وړیا پلان کې یاست.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "دا به د تل لپاره ټول محلي پروفایل او غوښتنلیک ډیټا حذف کړي. ایا تاسو ډاډه یاست؟",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 د محرمیت تګلاره",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ په مکرر ډول پوښتل شوي پوښتنې",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "ApplyFlow څه شی دی او دا څنګه کار کوي؟",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow د AI ځواکمن کروم توسیع دی چې په اتوماتيک ډول په 15+ پلیټ فارمونو کې د کار غوښتنلیک فارمونه په اتوماتيک ډول کشف او ډکوي پشمول د LinkedIn، Internshala، Unstop، Workday، Greenhouse، Lever، او نور ډیر څه. دا ستاسو خوندي شوی پروفایل لولي او د متن ساحو، ډراپ ډاونونو، راډیو بټونو، او چک بکسونو ډکولو لپاره هوښیار میچنګ کاروي - په شمول د EEO/ډیموګرافیک پوښتنو.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "ایا زما شخصي معلومات د ApplyFlow سره خوندي دي؟",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "هو. ستاسو معلومات په سیمه ایز ډول ستاسو د براوزر په chrome.storage.local کې د ډیفالټ لخوا زیرمه شوي. دا هیڅکله ستاسو د خپل اختیاري سوپابیس ډیټابیس (کوم چې تاسو کنټرول کوئ) پرته بل کوم دریمې ډلې سرور ته نه لیږل کیږي. ApplyFlow هیڅکله ستاسو شخصي معلومات نه پلوري، شریکوي، یا پیسې ورکوي.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "د کوم کار پلیټ فارمونه ApplyFlow ملاتړ کوي؟",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow د بکس څخه بهر د 15 څخه ډیر پلیټ فارمونو ملاتړ کوي: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList، او زموږ د انټرنټ میچ بیک بیک له لارې کوم بل سایټ.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "ویب کلیپر څه شی دی؟",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "ویب کلیپر د \"دندو خوندي کولو\" تڼۍ (📌) ده چې په اتوماتيک ډول ښکاره کیږي کله چې تاسو د دندې لیست کولو پاڼې ته ګورئ. په دې کلیک کول د دندې سرلیک، شرکت، معاش او توضیحات استخراجوي، بیا یې ستاسو د ApplyFlow ټریکر ته د \"خوندي شوي\" غوښتنلیک په توګه خوندي کوي - نو تاسو کولی شئ د درخواست کولو دمخه دندې تعقیب کړئ.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "زه څنګه خپل پروفایل تازه کړم؟",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "د ApplyFlow پاپ اپ خلاص کړئ، \"پروفایل\" ټب کلیک وکړئ، او خپل بیا پیل PDF اپلوډ کړئ. AI به ستاسو ټولې ساحې په اوتومات ډول آباد کړي. تاسو کولی شئ په لاسي ډول ستاسو د EEO غوره توبونو، د کار واک، او د پوښ لیکونو په شمول هر ساحه ترمیم کړئ.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "د EEO ساحې څه دي او ولې زه ورته اړتیا لرم؟",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "EEO (د کار د مساوي فرصت) ساحې هغه پوښتنې دي چې ډیری متحده ایالاتو او نړیوال کارګمارونکي د جنډر، معلولیت حالت، تجربه لرونکي حالت، او د کار واک په اړه پوښتنه کوي. ApplyFlow ستاسو د خوښې ځوابونه ذخیره کوي او په اتوماتيک ډول د دې راډیو بټن ګروپونه ډکوي نو تاسو اړتیا نلرئ هر وخت دوی ته په لاسي ډول ځواب ورکړئ.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "ایا ApplyFlow کوم API کیلي یا تشکیلاتو ته اړتیا لري؟",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "نه! ApplyFlow د ټولو فورمو کشف، سمارټ میچنګ، د پوښ لیک تولید، او د مطابقت نمرې په اوتومات ډول اداره کوي. تاسو اړتیا نلرئ د API کیلي ترلاسه کړئ یا تنظیم کړئ.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Supabase sync څه شی دی او زه ورته اړتیا لرم؟",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Supabase sync یو اختیاري کلاوډ بیک اپ ځانګړتیا ده. کله چې تاسو د ګوګل سره لاسلیک کړئ او فعال یې کړئ، ستاسو پروفایل او د غوښتنلیک تعقیبونکی د شخصي کلاوډ ډیټابیس سره همغږي کیږي نو ستاسو ډاټا بیک اپ کیږي او د ډیری وسیلو څخه د لاسرسي وړ وي. دا په بشپړ ډول اختیاري دی - توسیع په بشپړ ډول آفلاین کار کوي.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "ولې ApplyFlow ټولو ویب پاڼو ته لاسرسی ته اړتیا لري؟",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow ټولو ویب پاڼو ته د لاسرسي غوښتنه کوي نو دا کولی شي د هر کار غوښتنلیک فورمه کې د آټوفیل انجن داخل کړي، او د هرې دندې لیست کې د \"د کار خوندي کولو\" کلیپر تڼۍ وښيي. دا اجازه د پراخ پلیټ فارم ملاتړ لپاره اړینه ده. موږ یوازې په هغو پاڼو کې سکریپټونه اچوو چې په واضح ډول د دندې پورې تړاو لري.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "د کانبان بورډ څه شی دی؟",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "د کانبان بورډ په ټریکر ټب کې د بصری دندې تعقیب لید دی. دا ستاسو غوښتنلیکونه په کالمونو کې تنظیم شوي ښیې: خوندي شوي → پلي شوي → ارزونه → مرکه → وړاندیز. تاسو کولی شئ د هر غوښتنلیک حالت تازه کولو لپاره د کالمونو ترمینځ کارتونه راوباسئ او پریږدئ.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "د سپارلو کشف څنګه کار کوي؟",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "کله چې تاسو په ترتیباتو کې \"یوازې د سپارلو وروسته ننوتل\" فعال کړئ، ApplyFlow د پاڼې بدلونونو لپاره ګوري چې د بریالي سپارلو نښه کوي (لکه یو URL چې \"/بریالیتوب\" لري یا د بدن متن چې وايي \"د غوښتنلیک لپاره مننه\"). دا یوازې ستاسو ټریکر ته غوښتنلیک لاګ کوي وروسته له دې چې دا ریښتیني سپارنه کشف کړي.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "ایا زه کولی شم څو پوښ لیکونه ذخیره کړم؟",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "هو! د پروفایل سکرین د \"کور لیټر والټ\" برخه لري چیرې چې تاسو کولی شئ د مختلف رولونو یا شرکتونو لپاره مناسب لامحدود پوښ لیکونه ذخیره کړئ. کله چې اتومات ډکول، ApplyFlow به ستاسو ترټولو وروستي یا خورا اړونده پوښ ​​لیک وکاروي.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "زه څنګه د خپل غوښتنلیک ډیټا صادر کړم؟",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "حساب او همغږي ته لاړ شئ → لاندې ته سکرول کړئ → \"د صادراتو بیک اپ (JSON)\" کلیک وکړئ. دا ستاسو ټول پروفایل او غوښتنلیک ډیټا د خوندي ساتلو لپاره د JSON فایل په توګه ډاونلوډ کوي.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "ایا ApplyFlow په ډیمو حالت کې کار کوي؟",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "د ډیمو موډ یو میراث ترتیب و چې د ازموینې لپاره کارول کیده. دا اوس د ډیفالټ لخوا غیر فعال شوی. ټولې ځانګړتیاوې د جوړ شوي Gemini API کیلي سره ژوندۍ او فعالې دي.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "زه څنګه د بګ راپور ورکوم یا د ځانګړتیا غوښتنه وکړم؟",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "مهرباني وکړئ زموږ د GitHub ذخیره کې یوه مسله خلاص کړئ (په اړه برخه کې لینک شوی) یا موږ ته په support@applyflow.in بریښنالیک واستوئ. موږ عموما په 48 ساعتونو کې ځواب ورکوو.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "د ApplyFlow پاپ اپ خلاص کړئ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "د فارم ساحو لپاره اوسنی پاڼه سکین کړئ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "په اوسني مخ کې د سمارټ اتومات ډکول پیل کړئ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "د اوسني دندې لیست ټریکر ته کلیک کړئ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "په نوي ټب کې ټریکر خلاص کړئ",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "په کروم کې شارټ کټونه تنظیم کړئ",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "یادونه:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "د کروم توسیع کمانډونه د کروم شارټ کټ مدیر کې لاسي دندې ته اړتیا لري. پورته لست شوي کیلي تړلو لپاره $1$ ته لاړ شئ.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow کروم توسیع — د محرمیت پالیسي**\nوروستی تازه: جون 2026\n\n---_\n\n**1. پیژندنه**\n_\nApplyFlow (\"موږ\"، \"زموږ\"، \"توسیع\") د کروم براوزر توسیع دی چې کاروونکو سره د دندې غوښتنلیک فارمونو په اتوماتيک ډول ډکولو، د دوی غوښتنلیکونو تعقیب، او د دوی مسلکي پروفایل اداره کولو کې مرسته کوي. دا د محرمیت پالیسي تشریح کوي چې موږ څنګه ستاسو معلومات راټولوو، کاروو، ذخیره کوو، او ساتنه کوو.\n\nد ApplyFlow په نصبولو او کارولو سره، تاسو په دې پالیسي کې بیان شوي طرزالعملونو سره موافق یاست. هغه معلومات چې موږ راټولوو**\n_NL_14__موږ یوازې هغه معلومات راټولوو چې تاسو یې په خپله خوښه د تمدید د ځانګړتیاوو د فعالولو لپاره چمتو کوئ: \n\n• **د پروفایل معلومات**: ستاسو نوم، بریښنالیک، د تلیفون شمیره، کالج، درجې، مهارتونه، د کار تاریخ، پروژې، او مسلکي لینکونه (لینک شوي، د پورټ__H14، GT__H76) لینک شوي. **EEO/ډیموګرافیک معلومات (اختیاري): د جنډر، معلولیت حالت، د تجربه کار حالت، او د کار واک کولو غوره توبونه - یوازې هغه وخت چمتو شوي چې تاسو د دې ساحو ډکولو انتخاب کوئ. دا ډاټا په ځانګړي ډول د دندې غوښتنلیکونو کې د اختیاري EEO پوښتنلیکونو اتومات ډکولو لپاره کارول کیږي.\n• **د غوښتنلیک تعقیب ډاټا**: د دندې سرلیک، شرکت، د غوښتنلیک URL، حالت، او د هغو پوستونو لپاره یادښتونه چې تاسو د توسیع په کارولو سره تعقیب کوئ. حدود).\n• **د تصدیق ډاټا**: که تاسو د ګوګل سره لاسلیک کول غوره کړئ، موږ ستاسو د تجربې شخصي کولو او د کلاوډ ترکیب فعالولو لپاره ستاسو د ګوګل نمایش نوم، بریښنالیک پته، او د پروفایل انځور URL ذخیره کوو. activity\n• د هغو پاڼو څخه کوم معلومات چې د کار غوښتنلیک سره تړاو نلري\n• د مخونو څخه کوم معلومات کله چې تمدید په فعاله توګه نه وي پیل شوی\n\n---\n\n**3. موږ څنګه ستاسو ډاټا ذخیره کوو**\n_NL_32__**3.1 سیمه ایز ذخیره (ډیفالټ)**\nټول معلومات په ابتدايي ډول ستاسو د براوزر په chrome.storage.local API کې زیرمه شوي. دا ډاټا یوازې ستاسو په وسیله کې پاتې کیږي او هیڅکله ستاسو د واضح عمل پرته هیڅ سرور ته نه لیږدول کیږي. \n\n**3.2 کلاوډ Sync (اختیاري)**\n که تاسو د ګوګل سره لاسلیک کول غوره کړئ او د \"Supabase Sync\" خصوصیت فعال کړئ، ستاسو د پروفایل او غوښتنلیک ډیټا به هم همغږي شي. تاسو د دې معلوماتو بشپړ ملکیت ساتئ. تاسو کولی شئ دا په هر وخت کې د حساب او همغږي برخې څخه حذف کړئ.\n\n**3.3 Gemini AI غوښتنې**\nکله چې د AI ځانګړتیاوې کارول کیږي (د بیلګې په توګه، د مقالې تولید، د کار تحلیل)، ستاسو د پروفایل برخې (مهارتونه، درجې، لنډیز) او د ځواب ویونکي د API متن ته د دندې توضیحاتو ته لیږل کیږي. دا د ګوګل د معیاري API خدماتو شرایطو او محرمیت پالیسۍ لاندې پروسس کیږي. موږ وړاندیز کوو چې ستاسو د AI په مرسته شوي مینځپانګې کې حساس شخصي پیژندونکي شامل نه کړئ. د معلوماتو شریکول**\n_\nموږ د بازار موندنې یا اعلاناتو موخو لپاره ستاسو شخصي معلومات له کوم دریم اړخ سره نه پلورو، تجارت، کرایه، یا شریک نه کوو. (https://policies.google.com/privacy)\n• **Google OAuth**: د حساب تصدیق لپاره (https://policies.google.com/privacy)\n• **Supabase**: د اختیاري کلاوډ ذخیره کولو لپاره (https://supabase.com/privacy) — یوازې که تاسو فعال کړئ همغږي\n_NL_52___---NL_53_\n_**5. ستاسو حقونه او کنټرولونه**\n\nتاسو حق لرئ:\n• **Access** ټول معلومات ApplyFlow ستاسو په اړه زیرمه کړي دي (په ترتیباتو کې د ایکسپورټ بیک اپ له لارې)\n• ** په هر وخت کې د پروفایل په ټب کې خپل معلومات سم کړئ \n• د ټولو ډیټا په کارولو سره خپل معلومات سم کړئ. د پروفایل ډیټا\" په ترتیباتو کې\n• ** رضایت بیرته واخلئ ** په هر وخت کې د تمدید په غیر نصبولو سره\n• **د کلاوډ ترکیب غیر فعال کړئ ** دا د حساب او همغږي کولو ترتیباتو کې د ټګل کولو سره بند کړئ\n\n**GDPR (EU کاروونکي)**: که تاسو د لاسرسي حق لرئ ، نو تاسو ته د لاسرسي حق لرئ. د عمومي معلوماتو محافظت مقرراتو لاندې پاکول، پروسس کول، او د معلوماتو لیږد محدودول.\n\n**هند - DPDP قانون 2023**: د هند د ډیجیټل شخصي معلوماتو ساتنې قانون 2023 سره په مطابقت کې، موږ یوازې د کار غوښتنلیک مرستې خدمت چمتو کولو هدف لپاره شخصي معلومات پروسس کوو. تاسو کولی شئ هر وخت له موږ سره په تماس کې رضایت بیرته واخلئ او د خپل ډیټا حذف کولو غوښتنه وکړئ.\n_NL_67__**کالیفورنیا - CCPA**: د کالیفورنیا اوسیدونکي حق لري پوه شي چې کوم شخصي معلومات راټول شوي ، د حذف کولو حق او د پلور څخه د وتلو حق (موږ نه پلورو) ډاټا).\n_NL_69___---NL_70_\n_**6. د معلوماتو ساتل**\n_\n ځایي ډاټا ساتل کیږي تر هغه چې تاسو یې په لاسي ډول پاک نه کړئ. د کلاوډ سره همغږي شوي ډاټا ساتل کیږي تر هغه چې تاسو خپل حساب حذف کړئ یا د حذف کولو غوښتنه وکړئ. موږ په اتوماتيک ډول ډیټا نه حذف کوو.\n_NL_75___---NL_76_\n_**7. امنیت**\n\nموږ ستاسو د معلوماتو د ساتنې لپاره مناسب تخنیکي ګامونه اخلو:\n• ټول کلاوډ مخابرات HTTPS/TLS انکرپشن کاروي\n• Supabase Row-level Security (RLS) ډاډ ترلاسه کوي چې کاروونکي کولی شي یوازې خپل ډیټا ته لاسرسی ولري\n• د تمدید اړتیا د هغه څه لپاره نه ده چې غوښتنه یې نه وي. فعالیت\n\n_---NL_85_\n_**8. د ماشومانو محرمیت**\n_NL_88__ApplyFlow د 13 کلونو څخه کم عمر کاروونکو لپاره نه دی. موږ په پوهه سره د ماشومانو معلومات نه راټولوو. که تاسو باور لرئ چې یو ماشوم موږ ته شخصي معلومات راکړي دي، مهرباني وکړئ سمدلاسه له موږ سره اړیکه ونیسئ. په دې پالیسۍ کې بدلونونه**\n_NL_94__موږ ممکن دا د محرمیت پالیسي وخت په وخت تازه کړو. د پام وړ بدلونونه به د توسیع د اختیارونو پاڼې له لارې خبر شي. د بدلونونو څخه وروسته د تمدید دوام کارول د نوي شوي پالیسي منل تشکیلوي. موږ سره اړیکه ونیسئ **\n_\n د محرمیت پورې اړوند پوښتنو، د معلوماتو حذف کولو غوښتنو، یا اندیښنو لپاره: \n\n بریښنالیک: privacy@applyflow.in\nGitHub: https://github.com/applyflow_4_Webite: https://applyflow.in\n_NL_106__موږ هدف لرو چې په 30 ورځو کې ټولو غوښتنو ته ځواب ووایو.",
+    "description": "Privacy policy document markdown text"
+  }
+}

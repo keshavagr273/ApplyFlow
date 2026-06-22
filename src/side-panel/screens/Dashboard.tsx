@@ -4,6 +4,7 @@ import { Screen } from '../../shared/types';
 import { GroqAIService } from '../../shared/aiService';
 import { Storage } from '../../shared/storage';
 import { Sparkles, Compass, Check, AlertTriangle, Mail, HelpCircle, Briefcase } from 'lucide-react';
+import { t } from '../../shared/i18n';
 
 const PLATFORM_STYLES: Record<string, { label: string; color: string; bg: string; emoji: string }> = {
   linkedin:        { label: 'LinkedIn',        color: '#0077b5', bg: '#0077b515', emoji: '💼' },
@@ -54,8 +55,8 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
   );
 
   const greetingHour = new Date().getHours();
-  const greeting = greetingHour < 12 ? 'Good morning' : greetingHour < 17 ? 'Good afternoon' : 'Good evening';
-  const userName = profile?.name?.split(' ')[0] || settings?.userDisplayName?.split(' ')[0] || 'there';
+  const greeting = greetingHour < 12 ? t('good_morning') : greetingHour < 17 ? t('good_afternoon') : t('good_evening');
+  const userName = profile?.name?.split(' ')[0] || settings?.userDisplayName?.split(' ')[0] || t('there');
 
   // Auto-analyze when job page is detected
   useEffect(() => {
@@ -97,14 +98,14 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
       platform: (tabContext?.platform || 'company_site') as any,
       status: 'applied' as const,
       appliedAt: Date.now(),
-      notes: 'Auto-filled via ApplyFlow Side Panel',
+      notes: t('autofill_notes'),
       jobDescription: tabContext?.jobDescription,
       matchScore: analysis?.matchScore,
     };
 
     chrome.runtime.sendMessage({ type: 'ATS_FILL', payload: { profile, pendingApp } });
     await addApplication(pendingApp);
-    showToast('Application autofilled and logged! ✨', 'success');
+    showToast(t('autofill_success'), 'success');
     setTimeout(() => setIsFilling(false), 1500);
   }, [profile, settings, tabContext, analysis, addApplication, showToast]);
 
@@ -125,8 +126,8 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
         </h1>
         <p className="text-xs text-gray-500 mt-0.5">
           {stats.total > 0
-            ? `${stats.total} applications tracked · ${stats.interview} interviews`
-            : 'Start applying to track your progress'}
+            ? t('applications_tracked', String(stats.total), String(stats.interview))
+            : t('start_applying')}
         </p>
       </div>
 
@@ -184,8 +185,8 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                       </div>
                     </div>
                     <div>
-                      <div className="text-[9px] font-bold text-gray-500 uppercase tracking-wider leading-none">Match Score</div>
-                      <div className="text-xs font-black text-white leading-normal mt-1">{analysis.matchScore}% Fit</div>
+                      <div className="text-[9px] font-bold text-gray-500 uppercase tracking-wider leading-none">{t('match_score')}</div>
+                      <div className="text-xs font-black text-white leading-normal mt-1">{t('fit_percent', String(analysis.matchScore))}</div>
                     </div>
                   </div>
 
@@ -196,7 +197,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                     className="flex-1 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-lg py-2 px-3 text-xs flex items-center justify-center gap-1.5 transition-all disabled:opacity-50 active:scale-95 shadow-sm"
                   >
                     <Sparkles size={11} className={isFilling ? 'animate-spin' : ''} />
-                    <span>{isFilling ? 'Filling...' : 'Autofill'}</span>
+                    <span>{isFilling ? t('filling') : t('autofill')}</span>
                   </button>
                 </div>
               ) : null}
@@ -216,7 +217,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                   ))}
                   {(analysis.strongSkills.length > 3 || analysis.missingSkills.length > 2) && (
                     <span className="text-[9px] text-gray-500 font-semibold px-1 py-0.5 self-center">
-                      +{analysis.strongSkills.length - 3 + Math.max(0, analysis.missingSkills.length - 2)} more
+                      {t('more_skills', String(analysis.strongSkills.length - 3 + Math.max(0, analysis.missingSkills.length - 2)))}
                     </span>
                   )}
                 </div>
@@ -229,13 +230,13 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                     onClick={handleGenerateCoverLetter}
                     className="flex-1 bg-white/5 border border-white/10 text-gray-300 font-semibold rounded-lg py-1.5 text-[10px] flex items-center justify-center gap-1.5 hover:bg-white/10 transition-all active:scale-95"
                   >
-                    <Mail size={11} /> Cover Letter
+                    <Mail size={11} /> {t('cover_letter')}
                   </button>
                   <button
                     onClick={() => onNavigate('assistant')}
                     className="flex-1 bg-white/5 border border-white/10 text-gray-300 font-semibold rounded-lg py-1.5 text-[10px] flex items-center justify-center gap-1.5 hover:bg-white/10 transition-all active:scale-95"
                   >
-                    <HelpCircle size={11} /> Q&A Help
+                    <HelpCircle size={11} /> {t('qa_help')}
                   </button>
                 </div>
               )}
@@ -248,9 +249,9 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
               <Sparkles size={22} />
             </div>
             <div>
-              <div className="text-sm font-bold text-gray-200">Ready to help</div>
+              <div className="text-sm font-bold text-gray-200">{t('ready_to_help')}</div>
               <div className="text-xs text-gray-500 mt-1 leading-relaxed">
-                Navigate to a job listing on LinkedIn, Workday, Greenhouse, or any job board to get started.
+                {t('navigate_prompt')}
               </div>
             </div>
             <div className="flex flex-wrap justify-center gap-1.5">
@@ -263,13 +264,13 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
 
         {/* ── Weekly Stats ──────────────────────────────────────── */}
         <div>
-          <div className="section-label mb-2.5">This Week</div>
+          <div className="section-label mb-2.5">{t('this_week')}</div>
           <div className="grid grid-cols-4 gap-2">
             {[
-              { label: 'Applied',   value: stats.applied,   color: 'text-blue-400' },
-              { label: 'Interview', value: stats.interview, color: 'text-purple-400' },
-              { label: 'Offer',     value: stats.offer,     color: 'text-emerald-400' },
-              { label: 'Saved',     value: stats.saved,     color: 'text-gray-400' },
+              { label: t('applied'),   value: stats.applied,   color: 'text-blue-400' },
+              { label: t('interview'), value: stats.interview, color: 'text-purple-400' },
+              { label: t('offer'),     value: stats.offer,     color: 'text-emerald-400' },
+              { label: t('saved'),     value: stats.saved,     color: 'text-gray-400' },
             ].map(s => (
               <div key={s.label} className="bg-surface-dark50 border border-white/6 rounded-2xl p-2 text-center flex flex-col justify-center items-center aspect-square shadow-sm min-w-0">
                 <div className={`text-xl font-black ${s.color} leading-none`}>{s.value}</div>
@@ -283,12 +284,12 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
         {recentApps.length > 0 && (
           <div>
             <div className="flex items-center justify-between mb-2.5">
-              <div className="section-label">Recent Activity</div>
+              <div className="section-label">{t('recent_activity')}</div>
               <button
                 onClick={() => onNavigate('tracker')}
                 className="text-[10px] text-brand-400 font-semibold hover:text-brand-300 transition-colors"
               >
-                View all →
+                {t('view_all')}
               </button>
             </div>
             <div className="flex flex-col gap-2">
@@ -300,7 +301,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                   </div>
                   <div className="text-right shrink-0">
                     <div className={`text-[10px] font-bold uppercase tracking-wider ${STATUS_COLORS[app.status] || 'text-gray-500'}`}>
-                      {app.status}
+                      {t(app.status)}
                     </div>
                     <div className="text-[9px] text-gray-600 mt-0.5">
                       {new Date(app.appliedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
@@ -318,9 +319,9 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
             <div className="w-14 h-14 rounded-2xl bg-brand-500/10 flex items-center justify-center text-brand-400 mb-0.5">
               <Compass size={28} className="animate-pulse" />
             </div>
-            <div className="text-sm font-bold text-gray-300">Start your job hunt!</div>
+            <div className="text-sm font-bold text-gray-300">{t('start_job_hunt')}</div>
             <div className="text-xs text-gray-500 leading-relaxed max-w-[200px]">
-              Visit a job board and use ApplyFlow to autofill and track your applications automatically.
+              {t('visit_job_board_desc')}
             </div>
           </div>
         )}

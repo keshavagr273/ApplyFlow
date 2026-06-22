@@ -1,0 +1,1558 @@
+{
+  "appName": {
+    "message": "ApplyFlow: автозаповнення вакансій і відстеження програм",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Автоматично заповнюйте заявки на роботу та списки треків за допомогою ШІ на LinkedIn, Workday, Greenhouse тощо.",
+    "description": "The description of the extension"
+  },
+  "brandName": {
+    "message": "ApplyFlow",
+    "description": "The brand name of the extension"
+  },
+  "active": {
+    "message": "Активний",
+    "description": "Active status label"
+  },
+  "applied": {
+    "message": "Прикладний",
+    "description": "Applied statistics label"
+  },
+  "interview": {
+    "message": "Інтерв'ю",
+    "description": "Interview statistics label"
+  },
+  "offer": {
+    "message": "Пропозиція",
+    "description": "Offer statistics label"
+  },
+  "saved": {
+    "message": "Збережено",
+    "description": "Saved statistics label"
+  },
+  "total": {
+    "message": "Всього",
+    "description": "Total statistics label"
+  },
+  "autofill": {
+    "message": "Автозаповнення",
+    "description": "Autofill button text"
+  },
+  "filling": {
+    "message": "Наповнення...",
+    "description": "Filling state text"
+  },
+  "quick_autofill": {
+    "message": "Швидке автозаповнення",
+    "description": "Quick Autofill button text"
+  },
+  "analyze_job": {
+    "message": "Проаналізуйте роботу",
+    "description": "Analyze Job button text"
+  },
+  "open_sidebar": {
+    "message": "Відкрийте бічну панель",
+    "description": "Open Sidebar button text"
+  },
+  "settings": {
+    "message": "Налаштування",
+    "description": "Settings link text"
+  },
+  "signin_warning": {
+    "message": "Щоб скористатися швидким автозаповненням, спершу ввійдіть в обліковий запис Google!",
+    "description": "Warning to sign in first"
+  },
+  "profile_warning": {
+    "message": "Спочатку налаштуйте свій профіль на бічній панелі/сторінці параметрів!",
+    "description": "Warning to set up profile first"
+  },
+  "job_detected": {
+    "message": "$1$ Виявлено",
+    "description": "Platform detected label"
+  },
+  "no_job_detected": {
+    "message": "Сторінку з вакансією не виявлено",
+    "description": "No job page detected label"
+  },
+  "visit_job_listing": {
+    "message": "Відвідайте список вакансій, щоб розблокувати функції ШІ",
+    "description": "Prompt to visit job listing"
+  },
+  "good_morning": {
+    "message": "доброго ранку",
+    "description": "Morning greeting"
+  },
+  "good_afternoon": {
+    "message": "доброго дня",
+    "description": "Afternoon greeting"
+  },
+  "good_evening": {
+    "message": "добрий вечір",
+    "description": "Evening greeting"
+  },
+  "applications_tracked": {
+    "message": "$1$ заявок відстежено · $2$ співбесід",
+    "description": "Tracker summary text"
+  },
+  "start_applying": {
+    "message": "Почніть подавати заявку, щоб відстежувати свій прогрес",
+    "description": "Start applying prompt text"
+  },
+  "cover_letter": {
+    "message": "Супровідний лист",
+    "description": "Cover Letter button text"
+  },
+  "qa_help": {
+    "message": "Питання та відповіді Допомога",
+    "description": "Q&A Help button text"
+  },
+  "ready_to_help": {
+    "message": "Готовий допомогти",
+    "description": "Ready to help label"
+  },
+  "navigate_prompt": {
+    "message": "Щоб почати, перейдіть до списку вакансій на LinkedIn, Workday, Greenhouse чи будь-якій дошці вакансій.",
+    "description": "Prompt to navigate to job listing"
+  },
+  "this_week": {
+    "message": "Цей тиждень",
+    "description": "This Week label"
+  },
+  "recent_activity": {
+    "message": "Останні дії",
+    "description": "Recent Activity label"
+  },
+  "view_all": {
+    "message": "Переглянути все →",
+    "description": "View all link"
+  },
+  "start_job_hunt": {
+    "message": "Почніть пошук роботи!",
+    "description": "Start your job hunt title"
+  },
+  "visit_job_board_desc": {
+    "message": "Відвідайте дошку вакансій і використовуйте ApplyFlow для автоматичного заповнення та автоматичного відстеження ваших заявок.",
+    "description": "Description to visit job board"
+  },
+  "my_profile": {
+    "message": "Мій профіль",
+    "description": "My Profile title"
+  },
+  "saving": {
+    "message": "Збереження...",
+    "description": "Saving... state text"
+  },
+  "save_all": {
+    "message": "Зберегти все",
+    "description": "Save All button text"
+  },
+  "profile_saved": {
+    "message": "Профіль збережено!",
+    "description": "Profile saved toast message"
+  },
+  "failed_save": {
+    "message": "Не вдалося зберегти профіль.",
+    "description": "Failed to save profile toast message"
+  },
+  "resume_title": {
+    "message": "Резюме",
+    "description": "Resume section title"
+  },
+  "upload_resume_badge": {
+    "message": "Завантажити в профіль автозаповнення",
+    "description": "Upload to auto-fill profile badge text"
+  },
+  "uploaded_badge": {
+    "message": "✓ Завантажено",
+    "description": "Uploaded badge text"
+  },
+  "personal_info_title": {
+    "message": "Особиста інформація",
+    "description": "Personal Info section title"
+  },
+  "incomplete_badge": {
+    "message": "Неповний",
+    "description": "Incomplete badge text"
+  },
+  "location_title": {
+    "message": "Розташування",
+    "description": "Location section title"
+  },
+  "education_title": {
+    "message": "Освіта",
+    "description": "Education section title"
+  },
+  "skills_title": {
+    "message": "Навички",
+    "description": "Skills section title"
+  },
+  "experience_title": {
+    "message": "Досвід роботи",
+    "description": "Work Experience section title"
+  },
+  "projects_title": {
+    "message": "Проекти",
+    "description": "Projects section title"
+  },
+  "prefs_title": {
+    "message": "Робочі переваги",
+    "description": "Work Preferences section title"
+  },
+  "workauth_title": {
+    "message": "Дозвіл на роботу",
+    "description": "Work Authorization section title"
+  },
+  "resume_history_title": {
+    "message": "Історія резюме",
+    "description": "Resume History title"
+  },
+  "use_this": {
+    "message": "Використовуйте це",
+    "description": "Use This button text"
+  },
+  "parsed_on": {
+    "message": "Проаналізовано $1$",
+    "description": "Parsed on date text"
+  },
+  "restore_confirm": {
+    "message": "Завантажити деталі профілю з \"$1$\"? Це замінить ваші поточні редагування проаналізованою структурою цього резюме.",
+    "description": "Confirmation dialog message to restore"
+  },
+  "restored_msg": {
+    "message": "Відновлено деталі з $1$",
+    "description": "Restored details message"
+  },
+  "match_score": {
+    "message": "Результат матчу",
+    "description": "Match score label"
+  },
+  "fit_percent": {
+    "message": "$1$ Fit",
+    "description": "Fit percent text"
+  },
+  "more_skills": {
+    "message": "ще +$1$",
+    "description": "More skills count label"
+  },
+  "autofill_success": {
+    "message": "Заява автоматично заповнена та зареєстрована! ✨",
+    "description": "Toast message when autofill completes"
+  },
+  "autofill_notes": {
+    "message": "Автоматично заповнюється через бічну панель ApplyFlow",
+    "description": "Note added to autofilled application"
+  },
+  "there": {
+    "message": "там",
+    "description": "Fallback name suffix in greeting"
+  },
+  "no_college_set": {
+    "message": "Без коледжу",
+    "description": "Profile no college label"
+  },
+  "setup_profile_desc": {
+    "message": "Налаштуйте свій профіль, щоб увімкнути автозаповнення",
+    "description": "Profile setup description"
+  },
+  "not_set": {
+    "message": "Не встановлено",
+    "description": "Generic not set label"
+  },
+  "entries_count": {
+    "message": "$1$ записів",
+    "description": "Entries count label"
+  },
+  "skills_count": {
+    "message": "$1$ навички",
+    "description": "Skills count label"
+  },
+  "projects_count": {
+    "message": "$1$ проектів",
+    "description": "Projects count label"
+  },
+  "answers_count": {
+    "message": "$1$ відповідей",
+    "description": "Answers count label"
+  },
+  "authorized": {
+    "message": "Авторизований",
+    "description": "Work authorization true label"
+  },
+  "not_authorized": {
+    "message": "Не авторизовано",
+    "description": "Work authorization false label"
+  },
+  "full_name": {
+    "message": "ПІБ",
+    "description": "Profile field label"
+  },
+  "email": {
+    "message": "Електронна пошта",
+    "description": "Profile field label"
+  },
+  "phone": {
+    "message": "Телефон",
+    "description": "Profile field label"
+  },
+  "alternate_phone": {
+    "message": "Альтернативний телефон",
+    "description": "Profile field label"
+  },
+  "linkedin_url_label": {
+    "message": "LinkedIn URL",
+    "description": "Profile field label"
+  },
+  "portfolio_url_label": {
+    "message": "URL портфоліо",
+    "description": "Profile field label"
+  },
+  "github_url_label": {
+    "message": "URL-адреса GitHub",
+    "description": "Profile field label"
+  },
+  "resume_link_label": {
+    "message": "Посилання на резюме",
+    "description": "Profile field label"
+  },
+  "city": {
+    "message": "Місто",
+    "description": "Profile field label"
+  },
+  "state": {
+    "message": "Держава",
+    "description": "Profile field label"
+  },
+  "country": {
+    "message": "Країна",
+    "description": "Profile field label"
+  },
+  "postal_code": {
+    "message": "Поштовий індекс",
+    "description": "Profile field label"
+  },
+  "address": {
+    "message": "Адреса",
+    "description": "Profile field label"
+  },
+  "nationality": {
+    "message": "Національність",
+    "description": "Profile field label"
+  },
+  "college_label": {
+    "message": "коледж / університет",
+    "description": "Profile field label"
+  },
+  "degree_label": {
+    "message": "Ступінь",
+    "description": "Profile field label"
+  },
+  "grad_year_label": {
+    "message": "Випускний рік",
+    "description": "Profile field label"
+  },
+  "cgpa_label": {
+    "message": "CGPA / Оцінка",
+    "description": "Profile field label"
+  },
+  "tenth_percent_label": {
+    "message": "10%",
+    "description": "Profile field label"
+  },
+  "twelfth_percent_label": {
+    "message": "12%",
+    "description": "Profile field label"
+  },
+  "notice_period_label": {
+    "message": "Період повідомлення",
+    "description": "Profile field label"
+  },
+  "expected_salary_label": {
+    "message": "Очікувана зарплата",
+    "description": "Profile field label"
+  },
+  "preferred_role_label": {
+    "message": "Бажана роль",
+    "description": "Profile field label"
+  },
+  "years_exp_label": {
+    "message": "Роки досвіду",
+    "description": "Profile field label"
+  },
+  "visa_sponsor_checkbox": {
+    "message": "Дозвіл на роботу без візового спонсорства",
+    "description": "Profile workauth label"
+  },
+  "requires_sponsor_checkbox": {
+    "message": "Потрібна візова допомога",
+    "description": "Profile workauth label"
+  },
+  "gender_label": {
+    "message": "Стать",
+    "description": "Profile field label"
+  },
+  "disability_label": {
+    "message": "Інвалідність",
+    "description": "Profile field label"
+  },
+  "prefer_not_to_say": {
+    "message": "Краще не говорити",
+    "description": "Dropdown select option"
+  },
+  "not_specified": {
+    "message": "Не вказано",
+    "description": "Dropdown select option"
+  },
+  "male": {
+    "message": "Чоловік",
+    "description": "Gender option"
+  },
+  "female": {
+    "message": "Жінка",
+    "description": "Gender option"
+  },
+  "non_binary": {
+    "message": "Небінарний",
+    "description": "Gender option"
+  },
+  "yes": {
+    "message": "так",
+    "description": "Yes option"
+  },
+  "no": {
+    "message": "немає",
+    "description": "No option"
+  },
+  "no_skills_yet": {
+    "message": "Навички ще не додано",
+    "description": "Skills empty list text"
+  },
+  "add_skill_placeholder": {
+    "message": "Додати навик (введіть, щоб додати)",
+    "description": "Skills input placeholder"
+  },
+  "trigger_phrase_placeholder": {
+    "message": "Тригерна фраза (наприклад, чому ми повинні вас найняти)",
+    "description": "Custom answer input placeholder"
+  },
+  "your_answer_placeholder": {
+    "message": "Ваша відповідь...",
+    "description": "Custom answer text placeholder"
+  },
+  "remove": {
+    "message": "видалити",
+    "description": "Remove button text"
+  },
+  "add_custom_answer": {
+    "message": "+ Додати спеціальну відповідь",
+    "description": "Add answer button text"
+  },
+  "company_label": {
+    "message": "Компанія",
+    "description": "Experience field label"
+  },
+  "role_title_label": {
+    "message": "Роль / Назва",
+    "description": "Experience field label"
+  },
+  "start_date_label": {
+    "message": "Дата початку",
+    "description": "Experience field label"
+  },
+  "end_date_label": {
+    "message": "Дата закінчення",
+    "description": "Experience field label"
+  },
+  "present": {
+    "message": "присутній",
+    "description": "Current job end date label"
+  },
+  "currently_working_checkbox": {
+    "message": "Зараз я працюю на цій посаді",
+    "description": "Experience checkbox label"
+  },
+  "description_label": {
+    "message": "опис",
+    "description": "Experience/project description label"
+  },
+  "experience_desc_placeholder": {
+    "message": "Опишіть свої обов'язки, основні досягнення, використовувані технології...",
+    "description": "Experience text placeholder"
+  },
+  "add_experience": {
+    "message": "+ Додати досвід роботи",
+    "description": "Add experience button label"
+  },
+  "project_title_label": {
+    "message": "Назва проекту",
+    "description": "Project field label"
+  },
+  "tech_stack_label": {
+    "message": "Технічний стек",
+    "description": "Project field label"
+  },
+  "deployment_url_label": {
+    "message": "URL-адреса розгортання",
+    "description": "Project field label"
+  },
+  "project_desc_placeholder": {
+    "message": "Опишіть, що ви створили, яку проблему це вирішило та основні функції...",
+    "description": "Project text placeholder"
+  },
+  "add_project": {
+    "message": "+ Додати проект",
+    "description": "Add project button label"
+  },
+  "tracker_title": {
+    "message": "Трекер",
+    "description": "Tracker screen title"
+  },
+  "saved_status": {
+    "message": "Збережено",
+    "description": "Application status chip label"
+  },
+  "applied_status": {
+    "message": "Прикладний",
+    "description": "Application status chip label"
+  },
+  "assessment_status": {
+    "message": "Оцінка",
+    "description": "Application status chip label"
+  },
+  "interview_status": {
+    "message": "Інтерв'ю",
+    "description": "Application status chip label"
+  },
+  "offer_status": {
+    "message": "Пропозиція",
+    "description": "Application status chip label"
+  },
+  "rejected_status": {
+    "message": "Відхилено",
+    "description": "Application status chip label"
+  },
+  "withdrawn_status": {
+    "message": "Вилучено",
+    "description": "Application status chip label"
+  },
+  "delete_confirm": {
+    "message": "Видалити цю програму?",
+    "description": "Confirmation prompt"
+  },
+  "app_updated": {
+    "message": "Додаток оновлено!",
+    "description": "Success toast message"
+  },
+  "app_deleted": {
+    "message": "Програму видалено.",
+    "description": "Info toast message"
+  },
+  "status_label": {
+    "message": "Статус",
+    "description": "Status field label"
+  },
+  "platform_label": {
+    "message": "Платформа",
+    "description": "Platform field label"
+  },
+  "applied_label": {
+    "message": "Прикладний",
+    "description": "Applied date label"
+  },
+  "open_job_posting": {
+    "message": "Відкрийте оголошення про роботу",
+    "description": "Job link button text"
+  },
+  "salary_stipend": {
+    "message": "Зарплата / Стипендія",
+    "description": "Salary field label"
+  },
+  "followup_reminder": {
+    "message": "Подальше нагадування",
+    "description": "Reminder field label"
+  },
+  "notes_label": {
+    "message": "Примітки",
+    "description": "Notes textarea label"
+  },
+  "notes_placeholder": {
+    "message": "Додайте нотатки, контактну інформацію, деталі співбесіди...",
+    "description": "Notes input placeholder"
+  },
+  "job_desc_excerpt": {
+    "message": "Посадова інструкція (витяг)",
+    "description": "Job description label in detail panel"
+  },
+  "delete_btn": {
+    "message": "Видалити",
+    "description": "Delete button text"
+  },
+  "cancel_btn": {
+    "message": "Скасувати",
+    "description": "Cancel button text"
+  },
+  "save_btn": {
+    "message": "зберегти",
+    "description": "Save button text"
+  },
+  "applications_count_singular": {
+    "message": "1 заявка",
+    "description": "App count display"
+  },
+  "applications_count_plural": {
+    "message": "$1$ додатків",
+    "description": "Apps count display"
+  },
+  "filter_company_placeholder": {
+    "message": "Фільтрувати за компанією...",
+    "description": "Search input placeholder"
+  },
+  "status_filters": {
+    "message": "Фільтри стану",
+    "description": "Status filter header"
+  },
+  "scroll_right_hint": {
+    "message": "Прокрутіть праворуч, щоб переглянути більше →",
+    "description": "Horizontal scroll hint"
+  },
+  "all_chip": {
+    "message": "всі",
+    "description": "All chip option"
+  },
+  "no_apps_found": {
+    "message": "Додатків не знайдено",
+    "description": "Empty state label"
+  },
+  "reset_filters_tip": {
+    "message": "Спробуйте скинути фільтри або зберегти завдання, щоб додати новий запис у трекері",
+    "description": "Empty state tip"
+  },
+  "analytics_title": {
+    "message": "Аналітика",
+    "description": "Analytics screen title"
+  },
+  "total_apps_subtitle": {
+    "message": "$1$ всього заяв",
+    "description": "Total applications count"
+  },
+  "no_data_yet": {
+    "message": "Даних ще немає",
+    "description": "Analytics empty state title"
+  },
+  "start_applying_analytics_desc": {
+    "message": "Почніть подавати заявки на вакансії, і ваша аналітика з’явиться тут.",
+    "description": "Analytics empty state tip"
+  },
+  "conversion_rates": {
+    "message": "Коефіцієнти конвертації",
+    "description": "Analytics section title"
+  },
+  "applied_metric": {
+    "message": "Прикладний",
+    "description": "Metric card title"
+  },
+  "interview_rate_metric": {
+    "message": "Ставка співбесіди",
+    "description": "Metric card title"
+  },
+  "offer_rate_metric": {
+    "message": "Ставка пропозиції",
+    "description": "Metric card title"
+  },
+  "apps_this_week": {
+    "message": "Заявки цього тижня",
+    "description": "Analytics section title"
+  },
+  "app_funnel": {
+    "message": "Воронка програми",
+    "description": "Analytics section title"
+  },
+  "top_platforms": {
+    "message": "Кращі платформи",
+    "description": "Analytics section title"
+  },
+  "status_breakdown": {
+    "message": "Розбивка статусу",
+    "description": "Analytics section title"
+  },
+  "ai_copilot_title": {
+    "message": "AI Другий пілот",
+    "description": "Assistant title"
+  },
+  "context_label": {
+    "message": "Контекст: $1$",
+    "description": "Assistant context badge"
+  },
+  "general_copilot_subtitle": {
+    "message": "Ваш кар'єрний другий пілот",
+    "description": "Assistant context subtitle"
+  },
+  "new_chat": {
+    "message": "Новий чат ↺",
+    "description": "New chat button label"
+  },
+  "setup_profile_warning": {
+    "message": "Спочатку налаштуйте свій профіль, щоб ШІ міг персоналізувати відповіді.",
+    "description": "Assistant setup warning"
+  },
+  "chat_cleared_msg": {
+    "message": "Чат очищено! Чим я можу вам допомогти?",
+    "description": "Chat clear greeting"
+  },
+  "ask_anything_placeholder": {
+    "message": "Запитайте будь-що про цю роботу...",
+    "description": "Textarea placeholder"
+  },
+  "setup_profile_placeholder": {
+    "message": "Щоб почати, налаштуйте свій профіль",
+    "description": "Textarea placeholder when empty profile"
+  },
+  "press_enter_hint": {
+    "message": "Натисніть Enter, щоб надіслати",
+    "description": "Keyboard helper note"
+  },
+  "ai_analysis_score_label": {
+    "message": "Оцінка сумісності резюме",
+    "description": "Compatibility score title"
+  },
+  "ai_analysis_strong_skills": {
+    "message": "✅ Сильні навички",
+    "description": "Section header"
+  },
+  "ai_analysis_missing_skills": {
+    "message": "⚠️ Відсутні навички",
+    "description": "Section header"
+  },
+  "ai_analysis_cover_letter_intro": {
+    "message": "Ось ваш персональний супровідний лист:",
+    "description": "Cover letter message"
+  },
+  "ai_analysis_copied": {
+    "message": "✅ Скопійовано!",
+    "description": "Copy success text"
+  },
+  "ai_analysis_copy": {
+    "message": "📋 Копія",
+    "description": "Copy button text"
+  },
+  "ai_analysis_download": {
+    "message": "⬇️ Завантажити",
+    "description": "Download button text"
+  },
+  "ai_analysis_questions_intro": {
+    "message": "Ось $1$ ймовірні запитання для співбесіди:",
+    "description": "Interview prep intro text"
+  },
+  "ai_analysis_resume_score_intro": {
+    "message": "Оцінка оптимізації резюме: $1$%",
+    "description": "Resume score intro text"
+  },
+  "ai_analysis_suggestions_label": {
+    "message": "Відновити пропозиції збігу",
+    "description": "Suggestions header"
+  },
+  "ai_analysis_vs_desc": {
+    "message": "проти цієї посадової інструкції",
+    "description": "Resume score subtitle text"
+  },
+  "ai_analysis_something_went_wrong": {
+    "message": "Щось пішло не так. Спробуйте ще раз.",
+    "description": "AI API error message"
+  },
+  "job_details_detected_intro": {
+    "message": "привіт Я бачу, що ти шукаєш роль **$1$** на **$2$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_detected_no_company": {
+    "message": "привіт Я бачу, що ти шукаєш роль **$1$**.",
+    "description": "Job detection greet message"
+  },
+  "job_details_not_detected_intro": {
+    "message": "привіт Я твій кар’єрний пілот ШІ. Перейдіть до списку вакансій, і я автоматично проаналізую його, або запитайте мене будь-що!",
+    "description": "General greeting"
+  },
+  "profile_warning_assistant": {
+    "message": "Будь ласка, спочатку налаштуйте свій профіль на вкладці Профіль!",
+    "description": "Warning message"
+  },
+  "job_page_warning_assistant": {
+    "message": "Будь ласка, спочатку відкрийте сторінку зі списком вакансій у своєму браузері, щоб скористатися цією функцією!",
+    "description": "Warning message"
+  },
+  "unlock_title": {
+    "message": "Розблокуйте ApplyFlow",
+    "description": "Auth screen header"
+  },
+  "unlock_desc": {
+    "message": "Увійдіть за допомогою Google, щоб отримати доступ до інформаційної панелі, синхронізувати вакансії, керувати своїм профілем резюме та миттєво автоматично заповнювати заявки на роботу.",
+    "description": "Auth screen body description"
+  },
+  "feature_ai_title": {
+    "message": "AI Autofill & Clipper",
+    "description": "Feature list item"
+  },
+  "feature_ai_desc": {
+    "message": "Скануйте та автозаповнюйте програми одним клацанням миші.",
+    "description": "Feature list item desc"
+  },
+  "feature_cloud_title": {
+    "message": "Хмарна синхронізація та резервне копіювання",
+    "description": "Feature list item"
+  },
+  "feature_cloud_desc": {
+    "message": "Синхронізуйте всі деталі відстеження ваших завдань із Supabase.",
+    "description": "Feature list item desc"
+  },
+  "feature_resume_title": {
+    "message": "Резюме та профілі",
+    "description": "Feature list item"
+  },
+  "feature_resume_desc": {
+    "message": "Завантажте своє резюме та налаштуйте відповіді на заявку.",
+    "description": "Feature list item desc"
+  },
+  "connecting_google": {
+    "message": "Підключення до Google...",
+    "description": "Connecting OAuth loading text"
+  },
+  "sign_in_google": {
+    "message": "Увійдіть за допомогою Google",
+    "description": "Sign in button label"
+  },
+  "agree_sync_footer": {
+    "message": "Увійшовши в обліковий запис, ви погоджуєтеся безпечно синхронізувати дані свого профілю з активною робочою областю.",
+    "description": "Sign in footer notice"
+  },
+  "sign_out_confirm": {
+    "message": "Ви впевнені, що бажаєте вийти?",
+    "description": "Signout confirmation prompt"
+  },
+  "sign_out_success": {
+    "message": "Успішно вийшов.",
+    "description": "Signout toast message"
+  },
+  "logged_in_as": {
+    "message": "Увійшли як $1$",
+    "description": "Logged in user name text"
+  },
+  "sign_out_btn": {
+    "message": "Вийти",
+    "description": "Footer sign out button label"
+  },
+  "sign_in_btn": {
+    "message": "Увійти",
+    "description": "Footer sign in button label"
+  },
+  "connecting_btn": {
+    "message": "Підключення...",
+    "description": "Footer button loading state"
+  },
+  "open_applyflow": {
+    "message": "Відкрийте ApplyFlow",
+    "description": "FAB button hover tooltip"
+  },
+  "overlay_match_title": {
+    "message": "ApplyFlow Match",
+    "description": "Overlay header main title"
+  },
+  "overlay_strong_skills": {
+    "message": "Сильні навички відповідності",
+    "description": "Overlay skills section header"
+  },
+  "overlay_missing_skills": {
+    "message": "Відсутні навички",
+    "description": "Overlay skills section header"
+  },
+  "overlay_autofill_btn": {
+    "message": "Сторінка інтелектуального автозаповнення",
+    "description": "Overlay call to action button"
+  },
+  "overlay_autofill_progress": {
+    "message": "Автозаповнення форми...",
+    "description": "Overlay button state"
+  },
+  "overlay_no_fields_found": {
+    "message": "На сторінці не знайдено полів заявки, які можна заповнити.",
+    "description": "Overlay error toast msg"
+  },
+  "overlay_autofill_success": {
+    "message": "Успішно заповнено!",
+    "description": "Overlay success toast msg"
+  },
+  "overlay_autofill_failed": {
+    "message": "Не вдалося виконати автозаповнення через складність сторінки.",
+    "description": "Overlay failure toast msg"
+  },
+  "overlay_footer_notes": {
+    "message": "Автоматично зберігається в системі відстеження журналів після заповнення.",
+    "description": "Overlay footer label"
+  },
+  "ai_analysis_compatible": {
+    "message": "Ваше резюме **$1$% сумісне** з цією посадою.",
+    "description": "Compatibility message"
+  },
+  "welcome_back_msg": {
+    "message": "З поверненням, $1$!",
+    "description": "Toast message on login"
+  },
+  "failed_fetch_profile": {
+    "message": "Не вдалося отримати інформацію профілю користувача Google.",
+    "description": "Toast message when profile fetch fails"
+  },
+  "oauth_login_failed": {
+    "message": "Помилка входу OAuth: $1$",
+    "description": "Toast message when oauth fails"
+  },
+  "failed_access_token": {
+    "message": "Не вдалося отримати маркер доступу з переспрямування.",
+    "description": "Toast message when redirect token parsing fails"
+  },
+  "failed_auth_redirect": {
+    "message": "Не вдалося проаналізувати переспрямування автентифікації.",
+    "description": "Toast message when oauth redirect parsing fails"
+  },
+  "auth_not_supported": {
+    "message": "Автентифікація не підтримується на цій платформі.",
+    "description": "Toast message when platform lacks oauth capabilities"
+  },
+  "job_saved_tracker": {
+    "message": "Роботу збережено в трекер!",
+    "description": "Toast message when job is saved"
+  },
+  "guest_user": {
+    "message": "Гість",
+    "description": "Fallback name when user display name is missing"
+  },
+  "general_settings_title": {
+    "message": "⚙️ Загальні налаштування",
+    "description": "Title of settings section"
+  },
+  "setting_show_linkedin": {
+    "message": "Показати на сторінках вакансій LinkedIn",
+    "description": "Setting label to toggle linkedin overlay"
+  },
+  "setting_show_linkedin_desc": {
+    "message": "Під час перегляду оголошень про вакансії в LinkedIn показує розумний відповідний бал і кнопку автозаповнення одним натисканням.",
+    "description": "Description of linkedin overlay setting"
+  },
+  "setting_show_clipper": {
+    "message": "Показати кнопку «Зберегти завдання».",
+    "description": "Setting label to toggle job clipper"
+  },
+  "setting_show_clipper_desc": {
+    "message": "Показує плаваючу кнопку «Зберегти вакансію 📌» на сайтах вакансій, щоб ви могли швидко зберегти деталі вакансії на свій трекер перед подачею заявки.",
+    "description": "Description of job clipper toggle setting"
+  },
+  "setting_log_after_apply": {
+    "message": "Зареєструйтеся лише після того, як подали заявку",
+    "description": "Setting label to log only after application submit"
+  },
+  "setting_log_after_apply_desc": {
+    "message": "Зачекайте, доки ви не побачите екран «Дякую» або «Успіх», перш ніж додавати завдання до свого трекера. Підтримує ваш трекер акуратним, запобігаючи збереженню наполовину заповнених форм як «Застосовано».",
+    "description": "Description of only log after application submission setting"
+  },
+  "settings_analytics_title": {
+    "message": "📊 Кредити AI та аналіз використання",
+    "description": "Section header for usage stats"
+  },
+  "credits_left": {
+    "message": "Кредити залишилися",
+    "description": "Badge label on the credits gauge"
+  },
+  "credits_remaining": {
+    "message": "Залишок кредитів",
+    "description": "Analytics label for remaining credit"
+  },
+  "total_credits": {
+    "message": "Загальна кількість кредитів",
+    "description": "Analytics label for total credit allocation"
+  },
+  "all_time_autofills": {
+    "message": "Автозаповнення за весь час",
+    "description": "Analytics label for total autofills performed"
+  },
+  "plan_status": {
+    "message": "Статус плану",
+    "description": "Analytics label for user subscription tier status"
+  },
+  "plan_status_premium": {
+    "message": "Преміум 👑",
+    "description": "Tier value for premium"
+  },
+  "plan_status_free": {
+    "message": "Безкоштовно 🔓",
+    "description": "Tier value for free"
+  },
+  "pro_tip_title": {
+    "message": "Порада професіонала:",
+    "description": "Intro highlight prefix"
+  },
+  "pro_tip_desc": {
+    "message": "Операції Smart Autofill споживають 0 кредитів і є 100% необмеженими! Лише розширені функції штучного інтелекту, як-от супровідні листи (5 кредитів) і спеціальні есе (3 кредити), використовують ваш кредитний баланс.",
+    "description": "Description detailing how credits are used"
+  },
+  "google_account_sync_title": {
+    "message": "👤 Обліковий запис Google і хмарна синхронізація",
+    "description": "Section header for google account sync settings"
+  },
+  "google_sync_active": {
+    "message": "Google Cloud Sync активний",
+    "description": "Badge showing cloud sync is enabled"
+  },
+  "google_sync_locked": {
+    "message": "Хмарну синхронізацію заблоковано (тільки преміум)",
+    "description": "Badge showing cloud sync is locked for free tier"
+  },
+  "cloud_sync_header": {
+    "message": "Хмарна синхронізація",
+    "description": "Subsection header for cloud sync actions"
+  },
+  "push_to_cloud_btn": {
+    "message": "Надішліть у хмару",
+    "description": "Button to trigger upload sync"
+  },
+  "pull_from_cloud_btn": {
+    "message": "Витягнути з Хмари",
+    "description": "Button to trigger download sync"
+  },
+  "sync_success": {
+    "message": "Синхронізація успішна!",
+    "description": "Status text on sync completion"
+  },
+  "sync_failed": {
+    "message": "Помилка синхронізації. Перевірте підключення.",
+    "description": "Status text on sync error"
+  },
+  "secure_cloud_sync_title": {
+    "message": "Безпечна хмарна синхронізація",
+    "description": "Title for sign in sync promo box"
+  },
+  "secure_cloud_sync_desc": {
+    "message": "Увійдіть за допомогою Google, щоб створити резервну копію програм і профілю в Supabase. Синхронізація — це преміум-функція, яка зберігає ваші журнали в безпеці на всіх пристроях.",
+    "description": "Promo text describing why to sign in and sync"
+  },
+  "premium_sync_warning": {
+    "message": "Supabase Cloud Sync є преміум-функцією. Оновіть його на вкладці «Оновлення», щоб увімкнути синхронізацію!",
+    "description": "Warning toast when free user tries syncing"
+  },
+  "data_management_title": {
+    "message": "💾 Управління даними",
+    "description": "Header for data management section"
+  },
+  "export_backup_btn": {
+    "message": "Експорт резервної копії (JSON)",
+    "description": "Button to export extension database"
+  },
+  "clear_all_local_btn": {
+    "message": "Очистити всі локальні дані",
+    "description": "Button to clear storage database"
+  },
+  "clear_local_desc": {
+    "message": "Очищення локальних даних видаляє ваш профіль і програми лише з цього пристрою. Хмарні дані не впливають.",
+    "description": "Description note warning users about clearing database local copy"
+  },
+  "control_center_subtitle": {
+    "message": "Центр управління",
+    "description": "Control Center subtitle in header"
+  },
+  "nav_home": {
+    "message": "Головна та про",
+    "description": "Navigation menu label"
+  },
+  "nav_settings": {
+    "message": "Загальні налаштування",
+    "description": "Navigation menu label"
+  },
+  "nav_upgrade_pro": {
+    "message": "Оновіть до Pro 👑",
+    "description": "Navigation menu label for upgrading"
+  },
+  "nav_premium_plan": {
+    "message": "Преміум план 👑",
+    "description": "Navigation menu label when user is premium"
+  },
+  "nav_account_sync": {
+    "message": "Обліковий запис і синхронізація",
+    "description": "Navigation menu label"
+  },
+  "nav_privacy_policy": {
+    "message": "Політика конфіденційності",
+    "description": "Navigation menu label"
+  },
+  "nav_faq": {
+    "message": "FAQ",
+    "description": "Navigation menu label"
+  },
+  "nav_shortcuts": {
+    "message": "Комбінації клавіш",
+    "description": "Navigation menu label"
+  },
+  "welcome_title": {
+    "message": "🚀 Ласкаво просимо до ApplyFlow",
+    "description": "Section header on home screen"
+  },
+  "welcome_desc": {
+    "message": "ApplyFlow — це розширення Chrome на основі штучного інтелекту, створене для студентів і шукачів роботи, які хочуть подавати заявки швидше й розумніше. Він автоматично виявляє та заповнює форми заявок на роботу на понад 15 платформах, відстежує ваші плани та допомагає отримати більше співбесід.",
+    "description": "Introduction text on home screen"
+  },
+  "feature_smart_autofill_title": {
+    "message": "Розумне автозаповнення",
+    "description": "Feature card title"
+  },
+  "feature_smart_autofill_desc": {
+    "message": "15+ платформ ATS з точними селекторами",
+    "description": "Feature card description"
+  },
+  "feature_web_clipper_title": {
+    "message": "Web Clipper",
+    "description": "Feature card title"
+  },
+  "feature_web_clipper_desc": {
+    "message": "Збережіть будь-який список вакансій одним клацанням миші",
+    "description": "Feature card description"
+  },
+  "feature_kanban_tracker_title": {
+    "message": "Kanban Tracker",
+    "description": "Feature card title"
+  },
+  "feature_kanban_tracker_desc": {
+    "message": "Перетягніть конвеєр програми",
+    "description": "Feature card description"
+  },
+  "feature_eeo_autofill_title": {
+    "message": "Автозаповнення EEO",
+    "description": "Feature card title"
+  },
+  "feature_eeo_autofill_desc": {
+    "message": "Автоматично заповнює демографічні та візові питання",
+    "description": "Feature card description"
+  },
+  "feature_ai_essays_title": {
+    "message": "А.І. Нариси",
+    "description": "Feature card title"
+  },
+  "feature_ai_essays_desc": {
+    "message": "Спеціальне написання відповідей на основі Gemini",
+    "description": "Feature card description"
+  },
+  "feature_secure_sync_title": {
+    "message": "Безпечна синхронізація",
+    "description": "Feature card title"
+  },
+  "feature_secure_sync_desc": {
+    "message": "Додаткове хмарне резервне копіювання Supabase",
+    "description": "Feature card description"
+  },
+  "get_started_title": {
+    "message": "📖 Як розпочати",
+    "description": "Section header on home screen"
+  },
+  "get_started_step1_title": {
+    "message": "Створіть свій профіль",
+    "description": "Tutorial step title"
+  },
+  "get_started_step1_desc": {
+    "message": "Відкрийте спливаюче вікно → вкладка Профіль → завантажте своє резюме у форматі PDF. AI автоматично витягне всі ваші дані, включаючи навички, досвід, освіту та проекти.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step2_title": {
+    "message": "Встановіть параметри EEO",
+    "description": "Tutorial step title"
+  },
+  "get_started_step2_desc": {
+    "message": "Прокрутіть до розділу EEO у своєму профілі та встановіть дозвіл на роботу, потреби у спонсорській візі та демографічні переваги. Вони використовуються для автоматичного заповнення анкет EEO.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step3_title": {
+    "message": "Перегляньте список вакансій",
+    "description": "Tutorial step title"
+  },
+  "get_started_step3_desc": {
+    "message": "Перейдіть до будь-якого списку вакансій. Ви побачите кнопку 📌 «Зберегти роботу». Клацніть її, щоб миттєво зберегти позицію на вашому трекері.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step4_title": {
+    "message": "Відкрийте форму заявки",
+    "description": "Tutorial step title"
+  },
+  "get_started_step4_desc": {
+    "message": "Перейдіть до форми заявки. Натисніть спливаюче вікно ApplyFlow → натисніть «Сканувати сторінку» → потім «⚡ Smart Autofill». Усі поля, включаючи перемикачі та спадні списки, заповнюються миттєво.",
+    "description": "Tutorial step description"
+  },
+  "get_started_step5_title": {
+    "message": "Відстежуйте свій конвеєр",
+    "description": "Tutorial step title"
+  },
+  "get_started_step5_desc": {
+    "message": "Відкрийте вкладку Tracker, щоб переглянути всі ваші програми. Перемикайтеся в режим перегляду Kanban Board і перетягуйте картки між стовпцями, коли ваш статус оновлюється.",
+    "description": "Tutorial step description"
+  },
+  "signin_required_title": {
+    "message": "🔒 Необхідно ввійти",
+    "description": "Section header when unauthorized"
+  },
+  "signin_required_header": {
+    "message": "Увійдіть, щоб налаштувати параметри",
+    "description": "Box header text when unauthorized"
+  },
+  "signin_required_desc": {
+    "message": "Загальні налаштування доступні лише користувачам, які ввійшли в систему. Увійдіть за допомогою Google, щоб налаштувати свої параметри, поведінку автозаповнення тощо.",
+    "description": "Box description when unauthorized"
+  },
+  "go_to_account_sync_btn": {
+    "message": "Перейдіть до облікового запису та синхронізації",
+    "description": "Button redirection link text"
+  },
+  "premium_active_title": {
+    "message": "ApplyFlow Pro Active",
+    "description": "Header when premium subscription is active"
+  },
+  "premium_active_desc": {
+    "message": "Ліцензійний ключ: $1$",
+    "description": "Description showing active license code"
+  },
+  "deactivate_license_btn": {
+    "message": "Деактивувати ліцензію",
+    "description": "Button to remove premium state"
+  },
+  "premium_key_activation_title": {
+    "message": "🔑 Активація ліцензійного ключа",
+    "description": "Section header for license activation"
+  },
+  "premium_key_activation_desc": {
+    "message": "Якщо ви придбали підписку або отримали код доступу, введіть свій ліцензійний ключ нижче, щоб розблокувати ApplyFlow Premium.",
+    "description": "Promo explanation"
+  },
+  "activate_btn": {
+    "message": "активувати",
+    "description": "Button text to activate license key"
+  },
+  "activating_btn": {
+    "message": "Активація...",
+    "description": "Button text when validation is running"
+  },
+  "premium_tip": {
+    "message": "💡 Порада: активувати Premium можна за допомогою ключа APPLYFLOW-PRO-2026.",
+    "description": "Hint tooltip note"
+  },
+  "premium_confetti_title": {
+    "message": "Преміум активовано!",
+    "description": "Success banner alert title"
+  },
+  "premium_confetti_desc": {
+    "message": "Дякуємо за підтримку ApplyFlow. Усі преміум-функції тепер розблоковано.",
+    "description": "Success banner alert description"
+  },
+  "premium_upgrade_title": {
+    "message": "👑 Преміальний план оновлення",
+    "description": "Section title for upgrade options"
+  },
+  "premium_upgrade_header": {
+    "message": "Розблокуйте експорт кар’єри та розширені функції ШІ.",
+    "description": "Upgrade banner subtitle"
+  },
+  "premium_upgrade_desc": {
+    "message": "Отримайте першокласні кредити AI для супровідних листів, відповідей на власні есе, оптимізації резюме та підготовки до імітаційної співбесіди. Операції автозаповнення на підтримуваних платформах абсолютно необмежені та безкоштовні для всіх преміум-користувачів!",
+    "description": "Upgrade banner description"
+  },
+  "early_adopter_offer": {
+    "message": "🎁 Пропозиція для ранніх користувачів:",
+    "description": "Offer label prefix"
+  },
+  "early_adopter_offer_desc": {
+    "message": "Наступне підвищення ціни на 500 преміум-користувачів. Зафіксуйте цю ставку на все життя!",
+    "description": "Offer label text"
+  },
+  "monthly_pro_title": {
+    "message": "Щомісячний Pro",
+    "description": "Pricing tier title"
+  },
+  "monthly_pro_sub": {
+    "message": "Добре підходить для короткострокового пошуку",
+    "description": "Pricing tier subtitle"
+  },
+  "monthly_pro_price": {
+    "message": "399 рупій",
+    "description": "Pricing tier cost"
+  },
+  "monthly_pro_period": {
+    "message": "/ місяць",
+    "description": "Pricing tier cycle"
+  },
+  "monthly_pro_day_equiv": {
+    "message": "(Всього ₹13/день)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "monthly_pro_bullets": {
+    "message": "150 кредитів штучного інтелекту на місяць|||Необмежена кількість автозаповнень (усі портали)|||Cloud Sync і Google Backup|||Преміум-теми|||Без реклами",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_monthly_btn": {
+    "message": "Підписка щомісяця",
+    "description": "Call to action button"
+  },
+  "quarterly_pro_title": {
+    "message": "Щоквартальник Pro",
+    "description": "Pricing tier title"
+  },
+  "quarterly_pro_sub": {
+    "message": "Найкраща вартість для більшості шукачів роботи",
+    "description": "Pricing tier subtitle"
+  },
+  "quarterly_pro_price": {
+    "message": "999 рупій",
+    "description": "Pricing tier cost"
+  },
+  "quarterly_pro_period": {
+    "message": "/ 3 місяці",
+    "description": "Pricing tier cycle"
+  },
+  "quarterly_pro_day_equiv": {
+    "message": "(Всього ₹11/день)",
+    "description": "Pricing tier daily breakdown"
+  },
+  "quarterly_pro_bullets": {
+    "message": "500 кредитів штучного інтелекту на квартал|||Необмежена кількість автозаповнень (усі портали)|||Індивідуальні супровідні листи та есе|||Синхронізація з хмарою та резервне копіювання Google|||Пропозиції щодо відповідності резюме",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_quarterly_btn": {
+    "message": "Підписка Щокварталу",
+    "description": "Call to action button"
+  },
+  "most_popular_label": {
+    "message": "Найпопулярніший",
+    "description": "Visual highlighting badge"
+  },
+  "yearly_ultimate_title": {
+    "message": "Річний Ultimate",
+    "description": "Pricing tier title"
+  },
+  "yearly_ultimate_sub": {
+    "message": "Найкраще значення для досвідчених користувачів",
+    "description": "Pricing tier subtitle"
+  },
+  "yearly_ultimate_price": {
+    "message": "2999 рупій",
+    "description": "Pricing tier cost"
+  },
+  "yearly_ultimate_period": {
+    "message": "/ рік",
+    "description": "Pricing tier cycle"
+  },
+  "yearly_ultimate_day_equiv": {
+    "message": "(Еквівалент 249 рупій на місяць)",
+    "description": "Pricing tier monthly breakdown"
+  },
+  "yearly_ultimate_bullets": {
+    "message": "2500 кредитів штучного інтелекту на рік|||Необмежена кількість щоденних автозаповнень|||Індивідуальні супровідні листи та есе|||Синхронізація з хмарою та резервне копіювання Google|||Пропозиції щодо відповідності резюме|||Пріоритетна підтримка електронною поштою",
+    "description": "Pricing tier bullets split by |||"
+  },
+  "subscribe_yearly_btn": {
+    "message": "Підписка на рік",
+    "description": "Call to action button"
+  },
+  "best_value_save_label": {
+    "message": "Найкраще співвідношення ціни і якості - Знижка 40%",
+    "description": "Pricing card discount callout badge"
+  },
+  "support_applyflow_title": {
+    "message": "Підтримка розробки ApplyFlow",
+    "description": "Ko-fi box header"
+  },
+  "support_applyflow_desc": {
+    "message": "ApplyFlow створено та підтримується незалежними розробниками. Якщо ви вважаєте розширення корисним, зробіть пожертву на Ko-fi, щоб підтримувати його активність, без реклами та оновлення для нових дошок вакансій.",
+    "description": "Ko-fi box description"
+  },
+  "buy_coffee_btn": {
+    "message": "Купи мені кави на Ko-fi",
+    "description": "Ko-fi checkout button"
+  },
+  "footer_pricing_badges": {
+    "message": "⭐ 5,0 Рейтинг|||🔒 Безпечні платежі|||✓ Скасувати будь-коли",
+    "description": "Billing page footer badges split by |||"
+  },
+  "license_invalid_msg": {
+    "message": "Недійсний ліцензійний ключ. Підказка: спробуйте використати демонстраційний ключ «APPLYFLOW-PRO-2026»!",
+    "description": "Toast message on license verification failure"
+  },
+  "license_activated_msg": {
+    "message": "Ліцензію успішно активовано! Ласкаво просимо до ApplyFlow Premium. 🎉",
+    "description": "Toast message on license verification success"
+  },
+  "license_deactivate_confirm": {
+    "message": "Ви впевнені, що бажаєте деактивувати преміум-ліцензію? Це поверне вас до безкоштовного плану.",
+    "description": "Dialog confirmation text when deactivating"
+  },
+  "license_deactivated_msg": {
+    "message": "Преміум-ліцензію деактивовано. Тепер ви використовуєте безкоштовний план.",
+    "description": "Toast message when license is removed"
+  },
+  "delete_all_confirm": {
+    "message": "Це назавжди видалить УСІ локальні дані профілю та програми. Ви впевнені?",
+    "description": "Dialog confirmation text for clearing data"
+  },
+  "privacy_policy_title": {
+    "message": "🔒 Політика конфіденційності",
+    "description": "Section header for privacy policy page"
+  },
+  "faq_section_title": {
+    "message": "❓ Часті запитання",
+    "description": "Section header for FAQ page"
+  },
+  "faq_q1": {
+    "message": "Що таке ApplyFlow і як він працює?",
+    "description": "FAQ Question 1"
+  },
+  "faq_a1": {
+    "message": "ApplyFlow — це розширення Chrome на основі штучного інтелекту, яке автоматично виявляє та заповнює форми заявок на роботу на понад 15 платформах, включаючи LinkedIn, Internshala, Unstop, Workday, Greenhouse, Lever тощо. Він читає ваш збережений профіль і використовує інтелектуальне зіставлення для заповнення текстових полів, спадних списків, перемикачів і прапорців, включно з EEO/демографічними запитаннями.",
+    "description": "FAQ Answer 1"
+  },
+  "faq_q2": {
+    "message": "Чи безпечні мої особисті дані з ApplyFlow?",
+    "description": "FAQ Question 2"
+  },
+  "faq_a2": {
+    "message": "так За умовчанням ваші дані зберігаються локально в chrome.storage.local вашого браузера. Він ніколи не надсилається на будь-який сторонній сервер, крім вашої додаткової бази даних Supabase (якою ви керуєте). ApplyFlow ніколи не продає, не розголошує та не монетизує вашу особисту інформацію.",
+    "description": "FAQ Answer 2"
+  },
+  "faq_q3": {
+    "message": "Які робочі платформи підтримує ApplyFlow?",
+    "description": "FAQ Question 3"
+  },
+  "faq_a3": {
+    "message": "ApplyFlow підтримує 15+ платформ із коробки: LinkedIn Easy Apply, Internshala, Unstop, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, BambooHR, Jobvite, Taleo, Naukri, Indeed, Wellfound/AngelList та будь-які інші сайти за допомогою нашого інтелектуального загального резервного підбору.",
+    "description": "FAQ Answer 3"
+  },
+  "faq_q4": {
+    "message": "Що таке Web Clipper?",
+    "description": "FAQ Question 4"
+  },
+  "faq_a4": {
+    "message": "Web Clipper — це плаваюча кнопка «Зберегти вакансію» (📌), яка автоматично з’являється, коли ви відвідуєте будь-яку сторінку зі списком вакансій. Якщо натиснути на нього, ви отримаєте назву посади, компанію, зарплату та опис, а потім збережете його на вашому трекері ApplyFlow як «Збережену» програму — щоб ви могли відстежувати вакансії перед подачею заявки.",
+    "description": "FAQ Answer 4"
+  },
+  "faq_q5": {
+    "message": "Як оновити профіль?",
+    "description": "FAQ Question 5"
+  },
+  "faq_a5": {
+    "message": "Відкрийте спливаюче вікно ApplyFlow, натисніть вкладку «Профіль» і завантажте своє резюме у форматі PDF. ШІ автоматично заповнить усі ваші поля. Ви також можете вручну редагувати будь-яке поле, включно з налаштуваннями EEO, авторизацією на роботу та супровідними листами.",
+    "description": "FAQ Answer 5"
+  },
+  "faq_q6": {
+    "message": "Що таке поля EEO і навіщо вони мені потрібні?",
+    "description": "FAQ Question 6"
+  },
+  "faq_a6": {
+    "message": "Поля EEO (Equal Employment Opportunity) – це запитання, які задають багато роботодавців у США та інших країнах щодо статі, статусу інвалідності, статусу ветерана та дозволу на роботу. ApplyFlow зберігає ваші бажані відповіді та автоматично заповнює ці групи перемикачів, щоб вам не потрібно було кожного разу відповідати на них вручну.",
+    "description": "FAQ Answer 6"
+  },
+  "faq_q7": {
+    "message": "Чи потрібні для ApplyFlow ключі API або конфігурація?",
+    "description": "FAQ Question 7"
+  },
+  "faq_a7": {
+    "message": "ні! ApplyFlow автоматично обробляє всі форми виявлення, інтелектуальне зіставлення, створення супровідних листів і оцінку сумісності. Вам не потрібно отримувати або налаштовувати ключі API.",
+    "description": "FAQ Answer 7"
+  },
+  "faq_q8": {
+    "message": "Що таке синхронізація Supabase і чи потрібна вона мені?",
+    "description": "FAQ Question 8"
+  },
+  "faq_a8": {
+    "message": "Синхронізація Supabase — це додаткова функція резервного копіювання в хмарі. Коли ви входите в обліковий запис Google і вмикаєте його, ваш профіль і засіб відстеження додатків синхронізуються з приватною базою даних у хмарі, тож ваші дані створюються й доступні з багатьох пристроїв. Це абсолютно необов’язково — розширення працює повністю в автономному режимі.",
+    "description": "FAQ Answer 8"
+  },
+  "faq_q9": {
+    "message": "Чому ApplyFlow потрібен доступ до всіх веб-сайтів?",
+    "description": "FAQ Question 9"
+  },
+  "faq_a9": {
+    "message": "ApplyFlow запитує доступ до всіх веб-сайтів, щоб він міг додати механізм автозаповнення до будь-якої форми заявки на роботу та показати кнопку «Зберегти роботу» в будь-якому списку вакансій. Цей дозвіл потрібен для широкої підтримки платформи. Ми вставляємо сценарії лише на сторінки, які явно пов’язані з роботою.",
+    "description": "FAQ Answer 9"
+  },
+  "faq_q10": {
+    "message": "Що таке дошка Kanban?",
+    "description": "FAQ Question 10"
+  },
+  "faq_a10": {
+    "message": "Дошка Kanban — це візуальне відстеження роботи на вкладці Tracker. Він показує ваші заявки, упорядковані в стовпцях: Збережені → Застосовані → Оцінка → Співбесіда → Пропозиція. Ви можете перетягувати картки між стовпцями, щоб оновити статус будь-якої програми.",
+    "description": "FAQ Answer 10"
+  },
+  "faq_q11": {
+    "message": "Як працює виявлення подання?",
+    "description": "FAQ Question 11"
+  },
+  "faq_a11": {
+    "message": "Коли ви ввімкнете «Реєстрація лише після надсилання» в налаштуваннях, ApplyFlow стежить за змінами сторінки, які вказують на успішне надсилання (наприклад, URL-адреса, що містить «/success» або основний текст «Дякуємо за заявку»). Він реєструє програму на вашому трекері лише після того, як виявить справжнє подання.",
+    "description": "FAQ Answer 11"
+  },
+  "faq_q12": {
+    "message": "Чи можу я зберігати кілька супровідних листів?",
+    "description": "FAQ Question 12"
+  },
+  "faq_a12": {
+    "message": "так! На екрані профілю є розділ «Сховище супровідних листів», де ви можете зберігати необмежену кількість супровідних листів, призначених для різних ролей або компаній. Під час автоматичного заповнення ApplyFlow використовуватиме ваш останній або найрелевантніший супровідний лист.",
+    "description": "FAQ Answer 12"
+  },
+  "faq_q13": {
+    "message": "Як мені експортувати дані програми?",
+    "description": "FAQ Question 13"
+  },
+  "faq_a13": {
+    "message": "Перейдіть до облікового запису та синхронізації → прокрутіть униз → натисніть «Експортувати резервну копію (JSON)». Це завантажує всі дані вашого профілю та програми як файл JSON для збереження.",
+    "description": "FAQ Answer 13"
+  },
+  "faq_q14": {
+    "message": "Чи працює ApplyFlow у демонстраційному режимі?",
+    "description": "FAQ Question 14"
+  },
+  "faq_a14": {
+    "message": "Демо-режим був застарілим налаштуванням, яке використовувалося для тестування. Зараз він вимкнено за замовчуванням. Усі функції живі та функціональні завдяки вбудованому ключу Gemini API.",
+    "description": "FAQ Answer 14"
+  },
+  "faq_q15": {
+    "message": "Як повідомити про помилку чи надіслати запит на функцію?",
+    "description": "FAQ Question 15"
+  },
+  "faq_a15": {
+    "message": "Відкрийте проблему в нашому репозиторії GitHub (посилання на яке наведено в розділі «Про») або напишіть нам на support@applyflow.in. Зазвичай ми відповідаємо протягом 48 годин.",
+    "description": "FAQ Answer 15"
+  },
+  "shortcut_desc1": {
+    "message": "Відкрийте спливаюче вікно ApplyFlow",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc2": {
+    "message": "Сканувати поточну сторінку на наявність полів форми",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc3": {
+    "message": "Запустити інтелектуальне автозаповнення на поточній сторінці",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc4": {
+    "message": "Вирізати поточний список вакансій у трекер",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_desc5": {
+    "message": "Відкрийте трекер у новій вкладці",
+    "description": "Shortcut explanation"
+  },
+  "shortcut_configure_label": {
+    "message": "Налаштуйте ярлики в Chrome за адресою",
+    "description": "Shortcut help text label"
+  },
+  "shortcut_note_title": {
+    "message": "Примітка:",
+    "description": "Shortcut note prefix bold"
+  },
+  "shortcut_note_desc": {
+    "message": "Команди розширення Chrome потребують ручного призначення в диспетчері ярликів Chrome. Перейдіть до $1$, щоб прив’язати перелічені вище ключі.",
+    "description": "Shortcut note description"
+  },
+  "privacy_policy_content": {
+    "message": "**ApplyFlow Chrome Extension — Політика конфіденційності**\nОстаннє оновлення: червень 2026\n\n---\n\n**1. Вступ**\n\nApplyFlow («ми», «наш», «розширення») — це розширення для браузера Chrome, яке допомагає користувачам автоматично заповнювати форми заявок на роботу, відстежувати свої заявки та керувати своїм професійним профілем. У цій Політиці конфіденційності пояснюється, як ми збираємо, використовуємо, зберігаємо та захищаємо вашу інформацію.\n\nВстановлюючи та використовуючи ApplyFlow, ви погоджуєтеся з правилами, описаними в цій політиці.\n\n---\n\n**2. Дані, які ми збираємо**\n\nМи збираємо лише ту інформацію, яку ви добровільно надаєте, щоб увімкнути функції розширення:\n\n• **Інформація про профіль**: ваше ім’я, електронна адреса, номер телефону, коледж, ступінь, навички, історія роботи, проекти та професійні посилання (LinkedIn, GitHub, Портфоліо).\n• **EEO/демографічна інформація (необов’язково)**: Стать, статус інвалідності, статус ветерана та переваги дозволу на роботу — надається, лише якщо ви вирішите заповнити ці поля. Ці дані використовуються виключно для автоматичного заповнення додаткових анкет EEO у заявках на прийом на роботу.\n• **Дані відстеження заявок**: назва посади, компанія, URL-адреса заявки, статус і примітки до посад, які ви відстежуєте за допомогою розширення.\n• **Статистика використання**: кількість виконаних операцій автозаповнення (зберігається локально для забезпечення щоденних обмежень).\n• **Дані автентифікації**: якщо ви вирішите ввійти за допомогою Google, ми зберігаємо ваше відображуване ім’я Google, адресу електронної пошти та URL-адресу зображення профілю, щоб персоналізувати ваш досвід і активувати хмарну синхронізацію.\n\nМи **не** збираємо:\n• Платіжну або фінансову інформацію\n• Історію веб-переглядача або загальну активність у веб-переглядачі\n• Будь-яку інформацію зі сторінок, які не пов’язані із заявою на роботу\n• Будь-які дані зі сторінок, коли розширення не активовано активно\n\n---\n\n**3. Як ми зберігаємо ваші дані**\n\n**3.1 Локальна пам’ять (за замовчуванням)**\nУсі дані в основному зберігаються в API вашого браузера chrome.storage.local. Ці дані зберігаються лише на вашому пристрої та ніколи не передаються на будь-який сервер без вашої явної дії.\n\n**3.2 Хмарна синхронізація (необов’язково)**\nЯкщо ви вирішите ввійти за допомогою Google і ввімкнути функцію «Supabase Sync», ваш профіль і дані програми також будуть синхронізовані з базою даних Supabase. Ви зберігаєте повне право власності на ці дані. Ви можете будь-коли видалити його в розділі «Обліковий запис і синхронізація».\n\n**3.3 Запити Gemini AI**\nКоли ​​використовуються функції AI (наприклад, створення есе, аналіз роботи), частини вашого профілю (навички, ступінь, короткий опис) і текст опису роботи надсилаються до Gemini API Google для створення відповіді. Це обробляється відповідно до стандартних Умов використання API та Політики конфіденційності Google. Ми рекомендуємо не включати конфіденційні особисті ідентифікатори у ваш контент за допомогою ШІ.\n\n---\n\n**4. Обмін даними**\n\nМи **не** продаємо, не обмінюємо, не здаємо в оренду та не передаємо вашу особисту інформацію будь-яким третім особам для маркетингових або рекламних цілей.\n\nВаші дані можуть оброблятися такими надійними службами:\n• **Google Gemini API**: для заповнення та аналізу форм на основі штучного інтелекту. (https://policies.google.com/privacy)\n• **Google OAuth**: для автентифікації облікового запису (https://policies.google.com/privacy)\n• **Supabase**: для додаткового хмарного сховища (https://supabase.com/privacy) — лише якщо ви ввімкнете sync\n\n---\n\n**5. Ваші права та контроль**\n\nВи маєте право:\n• **Доступ** до всіх даних, збережених ApplyFlow про вас (через «Експорт резервної копії» в налаштуваннях)\n• **Виправлення** вашої інформації в будь-який час на вкладці «Профіль»\n• **Видалити** всі ваші дані локально за допомогою «Очистити всі дані профілю» в налаштуваннях\n• **Відкликати згоду** будь-коли, видаливши розширення\n• **Вимкнути хмарну синхронізацію**, вимкнувши її в налаштуваннях облікового запису та синхронізації\n\n**GDPR (користувачі ЄС)**: якщо ви є резидентом ЄС, ви маєте права доступу, виправляти, видаляти, обмежувати обробку та переносити дані відповідно до Загального регламенту захисту даних.\n\n**Індія — Закон про DPDP 2023**: відповідно до Закону Індії про захист персональних даних у цифрових даних 2023 року ми обробляємо персональні дані лише з метою надання допомоги у поданні заявки на роботу. Ви можете будь-коли відкликати згоду та вимагати видалення своїх даних, зв’язавшись з нами.\n\n**Каліфорнія — CCPA**: жителі Каліфорнії мають право знати, яка особиста інформація збирається, право на видалення та право відмовитися від продажу (ми не продаємо) дані).\n\n---\n\n**6. Зберігання даних**\n\nЛокальні дані зберігаються, доки ви не очистите їх вручну. Дані, синхронізовані з хмарою, зберігаються, доки ви не видалите обліковий запис або не подасте запит на видалення. Ми не видаляємо дані автоматично.\n\n---\n\n**7. Безпека**\n\nМи вживаємо розумних технічних заходів для захисту ваших даних:\n• Усі хмарні комунікації використовують шифрування HTTPS/TLS\n• Безпека на рівні рядка (RLS) гарантує, що користувачі можуть отримати доступ лише до своїх власних даних\n• Розширення не вимагає дозволів, окрім тих, які необхідні для його ядра функція\n\n---\n\n**8. Конфіденційність дітей**\n\nApplyFlow не призначений для користувачів віком до 13 років. Ми свідомо не збираємо дані від дітей. Якщо ви вважаєте, що дитина надала нам особисту інформацію, негайно зв’яжіться з нами.\n\n---\n\n**9. Зміни в цій Політиці**\n\nМи можемо час від часу оновлювати цю Політику конфіденційності. Про значні зміни буде повідомлено на сторінці параметрів розширення. Продовження використання розширення після змін означає прийняття оновленої політики.\n\n---\n\n**10. Зв’яжіться з нами**\n\nЗ будь-якими запитаннями, пов’язаними з конфіденційністю, запитами на видалення даних або проблемами:\n\nЕлектронна адреса: privacy@applyflow.in\nGitHub: https://github.com/applyflow/extension\nВеб-сайт: https://applyflow.in\n\nМи прагнемо відповідати на всі запити протягом 30 днів.",
+    "description": "Privacy policy document markdown text"
+  }
+}
