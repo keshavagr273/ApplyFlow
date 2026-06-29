@@ -374,7 +374,7 @@ export default function SidePanelApp() {
     // Listen for tab changes
     const handleTabActivated = () => refreshTabContext();
     const handleTabUpdated = (_: number, changeInfo: any) => {
-      if (changeInfo.status === 'complete') refreshTabContext();
+      if (changeInfo.status === 'complete' || changeInfo.url) refreshTabContext();
     };
 
     chrome.tabs.onActivated.addListener(handleTabActivated);
@@ -382,7 +382,7 @@ export default function SidePanelApp() {
 
     // Listen for storage changes (stay in sync with popup/widget writes)
     const handleStorageChange = (changes: Record<string, chrome.storage.StorageChange>) => {
-      if (changes.applications || changes.profile || changes.settings) {
+      if (changes.applications || changes.profile || changes.settings || changes.billing) {
         loadData();
       }
     };

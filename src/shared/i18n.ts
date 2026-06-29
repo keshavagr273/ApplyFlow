@@ -1,4 +1,4 @@
-import enMessages from '../../public/_locales/en/messages.json';
+import enMessages from './messages.json';
 
 /**
  * Returns a translated message for the given key, replacing placeholders ($1, $2, etc.) if provided.

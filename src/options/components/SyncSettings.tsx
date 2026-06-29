@@ -9,18 +9,12 @@ export function SyncSettings({
   settings,
   handleGoogleLogin,
   handleGoogleLogout,
-  isLoggingIn,
-  isSyncing,
-  syncStatus,
-  handleSync
+  isLoggingIn
 }: {
   settings: AIServiceSettings;
   handleGoogleLogin: () => void;
   handleGoogleLogout: () => void;
   isLoggingIn: boolean;
-  isSyncing: boolean;
-  syncStatus: string | null;
-  handleSync: (dir: 'push' | 'pull') => void;
 }) {
   const showToast = useStore(state => state.showToast);
   return (
@@ -37,9 +31,15 @@ export function SyncSettings({
                 <h4 className="font-extrabold text-slate-800">{settings.userDisplayName}</h4>
                 <p className="text-sm text-slate-500 font-semibold mt-0.5">{settings.userEmail}</p>
                 {settings.isPremium ? (
-                  <div className="inline-flex items-center gap-1 text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded border border-green-200 mt-2">
-                    <CheckCircle2 size={10} /> {t('google_sync_active')}
-                  </div>
+                  (!settings.supabaseUrl || !settings.supabaseAnonKey) ? (
+                    <div className="inline-flex items-center gap-1 text-[10px] text-amber-600 font-bold bg-amber-50 px-2 py-0.5 rounded border border-amber-200 mt-2">
+                      <AlertTriangle size={10} className="text-amber-500" /> Sync Not Configured (Check .env)
+                    </div>
+                  ) : (
+                    <div className="inline-flex items-center gap-1 text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded border border-green-200 mt-2">
+                      <CheckCircle2 size={10} /> {t('google_sync_active')}
+                    </div>
+                  )
                 ) : (
                   <div className="inline-flex items-center gap-1 text-[10px] text-slate-500 font-bold bg-slate-100 px-2 py-0.5 rounded border border-slate-200 mt-2">
                     {t('google_sync_locked')}
@@ -52,44 +52,6 @@ export function SyncSettings({
             >
               <LogOut size={14} /> {t('sign_out_btn')}
             </button>
-          </div>
-
-          <div className="flex flex-col gap-3 border border-slate-200/60 rounded-2xl p-5">
-            <h3 className="font-bold text-slate-700">{t('cloud_sync_header')}</h3>
-            <div className="flex gap-3">
-              <button onClick={() => {
-                if (!settings.isPremium) {
-                  showToast(t('premium_sync_warning'), "warning");
-                  return;
-                }
-                handleSync('push');
-              }} disabled={isSyncing}
-                className="flex-1 bg-brand-600 text-white rounded-xl py-2.5 text-sm font-bold flex items-center justify-center gap-2 hover:bg-brand-800 transition disabled:opacity-50"
-              >
-                <CloudLightning size={14} className={isSyncing ? 'animate-bounce' : ''} /> {t('push_to_cloud_btn')}
-              </button>
-              <button onClick={() => {
-                if (!settings.isPremium) {
-                  showToast(t('premium_sync_warning'), "warning");
-                  return;
-                }
-                handleSync('pull');
-              }} disabled={isSyncing}
-                className="flex-1 border border-slate-200 text-slate-700 rounded-xl py-2.5 text-sm font-bold flex items-center justify-center gap-2 hover:bg-slate-50 transition disabled:opacity-50"
-              >
-                <RefreshCw size={14} className={isSyncing ? 'animate-spin' : ''} /> {t('pull_from_cloud_btn')}
-              </button>
-            </div>
-            {syncStatus === 'success' && (
-              <div className="text-xs text-green-600 font-bold flex items-center gap-1 bg-green-50 rounded-xl px-3 py-2 border border-green-100">
-                <CheckCircle2 size={12} /> {t('sync_success')}
-              </div>
-            )}
-            {syncStatus === 'error' && (
-              <div className="text-xs text-red-600 font-bold flex items-center gap-1 bg-red-50 rounded-xl px-3 py-2 border border-red-100">
-                <AlertTriangle size={12} /> {t('sync_failed')}
-              </div>
-            )}
           </div>
         </div>
       ) : (

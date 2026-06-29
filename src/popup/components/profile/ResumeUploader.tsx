@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Upload } from 'lucide-react';
-import { GroqAIService } from '../../../shared/aiService';
+import { OpenRouterAIService } from '../../../shared/aiService';
 import { useStore } from '../../../shared/store';
 
 export function ResumeUploader({
@@ -189,8 +189,8 @@ export function ResumeUploader({
           
           setUploadStatus('Structuring with AI...');
           
-          const apiKey = settings?.groqApiKey || import.meta.env.VITE_GROQ_API_KEY || '';
-          const parsedProfile = await GroqAIService.parseResume(
+          const apiKey = settings?.geminiApiKey || import.meta.env.VITE_OPENROUTER_API_KEY || import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_GROQ_API_KEY || '';
+          const parsedProfile = await OpenRouterAIService.parseResume(
             text,
             apiKey,
             false
@@ -239,9 +239,11 @@ export function ResumeUploader({
             college: normalizedProfile.college,
             degree: normalizedProfile.degree,
             graduationYear: normalizedProfile.graduationYear,
+            cgpa: normalizedProfile.cgpa,
             skills: normalizedProfile.skills && normalizedProfile.skills.length > 0 ? normalizedProfile.skills : [],
             linkedinUrl: normalizedProfile.linkedinUrl,
             portfolioUrl: normalizedProfile.portfolioUrl,
+            githubUrl: normalizedProfile.githubUrl,
             projects: parsedProjects,
             workExperience: parsedWorkExp,
             resumeText: text

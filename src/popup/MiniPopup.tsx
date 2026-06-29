@@ -94,7 +94,11 @@ export default function MiniPopup() {
           window.close();
         }, 150);
       } else {
-        console.warn('[ApplyFlow Popup] No tab ID found to open side panel.');
+        console.log('[ApplyFlow Popup] No web tab ID found to open side panel. Falling back to options.');
+        chrome.tabs.create({ url: chrome.runtime.getURL('options.html') });
+        setTimeout(() => {
+          window.close();
+        }, 150);
       }
     });
   };
@@ -121,7 +125,7 @@ export default function MiniPopup() {
 
     getActiveWebTab((tab) => {
       if (!tab) {
-        console.warn('[ApplyFlow Popup] No active web tab found for autofill.');
+        console.log('[ApplyFlow Popup] No active web tab found for autofill.');
         setIsAutofilling(false);
         return;
       }

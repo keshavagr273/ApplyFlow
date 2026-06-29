@@ -7,10 +7,10 @@ import { useStore } from '../../shared/store';
 import { t } from '../../shared/i18n';
 
 const PLATFORM_COLORS: Record<string, string> = {
-  linkedin: '#0077b5', internshala: '#00aaff', unstop: '#f59e0b',
+  internshala: '#00aaff', unstop: '#f59e0b',
   workday: '#f59e0b', greenhouse: '#10b981', lever: '#4a6cf7',
   smartrecruiters: '#aa3bff', naukri: '#ef4444', indeed: '#003A9B',
-  company_site: '#64748b',
+  company_site: '#64748b', linkedin: '#0077b5',
 };
 
 const STATUS_COLORS: Record<string, string> = {

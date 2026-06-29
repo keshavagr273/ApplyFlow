@@ -1,13 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useStore } from '../../shared/store';
 import { Screen } from '../../shared/types';
-import { GroqAIService } from '../../shared/aiService';
+import { OpenRouterAIService } from '../../shared/aiService';
 import { Storage } from '../../shared/storage';
 import { Sparkles, Compass, Check, AlertTriangle, Mail, HelpCircle, Briefcase } from 'lucide-react';
 import { t } from '../../shared/i18n';
 
 const PLATFORM_STYLES: Record<string, { label: string; color: string; bg: string; emoji: string }> = {
-  linkedin:        { label: 'LinkedIn',        color: '#0077b5', bg: '#0077b515', emoji: '💼' },
   internshala:     { label: 'Internshala',     color: '#00aaff', bg: '#00aaff15', emoji: '🎓' },
   unstop:          { label: 'Unstop',          color: '#f59e0b', bg: '#f59e0b15', emoji: '🏆' },
   workday:         { label: 'Workday',         color: '#f59e0b', bg: '#f59e0b15', emoji: '🏢' },
@@ -19,6 +18,7 @@ const PLATFORM_STYLES: Record<string, { label: string; color: string; bg: string
   indeed:          { label: 'Indeed',          color: '#003A9B', bg: '#003A9B15', emoji: '🔍' },
   bamboohr:        { label: 'BambooHR',        color: '#7db93d', bg: '#7db93d15', emoji: '🎋' },
   angellist:       { label: 'AngelList',       color: '#000000', bg: '#ffffff15', emoji: '😇' },
+  linkedin:        { label: 'LinkedIn',        color: '#0077b5', bg: '#0077b515', emoji: '💼' },
 };
 
 const STATUS_COLORS: Record<string, string> = {
@@ -38,6 +38,7 @@ interface DashboardProps {
 export default function Dashboard({ onNavigate }: DashboardProps) {
   const { profile, applications, settings, tabContext, addApplication, showToast } = useStore();
   const [analysis, setAnalysis] = useState<{ matchScore: number; strongSkills: string[]; missingSkills: string[] } | null>(null);
+  const [analysisError, setAnalysisError] = useState<string | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [isFilling, setIsFilling] = useState(false);
 
@@ -60,33 +61,101 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
 
   // Auto-analyze when job page is detected
   useEffect(() => {
-    if (!tabContext?.isJobPage || !tabContext.jobDescription || !profile) return;
-    setIsAnalyzing(true);
-    setAnalysis(null);
+    if (!tabContext?.isJobPage || !profile) return;
 
-    chrome.storage.local.set({
-      lastScanned: {
-        company: tabContext.company,
-        role: tabContext.role,
-        jobDescription: tabContext.jobDescription,
-        url: tabContext.url,
-        platform: tabContext.platform,
+    chrome.storage.local.get('lastScanned').then((r: any) => {
+      const ls = r.lastScanned as any;
+      let isSameJob = false;
+      try {
+        if (ls && ls.url && tabContext.url) {
+          const lsUrl = new URL(ls.url);
+          const currentUrl = new URL(tabContext.url);
+          // Same host is considered same job session context on Workday/ATS sites
+          if (lsUrl.host === currentUrl.host) {
+            isSameJob = true;
+          }
+        }
+      } catch (e) {
+        isSameJob = ls && ls.url === tabContext.url;
       }
-    });
 
-    GroqAIService.analyzeJobDescription(
-      profile.resumeText || '',
-      tabContext.jobDescription,
-      settings?.geminiApiKey || '',
-      settings?.demoMode ?? true
-    ).then(res => {
-      setAnalysis(res);
-    }).catch(() => {}).finally(() => setIsAnalyzing(false));
+      if (isSameJob && ls && ls.analysis) {
+        setAnalysis(ls.analysis);
+        setIsAnalyzing(false);
+        return;
+      }
+
+      // If we don't have a cached analysis and no description to analyze, stop
+      if (!tabContext.jobDescription) {
+        setIsAnalyzing(false);
+        return;
+      }
+
+      setIsAnalyzing(true);
+      setAnalysis(null);
+      setAnalysisError(null);
+
+      OpenRouterAIService.analyzeJobDescription(
+        profile.resumeText || '',
+        tabContext.jobDescription,
+        settings?.geminiApiKey || '',
+        settings?.demoMode ?? true
+      ).then(res => {
+        setAnalysis(res);
+        setAnalysisError(null);
+        // Cache this analysis under lastScanned
+        chrome.storage.local.set({
+          lastScanned: {
+            company: tabContext.company,
+            role: tabContext.role,
+            jobDescription: tabContext.jobDescription,
+            url: tabContext.url,
+            platform: tabContext.platform,
+            analysis: res
+          }
+        });
+      }).catch((err) => {
+        setAnalysisError(err?.message || 'Analysis failed');
+      }).finally(() => setIsAnalyzing(false));
+    });
   }, [tabContext?.url, profile?.resumeText]);
 
   const handleAutofill = useCallback(async () => {
     if (!profile) return;
     setIsFilling(true);
+
+    // Verify there are actually fields to fill on the active page
+    let hasFields = false;
+    try {
+      const tabs = await new Promise<chrome.tabs.Tab[]>((resolve) => {
+        chrome.tabs.query({ active: true, currentWindow: true }, resolve);
+      });
+      const tab = tabs[0];
+      if (tab?.id) {
+        const results = await chrome.scripting.executeScript({
+          target: { tabId: tab.id },
+          func: () => {
+            const inputs = document.querySelectorAll(
+              'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="file"]), textarea, select'
+            );
+            if (inputs.length > 0) return true;
+            const iframes = document.querySelectorAll('iframe');
+            return iframes.length > 0;
+          }
+        });
+        hasFields = !!results?.[0]?.result;
+      }
+    } catch (err) {
+      console.warn('[ApplyFlow] Failed to verify fields on active page:', err);
+      // Fallback to true if scripting fails for whatever reason (e.g. security pages)
+      hasFields = true;
+    }
+
+    if (!hasFields) {
+      showToast("No input fields found on this page to autofill.", 'warning');
+      setIsFilling(false);
+      return;
+    }
 
     await Storage.incrementDailyUsage();
 
@@ -142,13 +211,20 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                 style={{ background: platformStyle.bg, borderBottom: `1px solid ${platformStyle.color}25` }}
               >
                 <span className="text-lg">{platformStyle.emoji}</span>
-                <div>
+                <div className="min-w-0 flex-1">
                   <div className="text-[10px] font-bold uppercase tracking-widest" style={{ color: platformStyle.color }}>
                     {platformStyle.label}
                   </div>
                   {tabContext.role && (
-                    <div className="text-sm font-semibold text-white truncate max-w-[280px]">
-                      {tabContext.role}{tabContext.company ? ` · ${tabContext.company}` : ''}
+                    <div className="text-sm font-semibold text-white truncate w-full">
+                      {(() => {
+                        const r = tabContext.role;
+                        const c = tabContext.company;
+                        const isUrl = (str: string) => str.includes('/') || str.includes('.com') || str.length > 50;
+                        const roleText = isUrl(r) ? 'Job position' : r;
+                        const compText = c && !isUrl(c) ? c : '';
+                        return `${roleText}${compText ? ` · ${compText}` : ''}`;
+                      })()}
                     </div>
                   )}
                 </div>
@@ -165,30 +241,49 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                     <div className="h-2.5 bg-white/5 rounded w-32 animate-pulse" />
                   </div>
                 </div>
-              ) : analysis ? (
+              ) : (
                 <div className="flex items-center justify-between gap-3">
-                  {/* Compact Match Score Badge */}
-                  <div className="flex items-center gap-2.5">
-                    <div className="relative w-10 h-10 shrink-0">
-                      <svg className="w-10 h-10 -rotate-90" viewBox="0 0 36 36">
-                        <path className="text-white/5" stroke="currentColor" strokeWidth="3.5" fill="none"
-                          d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <path
-                          stroke="#4a6cf7" strokeWidth="3.5" fill="none" strokeLinecap="round"
-                          strokeDasharray={`${analysis.matchScore} 100`}
-                          d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                          style={{ transition: 'stroke-dasharray 1s ease' }}
-                        />
-                      </svg>
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-[10px] font-black text-white">{analysis.matchScore}%</span>
+                  {/* Compact Match Score Badge or Error Badge */}
+                  {analysis ? (
+                    <div className="flex items-center gap-2.5">
+                      <div className="relative w-10 h-10 shrink-0">
+                        <svg className="w-10 h-10 -rotate-90" viewBox="0 0 36 36">
+                          <path className="text-white/5" stroke="currentColor" strokeWidth="3.5" fill="none"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                          <path
+                            stroke="#4a6cf7" strokeWidth="3.5" fill="none" strokeLinecap="round"
+                            strokeDasharray={`${analysis.matchScore} 100`}
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                            style={{ transition: 'stroke-dasharray 1s ease' }}
+                          />
+                        </svg>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <span className="text-[10px] font-black text-white">{analysis.matchScore}%</span>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-[9px] font-bold text-gray-500 uppercase tracking-wider leading-none">{t('match_score')}</div>
+                        <div className="text-xs font-black text-white leading-normal mt-1">{t('fit_percent', String(analysis.matchScore))}</div>
                       </div>
                     </div>
-                    <div>
-                      <div className="text-[9px] font-bold text-gray-500 uppercase tracking-wider leading-none">{t('match_score')}</div>
-                      <div className="text-xs font-black text-white leading-normal mt-1">{t('fit_percent', String(analysis.matchScore))}</div>
+                  ) : (
+                    <div className="flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-full bg-red-500/10 border border-red-500/30 flex items-center justify-center">
+                        <AlertTriangle size={14} className="text-red-400" />
+                      </div>
+                      <div>
+                        <div className="text-[9px] font-bold text-gray-500 uppercase tracking-wider leading-none">
+                          {!tabContext?.jobDescription ? 'Scan Failed' : 'Analysis Failed'}
+                        </div>
+                        <div className="text-[10px] font-bold text-red-400 mt-1 max-w-[120px] truncate" title={analysisError || 'No job details found'}>
+                          {!tabContext?.jobDescription 
+                            ? 'No job details found' 
+                            : (analysisError?.includes('Insufficient') ? 'No Credits Left' : (analysisError || 'Check API Key'))
+                          }
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Compact Autofill Button */}
                   <button
@@ -200,7 +295,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
                     <span>{isFilling ? t('filling') : t('autofill')}</span>
                   </button>
                 </div>
-              ) : null}
+              )}
 
               {/* Compact Skills Display */}
               {analysis && (
@@ -255,7 +350,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
               </div>
             </div>
             <div className="flex flex-wrap justify-center gap-1.5">
-              {['LinkedIn', 'Workday', 'Greenhouse', 'Lever', 'Internshala'].map(p => (
+              {['Workday', 'Greenhouse', 'Lever', 'Internshala', 'LinkedIn'].map(p => (
                 <span key={p} className="chip-muted">{p}</span>
               ))}
             </div>

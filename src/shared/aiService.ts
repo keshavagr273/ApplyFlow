@@ -1,16 +1,16 @@
 import { UserProfile, JobAnalysis, InterviewQuestion } from './types';
 import { Storage } from './storage';
 
-export const GroqAIService = {
+export const OpenRouterAIService = {
   /**
-   * Helper to make direct requests to the Gemini API
+   * Helper to make direct requests to the OpenRouter API
    */
-  async _callGroq(prompt: string, apiKey: string, jsonMode = false): Promise<any> {
+  async _callOpenRouter(prompt: string, apiKey: string, jsonMode = false): Promise<any> {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 seconds timeout
 
     try {
-      const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         signal: controller.signal,
         headers: {
@@ -18,7 +18,7 @@ export const GroqAIService = {
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "llama-3.3-70b-versatile",
+          model: "google/gemini-2.5-flash",
           max_tokens: 6000,
           messages: [
             {
@@ -38,14 +38,14 @@ export const GroqAIService = {
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Groq API Error (${response.status}): ${errorText}`);
+        throw new Error(`OpenRouter API Error (${response.status}): ${errorText}`);
       }
 
       const result = await response.json();
       const responseText = result.choices?.[0]?.message?.content;
       
       if (!responseText) {
-        throw new Error("Empty response from Groq");
+        throw new Error("Empty response from OpenRouter");
       }
       
       // SECURITY: Never log full AI responses in production (may contain PII)
@@ -90,10 +90,10 @@ export const GroqAIService = {
       return responseText.trim();
     } catch (error: any) {
       if (error && typeof error === "object" && "name" in error && (error as Error).name === "AbortError") {
-        console.error("Groq API call timed out");
-        throw new Error("Groq API Error: Request timed out", { cause: error });
+        console.error("OpenRouter API call timed out");
+        throw new Error("OpenRouter API Error: Request timed out", { cause: error });
       }
-      console.error("Groq API call failed:", error);
+      console.error("OpenRouter API call failed:", error);
       throw error;
     } finally {
       clearTimeout(timeoutId);
@@ -188,9 +188,11 @@ Parse the resume into the following JSON schema. Return ONLY valid JSON with no 
   "college": "College / University Name",
   "degree": "Degree / Field of Study",
   "graduationYear": "Year of Graduation as a string",
+  "cgpa": "CGPA or Percentage if found, else empty string",
   "skills": ["Skill1", "Skill2"],
   "linkedinUrl": "Full LinkedIn URL if found, else empty string",
-  "portfolioUrl": "Full GitHub/Portfolio URL if found, else empty string",
+  "portfolioUrl": "Full Portfolio URL if found, else empty string",
+  "githubUrl": "Full GitHub URL if found, else empty string",
   "resumeLink": "",
   "projects": [
     {
@@ -215,7 +217,7 @@ RESUME TEXT:
 ${pdfText}
     `;
 
-    const parsed = await this._callGroq(prompt, apiKey, true);
+    const parsed = await this._callOpenRouter(prompt, apiKey, true);
     parsed.resumeText = pdfText; // Save raw text for context
     return parsed;
   },
@@ -317,7 +319,7 @@ ${pdfText}
       ]
     `;
 
-    return await this._callGroq(prompt, apiKey, true);
+    return await this._callOpenRouter(prompt, apiKey, true);
   },
 
   /**
@@ -360,7 +362,7 @@ ${pdfText}
       }
     `;
 
-    return await this._callGroq(prompt, apiKey, true);
+    return await this._callOpenRouter(prompt, apiKey, true);
   },
 
   /**
@@ -410,7 +412,7 @@ ${pdfText}
       "${question}"
     `;
 
-    return await this._callGroq(prompt, apiKey, false);
+    return await this._callOpenRouter(prompt, apiKey, false);
   },
 
   /**
@@ -469,7 +471,7 @@ ${profile.name || 'Rahul Sharma'}`;
       ${jobDescription.substring(0, 2000)}
     `;
 
-    return await this._callGroq(prompt, apiKey, false);
+    return await this._callOpenRouter(prompt, apiKey, false);
   },
 
   /**
@@ -521,7 +523,7 @@ ${profile.name || 'Rahul Sharma'}`;
       }
     `;
 
-    return await this._callGroq(prompt, apiKey, true);
+    return await this._callOpenRouter(prompt, apiKey, true);
   },
 
   /**
@@ -582,7 +584,7 @@ ${profile.name || 'Rahul Sharma'}`;
       ]
     `;
 
-    return await this._callGroq(prompt, apiKey, true);
+    return await this._callOpenRouter(prompt, apiKey, true);
   },
 
   /**
@@ -612,11 +614,14 @@ ${jobDescription ? `Job Description Context:\n${jobDescription.substring(0, 1500
 User Message: ${userMessage}
 
 Instructions:
-1. Answer the user's question directly, concisely, and specifically.
-2. Keep the response brief (maximum 120 words). Do not include verbose introductions (e.g., "Hi Keshav, I'd be happy to help...") or generic career advice summaries unless explicitly asked.
-3. Respond in plain text with line breaks. Do NOT use JSON.
+1. You are ApplyFlow AI, a specialized career coaching assistant.
+2. YOU MUST POLITELY REFUSE TO ANSWER any questions that are not strictly related to career advice, job applications, resumes, interviews, or professional development.
+3. UNDER NO CIRCUMSTANCES should you write code, solve programming problems, or answer general knowledge questions. If asked for code (e.g. Java, Python, HTML), respond that you are a career assistant and cannot write code.
+4. Answer the user's career-related question directly, concisely, and specifically.
+5. Keep the response brief (maximum 120 words). Do not include verbose introductions (e.g., "Hi Keshav, I'd be happy to help...") or generic career advice summaries unless explicitly asked.
+6. Respond in plain text with line breaks. Do NOT use JSON.
 `;
-    return await this._callGroq(prompt, apiKey, false);
+    return await this._callOpenRouter(prompt, apiKey, false);
   }
 };
 

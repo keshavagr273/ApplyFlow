@@ -41,8 +41,6 @@ export interface AppState {
   updateApplication: (id: string, updates: Partial<Application>) => Promise<void>;
   deleteApplication: (id: string) => Promise<void>;
   updateSettings: (updates: Partial<AIServiceSettings>) => Promise<void>;
-  syncToCloud: () => Promise<boolean>;
-  syncFromCloud: () => Promise<boolean>;
   addResumeToHistory: (filename: string, profileData: Partial<UserProfile>, resumeText: string) => Promise<void>;
   deleteResumeFromHistory: (id: string) => Promise<void>;
 
@@ -69,6 +67,9 @@ export const useStore = create<AppState>((set, get) => ({
 
   // ── Data Loading ───────────────────────────────────────────────────────────
   loadData: async () => {
+    // Attempt an auto-sync pull first if applicable
+    await Storage.syncAllFromCloud();
+
     const [profile, applications, settings, billing, resumeHistory] = await Promise.all([
       Storage.getProfile(),
       Storage.getApplications(),
@@ -99,77 +100,49 @@ export const useStore = create<AppState>((set, get) => ({
   },
 
   addApplication: async (app) => {
-    if (app.status === 'applied') {
-      const existing = get().applications.find(a => a.url === app.url && a.status === 'applied');
-      if (existing) {
-        console.log('Duplicate application detected in store, skipping.');
-        return;
-      }
-    }
-    // Optimistic update: add to state immediately to prevent concurrent calls from bypassing check
-    set(state => ({ applications: [app, ...state.applications] }));
-    try {
-      await Storage.addApplication(app);
-    } catch (err) {
-      console.error('[ApplyFlow Store] Failed to save application, rolling back:', err);
-      set(state => ({ applications: state.applications.filter(a => a.id !== app.id) }));
-    }
+    await Storage.addApplication(app);
+    const updatedApps = await Storage.getApplications();
+    set({ applications: updatedApps });
   },
 
   updateApplication: async (id, updates) => {
     await Storage.updateApplication(id, updates);
-    set(state => ({
-      applications: state.applications.map(a => a.id === id ? { ...a, ...updates } : a)
-    }));
-    if (updates.remindAt && updates.remindAt > Date.now()) {
-      chrome.runtime.sendMessage({
-        type: 'SET_REMINDER',
-        payload: { appId: id, remindAt: updates.remindAt }
-      }).catch(() => {});
-    }
+    const updatedApps = await Storage.getApplications();
+    set({ applications: updatedApps });
   },
 
   deleteApplication: async (id) => {
     await Storage.deleteApplication(id);
-    set(state => ({ applications: state.applications.filter(a => a.id !== id) }));
+    const updatedApps = await Storage.getApplications();
+    set({ applications: updatedApps });
   },
 
   // ── Settings ───────────────────────────────────────────────────────────────
   updateSettings: async (updates) => {
-    const current = get().settings || {
-      geminiApiKey: '', demoMode: true, enableOverlay: true,
-      autofillMode: 'ats-first' as const,
-      logOnlyAfterSubmission: false, showClipButton: true,
-      supabaseUrl: '', supabaseAnonKey: '', supabaseSyncEnabled: false,
-      isPremium: false, licenseKey: '', theme: 'light' as const
-    };
+    const current = get().settings || (await Storage.getSettings());
     const newSettings = { ...current, ...updates };
-    if (newSettings.userEmail === 'keshavagrawal273@gmail.com') {
-      newSettings.isPremium = true;
-    }
     newSettings.supabaseSyncEnabled = newSettings.isPremium ? !!newSettings.userEmail : false;
     await Storage.setSettings(newSettings);
-    const billing = await Storage.getUserBilling();
-    set({ settings: newSettings, billing });
-  },
-
-  // ── Cloud Sync ─────────────────────────────────────────────────────────────
-  syncToCloud: async () => await Storage.syncAllToCloud(),
-
-  syncFromCloud: async () => {
-    const data = await Storage.syncAllFromCloud();
-    if (data) {
-      set({ profile: data.profile, applications: data.applications });
-      return true;
+    
+    if (updates.userEmail) {
+      await Storage.syncAllFromCloud(true);
     }
-    return false;
+
+    const billing = await Storage.getUserBilling();
+    
+    // Refresh local store states after sync pull
+    const [profile, applications, resumeHistory] = await Promise.all([
+      Storage.getProfile(),
+      Storage.getApplications(),
+      Storage.getResumeHistory()
+    ]);
+    
+    set({ settings: newSettings, billing, profile, applications, resumeHistory });
   },
 
   // ── Chat Sessions ──────────────────────────────────────────────────────────
   loadChatSessions: async () => {
-    const res = await chrome.storage.local.get('chatSessions');
-    const sessions: ChatSession[] = (res as any).chatSessions || [];
-    // Keep only last 20 sessions to avoid bloat
+    const sessions = await Storage.getChatSessions();
     const trimmed = sessions.slice(0, 20);
     set({ chatSessions: trimmed, currentSessionId: trimmed[0]?.id ?? null });
   },
@@ -183,7 +156,7 @@ export const useStore = create<AppState>((set, get) => ({
       updatedAt: Date.now()
     };
     const sessions = [session, ...get().chatSessions].slice(0, 20);
-    chrome.storage.local.set({ chatSessions: sessions }).catch(() => {});
+    Storage.setChatSessions(sessions).catch(() => {});
     set({ chatSessions: sessions, currentSessionId: session.id });
     return session;
   },
@@ -193,13 +166,13 @@ export const useStore = create<AppState>((set, get) => ({
       if (s.id !== sessionId) return s;
       return { ...s, messages: [...s.messages, msg], updatedAt: Date.now() };
     });
-    await chrome.storage.local.set({ chatSessions: sessions });
+    await Storage.setChatSessions(sessions);
     set({ chatSessions: sessions });
   },
 
   clearChatSession: async (sessionId) => {
-    const sessions = get().chatSessions.filter(s => s.id !== sessionId);
-    await chrome.storage.local.set({ chatSessions: sessions });
+    await Storage.deleteChatSession(sessionId);
+    const sessions = await Storage.getChatSessions();
     set({ chatSessions: sessions, currentSessionId: sessions[0]?.id ?? null });
   },
 

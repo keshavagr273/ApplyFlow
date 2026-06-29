@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useStore } from '../../shared/store';
 import { ChatMessage, ChatMessageType } from '../../shared/types';
-import { GroqAIService } from '../../shared/aiService';
+import { OpenRouterAIService } from '../../shared/aiService';
 import PremiumGate from '../components/common/PremiumGate';
 import { Bot, AlertTriangle } from 'lucide-react';
 import { t } from '../../shared/i18n';
@@ -137,8 +137,20 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
       case 'error':
         return <p className="text-sm text-red-400">{msg.content}</p>;
 
-      default:
-        return <p className="text-sm text-gray-300 leading-relaxed">{msg.content}</p>;
+      default: {
+        // Simple parser to render **bold** text in messages
+        const parts = msg.content.split(/(\*\*.*?\*\*)/g);
+        return (
+          <p className="text-sm text-gray-300 leading-relaxed">
+            {parts.map((part, i) => {
+              if (part.startsWith('**') && part.endsWith('**')) {
+                return <strong key={i} className="text-white font-bold">{part.slice(2, -2)}</strong>;
+              }
+              return <span key={i}>{part}</span>;
+            })}
+          </p>
+        );
+      }
     }
   };
 
@@ -270,28 +282,28 @@ export default function AIAssistant() {
       const isDemo = settings?.demoMode ?? true;
 
       if (prompt.includes('cover letter') && jd) {
-        const cl = await GroqAIService.generateCoverLetter(company, role, profile, jd, apiKey, isDemo);
-        await addAiMsg('cover_letter', t('ai_analysis_cover_letter_intro'), { text: cl });
+        const letter = await OpenRouterAIService.generateCoverLetter(company, role, profile, jd, apiKey, isDemo);
+        await addAiMsg('cover_letter', t('ai_analysis_cover_letter_intro'), { text: letter });
 
       } else if ((prompt.includes('analyze') || prompt.includes('match score')) && jd) {
-        const res = await GroqAIService.analyzeJobDescription(profile.resumeText || '', jd, apiKey, isDemo);
+        const res = await OpenRouterAIService.analyzeJobDescription(profile.resumeText || '', jd, apiKey, isDemo);
         await addAiMsg('job_analysis', t('ai_analysis_compatible', String(res.matchScore)), res);
 
       } else if (prompt.includes('interview') && jd) {
-        const prep = await GroqAIService.generateInterviewPrep(jd || 'General Software Engineering', apiKey, isDemo);
-        await addAiMsg('interview_prep', t('ai_analysis_questions_intro', String(prep.length)), { questions: prep });
+        const questions = await OpenRouterAIService.generateInterviewPrep(jd || 'General Software Engineering', apiKey, isDemo);
+        await addAiMsg('interview_prep', t('ai_analysis_questions_intro', String(questions.length)), { questions: questions });
 
       } else if ((prompt.includes('resume') || prompt.includes('optimize') || prompt.includes('tailor')) && jd) {
-        const res = await GroqAIService.optimizeResume(profile, jd, apiKey, isDemo);
+        const res = await OpenRouterAIService.optimizeResume(profile, jd, apiKey, isDemo);
         await addAiMsg('resume_score', t('ai_analysis_resume_score_intro', String(res.score)), res);
 
       } else if ((prompt.includes('answers') || prompt.includes('application questions')) && jd) {
-        const answer = await GroqAIService.generateAnswer(prompt, profile, jd, apiKey, isDemo);
+        const answer = await OpenRouterAIService.generateAnswer(prompt, profile, jd, apiKey, isDemo);
         await addAiMsg('text', answer);
 
       } else {
         // Generic answer (used when no job context is present, e.g. general questions typed by user)
-        const answer = await GroqAIService.generateAnswer(prompt, profile, jd, apiKey, isDemo);
+        const answer = await OpenRouterAIService.generateAnswer(prompt, profile, jd, apiKey, isDemo);
         await addAiMsg('text', answer);
       }
     } catch (err: any) {
@@ -339,12 +351,19 @@ export default function AIAssistant() {
         <div>
           <h1 className="text-base font-bold text-white flex items-center gap-2">
             <Bot size={18} className="text-brand-400" /> {t('ai_copilot_title')}
-            <span className="text-[9px] font-bold bg-brand-600/30 text-brand-400 border border-brand-500/30 px-2 py-0.5 rounded-full uppercase tracking-wider">
-              Llama 3.3
+            <span className="text-[9px] font-bold bg-brand-600/30 text-brand-400 border border-brand-500/30 px-2 py-0.5 rounded-full uppercase tracking-wider whitespace-nowrap shrink-0">
+              Gemini 2.5 Flash
             </span>
           </h1>
           <p className="text-xs text-gray-500 mt-0.5">
-            {tabContext?.isJobPage ? t('context_label', tabContext.company || tabContext.role || 'Job page') : t('general_copilot_subtitle')}
+            {tabContext?.isJobPage 
+              ? (() => {
+                  const label = tabContext.company || tabContext.role || 'Job page';
+                  // Hide long ugly URLs from the context label
+                  if (label.includes('/') || label.includes('.com') || label.length > 40) return t('context_label', 'Job page');
+                  return t('context_label', label);
+                })()
+              : t('general_copilot_subtitle')}
           </p>
         </div>
         <button onClick={handleClearSession} className="text-[10px] text-gray-600 hover:text-gray-400 transition-colors font-medium">

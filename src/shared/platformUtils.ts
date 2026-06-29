@@ -70,12 +70,13 @@ export function isJobPage(url: string): boolean {
 
 export function getPlatformDisplayName(platform: string): string {
   const names: Record<string, string> = {
-    linkedin: 'LinkedIn', internshala: 'Internshala', unstop: 'Unstop',
+    internshala: 'Internshala', unstop: 'Unstop',
     naukri: 'Naukri', indeed: 'Indeed', angellist: 'AngelList', wellfound: 'Wellfound',
     workday: 'Workday', greenhouse: 'Greenhouse', lever: 'Lever',
     smartrecruiters: 'SmartRecruiters', icims: 'iCIMS',
     bamboohr: 'BambooHR', jobvite: 'Jobvite', taleo: 'Taleo',
     company_site: 'Company Site', other: 'Website',
+    linkedin: 'LinkedIn',
   };
   return names[platform] || platform;
 }

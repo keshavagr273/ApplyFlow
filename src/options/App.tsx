@@ -86,12 +86,10 @@ const NAV_ITEMS = (isPremium?: boolean): Array<{ id: Tab; label: string; icon: R
 // ─── Main Options App ─────────────────────────────────────────────────────────
 
 export default function App() {
-  const { settings, loadData, updateSettings, syncToCloud, syncFromCloud, showToast } = useStore();
+  const { settings, loadData, updateSettings, showToast } = useStore();
   const [activeTab, setActiveTab] = useState<Tab>('home');
   const [usage, setUsage] = useState<UsageStats>({ dailyFillsUsed: 0, dailyFillsLimit: 999999, totalFills: 0, lastUsedTimestamp: 0, creditsUsed: 0, creditsAllocated: 0, creditsPurchased: 0 });
   const [isLoggingIn, setIsLoggingIn] = useState(false);
-  const [isSyncing, setIsSyncing] = useState(false);
-  const [syncStatus, setSyncStatus] = useState<null | 'success' | 'error'>(null);
 
   const [licenseInput, setLicenseInput] = useState('');
   const [isActivating, setIsActivating] = useState(false);
@@ -129,7 +127,7 @@ export default function App() {
         if (res.ok) {
           const user = await res.json();
           await updateSettings({ userEmail: user.email, userDisplayName: user.name, userAvatar: user.picture });
-          await syncFromCloud();
+          // Note: syncAllFromCloud is automatically handled during loadData now
         }
       } catch (err) {
         console.error(err);
@@ -143,18 +141,6 @@ export default function App() {
     chrome.identity.clearAllCachedAuthTokens(async () => {
       await updateSettings({ userEmail: undefined, userDisplayName: undefined, userAvatar: undefined });
     });
-  };
-
-  const handleSync = async (dir: 'push' | 'pull') => {
-    setIsSyncing(true);
-    setSyncStatus(null);
-    try {
-      const success = dir === 'push' ? await syncToCloud() : await syncFromCloud();
-      setSyncStatus(success ? 'success' : 'error');
-    } finally {
-      setIsSyncing(false);
-      setTimeout(() => setSyncStatus(null), 3000);
-    }
   };
 
   const handleExport = () => {
@@ -339,9 +325,6 @@ export default function App() {
                 handleGoogleLogin={handleGoogleLogin}
                 handleGoogleLogout={handleGoogleLogout}
                 isLoggingIn={isLoggingIn}
-                isSyncing={isSyncing}
-                syncStatus={syncStatus}
-                handleSync={handleSync}
               />
               <DangerZone handleExport={handleExport} handleClearAll={handleClearAll} />
             </>

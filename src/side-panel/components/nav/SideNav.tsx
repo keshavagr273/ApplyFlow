@@ -25,7 +25,7 @@ interface SideNavProps {
 }
 
 export default function SideNav({ active, onChange }: SideNavProps) {
-  const { settings, updateSettings } = useStore();
+  const { settings, billing } = useStore();
   const activeIndex = NAV_ITEMS.findIndex(item => item.id === active);
 
   return (
@@ -66,7 +66,17 @@ export default function SideNav({ active, onChange }: SideNavProps) {
       <div className="flex-1" />
 
       {/* Settings & Premium Section */}
-      <div className="flex flex-col gap-2 w-full items-center shrink-0">
+      <div className="flex flex-col gap-3 w-full items-center shrink-0">
+        {/* Remaining Credits */}
+        {billing && (
+          <div className="flex flex-col items-center gap-0.5" title={`${(billing.creditsAllocated + billing.creditsPurchased) - billing.creditsUsed} credits left`}>
+            <span className="text-[10px] font-black text-brand-600 bg-brand-50 border border-brand-100 px-2 py-0.5 rounded-full select-none leading-none">
+              {Math.max(0, (billing.creditsAllocated + billing.creditsPurchased) - billing.creditsUsed)}
+            </span>
+            <span className="text-[8px] font-bold text-slate-400 uppercase tracking-wider leading-none">Credits</span>
+          </div>
+        )}
+
         {/* Premium Upgrade Button */}
         {!settings?.isPremium && (
           <button
