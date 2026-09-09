@@ -16,7 +16,7 @@ import AuthGate from './components/common/AuthGate.tsx';
 
 export default function SidePanelApp() {
   const [activeScreen, setActiveScreen] = useState<Screen>('dashboard');
-  const { loadData, loadChatSessions, setTabContext, showToast, settings, updateSettings, syncFromCloud } = useStore();
+  const { loadData, loadChatSessions, setTabContext, showToast, settings, updateSettings } = useStore();
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // ── Google Authentication Handlers ─────────────────────────────────────────
@@ -36,7 +36,7 @@ export default function SidePanelApp() {
             userDisplayName: user.name,
             userAvatar: user.picture
           });
-          await syncFromCloud();
+          await loadData();
           showToast(t('welcome_back_msg', user.name), 'success');
         }
       } catch (err) {
@@ -59,7 +59,7 @@ export default function SidePanelApp() {
         await performUserFetch(actualToken);
       });
     } else if (typeof chrome !== 'undefined' && chrome.identity && chrome.identity.launchWebAuthFlow) {
-      const clientId = "106618788934-7jo01eofmkp9pe73selaanlko4r6ickl.apps.googleusercontent.com";
+      const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || (chrome.runtime?.getManifest?.() as any)?.oauth2?.client_id || "106618788934-7jo01eofmkp9pe73selaanlko4r6ickl.apps.googleusercontent.com";
       const redirectUri = chrome.identity.getRedirectURL();
       const authUrl = `https://accounts.google.com/o/oauth2/auth?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${encodeURIComponent('https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile')}`;
 
@@ -94,7 +94,7 @@ export default function SidePanelApp() {
       showToast(t('auth_not_supported'), 'error');
       setIsLoggingIn(false);
     }
-  }, [updateSettings, syncFromCloud, showToast]);
+  }, [updateSettings, loadData, showToast]);
 
   const handleGoogleLogout = useCallback(() => {
     if (!confirm(t('sign_out_confirm'))) return;

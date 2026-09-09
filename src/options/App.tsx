@@ -385,8 +385,9 @@ export default function App() {
                       </ul>
                     </div>
                     <a
-                      href="https://rzp.io/rzp/M5T00fWS"
+                      href={import.meta.env.VITE_RAZORPAY_MONTHLY_URL || "https://rzp.io/rzp/M5T00fWS"}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="w-full mt-6 bg-brand-50 hover:bg-brand-100 text-brand-600 border border-brand-200/60 rounded-xl py-2.5 text-center text-xs font-black uppercase transition-all shadow-sm"
                     >
                       {t('subscribe_monthly_btn')}
@@ -420,8 +421,9 @@ export default function App() {
                       </ul>
                     </div>
                     <a
-                      href="https://rzp.io/rzp/qBlT2WMQ"
+                      href={import.meta.env.VITE_RAZORPAY_QUARTERLY_URL || "https://rzp.io/rzp/qBlT2WMQ"}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="w-full mt-6 bg-brand-600 hover:bg-brand-700 text-white rounded-xl py-2.5 text-center text-xs font-black uppercase transition-all shadow-md"
                     >
                       {t('subscribe_quarterly_btn')}
@@ -455,8 +457,9 @@ export default function App() {
                       </ul>
                     </div>
                     <a
-                      href="https://rzp.io/rzp/mqV1UchN"
+                      href={import.meta.env.VITE_RAZORPAY_YEARLY_URL || "https://rzp.io/rzp/mqV1UchN"}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="w-full mt-6 bg-slate-900 hover:bg-slate-800 text-white rounded-xl py-2.5 text-center text-xs font-black uppercase transition-all shadow-sm"
                     >
                       {t('subscribe_yearly_btn')}
@@ -475,7 +478,7 @@ export default function App() {
                     </div>
                   </div>
                   <a
-                    href="https://ko-fi.com/keshav12oct"
+                    href={import.meta.env.VITE_KOFI_URL || "https://ko-fi.com/keshav12oct"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#FF5E5B] hover:bg-[#ff4844] text-white font-extrabold text-xs px-5 py-3 rounded-xl shadow-md transition-all shrink-0 flex items-center gap-1.5"

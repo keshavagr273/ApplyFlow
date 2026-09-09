@@ -10,7 +10,13 @@ export const OpenRouterAIService = {
     const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 seconds timeout
 
     try {
-      const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      const openRouterBase = import.meta.env.VITE_OPENROUTER_BASE_URL
+        ? import.meta.env.VITE_OPENROUTER_BASE_URL.replace(/\/$/, '')
+        : 'https://openrouter.ai/api/v1';
+      const openRouterUrl = `${openRouterBase}/chat/completions`;
+      const aiModel = import.meta.env.VITE_AI_MODEL || "google/gemini-2.5-flash";
+
+      const response = await fetch(openRouterUrl, {
         method: "POST",
         signal: controller.signal,
         headers: {
@@ -18,7 +24,7 @@ export const OpenRouterAIService = {
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "google/gemini-2.5-flash",
+          model: aiModel,
           max_tokens: 6000,
           messages: [
             {

@@ -952,7 +952,7 @@ function showUpgradeModal(platformName: string) {
   });
 
   content.querySelector('#af-kofi-btn')?.addEventListener('click', () => {
-    window.open('https://ko-fi.com/keshav12oct', '_blank');
+    window.open(import.meta.env.VITE_KOFI_URL || 'https://ko-fi.com/keshav12oct', '_blank');
   });
 
   content.querySelector('#af-close-modal-btn')?.addEventListener('click', () => {
